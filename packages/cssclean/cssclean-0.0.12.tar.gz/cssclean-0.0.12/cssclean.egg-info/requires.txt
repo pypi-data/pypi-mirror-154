@@ -1,0 +1,9 @@
+libsass
+tinycss2
+beautifulsoup4
+
+[all]
+libsass
+tinycss2
+beautifulsoup4
+pytest>=4.6.2
