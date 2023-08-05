@@ -1,0 +1,10 @@
+slipcover/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slipcover/__main__.py,sha256=6T0s7WKQGZ9fjbKG0q3IScglNjjxacqF1O6rJ4YA51U,5667
+slipcover/bytecode.py,sha256=o8L1eX3XqC5lmGFL52mCXJ3mSTQcG7VcOG3pUQEC2w4,19786
+slipcover/slipcover.py,sha256=T2Wi8cjXbHv5RGGXhQM_oBKIJLKBYkYXI3kYa1AuMj8,16891
+slipcover/tracker.cpython-310-darwin.so,sha256=ZsCA_CywRgBWkRU3XVl51vSM_1LHHEkBLl2MOegFv6U,201103
+slipcover-0.1.7.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+slipcover-0.1.7.dist-info/METADATA,sha256=lpp0eQz3UY8xjw0WX4BJdji-xFhUbiIrfwLDgqGwviE,8382
+slipcover-0.1.7.dist-info/WHEEL,sha256=9XDj7Vjma1Em7EfVqWTOzd0_uZPCc-8_b7863nS_SeI,116
+slipcover-0.1.7.dist-info/top_level.txt,sha256=5VXLPH9Pwp6leK8l70xKGMYUOtHuCaL-XVui6MGDwlY,10
+slipcover-0.1.7.dist-info/RECORD,,
