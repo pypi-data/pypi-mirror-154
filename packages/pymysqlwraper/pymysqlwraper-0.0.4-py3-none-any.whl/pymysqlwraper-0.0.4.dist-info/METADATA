@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pymysqlwraper
+Version: 0.0.4
+Summary: 对pymysql进行了简单的包装, 写了一个数据库记录基类, 有增删改查等基础操作, 建议使用前先看demo中的示例
+Author: lisn1998
+Author-email: 1782092652@qq.com
+Keywords: pymysql,pymysqlwraper
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: pymysql
+
