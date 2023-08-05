@@ -1,0 +1,16 @@
+masonite_audit/__init__.py,sha256=sccg35D80W5gkhz87Jl7c2zWi9kVxFbvO4-Oy91-AI8,71
+masonite_audit/masonite_audit.py,sha256=4PhCdrQU-nW48Leb2c-QV81o4zO_8jOmf27SUW5i7Jo,220
+masonite_audit/config/masonite_audit.py,sha256=YSoPne0CS0DE2f6GKPACRc0VKRmBNBgzzIVXMbSc1Ec,254
+masonite_audit/migrations/create_audit_logs_table.py,sha256=lEpuZj-BqHeH1C7QEe6-TIUgdMof0yb3Aqbl9SWtCLg,691
+masonite_audit/mixins/__init__.py,sha256=XsAp-Oo6yoDeHmA5cePoyjE8wkXlZ8CqVjEvjs0J1sM,55
+masonite_audit/mixins/audit.py,sha256=b95WgdRIZYDd8o0uBUpZKDwFfEWjnpy4NDDALw1kTxM,647
+masonite_audit/models/audit_log.py,sha256=8T_6sAkY26C1Rt85VP4VZYoXtTpu-WRCNqBXzBjgQTc,386
+masonite_audit/observer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+masonite_audit/observer/audit_observer.py,sha256=B5zVIsZtqXAMJCk6D13bg5al-VQs2PF8EqCMdCFh7OI,1820
+masonite_audit/providers/AuditProvider.py,sha256=kaCxVCoOKxSAiMan3etE1UBhSZh8cTq00rWJ8Acgpt8,658
+masonite_audit/providers/__init__.py,sha256=K-WvTsP8oPVddj2y4PvrNj2MjPn4yfwA6krm552svRo,62
+masonite_audit-0.0.3.dist-info/LICENSE,sha256=39WZfjhYzGLmjdWDK7oK4p7laY69b6v1zanG4atERIA,1074
+masonite_audit-0.0.3.dist-info/METADATA,sha256=4ISip_BIIeqvo6fmbXWILhy_uk1kt__bwRSHjeUUOX4,4130
+masonite_audit-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+masonite_audit-0.0.3.dist-info/top_level.txt,sha256=5HP6JnuOv_nwdaHgqSZx0PBzY6jZFMHK39rvntcBDtk,15
+masonite_audit-0.0.3.dist-info/RECORD,,
