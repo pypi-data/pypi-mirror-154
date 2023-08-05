@@ -1,0 +1,120 @@
+// TODO:
+// - Some rules are silent because we don't strictly need them, but that may be
+//   too rushed — maybe we do actually want to know about e.g. comments in the
+//   parse tree (and potentially put them into SQL comments)
+// - Need to resolve how to handle "inline pipelines"; there is a rule here but
+//   it's not used or tested. It's partly a language question — do those need to
+//   start with `from`? How do these work in the midst of an `aggregate`
+//   transform?
+
+WHITESPACE = _{ " " | "\t" }
+// Need to exclude # in strings (and maybe confirm whether this the syntax we want)
+COMMENT = _{ "#" ~ (!NEWLINE ~ ANY) * }
+
+query = { SOI ~ NEWLINE* ~ query_def ~ NEWLINE* ~ (( func_def | table | pipeline ) ~ ( NEWLINE+ | &EOI ))* ~ EOI }
+
+query_def = { WHITESPACE* ~ ("prql" ~ named_expr* ~ NEWLINE)? }
+
+func_def = { "func" ~ func_def_flags ~ ident ~ func_def_params ~ "=" ~ expr }
+
+// TODO: consider some syntax for these func "type" args; currently they're only
+// differentiated from params by their position
+func_def_flags = @{ ("transform" | "aggregation" | "window" | "")? }
+func_def_params = { ( named_term | ident )* }
+table = { "table" ~ ident ~ "=" ~ nested_pipeline }
+
+pipe = _{ NEWLINE | "|" }
+pipeline = { WHITESPACE* ~ func_curry ~ (pipe ~ func_curry)* }
+
+ident = @{ !operator ~ !keyword ~ (ASCII_ALPHA | "$") ~ (ASCII_ALPHANUMERIC | "." | "_" | "*" )* }
+keyword = _{ "prql" | "table" | "func" }
+
+// A central issue around the terms vs expr is that we want to be able to parse:
+//   [foo bar + 1, 2]
+// as:
+// - foo bar + 1
+//   - foo bar
+//     - foo
+//     - bar
+//   - +
+//   - 1
+// - 2
+// So this requires two non-silent rules:
+// - A notion of list item that contains anything, including operators (but
+//   not commas); e.g. `foo bar + 1`.
+// - A notion of expr that aggregates things between operators, e.g. foo bar.
+// So we call the list item `expr`, and the things between separators `terms`.
+//
+// We could have them be the same, but then we need logic in the parser to
+// account for where the list item is in this parse tree
+// - foo bar
+//   - foo
+//   - bar
+// - +
+// - 1
+// - 2
+
+// white space is required to prevent matching s"string"
+func_call = ${ ident ~ WHITESPACE+ ~ named_expr+ }
+func_curry = { ident ~ named_expr* }
+
+// For assigns, table aliases and named arguments
+named_expr_call = { (ident ~ ":")? ~ expr_call }
+named_expr = { (ident ~ ":")? ~ expr }
+named_term = { (ident ~ ":")? ~ term }
+
+// Expression that can contain a function call
+expr_call = _{ (func_call | expr) }
+
+expr = !{ expr_compare ~ (operator_logical ~ expr_compare)* }
+expr_compare = !{ expr_add ~ (operator_compare ~ expr_add)? }
+expr_add = !{ expr_mul ~ (operator_add ~ expr_mul)* }
+expr_mul = !{ term ~ (operator_mul ~ term)* }
+
+term = _{ ( s_string | f_string | ident | nested_expr | nested_pipeline | list | range | literal ) }
+literal = _{ interval | number | string_literal }
+list = { "[" ~ (NEWLINE* ~ named_expr_call ~ ("," ~ NEWLINE* ~ named_expr_call )* ~ ","?)? ~ NEWLINE* ~ "]" }
+nested_expr = _{ "(" ~ expr_call ~ ")" }
+nested_pipeline = { "(" ~ expr_call? ~ pipe ~ pipeline ~ NEWLINE* ~ ")" }
+
+// We haven't implemented escapes — I think we can mostly pass those through to
+// SQL, but there may be things we're missing.
+// https://pest.rs/book/examples/rust/literals.html
+
+// We need to have a non-silent rule which contains the quotes
+// — `string_literal` in this case — because of
+// https://github.com/pest-parser/pest/issues/583. Then when converting to AST,
+// we only keep the `string_inner` and discard the `string_literal` given it contains
+// the quotes.
+//
+// TODO: I'm still a bit unclear how preceeding and trailing spaces are working
+// -- it seems that inner spaces are included without an atomic operator (or
+// with `ANY`), but prceeding & trailing spaces require both `ANY` _and_ an
+// atomic operator. We have some rudimentary tests for these.
+
+quote = _{ "\"" | "'" }
+// PEEK refers to the opening quote; either `"` or `'`.
+string_inner = { ( !( PEEK ) ~ ANY )+ }
+string_literal = ${ PUSH(quote) ~ string_inner ~ POP }
+
+number = ${ ( ASCII_DIGIT )+ ~ ("." ~ ( ASCII_DIGIT )+)? }
+
+range = ${ range_edge ~ ".." ~ range_edge }
+// We need `literal` separate from `term_simple` for things like range edges,
+// which would infinitely recurse otherwise, since it'll keep trying to parse
+// the whole span, not just the part before `..`.
+range_edge = ${ literal? }
+
+operator = _{ operator_unary | operator_mul | operator_add | operator_compare | operator_logical }
+operator_unary = ${ "-" }
+operator_mul = ${ "*" | "/" | "%" }
+operator_add = ${ "+" | "-" }
+operator_compare = ${ "==" | "!=" | "=" | ">" | "<" | ">=" | "<=" }
+operator_logical = ${ ("and" | "or" | "not") ~ &WHITESPACE }
+
+s_string = ${ "s" ~ PUSH(quote) ~ ( interpolate_string | ( "{" ~ expr_call ~ "}" ))* ~ POP }
+f_string = ${ "f" ~ PUSH(quote) ~ ( interpolate_string | ( "{" ~ expr_call ~ "}" ))* ~ POP }
+interpolate_string = { ( !( PEEK | "{" ) ~ ANY )+ }
+
+interval_kind = { "microseconds" | "milliseconds" | "seconds" | "minutes" | "hours" | "days" | "weeks" | "months" | "years" }
+interval = ${ number ~ interval_kind }
