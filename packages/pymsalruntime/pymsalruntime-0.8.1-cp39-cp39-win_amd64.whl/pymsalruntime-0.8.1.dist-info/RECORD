@@ -1,0 +1,8 @@
+pymsalruntime/PyMsalRuntime.pyi,sha256=onUh_BDDnrFd0cj_bML2CqxTqoHzR8pb6gZ5Y95Z26Y,4081
+pymsalruntime/__init__.py,sha256=wpQYPhqRsieP5Ptwl8DULZ2gpTLSGk5nb-Q0BZJTm3I,259
+pymsalruntime/msalruntime.dll,sha256=MxYmDstqQFCFXgxoNqqJeUmBfnx5jQo6UVqKh0U5ums,2011552
+pymsalruntime/pymsalruntime.cp39-win_amd64.pyd,sha256=Qwb13hKQKi-o6gmtdb-OYfFyr4piig_wl1NK8l50IK8,151040
+pymsalruntime-0.8.1.dist-info/METADATA,sha256=TKON2aF3YL8rm1iyOQozyp_S7axdC5-IrsM5MbbW-jE,262
+pymsalruntime-0.8.1.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+pymsalruntime-0.8.1.dist-info/top_level.txt,sha256=5neLxVqAQu6DQpG5Y0GRhSXwlRXUZ2X94nw_RHfnUPg,14
+pymsalruntime-0.8.1.dist-info/RECORD,,
