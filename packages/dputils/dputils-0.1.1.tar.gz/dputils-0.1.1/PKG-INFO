@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dputils
+Version: 0.1.1
+Summary: This library is utility library from digipodium
+Author: AkulS1008
+Author-email: akulsingh0708@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: docx2txt (>=0.8,<0.9)
+Requires-Dist: fake-useragent (>=0.1.11,<0.2.0)
+Requires-Dist: fpdf2 (>=2.5.4,<3.0.0)
+Requires-Dist: pdfminer.six (>=20220524,<20220525)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
