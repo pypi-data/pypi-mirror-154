@@ -1,0 +1,2 @@
+[console_scripts]
+tread = main:console_main

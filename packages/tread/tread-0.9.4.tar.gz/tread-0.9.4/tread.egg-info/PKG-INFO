@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tread
+Version: 0.9.4
+Summary: A terminal feed reader.
+Home-page: https://github.com/spurll/tread
+Download-URL: https://github.com/spurll/tread/tarball/0.9.4
+Author: Gem Newman
+Author-email: spurll@gmail.com
+License: CC BY-SA 4.0
+Keywords: rss,feed,reader
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console :: Curses
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.md
