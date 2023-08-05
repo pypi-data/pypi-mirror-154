@@ -1,0 +1,10 @@
+aioca/__init__.py,sha256=CQlhLA4acSlHdsr5kmHWQW1FbvFvd06wPw3sIzvVUrY,2533
+aioca/_catools.py,sha256=0QPk7ToffO6UWl5uByA-S7jLAfgcSy-e3NtGs5HWUQs,36278
+aioca/_version_git.py,sha256=1_BlZO4vCvx-uqfVUdmco65iW1qs4ETDodioVOTzYIU,3756
+aioca/types.py,sha256=2Bf2uG1s0C9zBTXdGaD7urELKNgLlaKU-3dWu0Dtwh0,8396
+aioca/__pycache__/_version_git.cpython-37.pyc,sha256=nRObfc8E9tfzcO-zxfF0p_eqpYtEOiaHywcIWs0E4j8,3199
+aioca-1.4.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+aioca-1.4.dist-info/METADATA,sha256=dccUvtZLvSM64-kA2RO3bU_wT8WH4cEoUVtr8hZDeds,3367
+aioca-1.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+aioca-1.4.dist-info/top_level.txt,sha256=nLLSBzmtNtyPimw6K58uZdnpVtggo4Zg70Zwfl9omeQ,6
+aioca-1.4.dist-info/RECORD,,
