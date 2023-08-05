@@ -1,0 +1,13 @@
+networkx>2.4
+numpy
+lark-parser
+pandas
+grandiso>=2.0.0
+
+[neo4j]
+docker
+tamarind>=0.1.5
+py2neo
+
+[neuprint]
+neuprint-python
