@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rafproject
+Version: 0.1
+Summary: RAF Accelerates deep learning Frameworks
+Home-page: https://github.com/awslabs/raf
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: test

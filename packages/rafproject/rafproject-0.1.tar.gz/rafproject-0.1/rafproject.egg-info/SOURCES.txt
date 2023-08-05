@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+rafproject.egg-info/PKG-INFO
+rafproject.egg-info/SOURCES.txt
+rafproject.egg-info/dependency_links.txt
+rafproject.egg-info/not-zip-safe
+rafproject.egg-info/requires.txt
+rafproject.egg-info/top_level.txt
