@@ -1,0 +1,13 @@
+pymince/__init__.py,sha256=7XkPpNxab1iqPOFwopptbH1tzW3tS45lH8Sy4EC5P_8,44
+pymince/dictionary.py,sha256=T7WWq7jFOFB_NJ0DTH4hGw6EJ1xFuyV4-15cL7mTXrY,3021
+pymince/file.py,sha256=KgjrZFtZRInegtNG4nNFUaN6CeKzxVGhtFw4eOD_ihY,1523
+pymince/iterator.py,sha256=nTpDE-pzVJbt3VmmVaF3zlZBxove1X9gh-R4IdzLZi0,5370
+pymince/json.py,sha256=Tzh2QYxtecfJliU_0bKnfEw2lG9tttcAD8PykstqiFk,596
+pymince/logging.py,sha256=2pocDwxYJT9Kha982GSMNu8ULTU5nCM5KcgBYpWmNAc,547
+pymince/retry.py,sha256=oXH8CpIxctlTdxxXluYyQUU7ffvwtaHBh7rQbgI27gI,738
+pymince/std.py,sha256=pStL2oSgCVA8I8ZSwV3abrVOEeUr9f9baLPOvv4N8CY,763
+pymince/text.py,sha256=vVwBxNq5rcDgUsF_cjIUxgJmOiQVrey5Uxeze2KuO5M,1226
+pymince-1.0.4.dist-info/METADATA,sha256=UFK_AmbxUyf9w2peY4-7TIvtdCmVVzxV5El8Bx7Ou_0,7481
+pymince-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymince-1.0.4.dist-info/top_level.txt,sha256=6-pZL2-l3A5IB-X8OMfWndpYDxDY469pqnOVCltgkAQ,8
+pymince-1.0.4.dist-info/RECORD,,
