@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: Quart-Discord-any
+Version: 2.2.2b1
+Summary: Discord OAuth2 extension for Quart using modern Discord Libraries.
+Home-page: https://github.com/Memotic/Quart-Discord-any
+Author: Philip Dowie
+Author-email: philip@jnawk.nz
+Maintainer: William Hatcher
+Maintainer-email: william@memotic.net
+License: MIT
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Quart
+Requires-Dist: pyjwt
+Requires-Dist: oauthlib
+Requires-Dist: Async-OAuthlib
+Requires-Dist: cachetools
+Provides-Extra: discodpy
+Requires-Dist: discord.py ; extra == 'discodpy'
+Provides-Extra: docs
+Requires-Dist: sphinx (==1.8.3) ; extra == 'docs'
+Provides-Extra: nextcord
+Requires-Dist: nextcord (==2.0.0) ; extra == 'nextcord'
+Provides-Extra: pycord
+Requires-Dist: py-cord ; extra == 'pycord'
+
+# Quart-Discord
+[![PyPI](https://img.shields.io/pypi/v/Quart-Discord?style=for-the-badge)](https://pypi.org/project/Quart-Discord/) [![Read the Docs](https://img.shields.io/readthedocs/quart-discord?style=for-the-badge)](https://quart-discord.readthedocs.io/en/latest/) 
+
+Discord OAuth2 extension for Quart using py-cord, nextcord, or the deprecated discord.py.
+
+
+### Installation
+To install current latest release use one of the following commands:
+
+For py-cord: (My recommendation)
+```sh
+python3 -m pip install Quart-Discord-any[pycord]
+```
+
+For nextcord:
+```sh
+python3 -m pip install Quart-Discord-any[nextcord]
+```
+
+For the deprecated discord.py:
+```sh
+python3 -m pip install Quart-Discord-any[discordpy]
+```
+
+# You _MUST_ install one of the extras!
+
+
+### Basic Example
+```python
+from quart import Quart, redirect, url_for
+from quart_discord import DiscordOAuth2Session, requires_authorization, Unauthorized
+
+app = Quart(__name__)
+
+app.secret_key = b"random bytes representing quart secret key"
+
+app.config["DISCORD_CLIENT_ID"] = 490732332240863233    # Discord client ID.
+app.config["DISCORD_CLIENT_SECRET"] = ""                # Discord client secret.
+app.config["DISCORD_REDIRECT_URI"] = ""                 # URL to your callback endpoint.
+app.config["DISCORD_BOT_TOKEN"] = ""                    # Required to access BOT resources.
+
+discord = DiscordOAuth2Session(app)
+
+
+@app.route("/login/")
+async def login():
+    return await discord.create_session()
+	
+
+@app.route("/callback/")
+async def callback():
+    await discord.callback()
+    return redirect(url_for(".me"))
+
+
+@app.errorhandler(Unauthorized)
+async def redirect_unauthorized(e):
+    return redirect(url_for("login"))
+
+	
+@app.route("/me/")
+@requires_authorization
+async def me():
+    user = await discord.fetch_user()
+    return f"""
+    <html>
+        <head>
+            <title>{user.name}</title>
+        </head>
+        <body>
+            <img src='{user.avatar_url}' />
+        </body>
+    </html>"""
+
+
+if __name__ == "__main__":
+    app.run()
+```
+
+For an example to the working application, check [`test_app.py`](tests/test_app.py)
+
+
+### Requirements
+* Quart
+* Async-OAuthlib
+* cachetools
+
+
+### Documentation
+Head over to [documentation] for full API reference. 
+
+
+[documentation]: https://quart-discord.readthedocs.io/en/latest/
+
+
