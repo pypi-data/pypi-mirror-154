@@ -1,0 +1,12 @@
+apipkg/__init__.py,sha256=TSNnn3vnuhvO4HbB6f3e4KjpVxkHyVTe-RFiQ7-LZ6U,1123
+apipkg/_alias_module.py,sha256=Ga4pGUXe_UFzc4ItrNmYMUWc9GC4Ytv5sHN9QPnaWDY,1186
+apipkg/_importing.py,sha256=Jf7URncIVWn_UBY5d1Va8-5U9S7foAezSmdWx4HAzPo,1067
+apipkg/_module.py,sha256=NLc9Vlb-jUStgUVNZ1eb2Pess_KdhFqkeoSh1BRATpM,6880
+apipkg/_syncronized.py,sha256=1Gv-iyKS7tMeHta6VdYrJ7jyMVU4BAP-90WidLgnpXc,484
+apipkg/_version.py,sha256=A7pe6wMfnFjTxQsnriLV8_JdbbuBkrN3VnyK-lS-TBA,142
+apipkg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apipkg-3.0.1.dist-info/METADATA,sha256=_ayffLKI9U6nyg_bjg-DTXRnJ1i0ZaymNgVSSOYgmvw,4072
+apipkg-3.0.1.dist-info/WHEEL,sha256=5vr2ZUYMIPpdABBOSv8-NuqiKYrGTWMNuyATpVRyrq8,86
+apipkg-3.0.1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apipkg-3.0.1.dist-info/license_files/LICENSE,sha256=6J7tEHTTqUMZi6E5uAhE9bRFuGC7p0qK6twGEFZhZOo,1054
+apipkg-3.0.1.dist-info/RECORD,,
