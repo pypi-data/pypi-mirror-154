@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cloudops_google_bigquery"
+version = "0.1.2"
+description = ""
+authors = ["Manuel Castillo <manucalop@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+google-cloud-bigquery = "^3.1.0"
+pandas = "^1.4.2"
+pandas-gbq = "^0.17.5"
+pydantic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
