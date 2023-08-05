@@ -1,0 +1,7 @@
+ecmwflibs>=0.4.17
+netCDF4
+dask[array]
+Magics
+Flask
+xarray
+future-annotations
