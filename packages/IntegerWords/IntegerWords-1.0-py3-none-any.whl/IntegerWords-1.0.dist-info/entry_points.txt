@@ -1,0 +1,2 @@
+[console_scripts]
+IntegerWords = IntegerWords.__main__:main
