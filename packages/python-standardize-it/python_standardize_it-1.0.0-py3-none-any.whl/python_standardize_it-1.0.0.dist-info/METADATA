@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: python-standardize-it
+Version: 1.0.0
+Summary: Tool for standardizing strings against a known set of standards
+License: GNU General Public License v3 (GPLv3)
+Keywords: NLP,strings,standardizing,standardization,normalization,cosine,similarity
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Pre-processors
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+standardize-it - robust string normalization
+============================================
+
+|pypi| |support| |license|
+
+.. |pypi| image:: https://img.shields.io/pypi/v/standardize-it.svg?style=flat-square
+    :target: https://pypi.org/project/standardize-it
+    :alt: pypi version
+
+.. |support| image:: https://img.shields.io/pypi/pyversions/standardize-it.svg?style=flat-square
+    :target: https://pypi.org/project/standardize-it
+    :alt: supported Python version
+
+.. |license| image:: https://img.shields.io/pypi/l/standardize-it.svg?style=flat-square
+    :target: https://pypi.org/project/standardize-it
+    :alt: license
+
+standardize-it provides robust string normalization and standardization against known standards by utilizing NLP and cosine similarity.
+
+Installation
+============
+`standardize-it` can be installed from PyPI::
+
+    pip install standardize-it
+
+Download
+========
+Project files are available at
+https://pypi.org/project/standardize-it
+
+Documentation is hosted at
+https://standardize-it.readthedocs.io/en/latest
+
+Code
+====
+Code is hosted on GitHub:
+https://github.com/whege/standardize-it
