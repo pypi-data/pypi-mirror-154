@@ -1,0 +1,4 @@
+waveglow
+waveglow_cli
+waveglow_cli_tests
+waveglow_tests
