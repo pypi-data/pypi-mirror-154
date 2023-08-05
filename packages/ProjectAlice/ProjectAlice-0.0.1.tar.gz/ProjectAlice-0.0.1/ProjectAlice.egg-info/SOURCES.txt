@@ -1,0 +1,16 @@
+README.md
+setup.py
+ProjectAlice/__init__.py
+ProjectAlice.egg-info/PKG-INFO
+ProjectAlice.egg-info/SOURCES.txt
+ProjectAlice.egg-info/dependency_links.txt
+ProjectAlice.egg-info/top_level.txt
+ProjectAlice/core/__init__.py
+ProjectAlice/core/commons/CommonsManager.py
+ProjectAlice/core/commons/Initializer.py
+ProjectAlice/core/commons/__init__.py
+ProjectAlice/core/commons/constants.py
+ProjectAlice/core/commons/model/PartOfDay.py
+ProjectAlice/core/commons/model/Singleton.py
+ProjectAlice/core/commons/model/Slot.py
+ProjectAlice/core/commons/model/__init__.py
