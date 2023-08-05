@@ -1,0 +1,5 @@
+[console_scripts]
+conf_templater=conf_templater.cli:template_config
+config_templater=conf_templater.cli:template_config
+template_config=conf_templater.cli:template_config
+
