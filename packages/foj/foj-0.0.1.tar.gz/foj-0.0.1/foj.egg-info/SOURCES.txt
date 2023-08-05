@@ -1,0 +1,11 @@
+setup.py
+foj/__init__.py
+foj/config.py
+foj/foj-judge.py
+foj/foj-submit.py
+foj/judger.py
+foj/submitter.py
+foj.egg-info/PKG-INFO
+foj.egg-info/SOURCES.txt
+foj.egg-info/dependency_links.txt
+foj.egg-info/top_level.txt
