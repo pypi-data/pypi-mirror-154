@@ -1,0 +1,9 @@
+numpy
+pandas
+torch>=1.10.0
+tqdm
+seaborn
+matplotlib
+transformers==4.17.0
+happytransformer==2.4.1
+folium==0.2.1
