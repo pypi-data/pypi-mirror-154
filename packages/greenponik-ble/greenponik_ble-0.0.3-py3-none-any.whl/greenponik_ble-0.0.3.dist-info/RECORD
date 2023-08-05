@@ -1,0 +1,11 @@
+GreenPonik_BLE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GreenPonik_BLE/advertisement.py,sha256=747v_sk7tWl9vGcIcjPDGNCdt8xZok41fsE4EWWIBmU,5259
+GreenPonik_BLE/bletools.py,sha256=eWhMdfYhFa7vSU_ldd8MVVBn25tYHFPXfQtxfUqHe2s,2068
+GreenPonik_BLE/gattserver.py,sha256=ODXDw085J1EPAre_Y4LpqwdOKvNTWQ-geKjLV10390E,12573
+GreenPonik_BLE/service.py,sha256=zuNKhGgR2a0AgvN86RDb30v7o6XOg6PvCjRLZZ3O-u0,15549
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/main.py,sha256=DnschDmOBshtqEVoP134OSer7k0DK21RJVo5SQeOUAo,411
+greenponik_ble-0.0.3.dist-info/METADATA,sha256=xBzz3Vm8V9uQusLYZib7hnWcmYF663BlT6hFUfUu19Q,3374
+greenponik_ble-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+greenponik_ble-0.0.3.dist-info/top_level.txt,sha256=VjF_TovI6bAlfSFjkkS7Ye_U8uuvux3wZo5_vorevwI,23
+greenponik_ble-0.0.3.dist-info/RECORD,,
