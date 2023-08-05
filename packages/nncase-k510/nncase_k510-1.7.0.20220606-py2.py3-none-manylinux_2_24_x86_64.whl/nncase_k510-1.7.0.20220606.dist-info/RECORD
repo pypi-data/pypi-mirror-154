@@ -1,0 +1,10 @@
+libnncase.targets.k510.so,sha256=pMiJKRXG2ll0myVPNBWkS3aSx75bmALFzcUV1xTe9uU,324424
+libnncase.modules.k510.so,sha256=uFUN6OnZllzB9gcY5aWC9bezDSzG6d313Z3fb2qt6JU,14216312
+nncase_k510-1.7.0.20220606.dist-info/LICENSE,sha256=tTdrr12tvYx4LKECY4VVPqHV_33egMjqCh6wE7bWeIQ,11342
+nncase_k510-1.7.0.20220606.dist-info/WHEEL,sha256=VYSwYQ9CdK6rtcdmQukKStn55zorTzodxJeO6VIFBTs,147
+nncase_k510-1.7.0.20220606.dist-info/METADATA,sha256=5STONuD_Bdo3CwbKPQpVgF2_RFKiJdm4XNSLS8rBtCU,874
+nncase_k510-1.7.0.20220606.dist-info/top_level.txt,sha256=cdhmA6Y62JlJ8FDPRkmBUBt78ICCfilpb2Fm4SA9ipk,12
+nncase_k510-1.7.0.20220606.dist-info/RECORD,,
+nncase_k510-1.7.0.20220606.data/purelib/nncase_k510/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nncase_k510.libs/libgcc_s-7e8c1157.so.1,sha256=6ejlGuPKh5_4tPMUYyYBnH_3XooKMmQzWamZ4SHEf5Q,101808
+nncase_k510.libs/libstdc++-d54d9843.so.6.0.28,sha256=_ti2_7VcjmFm2rEyqz1WvNXTVv-kXo4kdxATpsrXuf4,2501640
