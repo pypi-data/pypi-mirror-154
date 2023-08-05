@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/HaloServerQuery.egg-info/PKG-INFO
+src/HaloServerQuery.egg-info/SOURCES.txt
+src/HaloServerQuery.egg-info/dependency_links.txt
+src/HaloServerQuery.egg-info/top_level.txt
+src/halo_server_query/__init__.py
+src/halo_server_query/halo_server_query.py
