@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+chelscalculator.egg-info/PKG-INFO
+chelscalculator.egg-info/SOURCES.txt
+chelscalculator.egg-info/dependency_links.txt
+chelscalculator.egg-info/top_level.txt
+chelsea_calculator/__init__.py
