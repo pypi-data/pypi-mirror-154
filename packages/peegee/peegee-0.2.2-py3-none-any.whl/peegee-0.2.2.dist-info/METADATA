@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: peegee
+Version: 0.2.2
+Summary: A PostgreSQL client based on psycopg2
+Home-page: https://gitlab.com/scku208/peegee
+Author: scku
+Author-email: scku208@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/scku208/peegee/-/archive/master/peegee-master.zip
+Keywords: postgresql,psycopg2,database,peegee
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: psycopg2
+
+UNKNOWN
+
