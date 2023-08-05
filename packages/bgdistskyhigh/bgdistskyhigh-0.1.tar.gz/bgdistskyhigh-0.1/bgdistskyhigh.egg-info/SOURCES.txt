@@ -1,0 +1,8 @@
+README
+setup.py
+bgdistskyhigh.egg-info/PKG-INFO
+bgdistskyhigh.egg-info/SOURCES.txt
+bgdistskyhigh.egg-info/dependency_links.txt
+bgdistskyhigh.egg-info/not-zip-safe
+bgdistskyhigh.egg-info/requires.txt
+bgdistskyhigh.egg-info/top_level.txt
