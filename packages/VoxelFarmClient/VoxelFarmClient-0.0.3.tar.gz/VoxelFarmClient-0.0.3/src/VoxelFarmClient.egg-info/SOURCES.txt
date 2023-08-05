@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/VoxelFarmClient/__init__.py
+src/VoxelFarmClient/voxelfarmclient.py
+src/VoxelFarmClient.egg-info/PKG-INFO
+src/VoxelFarmClient.egg-info/SOURCES.txt
+src/VoxelFarmClient.egg-info/dependency_links.txt
+src/VoxelFarmClient.egg-info/requires.txt
+src/VoxelFarmClient.egg-info/top_level.txt
