@@ -1,0 +1,16 @@
+README.md
+main.py
+setup.cfg
+setup.py
+./main.py
+midi_to_noteblock/__init__.py
+midi_to_noteblock/audio_splitter.py
+midi_to_noteblock/block.py
+midi_to_noteblock/nbt_gen.py
+midi_to_noteblock/region.py
+midi_to_noteblock.egg-info/PKG-INFO
+midi_to_noteblock.egg-info/SOURCES.txt
+midi_to_noteblock.egg-info/dependency_links.txt
+midi_to_noteblock.egg-info/entry_points.txt
+midi_to_noteblock.egg-info/requires.txt
+midi_to_noteblock.egg-info/top_level.txt
