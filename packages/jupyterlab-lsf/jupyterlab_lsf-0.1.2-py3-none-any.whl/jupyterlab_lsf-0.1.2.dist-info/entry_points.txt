@@ -1,0 +1,2 @@
+[console_scripts]
+jupyterlab-lsf = jupyterlab_lsf.main:submit_notebook_to_lsf

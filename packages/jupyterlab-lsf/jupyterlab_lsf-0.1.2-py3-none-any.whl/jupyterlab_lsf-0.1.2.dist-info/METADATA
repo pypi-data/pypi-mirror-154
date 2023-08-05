@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jupyterlab-lsf
+Version: 0.1.2
+Summary: 📙 Run jupyter lab in an LSF host and map its port
+Home-page: https://github.com/juanesarango/jupyterlab-lsf
+Author: Juan E. Arango <juanes.ao@gmail.com>
+License: BSD
+Keywords: jupyterlab,lsf
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: jupyterlab (>=3.2.9)
+Provides-Extra: test
+Requires-Dist: black (>=22.3.0) ; extra == 'test'
+Requires-Dist: coverage (>=5.5) ; extra == 'test'
+Requires-Dist: pydocstyle (>=6.1.1) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.12.1) ; extra == 'test'
+Requires-Dist: pytest-env (==0.6.2) ; extra == 'test'
+Requires-Dist: pylint (>=2.10.2) ; extra == 'test'
+Requires-Dist: tox (==2.9.1) ; extra == 'test'
+
+📙 Run jupyter lab in an LSF host and map its port. Learn more in [GitHub](https://github.com/juanesarango/jupyterlab-lsf)!

@@ -1,0 +1,2 @@
+@papaemmelab/jupyterlab-lsf
+jupyterlab_lsf
