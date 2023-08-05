@@ -1,0 +1,12 @@
+README.md
+setup.py
+./sharing/__init__.py
+./sharing/abstract.py
+./sharing/common.py
+./sharing/counter.py
+./sharing/shared.py
+sharing.egg-info/PKG-INFO
+sharing.egg-info/SOURCES.txt
+sharing.egg-info/dependency_links.txt
+sharing.egg-info/top_level.txt
+test/tests.py
