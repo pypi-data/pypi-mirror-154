@@ -1,0 +1,17 @@
+nbproject/__init__.py,sha256=3GS_vDythna-XQDDRb8fM7sMxjfotOzn072hipUhAOM,1180
+nbproject/__main__.py,sha256=wUvAaSgsTV_uJIxObLiZGJ_PfVsZa4H0Yj9uKRn6aMg,1297
+nbproject/_dependency.py,sha256=IWUqmbjNA35XZ5IgWTkFZGHW1lZpESGndG6jHLG6bRE,3358
+nbproject/_header.py,sha256=IAXxcU0heShdDX9QmshhaMC9fJghklUC1d93mzc8Ah0,6614
+nbproject/_jupyter_communicate.py,sha256=PWboXOEujBQL1Zo-1Du4dHzF7USAZWD0Qw1HVWkbgwE,3399
+nbproject/_logger.py,sha256=VnpkH6pwuw2Cyoqfc8OWxr23EzMHBvcbyuh4BQHIko8,185
+nbproject/_meta.py,sha256=2YKewKrNo2heM6VFNrqb8vjgRGJVgiQYzNbpcNn-VQI,150
+nbproject/_nbproject_cli.py,sha256=qVKY5_FHDm6Fk5HH3HQX-EBeTeo-_j8QW0V484eskYI,4179
+nbproject/_schemas.py,sha256=9vr6YpQKE0Dk_NFJiNdvcK3OcbgEEQpmBby--4pKiE8,3557
+nbproject/_utils.py,sha256=wRoFhIWoH6aoH9r0HdZcUMAAQffAHj_x_Uwz-HOWdFA,268
+nbproject/_version.py,sha256=HDTX5lW-bks33N_PSR3Y_bjkYufu7h99bHT-qGu5qEE,23139
+nbproject/header.py,sha256=qIX-HT7-lJ3jpaM48kRnTSbs70DtqQQmIEZ-30dKWLc,122
+nbproject-0.0.7.dist-info/entry_points.txt,sha256=9AV3M_rcTFtKxJKUSCiecPmpaQpGuTzSYpcnVgljH-4,53
+nbproject-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbproject-0.0.7.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+nbproject-0.0.7.dist-info/METADATA,sha256=AhteDc13H62_I87vxm1XXDiNdIT4XVBXfUZC55onF08,944
+nbproject-0.0.7.dist-info/RECORD,,
