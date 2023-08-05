@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rwsdigital_utils
+Version: 0.0.14
+Summary: Odoo Development Utils by RWS Digital
+Home-page: https://github.com/sCast17/rwsdigital_utils
+Author: Salvatore Castaldo
+Author-email: salvatore@rwsdigital.com
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Utils for Odoo development including dates and datetimes manipulation and more
