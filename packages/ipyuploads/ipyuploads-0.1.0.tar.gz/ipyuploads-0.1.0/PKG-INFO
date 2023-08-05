@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ipyuploads
+Version: 0.1.0
+Summary: A Jupyter file widget with chunked upload capabilities
+Home-page: https://github.com/g2nb/ipyuploads
+Author: Thorin Tabor
+Author-email: tmtabor@cloud.ucsd.edu
+License: BSD-3-Clause
+Keywords: ipython,jupyter,widgets
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ipyuploads
+A Jupyter file widget with chunked upload capabilities
