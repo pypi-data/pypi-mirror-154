@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+aspanner/__init__.py
+aspanner.egg-info/PKG-INFO
+aspanner.egg-info/SOURCES.txt
+aspanner.egg-info/dependency_links.txt
+aspanner.egg-info/requires.txt
+aspanner.egg-info/top_level.txt
