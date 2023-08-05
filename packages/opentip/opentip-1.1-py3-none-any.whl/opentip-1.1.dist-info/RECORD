@@ -1,0 +1,14 @@
+opentip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentip/__main__.py,sha256=EsJo1Ws0P1E-sw83eQ9hhI55gvk8-Hg7-YXOGyCmNF0,4931
+opentip/check_iocs.py,sha256=5AQPEMwI8fOQYFyoSr1gM7rRWrxXRYPVxfuRDntlkjU,2520
+opentip/client.py,sha256=scOezXZEGaURAbQndqMgGya55L1CmO7TxY6PGTWcY-o,2672
+opentip/crontab.py,sha256=bJXVAEIU7T9DO3210IWHlAZpXSDF3H-n4lcviRfcCiQ,364
+opentip/linux.py,sha256=88dSjDm9WrIfYH8yRDIss9BGHgIMNfo-fEP6IEDneus,319
+opentip-1.1.dist-info/CLA.md,sha256=PYtFHeFl7zuJZ-IOtDX2OUUPX52amWtFMz4u_H5bdEQ,6809
+opentip-1.1.dist-info/License.txt,sha256=kVVy7XoznCKvO2dzInXwV8Krgu8bCHyyvGmHz47XHJY,1079
+opentip-1.1.dist-info/METADATA,sha256=RuMteT2Yawtnta5_63T0MAbdKP2rZ7Goei9JGQqTekg,2564
+opentip-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opentip-1.1.dist-info/entry_points.txt,sha256=vIzH5sUmZ_et1PWxeuttds3FL-5POu7DlmfWK9CRjOs,87
+opentip-1.1.dist-info/legal_notices.txt,sha256=DCp9IaPLLcZcuqyaW5gg23TKuB7l6O3WcCrb17rgDZA,5876
+opentip-1.1.dist-info/top_level.txt,sha256=ob1jBBPLY4NxafZtTET-ovLDlKa7eW42lR2o4yv_mog,8
+opentip-1.1.dist-info/RECORD,,
