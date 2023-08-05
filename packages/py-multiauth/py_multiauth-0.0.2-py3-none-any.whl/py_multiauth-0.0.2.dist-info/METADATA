@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: py-multiauth
+Version: 0.0.2
+Summary: Python package to interact with multiple authentication services
+Home-page: https://escape.tech/
+License: MIT
+Author: Escape Technologies SAS
+Author-email: ping@escape.tech
+Maintainer: Antoine Carossio
+Maintainer-email: antoine@escape.tech
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Authlib (>=1.0.1,<2.0.0)
+Requires-Dist: PyJWT (>=2.4.0,<3.0.0)
+Requires-Dist: graphql-core (>=3.2.1,<4.0.0)
+Requires-Dist: pycognito (>=2022.5.0,<2023.0.0)
+Requires-Dist: pydash (>=5.1.0,<6.0.0)
+Project-URL: Bug Tracker, https://github.com/Escape-Technologies/py-multiauth/issues
+Project-URL: Repository, https://github.com/Escape-Technologies/py-multiauth
+Description-Content-Type: text/markdown
+
+# py-multiauth
+
