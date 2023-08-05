@@ -1,0 +1,6 @@
+allennlp<2.10.0,>=2.5.0
+wandb<=0.12.15,>=0.10.11
+pyyaml
+tensorboard
+overrides
+shortuuid
