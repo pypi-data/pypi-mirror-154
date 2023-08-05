@@ -1,0 +1,7 @@
+dataframe_packing/__init__.py,sha256=YI66zviHy23gUfujaF6emuT5fnAhYxGSnpAOZHVzcYE,3882
+dataframe_packing/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataframe_packing/tests/test_all.py,sha256=GXbqpggqQUk646Ito1sAL8J3pZB9dYpXvI1wKg2RWIg,2703
+DataframePacking-22.6.6.2.dist-info/METADATA,sha256=2iOmVuKqsdvQG8zL1vkSad1FQVNMWuY8Ta2yV9cc0bQ,380
+DataframePacking-22.6.6.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DataframePacking-22.6.6.2.dist-info/top_level.txt,sha256=aDGdnZ9h-E5yPIJlW-SyZoied8gyFsXIXs1STQBwZ5E,18
+DataframePacking-22.6.6.2.dist-info/RECORD,,
