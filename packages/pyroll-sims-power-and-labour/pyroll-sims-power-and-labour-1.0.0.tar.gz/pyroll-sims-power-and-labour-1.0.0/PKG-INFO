@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyroll-sims-power-and-labour
+Version: 1.0.0
+Summary: Plugin for PyRoll providing the power and labour calculation after R.B. Sims
+Home-page: https://pyroll-project.github.io/
+License: BSD-3-Clause
+Author: Christoph Renzing
+Author-email: christoph.renzing@imf.tu-freiberg.de
+Requires-Python: >=3.9,<3.11
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: pyroll (>=1.0.0,<2.0.0)
+Requires-Dist: pyroll-hitchcock-roll-flattening (>=1.0.0,<2.0.0)
+Project-URL: Documentation, https://pyroll-project.github.io/modules/pyroll-sims-power-and-labour/docs/
+Project-URL: Repository, https://github.com/pyroll-project/pyroll-sims-power-and-labour
+Description-Content-Type: text/markdown
+
+# PyRoll Sims Power and Labour
+
+Plugin for PyRoll providing Power and Labour calculations from R.B. Sims
+
+For the docs, see [here](docs/docs.pdf).
+
+This project is licensed under the [BSD-3-Clause license](LICENSE).
+
+The package is available via [PyPi](https://pypi.org/project/pyroll-sims-power-and-labour/) and can be installed with
+    
+    pip install pyroll-sims-power-and-labour
+
+
+
