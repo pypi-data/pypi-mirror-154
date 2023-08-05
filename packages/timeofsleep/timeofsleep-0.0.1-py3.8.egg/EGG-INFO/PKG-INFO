@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: timeofsleep
+Version: 0.0.1
+Summary: It is a package that visualizes sleep time and sleep quality.
+Home-page: https://github.com/kyohei-2022029/timeofsleep/tree/master
+Author: kyohei fujimori.kyohei@gmail.com
+Author-email: 
+Project-URL: Bug Tracker, https://github.com/kyohei-2022029/timeofsleep/tree/master
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# timeofsleep
+timeofsleep
