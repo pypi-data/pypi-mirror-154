@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+logging_enterprise/__init__.py
+logging_enterprise.egg-info/PKG-INFO
+logging_enterprise.egg-info/SOURCES.txt
+logging_enterprise.egg-info/dependency_links.txt
+logging_enterprise.egg-info/top_level.txt
