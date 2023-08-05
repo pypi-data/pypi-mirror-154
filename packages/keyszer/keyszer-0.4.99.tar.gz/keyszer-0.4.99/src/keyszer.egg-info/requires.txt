@@ -1,0 +1,5 @@
+evdev
+python-xlib
+inotify_simple
+appdirs
+ordered_set
