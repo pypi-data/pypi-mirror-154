@@ -1,0 +1,10 @@
+slipcover/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slipcover/__main__.py,sha256=9S5PqsO6mPms5P3ERKa1fPfxlR9-flHSA3Qnvpvk2dI,5834
+slipcover/bytecode.py,sha256=7XDSgXKjCG-2EeNyHQQagz3EAKsIoMrE48C5rPWi3_0,20379
+slipcover/slipcover.py,sha256=eP0ob6krX1ZZllO1R-fs82X9i0FzkCEsmv2jzbt-skU,17331
+slipcover/tracker.cp38-win_amd64.pyd,sha256=RexpZpXi488jtadiCC6YvzNNWDhoq0SONSBvoswGHmM,109056
+slipcover-0.1.8.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+slipcover-0.1.8.dist-info/METADATA,sha256=MQZAjUFrdXo8BZElwc41ZtN6VD8SKys0y4bCwoCc6nU,8411
+slipcover-0.1.8.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+slipcover-0.1.8.dist-info/top_level.txt,sha256=5VXLPH9Pwp6leK8l70xKGMYUOtHuCaL-XVui6MGDwlY,10
+slipcover-0.1.8.dist-info/RECORD,,
