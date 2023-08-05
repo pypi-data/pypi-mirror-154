@@ -1,0 +1,10 @@
+freertos_gdb/__init__.py,sha256=dJnmDvW4nxjFchiE4NEeNPx5xfaCkoI-JwoqKyUf-80,295
+freertos_gdb/common.py,sha256=Nq7xtbNPyLE8DjPw4Vuhc0rqaprYO16XouWkxCVRQ8Q,3798
+freertos_gdb/queue.py,sha256=yB-DObJZRS8Mhtk8rMVg_URP1MfoM4km0nH0eVWC1j0,7470
+freertos_gdb/task.py,sha256=N1dZdeBMAGd0zodJlDa74lR3byGjhntVj-FVWTteyBo,4410
+freertos_gdb/timer.py,sha256=LcmGK2eUTVRsgjyXjy1dmPviiTg3ieN6rFyE9dlA1wE,2881
+freertos_gdb-1.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+freertos_gdb-1.0.1.dist-info/METADATA,sha256=Z8BQnQEflAHZsZXELeuLzKWXngL4i_RjN373FKNoMx0,7462
+freertos_gdb-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+freertos_gdb-1.0.1.dist-info/top_level.txt,sha256=hNFUkQnN_DsSzdsQ730YP4eVBdgryTrGWl-Qg8t_Awk,13
+freertos_gdb-1.0.1.dist-info/RECORD,,
