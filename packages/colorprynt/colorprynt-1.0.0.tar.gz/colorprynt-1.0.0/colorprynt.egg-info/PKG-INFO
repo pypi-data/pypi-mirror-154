@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: colorprynt
+Version: 1.0.0
+Summary: Print color text easily.
+Home-page: UNKNOWN
+Author: Jaedson Silva
+Author-email: imunknowuser@protonmail.com
+License: MIT
+Project-URL: Source code, https://github.com/jaedsonpys/colorprynt
+Description: # Colorprynt
+        
+        Print text with colors easily by passing arguments to the `print` function! The **colorprynt** works the same as the standard python `print`, but we added the `color` argument so you can set *colors to your text*.
+        
+        ## Simple use
+        
+        ```
+        from colorprynt import *
+        
+        print('Hello world!', color='cyan')
+        ```
+        
+        ## Install
+        
+        Use `pip` to install **colorprynt**:
+        
+        ```
+        pip install colorprynt
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
