@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: linkediff
+Version: 0.2.0
+Summary: linked graph for diff
+Home-page: https://github.com/williamfzc/linkediff
+Author: williamfzc
+Author-email: fengzc@vip.qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
