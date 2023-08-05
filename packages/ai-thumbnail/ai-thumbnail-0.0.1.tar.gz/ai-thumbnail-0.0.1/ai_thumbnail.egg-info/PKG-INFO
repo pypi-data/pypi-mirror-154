@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ai-thumbnail
+Version: 0.0.1
+Summary: Query aware semantic thumbnail selection
+Home-page: https://github.com/pypa/sampleproject
+Author: Ohjoon Kwon
+Author-email: ohjoon.kwon@navercorp.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# ai-thumbnail
+

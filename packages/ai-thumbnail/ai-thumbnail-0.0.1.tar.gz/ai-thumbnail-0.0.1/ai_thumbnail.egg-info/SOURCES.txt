@@ -1,0 +1,7 @@
+README.md
+setup.py
+ai-thumbnail/__init__.py
+ai_thumbnail.egg-info/PKG-INFO
+ai_thumbnail.egg-info/SOURCES.txt
+ai_thumbnail.egg-info/dependency_links.txt
+ai_thumbnail.egg-info/top_level.txt
