@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/Celsius2Fahrenheit.egg-info/PKG-INFO
+src/Celsius2Fahrenheit.egg-info/SOURCES.txt
+src/Celsius2Fahrenheit.egg-info/dependency_links.txt
+src/Celsius2Fahrenheit.egg-info/entry_points.txt
+src/Celsius2Fahrenheit.egg-info/top_level.txt
