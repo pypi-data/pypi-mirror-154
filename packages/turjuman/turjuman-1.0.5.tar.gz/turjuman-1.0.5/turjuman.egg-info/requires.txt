@@ -1,0 +1,11 @@
+accelerate
+datasets
+pandas
+protobuf
+psutil
+regex
+sacrebleu
+sentencepiece
+torch
+tqdm
+transformers
