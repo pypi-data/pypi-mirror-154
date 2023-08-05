@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+az_creds.egg-info/PKG-INFO
+az_creds.egg-info/SOURCES.txt
+az_creds.egg-info/dependency_links.txt
+az_creds.egg-info/entry_points.txt
+az_creds.egg-info/requires.txt
+az_creds.egg-info/top_level.txt
+fetch_app/__init__.py
+fetch_app/credentials.py
