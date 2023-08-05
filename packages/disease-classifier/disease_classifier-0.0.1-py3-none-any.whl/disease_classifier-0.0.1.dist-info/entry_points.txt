@@ -1,0 +1,2 @@
+[napari.manifest]
+disease-classifier = disease_classifier:napari.yaml

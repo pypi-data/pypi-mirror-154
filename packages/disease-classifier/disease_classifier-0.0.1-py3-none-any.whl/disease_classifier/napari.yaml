@@ -1,0 +1,12 @@
+name: disease-classifier
+display_name: Disease classifier
+contributions:
+  commands:
+    - id: disease-classifier.make_qwidget
+      python_name: disease_classifier._widget:Disease_classifier
+      title: iPAC disease classifier
+        
+  widgets:
+    - command: disease-classifier.make_qwidget
+      display_name: iPAC disease classifier
+      
