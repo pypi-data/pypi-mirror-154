@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: walkman-modules.convolution-reverb
+Version: 0.1.2
+Summary: Provides walkman module to send input through a convolution reverb
+Author: Levin Eric Zimmermann
+Author-email: levin.eric.zimmermann@posteo.eu
+License: GPL
+Requires-Python: ==3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: audiowalkman (<1.0.0,>=0.7.0)
+Requires-Dist: pyo (==1.0.4)
+Provides-Extra: testing
+Requires-Dist: nose ; extra == 'testing'
+
+# walkman_modules.convolution_reverb
+
+[![Build Status](https://circleci.com/gh/audiowalkman/walkman_modules.convolution_reverb.svg?style=shield)](https://circleci.com/gh/audiowalkman/walkman_modules.convolution_reverb)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![PyPI version](https://badge.fury.io/py/walkman_modules.convolution_reverb.svg)](https://badge.fury.io/py/walkman_modules.convolution_reverb)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+This package adds the `convolution_reverb` module to `walkman`.
