@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: Jpmedical
+Version: 0.0.2
+Summary: A package for visualization of total of Health expenditures, if people all over the world are Japnanese"
+Home-page: https://github.com/miyasaka007/Jpmedical-main
+Author: naoto miyasaka
+Author-email: s2022064@stu.musashino-u.ac.jp
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/miyasaka007/Jpmedical-main
+Description: 
+        # jpmedical
+        Python Package。  
+        Python Package for visualization of total of Health expenditures if people all over the world are Japnanese.
+        
+        
+        ## Example of use
+        ```
+        pip install jpmedical
+        python jpmedical.py
+        ```
+        
+        
+        
+        **output**  
+          
+        1-10 Percentage of users cleared there.  
+        x Percentage of users who could not clear.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

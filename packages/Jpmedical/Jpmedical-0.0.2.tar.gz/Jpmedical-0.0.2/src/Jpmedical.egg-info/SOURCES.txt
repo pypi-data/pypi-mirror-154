@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/Jpmedical.egg-info/PKG-INFO
+src/Jpmedical.egg-info/SOURCES.txt
+src/Jpmedical.egg-info/dependency_links.txt
+src/Jpmedical.egg-info/entry_points.txt
+src/Jpmedical.egg-info/top_level.txt
