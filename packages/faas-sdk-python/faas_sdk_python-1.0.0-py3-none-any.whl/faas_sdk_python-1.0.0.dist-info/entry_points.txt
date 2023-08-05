@@ -1,0 +1,3 @@
+[console_scripts]
+faas-sdk-python = faas_sdk_python._cli:_cli
+faas_sdk_python = faas_sdk_python._cli:_cli
