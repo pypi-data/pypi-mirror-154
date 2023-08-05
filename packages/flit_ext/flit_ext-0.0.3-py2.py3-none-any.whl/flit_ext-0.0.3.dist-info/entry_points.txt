@@ -1,0 +1,3 @@
+[setuptools_scm.local_scheme]
+force-local-version=flit_ext.version:local_version
+
