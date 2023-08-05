@@ -1,0 +1,11 @@
+ai_hub/__init__.py,sha256=nAHpOfI3BD8ZUB4EIlAq3UxINW41BpkwYAN2K9gF5FA,52
+ai_hub/globalvar.py,sha256=sDfnf3Z9hjfmrQrvg9Ldm13hhNlPvvq281WFoTnaoFs,329
+ai_hub/inferServer.py,sha256=ouifh75QoukQraxwQm5CdB67Hwc3pPQ7vuDpv7al_vg,2523
+ai_hub/log.py,sha256=HdaxPBtSl0_Hd-UD4gR5TVd9i-OeujlCRDupgAA0anY,506
+ai_hub/notice.py,sha256=vtksvSxDZqy0uCuAvojkAHPFCEgoGqhEMaVwT5iFCmo,639
+ai_hub/test.py,sha256=qnKEM7e92SmF7x554QEaJCqClNPfZ3ZYEWdJ-dILmg8,1200
+ai_hub/test_gpu.py,sha256=etsYVDrA3G6tm1outJr5HKRW9E-m8bw6GxNH0SXJ4x0,1296
+ai_hub-0.3.5.dist-info/METADATA,sha256=ig3rJEqOfTp6YPhycVO8toqEazyiDvjyvaxo_gE-pyg,3163
+ai_hub-0.3.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ai_hub-0.3.5.dist-info/top_level.txt,sha256=FYikiYzTTAryjg0WtKm4LzWX3aGgu4KlK3fXVuLDU3w,7
+ai_hub-0.3.5.dist-info/RECORD,,
