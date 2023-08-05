@@ -1,0 +1,10 @@
+pyroll/lendl_equivalent_method/__init__.py,sha256=l89Ht6EFu11nlRV0PDV8kTa7xYH6QSYoA9AlrtVFTYY,618
+pyroll/lendl_equivalent_method/hookimpls.py,sha256=F4oiWa-ciBnU3WUOuoxh8aEKj2SItEJ-rtl-FKzIZ4k,2863
+pyroll/lendl_equivalent_method/in_profile_hookspecs.py,sha256=SIiDjNOLtjTIGtaWKBRUXmR2Fa2zCh-4yEe8Orug2Zs,327
+pyroll/lendl_equivalent_method/out_profile_hookspecs.py,sha256=k3Yg2os8dI-jpj4Kwp4f3CRVF59AlKfDIrPqtjvYJl0,195
+pyroll/lendl_equivalent_method/reporter.py,sha256=X-eLzNfNg-gbXUnJ3Mx_7FcMlsAanP6vC9J1dRjZCfg,2105
+pyroll/lendl_equivalent_method/roll_pass_hookspecs.py,sha256=yNhsvSwk7b6_VL8rL_ud4r521aHyADallJfgUX84zIo,1207
+pyroll_lendl_equivalent_method-1.0.0.dist-info/LICENSE,sha256=3devNsovYwaUzcjrNvpcQk6W6l4bYb9oldQmqIL55m0,1474
+pyroll_lendl_equivalent_method-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyroll_lendl_equivalent_method-1.0.0.dist-info/METADATA,sha256=bzFyR3pw-TTFHskd2Kc8mID8aQkcls5oreoeM8PeO0Y,1460
+pyroll_lendl_equivalent_method-1.0.0.dist-info/RECORD,,
