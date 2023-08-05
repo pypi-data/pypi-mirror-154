@@ -1,0 +1,11 @@
+xlrd==1.2.0
+jieba
+xlwt
+xlutils
+matplotlib
+sklearn
+pandas
+fairies
+configparser
+xpinyin
+tqdm
