@@ -1,0 +1,9 @@
+README.md
+setup.py
+dapi/__init__.py
+dapi/functions.py
+dapi_rpc_aggregation.egg-info/PKG-INFO
+dapi_rpc_aggregation.egg-info/SOURCES.txt
+dapi_rpc_aggregation.egg-info/dependency_links.txt
+dapi_rpc_aggregation.egg-info/requires.txt
+dapi_rpc_aggregation.egg-info/top_level.txt
