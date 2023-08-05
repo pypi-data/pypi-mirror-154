@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "juno"
+version = "1.0.0"
+description = "Juno: read data generator"
+authors = ["hunglin <hunglin59638@gmail.com>"]
+maintainers = ["hunglin <hunglin59638@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://github.com/hunglin59638/juno"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = "^1.9.2"
+pysradb = "^1.3.0"
+streamlit-aggrid = "^0.2.3"
+
+[tool.poetry.dev-dependencies]
+spyder-kernels = "2.1"
+poetry2setup = "^1.0.0"
+black = "^22.3.0"
+twine = "^4.0.1"
+
+[tool.poetry.scripts]
+juno = "juno.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
