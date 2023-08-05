@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+adaptive_sampling/__init__.py
+adaptive_sampling/units.py
+adaptive_sampling.egg-info/PKG-INFO
+adaptive_sampling.egg-info/SOURCES.txt
+adaptive_sampling.egg-info/dependency_links.txt
+adaptive_sampling.egg-info/not-zip-safe
+adaptive_sampling.egg-info/requires.txt
+adaptive_sampling.egg-info/top_level.txt
