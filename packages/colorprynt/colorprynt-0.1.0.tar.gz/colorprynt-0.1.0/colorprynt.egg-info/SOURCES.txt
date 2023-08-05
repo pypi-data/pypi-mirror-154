@@ -1,0 +1,8 @@
+README.md
+setup.py
+colorprynt/__init__.py
+colorprynt/main.py
+colorprynt.egg-info/PKG-INFO
+colorprynt.egg-info/SOURCES.txt
+colorprynt.egg-info/dependency_links.txt
+colorprynt.egg-info/top_level.txt
