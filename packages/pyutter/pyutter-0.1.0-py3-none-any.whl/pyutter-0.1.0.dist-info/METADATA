@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pyutter
+Version: 0.1.0
+Summary: Pyutter is a python package that allows easy and fast simple front end development with python.
+Home-page: https://github.com/mmwa/plutter
+License: UNKNOWN
+Author: mmwa
+Author-email: 
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi==0.61.2
+Requires-Dist: uvicorn==0.17.6
+
+# Pyutter
+
+## What is it
+
+Pyutter is a python package that allows easy and fast simple front end development with python.
+
+## Main Features
+
+* Basic material component Card, Chip and Appbar
+* Layout components Column, Row, Grid ...
+* Ability to return server side function using Function and State
+
+## How to get it
+
+`pip install plutter`
+
+## Dependency
+
+[FastAPI](https://fastapi.tiangolo.com/)
+
+[uvicorn](https://www.uvicorn.org/)

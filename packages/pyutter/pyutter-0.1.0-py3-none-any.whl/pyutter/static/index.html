@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <style>
+html, body, div {{ margin:0;}}
+{style}
+</style>
+    </head>
+    <body></body>
+        <script>
+            var global_pointers = {{}};
+            window.post = function(url, data) {{
+                return fetch(url, {{
+                    method: "POST",
+                    body: JSON.stringify(data)
+                }});
+            }};
+            var body ={desc};
+
+var render = (obj) => {{
+    if (typeof obj.state !== 'undefined'){{
+        global_pointers[obj.state.actionId] = obj.state.actionVars;
+        return null;
+    }}
+
+    var current_node;
+    if (obj.tag == "body"){{
+        current_node = document.getElementsByTagName("body")[0];
+    }} else {{
+        current_node = document.createElement(obj.tag);
+    }}
+
+    current_node.setAttribute("id", obj.id);
+    current_node.setAttribute("class", obj.class);
+
+    if (typeof obj.text !== 'undefined'){{
+        current_node.innerHTML = obj.text;
+    }}
+
+    if (typeof obj.src !== 'undefined'){{
+    current_node.setAttribute("src", obj.src);
+    }}
+
+    if (typeof obj.actionId !== 'undefined'){{
+        global_pointers[obj.actionId] = obj.actionVars; 
+        console.log(obj.actionVars);
+
+        current_node.onclick = async () => {{
+            // for every variable id in list conc the fetched value from pointers to a dict
+            // use this dict for the fetch
+            query = {};
+            global_pointers[obj.actionId].forEach(v =>{
+                query = {
+                    ...query,
+                    ...item
+                }
+            });
+
+             var tmp = await post("state/"+obj.actionId, query); 
+             console.log(tmp);
+
+            res = await tmp.json();
+            global_pointers[obj.actionId] = res;
+            console.log(global_pointers[obj.actionId]);
+        }}
+    }}
+
+   for (child of obj.children) {{
+        current_node.appendChild(render(child));
+    }}
+    return current_node;
+}}
+
+window.onload = render(body, null);
+        </script>
+</html>
