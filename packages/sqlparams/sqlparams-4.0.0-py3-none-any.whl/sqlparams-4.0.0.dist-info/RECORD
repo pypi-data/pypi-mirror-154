@@ -1,0 +1,10 @@
+sqlparams/__init__.py,sha256=cN8qIdJIQcqS2mbZHzilp0YyzQK_TRL06yeAjCivnDc,13870
+sqlparams/_converting.py,sha256=qzbCrhmgU5uulXoVCNEfHV7rd-YNv9CyIaj7Z30arNM,73328
+sqlparams/_meta.py,sha256=VkUlxYgrm3wFpLIWiOWLBLRkDD-3NhZO_Tr8LZnBfmw,433
+sqlparams/_styles.py,sha256=Hx3uD5q1lqYknehlm2522GvaM0tGmY1KOatWLeCzMqY,3405
+sqlparams/_util.py,sha256=f1xb7Fk_iPZoTJ7pei8c0Suhbhjx6WswoMt-YqadNqs,627
+sqlparams-4.0.0.dist-info/LICENSE,sha256=Z9PY5AT4Ee_28QwC00AIQX9UgaS_uGT0JUxIESRSWU8,1061
+sqlparams-4.0.0.dist-info/METADATA,sha256=SuO0xLmZivketOcAY5Vs3NnM5fmEUrxEeWZtL8QovKE,6750
+sqlparams-4.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sqlparams-4.0.0.dist-info/top_level.txt,sha256=yDxvg5ku9u2qG9E3FW2sxneusuiJCv1zA31gheHdGO4,10
+sqlparams-4.0.0.dist-info/RECORD,,
