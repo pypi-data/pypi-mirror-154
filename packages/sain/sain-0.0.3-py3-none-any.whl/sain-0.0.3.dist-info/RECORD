@@ -1,0 +1,15 @@
+sain/__init__.py,sha256=0nW4NMFJjc03lXv-KYlj3OEQvKT4mxam1JQVj_WKp4s,3839
+sain/__init__.pyi,sha256=_vgZbRuP66uJI-wmaTGEaIQXE1HvSMwZv-asmMA_v80,591
+sain/cfg.py,sha256=hePmOiwRWOhZXvmf0qFjJQ16GjLCGQRv0QGvKqVYQoI,11893
+sain/cfg.pyi,sha256=DOVt8d-OJsSEvaShRJmUxchd1UWiIGtQNkdVfijA8BM,1556
+sain/default.py,sha256=DUO8NlrHnl7VQW152WTxTzqJlTekSQukLbwu0eqVzuY,2344
+sain/drop.py,sha256=fp_ftqEf8Q1S6iplPJ6cxqWoeapRwFVCm7A2XP8iqwM,3122
+sain/iter.py,sha256=575YrBZM5xvBHN8HA1G38FqGTMA6UKvCCzVXcnlwVgk,16274
+sain/option.py,sha256=YBbjoavmiIUP3kRKWir_qYj3b9fMVvzARg7bDD1qKYA,13821
+sain/option.pyi,sha256=zRL9WhRUHP3WQeoyx7RtzZtDGVSQt8BPddo7GBaSnBY,3391
+sain/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sain/ref.py,sha256=Lfjgrvh2kXZ6EAIXP4SQViofz3uboMba99x2v1QrSSU,2562
+sain-0.0.3.dist-info/LICENSE,sha256=zxTcU1vLEyxCiDxH8YCUNLwsOB8ptrHsT4jvcMR2Rkk,1512
+sain-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sain-0.0.3.dist-info/METADATA,sha256=y0FWFfqLG2o5LKunnWXQX928nZ3XghEP1AJdvmgx4H0,3644
+sain-0.0.3.dist-info/RECORD,,
