@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ajm_discord
+Version: 1.0.1
+Summary: Some useful discord cog/bots.
+Home-page: https://github.com/challos/ajm_discord
+Author: Andrew McGrail
+Author-email: andrewjerrismcgrail@gmail.com
+License: MIT License (MIT)
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# ajm_discord
+A collection of several cogs for Discord bots with a few common methods/commands. Specifically for use with the [Pycord](https://github.com/Pycord-Development/pycord) API.
+
+# Cogs
+
+## BaseCog
+Intentionally sparse cog, just contains an easy way to log and send messages.
+
+## ListenerCog
+Cog for listeners. Only the on_ready one does anything at the moment, really. TODO
+
+## DeleteCog
+Cog for deleting bot messages in bulk on the user side, and for users to be able to delete bot messages without permissions.
+
+## TextCog
+Cog for retrieving text. Specifically from Discord threads. Can retrieve text from .txt files, Discord messages, Discord embeds, Microsoft Word documents, and google doc links. Can also convert images/image links to markdown for ease of use.
