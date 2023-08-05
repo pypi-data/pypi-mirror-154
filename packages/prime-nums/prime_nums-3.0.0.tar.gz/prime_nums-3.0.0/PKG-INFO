@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: prime_nums
+Version: 3.0.0
+Summary: prime numbers generator and checker
+Home-page: https://github.com/SilasPDJ/pypi_project_nums_primos
+Author: silaspdj
+Author-email: silsilinhas@gmail.com
+Project-URL: Bug Tracker, https://github.com/SilasPDJ/pypi_project_nums_primos/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypi_project_nums_primos
+
+```
+from prime_nums import get_prime_nums, is_prime
+
+get_prime_nums(qt_primes=10)
+# 2, 3, 5...
+
+is_prime(10)
+# False
+
+get_gcd(33, 99, 66)
+# 33
+
+get_gcd(44, 88, 264)
+# 22
+```

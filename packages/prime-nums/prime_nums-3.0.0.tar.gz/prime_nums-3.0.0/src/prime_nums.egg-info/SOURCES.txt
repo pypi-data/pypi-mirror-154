@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/prime_nums/__init__.py
+src/prime_nums.egg-info/PKG-INFO
+src/prime_nums.egg-info/SOURCES.txt
+src/prime_nums.egg-info/dependency_links.txt
+src/prime_nums.egg-info/top_level.txt
