@@ -1,0 +1,6 @@
+setup.py
+packagehighsky.egg-info/PKG-INFO
+packagehighsky.egg-info/SOURCES.txt
+packagehighsky.egg-info/dependency_links.txt
+packagehighsky.egg-info/not-zip-safe
+packagehighsky.egg-info/top_level.txt
