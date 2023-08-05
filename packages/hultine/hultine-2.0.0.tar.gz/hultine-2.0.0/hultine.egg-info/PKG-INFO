@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hultine
+Version: 2.0.0
+Summary: Hultine API
+Home-page:  https://github.com/pypa/setuptools
+Author: Hultine
+Keywords: CPAN,PyPI,distutils,eggs,package,HULTINE
+License-File: LICENSE
