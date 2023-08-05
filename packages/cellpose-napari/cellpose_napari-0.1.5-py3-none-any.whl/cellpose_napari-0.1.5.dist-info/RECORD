@@ -1,0 +1,11 @@
+cellpose_napari/__init__.py,sha256=BAlro-iCKcKfUL535S1mvs2A2aFBB8QykMV-J_DPA3s,221
+cellpose_napari/_dock_widget.py,sha256=CRc3aOQo99MnLeay_y2GlT1ttpcNb0aDhJ6u2vCn5V0,16517
+cellpose_napari/_sample_data.py,sha256=lKV0EO_x153OPDuWTzer-033g4lbA0PPyhiaUssuVXA,1522
+cellpose_napari/_version.py,sha256=apGJRoECleuUrJoVT1YXuqsffrBEoIpJiywKaXgku10,142
+cellpose_napari/napari.yaml,sha256=1vDCVCJzObmR-7dOXxEL8qhKOBwNUuFB1nLdQmfyiRk,771
+cellpose_napari-0.1.5.dist-info/LICENSE,sha256=IuXY43sv7GlcJ3v_kkgH6BUmz98XI7fP2SLBpytI6nA,1489
+cellpose_napari-0.1.5.dist-info/METADATA,sha256=Wo9c7UmlYUU_cdZCKHoaylSdrUUNbwUIaUtUkdWt2sU,8204
+cellpose_napari-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cellpose_napari-0.1.5.dist-info/entry_points.txt,sha256=eV7f8x2gK37ZAgfv8jTkBaQ5ZTNXFNNjeN4wSO7nB78,64
+cellpose_napari-0.1.5.dist-info/top_level.txt,sha256=FSNuL7H1O3Sox5ea7TxyqQLfSHumna611jv5UbDBwE8,16
+cellpose_napari-0.1.5.dist-info/RECORD,,
