@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mlmetrics-io
+Version: 0.1.0
+Summary: Client library for ML Metrics
+Home-page: https://github.com/pypa/sampleproject
+Author: Niklas Nielsen
+Author-email: niklas@mlmetrics.io
+Project-URL: Bug Tracker, https://github.com/QuarfotPrice/mlmetrics-io/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# ML Metrics Python client library
+
+```bash
+pip install mlmetrics-io
+```
+
+```python
+from mlmetrics import client
+client.set_token("<Token from UI>")
+client.runs([...]).plot()
+```
+
