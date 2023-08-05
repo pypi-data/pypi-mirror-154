@@ -1,0 +1,17 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/config.py,sha256=QvDq36TZJFVnPqAirywGwV1La-KoLl9yoxnarXDwk1s,231
+tests/test_main.py,sha256=XgkGiblXgAGca6cqAEtwGmMG6xhai_W_xRydyTKKU1Q,10919
+treecomp/__init__.py,sha256=mEv1J84etRADKenhTPU5-4Ht4KXSFC0tskMLb1Dp35o,106
+treecomp/cli.py,sha256=MVgj2LNPfkart8dBKBia_yxGcWv1Ji1Y_gmGScEQ9bc,1018
+treecomp/fs_utils.py,sha256=MUluy2uWNXKo5sV0lBAEpI1zjs5BFTL55m2Eszg9lFM,1425
+treecomp/ignore.py,sha256=NLWZnH6LE8JjJ-1reTDOoa7LcDrfS9D3n0pwqynxVmY,513
+treecomp/main.py,sha256=MTKg0eQRMz9XgTj4SDuWwlcIfDtvQNsr7vXRIdm3osg,7929
+treecomp/path_matcher.py,sha256=IOw7Hav7h_StAIXI0Mhs_hzHrtQpqvZ_ax82UI83qGw,1553
+treecomp/target.py,sha256=U1hrMI__m0yMK0VV_XOpuiDDtA0f1kdmgCW4nT372MI,436
+treecomp-1.0.0a3.dist-info/LICENSE.md,sha256=IfNRWxSJk-vDs-Oaqb7rRABvh_0_1CFeZF-KHCsXnok,1082
+treecomp-1.0.0a3.dist-info/METADATA,sha256=9ypQDUcZ188kgM6cdbR4GT92hc5TkMozxgAT5-Ecahk,2749
+treecomp-1.0.0a3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+treecomp-1.0.0a3.dist-info/entry_points.txt,sha256=SAG_9wFj7EtuMsvURapxuhPl4a_8XWbjC72iNizVrcM,46
+treecomp-1.0.0a3.dist-info/top_level.txt,sha256=LoaRyQdAGAPsYoqmLlGzJhd2l7YQ-VzrFLnh6QQAgQg,24
+treecomp-1.0.0a3.dist-info/RECORD,,
