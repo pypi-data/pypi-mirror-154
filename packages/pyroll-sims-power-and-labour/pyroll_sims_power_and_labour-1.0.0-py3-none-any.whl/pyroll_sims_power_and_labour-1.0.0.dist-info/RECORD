@@ -1,0 +1,11 @@
+pyroll/sims_power_and_labour/__init__.py,sha256=3edJ-BxfUH0oEzAUdmRyUzaMMZ6FgPyQqB_x6AhsmnA,669
+pyroll/sims_power_and_labour/exporter_hookimpls.py,sha256=fKPgcrr6EAEO3nRl3-_4WzB-Hpm-9kaJREoJYykgI5g,325
+pyroll/sims_power_and_labour/reporter_hookimpls.py,sha256=bzCc8CTvAXgvlfXPbRAoBZZ9EniB7eJotzOHlVLsPUE,333
+pyroll/sims_power_and_labour/roll_pass_hookimpls.py,sha256=3bZoqLJiDSWWEqpOgK4qGomThyYKLVn0eMtW_JsH0zc,4881
+pyroll/sims_power_and_labour/roll_pass_hookspecs.py,sha256=GxHmI1_KZOlEO9S3g4iYxCQjqIax5wXh59ro0we6pow,1376
+pyroll/sims_power_and_labour/roll_pass_roll_hookimpls.py,sha256=sGigwkVvLWJc-vJQG-bIhuOmPrwrQU8q6H1P17kqggg,207
+pyroll/sims_power_and_labour/roll_pass_roll_hookspecs.py,sha256=dvk1kdOFAgBNQgG1aqWjBxi-_yDThS2LKjvYvM5_aqo,189
+pyroll_sims_power_and_labour-1.0.0.dist-info/LICENSE,sha256=mQS6_2AyAaw_l14-CkU1u6u-2UuxjoD0jPxqh2J4Fik,1462
+pyroll_sims_power_and_labour-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyroll_sims_power_and_labour-1.0.0.dist-info/METADATA,sha256=5itfEZ0mHLW_dym4WdSi14gkobPKvlC4YkdK65fl-nQ,1444
+pyroll_sims_power_and_labour-1.0.0.dist-info/RECORD,,
