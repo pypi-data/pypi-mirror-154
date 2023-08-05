@@ -1,0 +1,4 @@
+[console_scripts]
+gaarf = gaarf.fetcher:main
+gaarf-bq = gaarf.post_processor:main
+
