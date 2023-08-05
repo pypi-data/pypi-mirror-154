@@ -1,0 +1,7 @@
+README.md
+setup.py
+tailread.py
+tailread.egg-info/PKG-INFO
+tailread.egg-info/SOURCES.txt
+tailread.egg-info/dependency_links.txt
+tailread.egg-info/top_level.txt
