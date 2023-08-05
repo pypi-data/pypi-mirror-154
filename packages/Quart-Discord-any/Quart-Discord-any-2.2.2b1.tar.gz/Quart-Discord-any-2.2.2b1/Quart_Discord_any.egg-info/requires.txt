@@ -1,0 +1,17 @@
+Quart
+pyjwt
+oauthlib
+Async-OAuthlib
+cachetools
+
+[discodpy]
+discord.py
+
+[docs]
+sphinx==1.8.3
+
+[nextcord]
+nextcord==2.0.0
+
+[pycord]
+py-cord

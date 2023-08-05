@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "Quart-Discord-any"
+version = "2.2.1b3"
+description = 'Discord OAuth2 extension for Quart using modern Discord Libraries.'
+authors = ["Philip Dowie <philip@jnawk.nz>"]
+maintainers = ["William Hatcher <william@memotic.net>"]
+repository = 'https://github.com/Memotic/Quart-Discord-any'
+license = 'MIT'
+readme = "README.md"
+
+packages = [
+    { include = "quart_discord" }
+]
+
+classifiers = [
+    'Environment :: Web Environment',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    "Programming Language :: Python :: 3",
+    'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+[tool.poetry.dependencies]
+python = "^3.8"
+quart = ">=0.16.2"
+PyJWT = "^2.3.0"
+oauthlib = "^3.1.1"
+Async-OAuthlib = "^0.0.9"
+cachetools = "^5.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.extras]
+docs = ['sphinx^=1.8.3']
+discordpy = ["discord.py==1.7.3"]
+nextcord = ["nextcord^=2.0.0"]
+pycord = [
+    "https://github.com/Pycord-Development/pycord"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
