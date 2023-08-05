@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ogdf-python-widget
+Version: 0.1.0a0
+Summary: A Custom Jupyter Widget Library
+Home-page: https://github.com/ogdf/ogdf-python-widget
+Author: Andreas Strobl
+Author-email: strobland@fim.uni-passau.de
+Keywords: ipython,jupyter,widgets
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipywidgets (>=7.6.0)
+Requires-Dist: ogdf-python
+Requires-Dist: importlib-resources
+
+A Custom Jupyter Widget Library
