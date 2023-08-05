@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bayesprev
+Version: 0.1.1
+Summary: Bayesian estimation of population prevalence
+Author-email: Robin Ince <robince@gmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: numpy
+Requires-Dist: scipy
+Project-URL: Home, https://github.com/robince/bayesian-prevalence
