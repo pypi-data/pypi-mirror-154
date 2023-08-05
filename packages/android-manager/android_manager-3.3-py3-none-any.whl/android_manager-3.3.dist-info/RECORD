@@ -1,0 +1,13 @@
+android_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+android_manager/__main__.py,sha256=zdaIiGpnuhasJYRcwA_WRy2W7y28aU12q83FMvhoAwE,1545
+android_manager/caller.py,sha256=S2PGsVghGjrH_VqDemIHuZ8Y8YuntWz4W4vGMbDlDFA,19310
+android_manager/downloader.py,sha256=v6JVGViF-iKcY_QHHhl7WnbLNKjVOI_Qu_2LLFQnllE,2153
+android_manager/dependencies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+android_manager/dependencies/favicon.ico,sha256=8UopxCzol2kvLcqw3xuJQLzngBrVlloPx4UJpio94cc,17470
+android_manager/translations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+android_manager/translations/中文.json,sha256=I9KqnKzKAVKdJekLZpdosGUjLeWPbKT0NaZcrub7JSE,2558
+android_manager-3.3.dist-info/METADATA,sha256=byc_2BoRYIaALQm39FFAsUjc2BJ7XuTlvCbSdPo5nCQ,4955
+android_manager-3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+android_manager-3.3.dist-info/entry_points.txt,sha256=gos9FB5pfIVOmz4HWtbRulh7pVSpNaGrPFSuwN2wfsA,67
+android_manager-3.3.dist-info/top_level.txt,sha256=4kTSyRT8fy0Bo9BrYaYlqcEalcBP3zBokTWjtlhhzjM,16
+android_manager-3.3.dist-info/RECORD,,
