@@ -1,0 +1,9 @@
+gotify/__init__.py,sha256=okYoSRA53s3VWud1AotfpziTQenMQZV7f9l3u6zI1fM,273
+gotify/async_gotify.py,sha256=gPQjKW0TROKcMJpPKbOwNN0w7KDQfDzyzPrwc-mPcrI,12933
+gotify/errors.py,sha256=vumr_qc15MNFf__eDgcEh7xwSbxF2lakkv7n7EWJtUc,1118
+gotify/gotify.py,sha256=0_Bwa_e0c7s-wIY2iEpt4BvGzYu6yv06E_rHWgiS0Ng,11126
+gotify/response_types.py,sha256=og5EVwtPymriIdhxAw7lHJKvNz65mFzbsy5vypMgg-A,1428
+gotify-0.5.0.dist-info/LICENSE,sha256=M7jA_PLlCMHhWBLd0cArcz1C9NzXPRBsQZdBb1yHGkw,1068
+gotify-0.5.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+gotify-0.5.0.dist-info/METADATA,sha256=q6OxseplhsAHmxS6LyUvEOSkgl-lJIe8-Ge5xECnozY,5870
+gotify-0.5.0.dist-info/RECORD,,
