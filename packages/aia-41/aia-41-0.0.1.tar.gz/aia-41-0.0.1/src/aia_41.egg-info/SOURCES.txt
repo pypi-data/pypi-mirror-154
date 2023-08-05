@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aia41/__init__.py
+src/aia41/main.py
+src/aia_41.egg-info/PKG-INFO
+src/aia_41.egg-info/SOURCES.txt
+src/aia_41.egg-info/dependency_links.txt
+src/aia_41.egg-info/top_level.txt
