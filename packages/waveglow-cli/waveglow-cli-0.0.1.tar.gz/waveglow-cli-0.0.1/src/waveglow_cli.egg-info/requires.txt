@@ -1,0 +1,17 @@
+torch
+mel-cepstral-distance>=0.0.1
+pandas
+librosa
+plotly
+scikit-image
+matplotlib
+scikit-learn
+tqdm
+wget
+gdown
+Unidecode
+Pillow
+fastdtw
+numpy
+scipy
+ordered_set>=4.1.0
