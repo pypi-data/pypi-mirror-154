@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mlmetrics/__init__.py
+src/mlmetrics/client.py
+src/mlmetrics_io.egg-info/PKG-INFO
+src/mlmetrics_io.egg-info/SOURCES.txt
+src/mlmetrics_io.egg-info/dependency_links.txt
+src/mlmetrics_io.egg-info/requires.txt
+src/mlmetrics_io.egg-info/top_level.txt
