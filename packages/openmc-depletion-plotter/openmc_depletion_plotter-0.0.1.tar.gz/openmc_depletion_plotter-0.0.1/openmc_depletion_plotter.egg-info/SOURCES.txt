@@ -1,0 +1,16 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/python-publish.yml
+examples/plot_simple_material.py
+openmc_depletion_plotter/__init__.py
+openmc_depletion_plotter/_version.py
+openmc_depletion_plotter/core.py
+openmc_depletion_plotter.egg-info/PKG-INFO
+openmc_depletion_plotter.egg-info/SOURCES.txt
+openmc_depletion_plotter.egg-info/dependency_links.txt
+openmc_depletion_plotter.egg-info/requires.txt
+openmc_depletion_plotter.egg-info/top_level.txt
