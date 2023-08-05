@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pineworkslabs
+Version: 0.1.0
+Summary: An access layer for the Pineworks Labs RP2040 GPIO board
+Home-page: https://gitlab.com/pineworkslabs/rp-2040-gpio-board
+Author: Pineworks Labs
+Author-email: shelby@pineworkslabs.com
+Project-URL: Bug Tracker, https://gitlab.com/pineworkslabs/rp-2040-gpio-board/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pineworks Labs RP2040 GPIO
+
+## Importing
+
+To import this package, run: `import pineworkslabs.GPIO as GPIO`
+
+## Connecting to the GPIO
+
+When the package is imported, the setup code will find a compatible GPIO board on a connected COM port.
+
+### Example: blink an LED
+
+```
+import time
+GPIO.setmode(GPIO.PINEWORKS)
+
+pin = 20
+
+while True:
+    try:
+        GPIO.setup(pin, GPIO.OUT)
+        GPIO.output(pin, GPIO.HIGH)
+        time.sleep(0.25)
+        GPIO.output(pin, GPIO.LOW)
+        time.sleep(0.25)
+    except KeyboardInterrupt:
+        GPIO.cleanup()
+```
+
+## Acknowledgements
+
+We are indebted to the work of the [telemetrix](https://pypi.org/project/telemetrix-rpi-pico/) team for connectivity between the PC and the GPIO board.
