@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+cryptg/__init__.py
+telethon_pyaesni.egg-info/PKG-INFO
+telethon_pyaesni.egg-info/SOURCES.txt
+telethon_pyaesni.egg-info/dependency_links.txt
+telethon_pyaesni.egg-info/requires.txt
+telethon_pyaesni.egg-info/top_level.txt
