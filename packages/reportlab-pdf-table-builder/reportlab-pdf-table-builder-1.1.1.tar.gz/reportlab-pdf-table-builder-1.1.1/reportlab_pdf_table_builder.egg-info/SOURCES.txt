@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pdf_table_builder/__init__.py
+pdf_table_builder/builder.py
+pdf_table_builder/consts.py
+reportlab_pdf_table_builder.egg-info/PKG-INFO
+reportlab_pdf_table_builder.egg-info/SOURCES.txt
+reportlab_pdf_table_builder.egg-info/dependency_links.txt
+reportlab_pdf_table_builder.egg-info/requires.txt
+reportlab_pdf_table_builder.egg-info/top_level.txt
