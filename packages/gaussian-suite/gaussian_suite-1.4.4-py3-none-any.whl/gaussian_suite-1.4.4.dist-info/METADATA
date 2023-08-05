@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gaussian-suite
+Version: 1.4.4
+Summary: A package for working with Gaussian input and output files
+Author: Chilton Group
+Author-email: nicholas.chilton@manchester.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xyz-py (>=0.0.16)
+Requires-Dist: requests
+Requires-Dist: hpc-suite (>=1.2.0)
+Requires-Dist: deprecation
+
+UNKNOWN
+
