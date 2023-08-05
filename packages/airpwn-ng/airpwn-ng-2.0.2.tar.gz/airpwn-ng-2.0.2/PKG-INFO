@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: airpwn-ng
+Version: 2.0.2
+Summary: Packet injection for wifi; simplified.
+Home-page: https://github.com/ICSec/airpwn-ng
+Author: stryngs and Jack64
+License: GNU General Public License v3
+Keywords: 802.11 Packet Injection
+Platform: UNKNOWN
+
+Packet injection for wifi; simplified.
+
