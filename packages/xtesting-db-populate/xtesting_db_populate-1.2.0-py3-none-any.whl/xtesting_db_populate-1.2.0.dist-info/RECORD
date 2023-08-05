@@ -1,0 +1,10 @@
+setup.py,sha256=qAsNL76TUikMJ3svbXQpiy0RiZ9fd7lNSMYuGMvX4FQ,995
+xtesting_db_populate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xtesting_db_populate/api.py,sha256=XVWMZobQs_9ydKrUR5zaAIEHfyemEwvVpviYHbyaFGM,1435
+xtesting_db_populate/config.py,sha256=d1A3RaXaHAOcn_mwfjtFaIl8TcCJ7NFEGZJx6V8x2jU,2467
+xtesting_db_populate/output.py,sha256=80pISDV2aLz64QS6UK-rXtDVfIyJx8tK_4891u_yliI,524
+xtesting_db_populate-1.2.0.data/scripts/xtesting-db-populate,sha256=x9Ocy3sWYnY_r6Pvi5qO77h2WTJFwaHYUU7wdIh-r-0,820
+xtesting_db_populate-1.2.0.dist-info/METADATA,sha256=OxI4O-2fX5a3RkKyw1QKXDIVIpo59sfBLZZmNbGagsE,2057
+xtesting_db_populate-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xtesting_db_populate-1.2.0.dist-info/top_level.txt,sha256=7ggeie4LAHdbX6cKie3KoELZoP56ySWvpi-PLvo-k4A,27
+xtesting_db_populate-1.2.0.dist-info/RECORD,,
