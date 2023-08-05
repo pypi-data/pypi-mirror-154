@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyroll-hensel-power-and-labour
+Version: 1.0.0
+Summary: PyRoll plugin providing roll force and roll torque empirical approach by A. Hensel.
+Home-page: https://pyroll-project.github.io/
+License: BSD-3-Clause
+Requires-Python: >=3.9,<3.11
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: pyroll (>=1.0.0,<2.0.0)
+Project-URL: Documentation, https://github.com/pyroll-project/pyroll-hensel-power-and-labour/blob/main/docs/docs.pdf
+Project-URL: Repository, https://github.com/pyroll-project/pyroll-hensel-power-and-labour
+Description-Content-Type: text/markdown
+
+# PyRoll Hensel Force
+
+PyRoll plugin providing roll force and roll torque empirical approach by A. Hensel
