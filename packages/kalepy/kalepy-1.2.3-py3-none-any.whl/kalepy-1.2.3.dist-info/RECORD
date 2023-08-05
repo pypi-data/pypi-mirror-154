@@ -1,0 +1,14 @@
+kalepy/VERSION.txt,sha256=2C80rpqkG8Sgy1KaGsCJj-0J1rR5-xzETLZsNPFe6E0,6
+kalepy/__init__.py,sha256=9JBFzJNmgNfHTjZfDSnjrwph3LZFg3DgUCSfKslYJCg,11656
+kalepy/__main__.py,sha256=MIoPiHwFMtBQa3QjF3CVxfyfJOEHPwjxxLd2SQ6zBK8,8
+kalepy/kde.py,sha256=qSj-oiJA_yk4fi0c9zJHz8Mi4O_6Dnf66SzmOPpmJ58,29880
+kalepy/kernels.py,sha256=Rmo2XublcYRuNjcdoSXACxKPJ_yxYhA48bE-xVKbkmM,25694
+kalepy/plot.py,sha256=Pmy6sjf7c1iK7jT-i1fRCcr0oTjEXcyNRGix0pMtIkQ,92019
+kalepy/sample.py,sha256=clAxgGdzKSegaKgpv4fOyxlL95YNjn7HIjp2IDN25jE,23752
+kalepy/speed-test.py,sha256=ayfqDM3oeem445Se6aQWaPQT6REBcyjZKuVvj6sOSnU,1127
+kalepy/utils.py,sha256=lVx20tz0mtYXV9nK6ElzSJa_6dOTfm68F8WgfWFQfnQ,45966
+kalepy-1.2.3.dist-info/LICENSE,sha256=9z4uJfylvKu8Q_gpS3pGtTQ2vbdLS-Cbq7Ym-ddla4A,32568
+kalepy-1.2.3.dist-info/METADATA,sha256=ieJ5YPOX9LZlFeD8MbhZgYk774ggGiOjlmJJvvkYwIo,14482
+kalepy-1.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kalepy-1.2.3.dist-info/top_level.txt,sha256=6zIbVI-i55-KDroRr9m6UHXTls782GXuWxMd_-5DY40,7
+kalepy-1.2.3.dist-info/RECORD,,
