@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+FLHT/__init__.py
+FLHT.egg-info/PKG-INFO
+FLHT.egg-info/SOURCES.txt
+FLHT.egg-info/dependency_links.txt
+FLHT.egg-info/requires.txt
+FLHT.egg-info/top_level.txt
