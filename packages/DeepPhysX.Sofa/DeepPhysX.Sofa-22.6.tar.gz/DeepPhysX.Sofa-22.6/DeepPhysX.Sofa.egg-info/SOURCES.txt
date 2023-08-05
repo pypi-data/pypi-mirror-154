@@ -1,0 +1,14 @@
+README.md
+setup.py
+DeepPhysX.Sofa.egg-info/PKG-INFO
+DeepPhysX.Sofa.egg-info/SOURCES.txt
+DeepPhysX.Sofa.egg-info/dependency_links.txt
+DeepPhysX.Sofa.egg-info/requires.txt
+DeepPhysX.Sofa.egg-info/top_level.txt
+src/__init__.py
+src/Environment/SofaEnvironment.py
+src/Environment/SofaEnvironmentConfig.py
+src/Environment/__init__.py
+src/Environment/launcherSofaEnvironment.py
+src/Pipeline/SofaRunner.py
+src/Pipeline/__init__.py
