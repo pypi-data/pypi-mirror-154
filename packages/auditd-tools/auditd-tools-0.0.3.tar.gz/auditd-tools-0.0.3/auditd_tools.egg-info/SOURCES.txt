@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./auditd_tools/__init__.py
+./auditd_tools/event_parser.py
+auditd_tools.egg-info/PKG-INFO
+auditd_tools.egg-info/SOURCES.txt
+auditd_tools.egg-info/dependency_links.txt
+auditd_tools.egg-info/top_level.txt
