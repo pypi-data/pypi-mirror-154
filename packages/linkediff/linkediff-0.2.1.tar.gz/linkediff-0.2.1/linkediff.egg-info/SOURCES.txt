@@ -1,0 +1,16 @@
+.gitignore
+Dockerfile
+LICENSE
+README.md
+setup.py
+.github/workflows/docker-image.yml
+.github/workflows/python-package.yml
+linkediff/__init__.py
+linkediff/cli.py
+linkediff.egg-info/PKG-INFO
+linkediff.egg-info/SOURCES.txt
+linkediff.egg-info/dependency_links.txt
+linkediff.egg-info/entry_points.txt
+linkediff.egg-info/requires.txt
+linkediff.egg-info/top_level.txt
+scripts/linux_no_dep.sh

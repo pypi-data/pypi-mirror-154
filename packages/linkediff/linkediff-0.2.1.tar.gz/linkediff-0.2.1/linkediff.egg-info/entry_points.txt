@@ -1,0 +1,3 @@
+[console_scripts]
+linkediff = linkediff.cli:main
+
