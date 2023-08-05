@@ -1,0 +1,7 @@
+defaults:
+  - _default
+  - stackplot: default
+
+name: StackPlot
+plots:
+  - ${..stackplot}
