@@ -1,0 +1,8 @@
+xmlrpcutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xmlrpcutils/server.py,sha256=42hcFdf792OZxevrW-KDPQXVeG5ud6Y-wWZrSnzQIdM,8367
+xmlrpcutils/service.py,sha256=T-j8Bw6rixXGRrkuC_oBeJv3lAb4i14H5QFQy8KeRag,4956
+xmlrpcutils-0.4.3.dist-info/LICENSE,sha256=wrPxmWHmc6JpmCmTdGeFVG9AGFqB2LPz0n6N1SMcE4M,1067
+xmlrpcutils-0.4.3.dist-info/METADATA,sha256=Xaa22ribJUQB7qVy_EzWQ-a4MUS4BMYmtm2mNZUN0yg,3955
+xmlrpcutils-0.4.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xmlrpcutils-0.4.3.dist-info/top_level.txt,sha256=_UUXnEu-8QJyVl5vt6FmTpc1wcJVBIEmdzHZjBnXDi4,12
+xmlrpcutils-0.4.3.dist-info/RECORD,,
