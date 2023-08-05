@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fuzzymatcher
+Version: 0.0.6
+Summary: Fuzzy match two pandas dataframes based on one or more common fields
+Home-page: https://github.com/RobinL/fuzzymatcher
+Download-URL: https://github.com/RobinL/fuzzymatcher/archive/v0.0.6.tar.gz
+Author: Robin Linacre
+Author-email: robinlinacre@hotmail.com
+License: MIT
+Keywords: matching,fuzzy,probabalistic,recordlinking,fuzzymatching
+License-File: LICENSE

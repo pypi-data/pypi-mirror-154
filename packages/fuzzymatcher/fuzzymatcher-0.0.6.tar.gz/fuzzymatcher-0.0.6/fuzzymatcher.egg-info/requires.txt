@@ -1,0 +1,5 @@
+pandas
+metaphone
+python-Levenshtein
+rapidfuzz
+python-dateutil
