@@ -1,0 +1,13 @@
+aws_utilities/ApiGateway.py,sha256=sb73_Jm2o4mAKI-86rxQbPvBIyKA2-torSBw3g35XIg,33930
+aws_utilities/AwsApiReports.py,sha256=xuVohzYIKxqpPUPwHs2ZGqow8_lVaQTjFQxxDhmiuPI,4216
+aws_utilities/Lambda.py,sha256=6lKAqbLjyaBvj-UPnfoT3AfcgRH4cB-URmzTq-kznVk,50534
+aws_utilities/S3.py,sha256=Y-K6oRnk9JKSsC4OKEB_Tjahwd1x7s2w_7CQNO5mJDo,11187
+aws_utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_utilities/aws_base.py,sha256=cI2G_FGr0isivDQXeZo7QlpgYOZOLO_UZwVpuJaB39g,20195
+aws_utilities/aws_utilities.py,sha256=9a-esrr2emKjq5UI622poOTnPix8D1cumyHQ05eY7Zo,1305
+aws_utilities/ses.py,sha256=kIgxOysjE5MVoOOxgLDHTosgSxcwG2IU0uKJ0Jn41m0,4051
+py_aws_utilities-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+py_aws_utilities-0.0.3.dist-info/METADATA,sha256=m_iTrdZKvq_dzGLKOXjL7B7W8a8HPUNPa5Q0fBsTMoA,757
+py_aws_utilities-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+py_aws_utilities-0.0.3.dist-info/top_level.txt,sha256=s6WpiOp3uTFfMRQcid36HMzA_Bjqetx7vEX5amxU7S4,14
+py_aws_utilities-0.0.3.dist-info/RECORD,,
