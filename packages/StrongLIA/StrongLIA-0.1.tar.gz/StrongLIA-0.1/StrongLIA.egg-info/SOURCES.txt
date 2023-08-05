@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+StrongLIA/__init__.py
+StrongLIA/models.py
+StrongLIA/optimization.py
+StrongLIA.egg-info/PKG-INFO
+StrongLIA.egg-info/SOURCES.txt
+StrongLIA.egg-info/dependency_links.txt
+StrongLIA.egg-info/requires.txt
+StrongLIA.egg-info/top_level.txt
+StrongLIA/data/__init__.py
+StrongLIA/test/__init__.py
