@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: risul-tid-regression-model
+Version: 0.0.1
+Summary: Risul: Example regression model package from Train In Data.
+Home-page: https://github.com/trainindata/testing-and-monitoring-ml-deployments
+Author: Risul Islam
+Author-email: risla002@ucr.edu
+License: BSD-3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.22.4)
+Requires-Dist: pandas (==1.4.2)
+Requires-Dist: pydantic (==1.9.1)
+Requires-Dist: scikit-learn (==1.1.1)
+Requires-Dist: strictyaml (==1.6.1)
+Requires-Dist: ruamel.yaml (==0.17.21)
+Requires-Dist: feature-engine (==1.0.2)
+Requires-Dist: joblib (==1.0.1)
+
+Risul: Example regression model package from Train In Data.
