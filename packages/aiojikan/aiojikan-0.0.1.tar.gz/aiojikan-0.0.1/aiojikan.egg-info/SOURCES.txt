@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aiojikan/__init__.py
+aiojikan/client.py
+aiojikan/exceptions.py
+aiojikan/models.py
+aiojikan.egg-info/PKG-INFO
+aiojikan.egg-info/SOURCES.txt
+aiojikan.egg-info/dependency_links.txt
+aiojikan.egg-info/top_level.txt
