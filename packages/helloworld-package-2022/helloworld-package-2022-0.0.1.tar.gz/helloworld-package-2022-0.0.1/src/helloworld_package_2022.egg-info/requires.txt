@@ -1,0 +1,17 @@
+blessings~=1.7
+
+[dev]
+pytest>=3.7
+tox
+mkdocs==1.1.2
+mkdocs-material==7.1.5
+mkdocs-minify-plugin==0.4.0
+mkdocs-git-revision-date-localized-plugin==0.9.2
+mkdocs-git-authors-plugin==0.3.3
+mkdocs-table-reader-plugin==0.5
+mkdocs-img2fig-plugin==0.9.3
+mknotebooks==0.7.0
+mkdocs-awesome-pages-plugin==2.5.0
+mkdocs-enumerate-headings-plugin==0.4.4
+mkdocs-print-site-plugin==1.2.3
+mkgendocs==0.8.1
