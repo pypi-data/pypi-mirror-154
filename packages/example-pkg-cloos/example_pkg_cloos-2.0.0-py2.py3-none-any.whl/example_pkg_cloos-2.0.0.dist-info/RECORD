@@ -1,0 +1,9 @@
+example_pkg_cloos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_pkg_cloos/cli.py,sha256=4z26FPF-jIZhaKbNZ3o6oV8A9M8iZmPt0r4lWffBuqM,615
+example_pkg_cloos/utils.py,sha256=tHPSgjxZmixB8beOXMSyQwXzt8uNH5Em3Vsgai4bkqM,201
+example_pkg_cloos-2.0.0.dist-info/LICENSE,sha256=ki0o2bulACa5QCg7Qv4bohVQlIuZ0Ra8LFA9go0XbCU,1071
+example_pkg_cloos-2.0.0.dist-info/METADATA,sha256=3r6CSkBrNMqKvZ_goU0pfAtD95nGW2EO5pnWMijm-0I,2764
+example_pkg_cloos-2.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+example_pkg_cloos-2.0.0.dist-info/entry_points.txt,sha256=KrDQd6UhJC7vxLPh9C7GjZ40cPw2GiwtAS7J4Luh1mw,65
+example_pkg_cloos-2.0.0.dist-info/top_level.txt,sha256=HJV-QWtY7V5Lagwy5N-gaP1X0ZxWAnWGOwIExhWJukg,18
+example_pkg_cloos-2.0.0.dist-info/RECORD,,
