@@ -1,0 +1,2 @@
+[flaskbb_plugins]
+conversations = conversations
