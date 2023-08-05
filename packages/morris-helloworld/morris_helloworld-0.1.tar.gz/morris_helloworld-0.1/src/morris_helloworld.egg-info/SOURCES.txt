@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test_helloworld.py
+__pycache__/test_helloworld.cpython-38-pytest-7.1.2.pyc
+dist/morris_helloworld-0.1-py3-none-any.whl
+dist/morris_helloworld-0.1.tar.gz
+src/helloworld.py
+src/__pycache__/helloworld.cpython-38.pyc
+src/morris_helloworld.egg-info/PKG-INFO
+src/morris_helloworld.egg-info/SOURCES.txt
+src/morris_helloworld.egg-info/dependency_links.txt
+src/morris_helloworld.egg-info/top_level.txt
