@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "flit_ext"
+authors = [{name = "Youseok Yang", email = "ileixe@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+dependencies = [
+    "flit-core~=3.5",
+    "setuptools_scm~=6.4",
+    "tomli",
+]
+
+[project.urls]
+Home = "https://github.com/ileixe/flit_ext"
+
+[project.entry-points."setuptools_scm.local_scheme"]
+force-local-version = "flit_ext.version:local_version"
