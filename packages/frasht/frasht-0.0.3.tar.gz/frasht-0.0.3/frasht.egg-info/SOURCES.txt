@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+frasht/__init__.py
+frasht/say.py
+frasht.egg-info/PKG-INFO
+frasht.egg-info/SOURCES.txt
+frasht.egg-info/dependency_links.txt
+frasht.egg-info/top_level.txt
