@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: logrot-tool
+Version: 1.0.0
+Summary: Log rotation tool in Python
+Home-page: https://gitlab.com/xgqt/python-logrot
+Author: Maciej Barć
+Author-email: xgqt@riseup.net
+License: GPL-3
+Keywords: system
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
+
+UNKNOWN
+

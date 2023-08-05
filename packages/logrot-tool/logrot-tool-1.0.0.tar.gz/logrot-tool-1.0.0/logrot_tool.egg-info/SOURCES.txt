@@ -1,0 +1,9 @@
+setup.py
+logrot_tool/__init__.py
+logrot_tool/main.py
+logrot_tool.egg-info/PKG-INFO
+logrot_tool.egg-info/SOURCES.txt
+logrot_tool.egg-info/dependency_links.txt
+logrot_tool.egg-info/entry_points.txt
+logrot_tool.egg-info/not-zip-safe
+logrot_tool.egg-info/top_level.txt
