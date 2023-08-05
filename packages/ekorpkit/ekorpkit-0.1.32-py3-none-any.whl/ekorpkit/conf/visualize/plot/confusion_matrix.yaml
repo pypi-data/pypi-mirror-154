@@ -1,0 +1,7 @@
+defaults:
+  - default
+  - confusion_matrix: default
+
+name: confusion_matrix
+plots:
+  - ${..confusion_matrix}

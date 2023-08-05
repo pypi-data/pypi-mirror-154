@@ -1,0 +1,7 @@
+defaults:
+  - default
+  - lineplot: default
+
+name: LinePlot
+plots:
+  - ${..lineplot}
