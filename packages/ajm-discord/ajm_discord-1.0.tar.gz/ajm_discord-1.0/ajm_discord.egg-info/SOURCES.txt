@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+ajm_discord/__init__.py
+ajm_discord/ajm_discord.py
+ajm_discord.egg-info/PKG-INFO
+ajm_discord.egg-info/SOURCES.txt
+ajm_discord.egg-info/dependency_links.txt
+ajm_discord.egg-info/requires.txt
+ajm_discord.egg-info/top_level.txt
