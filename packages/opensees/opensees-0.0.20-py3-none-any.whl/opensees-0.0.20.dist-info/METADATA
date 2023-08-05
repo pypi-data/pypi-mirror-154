@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: opensees
+Version: 0.0.20
+Summary: opensees
+Home-page: https://brace2.github.io/OpenSeesRT
+Author: Claudio M. Perez
+Author-email: claudio_perez@berkeley.edu
+Keywords: seismic,earthquake,parser
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: numpy (<1.20.0) ; python_version < "3.8"
+Requires-Dist: scipy (<1.6.0) ; python_version == "3.6"
+Requires-Dist: scipy (<1.8) ; python_version == "3.7"
+Requires-Dist: scipy (>1.6.0) ; python_version > "3.7"
+Requires-Dist: numpy ; python_version >= "3.8"
+Provides-Extra: docs
+Requires-Dist: elstir ; extra == 'docs'
+Requires-Dist: jaraco.packaging (>=8.2) ; extra == 'docs'
+Requires-Dist: rst.linker (>=1.9) ; extra == 'docs'
+Provides-Extra: plots
+Requires-Dist: matplotlib ; extra == 'plots'
+Provides-Extra: testing
+Requires-Dist: pytest (>=4.6) ; extra == 'testing'
+Requires-Dist: pytest-checkdocs (>=2.4) ; extra == 'testing'
+Requires-Dist: pytest-flake8 ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-enabler (>=1.0.1) ; extra == 'testing'
+Requires-Dist: pandas ; extra == 'testing'
+Requires-Dist: pytest-black (>=0.3.7) ; (platform_python_implementation != "PyPy" and python_version < "3.10") and extra == 'testing'
+Requires-Dist: pytest-mypy ; (platform_python_implementation != "PyPy" and python_version < "3.10") and extra == 'testing'
+
+# OpenSees
+
+*Idiomatic* and *idempotent* C++ bindings to the OpenSees framework.
+
+--------------------------------------------------------------------
+
+
