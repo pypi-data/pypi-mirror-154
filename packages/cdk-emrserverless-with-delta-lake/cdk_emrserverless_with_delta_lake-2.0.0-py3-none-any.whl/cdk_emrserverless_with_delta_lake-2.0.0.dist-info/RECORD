@@ -1,0 +1,9 @@
+cdk_emrserverless_with_delta_lake/__init__.py,sha256=JGqaQaUZPA8RENa9vODWrNWySiuTFEJ5VW5ePEV_l8k,50976
+cdk_emrserverless_with_delta_lake/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_emrserverless_with_delta_lake/_jsii/__init__.py,sha256=ORX0LMBiIG-oHAIQE9dJGuC1C4JaTTnLc_T7YkGaTLc,412
+cdk_emrserverless_with_delta_lake/_jsii/cdk-emrserverless-with-delta-lake@2.0.0.jsii.tgz,sha256=Sa7UPQbT3lw6OqZUVtZV9bDfnRXIYjOtE16aAFfDgfw,1578642
+cdk_emrserverless_with_delta_lake-2.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_emrserverless_with_delta_lake-2.0.0.dist-info/METADATA,sha256=e4Me2Gv72k2Dza_9ZAV4nVibUYVfxujEsa2FwzDNVtQ,10851
+cdk_emrserverless_with_delta_lake-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdk_emrserverless_with_delta_lake-2.0.0.dist-info/top_level.txt,sha256=bCGxtUE8InJ5ril93xzBr0c9pHoR0Modu6cD-nxXqsg,34
+cdk_emrserverless_with_delta_lake-2.0.0.dist-info/RECORD,,
