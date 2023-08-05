@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mugbem
+Version: 4.2.0.1
+Summary: mugbem
+Author: JC
+Author-email: jeniokatutza@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: websocket-client
+Requires-Dist: requests
+Requires-Dist: rel
+
+mugbem
+
