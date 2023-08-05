@@ -1,0 +1,13 @@
+.DS_Store
+README.md
+setup.cfg
+setup.py
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+src/.DS_Store
+src/coviddollar.py
+src/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+src/coviddollar.egg-info/PKG-INFO
+src/coviddollar.egg-info/SOURCES.txt
+src/coviddollar.egg-info/dependency_links.txt
+src/coviddollar.egg-info/entry_points.txt
+src/coviddollar.egg-info/top_level.txt
