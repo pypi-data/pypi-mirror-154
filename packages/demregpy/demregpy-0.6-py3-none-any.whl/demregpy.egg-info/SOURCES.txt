@@ -1,0 +1,8 @@
+README.md
+setup.py
+demregpy.egg-info/PKG-INFO
+demregpy.egg-info/SOURCES.txt
+demregpy.egg-info/dependency_links.txt
+demregpy.egg-info/not-zip-safe
+demregpy.egg-info/requires.txt
+demregpy.egg-info/top_level.txt
