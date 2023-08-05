@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: errorcalc
+Version: 0.0.1
+Summary: This is a simple package to find error values(Mean absolute error,Mean squared error,Root mean squared error)
+Home-page: UNKNOWN
+Author: Sujithasuresh
+Author-email: sujithasuresh0307@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE. txt
+
+UNKNOWN
+
