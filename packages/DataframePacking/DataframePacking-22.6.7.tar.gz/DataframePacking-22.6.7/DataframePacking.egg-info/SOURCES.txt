@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+DataframePacking.egg-info/PKG-INFO
+DataframePacking.egg-info/SOURCES.txt
+DataframePacking.egg-info/dependency_links.txt
+DataframePacking.egg-info/requires.txt
+DataframePacking.egg-info/top_level.txt
+dataframe_packing/__init__.py
+dataframe_packing/tests/__init__.py
+dataframe_packing/tests/test_all.py
