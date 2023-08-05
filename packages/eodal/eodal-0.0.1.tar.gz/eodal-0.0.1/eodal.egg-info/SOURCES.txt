@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+eodal.egg-info/PKG-INFO
+eodal.egg-info/SOURCES.txt
+eodal.egg-info/dependency_links.txt
+eodal.egg-info/top_level.txt
