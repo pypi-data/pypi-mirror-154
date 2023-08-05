@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+cfa/__init__.py
+cfa/main.py
+cfa/url.py
+create_flask_project.egg-info/PKG-INFO
+create_flask_project.egg-info/SOURCES.txt
+create_flask_project.egg-info/dependency_links.txt
+create_flask_project.egg-info/entry_points.txt
+create_flask_project.egg-info/requires.txt
+create_flask_project.egg-info/top_level.txt
+test/__init__.py
+test/test_cli.py
