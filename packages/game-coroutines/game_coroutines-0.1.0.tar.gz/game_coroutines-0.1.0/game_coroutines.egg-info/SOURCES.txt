@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+game_coroutines/__init__.py
+game_coroutines/coroutine.py
+game_coroutines/coroutine_manager.py
+game_coroutines/sequence.py
+game_coroutines.egg-info/PKG-INFO
+game_coroutines.egg-info/SOURCES.txt
+game_coroutines.egg-info/dependency_links.txt
+game_coroutines.egg-info/not-zip-safe
+game_coroutines.egg-info/top_level.txt
