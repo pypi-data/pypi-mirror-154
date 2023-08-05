@@ -1,0 +1,11 @@
+win_precise_time/__init__.py,sha256=8wiXrgf1mI03mhpFK9drQlV2TGk1n2m4iaVVaT8qtnQ,179
+win_precise_time/_t.c,sha256=9CLCwfSHdvSISNmWJZklpmkZEMqL5Q923n143PoQlD4,1731
+win_precise_time/_t.h,sha256=7pbM_yIRgbu4EG8FEJAqwbYO2yDGS0hTbE1KwW-UEiU,345
+win_precise_time/_t.pyd,sha256=YT8eDB1avBqbAM3hg24WAq564vqPCzdR-m1gdkCZH_Q,10752
+win_precise_time/_t.pyi,sha256=SUa2P-9-CwUts4WPz5kLnN5O8p6zzZ26M7wkdz2PQ1Q,145
+win_precise_time/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+win_precise_time-1.0.3.dist-info/LICENSE.txt,sha256=q1CxQGSM0KcScJdUdoKf0xp-s05OtVErixKmO2g6LTU,1112
+win_precise_time-1.0.3.dist-info/METADATA,sha256=e4clpvASmPw2zIHophZavYsRoS4alGTNrJYtLC85H_U,2403
+win_precise_time-1.0.3.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+win_precise_time-1.0.3.dist-info/top_level.txt,sha256=ZeX6Z3qDABg1PS72WzFJzVzGFTypXy8P-YQNDHu4nFE,17
+win_precise_time-1.0.3.dist-info/RECORD,,
