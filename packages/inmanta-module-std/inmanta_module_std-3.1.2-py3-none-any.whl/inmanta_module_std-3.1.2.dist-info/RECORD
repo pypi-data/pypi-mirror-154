@@ -1,0 +1,8 @@
+inmanta_plugins/std/__init__.py,sha256=vSQhcGOh-3q8wimrXCe83EaEML2GbeZ9M51bDCHCWNU,29645
+inmanta_plugins/std/resources.py,sha256=4GB4uoQkTqIB34GvLXUvlgqFV9SNeNHO41-c5lcZJpE,20901
+inmanta_plugins/std/setup.cfg,sha256=eNcpJQZ-EHK4fZXTqVBXXkASIOStVjfXWeNNUsMKUTg,363
+inmanta_plugins/std/model/_init.cf,sha256=e9Xg4yo9E--PDbC79kbN9WWih8gn1hVO3WMnsBOxIFA,18179
+inmanta_module_std-3.1.2.dist-info/METADATA,sha256=fCe9E8t-ZtEVdmok8GaCIlde8tSCew3LepZPzKcfBwY,244
+inmanta_module_std-3.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+inmanta_module_std-3.1.2.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_std-3.1.2.dist-info/RECORD,,
