@@ -1,0 +1,17 @@
+.DS_Store,sha256=DSkgVIgoczMIDa_d4ylTaJR7vavxIZmNJ8pRbR4ZGJQ,6148
+riskfolio/AuxFunctions.py,sha256=SLBLXajPQReVLyDxkhTAyVuEfbfTAwizHi8U2F8I4T8,36333
+riskfolio/ConstraintsFunctions.py,sha256=zgEIqN3WpVsskJtc0PStFuoBDFVB7RTEcTnhIk408dA,36565
+riskfolio/DBHT.py,sha256=bMgOUyBqe1FMV8Iv5AuL4P7-1vCld7dWDNGt2yc8Kpo,35835
+riskfolio/HCPortfolio.py,sha256=ADVnbHrwjh8lWAqHfYbBr_qtkz40oPAhQ73VmCXmpE4,33512
+riskfolio/OwaWeights.py,sha256=5kNXDXnLx5_NwhNBWErXI6YzL1P0NtWI9QKUm6P9cPU,6181
+riskfolio/ParamsEstimation.py,sha256=fMeox4abDMOt_BLaV3Qp68lkI07qDxYFKglspYC61vQ,56234
+riskfolio/PlotFunctions.py,sha256=BZ5fWtIFELaXrjlIIapxKqIheZxtCMwv7W-Kip4i3OY,87145
+riskfolio/Portfolio.py,sha256=7-0m7vQGRv2DLCZCARR1MV_iTc7NBp4jDfOVrym7hzQ,120306
+riskfolio/Reports.py,sha256=-msa5pO1ra-iWWo6MP6a9Kqad3VAZQN_duV4305cmyk,20587
+riskfolio/RiskFunctions.py,sha256=LvEzt8tB_UuK5-q0cmDbRI14c7b9oUyHwXujfAb2WXg,46059
+riskfolio/__init__.py,sha256=x15krkwyAikoYgWdgBp9EodIxugJgFwgs3ilzZFDdqE,530
+Riskfolio_Lib-3.2.0.dist-info/LICENSE.txt,sha256=QRp0wNoakj_IZYZ5qK6RDth3Cvt_4nl1uWwS3qgCSjQ,1513
+Riskfolio_Lib-3.2.0.dist-info/METADATA,sha256=Plwhtsr5XR29f2vJZadR84PbX3M8aVONGNRZgPgNat0,10255
+Riskfolio_Lib-3.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Riskfolio_Lib-3.2.0.dist-info/top_level.txt,sha256=-Tc-igiNXniQkr1rMndcn3-VT2wgdRdavZv0xAExuw0,10
+Riskfolio_Lib-3.2.0.dist-info/RECORD,,
