@@ -1,0 +1,15 @@
+README.md
+setup.py
+ukkomotif/__init__.py
+ukkomotif/main.py
+ukkomotif/parser.py
+ukkomotif/ukkonen.py
+ukkomotif/weeder.py
+ukkomotif.egg-info/PKG-INFO
+ukkomotif.egg-info/SOURCES.txt
+ukkomotif.egg-info/dependency_links.txt
+ukkomotif.egg-info/entry_points.txt
+ukkomotif.egg-info/requires.txt
+ukkomotif.egg-info/top_level.txt
+ukkomotif/cli/__init__.py
+ukkomotif/cli/main.py
