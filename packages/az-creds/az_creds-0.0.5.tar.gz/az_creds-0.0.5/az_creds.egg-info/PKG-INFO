@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: az-creds
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/jilanisayyad/fetch_credentials
+Author: Jilani Sayyad
+Author-email: sayyedjilani88@gmail.com
+License: GNU
+Keywords: get_creds,fetch_credentials,azure,aks,azure-cli
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Fetch Azure Kubernetes Services credentials 
+
+This is a program which is responsible to fetch the AKS credentials using azure-cli.
+
+## Installing the package
+
+```
+pip install az_creds
+```
+
+## Dependencies 
+  - azure-cli
+
+```
+# for debian based systems
+sudo apt-get install azure-cli
+
+# for rpm based systems
+sudo yum install azure-cli
+```
+
+## Usage:
+
+Open your terminal and run the following command:
+
+```
+az_creds
+```
+
+
+
+
+
