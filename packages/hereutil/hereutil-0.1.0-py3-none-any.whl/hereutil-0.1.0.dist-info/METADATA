@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hereutil
+Version: 0.1.0
+Summary: Small utility to manage importing/sourcing python from under here()
+Home-page: https://github.com/hsci-r/hereutil
+License: MIT
+Keywords: here,importing,sourcing
+Author: Eetu Mäkelä
+Author-email: eetu.makela@iki.fi
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyprojroot (>=0.2.0,<0.3.0)
+Project-URL: Repository, https://github.com/hsci-r/hereutil
+Description-Content-Type: text/markdown
+
+# hereutil
+
+A small set of utility functions to make importing/sourcing python from under here() easier. 
+
+
