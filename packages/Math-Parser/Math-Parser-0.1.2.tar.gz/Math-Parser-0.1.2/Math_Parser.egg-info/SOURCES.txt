@@ -1,0 +1,10 @@
+README.md
+setup.py
+Math_Parser.egg-info/PKG-INFO
+Math_Parser.egg-info/SOURCES.txt
+Math_Parser.egg-info/dependency_links.txt
+Math_Parser.egg-info/top_level.txt
+math_parser/Compute.py
+math_parser/Node.py
+math_parser/Parser.py
+math_parser/__init__.py
