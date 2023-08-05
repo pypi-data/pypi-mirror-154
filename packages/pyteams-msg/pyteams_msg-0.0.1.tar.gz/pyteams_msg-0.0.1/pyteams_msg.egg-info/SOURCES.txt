@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyteams_msg/__init__.py
+pyteams_msg/adaptivecard.py
+pyteams_msg/teamsmessage.py
+pyteams_msg.egg-info/PKG-INFO
+pyteams_msg.egg-info/SOURCES.txt
+pyteams_msg.egg-info/dependency_links.txt
+pyteams_msg.egg-info/top_level.txt
+pyteams_msg/sections/__init__.py
+pyteams_msg/sections/image.py
+pyteams_msg/sections/section.py
+pyteams_msg/sections/textblock.py
