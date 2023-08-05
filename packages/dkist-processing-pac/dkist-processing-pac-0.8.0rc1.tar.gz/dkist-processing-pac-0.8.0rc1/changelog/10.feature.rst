@@ -1,0 +1,1 @@
+Implement two-stage fitting method where Calibration Unit parameters are fit from a single globally-average bin and then fixed for the fits of each local bin's modulation matrix
