@@ -1,0 +1,11 @@
+alluxio/__init__.py,sha256=tV8F4hrTKc_D1jYOKH6FDW3nHBqh-IDcry3vVwAR4GI,503
+alluxio/client.py,sha256=ocarbbTfcVXMgzk42Jv9jKh0McxN9xMKp7eQ_uUag4g,26116
+alluxio/common.py,sha256=I9yR8q-AwZ4_f2TqNIBHvlQSaEQtJJ5IMoqMELKHP9k,1661
+alluxio/exceptions.py,sha256=Pd6U0vC1NDtTV_JkrXILMLBjlHNw4uDkyUTuroD9HwM,16279
+alluxio/option.py,sha256=qERmQypEPNFdyJbBzchybEvsDGlx6WpStUykuFBc_RY,12698
+alluxio/wire.py,sha256=zWKVR6sY3ZQY8hxSPXEDXtejI1RlIAwj5tA17jUoh60,16513
+alluxio-0.1.4.dist-info/LICENSE.txt,sha256=HTjoaI8ws2GE-pU-QeMJCvrHwby45-aq-VWwcchGzpw,27008
+alluxio-0.1.4.dist-info/METADATA,sha256=rvuLLegoMvkhMGFSZFa-ySqrQfFuhU_Z3Df_dKi-qpQ,282
+alluxio-0.1.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+alluxio-0.1.4.dist-info/top_level.txt,sha256=vLDYy1a1lTzmgDSw_b5xr_memWawrZKIaTsVne3hrJ0,8
+alluxio-0.1.4.dist-info/RECORD,,

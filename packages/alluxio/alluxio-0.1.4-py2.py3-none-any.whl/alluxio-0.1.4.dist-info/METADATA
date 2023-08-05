@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: alluxio
+Version: 0.1.4
+Summary: Alluxio python client
+Home-page: https://github.com/Alluxio/alluxio-py
+Author: Alluxio, Inc
+License: Apache-2.0
+License-File: LICENSE.txt
+Requires-Dist: six
+Requires-Dist: requests
+
+Alluxio python client based on REST API
