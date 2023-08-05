@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: paneltimegui
+Version: 1.1.16
+Summary: An efficient integrated panel and GARCH estimator
+Home-page: https://github.com/espensirnes/paneltimegui
+Author: Espen Sirnes
+Author-email: espen.sirnes@uit.no
+License: GPL-3.0
+Requires-Dist: tk
+
+Paneltimegui
+
+
