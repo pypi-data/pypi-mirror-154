@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tokyopopuchange
+Version: 1.0.1
+Summary: A package for visualization of population in tokyo"
+Home-page: https://github.com/kuma2198/tokyopopuchange
+Author: takuma iwasaki
+Author-email: s2022005@stu.musashino-u.ac.jpp
+Project-URL: Bug Tracker, https://github.com/kuma2198/tokyopopuchange
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# tokyopopuchange
+東京都の人口をを可視化できるPython Package。  
+Python Package for visualization of population in tokyo.
+
+## Example of use
+```
+pip install tokyopopuchange
+python tokyopopuchange.py
+```
+
+## output
+[Imgur](https://i.imgur.com/1lf3JRC.png)

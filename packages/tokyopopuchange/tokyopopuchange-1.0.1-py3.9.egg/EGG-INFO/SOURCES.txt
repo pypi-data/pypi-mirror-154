@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/tokyopopuchange.py
+src/tokyopopuchange.egg-info/PKG-INFO
+src/tokyopopuchange.egg-info/SOURCES.txt
+src/tokyopopuchange.egg-info/dependency_links.txt
+src/tokyopopuchange.egg-info/entry_points.txt
+src/tokyopopuchange.egg-info/top_level.txt
