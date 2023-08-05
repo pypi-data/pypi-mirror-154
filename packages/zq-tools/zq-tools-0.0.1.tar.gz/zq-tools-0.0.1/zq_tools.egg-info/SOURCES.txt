@@ -1,0 +1,7 @@
+setup.py
+zq_logger/__init__.py
+zq_logger/logger.py
+zq_tools.egg-info/PKG-INFO
+zq_tools.egg-info/SOURCES.txt
+zq_tools.egg-info/dependency_links.txt
+zq_tools.egg-info/top_level.txt
