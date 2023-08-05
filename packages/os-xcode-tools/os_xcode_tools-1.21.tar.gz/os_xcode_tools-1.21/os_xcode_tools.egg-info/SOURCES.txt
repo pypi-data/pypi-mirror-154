@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+os_xcode_tools/fakeDelete.py
+os_xcode_tools/xcode_project_manipulator.py
+os_xcode_tools.egg-info/PKG-INFO
+os_xcode_tools.egg-info/SOURCES.txt
+os_xcode_tools.egg-info/dependency_links.txt
+os_xcode_tools.egg-info/requires.txt
+os_xcode_tools.egg-info/top_level.txt
+os_xcode_tools/modules/pl_list_file_handler.py
