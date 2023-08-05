@@ -1,0 +1,326 @@
+Metadata-Version: 2.1
+Name: qq-botpy
+Version: 1.0.2
+Summary: qq robot client with python3
+Home-page: https://github.com/tencent-connect/botpy
+Author: veehou
+Author-email: veehou@tencent.com
+License: Tencent
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: aiohttp (<4,>=3.7.4)
+Requires-Dist: PyYAML
+
+
+botpy
+=====
+
+**botpy** 是基于\ `机器人开放平台API <https://bot.q.qq.com/wiki/develop/api/>`_ 实现的机器人框架，目的提供一个易使用、开发效率高地开发框架。
+
+
+.. image:: https://img.shields.io/pypi/v/qq-botpy
+   :target: https://img.shields.io/pypi/v/qq-botpy
+   :alt: PyPI
+
+
+.. image:: https://api.bkdevops.qq.com/process/api/external/pipelines/projects/qq-guild-open/p-713959939bdc4adca0eea2d4420eef4b/badge?X-DEVOPS-PROJECT-ID=qq-guild-open
+   :target: https://devops.woa.com/process/api-html/user/builds/projects/qq-guild-open/pipelines/p-713959939bdc4adca0eea2d4420eef4b/latestFinished?X-DEVOPS-PROJECT-ID=qq-guild-open
+   :alt: BK Pipelines Status
+
+
+准备工作
+--------
+
+安装
+^^^^
+
+.. code-block:: bash
+
+   pip install qq-botpy
+
+更新包的话需要添加 ``--upgrade`` ``注：需要python3.7+``
+
+使用
+^^^^
+
+需要使用的地方\ ``import botpy``
+
+.. code-block:: python
+
+   import botpy
+
+兼容提示
+^^^^^^^^
+
+..
+
+   原机器人的老版本\ ``qq-bot``\ 仍然可以使用，但新接口的支持上会逐渐暂停，此次升级不会影响线上使用的机器人 
+
+
+使用方式
+--------
+
+快速入门
+^^^^^^^^
+
+步骤1
+~~~~~
+
+通过继承实现\ ``bot.Client``\ , 实现自己的机器人Client 
+
+步骤2
+~~~~~
+
+实现机器人相关事件的处理方法,如 ``on_at_message_create``\ ， 详细的事件监听列表，请参考 `事件监听.md <./docs/事件监听.md>`_
+
+如下，是定义机器人被@的后自动回复:
+
+.. code-block:: python
+
+   import botpy
+   from botpy.types.message import Message
+
+   class MyClient(botpy.Client):
+       async def on_ready(self):
+           print(f"robot 「{self.robot.name}」 on_ready!")
+
+       async def on_at_message_create(self, message: Message):
+           await message.reply(content=f"机器人{self.robot.name}收到你的@消息了: {message.content}")
+
+``注意:每个事件会下发具体的数据对象，如`message`相关事件是`message.Message`的对象 (部分事件透传了后台数据，暂未实现对象缓存)``
+
+步骤3
+~~~~~
+
+设置机器人需要监听的事件通道，并启动\ ``client``
+
+.. code-block:: python
+
+   import botpy
+   from botpy.types.message import Message
+
+   class MyClient(botpy.Client):
+       async def on_at_message_create(self, message: Message):
+           await self.api.post_message(channel_id=message.channel_id, content="content")
+
+   intents = botpy.Intents(public_guild_messages=True) 
+   client = MyClient(intents=intents)
+   client.run(appid="12345", token="xxxx")
+
+备注
+^^^^
+
+也可以通过预设置的类型，设置需要监听的事件通道
+
+.. code-block:: python
+
+   import botpy
+
+   intents = botpy.Intents.none()
+   intents.public_guild_messages=True
+
+使用API
+^^^^^^^
+
+如果要使用\ ``api``\ 方法，可以参考如下方式:
+
+.. code-block:: python
+
+   import botpy
+   from botpy.types.message import Message
+
+   class MyClient(botpy.Client):
+       async def on_at_message_create(self, message: Message):
+           await self.api.post_message(channel_id=message.channel_id, content="content")
+
+示例机器人
+----------
+
+`\ ``examples`` <./examples/>`_ 目录下存放示例机器人，具体使用可参考\ `\ ``Readme.md`` <./examples/README.md>`_ 
+
+.. code-block::
+
+   examples/
+   .
+   ├── README.md
+   ├── config.example.yaml          # 示例配置文件（需要修改为config.yaml）
+   ├── demo_announce.py             # 机器人公告API使用示例
+   ├── demo_api_permission.py       # 机器人授权查询API使用示例
+   ├── demo_at_reply.py             # 机器人at被动回复async示例
+   ├── demo_at_reply_ark.py         # 机器人at被动回复ark消息示例
+   ├── demo_at_reply_embed.py       # 机器人at被动回复embed消息示例
+   ├── demo_at_reply_file_data.py   # 机器人at被动回复本地图片消息示例
+   ├── demo_at_reply_keyboard.py    # 机器人at被动回复md带内嵌键盘的示例
+   ├── demo_at_reply_markdown.py    # 机器人at被动回复md消息示例
+   ├── demo_at_reply_reference.py   # 机器人at被动回复消息引用示例
+   ├── demo_dms_reply.py            # 机器人私信被动回复示例
+   ├── demo_get_reaction_users.py   # 机器人获取表情表态成员列表示例
+   ├── demo_guild_member_event.py   # 机器人频道成员变化事件示例
+   ├── demo_interaction.py          # 机器人互动事件示例（未启用）
+   ├── demo_pins_message.py         # 机器人消息置顶示例
+   ├── demo_recall.py               # 机器人消息撤回示例
+   ├── demo_schedule.py             # 机器人日程相关示例
+
+日志打印
+--------
+
+基于自带的 logging 模块封装的日志模块，提供了日志写入以及美化了打印格式，并支持通过设置 ``QQBOT_LOG_LEVEL`` 环境变量来调整日志打印级别（默认打印级别为 ``INFO``\ ）。
+
+使用方法
+^^^^^^^^
+
+引用模块，并获取 ``logger`` 实例：
+
+.. code-block:: python
+
+   from botpy import logging
+
+   logger = logging.get_logger()
+
+或者通过\ ``botpy.logger``\ 也可以获取logger对象
+
+然后就可以愉快地使用 logger 进行打印。例如：
+
+.. code-block:: python
+
+   logger.info("hello world!")
+
+设置日志级别
+^^^^^^^^^^^^
+
+SDK默认的日志级别为\ ``INFO``\ 级别，需要修改请查看下面信息
+
+Debug日志
+~~~~~~~~~
+
+命令行启动py后通过增加参数\ ``-d`` 或 ``--debug``\ 可以打开debug日志
+
+.. code-block:: bash
+
+   python3 demo_at_reply.py -d
+
+其他级别日志
+~~~~~~~~~~~~
+
+通过 ``export`` 命令添加 ``QQBOT_LOG_LEVEL`` 环境变量可以设置日志级别。例如：
+
+.. code-block:: bash
+
+   export QQBOT_LOG_LEVEL=10  # 10表示DEBUG级别
+
+几个可选取值（参考了\ `logging模块的取值 <https://docs.python.org/3/library/logging.html#levels>`_\ ）：
+
+.. list-table::
+   :header-rows: 1
+
+   * - Level
+     - 取值
+   * - CRITICAL
+     - 50
+   * - ERROR
+     - 40
+   * - WARNING
+     - 30
+   * - INFO
+     - 20
+   * - DEBUG
+     - 10
+   * - NOTSET
+     - 0
+
+
+禁用日志文件输出
+^^^^^^^^^^^^^^^^
+
+默认情况下 botpy 会在当前执行目录下生成格式为 ``botpy.log.*`` 的日志文件。如果想禁用这些日志文件，可以通过设置 ``QQBOT_DISABLE_LOG`` 环境变量为 1 来关闭。
+
+.. code-block:: bash
+
+   export QQBOT_DISABLE_LOG=1  # 1表示禁用日志
+
+修改日志输出路径
+^^^^^^^^^^^^^^^^
+
+SDK也支持修改日志输出路径，由于实际路径不尽相同，所以此处使用 ``os`` 模块来设置临时环境变量。
+
+.. code-block:: python
+
+   from botpy import logging
+
+   # 默认输出到log文件夹
+   logger = logging.get_logger('logs')
+
+修改日志格式
+^^^^^^^^^^^^
+
+通过 ``export`` 命令添加 ``QQBOT_LOG_FILE_FORMAT`` 和 ``QQBOT_LOG_PRINT_FORMAT`` 环境变量可以设置日志格式。例如：
+
+.. code-block:: bash
+
+    # 设置文件输出格式
+   export QQBOT_LOG_FILE_FORMAT="%(asctime)s [%(levelname)s] %(funcName)s (%(filename)s:%(lineno)s): %(message)s"
+
+如需使用转义字符，可以使用 ``os`` 模块添加。例如：
+
+.. code-block:: python
+
+    # 设置控制台输出格式
+   import os
+
+   os.environ["QQBOT_LOG_PRINT_FORMAT"] = "%(asctime)s \033[1;33m[%(levelname)s] %(funcName)s (%(filename)s:%(lineno)s):\033[0m %(message)s"
+
+参与开发
+========
+
+环境配置
+--------
+
+.. code-block:: bash
+
+   pip install -r requirements.txt   # 安装依赖的pip包
+
+   pre-commit install                 # 安装格式化代码的钩子
+
+单元测试
+--------
+
+代码库提供API接口测试和 websocket 的单测用例，位于 ``tests`` 目录中。如果需要自己运行，可以在 ``tests`` 目录重命名 ``.test.yaml`` 文件后添加自己的测试参数启动测试：
+
+单测执行方法
+^^^^^^^^^^^^
+
+先确保已安装 ``pytest`` ：
+
+.. code-block:: bash
+
+   pip install pytest
+
+然后在项目根目录下执行单测：
+
+.. code-block:: bash
+
+   pytest
+
+致谢
+----
+
+感谢参与内测、开发和提出宝贵意见的开发者们（排名不分先后）：
+
+`小念 <https://github.com/ReadSmall>`_\ , `Neutron <https://github.com/Huang1220>`_\ , `晚柒载 <https://github.com/wqzai>`_
+
+加入官方社区
+============
+
+欢迎扫码加入\ **QQ 频道开发者社区**\ 。
+
+
+.. image:: https://mpqq.gtimg.cn/privacy/qq_guild_developer.png
+   :target: https://mpqq.gtimg.cn/privacy/qq_guild_developer.png
+   :alt: 开发者社区
+
+
+
