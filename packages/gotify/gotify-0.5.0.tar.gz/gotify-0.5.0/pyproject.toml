@@ -1,0 +1,81 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "gotify"
+version = "0.5.0"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "d-k-bo", email = "d-k-bo@mailbox.org" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Home Automation",
+    "Topic :: Utilities",
+]
+dependencies = ["httpx >= 0.22.0"]
+dynamic = ["description"]
+
+    [project.optional-dependencies]
+    stream = ["websockets >= 10.3"]
+    test = [
+        "pytest >= 7.1.2",
+        "pytest-cov >= 3.0.0",
+        "pytest-asyncio >= 0.18.3",
+        "trycast >= 1.0"
+    ]
+
+    [project.urls]
+    Source = "https://github.com/d-k-bo/python-gotify"
+
+[tool]
+
+    [tool.black]
+
+    [tool.isort]
+    profile = "black"
+
+    [tool.mypy]
+    show_error_codes = true
+    warn_unused_ignores = true
+    files = ["gotify/", "tests/"]
+
+    [tool.pytest]
+
+        [tool.pytest.ini_options]
+        addopts = "--tb=short"
+        testpaths = "tests"
+        asyncio_mode = "auto"
+
+    [tool.coverage]
+
+        [tool.coverage.run]
+        source = ["gotify"]
+
+        [tool.coverage.report]
+        show_missing = true
+
+    [tool.flake8]
+    # pip install pyproject-flake8 flake8-annotations flake8-bugbear flake8-docstrings
+    max-line-length = 88
+    extend-ignore = [
+        "E203",  # whitespace before ‘,’, ‘;’, or ‘:’ (incompatible with PEP8 and black)
+        "E501",  # line too long (to strict, use B950 instead)
+        "ANN10",  # Missing type annotation for self/cls
+        "D105",  # D105 Missing docstring in magic method
+    ]
+    extend-select = ["B950"]  # line too long    
+    docstring-convention = "google"  # flake8-docstrings
+    per-file-ignores = [
+        "gotify/response_types.py: D101",  # Missing docstring in public class
+        "tests/*: D, ANN",
+        "noxfile.py: D, ANN",
+    ]
