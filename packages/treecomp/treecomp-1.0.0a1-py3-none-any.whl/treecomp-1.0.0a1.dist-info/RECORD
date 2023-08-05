@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/config.py,sha256=QvDq36TZJFVnPqAirywGwV1La-KoLl9yoxnarXDwk1s,231
+tests/test_main.py,sha256=LC4OAZUBWXIV_PSsbFlyYAo21lTHt5-7wjs_8P0w2ss,5048
+treecomp/__init__.py,sha256=mEv1J84etRADKenhTPU5-4Ht4KXSFC0tskMLb1Dp35o,106
+treecomp/main.py,sha256=fVLtvRmNwvervs2TFFID-3IOuqyIeIauW-lj5PMglf0,7683
+treecomp-1.0.0a1.dist-info/LICENSE.md,sha256=IfNRWxSJk-vDs-Oaqb7rRABvh_0_1CFeZF-KHCsXnok,1082
+treecomp-1.0.0a1.dist-info/METADATA,sha256=AW08LdDhTv6iKshdoRN7rlYTPZJuH3Tq5PASUNhl6IQ,2704
+treecomp-1.0.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+treecomp-1.0.0a1.dist-info/top_level.txt,sha256=LoaRyQdAGAPsYoqmLlGzJhd2l7YQ-VzrFLnh6QQAgQg,24
+treecomp-1.0.0a1.dist-info/RECORD,,
