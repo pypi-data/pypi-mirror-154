@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/popuchange.egg-info/PKG-INFO
+src/popuchange.egg-info/SOURCES.txt
+src/popuchange.egg-info/dependency_links.txt
+src/popuchange.egg-info/entry_points.txt
+src/popuchange.egg-info/top_level.txt
