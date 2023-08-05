@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: quote_Extract
+Version: 0.0.1
+Summary: Get a variety of Motivational Quotes here
+Home-page: UNKNOWN
+Author: Ndongmo Christian
+Author-email: christainhonore2003@gmail.com
+License: MIT
+Description: ## Welcome to Quote_Extract
+        ---
+        This is a simple package aimed at providing motivational Quotes. You can used this Qoutes for business, Websites, For Blogging...etc.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License

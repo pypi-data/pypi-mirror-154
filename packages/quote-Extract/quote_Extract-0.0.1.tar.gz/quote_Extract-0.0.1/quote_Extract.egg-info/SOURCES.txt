@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+qoute_Extract/__init__.py
+qoute_Extract/favQs_API.py
+quote_Extract.egg-info/PKG-INFO
+quote_Extract.egg-info/SOURCES.txt
+quote_Extract.egg-info/dependency_links.txt
+quote_Extract.egg-info/not-zip-safe
+quote_Extract.egg-info/top_level.txt
