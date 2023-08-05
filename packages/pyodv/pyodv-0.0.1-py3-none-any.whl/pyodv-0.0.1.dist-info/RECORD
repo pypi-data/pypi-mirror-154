@@ -1,0 +1,10 @@
+pyodv/__init__.py,sha256=EgAjTNl-itL7ENpErIhUCp9NVIVnu_R7kOi3OTcFREk,356
+pyodv/__main__.py,sha256=2RyPwjZ7kHIHxGlAdIw2zOWDjo4xe7Cq30RinX_hGY8,1561
+pyodv/__version__.py,sha256=8rA1kpuRA1AfCqC1FFVkLSStaGFxhcIedMzqf8tRQ70,62
+pyodv/base.py,sha256=qGtXpv3Lex8bYvngn1sIRmq77i6O6O8x25LC0-snVdQ,9800
+pyodv-0.0.1.dist-info/LICENSE,sha256=Z6MGWlyS3MI1jny0t5IHEN_B1Nyz2JlWV4EzaaxfQns,1090
+pyodv-0.0.1.dist-info/METADATA,sha256=gx6wtgq9zdEB2ViRCZYt98Jt3BaUKhyP0we94ASGw_A,1300
+pyodv-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyodv-0.0.1.dist-info/entry_points.txt,sha256=Q_S8pCqX3drWxsZKGkIjxyZQAGacY1lmT_iSjfkn0zI,46
+pyodv-0.0.1.dist-info/top_level.txt,sha256=ORnzOdRRxE4dR3p86kAmBUbA6heuNX2UdXh_vMsBz0M,6
+pyodv-0.0.1.dist-info/RECORD,,

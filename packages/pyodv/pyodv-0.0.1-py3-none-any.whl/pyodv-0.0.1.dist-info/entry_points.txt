@@ -1,0 +1,2 @@
+[console_scripts]
+pyodv = pyodv.__main__:main
