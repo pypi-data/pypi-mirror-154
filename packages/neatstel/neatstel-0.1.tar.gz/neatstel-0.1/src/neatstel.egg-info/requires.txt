@@ -1,0 +1,13 @@
+matplotlib
+numpy
+scipy
+qsc
+qicna
+setuptools
+pybind11
+
+[DOCS]
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-napoleon
+sphinx-autodoc-napoleon-typehints

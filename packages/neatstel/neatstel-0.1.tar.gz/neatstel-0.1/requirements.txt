@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scipy
+qsc
+qicna
+setuptools
+pybind11
