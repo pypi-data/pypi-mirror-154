@@ -1,0 +1,32 @@
+
+[tool.poetry]
+name = "tnote_plus"
+version = "0.1.0"
+description = "simple CLI notetaking"
+authors = ["Anthony Herrera <anthonyherrera24@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+keywords = ["python3", "notetaking", "local"]
+homepage = "https://github.com/acherrera/tnote_plus"
+repository = "https://github.com/acherrera/tnote_plus"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+peewee = "^3.14.10"
+getkey = "^0.6.5"
+rich = "^12.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pudb = "^2022.1.1"
+black = "^22.3.0"
+pytest-cov = "^3.0.0"
+grip = "^4.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tnote = 'tnote_plus.tnote:main'
