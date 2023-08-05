@@ -1,0 +1,4 @@
+[console_scripts]
+golfeditor = golftracker.golfeditor:main
+merge_setup = golftracker.merge_setup:main
+
