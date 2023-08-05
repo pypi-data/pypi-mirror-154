@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+plingo/__init__.py
+plingo/opt.py
+plingo/plingo_app.py
+plingo/plog.py
+plingo/probability.py
+plingo/query.py
+plingo/transformer.py
+plingo.egg-info/PKG-INFO
+plingo.egg-info/SOURCES.txt
+plingo.egg-info/dependency_links.txt
+plingo.egg-info/entry_points.txt
+plingo.egg-info/requires.txt
+plingo.egg-info/top_level.txt

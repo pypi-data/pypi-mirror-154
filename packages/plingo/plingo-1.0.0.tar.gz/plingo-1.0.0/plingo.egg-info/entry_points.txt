@@ -1,0 +1,2 @@
+[console_scripts]
+plingo = plingo:main
