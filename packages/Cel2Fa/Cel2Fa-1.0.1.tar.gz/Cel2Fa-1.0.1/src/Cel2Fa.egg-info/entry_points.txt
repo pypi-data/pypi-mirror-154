@@ -1,0 +1,3 @@
+[console_scripts]
+Cel2Fa = Cel2Fa:main
+
