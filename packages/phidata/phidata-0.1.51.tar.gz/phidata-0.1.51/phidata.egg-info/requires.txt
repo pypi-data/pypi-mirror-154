@@ -1,0 +1,15 @@
+boto3
+docker
+gitpython
+kubernetes
+phiterm>=0.1.45
+packaging
+pydantic
+pyyaml
+rich
+types-PyYAML
+typing-extensions
+
+[dev]
+black
+pytest
