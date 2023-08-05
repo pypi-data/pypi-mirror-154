@@ -1,0 +1,2 @@
+[console_scripts]
+tap-chargebee = tap_chargebee:main

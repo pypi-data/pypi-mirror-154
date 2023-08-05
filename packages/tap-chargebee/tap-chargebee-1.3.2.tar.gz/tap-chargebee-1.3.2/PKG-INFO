@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: tap-chargebee
+Version: 1.3.2
+Summary: Singer.io tap for extracting data from the Chargebee API
+Author: dwallace@envoy.com
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
