@@ -1,0 +1,8 @@
+celery
+Django
+djangorestframework
+django-simple-menu
+core-main-app==2.0.0-beta1
+core-explore-common-app==2.0.0-beta1
+core-parser-app==2.0.0-beta1
+xml-utils==1.18.*
