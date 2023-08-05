@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/amplitude_experiment/__init__.py
+src/amplitude_experiment/client.py
+src/amplitude_experiment/config.py
+src/amplitude_experiment/connection_pool.py
+src/amplitude_experiment/cookie.py
+src/amplitude_experiment/factory.py
+src/amplitude_experiment/user.py
+src/amplitude_experiment/variant.py
+src/amplitude_experiment/version.py
+src/amplitude_experiment.egg-info/PKG-INFO
+src/amplitude_experiment.egg-info/SOURCES.txt
+src/amplitude_experiment.egg-info/dependency_links.txt
+src/amplitude_experiment.egg-info/top_level.txt
