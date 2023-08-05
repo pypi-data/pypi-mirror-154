@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+jr_libpythonpro.egg-info/PKG-INFO
+jr_libpythonpro.egg-info/SOURCES.txt
+jr_libpythonpro.egg-info/dependency_links.txt
+jr_libpythonpro.egg-info/not-zip-safe
+jr_libpythonpro.egg-info/requires.txt
+jr_libpythonpro.egg-info/top_level.txt
+libpythonpro/__init__.py
+libpythonpro/github_api.py
