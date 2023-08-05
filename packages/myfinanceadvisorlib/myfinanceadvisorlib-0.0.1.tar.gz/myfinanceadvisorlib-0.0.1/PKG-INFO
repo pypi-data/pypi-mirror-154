@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: myfinanceadvisorlib
+Version: 0.0.1
+Summary: Data Models for My Finance Advisor
+Author: Richard Cerone
+Author-email: 
+Keywords: python,my-finance-advisor-lib
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+These are data models used with My Finance Advisor.
