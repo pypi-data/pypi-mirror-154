@@ -1,0 +1,8 @@
+numpy==1.22.4
+pandas==1.4.2
+pydantic==1.9.1
+scikit-learn==1.1.1
+strictyaml==1.6.1
+ruamel.yaml==0.17.21
+feature-engine==1.0.2
+joblib==1.0.1
