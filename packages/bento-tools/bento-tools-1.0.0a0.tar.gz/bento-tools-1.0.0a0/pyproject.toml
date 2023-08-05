@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "bento-tools"
+packages = [{ include = "bento" }]
+include = ["bento/datasets/datasets.csv", "bento/models/**/*"]
+version = "1.0.0-alpha.0"
+description = "A toolkit for subcellular analysis of RNA organization"
+authors = ["Clarence Mah <ckmah@ucsd.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+anndata = "^0.7.6"
+astropy = "^4.3.post1"
+geopandas = "^0.9.0"
+ipywidgets = "^7.6.3"
+leidenalg = "^0.8.7"
+matplotlib = "^3.2"
+matplotlib-scalebar = "^0.8.1"
+numpy = "^1.19.0"
+pandas = "<=1.2.5"
+pygeos = "^0.10.1"
+seaborn = "^0.11.0"
+scipy = "^1.7.0"
+Shapely = "^1.7.1"
+tqdm = "^4.61.2"
+umap-learn = "^0.5.1"
+statsmodels = "0.12.2"
+dask-geopandas = "^0.1.0-alpha.4"
+scanpy = "^1.8.1"
+UpSetPlot = "^0.6.0"
+xgboost = ">=1.4.0,<1.5"
+
+torch = { version = "^1.9.0", optional = true }
+
+Sphinx = { version = "^4.1.2", optional = true }
+sphinx-autobuild = { version = "^2021.3.14", optional = true }
+sphinx-book-theme = { version = "^0.3.2", optional = true }
+myst-nb = { version = "^0.15.0", optional = true }
+cell2cell = "^0.5.10"
+
+[tool.poetry.extras]
+torch = ["torch"]
+docs = ["Sphinx", "sphinx-autobuild", "sphinx-book-theme", "myst-nb"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", 'setuptools']
+build-backend = "poetry.core.masonry.api"
