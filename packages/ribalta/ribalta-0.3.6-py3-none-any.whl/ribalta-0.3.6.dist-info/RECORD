@@ -1,0 +1,12 @@
+ribalta/__init__.py,sha256=9hRNjuz1E6qJwe2JTBUvpa0yYLQXlLqtIlUrFQqTOXA,78
+ribalta/riba.py,sha256=nvsVRGIyO9e7EcdzePIXr393JWu9y3ALtb5lZUb_rXk,17281
+ribalta/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ribalta/templates/cbi.mako,sha256=SAfUMKA_3_rsinmPJF9X5g1aAuZPlW12v18QokfvBoE,15950
+ribalta/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ribalta/utils/errors.py,sha256=dNFnJHUDaXP3-2RLM28cFvIdF_ZUGKDwcnvQH7qY1BI,1356
+ribalta/utils/odoo_stuff.py,sha256=Zb1cjSkX1NDKCddjwxR8nps78qfzrNPAIHWHU-_hCEY,439
+ribalta/utils/validators.py,sha256=0za3HGJTRBmem0OeKHZ_A60nxyvnADHQ9ecoATjYIko,8478
+ribalta-0.3.6.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+ribalta-0.3.6.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+ribalta-0.3.6.dist-info/METADATA,sha256=i7Ao2HsoY96m3faysY7Vk-yPUDW8yyFJtS82SF3mz1g,2591
+ribalta-0.3.6.dist-info/RECORD,,
