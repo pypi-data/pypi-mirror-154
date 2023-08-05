@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "configly"
+version = "1.0.0"
+description = ""
+authors = ["Dan Cardin <ddcardin@gmail.com>", "Omar Khan <oakhan3@gmail.com>"]
+license = "MIT"
+keywords = [ "config", "yaml", "toml", "env" ]
+repository = "https://github.com/schireson/configly"
+packages = [
+    { from = "src", include = "configly" },
+]
+readme = 'README.md'
+include = [
+    "*.md",
+    "py.typed",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4"
+
+'ruamel.yaml' = { version = "*", optional = true }
+toml = { version = "*", optional = true }
+tomli = { version = "*", optional = true }
+hvac = { version = "*", optional = true }
+
+[tool.poetry.dev-dependencies]
+bandit = "*"
+black = ">=22.3.0"
+coverage = ">=6.2"
+flake8 = "^3.7"
+isort = ">=5.0"
+pydocstyle = "*"
+pytest = "^7"
+responses = ">=0.17.0"
+mypy = "^0.910"
+types-toml = "^0.1.5"
+
+[tool.poetry.extras]
+yaml = [ "ruamel.yaml" ]
+toml = [ "toml" ]
+tomli = [ "tomli" ]
+vault = [ "hvac" ]
+
+[tool.black]
+line_length = 100
+target_version = [ 'py36', 'py37', 'py38' ]
+
+[tool.isort]
+profile = 'black'
+line_length = 88
+float_to_top=true
+order_by_type = false
+use_parentheses = true
+
+[tool.mypy]
+strict_optional = true
+ignore_missing_imports = true
+warn_unused_ignores = true
+incremental = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = [
+  "pragma: no cover",
+  "if TYPE_CHECKING:",
+  "if __name__ == .__main__.:",
+]
+
+[tool.coverage.run]
+source = ["src"]
+branch = true
+
+[tool.pydocstyle]
+ignore = 'D1,D200,D202,D203,D204,D213,D406,D407,D413'
+match_dir = '^[^\.{]*'
+
+[tool.pytest.ini_options]
+doctest_optionflags = "NORMALIZE_WHITESPACE IGNORE_EXCEPTION_DETAIL ELLIPSIS"
+addopts = "--doctest-modules -vv --ff --strict-markers"
+norecursedirs = ".* build dist *.egg"
+filterwarnings = [
+  'error',
+  'ignore:.*match_querystring.*:DeprecationWarning:responses',
+]
+
+[build-system]
+requires = ["poetry_core==1.0.4"]
+build-backend = "poetry.core.masonry.api"
