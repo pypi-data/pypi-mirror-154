@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: growatt-monitor
+Version: 1.0.0
+Summary: Growatt inverter monitor from Modbus and API server and parse data to different output sources
+Home-page: https://github.com/soulraven/growatt-monitor
+License: LICENSE.md
+Keywords: roundbox,template,poetry,modbus,influxdb,mqtt,proxy
+Author: Zaharia Constantin
+Author-email: layout.webdesign@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: lint
+Provides-Extra: mkdocs
+Provides-Extra: test
+Requires-Dist: slugify (>=0.0.1,<0.0.2)
+Project-URL: Documentation, https://soulraven.github.io/growatt-monitor/
+Project-URL: Discussions, https://github.com/soulraven/growatt-monitor/discussions
+Project-URL: Issues, https://github.com/soulraven/growatt-monitor/issues
+Project-URL: Repository, https://github.com/soulraven/growatt-monitor
+Project-URL: Releases, https://soulraven.github.io/growatt-monitor/releases
+Project-URL: Source, https://github.com/soulraven/growatt-monitor
+Description-Content-Type: text/markdown
+
+# ⚡ Growatt monitor
+
+Growatt inverter monitor from Modbus and API server
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+![PyPI](https://img.shields.io/pypi/v/growatt-monitor?label=GrowattMonitor&style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/soulraven/growatt-monitor?style=plastic)
+[![Build status](https://img.shields.io/github/workflow/status/soulraven/growatt-monitor/merge-to-main?style=plastic)](https://img.shields.io/github/workflow/status/soulraven/growatt-monitor/merge-to-main)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/growatt-monitor?style=plastic)](https://pypi.org/project/growatt-monitor/)
+[![License](https://img.shields.io/github/license/soulraven/growatt-monitor?style=plastic)](https://img.shields.io/github/license/soulraven/growatt-monitor)
+
+***
+
+### 🔧 Installation
+
+### Growatt monitor module
+Download the repository and use [pip](https://pip.pypa.io/en/stable/) to install Growatt Monitor:
+```bash
+git clone https://github.com/soulraven/growatt-monitor.git
+cd growatt-monitor
+pip install -r requirements.txt .
+```
+To install for all users on the system, run pip as root:
+```bash
+sudo pip install -r requirements.txt .
+```
+
+***
+
+### Variables
+
+Some variables you may want to set.
+
+`api.server_url` The growatt server URL, default: 'https://server.growatt.com/'
+
+***
+
+### 🌍 Contributions
+
+Contributions of all forms are welcome :)
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+***
+
+## 🗒 License
+
+This project is licensed under [GPLv3].
+
+***
+
+## 👀 Author
+
+Zaharia Constantin, my [GitHub profile] and [GitHub Page]
+
+***
+
+[GitHub profile]: https://github.com/soulraven/
+[Github Page]: https://soulraven.github.io/
+[GPLv3]: https://soulraven.github.io/growatt_monitor/license
+
