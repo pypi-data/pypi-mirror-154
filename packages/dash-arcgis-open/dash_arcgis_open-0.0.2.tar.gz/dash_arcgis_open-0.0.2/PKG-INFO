@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dash_arcgis_open
+Version: 0.0.2
+Summary: Open Source implementation of Plotly Dash mapping components, powered by the ESRI ArcGIS API for Javascript.
+Author: James Holcombe  <jholcombe@hotmail.co.uk>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
+
+Open Source implementation of Plotly Dash mapping components, powered by the ESRI ArcGIS API for Javascript.
