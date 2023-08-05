@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jupyterlab-lsf
+Version: 0.1.0
+Summary: 📙 Run jupyter lab in an LSF host and map its port
+License: MIT
+Author: Juanes
+Author-email: juanes.ao@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: jupyterlab (>=3.2.9,<4.0.0)
