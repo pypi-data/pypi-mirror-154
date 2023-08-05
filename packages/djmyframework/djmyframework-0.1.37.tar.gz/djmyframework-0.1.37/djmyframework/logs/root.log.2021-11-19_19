@@ -1,0 +1,505 @@
+[2021-11-19T18:15:46+0800] [ERROR] [django.request] [pid:57678] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 106, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 77, in process_view
+    if request.is_ajax() or request.is_json():
+TypeError: 'bool' object is not callable
+[2021-11-19T18:16:57+0800] [WARNING] [root] [pid:57759] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 104, in login
+    if request.is_post():
+TypeError: 'bool' object is not callable
+
+[2021-11-19T18:16:57+0800] [ERROR] [django.request] [pid:57759] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /myadmin/login
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 104, in login
+    if request.is_post():
+TypeError: 'bool' object is not callable
+[2021-11-19T19:19:08+0800] [WARNING] [root] [pid:60127] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 33, in index
+    root_menu_list = MenuSerializer(request.user.get_resource('menu').filter(parent_id=0, is_show=1), many=True).data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 121, in __getattribute__
+    return super(ParamsSerializer, self).__getattribute__(key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/utils/attribute.py", line 22, in __get__
+    result = self.method(inst)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 211, in fields
+    fields = super(BaseModelSerializer, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_dynamic_fields/__init__.py", line 25, in fields
+    fields = super(DynamicFieldsMixin, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `create_datetime` is not valid for model `Menu`.
+
+[2021-11-19T19:19:08+0800] [ERROR] [django.request] [pid:60127] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 33, in index
+    root_menu_list = MenuSerializer(request.user.get_resource('menu').filter(parent_id=0, is_show=1), many=True).data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 121, in __getattribute__
+    return super(ParamsSerializer, self).__getattribute__(key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/utils/attribute.py", line 22, in __get__
+    result = self.method(inst)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 211, in fields
+    fields = super(BaseModelSerializer, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_dynamic_fields/__init__.py", line 25, in fields
+    fields = super(DynamicFieldsMixin, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `create_datetime` is not valid for model `Menu`.
+[2021-11-19T19:23:09+0800] [WARNING] [root] [pid:60262] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 33, in index
+    root_menu_list = MenuSerializer(request.user.get_resource('menu').filter(parent_id=0, is_show=1), many=True).data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 121, in __getattribute__
+    return super(ParamsSerializer, self).__getattribute__(key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/utils/attribute.py", line 22, in __get__
+    result = self.method(inst)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 211, in fields
+    fields = super(BaseModelSerializer, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_dynamic_fields/__init__.py", line 25, in fields
+    fields = super(DynamicFieldsMixin, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `create_datetime` is not valid for model `Menu`.
+
+[2021-11-19T19:23:09+0800] [ERROR] [django.request] [pid:60262] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/views.py", line 212, in handler
+    return func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/views/__init__.py", line 33, in index
+    root_menu_list = MenuSerializer(request.user.get_resource('menu').filter(parent_id=0, is_show=1), many=True).data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 745, in data
+    ret = super().data
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    for field in fields:
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 121, in __getattribute__
+    return super(ParamsSerializer, self).__getattribute__(key)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/utils/attribute.py", line 22, in __get__
+    result = self.method(inst)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/serializer.py", line 211, in fields
+    fields = super(BaseModelSerializer, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_dynamic_fields/__init__.py", line 25, in fields
+    fields = super(DynamicFieldsMixin, self).fields
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1054, in get_fields
+    source, info, model, depth
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1199, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/serializers.py", line 1319, in build_unknown_field
+    (field_name, model_class.__name__)
+django.core.exceptions.ImproperlyConfigured: Field name `create_datetime` is not valid for model `Menu`.
+[2021-11-19T19:24:02+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:24:02+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:26:00+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:26:00+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:26:08+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:26:08+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:26:22+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:26:22+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:26:28+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:26:28+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:26:40+0800] [WARNING] [root] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 38, in get_operation
+    operation_id = self.get_operation_id(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 120, in get_operation_id
+    description = force_real_str(description.split(maxsplit=1)[0][:10])
+IndexError: list index out of range
+
+[2021-11-19T19:26:40+0800] [ERROR] [django.request] [pid:60323] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
+[2021-11-19T19:28:16+0800] [WARNING] [root] [pid:60517] [/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/middleware.py:100] Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/views.py", line 94, in get
+    schema = generator.get_schema(request, self.public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 246, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 404, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/generators.py", line 446, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 88, in get_operation
+    return super(CustomSwaggerAutoSchema, self).get_operation(operation_keys)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/view.py", line 33, in get_operation
+    query = self.get_query_parameters()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/schema.py", line 231, in get_query_parameters
+    natural_parameters = self.get_filter_parameters() + self.get_pagination_parameters()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/base.py", line 408, in get_filter_parameters
+    fields += self.probe_inspectors(self.filter_inspectors, 'get_filter_parameters', filter_backend()) or []
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/drf_yasg/inspectors/query.py", line 26, in get_filter_parameters
+    fields = filter_backend.get_schema_fields(self.view)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/framework/filters.py", line 353, in get_schema_fields
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django_filters/rest_framework/backends.py", line 73, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django_filters/filterset.py", line 71, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django_filters/filterset.py", line 360, in get_filters
+    % ', '.join(undefined)
+TypeError: 'Meta.fields' must not contain non-model field names: create_datetime, update_datetime
+
+[2021-11-19T19:28:16+0800] [ERROR] [django.request] [pid:60517] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /redoc
