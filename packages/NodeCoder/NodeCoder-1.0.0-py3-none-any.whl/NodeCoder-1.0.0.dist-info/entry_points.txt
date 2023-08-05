@@ -1,0 +1,2 @@
+[console_scripts]
+NodeCoder-cli = NodeCoder.main:main
