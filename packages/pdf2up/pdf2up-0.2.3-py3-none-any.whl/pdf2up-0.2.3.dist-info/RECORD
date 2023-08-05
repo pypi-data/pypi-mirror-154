@@ -1,0 +1,12 @@
+pdf2up/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf2up/__main__.py,sha256=XerMkatr1wFGqHwFcDMHlFLYXbto4oyNerwOmWOMem0,352
+pdf2up/batch_multiprocessing.py,sha256=aGZKYdVATU_Sp4CjMCz-Fs6x16h41pJbUnK4uisYgDg,1034
+pdf2up/cli.py,sha256=SDznSBfzxQyzPWcO-a624XwGu5ez9CD6YcJ6Dqo8zrA,1890
+pdf2up/console_log.py,sha256=CiIvcfocRM2KEpon7maDJvujwiebsIXs6eHYHgV6OU8,1208
+pdf2up/conversion.py,sha256=g_WrHSXl0oEwsSj-ojeiUn6kWpa_Si2Tns7EhXtGJoE,6806
+pdf2up-0.2.3.dist-info/LICENSE,sha256=CiEqkIUEqFERJQ93yI8P_6rGHaoxcC-3uwyUwdxLSKM,1069
+pdf2up-0.2.3.dist-info/METADATA,sha256=3MVmZULkb6wR7lOJg5nTMfbQa-huZBPr1_PPkA3TeSw,2396
+pdf2up-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pdf2up-0.2.3.dist-info/entry_points.txt,sha256=vP6BkeHc_X1B1m0NB1ISnyvFGm3lUGTiKsYVLy7Y3gs,49
+pdf2up-0.2.3.dist-info/top_level.txt,sha256=qrZllSRu9EVFDiVF1Kx4T96RwlIfs1TGpyL8GevYfoE,7
+pdf2up-0.2.3.dist-info/RECORD,,
