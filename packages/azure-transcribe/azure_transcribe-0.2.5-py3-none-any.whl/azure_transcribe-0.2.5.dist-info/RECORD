@@ -1,0 +1,12 @@
+azure_transcribe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_transcribe/blob/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_transcribe/blob/blob.py,sha256=r1bfeUU6twB5k1b1NZ5sDze5CrljE4AA7cESSkvIrts,1467
+azure_transcribe/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_transcribe/fixtures/azure_languages.py,sha256=kpZnhy90HnvaaKcdYYb3NwN_00Kz-Ww_G5HJT8cKm3k,6175
+azure_transcribe/transcribe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_transcribe/transcribe/transcribe.py,sha256=SsEVsDJBetAOZoxkMKledj1C7fkwKWgSHy_r-30Z3Ms,2013
+azure_transcribe-0.2.5.dist-info/LICENSE,sha256=YyZfvq93MWYyX2mP7yoBqhSN2DX_6utkK6G54Pkp51k,11526
+azure_transcribe-0.2.5.dist-info/METADATA,sha256=V3yWY_5N-sDx-6aUvKxHOJWrJ5F8FvoJWU5H6gVmCu4,1062
+azure_transcribe-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+azure_transcribe-0.2.5.dist-info/top_level.txt,sha256=q7ZoGXnbHu52JcJnx_xo3muQbD4L97wbHHCtcofGt1U,17
+azure_transcribe-0.2.5.dist-info/RECORD,,
