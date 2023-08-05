@@ -1,0 +1,6 @@
+numpy
+tvm
+
+[test]
+pytest
+torch==1.6.0
