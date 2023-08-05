@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+circe_ui/__init__.py
+circe_ui/__main__.py
+circe_ui/config.py
+circe_ui/static/Sortable.js
+circe_ui/static/app.css
+circe_ui/static/app.js
+circe_ui/static/dropzone.js
+circe_ui/static/index.html
+circe_ui_CERTIC.egg-info/PKG-INFO
+circe_ui_CERTIC.egg-info/SOURCES.txt
+circe_ui_CERTIC.egg-info/dependency_links.txt
+circe_ui_CERTIC.egg-info/entry_points.txt
+circe_ui_CERTIC.egg-info/requires.txt
+circe_ui_CERTIC.egg-info/top_level.txt

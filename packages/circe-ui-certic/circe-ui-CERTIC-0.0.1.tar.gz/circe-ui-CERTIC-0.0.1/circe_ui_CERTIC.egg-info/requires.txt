@@ -1,0 +1,6 @@
+circe-client-CERTIC
+argh
+sanic
+itsdangerous
+aiofiles
+python-dotenv
