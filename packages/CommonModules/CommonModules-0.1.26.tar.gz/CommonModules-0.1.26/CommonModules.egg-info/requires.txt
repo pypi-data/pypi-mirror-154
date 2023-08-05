@@ -1,0 +1,11 @@
+wget
+
+[Advance DataStructure IO]
+networkx
+numpy
+scipy
+torch
+
+[Advance DataStructureOperations]
+scipy
+numpy
