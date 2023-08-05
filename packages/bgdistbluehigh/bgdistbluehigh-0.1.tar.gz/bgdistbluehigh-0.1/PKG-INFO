@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bgdistbluehigh
+Version: 0.1
+Summary: Binomial and Gaussian distributions
+Author: Sachin R
+License: MIT
+Platform: UNKNOWN
+License-File: license.txt
+
+## Project Description
+This project consists of a package created for calculations of Binomial and Gaussian
+distributions.
+
+## binomial-gaussian-dist package
+The package calculates binomial and gaussian distributions along with probability 
+density functions. Also the package provides a way to add two distributions.
+
+## Package Contents
+* __init__.py: file to import Binomial and Gaussian class from modules
+* BinomialDistribution.py: file to calculate and visualize Binomial Distribution
+* GaussianDistribution.py: file to calculate and visualize Gaussian Distribution
+* GeneralDistribution.py: file containing parent class for general distributions
+
