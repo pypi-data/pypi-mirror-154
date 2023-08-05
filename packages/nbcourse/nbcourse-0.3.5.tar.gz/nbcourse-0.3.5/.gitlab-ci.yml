@@ -1,0 +1,57 @@
+image: boileaum/jupyter
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  GIT_SUBMODULE_STRATEGY: recursive
+
+cache:
+  paths:
+    - .cache/pip
+    - .venv/
+
+before_script:
+  - python --version # For debugging
+  - pip install virtualenv
+  - virtualenv .venv
+  - source .venv/bin/activate
+  - pip install --upgrade pip
+  - pip install flit
+  - flit install
+  - pip install git+https://github.com/boileaum/bookbook.git@master
+
+test:
+  stage: test
+  tags:
+    - docker
+  script:
+    - pip install -e .  # necessary for coverage
+    - pytest -sv --cov=nbcourse
+    - coverage html -d public
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  artifacts:
+    paths:
+      - public
+
+deploy:
+  stage: deploy
+  tags:
+    - docker
+  script:
+    - git status
+    - flit publish
+  only:
+    - master
+
+pages:
+  stage: deploy
+  before_script:
+    - ""
+  tags:
+    - shell
+  script:
+    - echo "Publishing to GitLab Pages"
+  only:
+    - master
+  artifacts:
+    paths:
+      - public
