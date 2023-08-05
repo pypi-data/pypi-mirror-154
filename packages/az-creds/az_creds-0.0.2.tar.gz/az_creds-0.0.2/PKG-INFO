@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: az_creds
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/jilanisayyad/fetch_credentials
+Author: Jilani Sayyad
+Author-email: sayyedjilani88@gmail.com
+License: GNU
+Keywords: get_creds,fetch_credentials,azure,aks,azure-cli
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that allows to fetch credentials of aks using azure-cli
+
