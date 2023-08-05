@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tes3stitch/__init__.py
+src/tes3stitch/__main__.py
+src/tes3stitch/stitch.py
+src/tes3stitch.egg-info/PKG-INFO
+src/tes3stitch.egg-info/SOURCES.txt
+src/tes3stitch.egg-info/dependency_links.txt
+src/tes3stitch.egg-info/entry_points.txt
+src/tes3stitch.egg-info/requires.txt
+src/tes3stitch.egg-info/top_level.txt
