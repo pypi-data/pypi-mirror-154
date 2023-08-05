@@ -1,0 +1,10 @@
+pyjsonq/__init__.py,sha256=tiTf_hkpDA4-aGMxpz-U1dtBpdFVHqp8_2p9Lbv8yPk,43
+pyjsonq/errors.py,sha256=HSh3WEIPG3PWkTjuDBFSc5vwQx6BW-7EmOW-QQS0GLc,1812
+pyjsonq/helper.py,sha256=QZDL7frL6zDcSVFzDrV8CbagusuXRvpZF9vBlz6-Gs0,2434
+pyjsonq/parser.py,sha256=eKUQxN8y0FqscBtaQ4SFuEez2yoCDkXhcCF6nEcMwa4,33601
+pyjsonq/query.py,sha256=aTTqUZRvylSQA1iacS1wyIaYU2cgk4X8UZSavJltX0k,5492
+pyjsonquery-2.1.2.dist-info/LICENSE,sha256=ZKMfEo30Gyfq36-fVPrctQvvloT5PUTdNMV4UeJXPsY,1064
+pyjsonquery-2.1.2.dist-info/METADATA,sha256=aU4VzFF65cOOi1vrqDqWkGTWMrwZaNRTP_csqzGIyPo,2786
+pyjsonquery-2.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyjsonquery-2.1.2.dist-info/top_level.txt,sha256=vZuaRui0LIn4gYrCdDCrtok9RexNLSukBZeMYT7U7Qw,8
+pyjsonquery-2.1.2.dist-info/RECORD,,
