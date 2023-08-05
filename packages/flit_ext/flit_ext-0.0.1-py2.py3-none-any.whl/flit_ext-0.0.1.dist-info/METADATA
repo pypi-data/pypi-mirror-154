@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flit_ext
+Version: 0.0.1
+Summary: Flit with extensions
+Author-email: Youseok Yang <ileixe@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: flit-core~=3.5
+Requires-Dist: setuptools_scm~=6.4
+Requires-Dist: tomli
+Project-URL: Home, https://github.com/ileixe/flit_ext
