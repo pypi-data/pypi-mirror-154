@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gen-changelog
+Version: 0.1.0
+Summary: A very simple script to generate a changelog from a repo with Conventional-Commits-compatible commit messages.
+License: AGPL-3.0-or-later
+Author: Stavros Korokithakis
+Author-email: hi@stavros.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.24,<4.0.0)
