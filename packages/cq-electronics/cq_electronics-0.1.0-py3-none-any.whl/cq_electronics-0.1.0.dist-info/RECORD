@@ -1,0 +1,15 @@
+CHANGELOG.md,sha256=PlO9_WR7FhhMb5VDO6XXt8J4gjuhkNUtsvbijV0lmos,156
+cq_electronics/__init__.py,sha256=4gJP75Xx3lUkCHl8Bzj_tAuDDQ0gfqp_fsiiuJ7i69Q,51
+cq_electronics/colors.py,sha256=fdAZdh8XotN4LKxTzfFVj9oXBLRKoh5TUQjV1Jyvws8,452
+cq_electronics/connectors/__init__.py,sha256=y53RepXcn14stSmoMf0WWV_YP2d3xUz-8N4gbJxizGI,18
+cq_electronics/connectors/headers.py,sha256=J5BhKzQUCHNTPL-G9bZSSpOHin6O_uTEzcyUQMxa7K4,2975
+cq_electronics/connectors/rj45.py,sha256=q8NqcVJFS5MBexCfSliaQWmWCW91ZWk_c6nf7wfz1rE,2424
+cq_electronics/mechanical/__init__.py,sha256=FJjhy_Q2C7c5ObFFk_Aqdy_p0HrGOg3Vxz79lBIDlWc,37
+cq_electronics/mechanical/din_rail.py,sha256=ceLz3PbbNF2oBlKNNBlcO0m8vW0Wsr-ZvqfqcGuG8f0,1700
+cq_electronics/rpi/rpi3b.py,sha256=PAgoqOwfE-JgCoxrqEqCyZAUudSCKCs34wJInx7_v3Y,8294
+cq_electronics/smd/__init__.py,sha256=apsMf5J239ZNAR1GEoLDL9oNM6_SjZ5m9ZPotIxAkyQ,47
+cq_electronics/smd/bga.py,sha256=V6CTEWBg3OzxX9Jf2U4e9nUipRj8UORCi6sQ58VHehQ,1678
+cq_electronics-0.1.0.dist-info/LICENSE,sha256=qb8ICUSR3iZaTh7_lR1ZHerHOvt2znno-8n84Bw5UVU,1056
+cq_electronics-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cq_electronics-0.1.0.dist-info/METADATA,sha256=e1g-wkmVurGRhXAr13PG91xSxR1SBZbTZv0BgoDZHVQ,2629
+cq_electronics-0.1.0.dist-info/RECORD,,
