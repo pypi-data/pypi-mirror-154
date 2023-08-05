@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sematic
+Version: 0.0.1
+Author: Sematic AI
+Author-email: emmanuel@sematic.ai
+Home-page: https://sematic.ai
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Typing :: Typed
+
+UNKNOWN
