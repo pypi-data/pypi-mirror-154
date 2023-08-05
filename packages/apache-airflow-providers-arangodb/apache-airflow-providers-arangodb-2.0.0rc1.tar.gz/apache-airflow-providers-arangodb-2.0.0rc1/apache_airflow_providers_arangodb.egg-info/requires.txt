@@ -1,0 +1,2 @@
+apache-airflow>=2.2.0.rc1
+python-arango>=7.3.2
