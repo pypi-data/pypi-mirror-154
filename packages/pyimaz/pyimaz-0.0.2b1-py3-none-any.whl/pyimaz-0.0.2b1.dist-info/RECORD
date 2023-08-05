@@ -1,0 +1,14 @@
+pyimaz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimaz/pyImaz.py,sha256=rY0DiEq5MMoSOYycPuVJO8_ESMScCkq_KfrkWvapk_I,35197
+pyimaz/_ext/_data/Imaz pressure.txt,sha256=sXoSpmwKL2O1gNzSadgD_1sEhARr34yMZpHlVbjf7AY,588
+pyimaz/_ext/_data/chapman.txt,sha256=vGsRmbWih511D3LBl0Ml9M5taD5HBBPh_W1c_gqzww8,7670
+pyimaz/_ext/_data/data biases.txt,sha256=LK_NVo2tSGjjhJ7hcAuxA_f3wgcYhhtnnppTmj4DoXs,1559
+pyimaz/_ext/_data/data weights.txt,sha256=cdmbiXZD6hiUYxRZoA7YuGBG8c62CoBDOhKzBF2zSrE,56865
+pyimaz/_ext/_data/nighttruequiet.txt,sha256=rUyFjJhTrfRlS5QboI9WyAb0jP4sjrp2Fo-o22SEpas,6205
+pyimaz/_ext/_data/press_60deg.txt,sha256=AgHSa-udHpPb7m92gCnmuqlv5gHpIAJI7kml4b7BR7k,23199
+pyimaz/_ext/_data/press_70deg.txt,sha256=JcBRqPiYPRny9GppiQbI_A82RxKgq-6H1Z5c-dtD5to,87135
+pyimaz-0.0.2b1.dist-info/LICENSE.txt,sha256=Nq2KyS5yGDpXc8GtBI2WcS-WxiJeaAMyE_UStWSbJwc,620
+pyimaz-0.0.2b1.dist-info/METADATA,sha256=FtJp_eMwf6kcCmFbN0tzc4HUCZKq2y8PkIpQiUQD-xw,1078
+pyimaz-0.0.2b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyimaz-0.0.2b1.dist-info/top_level.txt,sha256=qnCSVuUOp37GfpiRKGISUYAI0uLvnmQ0ttq0MzpXU5o,7
+pyimaz-0.0.2b1.dist-info/RECORD,,
