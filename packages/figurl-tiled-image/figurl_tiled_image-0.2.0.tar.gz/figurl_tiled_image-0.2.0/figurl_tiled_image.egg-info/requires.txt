@@ -1,0 +1,3 @@
+kachery-cloud
+figurl
+pyvips
