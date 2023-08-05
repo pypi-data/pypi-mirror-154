@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+switchbotPatched/__init__.py
+switchbotPatched.egg-info/PKG-INFO
+switchbotPatched.egg-info/SOURCES.txt
+switchbotPatched.egg-info/dependency_links.txt
+switchbotPatched.egg-info/requires.txt
+switchbotPatched.egg-info/top_level.txt
