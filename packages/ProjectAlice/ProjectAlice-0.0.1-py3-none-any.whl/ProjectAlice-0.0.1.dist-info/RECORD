@@ -1,0 +1,15 @@
+ProjectAlice/__init__.py,sha256=SQEznH1fmUFkvXd93aiEHKhUytJYs7bdBJnCsZICnIw,771
+ProjectAlice/core/__init__.py,sha256=SQEznH1fmUFkvXd93aiEHKhUytJYs7bdBJnCsZICnIw,771
+ProjectAlice/core/commons/CommonsManager.py,sha256=F9ZE46FqaKZ3M4lxZWyTRLbOFfTTEQZ11TpD0ubWHOE,12690
+ProjectAlice/core/commons/Initializer.py,sha256=QmxDINm9RaU_kZrvKJe2ioexvIKxApbM1KslyCVFH_0,31066
+ProjectAlice/core/commons/__init__.py,sha256=h3Uoy3K9STueeEjTulNIWewsuG6Xh4tnTvNC40V15jU,771
+ProjectAlice/core/commons/constants.py,sha256=D_vKPGGeZa4vapOpOrGUdI-UB1jrL-vXA79JdrEFwWA,12631
+ProjectAlice/core/commons/model/PartOfDay.py,sha256=_03TuiniIsRv4ocjLviaNhKnkcXL8VdMlKwQD4vh9T4,961
+ProjectAlice/core/commons/model/Singleton.py,sha256=OaDwOxKJ_nJZHSWltb95ZQneScPv65AZ7FUdbzuRolA,1132
+ProjectAlice/core/commons/model/Slot.py,sha256=88f_w2qiKWHtKBdD0yQnAkTK7DDNcLZ-2PLzz4f1_hk,1076
+ProjectAlice/core/commons/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ProjectAlice-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ProjectAlice-0.0.1.dist-info/METADATA,sha256=8H0v9uWRLGTsMew_-KeampfHyI9R8qXkCrBRoBz6BGg,1725
+ProjectAlice-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ProjectAlice-0.0.1.dist-info/top_level.txt,sha256=FijAk-f6cTVeEx72MII3lTqZHJ0fFL0F-Z_9Ze74v8Y,13
+ProjectAlice-0.0.1.dist-info/RECORD,,
