@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: qicna
+Version: 0.0.1
+Summary: Quasi-isodynamic Stellarator Construction
+Home-page: https://github.com/rogeriojorge/pyQIC
+Author: Rogerio Jorge and Matt Landreman
+Author-email: rogerio.jorge@tecnico.ulisboa.pt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+INTODRUCTION
+# pyQic
+Python implementation of the Quasisymmetric Stellarator Construction method
+
+This code implements the equations derived by Garren and Boozer (1991) for MHD equilibrium near the magnetic axis.
+
+
+USEFUL LINKS
+
+
+#CONNECT??
+
+
+RUN THE CODE
+
+To install this code you will need to open your Shell and insert the following command:
+
+
+
+
+   pip install .
+  
+
+
+To run this code you will need to use your Python and insert the following command:
+
+
+from qic import Qic
+stel = Qic.from_paper('r2 section 5.2')
+
+
+First of all you need to copy the folders and the files with the "git clone" command followed by the github repository's link.
+Example:
+
+    git clone _link_
+    
+   
+   
+Then you will need to install the librarys below:
+  numpy
+  scipy
+  matplotlib
+  
+Example: 
+
+    pip install numpy scipy matplotlib
+    
