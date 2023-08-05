@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<head>
+  <title>Activity</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/primer/octicons/main/icons/comment-discussion-24.svg" type="image/svg+xml">
+  <style>
+  body {
+    font-family: sans-serif;
+    max-width: 60em;
+    margin: auto;
+    line-height: 1.3;
+    color: black;
+  }
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  li {
+    margin: 0;
+  }
+  li p {
+    margin: 0;
+  }
+  ul.repos > li {
+    margin-top: 2em;
+  }
+  ul.entries > li {
+    margin-top: 1em;
+  }
+  ul.entries > li > p {
+    margin-left: 4.2em;
+  }
+  ul.entries > li > p:first-child {
+    text-indent: -2.1em;   /* not sure why it's half the 4.2em indent */
+  }
+  ul.comments > li > p {
+    margin-left: 4.2em;
+    padding-left: 1.6em;
+    text-indent: -1.6em;
+  }
+  ul.thread_comment ul.thread_comment {
+    padding-left: 1.6em;
+  }
+  ul.thread_comment > li > p {
+    padding-left: 7.3em;
+    text-indent: -1.6em;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #0969da;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .reponame {
+    font-weight: bold;
+    font-size: 150%;
+    margin-right: .5em;
+  }
+  .label {
+    padding: .2em .5em .1em .5em;
+    border-radius: 2em;
+    font-size: 75%;
+    opacity: .85;
+    vertical-align: middle;
+    white-space: nowrap;
+    /* GitHub label style computations, lifted from github.com */
+    border: 1px solid transparent;
+    --perceived-lightness: calc( ((var(--label-r) * 0.2126) + (var(--label-g) * 0.7152) + (var(--label-b) * 0.0722)) / 255 );
+    --lightness-switch: max(0, min(calc((var(--perceived-lightness) - var(--lightness-threshold)) * -1000), 1));
+    --lightness-threshold: 0.453;
+    --border-threshold: 0.96;
+    --border-alpha: max(0, min(calc((var(--perceived-lightness) - var(--border-threshold)) * 100), 1));
+    background: rgb(var(--label-r), var(--label-g), var(--label-b));
+    color: hsl(0, 0%, calc(var(--lightness-switch) * 100%));
+    border-color: hsla(var(--label-h), calc(var(--label-s) * 1%), calc((var(--label-l) - 25) * 1%), var(--border-alpha));
+  }
+  .homerepo {
+    color: #888;
+  }
+  .old > p {
+    color: #888;
+  }
+  .footer {
+    color: #888;
+    font-style: italic;
+    margin-top: 3em;
+  }
+  .octicons {
+    display: inline-block;
+    padding-right: .3em;
+  }
+  .octicon {
+    width: 1.3em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    padding-bottom: .2em;
+  }
+  .octicon.star {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/star-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  
+  }
+  .octicon.x {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/x-16.svg);
+  
+  }
+  .octicon.check {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/check-16.svg);
+  
+  }
+  .octicon.checkcircle {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/check-circle-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  
+  }
+  .octicon.comment.resolved {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/tasklist-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  
+  }
+  .octicon.comment {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/comment-16.svg);
+  
+  }
+  .octicon.eye {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/eye-16.svg);
+  
+  }
+  .octicon.filediff {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/file-diff-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(316deg) saturate(6) brightness(.8);
+  
+  }
+  .octicon.dash {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/dash-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(172deg) saturate(0.43) brightness(1.25);
+  
+  }
+  .octicon.pull {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  
+  }
+  .octicon.pull.draft {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-draft-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(172deg) saturate(0.43) brightness(0.65);
+  
+  }
+  .octicon.pull.closed {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/git-pull-request-closed-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(316deg) saturate(6) brightness(.8);
+  
+  }
+  .octicon.pull.merged {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/git-merge-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(220deg) saturate(8) brightness(.65);
+  
+  }
+  .octicon.issue {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/issue-opened-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(98deg) saturate(8) brightness(0.5);
+  
+  }
+  .octicon.issue.closed {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/issue-closed-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(220deg) saturate(8) brightness(.65);
+  
+  }
+  .octicon.issue.wontdo {
+    background-image: url(https://raw.githubusercontent.com/primer/octicons/main/icons/skip-16.svg);
+  filter: invert(1) brightness(.5) sepia(1) hue-rotate(172deg) saturate(0.43) brightness(0.65);
+  
+  }
+  </style>
+<body>
+
+<h1>Activity</h1>
+
+<ul class="repos">
+  <li>
+      <p><span class="reponame"><a href="https://github.com/psf/black">psf/black</a></span>
+      repo issues and pull requests
+      </p>
+      
+        <ul class="entries">
+          <li class="">
+
+              <p><a href="https://github.com/psf/black/pull/3098"><span class="octicons" title="closed pull request, newly closed"><span class="octicon dash"></span><span class="octicon x"></span><span class="octicon closed pull"></span></span><b>Memory error</b> #3098</a>
+              [ashgrantham]
+
+              <span class="label" style="--label-r:228;--label-g:230;--label-b:105;--label-h:60;--label-s:71;--label-l:65;">R: invalid</span>
+                
+              </p><p>memory errer dectetord</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/pull/3098#issuecomment-1146634991" title="06-04 15:29">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>ichard26</b>: even-more-platforms is a branch I am working on. It is currently stalled to upstream...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="">
+
+              <p><a href="https://github.com/psf/black/pull/3046"><span class="octicons" title="merged pull request"><span class="octicon dash"></span><span class="octicon dash"></span><span class="octicon merged pull"></span></span><b>Move imports of `ThreadPoolExecutor` into `reformat_many()`, allowing Black-in-the-browser</b> #3046</a>
+              [Zac-HD]
+
+              <span class="label" style="--label-r:217;--label-g:141;--label-b:91;--label-h:23;--label-s:62;--label-l:60;">skip news</span>
+                
+              </p><p>This is a slight perf win for use-cases that don&#39;t invoke reformat_many(), but more importantly to me today it means...</p></li>
+          <li class="closed">
+
+              <p><a href="https://github.com/psf/black/issues/144"><span class="octicons" title="closed issue"><span class="octicon dash"></span><span class="octicon dash"></span><span class="octicon closed issue"></span></span><b>Black should have an opinion about doc strings</b> #144</a>
+              [Lukas0907]
+
+              <span class="label" style="--label-r:162;--label-g:238;--label-b:239;--label-h:180;--label-s:70;--label-l:78;">T: enhancement</span>
+                <span class="label" style="--label-r:0;--label-g:134;--label-b:114;--label-h:171;--label-s:100;--label-l:26;">help wanted</span>
+                <span class="label" style="--label-r:112;--label-g:87;--label-b:255;--label-h:248;--label-s:100;--label-l:67;">good first issue</span>
+                <span class="label" style="--label-r:0;--label-g:82;--label-b:204;--label-h:215;--label-s:100;--label-l:40;">T: design</span>
+                
+              </p><p>Operating system: Ubuntu 16.04
+Python version: 3.6.1
+Black version: master
+Does also happen on master:...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/144#issuecomment-1146809819" title="06-05 13:57">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>PedanticHacker</b>: I personally prefer this docstring format:
+class SimpleClass:
+    &#34;&#34;&#34;Create a simple class.&#34;&#34;&#34;
+
+...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="closed">
+
+              <p><a href="https://github.com/psf/black/issues/3105"><span class="octicons" title="closed issue, newly created, newly closed"><span class="octicon star"></span><span class="octicon check"></span><span class="octicon wontdo issue"></span></span><b>Bugs maybe</b> #3105</a>
+              [erney83]
+
+              <span class="label" style="--label-r:215;--label-g:58;--label-b:74;--label-h:353;--label-s:66;--label-l:53;">T: bug</span>
+                
+              </p><p>Describe the bug
+
+To Reproduce
+
+For example, take this code:
+this = &#34;code&#34;
+And run it with these arguments:
+$ black...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3105#issuecomment-1146763675" title="06-05 08:23">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>hauntsaninja</b>: I can&#39;t reproduce. Could you provide more information, such as the complete output and your...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3105#issuecomment-1146815396" title="06-05 14:32">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>JelleZijlstra</b>: This is just the template...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="open">
+
+              <p><a href="https://github.com/psf/black/issues/1156"><span class="octicons" title="issue"><span class="octicon dash"></span><span class="octicon dash"></span><span class="octicon issue"></span></span><b>convert f-string with nothing to interpolate to regular string</b> #1156</a>
+              [raybuhr]
+
+              <span class="label" style="--label-r:162;--label-g:238;--label-b:239;--label-h:180;--label-s:70;--label-l:78;">T: enhancement</span>
+                <span class="label" style="--label-r:251;--label-g:170;--label-b:0;--label-h:40;--label-s:100;--label-l:49;">F: strings / docstrings</span>
+                
+              </p><p>Is your feature request related to a problem? Please describe.
+f-strings are great. sometimes they are so great we...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/1156#issuecomment-1146862188" title="06-05 18:33">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>dougthor42</b>: Half the time I forget to add the f prefix. The other half the time I forget to add the curly...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="open">
+
+              <p><a href="https://github.com/psf/black/issues/1767"><span class="octicons" title="issue"><span class="octicon dash"></span><span class="octicon dash"></span><span class="octicon issue"></span></span><b>Vim plugin fails to create virtualenv on NixOS</b> #1767</a>
+              [sbruder]
+
+              <span class="label" style="--label-r:215;--label-g:58;--label-b:74;--label-h:353;--label-s:66;--label-l:53;">T: bug</span>
+                <span class="label" style="--label-r:168;--label-g:178;--label-b:23;--label-h:63;--label-s:77;--label-l:39;">C: vim</span>
+                
+              </p><p>Describe the bug
+When opening vim with black installed for the first time, black tries to create the virtualenv. On...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/1767#issuecomment-1146891111" title="06-05 22:05">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>MatrixManAtYrService</b>: It&#39;s not perfect, but this workaround works for me.  It just ignores the extension entirely and...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/1767#issuecomment-1146897848" title="06-05 22:55">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>sbruder</b>: Thanks, that looks like a reasonable alternative. However, I have switched to formatting with...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="open">
+
+              <p><a href="https://github.com/psf/black/issues/3110"><span class="octicons" title="issue, newly created"><span class="octicon star"></span><span class="octicon dash"></span><span class="octicon issue"></span></span><b>DeprecationWarning: There is no current event loop</b> #3110</a>
+              [JelleZijlstra]
+
+              <span class="label" style="--label-r:215;--label-g:58;--label-b:74;--label-h:353;--label-s:66;--label-l:53;">T: bug</span>
+                <span class="label" style="--label-r:80;--label-g:86;--label-b:120;--label-h:230;--label-s:20;--label-l:39;">C: maintenance</span>
+                
+              </p><p>Running Black on Python 3.11 produces:
+% black ast_decompiler...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3110#issuecomment-1147917026" title="06-06 20:54">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>graingert</b>: 3.10 will also raise this warning, it might be worth running pytest with filterwarnings =...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="">
+
+              <p><a href="https://github.com/psf/black/pull/3109"><span class="octicons" title="pull request, newly created"><span class="octicon star"></span><span class="octicon dash"></span><span class="octicon pull"></span></span><b>Document pre-commit with --force-exclude</b> #3109</a>
+              [Ttibsi]
+
+              <span class="label" style="--label-r:251;--label-g:205;--label-b:0;--label-h:49;--label-s:100;--label-l:49;">T: documentation</span>
+                <span class="label" style="--label-r:217;--label-g:141;--label-b:91;--label-h:23;--label-s:62;--label-l:60;">skip news</span>
+                
+              </p><p>Description
+Closes #3015
+Checklist - did you ...
+
+[/] Add a CHANGELOG entry if necessary? (I don&#39;t believe this is...</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/pull/3109#pullrequestreview-996807971" title="06-06 15:40">
+                        <span class="octicon checkcircle" title="reviewed, approved"></span>
+                          
+                        
+                        <b>cooperlees</b>: Makes sense and works for me.
+Only enhancement I could think of is maybe showing or at least...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/pull/3109#discussion_r890315703" title="06-06 16:17">
+                        
+                            <span class="octicon eye" title="reviewed"></span>
+                          
+                        
+                        <b>MarcoGorelli</b>: is this the best place to put this? if you&#39;re using pre-commit, you might as well use...</a></p>
+                      
+                        <ul class="thread_comment"><li>
+                      <p><a href="https://github.com/psf/black/pull/3109#discussion_r890951087" title="06-07 08:48">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>Ttibsi</b>: I figured it would be better to document Black&#39;s own way of doing this - we can easily add...</a></p>
+                      
+                    </li>
+                  </ul>
+                      
+                    </li>
+                  </ul>
+              </li>
+          <li class="open">
+
+              <p><a href="https://github.com/psf/black/issues/3111"><span class="octicons" title="issue, newly created"><span class="octicon star"></span><span class="octicon dash"></span><span class="octicon issue"></span></span><b>cannot import name &#39;ParameterSource&#39; from &#39;click.core&#39;</b> #3111</a>
+              [omonimus1]
+
+              <span class="label" style="--label-r:215;--label-g:58;--label-b:74;--label-h:353;--label-s:66;--label-l:53;">T: bug</span>
+                
+              </p><p>Installed multiple times on different project. Latest version( 22.3.0) gives the following error when...</p></li>
+          <li class="open">
+
+              <p><a href="https://github.com/psf/black/issues/3087"><span class="octicons" title="issue"><span class="octicon dash"></span><span class="octicon dash"></span><span class="octicon issue"></span></span><b>Proposal: Shades of Black</b> #3087</a>
+              [JelleZijlstra]
+
+              <span class="label" style="--label-r:162;--label-g:238;--label-b:239;--label-h:180;--label-s:70;--label-l:78;">T: enhancement</span>
+                <span class="label" style="--label-r:0;--label-g:82;--label-b:204;--label-h:215;--label-s:100;--label-l:40;">T: design</span>
+                <span class="label" style="--label-r:249;--label-g:208;--label-b:196;--label-h:13;--label-s:81;--label-l:87;">S: needs discussion</span>
+                
+              </p><p>We often get proposals for formatting changes that could be useful, but that change the AST or are otherwise unsafe....</p><ul class="comments">
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3087#issuecomment-1146682051" title="06-04 20:35">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>Zac-HD</b>: I&#39;d caution strongly against adding shades:
+
+The minimal-configuration aspect of black is very...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3087#issuecomment-1146833721" title="06-05 15:24">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>hugovk</b>: I agree with @Zac-HD.
+An opt-out is still an option.
+There&#39;s a huge benefit to the lack of...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3087#issuecomment-1146861649" title="06-05 18:29">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>dougthor42</b>: I&#39;m in the &#34;do nothing&#34; camp.
+Duplicating the capabilities of isort and other tools, or even...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3087#issuecomment-1148457726" title="06-07 10:16">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>CiderMan</b>: I also agree with @Zac-HD
+However, I do see value in permitting a general opt-out for AST...</a></p>
+                      
+                    </li>
+                  <li>
+                      <p><a href="https://github.com/psf/black/issues/3087#issuecomment-1148483855" title="06-07 10:26">
+                        
+                          <span class="octicon comment" title="comment"></span>
+                        
+                        <b>felix-hilden</b>: --experimental would overlap with --preview, so I&#39;m not sure if it&#39;s worth it.
+The biggest point...</a></p>
+                      
+                    </li>
+                  </ul>
+              </li>
+          </ul>
+      
+    </li>
+  </ul>
+
+<p class="footer">
+  created at 2022-06-07 10:03 by
+  <a href="https://pypi.org/project/dinghy/0.11.5">
+    dinghy
+    <span class="dinghy_version">0.11.5</span></a>.
+</p>
