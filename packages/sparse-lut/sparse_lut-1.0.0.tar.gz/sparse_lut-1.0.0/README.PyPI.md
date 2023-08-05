@@ -1,0 +1,51 @@
+稀疏查找表的用处及其优势请参见[SparseLUT在Github上的README.md](https://github.com/bowen-xu/SparseLUT)
+
+
+## 使用方法
+
+通过以下命令即可安装稀疏查找表的Python包：
+
+```
+pip install sparse_lut
+```
+
+下面介绍使用稀疏查找表的方法。
+
+
+首先，通过如下代码初始化稀疏查找表
+
+```Python
+from sparse_lut import SparseLUT
+
+# initialization
+lut = SparseLUT((3, 3, 3, 3, 3))
+```
+
+其次，通过`add`方法，向稀疏查找表中加入多条*特征序列*，例如
+
+```Python
+# adding feature-lists
+lut.add([[0,1,2], [0,1,2], [0,1,2], [0,1,2], [0,1,2]], "A")
+lut.add([[1,2], [0], [0,1,2], [0,1,2], [0,1,2]], "B")
+lut.add([[1,2], [1], [0,1,2], [0,1,2], [0,1,2]], "C")
+```
+
+第三，构建稀疏查找表。如果要进一步进行可视化，则需要传入参数 `False`，否则，程序构建好后会将相关的中间变量清空，以至于无法进行进一步的可视化。
+
+```Python
+# building the sparse-lut
+lut.build(False) # set True is visualization is not required 
+```
+
+第四，如果需要可视化，则通过`draw`方法进行。
+图8
+
+第五，通过下标访问。例如
+
+```Python
+# accessing the value
+result = lut[0,1,0,0,0]
+print(result)
+```
+
+程序会打印“OrderedSet(['A'])”，即成功访问到了对应的值。
