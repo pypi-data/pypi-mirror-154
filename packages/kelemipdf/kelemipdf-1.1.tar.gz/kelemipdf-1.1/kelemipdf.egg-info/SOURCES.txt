@@ -1,0 +1,8 @@
+setup.py
+kelemipdf/__init__.py
+kelemipdf/pdf2image.py
+kelemipdf/pdf2text.py
+kelemipdf.egg-info/PKG-INFO
+kelemipdf.egg-info/SOURCES.txt
+kelemipdf.egg-info/dependency_links.txt
+kelemipdf.egg-info/top_level.txt
