@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+teacher/__init__.py
+teacher_xai.egg-info/PKG-INFO
+teacher_xai.egg-info/SOURCES.txt
+teacher_xai.egg-info/dependency_links.txt
+teacher_xai.egg-info/requires.txt
+teacher_xai.egg-info/top_level.txt
