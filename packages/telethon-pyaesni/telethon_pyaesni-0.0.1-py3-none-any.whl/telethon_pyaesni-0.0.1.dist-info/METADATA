@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: telethon-pyaesni
+Version: 0.0.1
+Summary: telethon bindings for the pyaesni module
+Home-page: https://github.com/djsmax/telethon-pyaesni
+Author: djsmax
+Author-email: max746542@gmail.com
+License: MIT License
+Keywords: telethon pyaesni
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pyaesni
+
+telethon-pyaesni
+=================
+
+Module ``telethon-pyaesni`` brings even better performance to
+`Telethon <https://github.com/LonamiWebs/Telethon>`__ lib.
+
+Similar to ``telethon-tgcrypto``, libAES-NI uses CPU hardware acceleration 
+to perform AES encryption and decryption. 
+
+Installation
+~~~~~~~~~~~~
+
+**N.B.** you must not have ``cryptg`` installed, because it interferes with
+this module.
+
+To install this module and patch your Telethon installation just run:
+
+::
+
+    pip install telethon-pyaesni
+
+Credits
+~~~~~~~
+
+-  `@painor <https://github.com/painor>`__ for making pyaesni and telethon-tgcrypto.
+-  `@andrew <https://github.com/kittyandrew>`__ for writing readme for telethon-tgcrypto
+-  `@lonami <https://github.com/lonami>`__ &
+   `contributors <https://github.com/LonamiWebs/Telethon/graphs/contributors>`__
+   for making `telethon <https://github.com/LonamiWebs/Telethon>`__
