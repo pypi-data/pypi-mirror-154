@@ -1,0 +1,7 @@
+numpy
+scipy
+h5py
+xyz_py>=4.2.0
+angmom_suite>=1.7.5
+hpc_suite>=1.3.0
+matplotlib
