@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: integer_programming
+Version: 0.7.1
+Summary: Integer programming in Python
+Home-page: https://github.com/SamuelBismuth/integer_programming
+Author: Samuel Bismuth
+Author-email: samuelbimsuth@101gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/SamuelBismuth/integer_programming/issues
+Project-URL: Source Code, https://github.com/SamuelBismuth/integer_programming
+Keywords: optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IP 
+
+## Installation
+
+    pip install integer_programming
+
+## Related libraries
+
+* [numberpartitioning](https://github.com/fuglede/numberpartitioning) by Søren Fuglede Jørgensen - the code for [complete_greedy](prtpy/complete_greedy.py) is adapted from there.
+* [binpacking](https://github.com/benmaier/binpacking) by Ben Maier.
+
+## Limitations
+
+The package is tested only on Python 3.8 and 3.9. Earlier versions, as well as 3.10, are not supported.
+
+
+
+
