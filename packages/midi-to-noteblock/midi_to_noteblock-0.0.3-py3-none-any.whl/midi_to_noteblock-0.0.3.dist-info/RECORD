@@ -1,0 +1,12 @@
+midi_to_noteblock/__init__.py,sha256=d8rVhgZAHRjHry1OGXSkTEGgy53meaoJ7RI8mnJudac,96
+midi_to_noteblock/audio_splitter.py,sha256=NUk3W0Blv78j3ibuRvhbhjg_7CzSJiBbiL2b-CqUVaw,719
+midi_to_noteblock/block.py,sha256=drTn4FzSFxfqEyF5T_B8DfRYpZe-y3-hIJPdYrjVqUA,452
+midi_to_noteblock/nbt_gen.py,sha256=f8iSPvOldgEnMiTAlLNiUkwNo6F7aT4Dc8kQTGlB5qg,5992
+midi_to_noteblock/region.py,sha256=1J9i74SfO4WaHKYKwmJLEF9palz08u-iwZKlX4FXf3g,1742
+midi_to_noteblock-0.0.3.data/scripts/main.py,sha256=fKAJQpcgpqc8eWQzkUzsgeU6XA9qbbusElXk6d47U5Y,1185
+midi_to_noteblock-0.0.3.dist-info/LICENSE,sha256=fWk2IL2X0e9oTZok15VAXUmDOr65BA9AEROvNIJTM1w,1097
+midi_to_noteblock-0.0.3.dist-info/METADATA,sha256=hzPKswCsOXn54ugLql1Dm9mPDm8U4F7ZXhgLFKMraXY,2049
+midi_to_noteblock-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+midi_to_noteblock-0.0.3.dist-info/entry_points.txt,sha256=c5R6FTb6DJrUuERzndtLZUHQjt4IELvklC7UCgbUNUI,49
+midi_to_noteblock-0.0.3.dist-info/top_level.txt,sha256=3S1G_m0GDUCrX4O2MTIu3fSx4VdBJK03UgWZdUcf5HU,18
+midi_to_noteblock-0.0.3.dist-info/RECORD,,
