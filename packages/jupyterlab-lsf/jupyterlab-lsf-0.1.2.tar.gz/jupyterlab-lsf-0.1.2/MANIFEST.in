@@ -1,0 +1,6 @@
+global-exclude *.dylib
+global-exclude *.py[cod]
+global-exclude *.so
+global-exclude __pycache__
+include VERSION
+recursive-include jupyterlab-lsf *

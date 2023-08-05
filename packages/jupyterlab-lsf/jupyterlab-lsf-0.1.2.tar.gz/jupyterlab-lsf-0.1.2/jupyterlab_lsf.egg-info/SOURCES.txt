@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+jupyterlab_lsf/__init__.py
+jupyterlab_lsf/main.py
+jupyterlab_lsf.egg-info/PKG-INFO
+jupyterlab_lsf.egg-info/SOURCES.txt
+jupyterlab_lsf.egg-info/dependency_links.txt
+jupyterlab_lsf.egg-info/entry_points.txt
+jupyterlab_lsf.egg-info/requires.txt
+jupyterlab_lsf.egg-info/top_level.txt
