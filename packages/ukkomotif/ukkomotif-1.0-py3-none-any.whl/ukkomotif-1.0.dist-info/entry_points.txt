@@ -1,0 +1,3 @@
+[console_scripts]
+ukkomotif = ukkomotif.cli.main:main
+

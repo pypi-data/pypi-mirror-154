@@ -1,0 +1,13 @@
+ukkomotif/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ukkomotif/main.py,sha256=t0CavGv7W7vTF8vwzb80Q8ndafhGzCrbemkDXhLoSJI,4795
+ukkomotif/parser.py,sha256=uZrUY8ZtJxeOqukStRkxnTP6WbuEfVZzWCVaNAtmrF8,3560
+ukkomotif/ukkonen.py,sha256=p0rYJtxeLETOm1wif0gFWPXTGgkff8S_bLld_eIjw4k,12049
+ukkomotif/weeder.py,sha256=o18ZqPKTQ59oGYRSSRslnmNWfPe9Qt42jCQA3v1HZmo,1718
+ukkomotif/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ukkomotif/cli/main.py,sha256=-rso4B38IWz8NXErr0qFg6ROHCk0fn2x4LbQg8LhE30,2864
+ukkomotif-1.0.dist-info/LICENSE,sha256=n8SWISCjoq8_JHhMNBc_qjAUzNVDvJHOKHl8k7_WdfI,1066
+ukkomotif-1.0.dist-info/METADATA,sha256=JodAQ1EPA-UqTj3HKKG3N3nmQ174ZznSXaASI9nMEFc,891
+ukkomotif-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ukkomotif-1.0.dist-info/entry_points.txt,sha256=1_uQOSOwLwekldVGfTaw2uulYlkGlWn1tYQd9x1XRyk,55
+ukkomotif-1.0.dist-info/top_level.txt,sha256=cQ_GsicvIybn__ll6lGxZZYvY_ZszVft26LzQ-R7jag,10
+ukkomotif-1.0.dist-info/RECORD,,

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ukkomotif
+Version: 1.0
+Summary: Genomic motif discovery based on Ukkonen's suffix tree implementation.
+Home-page: https://pbern.com
+Author: Bernardo Penteado
+Author-email: mail@pbern.com
+License: MIT
+Keywords: suffix-tree,motif-discovery,bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.7
+Requires-Dist: click (>=7.0)
+Provides-Extra: dev
+Requires-Dist: pytest (==7.1.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'dev'
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: pytest (==7.1.2) ; extra == 'test'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'test'
+
+UNKNOWN
+
+
