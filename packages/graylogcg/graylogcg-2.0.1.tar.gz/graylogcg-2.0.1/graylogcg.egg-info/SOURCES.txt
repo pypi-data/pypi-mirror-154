@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+graylogcg/__init__.py
+graylogcg/graylogcg.py
+graylogcg.egg-info/PKG-INFO
+graylogcg.egg-info/SOURCES.txt
+graylogcg.egg-info/dependency_links.txt
+graylogcg.egg-info/requires.txt
+graylogcg.egg-info/top_level.txt

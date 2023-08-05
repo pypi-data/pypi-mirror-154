@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: graylogcg
+Version: 2.0.1
+Summary: Biblioteca para inserção de logs padronizados.
+Home-page: https://github.com/ramirooliveiracg/graylogcg
+Author: Gabriel Dalacorte e Rogerio Filho
+Author-email: gnunes.servico@gmail.com, crofilho2@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Graylog CG
+
+## Getting Started
+#### Dependencies
+You need Python 3.7 or later to use **graylogcg**.
+```
+pip install graypy
+```
+#### Installation
+Clone this repo to your local machine using:
+```
+git clone https://github.com/ramirooliveiracg/graylogcg
+```
+## Features
+- File structure for PyPI packages
+- Setup with package informations
+- License example
