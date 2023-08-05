@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Contributing &#8212; Teacher 0.1.0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/design-tabs.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributing" href="contributing.html" />
+    <link rel="prev" title="API" href="../api/index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../index.html">
+<p class="title">Teacher</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../users/getting_started/index.html">
+  Getting started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../users/installing/index.html">
+  Installation
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../tutorials/index.html">
+  Tutorials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../api/index.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="current reference internal nav-link" href="#">
+  Contributing
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../users/project/index.html">
+  Project information
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="contributing.html">
+   Contributing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="development_setup.html">
+   Setting up Matplotlib for development
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="testing.html">
+   Testing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="documenting_mpl.html">
+   Writing documentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="dependencies.html">
+   Dependencies
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="contributing">
+<span id="developers-guide-index"></span><h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">#</a></h1>
+<p>Thank you for your interest in helping to improve Matplotlib! There are various
+ways to contribute to Matplotlib. All of them are super valuable but don’t necessarily
+require writing code at all. For example:</p>
+<ul class="simple">
+<li><p>contributing to the documentation</p></li>
+<li><p>opening new issues for bugs</p></li>
+<li><p>requesting new features</p></li>
+<li><p>asking for clarification on things you find unclear</p></li>
+<li><p>fixing bugs</p></li>
+</ul>
+<p>If you have any questions on the
+process or how to fix something feel free to ask on <a class="reference external" href="https://gitter.im/matplotlib/matplotlib">gitter</a> for short questions and on
+<a class="reference external" href="https://discourse.matplotlib.org">discourse</a> for longer questions.</p>
+<p class="sd-d-inline-block"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-fs-6 reference internal" href="contributing.html#submitting-a-bug-report"><span class="std std-ref">Report a bug</span></a></p>
+<p class="sd-d-inline-block"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-fs-6 reference internal" href="contributing.html#request-a-new-feature"><span class="std std-ref">Request a feature</span></a></p>
+<p class="sd-d-inline-block"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-fs-6 reference internal" href="contributing.html#contributing-code"><span class="std std-ref">Contribute code</span></a></p>
+<p class="sd-d-inline-block"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-fs-6 reference internal" href="contributing.html#contributing-documentation"><span class="std std-ref">Write documentation</span></a></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#contributor-incubator">Contributor incubator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#submitting-a-bug-report">Submitting a bug report</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#requesting-a-new-feature">Requesting a new feature</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#contributing-code">Contributing code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#contributing-documentation">Contributing documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#other-ways-to-contribute">Other ways to contribute</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#coding-guidelines">Coding guidelines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="development_setup.html">Setting up Matplotlib for development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="development_setup.html#creating-a-dedicated-environment">Creating a dedicated environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="development_setup.html#retrieving-the-latest-version-of-the-code">Retrieving the latest version of the code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="development_setup.html#installing-matplotlib-in-editable-mode">Installing Matplotlib in editable mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="development_setup.html#installing-pre-commit-hooks">Installing pre-commit hooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="development_setup.html#installing-additional-dependencies-for-development">Installing additional dependencies for development</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#running-the-tests">Running the tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#writing-a-simple-test">Writing a simple test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#random-data-in-tests">Random data in tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#writing-an-image-comparison-test">Writing an image comparison test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#creating-a-new-module-in-matplotlib-tests">Creating a new module in matplotlib.tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#using-github-actions-for-ci">Using GitHub Actions for CI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#using-tox">Using tox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#building-old-versions-of-matplotlib">Building old versions of Matplotlib</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html#testing-released-versions-of-matplotlib">Testing released versions of Matplotlib</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="documenting_mpl.html">Writing documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="documenting_mpl.html#getting-started">Getting started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documenting_mpl.html#writing-rest-pages">Writing ReST pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documenting_mpl.html#writing-docstrings">Writing docstrings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documenting_mpl.html#writing-examples-and-tutorials">Writing examples and tutorials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="documenting_mpl.html#miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dependencies.html">Dependencies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dependencies.html#runtime-dependencies">Runtime dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dependencies.html#additional-dependencies-for-development">Additional dependencies for development</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dependencies.html#additional-dependencies-for-testing">Additional dependencies for testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dependencies.html#additional-dependencies-for-building-documentation">Additional dependencies for building documentation</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../api/index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">API</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="contributing.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Contributing</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, Guillermo Fernandez.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

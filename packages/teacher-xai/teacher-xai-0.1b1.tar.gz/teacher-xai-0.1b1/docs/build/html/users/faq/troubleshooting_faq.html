@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Troubleshooting &#8212; Teacher 0.1.0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/design-tabs.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../index.html">
+<p class="title">Teacher</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../getting_started/index.html">
+  Getting started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../installing/index.html">
+  Installation
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../tutorials/index.html">
+  Tutorials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../api/index.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../devel/index.html">
+  Contributing
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../project/index.html">
+  Project information
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#obtaining-matplotlib-version">
+   Obtaining Matplotlib version
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#matplotlib-install-location">
+   <code class="file docutils literal notranslate">
+    <span class="pre">
+     matplotlib
+    </span>
+   </code>
+   install location
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#getting-help">
+   Getting help
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#problems-with-recent-git-versions">
+   Problems with recent git versions
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="troubleshooting">
+<span id="troubleshooting-faq"></span><h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">#</a></h1>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#troubleshooting" id="id1">Troubleshooting</a></p>
+<ul>
+<li><p><a class="reference internal" href="#obtaining-matplotlib-version" id="id2">Obtaining Matplotlib version</a></p></li>
+<li><p><a class="reference internal" href="#matplotlib-install-location" id="id3"><code class="file docutils literal notranslate"><span class="pre">matplotlib</span></code> install location</a></p></li>
+<li><p><a class="reference internal" href="#getting-help" id="id4">Getting help</a></p></li>
+<li><p><a class="reference internal" href="#problems-with-recent-git-versions" id="id5">Problems with recent git versions</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="obtaining-matplotlib-version">
+<span id="matplotlib-version"></span><h2>Obtaining Matplotlib version<a class="headerlink" href="#obtaining-matplotlib-version" title="Permalink to this headline">#</a></h2>
+<p>To find out your Matplotlib version number, import it and print the
+<code class="docutils literal notranslate"><span class="pre">__version__</span></code> attribute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">matplotlib</span><span class="o">.</span><span class="n">__version__</span>
+<span class="go">&#39;0.98.0&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="matplotlib-install-location">
+<span id="locating-matplotlib-install"></span><h2><code class="file docutils literal notranslate"><span class="pre">matplotlib</span></code> install location<a class="headerlink" href="#matplotlib-install-location" title="Permalink to this headline">#</a></h2>
+<p>You can find what directory Matplotlib is installed in by importing it
+and printing the <code class="docutils literal notranslate"><span class="pre">__file__</span></code> attribute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">matplotlib</span><span class="o">.</span><span class="vm">__file__</span>
+<span class="go">&#39;/home/jdhunter/dev/lib64/python2.5/site-packages/matplotlib/__init__.pyc&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="getting-help">
+<span id="reporting-problems"></span><h2>Getting help<a class="headerlink" href="#getting-help" title="Permalink to this headline">#</a></h2>
+<p>There are a number of good resources for getting help with Matplotlib.
+There is a good chance your question has already been asked:</p>
+<ul class="simple">
+<li><p>The <a class="reference external" href="http://matplotlib.1069221.n5.nabble.com/">mailing list archive</a>.</p></li>
+<li><p><a class="reference external" href="https://github.com/matplotlib/matplotlib/issues">GitHub issues</a>.</p></li>
+<li><p>Stackoverflow questions tagged <a class="reference external" href="https://stackoverflow.com/questions/tagged/matplotlib">matplotlib</a>.</p></li>
+</ul>
+<p>If you are unable to find an answer to your question through search, please
+provide the following information in your e-mail to the <a class="reference external" href="https://mail.python.org/mailman/listinfo/matplotlib-users">mailing list</a>:</p>
+<ul>
+<li><p>Your operating system (Linux/Unix users: post the output of <code class="docutils literal notranslate"><span class="pre">uname</span> <span class="pre">-a</span></code>).</p></li>
+<li><p>Matplotlib version:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;import matplotlib; print(matplotlib.__version__)&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Where you obtained Matplotlib (e.g., your Linux distribution’s packages,
+GitHub, PyPI, or <a class="reference external" href="https://www.anaconda.com/">Anaconda</a>).</p></li>
+<li><p>Any customizations to your <code class="docutils literal notranslate"><span class="pre">matplotlibrc</span></code> file.</p></li>
+<li><p>If the problem is reproducible, please try to provide a <em>minimal</em>, standalone
+Python script that demonstrates the problem.  This is <em>the</em> critical step.
+If you can’t post a piece of code that we can run and reproduce your error,
+the chances of getting help are significantly diminished.  Very often, the
+mere act of trying to minimize your code to the smallest bit that produces
+the error will help you find a bug in <em>your</em> code that is causing the
+problem.</p></li>
+<li><p>Matplotlib provides debugging information through the <cite>logging</cite> library, and
+a helper function to set the logging level: one can call</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">set_loglevel</span><span class="p">(</span><span class="s2">&quot;info&quot;</span><span class="p">)</span>  <span class="c1"># or &quot;debug&quot; for more info</span>
+</pre></div>
+</div>
+<p>to obtain this debugging information.</p>
+<p>Standard functions from the <cite>logging</cite> module are also applicable; e.g. one
+could call <code class="docutils literal notranslate"><span class="pre">logging.basicConfig(level=&quot;DEBUG&quot;)</span></code> even before importing
+Matplotlib (this is in particular necessary to get the logging info emitted
+during Matplotlib’s import), or attach a custom handler to the “matplotlib”
+logger.  This may be useful if you use a custom logging configuration.</p>
+</li>
+</ul>
+<p>If you compiled Matplotlib yourself, please also provide:</p>
+<ul>
+<li><p>any changes you have made to <code class="docutils literal notranslate"><span class="pre">setup.py</span></code> or <code class="docutils literal notranslate"><span class="pre">setupext.py</span></code>.</p></li>
+<li><p>the output of:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="n">build</span>
+<span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">build</span>
+</pre></div>
+</div>
+<p>The beginning of the build output contains lots of details about your
+platform that are useful for the Matplotlib developers to diagnose your
+problem.</p>
+</li>
+<li><p>your compiler version – e.g., <code class="docutils literal notranslate"><span class="pre">gcc</span> <span class="pre">--version</span></code>.</p></li>
+</ul>
+<p>Including this information in your first e-mail to the mailing list
+will save a lot of time.</p>
+<p>You will likely get a faster response writing to the mailing list than
+filing a bug in the bug tracker.  Most developers check the bug
+tracker only periodically.  If your problem has been determined to be
+a bug and can not be quickly solved, you may be asked to file a bug in
+the tracker so the issue doesn’t get lost.</p>
+</section>
+<section id="problems-with-recent-git-versions">
+<span id="git-trouble"></span><h2>Problems with recent git versions<a class="headerlink" href="#problems-with-recent-git-versions" title="Permalink to this headline">#</a></h2>
+<p>First make sure you have a clean build and install (see clean-install),
+get the latest git update, install it and run a simple test script in debug
+mode:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">*</span>
+<span class="n">git</span> <span class="n">clean</span> <span class="o">-</span><span class="n">xdf</span>
+<span class="n">git</span> <span class="n">pull</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">v</span> <span class="o">.</span> <span class="o">&gt;</span> <span class="n">build</span><span class="o">.</span><span class="n">out</span>
+<span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;from pylab import *; set_loglevel(&#39;debug&#39;); plot(); show()&quot;</span> <span class="o">&gt;</span> <span class="n">run</span><span class="o">.</span><span class="n">out</span>
+</pre></div>
+</div>
+<p>and post <code class="file docutils literal notranslate"><span class="pre">build.out</span></code> and <code class="file docutils literal notranslate"><span class="pre">run.out</span></code> to the <a class="reference external" href="https://mail.python.org/mailman/listinfo/matplotlib-devel">matplotlib-devel</a>
+mailing list (please do not post git problems to the <a class="reference external" href="https://mail.python.org/mailman/listinfo/matplotlib-users">users list</a>).</p>
+<p>Of course, you will want to clearly describe your problem, what you
+are expecting and what you are getting, but often a clean build and
+install will help.  See also <a class="reference internal" href="#reporting-problems"><span class="std std-ref">Getting help</span></a>.</p>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, Guillermo Fernandez.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
