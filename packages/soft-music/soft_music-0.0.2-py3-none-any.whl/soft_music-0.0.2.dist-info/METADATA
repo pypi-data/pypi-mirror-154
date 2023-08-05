@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: soft-music
+Version: 0.0.2
+Summary: Simple spider tools
+Home-page: 
+Author: soft_music_
+Author-email: 1514172767@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+写的一些小工具
