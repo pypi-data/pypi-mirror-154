@@ -1,0 +1,5 @@
+[console_scripts]
+mergedatafiles = lammpsgenie.mergedatafiles:main
+saveiron100 = lammpsgenie.copy_ironfiles:save_iron_100
+saveiron50 = lammpsgenie.copy_ironfiles:save_iron_50
+saveironall = lammpsgenie.copy_ironfiles:save_iron_all
