@@ -1,0 +1,14 @@
+STcreateFigure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+STcreateFigure/__main__.py,sha256=IvYOCCv4KRCqKBfflcksMLVV6lC2F7-2jgEG-Wj6TnQ,453
+STcreateFigure/createFigures.py,sha256=ZMYqI6tXYku3QkiAHeHPvwr6Dh_XRjcZeia2OojLLSE,24898
+STcreateFigure/create_figures_gui5.py,sha256=_cFRMVegGYPd4zNlCkPGbR_zyXJabpp7Dsnsycs_KgY,8499
+STcreateFigure/variables.py,sha256=o7SAdrJk8Kq7Kf4ddNjI1P2yy_GqmAgDA081DdcWEIU,212
+STcreateFigure/fonts/Helvetica-Bold.ttf,sha256=BSkfneADJcOj8azfmjWozktP19MjlEguuxaZunrHPtU,308628
+STcreateFigure/fonts/Helvetica-BoldOblique.ttf,sha256=yr04oU8ZffSnuIFShSL__ZohJ7csquYzeJnzu_o_T_I,277080
+STcreateFigure/fonts/Helvetica-Oblique.ttf,sha256=9h-zyv-9iN8fWTgQOT9QTLk7yq-rLDqa_xk9-JKcZKc,597564
+STcreateFigure/fonts/Helvetica.ttf,sha256=X4Zd3zdUmuRGMLE6UB-BMIbirpdK3Ia5czfNnuSx5P8,317968
+STcreateFigure/fonts/helvetica-light-587ebe5a59211.ttf,sha256=jYsvIw-ZSeE2u3hxFxl7CHmDFqcVXMvMjdyo4COMTj0,50583
+STcreateFigure-0.0.9.dist-info/METADATA,sha256=Pt_Mc2XCj1wyD7V22NImrnS2hwD7J5zifoLD9fh9hHg,675
+STcreateFigure-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+STcreateFigure-0.0.9.dist-info/top_level.txt,sha256=-phPkrmsZJOk6Uh-GeKK9I7LGwYR8qG9saJTFp4COp0,15
+STcreateFigure-0.0.9.dist-info/RECORD,,
