@@ -1,0 +1,16 @@
+autotk/AutoADB.py,sha256=H9ywV57BLjRXScvhjNl5fXzBi4tO1EPyLGYOvotyACg,82040
+autotk/AutoAudio.py,sha256=nHT5k1r5VZJqhqEjhdXgpXTDYrcLIfWnolj12X9SPS0,13108
+autotk/AutoCore.pyd,sha256=2AO0NYxCgQkRIW1ve_wjgyClajSn-Xm7qlbIDEzwUKs,622592
+autotk/AutoCoreLite.pyd,sha256=HNSB_LbIBDCh7wM6X4yRRsIW-GYHT3llr3URnj24QqU,239104
+autotk/AutoDB.py,sha256=k1gQd1mZ8TCA-Z1M7gzk7kKaXBCi4RTfjSW3bg_J6F4,15038
+autotk/AutoLang.py,sha256=6KA_iSujiFFIPF3bAoMQ_dX8DjgqwMzUWhw16hw5W80,6737
+autotk/AutoMES.py,sha256=nVmwVmojJWyUjxUxNmrVvCw-0InvywVDvn_98W_KhJw,27617
+autotk/AutoOSS.py,sha256=czCQDBkKLjLwfJzolMzPBDsKvkE1Ixz97jlGgZPkd1Q,4555
+autotk/AutoSerial.py,sha256=NiUonEE1NwKWjgmH-D3jGTU0RDVBDCqLP9e6-qpM8HU,12768
+autotk/AutoUI.py,sha256=4196lBT4_c7taQ-jVG8ypT-gzx9phHH1pyNtNM8MI4Y,136460
+autotk/AutoUSB.py,sha256=ScefCOtRvvA7awx9Qk88SMLGx2a6QiER7yXBTOV_gAo,37984
+autotk/__init__.py,sha256=iiuY7rLrFehSlU7TVRDajYJhQHfTzdBTDg0--QSzfRI,164
+automaster-0.7.1.dist-info/METADATA,sha256=_VG1Lcvrm38C_YKUXaYG6vd2-xc1lg3LxuHDzTvSAds,552
+automaster-0.7.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+automaster-0.7.1.dist-info/top_level.txt,sha256=8VNttXGy4bSg3j2-HyT5veNPQ0nAn41fyXV0fdxIR7s,7
+automaster-0.7.1.dist-info/RECORD,,
