@@ -1,0 +1,23 @@
+# Query_pts 
+
+A package for calculate barycentric coordinates in the tetrahedras.
+
+### Dependency
+This package relies on `cuda 10`, which has been tested on `pytorch 1.7.1` and `cuda 10.2`.
+
+### Usage
+```
+import torch
+import query_pts
+tet_idx, barycentric = query_pts.cal_barycentric(q_pts, verts, tets, indexes, 4)
+Args:
+    q_pts (torch.tensor): the query points, [Nq,3]
+    verts (torch.tensor): the vertices tethedra, [NV,3]
+    tets (torch.tensor): the vertex index of each tet, [NT,4]
+    K (int): the nearest neighbors for searching to accelerate query
+    use_cuda (bool, optional): _description_. Defaults to True.
+Return:
+    tet_idx (torch.tensor): the tet which containing the query point, [Nq,]
+    barycentric (torch.tensor): corresponding barycentric coordinates, [Nq,4]
+```
+If a point is not in any tetrahedras, the tet idx is set to `-1` and barycentric coordinates are set to `[0,0,0,0]`.
