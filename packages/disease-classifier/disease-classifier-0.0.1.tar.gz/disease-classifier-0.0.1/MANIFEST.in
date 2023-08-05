@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+
+recursive-include * *.ui * *.qrc
+
+prune disease_classifier/Tutorial/**
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
