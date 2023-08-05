@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/dstoku.py.egg-info/PKG-INFO
+src/dstoku.py.egg-info/SOURCES.txt
+src/dstoku.py.egg-info/dependency_links.txt
+src/dstoku.py.egg-info/entry_points.txt
+src/dstoku.py.egg-info/top_level.txt
