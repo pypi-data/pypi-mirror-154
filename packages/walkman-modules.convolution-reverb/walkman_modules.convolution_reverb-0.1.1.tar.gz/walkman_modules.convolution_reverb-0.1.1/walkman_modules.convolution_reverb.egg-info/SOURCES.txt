@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+walkman_modules.convolution_reverb.egg-info/PKG-INFO
+walkman_modules.convolution_reverb.egg-info/SOURCES.txt
+walkman_modules.convolution_reverb.egg-info/dependency_links.txt
+walkman_modules.convolution_reverb.egg-info/requires.txt
+walkman_modules.convolution_reverb.egg-info/top_level.txt
+walkman_modules/convolution_reverbs/__init__.py
