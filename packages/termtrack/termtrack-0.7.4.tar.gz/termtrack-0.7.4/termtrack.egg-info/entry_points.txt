@@ -1,0 +1,2 @@
+[console_scripts]
+termtrack = termtrack.cli:main
