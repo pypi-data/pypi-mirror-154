@@ -1,0 +1,10 @@
+gnu_jango/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gnu_jango/asgi.py,sha256=GGfnCcz7QsZ3NGyrDxe8Sg57RijpWdq32Mwju2_pEIg,411
+gnu_jango/settings.py,sha256=PBRGlYES4sfEQ7bwWkIfVl1S4vI90xZGGHBJEUFo2e8,3192
+gnu_jango/test.py,sha256=E7gUdyUIlOznRui7TPo2eeRwwUkRevPKRsqX-ydVXGA,127
+gnu_jango/urls.py,sha256=X0aN0LOWUm0TEkXzlXqEu9DkHe0NsvfwEjUMI7oTXMI,772
+gnu_jango/wsgi.py,sha256=5RFVeT0Zz7DJWisZhf19EHmzUsqcpJlwhA2OHFgYL04,411
+gnu_jango-0.1.dist-info/METADATA,sha256=yaHmMBUpaSMC6OoVWz_6anIfDRhy5ojSwybpHT3Gn3E,873
+gnu_jango-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gnu_jango-0.1.dist-info/top_level.txt,sha256=Lbbkqtaj5ROOaKdPRsqGJgcYjAP0fA93nvMW66re92U,10
+gnu_jango-0.1.dist-info/RECORD,,

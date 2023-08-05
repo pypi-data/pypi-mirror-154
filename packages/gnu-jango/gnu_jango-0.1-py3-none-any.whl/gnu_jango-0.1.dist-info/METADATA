@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gnu-jango
+Version: 0.1
+Summary: Example package for packaging tutorial
+Home-page: https://github.com/thisgun/jango_test
+Author: thisgun
+Author-email: thisgun@naver.com
+License: MIT
+Download-URL: https://github.com/thisgun/jango_test/archive/master.zip
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+
+UNKNOWN
+
