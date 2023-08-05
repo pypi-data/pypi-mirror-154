@@ -1,0 +1,5 @@
+setup.py
+myfinanceadvisordatamodels.egg-info/PKG-INFO
+myfinanceadvisordatamodels.egg-info/SOURCES.txt
+myfinanceadvisordatamodels.egg-info/dependency_links.txt
+myfinanceadvisordatamodels.egg-info/top_level.txt
