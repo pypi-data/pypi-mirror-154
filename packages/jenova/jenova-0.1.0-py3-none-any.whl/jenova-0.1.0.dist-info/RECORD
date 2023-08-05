@@ -1,0 +1,8 @@
+jenova/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jenova/api.py,sha256=7jaNMVfuk7taki7qaT8Mzz3WO_rweyFIHml1VbOmMx4,4088
+jenova/middleware.py,sha256=MTZqGbA9f9WHtu5DcQhieq6PaooO5FVCqd3IagJ9Kks,650
+jenova/response.py,sha256=MeCvAiMDCc9kqcjSgOB6-H5so10SrxpI-81YuxeUxi0,1049
+jenova-0.1.0.dist-info/LICENSE,sha256=ehi2kvydgs3O-hT95pLNG0e6tvn094FBHr31bRWCN8Q,1070
+jenova-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jenova-0.1.0.dist-info/METADATA,sha256=Tgb1wPnJhyd8H2VQ2qh0b5cyM7aJTz5tMVwlAFvBVd4,622
+jenova-0.1.0.dist-info/RECORD,,
