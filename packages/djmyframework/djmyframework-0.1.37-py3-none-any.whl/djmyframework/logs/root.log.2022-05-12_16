@@ -1,0 +1,42 @@
+[2022-05-12T16:33:03+0800] [ERROR] [django.request] [pid:3770] [/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/utils/log.py:228] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: myadmin_user.create_datatime
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/core/handlers/base.py", line 106, in _get_response
+    response = middleware_method(request, callback, callback_args, callback_kwargs)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/djmyframework/apps/myadmin/middleware.py", line 74, in process_view
+    the_user = User.objects.filter(id=user_id, status__in=(User.Status.NORMAL, User.Status.NotActive)).first()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 664, in first
+    for obj in (self if self.ordered else self.order_by('pk'))[:1]:
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 276, in __iter__
+    self._fetch_all()
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1154, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/xiezhaorong/Desktop/my_py/djmyframework/.venv/lib/python3.7/site-packages/django/db/backends/sqlite3/base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: myadmin_user.create_datatime
