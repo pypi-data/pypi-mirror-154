@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: tempres
+Version: 0.0.1
+Summary: collect temperature and pressure data from a mpy-modcore device
+Home-page: https://github.com/kr-g/tempres
+Author: k.r. goger
+Author-email: k.r.goger+tempres@gmail.com
+License: MIT
+Keywords: micropython esp32 esp8266 modcore home-automation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Utilities
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free For Home Use
+Classifier: License :: Free for non-commercial use
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# tempres 
+
+collect temperature and pressure data from a mpy-modcore device
+running the `tempr` module
+
+
+# what's new ?
+
+Check
+[`CHANGELOG`](https://github.com/kr-g/tempres/blob/main/CHANGELOG.md)
+for latest ongoing, or upcoming news.
+
+
+# limitations
+
+Check 
+[`BACKLOG`](https://github.com/kr-g/tempres/blob/main/BACKLOG.md)
+for open development tasks and limitations.
+
+
+# how to use
+
+todo - documentation pending
+
+
+# platform
+
+tested on python3, and linux
+
+
+# development status
+
+alpha state, use on your own risk!
+
+
+# installation
+
+    phyton3 -m pip install tempres
+    
+
+# license
+
+[`LICENSE`](https://github.com/kr-g/tempres/blob/main/LICENSE.md)
+
+
+

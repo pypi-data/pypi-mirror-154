@@ -1,0 +1,4 @@
+[console_scripts]
+tempres = tempres.main:main_func
+tempresdb = tempres.maindb:main_func
+
