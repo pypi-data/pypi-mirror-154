@@ -1,0 +1,9 @@
+bashdoctest/__init__.py,sha256=FHPL7giFVaegDh5L5nUcvnRdjyhT59EVgRitwHWJytY,277
+bashdoctest/_version.py,sha256=nJw07NaAOarsjNXV62uCKxBueTVXsMnv45wa1HFr3pM,142
+bashdoctest/core.py,sha256=swIKSodqbHir18FiSLRiz2kesIuemkqIs85M9uBOMeE,3856
+bashdoctest/validators.py,sha256=mnGvmUZZzLXiYwY8Ogigkt_aMRddepikpXMYhhlryAw,2008
+bashdoctest-0.1.2.dist-info/LICENSE,sha256=hgYvnu7Tk0CQjngjSv6cDmqJOgXWawH-3lrxF3QgkyY,1078
+bashdoctest-0.1.2.dist-info/METADATA,sha256=z3amZRv8GFStIsEW0iXpUTWCDoePAnsv5IgNzqG6tMg,8831
+bashdoctest-0.1.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+bashdoctest-0.1.2.dist-info/top_level.txt,sha256=qBM77Cb0PfwbFCwmgeshVuEpSW_Ix3MV2IWd90PV4_s,12
+bashdoctest-0.1.2.dist-info/RECORD,,
