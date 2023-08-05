@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/aws_utilities/ApiGateway.py
+src/aws_utilities/AwsApiReports.py
+src/aws_utilities/Lambda.py
+src/aws_utilities/S3.py
+src/aws_utilities/__init__.py
+src/aws_utilities/aws_base.py
+src/aws_utilities/aws_utilities.py
+src/aws_utilities/ses.py
+src/py_aws_utilities.egg-info/PKG-INFO
+src/py_aws_utilities.egg-info/SOURCES.txt
+src/py_aws_utilities.egg-info/dependency_links.txt
+src/py_aws_utilities.egg-info/top_level.txt
