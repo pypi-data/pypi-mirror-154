@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: torchsnapshot
+Version: 0.0.2
+Summary: A library for persisting PyTorch program state
+Home-page: https://github.com/facebookresearch/torchtlc
+Author: torchsnapshot team
+Author-email: yifu@fb.com
+License: BSD-3
+Keywords: pytorch,snapshot,checkpoint
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiofiles
+Requires-Dist: PyYAML
+
+# torchsnapshot
+
+a lightweight library for fault tolerance to PyTorch programs through program state persistence
+
+## Install
+
+Requires Python >= 3.7.
+
+From pip:
+
+```bash
+pip install torchsnapshot
+```
+
+
+## Usage
+
+```python
+import torchsnapshot
+
+# Define the program state
+app_state = {"model": model, "optimizer": optimizer"}
+
+# At an appropriate time, persist the program state as a snapshot
+snapshot = Snapshot.take(path=path, app_state=app_state)
+
+# On resuming, restore the program state from a snapshot
+snapshot.restore(app_state)
+```
+
+
+## License
+
+torchsnapshot is BSD licensed, as found in the [LICENSE](LICENSE) file.
+
+
