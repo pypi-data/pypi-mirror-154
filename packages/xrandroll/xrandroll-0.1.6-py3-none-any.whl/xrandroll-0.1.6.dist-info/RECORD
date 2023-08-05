@@ -1,0 +1,12 @@
+xrandroll/__init__.py,sha256=padK4o0BFqq61kxAA1qQ0jYr2SuhA2mf90B3AaRkmJA,37
+xrandroll/__main__.py,sha256=vBQ82334kX06ImDbFlPFgiBRiLIinwNk3z8Khs6hd74,31
+xrandroll/main.py,sha256=W6byZ30IejralG7XyYOMzeD0Ceq3H4c_eTp4oS0au9M,12904
+xrandroll/main.ui,sha256=O5kUiVsjXG4XLGam-yUWd7pFIfnqN1qVDfweM9iCZJQ,9463
+xrandroll/monitor.py,sha256=0aBu-D2wXOrqCzbYmyKeHIKkYBjvgStwXPtjADRNLL4,4523
+xrandroll/monitor_item.py,sha256=YXjATNXScv28PoN2dX5VEv_-XCN0zv6_GI3szOCux7c,3729
+xrandroll/xrandr.py,sha256=T3vYQ8H9FWypRfUsolL2QMpnsZa67WO_vs8A6mlHPDw,3071
+xrandroll-0.1.6.dist-info/entry_points.txt,sha256=naWi4ndliD3GSwtbGSULKKxiGZavHHsbUscxpxqkUJ8,44
+xrandroll-0.1.6.dist-info/LICENSE,sha256=pK0KdFkrryI7bVWtejrv1KuGsz9v3qPOBNslUpr8ipo,1071
+xrandroll-0.1.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+xrandroll-0.1.6.dist-info/METADATA,sha256=eqS5CMxsS9stDj-AIHCpScaDICv6hZ7qQp6FjzNd9XY,1461
+xrandroll-0.1.6.dist-info/RECORD,,
