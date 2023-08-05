@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: helloworld-package-2022
+Version: 0.0.2
+Summary: Say hello!
+Author: zack588
+Author-email: zakaribarj@yahoo.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+This is a hello world library
+
