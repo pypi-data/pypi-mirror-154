@@ -1,0 +1,10 @@
+csv2http/__init__.py,sha256=EIABYcTHZMKblXq_-oThAX9B0-CJtcmAJOe6ffS-jjM,97
+csv2http/cli.py,sha256=Gs0QqUpcjNO_50EX_uCTriqOG-OtMOepOMDCNRwfY6s,1745
+csv2http/constants.py,sha256=DTPIwI-7OHg609z6TXZFWSpaHFS9p30BmUlSembKlKQ,74
+csv2http/core.py,sha256=ofJIj5lomfxH2xPRRc9MZJqFltAr7TmICTAA2ay-qy0,3222
+csv2http/hooks.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv2http/parser.py,sha256=abVRUAP4uraD9ZkXro-5wGPLCp2i3HilkpMltT4P4nI,1356
+csv2http-0.0.1a0.dist-info/entry_points.txt,sha256=xFf3CEYKd53Sse0bvi3yj8fcnNYjQXbhc9et5Pb39KE,73
+csv2http-0.0.1a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+csv2http-0.0.1a0.dist-info/METADATA,sha256=jYYIrwj7GoYDHGLfCKFqx2eLzjxnpiSe4egiO5wwvXM,3471
+csv2http-0.0.1a0.dist-info/RECORD,,
