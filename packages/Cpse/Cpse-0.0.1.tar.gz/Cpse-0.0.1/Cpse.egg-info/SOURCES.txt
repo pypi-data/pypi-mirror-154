@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+CPSE/Buffers.py
+CPSE/Cpse.py
+CPSE/CpseFrame.py
+CPSE/CpseObject.py
+CPSE/__init__.py
+Cpse.egg-info/PKG-INFO
+Cpse.egg-info/SOURCES.txt
+Cpse.egg-info/dependency_links.txt
+Cpse.egg-info/requires.txt
+Cpse.egg-info/top_level.txt
