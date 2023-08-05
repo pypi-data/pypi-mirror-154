@@ -1,0 +1,7 @@
+pydantic
+boto3
+boto3-stubs[essential]
+datasize
+rich-click
+pandas
+cookiecutter
