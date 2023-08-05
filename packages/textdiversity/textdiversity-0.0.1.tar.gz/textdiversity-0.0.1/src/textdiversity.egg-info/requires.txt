@@ -1,0 +1,13 @@
+biopython==1.79
+cadences==0.3.4
+karateclub==1.2.3
+networkx==2.8.2
+phonemizer==3.2.0
+scikit-learn==1.1.1
+scipy==1.8.1
+spacy==3.3.0
+torch==1.11.0
+transformers==4.19.2
+sentence-transformers==2.2.0
+stanza==1.4.0
+zss==1.2.0
