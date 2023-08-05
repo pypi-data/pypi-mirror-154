@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tes3stitch
+Version: 0.0.2
+Summary: Image stitcher for the TES III: Morrowind CreateMaps command.
+Author-email: Kaarel Mänd <kaarel.mand@protonmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Kaarel Mänd
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kaarelmand/tes3stitch
+Keywords: Morrowind,TES,TES3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tes3stitch
+
+A small command line utility to stitch together the .bmp images created by the CreateMaps console command in [The Elder Scrolls III: Morrowind](https://store.steampowered.com/app/22320/The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition/).
+
+[CreateMaps](https://en.uesp.net/wiki/Morrowind_Mod:CreateMaps) generates a large set of 256x256 pixel .bmp images of all exterior cells in the Morrowind/Maps folder. This Python 3 utility leverages the [pillow](https://python-pillow.org/) library to stitch the individual files into a single image according to their coordinates.
+
+Using command line arguments, you can specify the folder where the .bmp files are located, the output path/filename and file type, the size per each cell (which controls the resulting size and resolution of the output file) and the background color (if any).
+
+The approach was inspired by the [MWMOD-CreateMaps Assembly Script](https://en.uesp.net/wiki/File:MWMOD-CreateMaps_Assembly_Script.zip) by Seneca73, Atrayonis and mort.
+
+## Installing and usage
+
+1. Read the short UESP [guide to CreateMaps](https://en.uesp.net/wiki/Morrowind_Mod:CreateMaps) and run the command in Morrowind.exe, ensuring that the .bmp files are generated.
+2. [Install Python 3](https://wiki.python.org/moin/BeginnersGuide/Download) on your computer, if not already present. Make sure it is of version 3.6 or later. The Python distribution should come packaged with PyPI.
+3. Open a terminal (e.g., "cmd.exe" on Windows) and type `python3 -m pip install tes3stitch`.
+4. Change your working directory to the `Maps` directory under your main Morrowind install directory and run `python3 -m tes3stitch`. Alternatively, run the script in whichever directory and specify the path to the `Maps` directory using the `-p` option.
+5. Find the finished map in the same folder, under the name of `CellExport.png` (by default).
+6. For configuration options, run `python3 -m tes3stitch -h` on the terminal.
+
+## Future ideas
+
+1. Provide a GUI with configuration options.

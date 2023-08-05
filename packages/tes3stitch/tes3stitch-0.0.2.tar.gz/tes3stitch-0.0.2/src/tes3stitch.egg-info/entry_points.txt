@@ -1,0 +1,2 @@
+[console_scripts]
+tes3stitch = tes3stitch.__main__:main

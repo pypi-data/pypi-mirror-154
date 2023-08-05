@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tes3stitch"
+version = "0.0.2"
+description = "Image stitcher for the TES III: Morrowind CreateMaps command."
+readme = "README.md"
+authors = [{ name = "Kaarel Mänd", email = "kaarel.mand@protonmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = ["Morrowind", "TES", "TES3"]
+dependencies = [
+    "Pillow"
+]
+
+[project.urls]
+Homepage = "https://github.com/kaarelmand/tes3stitch"
+
+[project.scripts]
+tes3stitch = "tes3stitch.__main__:main"
+
+[tool.bumpver]
+current_version = "0.0.2"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"src/tes3stitch/__init__.py" = [
+    '__version__ = "{version}"',
+]
