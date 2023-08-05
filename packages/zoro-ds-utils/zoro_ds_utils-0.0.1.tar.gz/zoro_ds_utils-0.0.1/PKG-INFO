@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: zoro_ds_utils
+Version: 0.0.1
+Summary: Utilities for the Zoro Data Science team.
+Author: Zoro Data Science
+Author-email: 
+Project-URL: homepage, https://bitbucket.org/zorotools/zuds/src/master/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: coverage
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: typing
+
+# Zoro Data Science Utilities (AKA zuds)
+Library with common utilities for Data Science projects.

@@ -1,0 +1,47 @@
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+requires = ["setuptools>=43.0.0", "wheel"]
+# build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta:__legacy__"
+
+[tool.black]
+line-length = 88
+
+[tool.coverage.html]
+show_contexts = true
+
+[tool.coverage.paths]
+build = ["zoro_ds_utils"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "raise NotImplementedError",
+  "def __repr__",
+  "if .debug:",
+  "if __name__ == .__main__.:",
+]
+
+[tool.coverage.run]
+parallel = true
+source = ["build", "tests"]
+
+[tool.flake8]
+exclude = [".git", "__pycache__", "docs/conf.py", "build", "dist"]
+max-line-length = 88
+max-complexity = 10
+
+[tool.isort]
+profile = "black"
+lines_between_types = 1
+lines_after_imports = 2
+line_length = 88
+known_first_party = ["build"]
+skip = ["docs/conf.py"]       # "build" is included in the default skip list
+
+[tool.mypy]
+files = "zoro_ds_utils"
+strict = false
+show_error_codes = true
+enable_error_code = ["ignore-without-code", "truthy-bool", "redundant-expr"]
