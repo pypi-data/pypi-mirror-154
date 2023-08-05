@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/python_standardize_it.egg-info/PKG-INFO
+src/python_standardize_it.egg-info/SOURCES.txt
+src/python_standardize_it.egg-info/dependency_links.txt
+src/python_standardize_it.egg-info/top_level.txt
+src/standardize_it/__init__.py
+src/standardize_it/standardize_it.py
