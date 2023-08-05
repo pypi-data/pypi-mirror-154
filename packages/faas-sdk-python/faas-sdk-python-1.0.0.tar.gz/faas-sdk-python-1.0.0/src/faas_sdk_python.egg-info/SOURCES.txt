@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/faas_sdk_python/__init__.py
+src/faas_sdk_python/__main__.py
+src/faas_sdk_python/_cli.py
+src/faas_sdk_python/_function_registry.py
+src/faas_sdk_python/exceptions.py
+src/faas_sdk_python.egg-info/PKG-INFO
+src/faas_sdk_python.egg-info/SOURCES.txt
+src/faas_sdk_python.egg-info/dependency_links.txt
+src/faas_sdk_python.egg-info/entry_points.txt
+src/faas_sdk_python.egg-info/requires.txt
+src/faas_sdk_python.egg-info/top_level.txt
