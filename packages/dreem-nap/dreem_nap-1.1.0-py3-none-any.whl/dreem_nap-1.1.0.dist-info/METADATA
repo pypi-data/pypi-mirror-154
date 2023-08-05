@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dreem-nap
+Version: 1.1.0
+Summary: New Analysis Pipeline: visualize the output of DREEM
+Author: Yves Martin des Taillades
+Author-email: Yves Martin des Taillades <yves@martin.yt>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: pickle-mixin
+Requires-Dist: firebase-admin
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: python-string-utils
+Requires-Dist: datetime
+Requires-Dist: seaborn
+Requires-Dist: mock
+
+UNKNOWN
+
