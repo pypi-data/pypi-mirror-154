@@ -1,0 +1,13 @@
+graphql_builder/__init__.py,sha256=QnLAB5YQp4LqDeSmXcK5ouOjRNwfB5_85tT6BCW2NRY,1873
+graphql_builder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphql_builder/_internal/__init__.py,sha256=FEUl-3PwHJUu7w6x6PycsVFGnYeDC7cpB-J_d5rL1-A,607
+graphql_builder/_internal/build_state.py,sha256=kgkpxI2iZHglggSRegkjTIzKGjfHV_rQrZQxJj6IeWw,1415
+graphql_builder/_internal/builders.py,sha256=L8ZxqUo5ZtPtdNJ6JegVVGrvjvAvGi8vjA6vurE4_ow,8655
+graphql_builder/_internal/enums.py,sha256=SbRh2Rdq1g3ye1DjsOXs6kY7JMGruTXQaLD8xCHbFCM,749
+graphql_builder/_internal/fields.py,sha256=U-LZCg_DnJDnjE_SDPI_Nld3xm_NHra_Aa1BBSg5g2g,2780
+graphql_builder/_internal/template.py,sha256=MbzHVK6JFhgVlXrdSdiU67M95GBdeQVKE8TRbQfrhks,2360
+graphql_builder/_internal/typings.py,sha256=txnvoAeujna89_7Y6mRWHOIJMnRFVLRXuuV6fFjYbuE,1594
+graphql_builder/_internal/utils.py,sha256=4Q1KbqRO3-MDNygA0capKVnBZRPw-3paiJ2ceNsAbWA,913
+graphql_builder-1.0.0a3.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+graphql_builder-1.0.0a3.dist-info/METADATA,sha256=ucySM5B4G1kWYHwuFWN08LCCCL9p2KuaG8MYZoH7-oc,2565
+graphql_builder-1.0.0a3.dist-info/RECORD,,
