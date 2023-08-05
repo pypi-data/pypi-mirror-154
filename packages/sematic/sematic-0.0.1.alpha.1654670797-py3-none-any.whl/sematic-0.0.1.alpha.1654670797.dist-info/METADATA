@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sematic
+Version: 0.0.1.alpha.1654670797
+Author: Sematic AI, Inc.
+Author-email: emmanuel@sematic.ai
+Home-page: https://sematic.ai
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Typing :: Typed
+
+# Sematic
+
+[![CircleCI](https://circleci.com/gh/sematic-ai/sematic.svg?style=shield&circle-token=c8e0115ddccadc17b98ab293b32cad27026efb25)](<LINK>)
+
+Welcome to Sematic.
+
+Sematic is an open-source development toolkit to help Data Scientists and Machine
+Learning (ML) Engineers prototype and productionize ML pipelines in days not
+weeks.
+
+## Development
+
+### Developer guidelines
+
+### Running tests
+
+Run tests with Bazel (install instructions).
+
+```shell
+$ bazel test //sematic/...
+```
