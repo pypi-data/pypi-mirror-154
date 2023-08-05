@@ -1,0 +1,9 @@
+cloudfn/aws/deploy.py,sha256=9Ggx3Yv_J44z88HtmG8HSjj2cMicrv6I580MBq85L_c,186
+cloudfn/aws/event.py,sha256=sUqoYWdvEByAXQ072ng6K1tnMODqEHpMegToFf3Dznc,13021
+cloudfn/aws/local.py,sha256=YrZtmiqo-gmTZyFY-uvPwj2Zf5FiUO3WLetDgZTeFfM,2443
+cloudfn/aws/model.py,sha256=3V6VFJkSskXU7psZbCm1lBFOdU0CSTtJF2qRXSDneYE,7884
+cloudfn/aws/util.py,sha256=tt_2Riizy6XerEmwxUaI_djqgjYn7dEP6Kz9Dfl4vyM,813
+cloudfn_aws-0.2.1.dist-info/METADATA,sha256=lOx_EFdTcO9PgDJZ9nl2WXuGVbxlNuHSx7yLOp-lGcs,281
+cloudfn_aws-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloudfn_aws-0.2.1.dist-info/top_level.txt,sha256=aq6MB8ZrH2EFMw-t93hFzdJsC4llSpJDoAt5PMzk8hg,8
+cloudfn_aws-0.2.1.dist-info/RECORD,,
