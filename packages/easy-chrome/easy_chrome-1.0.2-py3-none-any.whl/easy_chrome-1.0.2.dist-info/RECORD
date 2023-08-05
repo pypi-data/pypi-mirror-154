@@ -1,0 +1,7 @@
+easy_chrome/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_chrome/chrome_driver.py,sha256=MbXJvNGZ2liIY8BnL4ywWXtswFLouBi_lW3vru59Kww,8635
+easy_chrome/chrome_version.py,sha256=GD0tIClnFXn14caZzwaUgSlhCl5pzxyhIylIasfbJP0,3585
+easy_chrome-1.0.2.dist-info/METADATA,sha256=Rl3jgOyYNQZ6myPnFiNPhCOQ2NTLAS78FzW8XPtB9VQ,303
+easy_chrome-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+easy_chrome-1.0.2.dist-info/top_level.txt,sha256=Esh_5i660niSmIgCqtDUb6MCLsyQH7JodX3cV33AOMU,12
+easy_chrome-1.0.2.dist-info/RECORD,,
