@@ -1,0 +1,3 @@
+[console_scripts]
+Celsius2Fahrenheit = Celsius2Fahrenheit:main
+
