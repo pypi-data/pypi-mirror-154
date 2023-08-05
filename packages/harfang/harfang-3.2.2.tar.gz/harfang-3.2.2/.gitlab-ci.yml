@@ -1,0 +1,96 @@
+build_win32:
+ variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ script:
+  - $env:CMAKE_PREFIX_PATH = "C:\sdk\glfw\x86;$env:CMAKE_PREFIX_PATH"
+  - $env:FBX_SDK = "C:\sdk\FBX\2018.1.1"
+  - python .\build_ci.py win32
+  - cmd.exe /c ".\ci\wheel_test.bat %PYTHON3_EXECUTABLE_x86% %CD%\build\install\hg_python %CD%\ci"
+  - cmd.exe /c ".\ci\lua_test.bat %CD%\build\install\hg_lua %CD%\ci"
+ artifacts:
+  expire_in: 2 weeks
+  paths:
+  - "build/dist/*.zip"
+ tags:
+  - "win32"
+
+build_win64:
+ variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ script:
+  - $env:CMAKE_PREFIX_PATH = "C:\sdk\glfw\x64;$env:CMAKE_PREFIX_PATH"
+  - $env:FBX_SDK = "C:\sdk\FBX\2018.1.1"
+  - python .\build_ci.py win64
+  - cmd.exe /c ".\ci\wheel_test.bat %PYTHON3_EXECUTABLE_x64% %CD%\build\install\hg_python %CD%\ci"
+  - cmd.exe /c ".\ci\lua_test.bat %CD%\build\install\hg_lua %CD%\ci"
+ artifacts:
+  expire_in: 2 weeks
+  paths:
+  - "build/dist/*.zip"
+ tags:
+  - "win64"
+
+build_ubuntu64:
+ variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  DISPLAY: ':0'
+ script:
+  - xauth merge ~gsbuilder/.Xauthority
+  - "python3 build_ci.py ubuntu64"
+  - /usr/bin/env bash ci/wheel_test.sh /usr/bin/python3 ./build/install/hg_python ./ci
+  - /usr/bin/env bash ci/lua_test.sh ./build/install/hg_lua ./ci
+ artifacts:
+  expire_in: 2 weeks
+  paths:
+  - "build/dist/*.zip"
+ tags:
+  - "ubuntu"
+
+build_aarch64_yocto:
+ variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ script:
+  - export YOCTO_SDK_PATH=/opt/poky/2.4.2
+  - export SDKTARGETSYSROOT=$YOCTO_SDK_PATH/sysroots/aarch64-poky-linux
+  - "python3 build_ci.py aarch64"
+ artifacts:
+  expire_in: 2 weeks
+  paths:
+  - "build/dist/*.zip"
+ tags:
+  - "poky"
+
+build_doc:
+ variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+ script:
+  - "python build_ci.py doc"
+ artifacts:
+  expire_in: 2 weeks
+  paths:
+  - "build/dist/*.zip"
+ tags:
+  - "win64"
+
+#build_osx:
+# variables:
+#  GIT_SUBMODULE_STRATEGY: recursive
+# script:
+#  - "python3.4 build_ci.py osx"
+# artifacts:
+#  expire_in: 3 days
+#  paths:
+#  - build/dist/
+# tags:
+#  - "osx"
+
+staging:
+  variables:
+    ENVIRONMENT: staging
+  stage: deploy
+  only:
+    refs:
+      - master
+  trigger: 
+    project: harfang3d/assemble
+    branch: master

@@ -1,0 +1,210 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "[EJ] (Windows) Build CI",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceRoot}/build_ci.py",
+			"args": [
+				"win32",
+				"--build_dir",
+				"${workspaceRoot}/build_ci",
+				"--keep_build"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "[EJ] (Windows) Generate Harfang HUGO documentation",
+			"type": "python",
+			"request": "launch",
+			"program": "doc_to_hugo.py",
+			"args": [
+				"--doc",
+				"doc",
+				"--api",
+				"${workspaceRoot}/build/doc/harfang/api.xml",
+				"--out",
+				"d:/hugo/sites/harfang3d.com/content",
+				"--version",
+				"3.1.1"
+			],
+			"console": "integratedTerminal",
+			"cwd": "${workspaceRoot}/doc"
+		},
+		{
+			"name": "[EJ] (Windows) Python: Tutorial",
+			"type": "python",
+			"request": "launch",
+			"program": "physics_pool_of_objects.py",
+			"console": "integratedTerminal",
+			"cwd": "d:/tutorials-hg2"
+		},
+		{
+			"name": "[EJ] (Windows) Lua: Tutorial",
+			"type": "lua",
+			"luaexe": "d:/harfang/hg_lua/lua.exe",
+			"request": "launch",
+			"stopOnEntry": true,
+			"program": "physics_pool_of_objects.lua",
+			"cwd": "d:/tutorials-hg2",
+			"consoleCoding": "utf8"
+		},
+		{
+			"name": "[EJ] (Windows) Python: Repro Case C++ debug",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "C:/Users/ejuli/AppData/Local/Programs/Python/Python310/python.exe",
+			"args": [
+				"main-no-vr.py"
+			],
+			"stopAtEntry": true,
+			"cwd": "D:/harfang-simple-vr-tutorial",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Lua: Repro Case C++ debug",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "d:/harfang/hg_lua/lua.exe",
+			"args": [
+				"main.lua"
+			],
+			"stopAtEntry": false,
+			"cwd": "d:/website-tutorials_hg2/simulation-raycast-car-hg2/source",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Assetc",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "d:/harfang/assetc/assetc.exe",
+			"args": [
+				"d:/newproject",
+				"-progress",
+				"-quiet"
+			],
+			"stopAtEntry": false,
+			"cwd": "d:/harfang/assetc",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Assemble",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "D:/harfang/studio/studio.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "d:/harfang/studio",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Assemble OpenGL",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "D:/harfang/assemble/assemble.exe",
+			"args": ["-api", "GL"],
+			"stopAtEntry": false,
+			"cwd": "d:/harfang/assemble",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Assemble Vulkan",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "D:/harfang/assemble/assemble.exe",
+			"args": ["-api", "VK"],
+			"stopAtEntry": false,
+			"cwd": "d:/harfang/assemble",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Unit Tests (Release)",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "d:/harfang/cppsdk/bin/Release/tests.exe",
+			"args": [
+				"--gtest_filter=*.*"
+			],
+			"stopAtEntry": false,
+			"cwd": "D:/release_3.0.0/harfang/tests",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) Unit Test (Debug)",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "d:/harfang/cppsdk/bin/Debug/tests.exe",
+			"args": [
+				"--gtest_filter=Scene.SceneRef"
+			],
+			"stopAtEntry": false,
+			"cwd": "d:/tutorials-hg2",
+			"environment": []
+		},
+		{
+			"name": "[EJ] (Windows) FBX Converter",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "d:/harfang/fbx_converter/fbx_converter.exe",
+			"args": [
+				"D:/.BLEND/roomba.fbx",
+				"-o",
+				"d:/tmp",
+				"-import-animation",
+				"-frames-per-second",
+				"24"
+			],
+			"stopAtEntry": false,
+			"cwd": "d:/harfang/cppsdk/bin",
+			"environment": []
+		},
+		{
+			"name": "[FG] (Windows) Build CI",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceRoot}/build_ci.py",
+			"args": [
+				"win64",
+				"--build_dir",
+				"${workspaceRoot}/build_ci",
+				"--keep_build"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "[FG] (Windows) Build CI DOC",
+			"type": "python",
+			"request": "launch",
+			"program": "${workspaceRoot}/build_ci.py",
+			"args": [
+				"doc",
+				"--build_dir",
+				"${workspaceRoot}/build_ci",
+				"--keep_build"
+			],
+			"console": "integratedTerminal"
+		},
+		{
+			"name": "[FG] (Windows) Generate Harfang HUGO documentation",
+			"type": "python",
+			"request": "launch",
+			"program": "doc_to_hugo.py",
+			"args": [
+				"--doc",
+				"doc",
+				"--api",
+				"${workspaceRoot}/build_ci/cmake/doc/harfang/api.xml",
+				"--out",
+				"G:/works/harfang/hg2/releases/3.2.1/content",
+				"--version",
+				"3.2.1"
+			],
+			"console": "integratedTerminal",
+			"cwd": "${workspaceRoot}/doc"
+		},
+	]
+}

@@ -1,0 +1,147 @@
+devEnv:
+  default: VigoWin
+  choices:
+    VigoWin:
+      short: Vigo Win
+      long: Vigo Windows
+      settings:
+        HG_ENABLE_BULLET3_SCENE_PHYSICS: ON
+        HG_FBX_SDK: C:\Program Files\Autodesk\FBX\FBX SDK\2020.2.1
+        HG_FABGEN_PATH: d:/fabgen
+        CMAKE_INSTALL_PREFIX: d:/harfang
+    VigoLinux:
+      short: Vigo Linux
+      long: Vigo Linux
+      settings:
+        HG_ENABLE_BULLET3_SCENE_PHYSICS: ON
+        HG_FBX_SDK: /home/ejulien/Documents/FBX/2018.1.1
+        HG_FABGEN_PATH: /home/ejulien/Documents/fabgen
+        CMAKE_INSTALL_PREFIX: /home/ejulien/harfang
+
+buildType:
+  default: release
+  choices:
+    debug:
+      short: Debug
+      long: Build with debug information
+      buildType: Debug
+    release:
+      short: Release
+      long: Build for redistribution
+      buildType: Release
+
+buildLevel:
+  default: 'Full'
+  choices:
+    'Full':
+      short: Full
+      long: Build all projects
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: ON
+        HG_BUILD_CPP_SDK: ON
+        HG_BUILD_TESTS: ON
+        HG_BUILD_DOCS: ON
+        HG_BUILD_FBX_CONVERTER: ON
+        HG_BUILD_GLTF_IMPORTER: ON
+        HG_BUILD_GLTF_EXPORTER: ON
+        HG_BUILD_ASSIMP_CONVERTER: ON
+        HG_BUILD_HG_LUA: ON
+        HG_BUILD_HG_PYTHON: ON
+        HG_INSTALL_HG_PYTHON: ON
+    'Lua':
+      short: Lua
+      long: Build the Lua Harfang extension
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: OFF
+        HG_BUILD_CPP_SDK: OFF
+        HG_BUILD_TESTS: OFF
+        HG_BUILD_DOCS: OFF
+        HG_BUILD_FBX_CONVERTER: OFF
+        HG_BUILD_GLTF_IMPORTER: OFF
+        HG_BUILD_GLTF_EXPORTER: OFF
+        HG_BUILD_ASSIMP_CONVERTER: OFF
+        HG_BUILD_HG_LUA: ON
+        HG_BUILD_HG_PYTHON: OFF
+        HG_INSTALL_HG_PYTHON: OFF
+    'CPython':
+      short: CPython
+      long: Build and install the CPython Harfang module
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: OFF
+        HG_BUILD_CPP_SDK: OFF
+        HG_BUILD_TESTS: OFF
+        HG_BUILD_DOCS: OFF
+        HG_BUILD_FBX_CONVERTER: OFF
+        HG_BUILD_GLTF_IMPORTER: OFF
+        HG_BUILD_GLTF_EXPORTER: OFF
+        HG_BUILD_ASSIMP_CONVERTER: OFF
+        HG_BUILD_HG_LUA: OFF
+        HG_BUILD_HG_PYTHON: ON
+        HG_INSTALL_HG_PYTHON: ON
+    'Converters':
+      short: Converters
+      long: Assets Converters
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: ON
+        HG_BUILD_CPP_SDK: OFF
+        HG_BUILD_TESTS: OFF
+        HG_BUILD_DOCS: OFF
+        HG_BUILD_FBX_CONVERTER: ON
+        HG_BUILD_GLTF_IMPORTER: ON
+        HG_BUILD_GLTF_EXPORTER: ON
+        HG_BUILD_ASSIMP_CONVERTER: ON
+        HG_BUILD_HG_LUA: OFF
+        HG_BUILD_HG_PYTHON: OFF
+        HG_INSTALL_HG_PYTHON: OFF
+    'C++ SDK':
+      short: CppSDK
+      long: Harfang C++ SDK
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: ON
+        HG_BUILD_CPP_SDK: ON
+        HG_BUILD_TESTS: ON
+        HG_BUILD_DOCS: OFF
+        HG_BUILD_FBX_CONVERTER: OFF
+        HG_BUILD_GLTF_IMPORTER: OFF
+        HG_BUILD_GLTF_EXPORTER: OFF
+        HG_BUILD_ASSIMP_CONVERTER: OFF
+        HG_BUILD_HG_LUA: OFF
+        HG_BUILD_HG_PYTHON: OFF
+        HG_INSTALL_HG_PYTHON: OFF
+    'Minimal':
+      short: Minimal
+      long: Minimal Build
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: ON
+        HG_BUILD_CPP_SDK: OFF
+        HG_BUILD_TESTS: ON
+        HG_BUILD_DOCS: OFF
+        HG_BUILD_FBX_CONVERTER: OFF
+        HG_BUILD_GLTF_IMPORTER: OFF
+        HG_BUILD_GLTF_EXPORTER: OFF
+        HG_BUILD_ASSIMP_CONVERTER: OFF
+        HG_BUILD_HG_LUA: OFF
+        HG_BUILD_HG_PYTHON: OFF
+        HG_INSTALL_HG_PYTHON: OFF
+    'Doc Only':
+      short: Doc
+      long: Doc Only
+      settings:
+        HG_ENABLE_OPENVR_API: ON
+        HG_BUILD_ASSETC: OFF
+        HG_BUILD_CPP_SDK: OFF
+        HG_BUILD_TESTS: OFF
+        HG_BUILD_DOCS: ON
+        HG_BUILD_FBX_CONVERTER: OFF
+        HG_BUILD_GLTF_IMPORTER: OFF
+        HG_BUILD_GLTF_EXPORTER: OFF
+        HG_BUILD_ASSIMP_CONVERTER: OFF
+        HG_BUILD_HG_LUA: OFF
+        HG_BUILD_HG_PYTHON: OFF
+        HG_INSTALL_HG_PYTHON: OFF
