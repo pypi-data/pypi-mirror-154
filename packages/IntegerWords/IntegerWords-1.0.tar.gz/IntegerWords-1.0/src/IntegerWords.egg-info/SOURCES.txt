@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/IntegerWords.py
+src/IntegerWords.egg-info/PKG-INFO
+src/IntegerWords.egg-info/SOURCES.txt
+src/IntegerWords.egg-info/dependency_links.txt
+src/IntegerWords.egg-info/entry_points.txt
+src/IntegerWords.egg-info/top_level.txt
