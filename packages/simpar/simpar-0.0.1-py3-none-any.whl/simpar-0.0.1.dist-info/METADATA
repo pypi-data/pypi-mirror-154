@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: simpar
+Version: 0.0.1
+Summary: TODO
+Home-page: https://github.com/cornell-covid-modeling/simpar
+Author: Cornell Covid Modeling Team
+Author-email: hwr26@cornell.edu
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: scipy (>=1.6)
+Requires-Dist: pyyaml (>=5.4)
+Requires-Dist: json5 (>=0.9.5)
+Provides-Extra: dev
+Requires-Dist: pytest (>=5) ; extra == 'dev'
+Requires-Dist: mock (>=3) ; extra == 'dev'
+Requires-Dist: coverage (>=4.5) ; extra == 'dev'
+Requires-Dist: tox (>=3) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.9) ; extra == 'dev'
+
+# SIMulate PAndemic Response
+
+[![CircleCI](https://circleci.com/gh/cornell-covid-modeling/simpar/tree/master.svg?style=shield&circle-token=bab4306a454b23a7ba58c30c3a1d0891a5d6e5ac)](https://circleci.com/gh/cornell-covid-modeling/simpar/tree/master)
+[![Documentation Status](https://readthedocs.org/projects/simpar/badge/?version=latest)](https://simpar.readthedocs.io/en/latest/?badge=latest)
+[![codecov](https://codecov.io/gh/cornell-covid-modeling/simpar/branch/master/graph/badge.svg?token=VKZ6JFQC0P)](https://codecov.io/gh/cornell-covid-modeling/simpar)
+
+simpar simulates a pandemic's spread through a population using an SIR model.
+It provides the ability to manage a heterogeneous population with varying
+contact levels. The tool focuses on providing functionality for assessing
+various pandemic response strategies such as isolation protocols, testing
+regimes (with varying tests), and vaccination requirements.
