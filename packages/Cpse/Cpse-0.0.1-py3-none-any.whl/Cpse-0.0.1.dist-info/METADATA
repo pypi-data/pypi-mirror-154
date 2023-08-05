@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Cpse
+Version: 0.0.1
+Summary: 提供在Windows控制台开发游戏的引擎
+Home-page: https://github.com/suiyue-studio/CPSE
+Author: LeoLeeYM
+Author-email: 1059872990@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywin32
+Requires-Dist: pynput
+
+提供在Windows控制台开发游戏的引擎
+
