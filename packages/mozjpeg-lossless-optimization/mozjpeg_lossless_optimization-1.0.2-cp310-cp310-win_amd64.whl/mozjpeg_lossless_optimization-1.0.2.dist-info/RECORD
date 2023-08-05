@@ -1,0 +1,9 @@
+mozjpeg_lossless_optimization/__init__.py,sha256=gBTMg3ENEeKUJklx8QgLAc313wytlJlXk7ldsbX0Lbs,62
+mozjpeg_lossless_optimization/_mozjpeg_opti.pyd,sha256=s_4qq0TP0R-PAxHbr1saRegbdtPYiYQDUT1F7rOX0QM,298496
+mozjpeg_lossless_optimization/mozjpeg_opti.py,sha256=0ED7NkbeRwdI7GnZt6AwpufjL2DIo6Ud3UvdmDnkb1Y,660
+mozjpeg_lossless_optimization/mozjpeg_opti_build.py,sha256=9lkrIH9WYnNOIu2WZmStVc2rNMwlrQElff04sXGYvj0,961
+mozjpeg_lossless_optimization-1.0.2.dist-info/LICENSE,sha256=WjuRuFXN2gXuJFKlhnK19ITS8sBlwOjdbRMCCU5oISA,1521
+mozjpeg_lossless_optimization-1.0.2.dist-info/METADATA,sha256=n_9LtthOdeqtp4wpYHcchV2mGDbMkAe8vc5dVxMFCs8,5289
+mozjpeg_lossless_optimization-1.0.2.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+mozjpeg_lossless_optimization-1.0.2.dist-info/top_level.txt,sha256=hnIcwAUfzNQSt_6Z3Skhu7GXY-BCeQCwHLc6dGizqG8,30
+mozjpeg_lossless_optimization-1.0.2.dist-info/RECORD,,
