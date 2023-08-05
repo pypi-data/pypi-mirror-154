@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/colouful_console/__init__.py
+src/colouful_console/console.py
+src/colouful_console/constants.py
+src/colouful_console/utils.py
+src/colourful_console.egg-info/PKG-INFO
+src/colourful_console.egg-info/SOURCES.txt
+src/colourful_console.egg-info/dependency_links.txt
+src/colourful_console.egg-info/top_level.txt
+src/test/__init__.py
+src/test/test_console.py
