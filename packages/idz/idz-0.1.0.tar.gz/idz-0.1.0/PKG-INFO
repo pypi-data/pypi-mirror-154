@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: idz
+Version: 0.1.0
+Summary: 
+Author: k4w411p0wer
+Author-email: alexandrvasyutin@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: opencv-contrib-python (>=4.5.5,<5.0.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
