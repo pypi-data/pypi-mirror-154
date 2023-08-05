@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/Cel2Fa.py
+src/Cel2Fa.egg-info/PKG-INFO
+src/Cel2Fa.egg-info/SOURCES.txt
+src/Cel2Fa.egg-info/dependency_links.txt
+src/Cel2Fa.egg-info/entry_points.txt
+src/Cel2Fa.egg-info/top_level.txt
