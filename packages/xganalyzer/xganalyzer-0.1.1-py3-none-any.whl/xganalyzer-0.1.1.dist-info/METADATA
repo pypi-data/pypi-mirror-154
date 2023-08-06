@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xganalyzer
+Version: 0.1.1
+Summary: Package for xG statistics aggregation
+Home-page: https://github.com/oRastor/xganalyzer
+Author: Orest Budzhak
+Author-email: doom4eg@gmail.com
+Project-URL: Bug Tracker, https://github.com/oRastor/xganalyzer/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xG Analyzer
+
+Package for xG (expected goals) statistics aggregation
