@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "prototype_learning"
+version = "0.1.1"
+description = "A package for learning interpretable prototypes for prediction tasks."
+authors = ["Anton Matsson"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "1.11.0"
+conda-lock = "^1.0.5"
+numpy = "1.20.3"
+skorch = "^0.11.0"
+scikit-learn = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+python-semantic-release = {version = "^7.29.1", python = "^3.9"}
+
+[tool.semantic_release]
+version_variable = "pyproject.toml:version"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
