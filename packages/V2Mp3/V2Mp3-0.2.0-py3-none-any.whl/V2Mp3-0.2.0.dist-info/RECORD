@@ -1,0 +1,17 @@
+V2Mp3/__init__.py,sha256=pFch3b7WCQrOrQT0aa_bdLd0I0Fr4bUWBYhL4g6QMqE,31
+V2Mp3/main.pyw,sha256=uTJ5EsAx4m7HLvUfVrMCLDV45VD5vsornn5i46F53g4,636
+V2Mp3/appEvents/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3/appEvents/events.py,sha256=5nzXeg7h4O8oovD9j2IWxMtXctG6dgJmDDbEsWkT_7s,10178
+V2Mp3/appGUI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3/appGUI/layout.py,sha256=hw5yXBMj067h8hRcBv2pfK0tj6wnOg-HGvZcO0GG-oU,5025
+V2Mp3/appLogger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3/appLogger/appLogger.py,sha256=cTWY78hYWOflVeKgjN-vnUy4t1z9JbmMkpBlJzUrnzs,422
+V2Mp3/downloads/audio/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3/downloads/videos/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3/logs/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+V2Mp3-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+V2Mp3-0.2.0.dist-info/METADATA,sha256=ipK62lPplcBVODClXUiF9RD9zvdPYwsNl-jJ4dz5Pzs,5468
+V2Mp3-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+V2Mp3-0.2.0.dist-info/entry_points.txt,sha256=ZKaCi7JM_d2nnj59J1y85CuZ9v3Nvv-xB6Gix5PE8Dc,39
+V2Mp3-0.2.0.dist-info/top_level.txt,sha256=hf1Mb7KuwvWoSsacH1Mx6gwkNu2HIRzf1yx_0eFlXuQ,6
+V2Mp3-0.2.0.dist-info/RECORD,,
