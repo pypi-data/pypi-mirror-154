@@ -1,0 +1,14 @@
+aws_policy_generator/__init__.py,sha256=N9svr322d3-KNPiB3Qe2mCU6vHmnSHuY43f4Na0vr18,166
+aws_policy_generator/args_generator.py,sha256=9GQJEk_KDf1-WSXwktIoyHdvFX34lFNpglWv1Jgs9pc,2472
+aws_policy_generator/auto_shortener.py,sha256=pJ81xhlhEzj1LYTcmSiqEvaxiYusnTUgO_TrgRQzGu4,1650
+aws_policy_generator/mappings.py,sha256=f9aRsXLd6ghRxAlvphRraXvJzAnovb_qd0KT4kCFe6g,306
+aws_policy_generator/yaml_generator.py,sha256=5vCHJfVqQUHFBuGd_VDVrSx56do-FTBElzRZ6H9lDwo,2477
+aws_policy_generator/_internal/__init__.py,sha256=L3Lrp7QIU4-l7sBoyjOsIZd_rL6NFkdVAXydVbJNZ-w,48
+aws_policy_generator/_internal/argparser.py,sha256=eh1-f4C_9pEk5if9Y54E7IBVtGyxWpyAMZT8ueD-BpI,1936
+aws_policy_generator/_internal/main.py,sha256=NOtMQvrayKZ-u3Uu_ZVvmCSMCiQOeG4ld9wgowCcx-w,946
+aws_policy_generator-1.0.0.dist-info/LICENSE,sha256=7_xOqUdIpwZ3k3p428rkLU7bci15kb0TewQ17VrGT-4,1078
+aws_policy_generator-1.0.0.dist-info/METADATA,sha256=V2nbb-erO2EMVxbNw7tCiEOpNBxYCZtlPU3ve4f4D1s,1180
+aws_policy_generator-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_policy_generator-1.0.0.dist-info/entry_points.txt,sha256=ddVhPMFUwLoSAlAkhdSF_uMH1ymkt-yDcmMbRyQvdgY,83
+aws_policy_generator-1.0.0.dist-info/top_level.txt,sha256=uNYi8unXntlgt3vvVwK83nwmwVQWKDYH2YnTL8X1TMw,21
+aws_policy_generator-1.0.0.dist-info/RECORD,,
