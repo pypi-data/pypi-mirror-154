@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dory/dory_cache.egg-info/PKG-INFO
+dory/dory_cache.egg-info/SOURCES.txt
+dory/dory_cache.egg-info/dependency_links.txt
+dory/dory_cache.egg-info/top_level.txt
