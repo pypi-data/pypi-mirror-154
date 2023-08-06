@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+convert2snn.egg-info/PKG-INFO
+convert2snn.egg-info/SOURCES.txt
+convert2snn.egg-info/dependency_links.txt
+convert2snn.egg-info/requires.txt
+convert2snn.egg-info/top_level.txt
