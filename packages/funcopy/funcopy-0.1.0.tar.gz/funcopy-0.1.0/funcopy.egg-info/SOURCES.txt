@@ -1,0 +1,6 @@
+funcopy/__init__.py
+funcopy/setup.py
+funcopy.egg-info/PKG-INFO
+funcopy.egg-info/SOURCES.txt
+funcopy.egg-info/dependency_links.txt
+funcopy.egg-info/top_level.txt
