@@ -1,0 +1,13 @@
+airflow/providers/influxdb/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/influxdb/get_provider_info.py,sha256=9XnsdNNNmOphlE86BZ1bQkDuXAYloboRBrXOOgDjqXw,2126
+airflow/providers/influxdb/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/influxdb/hooks/influxdb.py,sha256=L0LieGpXxgX0l4fWLm5a2m4pN31BCEcl1d3KbWCx8-4,5694
+airflow/providers/influxdb/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/influxdb/operators/influxdb.py,sha256=srNr57tP_nCuAVUtQmNADxIk1gwQ6549U8tnkyyX-NI,1964
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/METADATA,sha256=dntv-ibxCU16EJmuqRwMWl-EsgQ435-491SqUWJbmZM,6788
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/entry_points.txt,sha256=37M1KoYNxqbbB2vfSaKkSMWWXvoPoS6vPU8TBuNV458,106
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_influxdb-2.0.0rc2.dist-info/RECORD,,
