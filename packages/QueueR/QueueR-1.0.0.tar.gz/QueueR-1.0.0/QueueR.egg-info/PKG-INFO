@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: QueueR
+Version: 1.0.0
+Summary: The world's simplest queue system for Python
+Home-page: https://github.com/Rilm2525/QueueR
+Author: Rilm2525
+Author-email: rilm2525ce@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# QueueR
+The world's simplest queue system for Python
+Author: @Rilm2525
+

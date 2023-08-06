@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+QueueR.egg-info/PKG-INFO
+QueueR.egg-info/SOURCES.txt
+QueueR.egg-info/dependency_links.txt
+QueueR.egg-info/top_level.txt
+queuer/QueueR.py
+queuer/__init__.py
