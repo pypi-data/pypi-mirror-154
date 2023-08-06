@@ -1,0 +1,15 @@
+random
+tkinter
+urllib
+ip2geotools
+ip2geotools.databases.noncommercial
+socket
+bs4
+pygame
+qrcode
+turtle
+pyfiglet
+sys
+datetime
+instaloader
+colorama

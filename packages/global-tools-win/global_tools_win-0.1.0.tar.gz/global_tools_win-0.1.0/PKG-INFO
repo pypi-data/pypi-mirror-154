@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: global_tools_win
+Version: 0.1.0
+Summary: Batch tools running on Windows 10//Deneme Version
+Home-page: UNKNOWN
+Author: Ersse
+Author-email: ms1msp0136@gmail.com
+License: MIT
+Keywords: Global_Tools_Win
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+
+   Creative
+
+
+![picture alt]( https://media.giphy.com/media/HoIrPgqTBiB2XvVEf7/giphy.gif "Title is optional")
+
+
+
+
+# Global Tool Windows
+
+global_tools_win Windows Ã¼zerinde Ã§alÄ±ÅŸan Ã¶zellikli bir AraÃ§(Tool)
+
+## Installation
+
+global_tools_win YÃ¼klemek iÃ§in paket yÃ¶neticisini [pip](https://pip.pypa.io/en/stable/) kullanÄ±n .
+
+```
+pip install global_tools_win
+```
+
+## Usage
+
+```python
+global_tools_win.main(x='h')
+#h = Help MenÃ¼sÃ¼nÃ¼ aÃ§ar 
+```
+
+## Contributing
+Ã‡ekme istekleri kabul edilir. BÃ¼yÃ¼k deÄŸiÅŸiklikler iÃ§in lÃ¼tfen Ã¶nce neyi deÄŸiÅŸtirmek istediÄŸinizi tartÄ±ÅŸmak Ã¼zere bir konu aÃ§Ä±n.
+
+
+LÃ¼tfen testleri uygun ÅŸekilde gÃ¼ncellediÄŸinizden emin olun.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
+
+# GlobalToolWindows
+
+### **Options**
+- 01  Port Scanner
+- 02  Net Ping Clear
+- 03  Net Password Show
+- 04  Instagram User Ä°nfo
+- 05  Password Creativ
+- 06  Web IP Adresi
+- 07  Win10 Logo
+- 08  QR Code Creativ
+- 09  Instagram PP download
+- 10 DNS Reset
+- 11 Proxy Reset
+- 12 IP Tracker
+
+

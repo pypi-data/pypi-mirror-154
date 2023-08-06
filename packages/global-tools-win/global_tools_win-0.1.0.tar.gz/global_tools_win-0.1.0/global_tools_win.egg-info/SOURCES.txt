@@ -1,0 +1,8 @@
+README.md
+setup.py
+global_tools_win/__init__.py
+global_tools_win.egg-info/PKG-INFO
+global_tools_win.egg-info/SOURCES.txt
+global_tools_win.egg-info/dependency_links.txt
+global_tools_win.egg-info/requires.txt
+global_tools_win.egg-info/top_level.txt
