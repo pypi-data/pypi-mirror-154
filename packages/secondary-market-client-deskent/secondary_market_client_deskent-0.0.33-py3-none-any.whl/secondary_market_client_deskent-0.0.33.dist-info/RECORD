@@ -1,0 +1,9 @@
+secondary_market/__init__.py,sha256=m1K0lzh5uexbs1UX7ysPhgntYTNjEDzotVBnWpiMZrY,60
+secondary_market/_resources.py,sha256=epZePq6947rFlx3-YfrTjzcS9D0x3wRTYdZGia1IXeo,46
+secondary_market/main.py,sha256=g5wa9fHILhg1OTDBN5yCi7VZo2gnXF5u82cddMi8ezo,18938
+secondary_market_client_deskent-0.0.33.data/scripts/main.py,sha256=g5wa9fHILhg1OTDBN5yCi7VZo2gnXF5u82cddMi8ezo,18938
+secondary_market_client_deskent-0.0.33.dist-info/LICENSE.txt,sha256=HxizgPV641gp6DZbZVohzrAX0BV_zIK0QYCAw3cDx4U,1064
+secondary_market_client_deskent-0.0.33.dist-info/METADATA,sha256=dm5wxGvbj6qVnPhYf6mWyyx-IAZDbUImlkofqPbhYac,943
+secondary_market_client_deskent-0.0.33.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+secondary_market_client_deskent-0.0.33.dist-info/top_level.txt,sha256=TLP31sjYirYpPAa-65hcx7Uu4qIug1B0_qjf5lFIwKI,17
+secondary_market_client_deskent-0.0.33.dist-info/RECORD,,
