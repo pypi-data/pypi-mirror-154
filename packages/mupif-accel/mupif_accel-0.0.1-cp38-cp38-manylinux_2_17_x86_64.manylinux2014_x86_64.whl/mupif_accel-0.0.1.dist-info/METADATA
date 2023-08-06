@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mupif-accel
+Version: 0.0.1
+Summary: Optional accelerated components for MuPIF
+Author: Václav Šmilauer
+License: LGPLv3
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+
