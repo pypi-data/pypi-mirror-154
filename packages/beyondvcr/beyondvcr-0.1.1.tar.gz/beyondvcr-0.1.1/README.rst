@@ -1,0 +1,156 @@
+==========
+Beyond VCR
+==========
+
+BeyondVCR helps you to write tests for code doing HTTP requests
+
+It uses custom HTTP methods for communicating to server to setup mocking
+requests, reset the mock or retrieve the recorded requests.
+
+In a nutshell:
+
+* Tiny and lightweight mock HTTP server
+* Setup mock requests with custom HTTP methods (``MOCK_GET``, ``MOCK_POST``, ...)
+* Reset the mock server with custom HTTP method ``MOCK_RESET``
+* Fetch all recorded requests made to the server with a HTTP request ``MOCK_RETRIEVE``
+* Free software: MIT license
+
+
+Using BeyondVCR
+###############
+
+You can choose to either run the server with Docker, or run the Python module.
+
+Running the server
+==================
+
+Option 1: Running the Python module directly
+--------------------------------------------
+
+Once you've installed ``beyondvcr`` with ``pip install beyondvcr``, you can start the mock server with::
+
+    python -m beyondvcr.server
+
+It will show a message like:
+
+```
+Starting mock server on http://0.0.0.0:7777, use <Ctrl-C> to stop
+```
+
+This means that the server is ready to be used.
+
+
+Option 2: Running with Docker
+-----------------------------
+
+Run::
+
+    docker run --rm -p 7777:80 registry.gitlab.com/eliasdorneles/beyondvcr
+
+This will download the Docker image and run it. When you see a a message like:
+
+```
+Starting mock server on http://0.0.0.0:80, use <Ctrl-C> to stop
+```
+
+This means that the server is ready to be used.
+
+.. note:: Note however that you'll have to be mindful of which HTTP port to use
+   to make the HTTP calls, if you're connecting from the host to the server,
+   you'll need to use the port ``7777``, if you're connecting from another
+   container you need to link the containers and use the ``80`` port.
+
+
+Using the mock server
+=====================
+
+Once you've got the server running, you can make calls to the server.
+
+By default, when we haven't told the mock server what to answer, it will answer
+any regular HTTP request with a ``404`` error and a response like this::
+
+    $ curl -D - http://localhost:7777/hello
+    HTTP/1.0 404 Not Found
+    Server: BaseHTTP/0.6 Python/3.10.4
+    Date: Mon, 13 Jun 2022 20:18:31 GMT
+
+    Mock server got unexpected request:
+    {
+      "path": "/hello",
+      "query": "",
+      "method": "GET",
+      "body": "",
+      "headers": {
+        "Host": "localhost:7777",
+        "User-Agent": "curl/7.81.0",
+        "Accept": "*/*"
+      }
+    }
+
+
+Preparing a canned response
+---------------------------
+
+To setup the mock server so that it sends a canned response when you do a GET
+request to the path ``/hello``, we will send a MOCK_GET request
+like so::
+
+    $ curl -X MOCK_GET -D - http://localhost:7777/hello -d '{"hello": "Elias"}'
+    HTTP/1.0 200 OK
+    Server: BaseHTTP/0.6 Python/3.10.4
+    Date: Mon, 13 Jun 2022 20:32:14 GMT
+
+    GET mock recorded
+
+Now, when we do our ``GET /hello`` again, we will see the body that we recorded with MOCK_GET::
+
+    $ curl -D - http://localhost:7777/hello
+    HTTP/1.0 200 OK
+    Server: BaseHTTP/0.6 Python/3.10.4
+    Date: Mon, 13 Jun 2022 20:32:16 GMT
+
+    {"hello": "Elias"}
+
+Asking the server about which requests were made
+------------------------------------------------
+
+The mock server tracks in memory information about every regular HTTP request
+sent to it, until you reset it.
+
+You can ask the server to send you information about these requests using the
+``MOCK_RETRIEVE`` custom HTTP method::
+
+    $ curl -s -X MOCK_RETRIEVE http://localhost:7777 | python3 -m json.tool
+    [
+        {
+            "path": "/hello",
+            "query": "",
+            "method": "GET",
+            "body": "",
+            "headers": {
+                "Host": "localhost:7777",
+                "User-Agent": "curl/7.81.0",
+                "Accept": "*/*"
+            }
+        }
+    ]
+
+You can use this feature to make assertions on your test code to verify which
+HTTP calls were made by the code being exercised.
+
+Resetting the mock server
+-------------------------
+
+To tell the mock server to forget all canned responses that were setup and all the recorded requests, use the ``MOCK_RESET`` HTTP method::
+
+    $ curl -X MOCK_RESET -D - http://localhost:7777
+    HTTP/1.0 200 OK
+    Server: BaseHTTP/0.6 Python/3.10.4
+    Date: Mon, 13 Jun 2022 20:37:35 GMT
+
+    Mock resetted
+
+At this point, it's like if we had just started the server, and if you send a ``MOCK_RETRIEVE`` it will return empty::
+
+    $ curl -s -X MOCK_RETRIEVE http://localhost:7777
+    []
