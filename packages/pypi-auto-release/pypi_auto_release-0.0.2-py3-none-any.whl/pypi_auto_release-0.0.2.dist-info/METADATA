@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pypi-auto-release
+Version: 0.0.2
+Summary: Automatic releases for PyPi
+Home-page: https://github.com/Dvelezs94/pypi-auto-release
+Author: Diego Velez
+Author-email: diegovelezs94@gmail.com
+License: UNKNOWN
+Keywords: pypi,python,automation,cicd
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+
+# pypi-auto-release
+Sample auto release repository to PyPi using Github actions
+
+Contains files for automatic deployment to PyPi using Github Actions and Github tags
+
+Blog post explaining the implementation https://medium.com/@VersuS_/automate-pypi-releases-with-github-actions-4c5a9cfe947d
+
+PyPi project https://pypi.org/project/pypi-auto-release/
+
