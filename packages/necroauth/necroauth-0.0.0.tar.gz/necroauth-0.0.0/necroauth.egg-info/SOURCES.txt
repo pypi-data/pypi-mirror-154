@@ -1,0 +1,7 @@
+setup.py
+necroauth/__init__.py
+necroauth.egg-info/PKG-INFO
+necroauth.egg-info/SOURCES.txt
+necroauth.egg-info/dependency_links.txt
+necroauth.egg-info/requires.txt
+necroauth.egg-info/top_level.txt
