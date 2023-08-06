@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "gps2var"
+version = "0.1.0-alpha.1"
+description = "Fast reading of geospatial variables by GPS coordinates"
+authors = ["Ondřej Cífka <cifkao@gmail.com>"]
+license = "MIT"
+
+readme = "README.md"
+repository = "https://github.com/cifkao/gps2var"
+
+classifiers = [
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: GIS",
+    "Topic :: Utilities",
+    "Intended Audience :: Science/Research"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+numpy = "^1.21.5"
+rasterio = "^1.2.10"
+pyproj = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=59.5.0"]
+build-backend = "poetry.core.masonry.api"
