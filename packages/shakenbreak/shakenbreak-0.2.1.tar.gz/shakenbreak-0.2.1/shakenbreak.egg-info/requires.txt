@@ -1,0 +1,13 @@
+doped>=0.0.5
+numpy
+pymatgen
+matplotlib
+ase
+pandas
+seaborn
+hiphive
+monty
+
+[tests]
+pytest
+pytest-mpl
