@@ -1,0 +1,10 @@
+scriptflow/__init__.py,sha256=g6l0yNMphul5wcCqshEDgeTxlnh5I3eVDRkC_z2EIyg,150
+scriptflow/cli.py,sha256=OKv2GEvhLdm8Gk48NRud9OQ6CBn5Lr9qYVBO71WNn-k,1816
+scriptflow/core.py,sha256=MkSW7Dp2sticyBdRPebY8IdL0WKiMuuP41Eux1XNXnI,9736
+scriptflow/glob.py,sha256=Awv4zV2lJXesEwswHbgwlEo1G7tP6PFjUG9MXjPs_Hs,200
+scriptflow/runners.py,sha256=4Y3u2zd3TOgs8OPG-MAcwnUky-16Yf-Cq2rt9gAjKg8,8203
+scriptflow/task.py,sha256=mOyFp67eKpy2t7xOWnkcggpesv7latRbgbg_XNdQblQ,4543
+scriptflow-0.2.5.dist-info/entry_points.txt,sha256=YLTm8_dv6yeT8vMJj3_DKM6gCWYoJyhnSdS5fjuoG7U,49
+scriptflow-0.2.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+scriptflow-0.2.5.dist-info/METADATA,sha256=UZ0TxaFxUOhbGDRrTg-AI-B0WeZkUApKbiHhj9iMI14,7016
+scriptflow-0.2.5.dist-info/RECORD,,
