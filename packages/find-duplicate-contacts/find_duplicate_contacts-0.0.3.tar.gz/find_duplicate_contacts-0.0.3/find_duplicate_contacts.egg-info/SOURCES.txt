@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+find_duplicate_contacts/__init__.py
+find_duplicate_contacts/find_duplicate_contacts.py
+find_duplicate_contacts.egg-info/PKG-INFO
+find_duplicate_contacts.egg-info/SOURCES.txt
+find_duplicate_contacts.egg-info/dependency_links.txt
+find_duplicate_contacts.egg-info/requires.txt
+find_duplicate_contacts.egg-info/top_level.txt
