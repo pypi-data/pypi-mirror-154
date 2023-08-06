@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: optilogic
+Version: 1.3.0
+Summary: Tools for interfacing with Optilogic Jobs and APIs
+Home-page: https://optilogic.com
+Author: Optilogic
+Author-email: support@optilogic.com
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: cachetools
+Requires-Dist: docopt
+Requires-Dist: requests
+
