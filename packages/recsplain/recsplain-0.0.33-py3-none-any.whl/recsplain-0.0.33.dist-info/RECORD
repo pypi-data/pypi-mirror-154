@@ -1,0 +1,11 @@
+recsplain/__init__.py,sha256=kfI1Ug8sYv5Ye1svv6VVxIBD5n0W1zrmOU_0KU7Qs40,146
+recsplain/__main__.py,sha256=k2dfNBLgzWl_uw7xONh09UY07Siuk1_hQsng9FF5orw,75
+recsplain/encoders.py,sha256=HFyK9QcCH9DOwjsvvu_M3dstBVtlt872_tWEA59Qupk,19456
+recsplain/endpoint.py,sha256=ztaRBF_iGxC16MQ_uy0oRH_lta7rOcyg7jwm6EvPdgU,6454
+recsplain/similarity_helpers.py,sha256=pUpN38wJTdQ-11tg-j698DqRn3XI-JGPfvNGnMuSe-o,3737
+recsplain/strategies.py,sha256=NqGcdHRWWqBjRZC1tLE0v1CA0njLXkfKfsB4FdhOMlA,12561
+recsplain/tree_helpers.py,sha256=DY9RFNK_yGY5kE8yuOhnP3oF7ycQe8csLO3FfIelsIU,2168
+recsplain-0.0.33.dist-info/METADATA,sha256=-oOQZgeuWPA4J_rg756dBfZy1Nx34uM_HvE8qIXSW-8,616
+recsplain-0.0.33.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recsplain-0.0.33.dist-info/top_level.txt,sha256=dNTLEQjO4XF_4_z6mvYwZcvyM86fEag12Eu0QMHnBFs,10
+recsplain-0.0.33.dist-info/RECORD,,
