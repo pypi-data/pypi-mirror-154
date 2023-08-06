@@ -1,0 +1,6 @@
+requests
+requests_cache
+symspellpy
+beautifulsoup4
+pandas
+lxml
