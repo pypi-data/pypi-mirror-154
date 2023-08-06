@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: utopya
+Version: 1.0.0a4
+Summary: The Utopia Frontend Package
+Home-page: https://gitlab.com/utopia-project/utopya
+Author: utopya developers
+Author-email: Benjamin Herdeanu <Benjamin.Herdeanu@iup.uni-heidelberg.de>, Yunus Sevinchan <Yunus.Sevinchan@iup.uni-heidelberg.de>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Utilities
+Provides-Extra: test
+Provides-Extra: doc
+Provides-Extra: dev
+License-File: COPYING
+License-File: COPYING.LESSER
+
+UNKNOWN
+
