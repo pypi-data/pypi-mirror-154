@@ -1,0 +1,9 @@
+gcn_kafka/__init__.py,sha256=6pNHEGdGMkaikzKn6Ydc3o5kSyQ0s5ox8y6INKAUE8c,154
+gcn_kafka/_version.py,sha256=xwUxqNB1me5mfO6PXPXd-gWwNTAl_-Idf0ktsITBEpU,142
+gcn_kafka/core.py,sha256=YC0wxZ7y5LbBOrZTrNEiJ42Sx2AOjIMbPXFvm67YUC4,3600
+gcn_kafka/oidc.py,sha256=DM-uBJJRuqlpKJrTvCmSZ-YgsVx4pe6BTx-QaXa_0ng,1061
+gcn_kafka-0.1.0.dist-info/LICENSE.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+gcn_kafka-0.1.0.dist-info/METADATA,sha256=5kZ6TcfOobnycsfXaHRbkS3ftvmQc9gFExhCS2671kw,1785
+gcn_kafka-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gcn_kafka-0.1.0.dist-info/top_level.txt,sha256=UJfJPaD8xFaiu9oZc3lwfD1HuXfcgxZZUShkxCK17uY,10
+gcn_kafka-0.1.0.dist-info/RECORD,,
