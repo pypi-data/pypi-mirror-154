@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: praetorian
+Version: 0.1.0a0
+Summary: Praetorian is a basic Sentry wrapper in Python.
+Home-page: https://github.com/ThaumielSparrow/praetorian
+Author: Luzhou Zhang
+Author-email: lzhang1337@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# praetorian
+
+Package is early alpha and still under construction. Use at your own risk.
+
+Developed by Luzhou Zhang from Team Sparrow (c) 2022
+
+# Example Usage
+
+
+
