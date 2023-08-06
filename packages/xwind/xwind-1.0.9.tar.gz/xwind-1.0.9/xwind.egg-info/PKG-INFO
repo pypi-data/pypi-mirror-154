@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xwind
+Version: 1.0.9
+Summary: xwind core functions
+Author: XWind
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+XWind Core Functions
