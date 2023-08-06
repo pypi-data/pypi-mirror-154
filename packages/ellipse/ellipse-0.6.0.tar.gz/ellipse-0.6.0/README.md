@@ -1,0 +1,288 @@
+# ellipse
+
+A parametrized dataset of pictures of ellipses, for Neural Network experimentation.
+
+
+
+```python
+from ellipse import *
+import matplotlib.pyplot as plt
+%matplotlib inline
+```
+
+This example reminds us how the plots are oriented, which is not the usual math way.
+
+
+```python
+A = np.array([[1,2],[3,4]])
+print(A)
+plt.imshow(A, cmap='Blues')
+plt.colorbar()
+plt.show()
+```
+
+    [[1 2]
+     [3 4]]
+
+
+
+    
+![png](docs/output_2_1.png)
+    
+
+
+# Basic options
+
+Let's see the basic parameters
+
+
+```python
+plt.imshow(get_ellipse())
+plt.show()
+```
+
+
+    
+![png](docs/output_4_0.png)
+    
+
+
+Change the position
+
+
+```python
+plt.imshow(get_ellipse(row=40, col=10))
+plt.show()
+```
+
+
+    
+![png](docs/output_6_0.png)
+    
+
+
+Change the radii
+
+
+```python
+plt.imshow(get_ellipse(a=20, b=5))
+plt.show()
+```
+
+
+    
+![png](docs/output_8_0.png)
+    
+
+
+Change the angle. Note that the image row,col coordinate system is still right-handed, so rotation turns anticlockwise as normal.
+
+
+```python
+plt.imshow(get_ellipse(a=20, b=5, theta=np.pi/12))
+plt.show()
+```
+
+
+    
+![png](docs/output_10_0.png)
+    
+
+
+We can combine all the options
+
+
+```python
+plt.imshow(get_ellipse(row=48, col=16, a=16, b=2, theta=np.pi/6))
+plt.show()
+```
+
+
+    
+![png](docs/output_12_0.png)
+    
+
+
+## Advanced Options
+
+We can adjust the downsampling to make a smoother or coarser edge. The default is 4.
+For illustration, here is the edge effect of the downsampling
+
+
+```python
+fig,ax = plt.subplots(1,3, figsize=(6,18),dpi=100)
+ax[0].imshow(get_ellipse(a=20, downsample_factor=1))
+ax[0].set_title("factor 1")
+ax[0].set_aspect(1.0)
+ax[1].imshow(get_ellipse(a=20, downsample_factor=10))
+ax[1].set_title("factor 10")
+ax[1].set_aspect(1.0)
+ax[2].imshow(get_ellipse(a=20, downsample_factor=10) - get_ellipse(a=20, downsample_factor=1))
+ax[2].set_title("difference")
+ax[2].set_aspect(1.0)
+fig.tight_layout()
+plt.show()
+```
+
+
+    
+![png](docs/output_14_0.png)
+    
+
+
+The coordinate system wraps around, so the ellipse is really drawn on a torus.
+
+
+```python
+plt.imshow(get_ellipse(img_size=64, row=56, col=16, a=16, b=2, theta=np.pi/6, downsample_factor=4))
+plt.show()
+```
+
+
+    
+![png](docs/output_16_0.png)
+    
+
+
+We can change the canvas size, but note that you will want to adjust the centers and radii, which chosen to reasonable values for a 64x64 canvas
+
+
+```python
+plt.imshow(get_ellipse(img_size=8, row=5, col=3, a=3, b=1, theta=np.pi/6, downsample_factor=1))
+plt.show()
+```
+
+
+    
+![png](docs/output_18_0.png)
+    
+
+
+
+```python
+plt.imshow(get_ellipse(img_size=256, row=160, col=96, a=96, b=32, theta=np.pi/6, downsample_factor=1))
+plt.show()
+```
+
+
+    
+![png](docs/output_19_0.png)
+    
+
+
+Sometimes, we do not want to allow that wrap-around.  The `check_bounds` function is used by `allow_wrap=False`.
+See the `check_bounds.ipynb` notebook for more use of boundschecking.
+
+
+```python
+check_bounds(img_size=64, row=56, col=16, a=16, b=2, theta=np.pi/6, downsample_factor=4)
+```
+
+
+
+
+    False
+
+
+
+
+```python
+check_bounds(img_size=64, row=47, col=16, a=16, b=2, theta=np.pi/6, downsample_factor=4)
+```
+
+
+
+
+    True
+
+
+
+## Generating Random Examples
+
+We can generate random examples and feed their parameters to `get_ellipse`
+
+
+```python
+p = generate(64, row_range=(0,64), col_range=(0,64), area_range=(8*np.pi,16*np.pi), logar_range=(1,2), theta_range=(0,np.pi))
+plt.imshow(get_ellipse(**p))
+plt.title(f"bounds? {check_bounds(**p)}")
+plt.show()
+
+```
+
+
+    
+![png](docs/output_25_0.png)
+    
+
+
+
+```python
+fig,axs = plt.subplots(1,8, figsize=(4*8,4))
+for i in range(8):
+    p = generate(64, row_range=(0,64), col_range=(0,64), area_range=(8*np.pi,16*np.pi), logar_range=(1,2), theta_range=(0,np.pi))
+    E = get_ellipse(**p, downsample_factor=3)
+    axs[i].imshow(E)
+plt.show()
+```
+
+
+    
+![png](docs/output_26_0.png)
+    
+
+
+## Pre-defined datasets
+Some datasets are particularly useful for our experiements. We have hard-coded their parameterizations.
+
+
+```python
+from ellipse.datasets import torus
+X = torus(n=100,return_arrays=True)
+
+fig,ax = plt.subplots(10,10, figsize=(20,20))
+for i in range(100):
+    ax[i//10,i%10].imshow(X[i])
+plt.show()
+
+```
+
+
+    
+![png](docs/output_28_0.png)
+    
+
+
+
+```python
+import ellipse
+```
+
+
+```python
+help(ellipse.get_ellipse)
+```
+
+    Help on function get_ellipse in module ellipse:
+    
+    get_ellipse(img_size: int = 64, row: int = 32, col: int = 32, a: float = 16, b: float = 16, theta: float = 0.0, downsample_factor: int = 4, allow_wrap=True)
+        Make a single ellipse with the given geometry.
+        NOTE! We use the "upper-left" origin convention, so that plt.imgshow( ) and print( )
+        give the same orientation of the image/matrix.
+        
+        :param img_size: Output image resolution. For example, 64 gives a 64x64 image.
+        :param r: row-position of ellipse center.  Relative to upper-left of image.
+        :param c: col-position of ellipse center.  Relative to upper-left of image.
+        :param a: Length of semi-major axis.
+        :param b: Length of semi-minor axis.
+        :param theta: Angle in radians of the semi-major axis versus the row-axis, in range [0,pi]
+        :param downsample_factor: Oversampling factor for downscaling image. Default=4.
+        :param allow_wrap: If False, raise an exception if the ellipse wraps around the image.
+        :return: numpy array of shape (img_size,img_size) suitable for `matplotlib.pyplot.imshow`
+    
+
+
+
+```python
+
+```
