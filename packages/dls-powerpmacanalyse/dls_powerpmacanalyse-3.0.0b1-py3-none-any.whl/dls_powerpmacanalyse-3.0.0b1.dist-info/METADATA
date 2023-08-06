@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: dls-powerpmacanalyse
+Version: 3.0.0b1
+Summary: Analyse configuration of Power PMACs
+Author: Phillip Coles
+Author-email: rjw@observatorysciences.co.uk
+Maintainer: Rebecca Williams
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: dls-pmaclib (>=3.0.1b1)
+Requires-Dist: scp
+Requires-Dist: numpy
+Requires-Dist: pyqt5
+Requires-Dist: pythonqwt
+Requires-Dist: PyQtWebEngine
+Requires-Dist: mock
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort (>5.0) ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme-github-versions ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: setuptools-scm[toml] (>=6.2) ; extra == 'dev'
+Requires-Dist: types-mock ; extra == 'dev'
+Requires-Dist: types-paramiko ; extra == 'dev'
+
+dls-powerpmac-analyse
+===========================
+
+dls_powerpmacanalyse
+
+A library and CLI for analysing/comparing/downloading Power PMAC
+configurations.
+
+Usage
+-----
+
+Help::
+
+    dls-powerpmac-analyse -h
+
+Launch GUI::
+
+    dls-powerpmac-analyse -g
+
+Contributing
+------------
+
+See `CONTRIBUTING`_
+
+License
+-------
+APACHE License. (see `LICENSE`_)
+

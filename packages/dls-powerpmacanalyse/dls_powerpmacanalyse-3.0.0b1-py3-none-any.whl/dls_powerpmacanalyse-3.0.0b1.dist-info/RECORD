@@ -1,0 +1,14 @@
+dls_powerpmacanalyse/__init__.py,sha256=MfNHZmh-78ikGVt6xtcu1h6vSWdKcLpcbRFVF9e6nMo,85
+dls_powerpmacanalyse/_version_git.py,sha256=ZpO_h8cfktGGj6LIyc24DRAmQrRSqUusTn5q7bDZ9w4,3760
+dls_powerpmacanalyse/dls_ppmacanalyse.py,sha256=eOAI3_1hWOa0_pZuSB5f567-INr-3evRfvar8lTjn-E,108265
+dls_powerpmacanalyse/htmlDisp.py,sha256=x9HX-7NCUsw4qdYdvRsXAVIjvm9UFruBMhMhWNBYJ3Y,3549
+dls_powerpmacanalyse/login.py,sha256=-eDhVAdZgyY0SSd5-jE_8MvLzSHDSlLPqwlB0WoFLtc,683
+dls_powerpmacanalyse/ppmacanalyse_control.py,sha256=fZs62gOBEEaC3lOzh9efz7ksqse2hsdfqsbGjfL4Y9M,11216
+dls_powerpmacanalyse/ui_formAnalyseControl.py,sha256=ogMRymqHr7iAREbf10NsUAp-rKizsuZz4Oya-WRfoHI,27506
+dls_powerpmacanalyse/ui_formLogin.py,sha256=wjBNPnNkefaYsVQ5J4J6srfXeq088H6cQrBTmFtpw6c,3005
+dls_powerpmacanalyse-3.0.0b1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dls_powerpmacanalyse-3.0.0b1.dist-info/METADATA,sha256=gMo7pBH_od4EDYCoWAq9NCY44JHqZz49KsIADCEFB7k,1500
+dls_powerpmacanalyse-3.0.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dls_powerpmacanalyse-3.0.0b1.dist-info/entry_points.txt,sha256=49iEDONhLN7EMns4SOFbxWE28OPSMd7chjnLwLq3Nik,85
+dls_powerpmacanalyse-3.0.0b1.dist-info/top_level.txt,sha256=wA6gQMr2T2AGtkRHOLVF-fwqVNjJxOfVzmjXGdneRig,21
+dls_powerpmacanalyse-3.0.0b1.dist-info/RECORD,,

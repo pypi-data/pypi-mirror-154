@@ -1,0 +1,2 @@
+[console_scripts]
+dls-powerpmac-analyse = dls_powerpmacanalyse.dls_ppmacanalyse:main
