@@ -1,0 +1,4 @@
+cryptocode>=0.1
+cryptography>=36.0.1
+hspylib>=0.11.14
+setuptools>=60.10.0
