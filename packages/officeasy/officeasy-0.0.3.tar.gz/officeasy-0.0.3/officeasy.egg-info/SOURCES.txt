@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+officeasy/__init__.py
+officeasy.egg-info/PKG-INFO
+officeasy.egg-info/SOURCES.txt
+officeasy.egg-info/dependency_links.txt
+officeasy.egg-info/not-zip-safe
+officeasy.egg-info/requires.txt
+officeasy.egg-info/top_level.txt
