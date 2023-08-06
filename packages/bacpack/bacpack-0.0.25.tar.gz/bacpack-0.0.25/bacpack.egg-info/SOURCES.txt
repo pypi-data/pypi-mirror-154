@@ -1,0 +1,12 @@
+setup.py
+bacpack/__init__.py
+bacpack/bac.py
+bacpack/empiricbac.py
+bacpack/highfreq.py
+bacpack/simulation.py
+bacpack/toy.py
+bacpack.egg-info/PKG-INFO
+bacpack.egg-info/SOURCES.txt
+bacpack.egg-info/dependency_links.txt
+bacpack.egg-info/requires.txt
+bacpack.egg-info/top_level.txt
