@@ -1,0 +1,10 @@
+README.md
+setup.py
+ALazyQiwi/LazyQiwi.py
+ALazyQiwi/__init__.py
+ALazyQiwi/errors.py
+ALazyQiwi.egg-info/PKG-INFO
+ALazyQiwi.egg-info/SOURCES.txt
+ALazyQiwi.egg-info/dependency_links.txt
+ALazyQiwi.egg-info/not-zip-safe
+ALazyQiwi.egg-info/top_level.txt
