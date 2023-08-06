@@ -1,0 +1,10 @@
+discord/ext/class_commands/__init__.py,sha256=UqoT03JS6jY7WNW8DwInI8K7AfaZ-jzwVFr27FWeTxc,311
+discord/ext/class_commands/commands.py,sha256=hnSrUn-VqyQ5kf9jB96jBpWRJM3Ivhx2-rbUXj8ny4Y,22393
+discord/ext/class_commands/interop.py,sha256=x123-noGcAStrgXFzuYs8CaWY5TBQbW2oLxQgtCybi8,7512
+discord/ext/class_commands/option.py,sha256=m_-Jr2XbrZpDQ-0t4A4bAqtddYhalLn198UyyIH7xls,3735
+discord/ext/class_commands/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_class_commands-1.0.0.dist-info/LICENSE,sha256=yItx-jTYQ9dLP16pH0HWFmuuHw9xt4uIG-MffkyBaKA,1086
+discord_class_commands-1.0.0.dist-info/METADATA,sha256=K34d2CYILbIYxf4WHjOqGnkWdPg-pmlnQUKSnMM99PE,3722
+discord_class_commands-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+discord_class_commands-1.0.0.dist-info/top_level.txt,sha256=fJkrNbR-_8ubMBUcDEJBcfkpECrvSEmMrNKgvLlQFoM,8
+discord_class_commands-1.0.0.dist-info/RECORD,,
