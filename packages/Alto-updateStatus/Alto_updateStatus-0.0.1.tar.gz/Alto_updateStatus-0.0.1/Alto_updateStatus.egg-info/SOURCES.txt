@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Alto_updateStatus.egg-info/PKG-INFO
+Alto_updateStatus.egg-info/SOURCES.txt
+Alto_updateStatus.egg-info/dependency_links.txt
+Alto_updateStatus.egg-info/top_level.txt
+updateStatus/__init__.py
+updateStatus/main.py
