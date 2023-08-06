@@ -1,0 +1,2 @@
+apache-airflow>=2.2.0.rc2
+opsgenie-sdk>=2.1.5
