@@ -1,0 +1,17 @@
+web_youtube_dl/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+web_youtube_dl/app/api.py,sha256=nXChMmr7gi0AInnGPRCCxU73xTHWLGqRxHmKnXOEdhk,908
+web_youtube_dl/app/main.py,sha256=L4z_fA2TQcV1kLdUmIC3mjhj2nt1_8agH5gqNnnKI4c,1145
+web_youtube_dl/app/static/favicon.ico,sha256=C8CmjlFYf1ZCu40KRe8FCyLDmW5dDEeSp1gTsc5UoYE,5765
+web_youtube_dl/app/templates/index.html,sha256=kn5kZusdGAVXirbjvMTgsf87ip3GtHQnBu-2Iqr7IPk,3604
+web_youtube_dl/app/utils.py,sha256=XQni5nn13uw3MnP3rc1EY2Yn7M0sn0ztvLeODQq-oR4,1014
+web_youtube_dl/app/views.py,sha256=vYwJ0n5tdqzTI8qhdlMCVx-BlbLeIeFw2wKxV5pR9zg,1095
+web_youtube_dl/config.py,sha256=0sHmuzM5dzGukdGPGYbF34dBD95lJlp8Iyf91A1Oybc,1711
+web_youtube_dl/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web_youtube_dl/services/progress.py,sha256=dJODKpBsb6r2XR41uheGo3RRtm_Rrmx9cFC1PNB9gvs,1088
+web_youtube_dl/services/websockets.py,sha256=s3jDmXEnVpoH4_hFI7hobCydCutzq-PRDAW6GnxEmWU,1724
+web_youtube_dl/services/youtube.py,sha256=uIZqqI0-ynQBhVRxsBcia04vC8ustsevFe0h8V60Yic,2753
+web_youtube_dl-0.2.0.dist-info/entry_points.txt,sha256=icB_UGMnESfZQfpjfO6aXI-Skcd48-a6fcoZWbGDIFI,126
+web_youtube_dl-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+web_youtube_dl-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+web_youtube_dl-0.2.0.dist-info/METADATA,sha256=H04K2fJFODqJGoulNbTbd6GdME2nlOJhJ9-BM386Zzs,3689
+web_youtube_dl-0.2.0.dist-info/RECORD,,
