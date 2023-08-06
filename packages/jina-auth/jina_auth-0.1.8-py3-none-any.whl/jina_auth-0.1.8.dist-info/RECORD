@@ -1,0 +1,14 @@
+auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth/__main__.py,sha256=pJHibloM4hLiEXVB9o41oEQ6oDsuQAwkpdkc_FseQs4,644
+auth/api.py,sha256=ayGWx0kGXxICWuJg3uoBBd8tErWXBi3_HVOPwxIz4Rg,2171
+auth/helper.py,sha256=7sVvpMHbLAxHQdsRyyHl15N-k722dRJA3fn8GLftlBY,4169
+auth/parsers/__init__.py,sha256=4N-9dV-M9b9uNTSf1xN1IysVb30ZMd6W7kSpKqiT8Xw,780
+auth/parsers/base.py,sha256=TI7mIwjpw7CIzBfmnY_MsnIzIqH2x3HrQUKtLdNUxTY,740
+auth/parsers/helper.py,sha256=b1re9Zprvvc9tNbD429Ybx0Wid225PVvUZbItZR9LuE,8901
+auth/parsers/token.py,sha256=wHTWtLmnSkSFqLZqX4yLRbFMisDYcOXe-A88x8-5m7A,1199
+jina_auth-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jina_auth-0.1.8.dist-info/METADATA,sha256=rg17KOsuwMZ67dihN1DwFdxwgXQ-SiFKYtOu0zAtYYw,4998
+jina_auth-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jina_auth-0.1.8.dist-info/entry_points.txt,sha256=s_qUR6e4-da6hfixTk8iEgPv-RPomEKungFSoQsTLgM,49
+jina_auth-0.1.8.dist-info/top_level.txt,sha256=UiqmBqcgLU_U_xZLKaUS-eXgNaPHFuZebLBP9UNQhcU,5
+jina_auth-0.1.8.dist-info/RECORD,,
