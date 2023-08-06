@@ -1,0 +1,16 @@
+road_collisions_base/__init__.py,sha256=ZaN1bAJGlmZeIlddbfqDf7WvmFnR2E1d1pDzmqAxs-A,48
+road_collisions_base/constants.py,sha256=fxKlo_aP7k_uuoNzZDPYPelIMN8D1eLlpNpfG6yYu3U,62
+road_collisions_base/logging.py,sha256=gj0848flmuxTvi7p8QEw9jCbxjCEWCOdEkOnIgmdWic,1468
+road_collisions_base/utils.py,sha256=7mdaBjzBt9egCQqmoN2rC7g_tdY3rJXeSbdqhjx7xgo,177
+road_collisions_base/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_base/bin/load.py,sha256=4Hu1B8LBitMVm1P3nWCWWGlf0lbhts5XySVewlrdcII,558
+road_collisions_base/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_base/models/collision.py,sha256=yUo-HrFMsQeby0X5AmzBmvh6vs-IppMJafHiZgn_OjE,1840
+road_collisions_base/models/generic.py,sha256=dcW6meR8T-SANbuDkWNKHU38jyv1NlIYajvUy4dNnDk,2477
+road_collisions_base/models/raw_collision.py,sha256=T44kZ3iIEXs2pco5nI4Dm76mDDj8DPyuvbdL72wltx8,607
+road_collisions_base-0.0.22.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+road_collisions_base-0.0.22.dist-info/METADATA,sha256=xHBhXLOmBg1uHyAJ_oJKVivk1XqCCFELWauTcD-B-Y8,290
+road_collisions_base-0.0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+road_collisions_base-0.0.22.dist-info/entry_points.txt,sha256=XEfyE6ainPD05ftRhwWkxLV7BjrDOaV1xUULYlJJ4CI,76
+road_collisions_base-0.0.22.dist-info/top_level.txt,sha256=BhFeBBekSKgNH8fgoVIPKp9dsGp39vr_SRUxDKmOAAk,21
+road_collisions_base-0.0.22.dist-info/RECORD,,
