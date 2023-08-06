@@ -1,0 +1,8 @@
+README.md
+pydownloader.py
+scraper.py
+setup.py
+pydownloader_01.egg-info/PKG-INFO
+pydownloader_01.egg-info/SOURCES.txt
+pydownloader_01.egg-info/dependency_links.txt
+pydownloader_01.egg-info/top_level.txt
