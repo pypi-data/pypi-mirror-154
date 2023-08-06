@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sharry_jira_tool.egg-info/PKG-INFO
+sharry_jira_tool.egg-info/SOURCES.txt
+sharry_jira_tool.egg-info/dependency_links.txt
+sharry_jira_tool.egg-info/requires.txt
+sharry_jira_tool.egg-info/top_level.txt
