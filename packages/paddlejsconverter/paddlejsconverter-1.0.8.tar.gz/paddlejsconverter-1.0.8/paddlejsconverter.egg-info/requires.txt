@@ -1,0 +1,3 @@
+paddlepaddle>=2.0.0
+paddlejslite>=0.0.2
+numpy
