@@ -1,0 +1,12 @@
+mciwb/__init__.py,sha256=HEUv4iyg2ZT3S8m0x_ZUXyV-OPNSYoAmdEsqSQhahSo,969
+mciwb/backup.py,sha256=i83ywg7ww5MJfEjDVbg1BS1-g63ksw_XmBj-ovhRsKE,3111
+mciwb/copyblock.py,sha256=-XEqQAtjk8ypDqY_w_VwuU1_ITDbLLvdASukuqWHf9I,10001
+mciwb/iwb.py,sha256=hth6GfDY9pB3Kfc77I4x7ShQDq-PfiWRa3QwjVgksSU,2304
+mciwb/main.py,sha256=Yt8O0bdgk7KNqcsg6srS8xZAyvljRmwFlzsYq0zdGQQ,954
+mciwb/player.py,sha256=paHWYD_yIqXKoJp22K-CBDf9I9IY905PXrcC_GvWqW0,2495
+mciwb-0.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mciwb-0.0.0.dist-info/METADATA,sha256=X0y1MnHbUSc2CktFPbqwylmgLlWF2N5uk1gtKjTzupU,5993
+mciwb-0.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mciwb-0.0.0.dist-info/entry_points.txt,sha256=jniyd-eUqTu1_BI-UgJwWvkoqfLIDSm43ob2G_Z7nQM,42
+mciwb-0.0.0.dist-info/top_level.txt,sha256=t9OcJp9onRz_A01cnbHd4Btw7W3SPwfbdg5CUD7ZiAQ,6
+mciwb-0.0.0.dist-info/RECORD,,
