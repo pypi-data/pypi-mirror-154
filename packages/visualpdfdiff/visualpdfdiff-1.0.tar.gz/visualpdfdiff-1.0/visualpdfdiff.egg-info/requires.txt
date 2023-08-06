@@ -1,0 +1,7 @@
+consolemsg
+wand
+PyPdf2
+future
+
+[:python_version < "3.5"]
+pathlib2

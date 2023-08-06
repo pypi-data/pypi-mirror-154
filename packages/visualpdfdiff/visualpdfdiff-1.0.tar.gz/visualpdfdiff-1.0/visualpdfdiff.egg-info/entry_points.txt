@@ -1,0 +1,5 @@
+[back2back.diff]
+pdf = visualpdfdiff.pdfvisualdiff:diff
+
+[console_scripts]
+visualpdfdiff = visualpdfdiff.diff:main

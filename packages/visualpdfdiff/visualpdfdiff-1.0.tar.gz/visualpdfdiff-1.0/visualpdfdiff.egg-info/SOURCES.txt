@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+visualpdfdiff/__init__.py
+visualpdfdiff/diff.py
+visualpdfdiff.egg-info/PKG-INFO
+visualpdfdiff.egg-info/SOURCES.txt
+visualpdfdiff.egg-info/dependency_links.txt
+visualpdfdiff.egg-info/entry_points.txt
+visualpdfdiff.egg-info/requires.txt
+visualpdfdiff.egg-info/top_level.txt
