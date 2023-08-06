@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: django-content-safe-uploader
+Version: 0.1.0
+Summary: FileField security validators: FileExtensionValidator, FileContentMatchesWithFileExtensionValidator.
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: django,django admin,django filefield,libmagic,puremagic,file command
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-content-safe-uploader
+
+FileField security validators: FileExtensionValidator, FileContentMatchesWithFileExtensionValidator.
+
+## Install
+
+```
+pip install django-content-safe-uploader
+```
+
+## Usage
+
+*pro/settings.py*
+
+```
+INSTALLED_APPS = [
+    ...
+    "django_content_safe_uploader",
+    ...
+]
+```
+
+*app/models.py*
+
+```
+from django.db import models
+from django_content_safe_uploader.validators import FileExtensionValidator
+from django_content_safe_uploader.validators import FileContentMatchesWithFileExtensionValidator
+from django_content_safe_uploader.validators import IMAGE_EXTENSIONS
+
+class Book(models.Model):
+    title = models.CharField(max_length=128)
+    preview = models.FileField(
+        upload_to="book_previews",
+        validators=[
+            FileExtensionValidator(*IMAGE_EXTENSIONS),
+            FileContentMatchesWithFileExtensionValidator(lax_extensions=[IMAGE_EXTENSIONS]),
+        ])
+```
+
+## Release
+
+### v0.1.0
+
+- First release.

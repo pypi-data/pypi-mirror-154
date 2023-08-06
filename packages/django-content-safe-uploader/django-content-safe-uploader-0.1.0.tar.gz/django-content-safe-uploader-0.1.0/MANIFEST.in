@@ -1,0 +1,10 @@
+include MANIFEST.in
+include LICENSE
+include README.md
+include requirements.txt
+graft django_content_safe_uploader
+exclude django_content_safe_uploader_demo
+exclude django_content_safe_uploader_example
+exclude example_data
+global-exclude __pycache__
+global-exclude *.py[co]
