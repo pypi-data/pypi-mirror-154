@@ -1,0 +1,12 @@
+deepviewcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepviewcore/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepviewcore/process/__init__.py,sha256=4LsUuzQFJ0eer9MJn8kTy5tLa5wM6ZqRzAIQcE8gi84,35
+deepviewcore/process/detect_objects.py,sha256=nQ0-WEsSGN3yYp_v3rXjPy3VYHYYwW-aDF_d-PWOEUM,846
+deepviewcore/process/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepviewcore/process/filters/top_hat.py,sha256=lXLl1yhocCgiNkrQCGvFtZ_KrI58XDNu7KGht9xr9CA,599
+deepviewcore/process/preprocess_frame.py,sha256=VDsgBXxMDD_QsJI4DL1Fs0n0-jthsy9XmGTbKAaWs5A,670
+deepviewcore/shell.py,sha256=VIjMH5vtKm_AzYltf9pqrvbNdBFtxgqREg1zjrkX5fA,292
+deepviewcore/Video.py,sha256=z6Q4EEqT4sKreDzEXfkPaRtqIQ8gSNygwowIlRAHKCo,2101
+deepviewcore-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+deepviewcore-0.1.1.dist-info/METADATA,sha256=2zVxAgi1POL1nW6wNJMwpi92UligMljB_CwaALABflE,355
+deepviewcore-0.1.1.dist-info/RECORD,,
