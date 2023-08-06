@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://icfly2.github.io/simstring/database/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Database - Simstring docs</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link href="../assets/_mkdocstrings.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Simstring docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../measure/" class="nav-link">Measure</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../searcher/" class="nav-link">Searcher</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Database</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../features/" class="nav-link">Features</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../searcher/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../features/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#database" class="nav-link">Database</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#dict-based-database" class="nav-link">Dict based database</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.DictDatabase" class="nav-link">simstring.database.DictDatabase</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.dict.DictDatabase.dumps" class="nav-link">dumps()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.dict.DictDatabase.load" class="nav-link">load()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.dict.DictDatabase.loads" class="nav-link">loads()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.dict.DictDatabase.save" class="nav-link">save()</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#pymongo-based-database" class="nav-link">PyMongo based database</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#simstring.database.MongoDatabase" class="nav-link">simstring.database.MongoDatabase</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="database">Database</h1>
+<h2 id="dict-based-database">Dict based database</h2>
+
+
+<div class="doc doc-object doc-class">
+
+
+<a id="simstring.database.DictDatabase"></a>
+  <div class="doc doc-contents first">
+      <p class="doc doc-class-bases">
+        Bases: <code><span title="simstring.database.base.BaseDatabase">BaseDatabase</span></code></p>
+
+
+
+        <details class="quote">
+          <summary>Source code in <code>simstring\database\dict.py</code></summary>
+          <pre class="highlight"><code class="language-python">class DictDatabase(BaseDatabase):
+    def __init__(self, feature_extractor):
+        self.feature_extractor = feature_extractor
+        self.strings: List[str] = []
+        self.feature_set_size_to_string_map: Dict[int, Set[str]] = defaultdict(set) # 3.10 and up only
+        self.feature_set_size_and_feature_to_string_map: dict = defaultdict(defaultdict_set)
+
+    def add(self, string: str):
+        features = self.feature_extractor.features(string)
+        size = len(features)
+
+        self.strings.append(string)
+        self.feature_set_size_to_string_map[size].add(string)
+
+        for feature in features:
+            self.feature_set_size_and_feature_to_string_map[size][feature].add(string)
+
+    def all(self) -&gt; List[str]:
+        return self.strings
+
+    def lookup_strings_by_feature_set_size_and_feature(self, size: int, feature: str) -&gt; Set[str]:
+        return self.feature_set_size_and_feature_to_string_map[size][feature]
+
+    def min_feature_size(self) -&gt; int:
+        return min(self.feature_set_size_to_string_map.keys())
+
+    def max_feature_size(self) -&gt; int:
+        return max(self.feature_set_size_to_string_map.keys())
+
+    # def __getstate__(self):
+    #     """To pickle the object"""
+    #     return self.__dict__
+
+    # def __setstate__(self, d):
+    #     """To unpickle the object"""
+    #     self.__dict__ = d
+
+    def save(self, filename:str):
+        """Save the database to a file as defined by filename.
+
+        Args:
+            filename: Filename to save the db at. Should include file extention.
+
+        Returns:
+            None
+        """
+        with open(filename, "wb") as f:
+            pickle.dump(self, f)
+
+    @staticmethod
+    def load(filename:str) -&gt; "DictDatabase":
+        """Load db from a file
+
+        Args:
+            filename (str): Name of the file to load
+
+        Returns:
+            DictDatabase: the db
+        """
+        with open(filename, "rb") as f:
+            db = pickle.load(f)
+        return db
+
+    def dumps(self) -&gt; bytes:
+        """Generate pickle byte stream
+
+        Returns:
+            _type_: _description_
+        """
+        return pickle.dumps(self)
+
+
+
+
+    @staticmethod
+    def loads(binary_data: bytes) -&gt; "DictDatabase":
+        """Load a binary string representing a database
+
+        Initially only unpickles the data
+
+        Args:
+            binary_data (str): String of data to unpickle
+
+        Returns:
+            Model object
+        """
+        return pickle.loads(binary_data)</code></pre>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 class="doc doc-heading" id="simstring.database.dict.DictDatabase.dumps">
+<code class="highlight language-python">dumps()</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Generate pickle byte stream</p>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>_type_</code></td>          <td>
+                <code>bytes</code>
+          </td>
+          <td><p><em>description</em></p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>simstring\database\dict.py</code></summary>
+        <pre class="highlight"><code class="language-python">def dumps(self) -&gt; bytes:
+    """Generate pickle byte stream
+
+    Returns:
+        _type_: _description_
+    """
+    return pickle.dumps(self)</code></pre>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 class="doc doc-heading" id="simstring.database.dict.DictDatabase.load">
+<code class="highlight language-python">load(filename)</code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Load db from a file</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>filename</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>Name of the file to load</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+<th>Name</th>        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+<td><code>DictDatabase</code></td>          <td>
+                <code>DictDatabase</code>
+          </td>
+          <td><p>the db</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>simstring\database\dict.py</code></summary>
+        <pre class="highlight"><code class="language-python">@staticmethod
+def load(filename:str) -&gt; "DictDatabase":
+    """Load db from a file
+
+    Args:
+        filename (str): Name of the file to load
+
+    Returns:
+        DictDatabase: the db
+    """
+    with open(filename, "rb") as f:
+        db = pickle.load(f)
+    return db</code></pre>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 class="doc doc-heading" id="simstring.database.dict.DictDatabase.loads">
+<code class="highlight language-python">loads(binary_data)</code>
+  
+  <span class="doc doc-labels">
+      <small class="doc doc-label doc-label-staticmethod"><code>staticmethod</code></small>
+  </span>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Load a binary string representing a database</p>
+<p>Initially only unpickles the data</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>binary_data</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>String of data to unpickle</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+                <code>DictDatabase</code>
+          </td>
+          <td><p>Model object</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>simstring\database\dict.py</code></summary>
+        <pre class="highlight"><code class="language-python">@staticmethod
+def loads(binary_data: bytes) -&gt; "DictDatabase":
+    """Load a binary string representing a database
+
+    Initially only unpickles the data
+
+    Args:
+        binary_data (str): String of data to unpickle
+
+    Returns:
+        Model object
+    """
+    return pickle.loads(binary_data)</code></pre>
+      </details>
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-function">
+
+
+
+<h2 class="doc doc-heading" id="simstring.database.dict.DictDatabase.save">
+<code class="highlight language-python">save(filename)</code>
+
+</h2>
+
+
+  <div class="doc doc-contents ">
+  
+      <p>Save the database to a file as defined by filename.</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>filename</code></td>
+          <td>
+                <code>str</code>
+          </td>
+          <td><p>Filename to save the db at. Should include file extention.</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p><strong>Returns:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>
+          </td>
+          <td><p>None</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>simstring\database\dict.py</code></summary>
+        <pre class="highlight"><code class="language-python">def save(self, filename:str):
+    """Save the database to a file as defined by filename.
+
+    Args:
+        filename: Filename to save the db at. Should include file extention.
+
+    Returns:
+        None
+    """
+    with open(filename, "wb") as f:
+        pickle.dump(self, f)</code></pre>
+      </details>
+  </div>
+
+</div>
+
+
+
+  </div>
+
+  </div>
+
+</div><h2 id="pymongo-based-database">PyMongo based database</h2>
+
+
+<div class="doc doc-object doc-class">
+
+
+<a id="simstring.database.MongoDatabase"></a>
+  <div class="doc doc-contents first">
+      <p class="doc doc-class-bases">
+        Bases: <code><span title="simstring.database.base.BaseDatabase">BaseDatabase</span></code></p>
+
+
+
+        <details class="quote">
+          <summary>Source code in <code>simstring\database\mongo.py</code></summary>
+          <pre class="highlight"><code class="language-python">class MongoDatabase(BaseDatabase):
+    def __init__(self, feature_extractor, host=(os.environ["MONGO_HOST"] if "MONGO_HOST" in os.environ else 'localhost'), port=27017, database='simstring'):
+        self.feature_extractor = feature_extractor
+
+        client = MongoClient(host, port)
+        db = client[database]
+        self.collection = db.strings
+        self.ensure_index()
+
+    def add(self, string):
+        features = self.feature_extractor.features(string)
+        self.collection.insert_one({"string": string, "features": features, "size": len(features)})
+
+    def all(self):
+        return list(map(lambda x: x['string'], self.all_documents()))
+
+    def all_documents(self):
+        return list(self.collection.find())
+
+    def ensure_index(self):
+        self.collection.create_index('size')
+        self.collection.create_index('features')
+
+    def lookup_strings_by_feature_set_size_and_feature(self, size, feature):
+        documents = list(self.collection.find({"size": size, "features": feature}))
+        return set(list(map(lambda x: x['string'], documents)))
+
+    def reset_collection(self):
+        self.collection.remove()
+        self.ensure_index()</code></pre>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
