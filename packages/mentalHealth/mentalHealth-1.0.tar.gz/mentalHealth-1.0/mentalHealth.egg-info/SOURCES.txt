@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bin/mentalHealth
+mentalHealth/mentalHealth.py
+mentalHealth.egg-info/PKG-INFO
+mentalHealth.egg-info/SOURCES.txt
+mentalHealth.egg-info/dependency_links.txt
+mentalHealth.egg-info/requires.txt
+mentalHealth.egg-info/top_level.txt
