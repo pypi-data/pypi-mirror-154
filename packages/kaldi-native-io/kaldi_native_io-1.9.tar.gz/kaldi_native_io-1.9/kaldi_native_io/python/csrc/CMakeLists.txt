@@ -1,0 +1,26 @@
+include_directories(${CMAKE_SOURCE_DIR})
+
+pybind11_add_module(_kaldi_native_io
+  compressed-matrix.cc
+  kaldi-matrix.cc
+  kaldi-table.cc
+  kaldi-vector.cc
+  kaldiio.cc
+  matrix-shape.cc
+  wave-reader.cc
+)
+
+target_link_libraries(_kaldi_native_io PRIVATE kaldi_native_io_core)
+if(UNIX AND NOT APPLE)
+  target_link_libraries(_kaldi_native_io PUBLIC ${PYTHON_LIBRARY})
+endif()
+
+if(APPLE)
+  execute_process(
+    COMMAND "${PYTHON_EXECUTABLE}" -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+    OUTPUT_VARIABLE PYTHON_SITE_PACKAGE_DIR
+  )
+  message(STATUS "PYTHON_SITE_PACKAGE_DIR: ${PYTHON_SITE_PACKAGE_DIR}")
+  target_link_libraries(_kaldi_native_io PRIVATE "-Wl,-rpath,${PYTHON_SITE_PACKAGE_DIR}")
+endif()
