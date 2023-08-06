@@ -1,0 +1,10 @@
+drugai/__init__.py,sha256=u5GTwbm-LiJDAtlR5fNzZVkLhsIc0Diu0njoMVSJzqU,364
+drugai/__main__.py,sha256=-xauloFnEJsGZ-Oi-L0r3acEYf4A2h0_Cm_cmRpy8vM,1966
+drugai/version.py,sha256=TrSXsYtVc_3xdfHNxJMlauyNsrn5B-gR4Tnuc7OqJmg,183
+drugai/metrics/__init__.py,sha256=LD9WOUCIGDlhoV-piZL4eOy1qjDI9BglO0accSCxPss,162
+drugai-0.0.2.dist-info/LICENSE,sha256=qcjRptMU8kHQEWRrB_dsJBXJy9YNxMZhnoqM5vRR7Lw,11544
+drugai-0.0.2.dist-info/METADATA,sha256=-4IaIWoFX-RRxPc-Z-EbcTZrT_daz7qjH4qQmuVY_qc,879
+drugai-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drugai-0.0.2.dist-info/entry_points.txt,sha256=xnHMZF87_Df3XNZWg2yrOrw9hrYbHMWrH-o_89Qct38,48
+drugai-0.0.2.dist-info/top_level.txt,sha256=KZ0vpDMjm4cSuN_z_sIG9zKwfElyCAhVhq5zWAaU8FY,7
+drugai-0.0.2.dist-info/RECORD,,
