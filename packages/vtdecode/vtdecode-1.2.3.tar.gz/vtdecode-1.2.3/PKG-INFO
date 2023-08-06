@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vtdecode
+Version: 1.2.3
+Summary: Fetch and decode vector tiles
+Author-email: Metric-Void <metricvoidlx@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Metric-Void/vtdecode
+Keywords: vector tile,mapbox,mapillary
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
