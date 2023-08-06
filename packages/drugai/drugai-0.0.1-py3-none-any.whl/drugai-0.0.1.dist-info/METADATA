@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: drugai
+Version: 0.0.1
+Summary: Drug  Ai tools
+Home-page: https://github.com/daiyizheng/drugai
+Author: yizheng dai
+Author-email: 387942239@qq.com
+Maintainer: yizheng dai
+Maintainer-email: 387942239@qq.com
+License: Apache 2.0
+Project-URL: Bug Reports, https://github.com/daiyizheng/drugai/issues
+Project-URL: Source, https://github.com/daiyizheng/drugai
+Keywords: Pharmacy,medicine,chemistry and biology intersect with computers and AI
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# drugai
