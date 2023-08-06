@@ -1,0 +1,7 @@
+setup.py
+deepsmirud.egg-info/PKG-INFO
+deepsmirud.egg-info/SOURCES.txt
+deepsmirud.egg-info/dependency_links.txt
+deepsmirud.egg-info/entry_points.txt
+deepsmirud.egg-info/requires.txt
+deepsmirud.egg-info/top_level.txt
