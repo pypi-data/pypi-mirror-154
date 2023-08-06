@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hicli
+Version: 2.0.0
+Summary: A generic CLI for connecting humans to host interfaces.
+Home-page: https://github.com/polishmatt/hi
+Author: Matt Wisniewski
+Author-email: hicli@mattw.life
+License: GPLv3
+Keywords: hi,cli,hicli,utility,host,interface
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+
+A configurable shorthand for interfacing with external hosts.
+Arguments are individually matched against a set of specified hosts. If one result is found the command to interface with that host is run. Otherwise, all matching hosts are printed.
+    
