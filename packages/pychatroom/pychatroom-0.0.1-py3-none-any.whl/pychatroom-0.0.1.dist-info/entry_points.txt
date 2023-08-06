@@ -1,0 +1,4 @@
+[console_scripts]
+crbox = chatroom.box:cli
+crclient = chatroom.client:cli
+crserver = chatroom.server:cli
