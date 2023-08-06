@@ -1,0 +1,12 @@
+LICENSE,sha256=l1Ag4sGIgyTX4RsASJof3yz0wzocjq-47UFMVRoijwQ,1076
+fsai_coco_filter/fsai_coco_filter.py,sha256=IP-R6BBx_7ree6ivJTFmF-pYUZvAi9PXLdU4O7-0M3Y,2901
+fsai_coco_filter/tasks/filter_annotations.py,sha256=3kflquGqZDMx48QeYmomSEkzAXrTVC5tZ4AJ5nLcpXE,1438
+fsai_coco_filter/tasks/load_coco_json.py,sha256=Qo00dijy4Fs7SaYIVQM5RBEXMED26TR9Qozt5NwaTy0,149
+fsai_coco_filter/tasks/reset_category_ids.py,sha256=n87YCQloeuAFEpjLjFt4_yOPaR387rmpQklmZpI85qQ,1950
+fsai_coco_filter/tasks/save_coco_json.py,sha256=ONQP2quMLcsK4zn0KhFVVlvKznMbOh2hI3yp-Pjv4_g,162
+fsai_coco_filter/tasks/update_info.py,sha256=YfBUWtaMKDq74Qd7SiDzRAoCwv-o4xf7PA0lpT9zU2M,1235
+fsai_coco_filter-0.1.2.dist-info/entry_points.txt,sha256=hlYT8NYxgJifQsQJSfoYXK723rqKYptHGKjqusR4tEs,69
+fsai_coco_filter-0.1.2.dist-info/LICENSE,sha256=l1Ag4sGIgyTX4RsASJof3yz0wzocjq-47UFMVRoijwQ,1076
+fsai_coco_filter-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fsai_coco_filter-0.1.2.dist-info/METADATA,sha256=5E78zI2vqlcBtp2O2-RZ679Zhp_mcbYGFdJh7MiqXEs,799
+fsai_coco_filter-0.1.2.dist-info/RECORD,,
