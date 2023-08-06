@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+roughfilter/__init__.py
+roughfilter/configurations.py
+roughfilter.egg-info/PKG-INFO
+roughfilter.egg-info/SOURCES.txt
+roughfilter.egg-info/dependency_links.txt
+roughfilter.egg-info/requires.txt
+roughfilter.egg-info/top_level.txt
+roughfilter/bases/kit_rough_words.py
+roughfilter/functions/__init__.py
+roughfilter/functions/filter.py
+roughfilter/functions/search.py
+roughfilter/functions/word.py
