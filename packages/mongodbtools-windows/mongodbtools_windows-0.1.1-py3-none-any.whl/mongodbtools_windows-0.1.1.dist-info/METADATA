@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mongodbtools-windows
+Version: 0.1.1
+Summary: Provide mongodbtools for python projects on windows
+Home-page: https://github.com/gri38/mongodbtools-windows
+Author: gri38
+Author-email: onzewb@zaclys.net
+Project-URL: Bug Tracker, https://github.com/gri38/mongodbtools-windows/issues
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+## Purpose
+
+Provide mongodbdump.exe and mongodbrestore.exe as a python package for windows environment
