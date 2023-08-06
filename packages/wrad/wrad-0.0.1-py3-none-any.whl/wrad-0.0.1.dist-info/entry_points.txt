@@ -1,0 +1,3 @@
+[console_scripts]
+wrad = wrad.__main__:main
+
