@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: poetry-plugin-exe
+Version: 0.0.1
+Summary: Poetry plugin to execute commands and/or scripts
+Home-page: https://github.com/cwichel/poetry-plugin-exe
+License: license
+Keywords: python,utilities
+Author: Christian Wiche
+Author-email: cwichel@gmail.com
+Maintainer: Christian Wiche
+Maintainer-email: cwichel@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: poetry (>=1.2.0b1,<2.0.0)
+Project-URL: Repository, https://github.com/cwichel/poetry-plugin-exe
+Description-Content-Type: text/markdown
+
+# poetry-plugin-exe
+A plugin for poetry that allows script and command execution without including them in release.
+
