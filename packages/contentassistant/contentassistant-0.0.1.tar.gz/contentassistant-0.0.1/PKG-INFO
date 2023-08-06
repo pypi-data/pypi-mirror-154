@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: contentassistant
+Version: 0.0.1
+Summary: Manipulação do assistente de conteúdo
+Author: Caio Souza
+Author-email: caios@take.net
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ContentAssistant
+
+## Realize teste em massa e obtenha informações como:
+
+Intenção reconhecida;__
+Entidades reconhecidas;__
+Score__
+Se encontrou alguma resposta no assistente de conteúdo;__
+Resposta encontrada.__
+
+```Python
+import ContentAssistant
+
+CA = ContentAssistant.Test(AUTH, input)
+```
+
+### Para instanciar a classe, é necessário dois parâmetros:
+
+### AUTH: String - Authorization/Key do bot.
+### input: Lista ou pd.Series (coluna de DataFrame) - Frases para efetuar o teste.
+
+
+### Uso com lista
+
+```Python
+import ContentAssistant
+AUTH = 'KEY_DO_BOT'
+input = ['texto1','texto2']
+CA = ContentAssistant.Test(AUTH, input)
+response = CA.run_test() 
+```
+
+### Uso com pd.Series
+
+
+```Python
+import ContentAssistant
+import pandas as pd
+
+AUTH = 'KEY_DO_BOT'
+df = pd.read_csv('C:\Users\base.csv', sep=';', encoding='utf8') #Abrindo o arquivo
+input = df['Frases'] #Selecionando a coluna com as frases
+CA = ContentAssistant.Test(AUTH, input)
+response = CA.run_test()
+```
+
+
+### Salvando o resultado
+
+Escolha o caminho, nome do arquivo, tipo (csv,txt) e separador, e rode o código abaixo.
+
+```Python
+response.to_csv(r'/minha_pasta/resultado_1.csv', sep=";",encoding='utf8') 
+```
+

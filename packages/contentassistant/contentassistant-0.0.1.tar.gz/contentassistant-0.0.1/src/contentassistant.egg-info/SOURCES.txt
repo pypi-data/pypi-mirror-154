@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/ContentAssistant/__init__.py
+src/ContentAssistant/manager.py
+src/ContentAssistant/test.py
+src/contentassistant.egg-info/PKG-INFO
+src/contentassistant.egg-info/SOURCES.txt
+src/contentassistant.egg-info/dependency_links.txt
+src/contentassistant.egg-info/requires.txt
+src/contentassistant.egg-info/top_level.txt
