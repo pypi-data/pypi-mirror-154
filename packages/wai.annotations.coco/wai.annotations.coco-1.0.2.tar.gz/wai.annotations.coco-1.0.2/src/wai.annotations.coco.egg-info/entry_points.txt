@@ -1,0 +1,3 @@
+[wai.annotations.plugins]
+from-coco-od = wai.annotations.coco.specifier:COCOInputFormatSpecifier
+to-coco-od = wai.annotations.coco.specifier:COCOOutputFormatSpecifier
