@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./stats/Stats.py
+./stats/__init__.py
+counter_stats.egg-info/PKG-INFO
+counter_stats.egg-info/SOURCES.txt
+counter_stats.egg-info/dependency_links.txt
+counter_stats.egg-info/top_level.txt
+stats/Stats.py
+stats/__init__.py
