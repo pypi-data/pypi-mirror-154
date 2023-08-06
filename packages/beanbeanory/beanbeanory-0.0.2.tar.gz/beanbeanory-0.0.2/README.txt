@@ -1,0 +1,1 @@
+Using the ideas of binary to encrypt a text using only the genius word of beans 

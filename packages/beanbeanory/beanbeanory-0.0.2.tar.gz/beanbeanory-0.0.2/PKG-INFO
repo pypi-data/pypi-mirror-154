@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: beanbeanory
+Version: 0.0.2
+Summary: An encryption method
+Home-page: UNKNOWN
+Author: Jack Boyd
+Author-email: boydypug@gmail.com
+License: MIT
+Keywords: encryption,decryption
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Using the ideas of binary to encrypt a text using only the genius word of beans 
+
+Change Log
+==========
+
+0.0.1 (13/06/2022)
+------------------
+- First Release
+
+0.0.2 (13/06/2022)
+------------------
+- Changelog fix
+
+

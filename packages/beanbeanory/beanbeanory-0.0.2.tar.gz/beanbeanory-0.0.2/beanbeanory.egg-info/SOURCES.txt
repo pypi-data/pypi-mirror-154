@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+beanbeanory.egg-info/PKG-INFO
+beanbeanory.egg-info/SOURCES.txt
+beanbeanory.egg-info/dependency_links.txt
+beanbeanory.egg-info/top_level.txt
+beanorybean/__init__.py
