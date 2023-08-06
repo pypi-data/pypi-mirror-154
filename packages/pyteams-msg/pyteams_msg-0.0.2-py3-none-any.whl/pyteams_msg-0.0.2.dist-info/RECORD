@@ -1,0 +1,13 @@
+pyteams_msg/__about__.py,sha256=EOAC09DNWhqurovXySixxT6Gx9jJZ3ff0eUTo_XS1is,91
+pyteams_msg/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pyteams_msg/adaptivecard.py,sha256=bNTzQ49EoSsd5-li5za5TGknWx8rAcDFEy7ZufzH7rY,939
+pyteams_msg/teamsmessage.py,sha256=VIhFRe4FB-HHi66cbiaDo3Wy-HHec-ICwPgJ9OuG9OE,962
+pyteams_msg/sections/__init__.py,sha256=uozg8kZIyBEcc0e2C3CI66oPlNtypMzLlSaugFWglpA,58
+pyteams_msg/sections/image.py,sha256=O2-v_4Hy1h302fQbiGLHe42ytKu8E_qtJCRQ-0aKIBo,2210
+pyteams_msg/sections/section.py,sha256=96XUOj9UoizNuE2PV57-lY8bJWUQ0bcye6GMVnhZP_4,366
+pyteams_msg/sections/textblock.py,sha256=olbK-lPzIa0svP_mtHkicUEzy7liJp9xOnSZytB_MNA,2546
+pyteams_msg-0.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pyteams_msg-0.0.2.dist-info/METADATA,sha256=LCJuIKhuIuZcq0TQ6L5bKY5eaQLbzNOYlHM1ls1sXwU,2042
+pyteams_msg-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyteams_msg-0.0.2.dist-info/top_level.txt,sha256=eMPZZbba36NUDCxH0j5T-mzNhx2gsoaCUkA5__d3tyw,12
+pyteams_msg-0.0.2.dist-info/RECORD,,
