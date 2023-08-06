@@ -1,0 +1,10 @@
+biopylib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biopylib/blast.py,sha256=FQ8LtZWC6UDBZga2fHk_SrVQmXRXFWgK21nEu5Kre9A,12192
+biopylib/read_sequence.py,sha256=Br55RJRKMFrJwMR_xozesob3BzhmdL4zYl5w95jMK_Q,3253
+biopylib/sequence.py,sha256=IJgMqvoZUKWAeB_6HCZqF0OkiR2mtoqvZ4Pu0Vko4js,29952
+biopylib/sequence_alignment.py,sha256=g18O2ltFVIoeHNqg9B7m3R_UhU6Qbb5n_3LnW97Umh8,20963
+biopylib-0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+biopylib-0.0.2.dist-info/METADATA,sha256=XBhaeoLB8sXqWCEoU_TgEmQTuzZ-nU1GBCpFo1cp2I4,567
+biopylib-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+biopylib-0.0.2.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+biopylib-0.0.2.dist-info/RECORD,,
