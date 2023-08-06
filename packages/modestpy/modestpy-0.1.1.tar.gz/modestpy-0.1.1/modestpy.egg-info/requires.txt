@@ -1,0 +1,7 @@
+fmpy
+matplotlib
+modestga
+numpy
+pandas
+pyDOE
+scipy
