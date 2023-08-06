@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spimdisasm/__init__.py
+spimdisasm/__main__.py
+spimdisasm.egg-info/PKG-INFO
+spimdisasm.egg-info/SOURCES.txt
+spimdisasm.egg-info/dependency_links.txt
+spimdisasm.egg-info/requires.txt
+spimdisasm.egg-info/top_level.txt
