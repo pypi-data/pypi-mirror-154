@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: wai.annotations.roi
+Version: 1.0.1
+Summary: ROI image object-detection format plugins for wai.annotations.
+Home-page: https://github.com/waikato-datamining/wai-annotations
+Author: Corey Sterling
+Author-email: coreytsterling@gmail.com
+License: Apache License Version 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+ROI image object-detection format plugins for wai.annotations.
+
+* `from-roi-od`: reads datasets in ROI (region of interest) CSV format
+* `to-roi-od`: writes datasets in ROI (region of interest) CSV format
+
+Changelog
+=========
+
+1.0.1 (2022-06-13)
+------------------
+
+- `FromROI.convert_roi_object` now also adds `label`, `score`, `minrect_w` and `minrect_h` to the
+  meta-data of a `LocatedObject` instance.
+
+
+1.0.0 (2021-05-20)
+------------------
+
+- Initial release after separation from wai.annotations main repo.
