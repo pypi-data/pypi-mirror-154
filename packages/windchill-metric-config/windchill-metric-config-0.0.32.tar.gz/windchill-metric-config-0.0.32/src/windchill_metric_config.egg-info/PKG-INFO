@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: windchill-metric-config
+Version: 0.0.32
+Summary: Config reader for mimamorisan
+Home-page: https://gitlab.com/cax-team/mimamori-san
+Author: Matthias Hippen
+Author-email: hippen@gmx.ch
+Project-URL: Bug Tracker, https://gitlab.com/cax-team/mimamori-san
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Windchill Metric Config
+
+Configuration parser for windchill prometheus metrics. Parses json and yaml configuration files into a Python object.
+
+End result is a grafana dashboard as follows:
+
+![](\documentation\dash_board_detail.png)
+
+## Usage
+To load the python object with a yaml file (as shown in chapter Example Config) change variable and save it again.
+````pycon
+from windchill_metric_config.configurator import Metrics
+metrics_config = Metrics()
+dict_config = {
+  system: {
+    memory_total_bytes: {
+      id: "process_real_memory_total_bytes",
+      labels: [
+        "host",
+        "resource_type",
+        "environment",
+        "company"
+      ],
+      description: "system total memory in bytes",
+      enabled: true
+    }
+  }
+}
+metrics_config.load_config_from_yaml_file(yaml_config_file)
+
+metrics_config.system.cpu_usage.enabled = True
+
+metrics_config.save_as_yaml('/config/second_config.yaml')
+````
+
+To load the python object as a dict (as shown in chapter Example Config) change variable and save it again.
+````pycon
+from windchill_metric_config.configurator import Metrics
+metrics_config = Metrics()
+
+metrics_config.set_config(yaml_config_file)
+
+print('show me the config as dict {}'.format(metrics_config.as_dict()))
+````
+
+To validate metrics you can call the function "validate_metric"
+````pycon
+from windchill_metric_config.configurator import Metrics
+metrics_config = Metrics()
+yaml_config_file = '/config/first_config.yaml'
+metrics_config.load_config_from_yaml_file(yaml_config_file)
+
+some_metrics = {
+  metric_id: "process_real_memory_total_bytes",
+  labels: [
+    {
+      key: "environment",
+      value: "anton500"
+    }
+  ],
+  value: 20.35
+}
+
+validate = metrics_config.validate_metric(some_metrics)
+print('is metric valid: {}'.format(validate))
+````
+
+## Example Config
+An Overview of all scrapeable metrics is shown below:
+```yaml
+system:
+  process_real_memory_total_bytes: false                                        # system total memory in bytes
+  process_real_memory_used_bytes: false                                         # system used memory in bytes
+  process_cpu_usage_percent: false                                              # cpu utilisation in percent
+  process_disc_total_bytes: false                                               # total disc space in bytes
+  process_disc_used_bytes: false                                                # used disc space in bytes
+  process_users_total_count: false                                              # count of logged in users on os
+  system_boot_timestamp: false                                                  # boot timestamp as label in iso format (ex, 2019-09-07T15:50-04:00)
+  system_stats_info: false                                                      # various information about the host system, (logical cpu count, machine, node, physical_cpu_count, processor, os system, version and release)
+  network:
+    process_network_bytes_sent: false                                           # bytes sent over all network addresses
+    process_network_packets_recv: false                                         # bytes received over all network addresses
+    process_network_err_in: false                                               # total number of errors while receiving
+    process_network_err_out: false                                              # total number of errors while sending
+    process_network_drop_in: false                                              # total number of incoming packets which were dropped
+    process_network_drop_out: false                                             # total number of outgoing packets which were dropped (always 0 on macOS and BSD)
+  process_windows_service_status: false                                         # windows service information (only available on windows machines)
+windchill:
+  windchill_apache_status: false                                                # windchill apache status (503=not running, >1=http code)
+  windchill_windchill_status: false                                             # windchill app status (503=not running, >1=http code)
+  windchill_api_response_time_seconds: false                                    # windchill api (/Windchill/api/v1/publishmonitor/getworkerinfo.jsp) response time
+  windchill_active_users_total: false                                           # windchill total active users count
+  windchill_version_info: false                                                 # windchill version and release info
+  windchill_version_info_simple: false                                          # windchill version and release info
+  windchill_installed_languages: false                                          # windchill installed languages
+  method_server:
+    windchill_server_status_runtime_start_time: false                           # windchill apache status (0=not running, >1=http code)
+    windchill_server_status_runtime_uptime: false                               # windchill apache status (0=not running, >1=http code)
+  queue_worker:
+    windchill_worker_status: false                                              # windchill worker status (0=Off, 1=On, 2=Busy, 3=FailsToStart, 4=NotDefined)
+    windchill_queue_jobs_failed: false                                          # windchill queue failed jobs amount
+    windchill_queue_jobs_total: false                                           # windchill queue total jobs queue count
+  garbage_collector:
+    windchill_garbage_coll_time_spent_in_threshold_percent: false               # Garbage collection time spent in threshold percent
+    windchill_garbage_coll_recent_time_spent_percent: false                     # Garbage collection time spent recent percent
+    windchill_garbage_coll_overall_time_spent_percent: false                    # Garbage collection time spent overall percent
+  memory:
+    windchill_memory_heap_usage_threshold_percent: false                        # Heap memory usage threshold in percent
+    windchill_memory_heap_usage_percent: false                                  # Heap memory usage in percent
+    windchill_memory_perm_gen_usage_threshold_percent: false                    # Perm gen memory usage threshold in percent
+    windchill_memory_perm_gen_usage_percent: false                              # Perm gen memory usage in percent
+  method_context:
+    windchill_mc_active_context_average: false                                  # activeContextsAverage
+    windchill_mc_active_context_end: false                                      # activeContextsEnd
+    windchill_mc_active_context_max: false                                      # activeContextsMax
+    windchill_mc_active_context_start: false                                    # activeContextsStart
+    windchill_mc_blocked_count_per_context: false                               # averageBlockedCountPerContext
+    windchill_mc_cobra_calls_per_context_average: false                         # averageCORBACallsPerContext
+    windchill_mc_jdbc_calls_per_context_average: false                          # averageJDBCCallsPerContext
+    windchill_mc_jndi_calls_per_context_average: false                          # averageJNDICallsPerContext
+    windchill_mc_remote_cache_calls_per_context_average: false                  # averageRemoteCacheCallsPerContext
+    windchill_mc_waited_count_per_context: false                                # averageWaitedCountPerContext
+    windchill_mc_completed_context: false                                       # completedContexts
+    windchill_mc_cpu_seconds_average: false                                     # contextCpuSecondsAverage
+    windchill_mc_jdbc_conn_wait_seconds_average: false                          # contextJDBCConnWaitSecondsAverage
+    windchill_mc_seconds_average: false                                         # contextSecondsAverage
+    windchill_mc_seconds_max: false                                             # contextSecondsMax
+    windchill_mc_user_seconds_average: false                                    # contextUserSecondsAverage
+    windchill_mc_context_per_seconds: false                                     # contextsPerSecond
+    windchill_mc_error_count: false                                             # errorCount
+    windchill_mc_blocked_time_per_context_percentage: false                     # percentageOfContextTimeBlocked
+    windchill_mc_cobra_time_of_context_percentage: false                        # percentageOfContextTimeInCORBACalls
+    windchill_mc_jdbc_time_of_context_percentage: false                         # percentageOfContextTimeInJDBCCalls
+    windchill_mc_jdbc_time_conn_wait_percentage: false                          # windchill_mc_jdbc_time_conn_wait_percentage
+    windchill_mc_jndi_time_of_context_percentage: false                         # percentageOfContextTimeInJDBCConnWait
+    windchill_mc_remote_cache_time_of_context_percentage: false                 # percentageOfContextTimeInJNDICalls
+    windchill_mc_time_waited_time_of_context_percentage: false                  # percentageOfContextTimeWaited
+    windchill_mc_redirect_count: false                                          # redirectCount
+  sessions:
+    windchill_active_sessions_average: false                                    # activeSessionsAverage
+    windchill_active_sessions_end: false                                        # activeSessionsEnd
+    windchill_active_sessions_max: false                                        # activeSessionsMax
+    windchill_active_sessions_start: false                                      # activeSessionsStart
+    windchill_sessions_activated: false                                         # sessionsActivated
+    windchill_sessions_created: false                                           # sessionsCreated
+    windchill_sessions_destroyed: false                                         # sessionsDestroyed
+    windchill_sessions_passivated: false                                        # sessionsPassivated
+  servlet_requests:
+    windchill_servlet_active_requests_average: false                            # activeRequestsAverage
+    windchill_servlet_active_requests_end: false                                # activeRequestsEnd
+    windchill_servlet_active_requests_max: false                                # activeRequestsMax
+    windchill_servlet_active_requests_start: false                              # activeRequestsStart
+    windchill_servlet_blocked_count_per_request: false                          # averageBlockedCountPerRequest
+    windchill_servlet_ie_calls_per_request: false                               # averageIECallsPerRequest
+    windchill_servlet_jndi_calls_per_request: false                             # averageJNDICallsPerRequest
+    windchill_servlet_rmi_calls_per_request: false                              # averageRMICallsPerRequest
+    windchill_servlet_soap_call_per_request: false                              # averageSOAPCallsPerRequest
+    windchill_servlet_waited_count_per_request: false                           # averageWaitedCountPerRequest
+    windchill_servlet_completed_requests: false                                 # completedRequests
+    windchill_servlet_error_count: false                                        # errorCount
+    windchill_servlet_blocked_time_percentage: false                            # percentageOfRequestTimeBlocked
+    windchill_servlet_ie_calls_time_percentage: false                           # percentageOfRequestTimeInIECalls
+    windchill_servlet_jndi_calls_time_percentage: false                         # percentageOfRequestTimeInJNDICalls
+    windchill_servlet_rmi_calls_time_percentage: false                          # percentageOfRequestTimeInRMICalls
+    windchill_servlet_soap_calls_time_percentage: false                         # percentageOfRequestTimeInSOAPCalls
+    windchill_servlet_time_waited_percentage: false                             # percentageOfRequestTimeWaited
+    windchill_servlet_cpu_seconds_average: false                                # requestCpuSecondsAverage
+    windchill_servlet_requests_seconds_average: false                           # requestSecondsAverage
+    windchill_servlet_requests_seconds_max: false                               # requestSecondsMax
+    windchill_servlet_requests_user_seconds_average: false                      # requestUserSecondsAverage
+    windchill_servlet_requests_per_second: false                                # requestsPerSecond
+```
+## upload to pypi.org
+```bash
+py -m build
+py -m twine upload --repository pypi dist/*
+```
+
+## Changelog
+### v0.0.32
+* more labels (former company and environment => new label1, label2, label3, label4)
+* better documentation
