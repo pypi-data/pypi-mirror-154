@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/json_and_data/__init__.py
+src/json_and_data/dbify.py
+src/json_and_data.egg-info/PKG-INFO
+src/json_and_data.egg-info/SOURCES.txt
+src/json_and_data.egg-info/dependency_links.txt
+src/json_and_data.egg-info/requires.txt
+src/json_and_data.egg-info/top_level.txt
+src/json_and_data/modules/__init__.py
