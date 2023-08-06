@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: ape-avalanche
+Version: 0.1.0a2
+Summary: ape-avalanche: Ape Ecosystem Plugin for Avalanche
+Home-page: https://github.com/albertocevallos/ape-avalanche
+Author: Alberto Cevallos
+Author-email: albertocevallos@proton.me
+License: Apache-2.0
+Description: # Ape Avalanche Ecosystem Plugin
+        
+        Ecosystem Plugin for Avalanche support in Ape
+        
+        ## Dependencies
+        
+        - [python3](https://www.python.org/downloads) version 3.7 or greater, python3-dev
+        
+        ## Installation
+        
+        ### via `ape`
+        
+        You can install this plugin using `ape`:
+        
+        ```bash
+        ape plugins install avalanche
+        ```
+        
+        or via config file:
+        
+        ```yaml
+        # ape-config.yaml
+        plugins:
+          - name: avalanche
+        ```
+        
+        ### via `pip`
+        
+        You can install the latest release via [`pip`](https://pypi.org/project/pip/):
+        
+        ```bash
+        pip install ape-avalanche
+        ```
+        
+        ### via `setuptools`
+        
+        You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
+        
+        ```bash
+        git clone https://github.com/ApeWorX/ape-avalanche.git
+        cd ape-avalanche
+        python3 setup.py install
+        ```
+        
+        ## Quick Usage
+        
+        Installing this plugin adds support for the Avalanche ecosystem:
+        
+        ```bash
+        ape console --network avalanche:mainnet
+        ```
+        
+        ## Development
+        
+        Comments, questions, criticisms and pull requests are welcomed.
+        
+        ## License
+        
+        This project is licensed under the [Apache 2.0](LICENSE).
+        
+Keywords: ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7.2,<3.11
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: lint
+Provides-Extra: release
+Provides-Extra: dev
