@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: comorbidipy
+Version: 0.5.0
+Summary: Python package to calculate comorbidity scores and other clinical risk scores.
+Home-page: https://github.com/vvcb/comorbidipy
+Author: vvcb
+Author-email: vvcb.n1@gmail.com
+Maintainer: vvcb
+License: MIT license
+Keywords: comorbidipy
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+comorbidiPy
+===========
+
+[![PyPi](https://img.shields.io/pypi/v/comorbidipy)](https://pypi.python.org/pypi/comorbidipy)
+[![Build](https://github.com/vvcb/comorbidipy/actions/workflows/publish-to-pypi.yaml/badge.svg)](https://pypi.org/project/comorbidipy/)
+[![Build](https://github.com/vvcb/comorbidipy/actions/workflows/publish-to-test-pypi.yaml/badge.svg)](https://test.pypi.org/project/comorbidipy)
+[![Docs](https://readthedocs.org/projects/comorbidipy/badge/?version=latest)](https://comorbidipy.readthedocs.io/en/latest/?version=latest)
+
+Python package to calculate comorbidity scores and other clinical risk scores.
+
+The `comorbidity` function of this library is effectively a rewrite of the excellent R library `comorbidity` (<https://github.com/ellessenne/comorbidity/>) by Alessandro Gasparini (<https://www.ellessenne.xyz/>).
+
+Comorbidipy also includes additional clinical risk calculators listed below.
+
+Feature List
+------------
+
+- Charlson Comorbidity Score
+- Elixhauser Comorbidity Index
+- Hospital Frailty Risk Score
+- Disability and Sensory Impairments
+
+Variants of Charlson and Elixhauser Scores
+------------------------------------------
+
+The `comorbidity` function allows calculation of Charlson and Elixhauser score using ICD9 or ICD10 codes and the following variations.
+
+Variations of Charlson Comorbidity Score
+----------------------------------------
+
+- Mapping:
+  - Quan version
+  - Swedish version
+  - Australian version
+  - UK version (from Summary Hospital-Level Mortality Indicator - SHMI)
+
+- Weights:
+  - Charlson
+  - Quan
+  - SHMI
+  - Modified SHMI
+
+Elixhauser Comorbidity Index
+----------------------------
+
+- Mapping:
+  - Quan
+
+- Weights:
+  - van Walraven
+  - Swiss
+
+License and Documentation
+-------------------------
+
+- Free software: MIT license
+- Documentation: <https://comorbidipy.readthedocs.io>. (TODO)
+
+Credits
+-------
+
+- __Cookiecutter__ <https://github.com/audreyr/cookiecutter>
+- __R library `comorbidity`__ <https://github.com/ellessenne/comorbidity/>
+
+
+# Changelog
+
+## 0.4.4 (2022-06-11)
+
+- Additional function to identify disabilities
+- Rewritten comorbidity function
+- Additional modified weights for SHMI variant of Charlson Score
+- CI/CD pipeline to publish to PyPi
+
+## 0.3.0 (2022-02-11)
+
+- Add SHMI variant of Charlson Comorbidity Score. Based on SHMI Specification Version 1.35 2020-09-24 (<https://files.digital.nhs.uk/B8/F8D021/SHMI%20specification%20v1.35.pdf>)
+
+## 0.2.1 (2021-01-02)
+
+- Rewritten HFRS calculator that is 5x faster than previous version.
+
+## 0.2.0 (2021-12-31)
+
+- Add function for calculating Hospital Frailty Risk Score (<https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)30668-8/>)
+
+## 0.1.0 (2021-12-20)
+
+- First release.
