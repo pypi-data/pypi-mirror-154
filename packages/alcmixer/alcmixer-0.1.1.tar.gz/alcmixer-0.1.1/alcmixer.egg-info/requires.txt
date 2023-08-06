@@ -1,0 +1,2 @@
+note_seq
+beautifulsoup4

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: alcmixer
+Version: 0.1.1
+Summary: Create midi drum patterns by randomly combining multiple Ableton Live Clips
+Home-page: https://github.com/danikavu/Ableton-Live-Clip-Mixer
+Author: Daniel Kavoulakos
+Author-email: dan_kavoulakos@hotmail.com
+License: MIT
+Keywords: Ableton,drumkit,midi,alc
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
