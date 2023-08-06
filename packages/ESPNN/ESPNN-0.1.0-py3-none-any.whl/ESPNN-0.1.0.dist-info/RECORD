@@ -1,0 +1,15 @@
+ESPNN/SPNN.py,sha256=JIuV_BrD7HpVI9n2SFdYEzU8yk9vdI63bPG83GB3GC0,1962
+ESPNN/__init__.py,sha256=CJVxi5IIZrf0QILsIkvp_EEL2E8aDKsLiLLYbxjAdMI,445
+ESPNN/__main__.py,sha256=tnkiHg-auKapnlMfcANP8i6__IudpDcSK6p0dgOSvIo,2085
+ESPNN/core.py,sha256=LnXC9A5zbCAyKatnGufhN5tDdbBVzBZiC4Ptk09crX8,4196
+ESPNN/dataset.py,sha256=rEBslRVACzqvjGry0QW_N2Zrhp4XZcB-f0ffjor7-aQ,1309
+ESPNN/inference.py,sha256=1CQNQdvhSqB_Q23i7ZrcyS_wGTtrMZ4jG-R4QvKMEBQ,1253
+ESPNN/run_Kinf.py,sha256=a-0UHKCyq2_kGRTRJq19jMbsXg8r0Zt_57j4xwawqIg,689
+ESPNN/utils.py,sha256=x49Z4krN3Iz-zQUamc0Uat1snw4QQbuBAC8Al1GwXp0,3729
+ESPNN/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ESPNN/data/formula_mapper.py,sha256=y7zuWOWaI3aG5fVizE95zDl_W1CzmE-B4z01tOWi-lk,6028
+ESPNN-0.1.0.dist-info/LICENSE,sha256=ZZs6QV787ozHg6AMGgcfyJqQM4sK8-098EEhxvozvEQ,1068
+ESPNN-0.1.0.dist-info/METADATA,sha256=LQVgPFViZIr37m4QbZRd1vKn98fSEBeFmRMrxldYK08,6542
+ESPNN-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ESPNN-0.1.0.dist-info/top_level.txt,sha256=f7KCjktEpMR7fdI5hFDP24hVKh5tC8BQwtSnK_c5ydo,6
+ESPNN-0.1.0.dist-info/RECORD,,
