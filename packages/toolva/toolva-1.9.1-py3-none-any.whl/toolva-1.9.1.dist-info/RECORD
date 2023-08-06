@@ -1,0 +1,13 @@
+toolva/__init__.py,sha256=hn1VKwgGqyMqTF8bdmaFddj6YMX6WoY96lSgNEImmX0,58
+toolva/toolva.py,sha256=LMy0GB1vz_4lEpbVL_Ym-rHJw6G8RLbOG_TglWDZB_c,1365
+toolva/tasks/__init__.py,sha256=LUNwrfmS7A2XLQVrNcELH_bC_3BHhPsRVCRXARsGJgI,307
+toolva/tasks/embeding.py,sha256=cFWSGhgIgmkVDD4NxIQeuznpiprin-AKajWjLGTcjr4,1560
+toolva/tasks/keyword_extraction.py,sha256=gniHHRJ2ROZq49IGhls1a_G_1hIr7kgmagfxIGUbBdY,4683
+toolva/tasks/konlpy_mecab.py,sha256=mRPezu3ush9j6M98rmdkTQmcI5iHLh3fQEx6AzdzgHw,705
+toolva/tasks/named_entity_recognition.py,sha256=Ql_Xt9-DkK2O6klJF8GCp4fqoMWeNcMDmLoWtOpTryc,10564
+toolva/tasks/sentiments.py,sha256=ruZHSEWNNUFHXI_OJo9TkRezlwmXru9dWXNNY7Cl9Qg,1945
+toolva-1.9.1.dist-info/LICENSE,sha256=M-Lgsw6u64W5kbrjHnvM3rnj2ADCgTiQf9AwQcZ60vU,11367
+toolva-1.9.1.dist-info/METADATA,sha256=TsSlvWQBrD0g6sACqqZyfsSJ5wNLpX-PDGo13UAsjjM,1745
+toolva-1.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+toolva-1.9.1.dist-info/top_level.txt,sha256=JQLOjDxJpi-9--G9H876r1nme0K6B71-QawfwDDgg_U,7
+toolva-1.9.1.dist-info/RECORD,,
