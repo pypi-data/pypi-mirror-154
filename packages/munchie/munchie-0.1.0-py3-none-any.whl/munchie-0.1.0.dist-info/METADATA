@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: munchie
+Version: 0.1.0
+Summary: Compilation of commonly used functionality in personal projects
+License: Apache-2.0
+Author: Anthony Gaetano
+Author-email: adgaetano@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
