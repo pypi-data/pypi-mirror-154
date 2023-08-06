@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/takanori_cli/__init__.py
+src/takanori_cli/create.py
+src/takanori_cli/main.py
+src/takanori_cli/plugin.py
+src/takanori_cli.egg-info/PKG-INFO
+src/takanori_cli.egg-info/SOURCES.txt
+src/takanori_cli.egg-info/dependency_links.txt
+src/takanori_cli.egg-info/entry_points.txt
+src/takanori_cli.egg-info/requires.txt
+src/takanori_cli.egg-info/top_level.txt
