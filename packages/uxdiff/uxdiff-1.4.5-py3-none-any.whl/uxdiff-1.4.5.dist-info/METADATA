@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: uxdiff
+Version: 1.4.5
+Summary: Compare two text files or directories.Improves text comparison in GUI-less environments.
+Home-page: https://github.com/tanaga9/uxdiff
+Author: Tanaga
+Author-email: tanaga9@users.noreply.github.com
+License: MIT
+Keywords: colored side-by-side diff
+License-File: LICENSE
+Requires-Dist: unidiff (>=0.6.0)
+
