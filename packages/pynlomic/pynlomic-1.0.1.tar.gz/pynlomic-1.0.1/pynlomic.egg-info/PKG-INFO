@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pynlomic
+Version: 1.0.1
+Summary: A Python library for nonlinear microscopy.
+Home-page: https://github.com/lukaskontenis/pynlomic
+Author: Lukas Kontenis
+Author-email: dse.ssd@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+=== pynlomic ===
+
+A Python library for nonlinear microscopy.
+
+Contact: dse.ssd@gmail.com
+
+Copyright 2015-2022 Lukas Kontenis
+
+
