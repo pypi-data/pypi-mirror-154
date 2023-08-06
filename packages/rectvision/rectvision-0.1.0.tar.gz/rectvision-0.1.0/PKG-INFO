@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: rectvision
+Version: 0.1.0
+Summary: Rectvision package
+Home-page: UNKNOWN
+Author: Rectlabs
+Author-email: <team@rectlabs.com>
+License: UNKNOWN
+Description: This package allows the user to interact with the rectvision platform via code
+Keywords: python
+Platform: UNKNOWN

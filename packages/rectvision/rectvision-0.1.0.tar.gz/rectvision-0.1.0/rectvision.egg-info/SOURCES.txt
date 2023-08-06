@@ -1,0 +1,6 @@
+README.md
+setup.py
+rectvision.egg-info/PKG-INFO
+rectvision.egg-info/SOURCES.txt
+rectvision.egg-info/dependency_links.txt
+rectvision.egg-info/top_level.txt
