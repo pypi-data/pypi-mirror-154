@@ -1,0 +1,3 @@
+[console_scripts]
+brainhance = brainhance.app:main
+
