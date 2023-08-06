@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: getrandomdata
+Version: 0.0.5
+Summary: A random data generator.
+Home-page: 
+Author: karan kaul
+Author-email: karan.kaul@grazitti.com
+License: MIT
+Keywords: random data generator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+A simple python library that outputs randomly generated data in the form of a dictionary.
+
+Change Log
+===========
+
+
+0.0.5 (10/06/2022)
+------------------
+- First Release
+
+
