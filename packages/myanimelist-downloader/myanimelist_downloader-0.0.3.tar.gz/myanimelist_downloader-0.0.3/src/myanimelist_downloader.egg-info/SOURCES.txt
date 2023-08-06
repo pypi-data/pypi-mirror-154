@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/myanimelist_downloader/__init__.py
+src/myanimelist_downloader/command_line.py
+src/myanimelist_downloader/downloader.py
+src/myanimelist_downloader/driver.py
+src/myanimelist_downloader/list.py
+src/myanimelist_downloader.egg-info/PKG-INFO
+src/myanimelist_downloader.egg-info/SOURCES.txt
+src/myanimelist_downloader.egg-info/dependency_links.txt
+src/myanimelist_downloader.egg-info/entry_points.txt
+src/myanimelist_downloader.egg-info/requires.txt
+src/myanimelist_downloader.egg-info/top_level.txt

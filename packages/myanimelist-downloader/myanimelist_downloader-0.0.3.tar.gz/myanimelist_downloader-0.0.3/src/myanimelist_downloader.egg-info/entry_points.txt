@@ -1,0 +1,2 @@
+[console_scripts]
+myanimelist_downloader = myanimelist_downloader.command_line:main
