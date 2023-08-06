@@ -1,0 +1,11 @@
+bacpack/__init__.py,sha256=56N3WCyjzZDRhuyvnW71Cuk7cQbOt2YYk_gUW-hzSQM,236
+bacpack/bac.py,sha256=Qgnv2xGnjX9ZNV1_BwqXPWaTY0JwazX6Z3nGnPYRY1Y,18782
+bacpack/bacpack.py,sha256=Nj6QGcKnyENpN8GRSpGEu_9jY0THNxtNylPo5xtI4dM,28412
+bacpack/empiricbac.py,sha256=h0NNo3l3iwrYwVrXr3MUMpD3rwjg80XFY69BgaqX7eg,6281
+bacpack/highfreq.py,sha256=BsFSwIdZEGCLs0OoKFS-qseDsHrkqvvDqnyGWflW8YI,21361
+bacpack/simulation.py,sha256=r11P4z-gAE47yu8YlyZI-o3ql52ZKIc56Uul5Ex1vzI,17534
+bacpack/toy.py,sha256=f9fg5tUbOdCaHbCajnMmwTfAJ92jQ0lcKFLrgFEFraA,2571
+bacpack-0.0.25.dist-info/METADATA,sha256=ChAz_Y_RXi6MDyZCM6ZVOFDX4SVT4IEfC0l98bplfJU,4288
+bacpack-0.0.25.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bacpack-0.0.25.dist-info/top_level.txt,sha256=4Khz7j8sOBmqX16EyUcnMlSC-9iNReoSHPWxYwgRSVQ,8
+bacpack-0.0.25.dist-info/RECORD,,
