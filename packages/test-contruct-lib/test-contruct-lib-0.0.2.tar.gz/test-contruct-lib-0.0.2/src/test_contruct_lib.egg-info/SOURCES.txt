@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/test_contruct_lib/__init__.py
+src/test_contruct_lib/py.typed
+src/test_contruct_lib.egg-info/PKG-INFO
+src/test_contruct_lib.egg-info/SOURCES.txt
+src/test_contruct_lib.egg-info/dependency_links.txt
+src/test_contruct_lib.egg-info/requires.txt
+src/test_contruct_lib.egg-info/top_level.txt
+src/test_contruct_lib/_jsii/__init__.py
+src/test_contruct_lib/_jsii/test-contruct-lib@0.0.2.jsii.tgz
