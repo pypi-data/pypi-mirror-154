@@ -1,0 +1,1417 @@
+{
+  "version": "20.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "charmthaimassage-pxw-stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://131125634604/us-east-1",
+      "properties": {
+        "templateFile": "charmthaimassage-pxw-stack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/charmthaimassage-pxw-stack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+              "id": "57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+              "packaging": "zip",
+              "sourceHash": "57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+              "s3BucketParameter": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B",
+              "s3KeyParameter": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68",
+              "artifactHashParameter": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52ArtifactHash050EEE47"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:203:29)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c",
+              "id": "c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c",
+              "packaging": "zip",
+              "sourceHash": "c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c",
+              "s3BucketParameter": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3Bucket130A5B15",
+              "s3KeyParameter": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3VersionKey69977A55",
+              "artifactHashParameter": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cArtifactHash2F8B3B1E"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:203:29)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          },
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90",
+              "id": "9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90",
+              "packaging": "zip",
+              "sourceHash": "9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90",
+              "s3BucketParameter": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3BucketB21FB59F",
+              "s3KeyParameter": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3VersionKey73D4F058",
+              "artifactHashParameter": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90ArtifactHashC00C7285"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:203:29)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudTable": [
+          {
+            "type": "aws:cdk:hasPhysicalName",
+            "data": {
+              "Ref": "PublicCrudTableE4703535"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/construct-compat.js:416:62)",
+              "new Table (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:513:23)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudTable/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudTableE4703535",
+            "trace": [
+              "new Table (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-dynamodb/lib/table.js:485:22)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/UserPoolX/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolX86720F9A",
+            "trace": [
+              "new UserPool (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-cognito/lib/user-pool.js:266:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AuthClientWeb/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AuthClientWebC43C90E3",
+            "trace": [
+              "new UserPoolClient (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-cognito/lib/user-pool-client.js:150:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/Site": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Site",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/SiteBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SiteBucket397A1860",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:670:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/SiteBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SiteBucketPolicy3AC1D0F8",
+            "trace": [
+              "new BucketPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket-policy.js:45:25)",
+              "Bucket.addToResourcePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:170:27)",
+              "Function.addToPrincipalOrResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/grant.js:76:49)",
+              "Bucket.grantPublicAccess (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:370:26)",
+              "new Bucket (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:722:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/BucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BucketArn",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ValidatedCertCertificateRequestorFunctionServiceRoleC7E5DFF1",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:35)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy0FD9D55B",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:249:34)",
+              "Function.addToRolePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:102:19)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:47:27)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ValidatedCertCertificateRequestorFunctionD1EDCB78",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:174:26)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ValidatedCertCertificateRequestorResourceD7F05BB5",
+            "trace": [
+              "new CustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/custom-resource.js:50:25)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:59:29)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52ArtifactHash050EEE47",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3Bucket130A5B15",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3VersionKey69977A55",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cArtifactHash2F8B3B1E",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3BucketB21FB59F",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:12:36)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3VersionKey73D4F058",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:16:35)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AssetParameters/9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90ArtifactHashC00C7285",
+            "trace": [
+              "new FileAssetParameters (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/asset-parameters.js:20:38)",
+              "LegacyStackSynthesizer.doAddFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:190:22)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:98:25)",
+              "Stack.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack.js:475:33)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:59",
+              "withoutDeprecationWarnings (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:230:16)",
+              "LegacyStackSynthesizer.addFileAsset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.js:103:20)",
+              "new Asset (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:47:44)",
+              "AssetCode.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/code.js:278:26)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:116:33)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/CertificateArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CertificateArn",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/SiteDistribution/CFDistribution": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SiteDistributionCFDistribution209CF7F5",
+            "trace": [
+              "new CloudFrontWebDistribution (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-cloudfront/lib/web-distribution.js:330:30)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/DistributionId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DistributionId",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/SiteAliasRecord/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SiteAliasRecord3C0AF5BF",
+            "trace": [
+              "new RecordSet (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:180:27)",
+              "new ARecord (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:212:9)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AWSCloudFrontPartitionHostedZoneIdMap": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWSCloudFrontPartitionHostedZoneIdMap",
+            "trace": [
+              "Function.getHostedZoneId (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53-targets/lib/cloudfront-target.js:23:105)",
+              "CloudFrontTarget.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53-targets/lib/cloudfront-target.js:37:44)",
+              "new RecordSet (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:185:79)",
+              "new ARecord (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:212:9)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminSite": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSite",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminSiteBucket/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSiteBucket6BE9C9FA",
+            "trace": [
+              "new Bucket (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:670:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminSiteBucket/Policy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSiteBucketPolicy1C9AECFE",
+            "trace": [
+              "new BucketPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket-policy.js:45:25)",
+              "Bucket.addToResourcePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:170:27)",
+              "Function.addToPrincipalOrResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/grant.js:76:49)",
+              "Bucket.grantPublicAccess (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:370:26)",
+              "new Bucket (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-s3/lib/bucket.js:722:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminBucketArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminBucketArn",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminValidatedCertCertificateRequestorFunctionServiceRole5E618391",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:35)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy9A34AEE2",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:249:34)",
+              "Function.addToRolePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:102:19)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:47:27)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminValidatedCertCertificateRequestorFunction88F8AA0C",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:174:26)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminValidatedCertCertificateRequestorResourceBF1D6680",
+            "trace": [
+              "new CustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/custom-resource.js:50:25)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:59:29)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminCertificateArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminCertificateArn",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminSiteDistribution/CFDistribution": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSiteDistributionCFDistributionE172F4F9",
+            "trace": [
+              "new CloudFrontWebDistribution (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-cloudfront/lib/web-distribution.js:330:30)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminDistributionId": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminDistributionId",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AdminSiteAliasRecord/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AdminSiteAliasRecordCA3A31F4",
+            "trace": [
+              "new RecordSet (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:180:27)",
+              "new ARecord (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:212:9)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ContactFormLambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ContactFormLambdaServiceRole020D5737",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ContactFormLambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ContactFormLambdaServiceRoleDefaultPolicy99B96C03",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:249:34)",
+              "Function.addToRolePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:102:19)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ContactFormLambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ContactFormLambdaBE8DD0D4",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:174:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/VerifyDomainIdentity/CustomResourcePolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VerifyDomainIdentityCustomResourcePolicy620FA325",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:202:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/VerifyDomainIdentity/Resource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VerifyDomainIdentityA4F38560",
+            "trace": [
+              "new CustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/custom-resource.js:50:25)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:209:31)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:35)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/AWS679f53fac002430cb0da5b7982bd2287/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:174:26)",
+              "SingletonFunction.ensureLambda (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:164:16)",
+              "new SingletonFunction (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/singleton-lambda.js:32:36)",
+              "new AwsCustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/custom-resources/lib/aws-custom-resource/aws-custom-resource.js:161:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/SESVerificationRecord/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SESVerificationRecord8B86296A",
+            "trace": [
+              "new RecordSet (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:180:27)",
+              "new TxtRecord (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:290:9)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:35)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+            "trace": [
+              "new Policy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/policy.js:58:26)",
+              "Role.addToPrincipalPolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:249:34)",
+              "Function.addToRolePolicy (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:102:19)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:47:27)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCertificateCertificateRequestorFunction35B7F4E7",
+            "trace": [
+              "new Function (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function.js:174:26)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:40:35)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorResource/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCertificateCertificateRequestorResource57CB3F69",
+            "trace": [
+              "new CustomResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/custom-resource.js:50:25)",
+              "new DnsValidatedCertificate (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-certificatemanager/lib/dns-validated-certificate.js:59:29)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/ApiCertificateArn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ApiCertificateArn",
+            "trace": [
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiCD1F71C1",
+            "trace": [
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:451:26)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiCloudWatchRole25231D61",
+            "trace": [
+              "new Role (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-iam/lib/role.js:64:22)",
+              "RestApi._configureCloudWatchRole (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:271:22)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:468:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiAccount51A11433",
+            "trace": [
+              "RestApi._configureCloudWatchRole (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:275:34)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:468:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiDeployment932BEDF3da24ccbacb56ce7b6c5f2d54264681ab",
+            "trace": [
+              "new Deployment (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:53:25)",
+              "RestApi._configureDeployment (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:319:38)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:470:14)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiDeploymentStageprod7193F3A0",
+            "trace": [
+              "new Stage (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:63:26)",
+              "RestApi._configureDeployment (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:327:36)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:470:14)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiEndpoint175A7ED6",
+            "trace": [
+              "RestApi._configureDeployment (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:331:13)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:470:14)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/CustomDomain/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiCustomDomain9F9BD4C3",
+            "trace": [
+              "new DomainName (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/domain-name.js:40:26)",
+              "RestApi.addDomainName (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:92:28)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:472:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/CustomDomain/Map:--=>charmthaimassagepxwstackPublicCrudApiF8ABB750/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiCustomDomainMapcharmthaimassagepxwstackPublicCrudApiF8ABB75098FF7CEE",
+            "trace": [
+              "new BasePathMapping (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/base-path-mapping.js:40:9)",
+              "DomainName.addBasePathMapping (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/domain-name.js:106:16)",
+              "new DomainName (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/domain-name.js:56:18)",
+              "RestApi.addDomainName (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:92:28)",
+              "new RestApi (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:472:18)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApicontact368CDA57",
+            "trace": [
+              "new Resource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:235:26)",
+              "RootResource.addResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:27:16)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/ApiPermission.charmthaimassagepxwstackPublicCrudApiF8ABB750.POST..contact": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApicontactPOSTApiPermissioncharmthaimassagepxwstackPublicCrudApiF8ABB750POSTcontact5D79F550",
+            "trace": [
+              "Function.addPermission (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:85:9)",
+              "LambdaIntegration.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:56:22)",
+              "new Method (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/method.js:46:40)",
+              "Resource.addMethod (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/ApiPermission.Test.charmthaimassagepxwstackPublicCrudApiF8ABB750.POST..contact": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApicontactPOSTApiPermissionTestcharmthaimassagepxwstackPublicCrudApiF8ABB750POSTcontactC73F00FE",
+            "trace": [
+              "Function.addPermission (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:85:9)",
+              "LambdaIntegration.bind (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:63:26)",
+              "new Method (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/method.js:46:40)",
+              "Resource.addMethod (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApicontactPOST1F51D9C5",
+            "trace": [
+              "new Method (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/method.js:62:26)",
+              "Resource.addMethod (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/OPTIONS/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApicontactOPTIONS59F52C9D",
+            "trace": [
+              "new Method (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/method.js:62:26)",
+              "Resource.addMethod (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:40:16)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/PublicCrudApiAliasRecord/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PublicCrudApiAliasRecord66F1AD9D",
+            "trace": [
+              "new RecordSet (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:180:27)",
+              "new ARecord (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/aws-route53/lib/record-set.js:212:9)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:8171:58",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "Kernel._create (/tmp/tmpsw8l2d4n/lib/program.js:8171:34)",
+              "Kernel.create (/tmp/tmpsw8l2d4n/lib/program.js:7919:29)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/charmthaimassage-pxw-stack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/metadata-resource.js:22:30)",
+              "/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/synthesis.js:139:9",
+              "visit (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/synthesis.js:200:9)",
+              "visit (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/synthesis.js:197:9)",
+              "injectMetadataResources (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/synthesis.js:128:5)",
+              "Object.synthesize (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/private/synthesis.js:17:5)",
+              "App.synth (/tmp/jsii-kernel-7DpqM9/node_modules/@aws-cdk/core/lib/stage.js:105:41)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:134",
+              "Kernel._wrapSandboxCode (/tmp/tmpsw8l2d4n/lib/program.js:8592:24)",
+              "/tmp/tmpsw8l2d4n/lib/program.js:7993:107",
+              "Kernel._ensureSync (/tmp/tmpsw8l2d4n/lib/program.js:8573:28)",
+              "Kernel.invoke (/tmp/tmpsw8l2d4n/lib/program.js:7993:34)",
+              "KernelHost.processRequest (/tmp/tmpsw8l2d4n/lib/program.js:9506:36)",
+              "KernelHost.run (/tmp/tmpsw8l2d4n/lib/program.js:9469:22)",
+              "Immediate._onImmediate (/tmp/tmpsw8l2d4n/lib/program.js:9470:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "charmthaimassage-pxw-stack"
+    }
+  }
+}

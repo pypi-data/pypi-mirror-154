@@ -1,0 +1,1688 @@
+{
+ "Resources": {
+  "PublicCrudTableE4703535": {
+   "Type": "AWS::DynamoDB::Table",
+   "Properties": {
+    "KeySchema": [
+     {
+      "AttributeName": "pk",
+      "KeyType": "HASH"
+     },
+     {
+      "AttributeName": "sk",
+      "KeyType": "RANGE"
+     }
+    ],
+    "AttributeDefinitions": [
+     {
+      "AttributeName": "pk",
+      "AttributeType": "S"
+     },
+     {
+      "AttributeName": "sk",
+      "AttributeType": "S"
+     }
+    ],
+    "BillingMode": "PAY_PER_REQUEST",
+    "TableName": "public_crudcharmthaimassage_com_au"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudTable/Resource"
+   }
+  },
+  "UserPoolX86720F9A": {
+   "Type": "AWS::Cognito::UserPool",
+   "Properties": {
+    "AccountRecoverySetting": {
+     "RecoveryMechanisms": [
+      {
+       "Name": "verified_phone_number",
+       "Priority": 1
+      },
+      {
+       "Name": "verified_email",
+       "Priority": 2
+      }
+     ]
+    },
+    "AdminCreateUserConfig": {
+     "AllowAdminCreateUserOnly": false
+    },
+    "AutoVerifiedAttributes": [
+     "email"
+    ],
+    "SmsVerificationMessage": "The verification code to your new account is {####}",
+    "UsernameAttributes": [
+     "email"
+    ],
+    "VerificationMessageTemplate": {
+     "DefaultEmailOption": "CONFIRM_WITH_LINK",
+     "EmailMessageByLink": "Verify your account by clicking on {##Verify Email##}",
+     "EmailSubjectByLink": "Verify your new account",
+     "SmsMessage": "The verification code to your new account is {####}"
+    }
+   },
+   "UpdateReplacePolicy": "Retain",
+   "DeletionPolicy": "Retain",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/UserPoolX/Resource"
+   }
+  },
+  "AuthClientWebC43C90E3": {
+   "Type": "AWS::Cognito::UserPoolClient",
+   "Properties": {
+    "UserPoolId": {
+     "Ref": "UserPoolX86720F9A"
+    },
+    "AllowedOAuthFlows": [
+     "implicit",
+     "code"
+    ],
+    "AllowedOAuthFlowsUserPoolClient": true,
+    "AllowedOAuthScopes": [
+     "profile",
+     "phone",
+     "email",
+     "openid",
+     "aws.cognito.signin.user.admin"
+    ],
+    "CallbackURLs": [
+     "https://example.com"
+    ],
+    "GenerateSecret": false,
+    "SupportedIdentityProviders": [
+     "COGNITO"
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AuthClientWeb/Resource"
+   }
+  },
+  "SiteBucket397A1860": {
+   "Type": "AWS::S3::Bucket",
+   "Properties": {
+    "BucketName": "static.charmthaimassage.com.au",
+    "WebsiteConfiguration": {
+     "ErrorDocument": "index.html",
+     "IndexDocument": "index.html"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/SiteBucket/Resource"
+   }
+  },
+  "SiteBucketPolicy3AC1D0F8": {
+   "Type": "AWS::S3::BucketPolicy",
+   "Properties": {
+    "Bucket": {
+     "Ref": "SiteBucket397A1860"
+    },
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": "s3:GetObject",
+       "Effect": "Allow",
+       "Principal": {
+        "AWS": "*"
+       },
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          {
+           "Fn::GetAtt": [
+            "SiteBucket397A1860",
+            "Arn"
+           ]
+          },
+          "/*"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/SiteBucket/Policy/Resource"
+   }
+  },
+  "ValidatedCertCertificateRequestorFunctionServiceRoleC7E5DFF1": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "lambda.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/ServiceRole/Resource"
+   }
+  },
+  "ValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy0FD9D55B": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "acm:RequestCertificate",
+        "acm:DescribeCertificate",
+        "acm:DeleteCertificate",
+        "acm:AddTagsToCertificate"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:GetChange",
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:changeResourceRecordSets",
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          "arn:",
+          {
+           "Ref": "AWS::Partition"
+          },
+          ":route53:::hostedzone/Z0688569LY1HWU9OQY6K"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "ValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy0FD9D55B",
+    "Roles": [
+     {
+      "Ref": "ValidatedCertCertificateRequestorFunctionServiceRoleC7E5DFF1"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource"
+   }
+  },
+  "ValidatedCertCertificateRequestorFunctionD1EDCB78": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B"
+     },
+     "S3Key": {
+      "Fn::Join": [
+       "",
+       [
+        {
+         "Fn::Select": [
+          0,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "Fn::Select": [
+          1,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    "Role": {
+     "Fn::GetAtt": [
+      "ValidatedCertCertificateRequestorFunctionServiceRoleC7E5DFF1",
+      "Arn"
+     ]
+    },
+    "Handler": "index.certificateRequestHandler",
+    "Runtime": "nodejs12.x",
+    "Timeout": 900
+   },
+   "DependsOn": [
+    "ValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy0FD9D55B",
+    "ValidatedCertCertificateRequestorFunctionServiceRoleC7E5DFF1"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorFunction/Resource",
+    "aws:asset:path": "asset.57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "ValidatedCertCertificateRequestorResourceD7F05BB5": {
+   "Type": "AWS::CloudFormation::CustomResource",
+   "Properties": {
+    "ServiceToken": {
+     "Fn::GetAtt": [
+      "ValidatedCertCertificateRequestorFunctionD1EDCB78",
+      "Arn"
+     ]
+    },
+    "DomainName": "charmthaimassage.com.au",
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ValidatedCert/CertificateRequestorResource/Default"
+   }
+  },
+  "SiteDistributionCFDistribution209CF7F5": {
+   "Type": "AWS::CloudFront::Distribution",
+   "Properties": {
+    "DistributionConfig": {
+     "Aliases": [
+      "charmthaimassage.com.au"
+     ],
+     "CustomErrorResponses": [
+      {
+       "ErrorCode": 403,
+       "ResponseCode": 200,
+       "ResponsePagePath": "/index.html"
+      },
+      {
+       "ErrorCode": 404,
+       "ResponseCode": 200,
+       "ResponsePagePath": "/index.html"
+      }
+     ],
+     "DefaultCacheBehavior": {
+      "AllowedMethods": [
+       "GET",
+       "HEAD"
+      ],
+      "CachedMethods": [
+       "GET",
+       "HEAD"
+      ],
+      "Compress": true,
+      "ForwardedValues": {
+       "Cookies": {
+        "Forward": "none"
+       },
+       "QueryString": false
+      },
+      "TargetOriginId": "origin1",
+      "ViewerProtocolPolicy": "redirect-to-https"
+     },
+     "DefaultRootObject": "index.html",
+     "Enabled": true,
+     "HttpVersion": "http2",
+     "IPV6Enabled": true,
+     "Origins": [
+      {
+       "ConnectionAttempts": 3,
+       "ConnectionTimeout": 10,
+       "DomainName": {
+        "Fn::GetAtt": [
+         "SiteBucket397A1860",
+         "RegionalDomainName"
+        ]
+       },
+       "Id": "origin1",
+       "S3OriginConfig": {}
+      }
+     ],
+     "PriceClass": "PriceClass_100",
+     "ViewerCertificate": {
+      "AcmCertificateArn": {
+       "Fn::GetAtt": [
+        "ValidatedCertCertificateRequestorResourceD7F05BB5",
+        "Arn"
+       ]
+      },
+      "MinimumProtocolVersion": "TLSv1.1_2016",
+      "SslSupportMethod": "sni-only"
+     }
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/SiteDistribution/CFDistribution"
+   }
+  },
+  "SiteAliasRecord3C0AF5BF": {
+   "Type": "AWS::Route53::RecordSet",
+   "Properties": {
+    "Name": "charmthaimassage.com.au.",
+    "Type": "A",
+    "AliasTarget": {
+     "DNSName": {
+      "Fn::GetAtt": [
+       "SiteDistributionCFDistribution209CF7F5",
+       "DomainName"
+      ]
+     },
+     "HostedZoneId": {
+      "Fn::FindInMap": [
+       "AWSCloudFrontPartitionHostedZoneIdMap",
+       {
+        "Ref": "AWS::Partition"
+       },
+       "zoneId"
+      ]
+     }
+    },
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/SiteAliasRecord/Resource"
+   }
+  },
+  "AdminSiteBucket6BE9C9FA": {
+   "Type": "AWS::S3::Bucket",
+   "Properties": {
+    "BucketName": "admin.static.charmthaimassage.com.au",
+    "WebsiteConfiguration": {
+     "ErrorDocument": "index.html",
+     "IndexDocument": "index.html"
+    }
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminSiteBucket/Resource"
+   }
+  },
+  "AdminSiteBucketPolicy1C9AECFE": {
+   "Type": "AWS::S3::BucketPolicy",
+   "Properties": {
+    "Bucket": {
+     "Ref": "AdminSiteBucket6BE9C9FA"
+    },
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": "s3:GetObject",
+       "Effect": "Allow",
+       "Principal": {
+        "AWS": "*"
+       },
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          {
+           "Fn::GetAtt": [
+            "AdminSiteBucket6BE9C9FA",
+            "Arn"
+           ]
+          },
+          "/*"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminSiteBucket/Policy/Resource"
+   }
+  },
+  "AdminValidatedCertCertificateRequestorFunctionServiceRole5E618391": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "lambda.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/ServiceRole/Resource"
+   }
+  },
+  "AdminValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy9A34AEE2": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "acm:RequestCertificate",
+        "acm:DescribeCertificate",
+        "acm:DeleteCertificate",
+        "acm:AddTagsToCertificate"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:GetChange",
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:changeResourceRecordSets",
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          "arn:",
+          {
+           "Ref": "AWS::Partition"
+          },
+          ":route53:::hostedzone/Z0688569LY1HWU9OQY6K"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "AdminValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy9A34AEE2",
+    "Roles": [
+     {
+      "Ref": "AdminValidatedCertCertificateRequestorFunctionServiceRole5E618391"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource"
+   }
+  },
+  "AdminValidatedCertCertificateRequestorFunction88F8AA0C": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B"
+     },
+     "S3Key": {
+      "Fn::Join": [
+       "",
+       [
+        {
+         "Fn::Select": [
+          0,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "Fn::Select": [
+          1,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    "Role": {
+     "Fn::GetAtt": [
+      "AdminValidatedCertCertificateRequestorFunctionServiceRole5E618391",
+      "Arn"
+     ]
+    },
+    "Handler": "index.certificateRequestHandler",
+    "Runtime": "nodejs12.x",
+    "Timeout": 900
+   },
+   "DependsOn": [
+    "AdminValidatedCertCertificateRequestorFunctionServiceRoleDefaultPolicy9A34AEE2",
+    "AdminValidatedCertCertificateRequestorFunctionServiceRole5E618391"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorFunction/Resource",
+    "aws:asset:path": "asset.57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "AdminValidatedCertCertificateRequestorResourceBF1D6680": {
+   "Type": "AWS::CloudFormation::CustomResource",
+   "Properties": {
+    "ServiceToken": {
+     "Fn::GetAtt": [
+      "AdminValidatedCertCertificateRequestorFunction88F8AA0C",
+      "Arn"
+     ]
+    },
+    "DomainName": "admin.charmthaimassage.com.au",
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminValidatedCert/CertificateRequestorResource/Default"
+   }
+  },
+  "AdminSiteDistributionCFDistributionE172F4F9": {
+   "Type": "AWS::CloudFront::Distribution",
+   "Properties": {
+    "DistributionConfig": {
+     "Aliases": [
+      "admin.charmthaimassage.com.au"
+     ],
+     "CustomErrorResponses": [
+      {
+       "ErrorCode": 403,
+       "ResponseCode": 200,
+       "ResponsePagePath": "/index.html"
+      },
+      {
+       "ErrorCode": 404,
+       "ResponseCode": 200,
+       "ResponsePagePath": "/index.html"
+      }
+     ],
+     "DefaultCacheBehavior": {
+      "AllowedMethods": [
+       "GET",
+       "HEAD"
+      ],
+      "CachedMethods": [
+       "GET",
+       "HEAD"
+      ],
+      "Compress": true,
+      "ForwardedValues": {
+       "Cookies": {
+        "Forward": "none"
+       },
+       "QueryString": false
+      },
+      "TargetOriginId": "origin1",
+      "ViewerProtocolPolicy": "redirect-to-https"
+     },
+     "DefaultRootObject": "index.html",
+     "Enabled": true,
+     "HttpVersion": "http2",
+     "IPV6Enabled": true,
+     "Origins": [
+      {
+       "ConnectionAttempts": 3,
+       "ConnectionTimeout": 10,
+       "DomainName": {
+        "Fn::GetAtt": [
+         "AdminSiteBucket6BE9C9FA",
+         "RegionalDomainName"
+        ]
+       },
+       "Id": "origin1",
+       "S3OriginConfig": {}
+      }
+     ],
+     "PriceClass": "PriceClass_100",
+     "ViewerCertificate": {
+      "AcmCertificateArn": {
+       "Fn::GetAtt": [
+        "AdminValidatedCertCertificateRequestorResourceBF1D6680",
+        "Arn"
+       ]
+      },
+      "MinimumProtocolVersion": "TLSv1.1_2016",
+      "SslSupportMethod": "sni-only"
+     }
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminSiteDistribution/CFDistribution"
+   }
+  },
+  "AdminSiteAliasRecordCA3A31F4": {
+   "Type": "AWS::Route53::RecordSet",
+   "Properties": {
+    "Name": "admin.charmthaimassage.com.au.",
+    "Type": "A",
+    "AliasTarget": {
+     "DNSName": {
+      "Fn::GetAtt": [
+       "AdminSiteDistributionCFDistributionE172F4F9",
+       "DomainName"
+      ]
+     },
+     "HostedZoneId": {
+      "Fn::FindInMap": [
+       "AWSCloudFrontPartitionHostedZoneIdMap",
+       {
+        "Ref": "AWS::Partition"
+       },
+       "zoneId"
+      ]
+     }
+    },
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AdminSiteAliasRecord/Resource"
+   }
+  },
+  "ContactFormLambdaServiceRole020D5737": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "lambda.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ContactFormLambda/ServiceRole/Resource"
+   }
+  },
+  "ContactFormLambdaServiceRoleDefaultPolicy99B96C03": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "ses:SendEmail",
+        "ses:SendRawEmail"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "ContactFormLambdaServiceRoleDefaultPolicy99B96C03",
+    "Roles": [
+     {
+      "Ref": "ContactFormLambdaServiceRole020D5737"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ContactFormLambda/ServiceRole/DefaultPolicy/Resource"
+   }
+  },
+  "ContactFormLambdaBE8DD0D4": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Ref": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3Bucket130A5B15"
+     },
+     "S3Key": {
+      "Fn::Join": [
+       "",
+       [
+        {
+         "Fn::Select": [
+          0,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3VersionKey69977A55"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "Fn::Select": [
+          1,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3VersionKey69977A55"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    "Role": {
+     "Fn::GetAtt": [
+      "ContactFormLambdaServiceRole020D5737",
+      "Arn"
+     ]
+    },
+    "Environment": {
+     "Variables": {
+      "TARGET_EMAIL": "juangbhanich.s@gmail.com",
+      "SENDER_EMAIL": "contact@charmthaimassage.com.au",
+      "SENDER_NAME": "Charmthaimassage",
+      "SENDER": "Charmthaimassage Contact Form <contact@charmthaimassage.com.au>"
+     }
+    },
+    "Handler": "lambda_handler.handler",
+    "Runtime": "python3.7"
+   },
+   "DependsOn": [
+    "ContactFormLambdaServiceRoleDefaultPolicy99B96C03",
+    "ContactFormLambdaServiceRole020D5737"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ContactFormLambda/Resource",
+    "aws:asset:path": "asset.c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "VerifyDomainIdentityCustomResourcePolicy620FA325": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": "ses:VerifyDomainIdentity",
+       "Effect": "Allow",
+       "Resource": "*"
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "VerifyDomainIdentityCustomResourcePolicy620FA325",
+    "Roles": [
+     {
+      "Ref": "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/VerifyDomainIdentity/CustomResourcePolicy/Resource"
+   }
+  },
+  "VerifyDomainIdentityA4F38560": {
+   "Type": "Custom::AWS",
+   "Properties": {
+    "ServiceToken": {
+     "Fn::GetAtt": [
+      "AWS679f53fac002430cb0da5b7982bd22872D164C4C",
+      "Arn"
+     ]
+    },
+    "Create": "{\"action\":\"verifyDomainIdentity\",\"service\":\"SES\",\"parameters\":{\"Domain\":\"charmthaimassage.com.au\"},\"physicalResourceId\":{\"responsePath\":\"VerificationToken\"}}",
+    "InstallLatestAwsSdk": true
+   },
+   "DependsOn": [
+    "VerifyDomainIdentityCustomResourcePolicy620FA325"
+   ],
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/VerifyDomainIdentity/Resource/Default"
+   }
+  },
+  "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "lambda.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AWS679f53fac002430cb0da5b7982bd2287/ServiceRole/Resource"
+   }
+  },
+  "AWS679f53fac002430cb0da5b7982bd22872D164C4C": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Ref": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3BucketB21FB59F"
+     },
+     "S3Key": {
+      "Fn::Join": [
+       "",
+       [
+        {
+         "Fn::Select": [
+          0,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3VersionKey73D4F058"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "Fn::Select": [
+          1,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3VersionKey73D4F058"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    "Role": {
+     "Fn::GetAtt": [
+      "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2",
+      "Arn"
+     ]
+    },
+    "Handler": "index.handler",
+    "Runtime": "nodejs12.x",
+    "Timeout": 120
+   },
+   "DependsOn": [
+    "AWS679f53fac002430cb0da5b7982bd2287ServiceRoleC1EA0FF2"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/AWS679f53fac002430cb0da5b7982bd2287/Resource",
+    "aws:asset:path": "asset.9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "SESVerificationRecord8B86296A": {
+   "Type": "AWS::Route53::RecordSet",
+   "Properties": {
+    "Name": "_amazonses.charmthaimassage.com.au.",
+    "Type": "TXT",
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K",
+    "ResourceRecords": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "\"",
+        {
+         "Fn::GetAtt": [
+          "VerifyDomainIdentityA4F38560",
+          "VerificationToken"
+         ]
+        },
+        "\""
+       ]
+      ]
+     }
+    ],
+    "TTL": "1800"
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/SESVerificationRecord/Resource"
+   }
+  },
+  "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "lambda.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/Resource"
+   }
+  },
+  "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57": {
+   "Type": "AWS::IAM::Policy",
+   "Properties": {
+    "PolicyDocument": {
+     "Statement": [
+      {
+       "Action": [
+        "acm:RequestCertificate",
+        "acm:DescribeCertificate",
+        "acm:DeleteCertificate",
+        "acm:AddTagsToCertificate"
+       ],
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:GetChange",
+       "Effect": "Allow",
+       "Resource": "*"
+      },
+      {
+       "Action": "route53:changeResourceRecordSets",
+       "Effect": "Allow",
+       "Resource": {
+        "Fn::Join": [
+         "",
+         [
+          "arn:",
+          {
+           "Ref": "AWS::Partition"
+          },
+          ":route53:::hostedzone/Z0688569LY1HWU9OQY6K"
+         ]
+        ]
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "PolicyName": "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+    "Roles": [
+     {
+      "Ref": "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/ServiceRole/DefaultPolicy/Resource"
+   }
+  },
+  "ApiCertificateCertificateRequestorFunction35B7F4E7": {
+   "Type": "AWS::Lambda::Function",
+   "Properties": {
+    "Code": {
+     "S3Bucket": {
+      "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B"
+     },
+     "S3Key": {
+      "Fn::Join": [
+       "",
+       [
+        {
+         "Fn::Select": [
+          0,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "Fn::Select": [
+          1,
+          {
+           "Fn::Split": [
+            "||",
+            {
+             "Ref": "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      ]
+     }
+    },
+    "Role": {
+     "Fn::GetAtt": [
+      "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678",
+      "Arn"
+     ]
+    },
+    "Handler": "index.certificateRequestHandler",
+    "Runtime": "nodejs12.x",
+    "Timeout": 900
+   },
+   "DependsOn": [
+    "ApiCertificateCertificateRequestorFunctionServiceRoleDefaultPolicy37D02D57",
+    "ApiCertificateCertificateRequestorFunctionServiceRole86B3A678"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorFunction/Resource",
+    "aws:asset:path": "asset.57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52",
+    "aws:asset:is-bundled": false,
+    "aws:asset:property": "Code"
+   }
+  },
+  "ApiCertificateCertificateRequestorResource57CB3F69": {
+   "Type": "AWS::CloudFormation::CustomResource",
+   "Properties": {
+    "ServiceToken": {
+     "Fn::GetAtt": [
+      "ApiCertificateCertificateRequestorFunction35B7F4E7",
+      "Arn"
+     ]
+    },
+    "DomainName": "apix.charmthaimassage.com.au",
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "UpdateReplacePolicy": "Delete",
+   "DeletionPolicy": "Delete",
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/ApiCertificate/CertificateRequestorResource/Default"
+   }
+  },
+  "PublicCrudApiCD1F71C1": {
+   "Type": "AWS::ApiGateway::RestApi",
+   "Properties": {
+    "Name": "PublicCrudApi"
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Resource"
+   }
+  },
+  "PublicCrudApiCloudWatchRole25231D61": {
+   "Type": "AWS::IAM::Role",
+   "Properties": {
+    "AssumeRolePolicyDocument": {
+     "Statement": [
+      {
+       "Action": "sts:AssumeRole",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "apigateway.amazonaws.com"
+       }
+      }
+     ],
+     "Version": "2012-10-17"
+    },
+    "ManagedPolicyArns": [
+     {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+       ]
+      ]
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/CloudWatchRole/Resource"
+   }
+  },
+  "PublicCrudApiAccount51A11433": {
+   "Type": "AWS::ApiGateway::Account",
+   "Properties": {
+    "CloudWatchRoleArn": {
+     "Fn::GetAtt": [
+      "PublicCrudApiCloudWatchRole25231D61",
+      "Arn"
+     ]
+    }
+   },
+   "DependsOn": [
+    "PublicCrudApiCD1F71C1"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Account"
+   }
+  },
+  "PublicCrudApiDeployment932BEDF3da24ccbacb56ce7b6c5f2d54264681ab": {
+   "Type": "AWS::ApiGateway::Deployment",
+   "Properties": {
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    },
+    "Description": "Automatically created by the RestApi construct"
+   },
+   "DependsOn": [
+    "PublicCrudApicontactOPTIONS59F52C9D",
+    "PublicCrudApicontactPOST1F51D9C5",
+    "PublicCrudApicontact368CDA57"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Deployment/Resource"
+   }
+  },
+  "PublicCrudApiDeploymentStageprod7193F3A0": {
+   "Type": "AWS::ApiGateway::Stage",
+   "Properties": {
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    },
+    "DeploymentId": {
+     "Ref": "PublicCrudApiDeployment932BEDF3da24ccbacb56ce7b6c5f2d54264681ab"
+    },
+    "MethodSettings": [
+     {
+      "DataTraceEnabled": false,
+      "HttpMethod": "*",
+      "ResourcePath": "/*",
+      "ThrottlingBurstLimit": 100,
+      "ThrottlingRateLimit": 10
+     }
+    ],
+    "StageName": "prod"
+   },
+   "DependsOn": [
+    "PublicCrudApiAccount51A11433"
+   ],
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/DeploymentStage.prod/Resource"
+   }
+  },
+  "PublicCrudApiCustomDomain9F9BD4C3": {
+   "Type": "AWS::ApiGateway::DomainName",
+   "Properties": {
+    "DomainName": "apix.charmthaimassage.com.au",
+    "EndpointConfiguration": {
+     "Types": [
+      "REGIONAL"
+     ]
+    },
+    "RegionalCertificateArn": {
+     "Fn::GetAtt": [
+      "ApiCertificateCertificateRequestorResource57CB3F69",
+      "Arn"
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/CustomDomain/Resource"
+   }
+  },
+  "PublicCrudApiCustomDomainMapcharmthaimassagepxwstackPublicCrudApiF8ABB75098FF7CEE": {
+   "Type": "AWS::ApiGateway::BasePathMapping",
+   "Properties": {
+    "DomainName": {
+     "Ref": "PublicCrudApiCustomDomain9F9BD4C3"
+    },
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    },
+    "Stage": {
+     "Ref": "PublicCrudApiDeploymentStageprod7193F3A0"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/CustomDomain/Map:--=>charmthaimassagepxwstackPublicCrudApiF8ABB750/Resource"
+   }
+  },
+  "PublicCrudApicontact368CDA57": {
+   "Type": "AWS::ApiGateway::Resource",
+   "Properties": {
+    "ParentId": {
+     "Fn::GetAtt": [
+      "PublicCrudApiCD1F71C1",
+      "RootResourceId"
+     ]
+    },
+    "PathPart": "contact",
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/Resource"
+   }
+  },
+  "PublicCrudApicontactPOSTApiPermissioncharmthaimassagepxwstackPublicCrudApiF8ABB750POSTcontact5D79F550": {
+   "Type": "AWS::Lambda::Permission",
+   "Properties": {
+    "Action": "lambda:InvokeFunction",
+    "FunctionName": {
+     "Fn::GetAtt": [
+      "ContactFormLambdaBE8DD0D4",
+      "Arn"
+     ]
+    },
+    "Principal": "apigateway.amazonaws.com",
+    "SourceArn": {
+     "Fn::Join": [
+      "",
+      [
+       "arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":execute-api:us-east-1:131125634604:",
+       {
+        "Ref": "PublicCrudApiCD1F71C1"
+       },
+       "/",
+       {
+        "Ref": "PublicCrudApiDeploymentStageprod7193F3A0"
+       },
+       "/POST/contact"
+      ]
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/ApiPermission.charmthaimassagepxwstackPublicCrudApiF8ABB750.POST..contact"
+   }
+  },
+  "PublicCrudApicontactPOSTApiPermissionTestcharmthaimassagepxwstackPublicCrudApiF8ABB750POSTcontactC73F00FE": {
+   "Type": "AWS::Lambda::Permission",
+   "Properties": {
+    "Action": "lambda:InvokeFunction",
+    "FunctionName": {
+     "Fn::GetAtt": [
+      "ContactFormLambdaBE8DD0D4",
+      "Arn"
+     ]
+    },
+    "Principal": "apigateway.amazonaws.com",
+    "SourceArn": {
+     "Fn::Join": [
+      "",
+      [
+       "arn:",
+       {
+        "Ref": "AWS::Partition"
+       },
+       ":execute-api:us-east-1:131125634604:",
+       {
+        "Ref": "PublicCrudApiCD1F71C1"
+       },
+       "/test-invoke-stage/POST/contact"
+      ]
+     ]
+    }
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/ApiPermission.Test.charmthaimassagepxwstackPublicCrudApiF8ABB750.POST..contact"
+   }
+  },
+  "PublicCrudApicontactPOST1F51D9C5": {
+   "Type": "AWS::ApiGateway::Method",
+   "Properties": {
+    "HttpMethod": "POST",
+    "ResourceId": {
+     "Ref": "PublicCrudApicontact368CDA57"
+    },
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    },
+    "AuthorizationType": "NONE",
+    "Integration": {
+     "IntegrationHttpMethod": "POST",
+     "IntegrationResponses": [
+      {
+       "ResponseParameters": {
+        "method.response.header.Access-Control-Allow-Origin": "'*'"
+       },
+       "StatusCode": "200"
+      }
+     ],
+     "Type": "AWS",
+     "Uri": {
+      "Fn::Join": [
+       "",
+       [
+        "arn:",
+        {
+         "Ref": "AWS::Partition"
+        },
+        ":apigateway:us-east-1:lambda:path/2015-03-31/functions/",
+        {
+         "Fn::GetAtt": [
+          "ContactFormLambdaBE8DD0D4",
+          "Arn"
+         ]
+        },
+        "/invocations"
+       ]
+      ]
+     }
+    },
+    "MethodResponses": [
+     {
+      "ResponseParameters": {
+       "method.response.header.Access-Control-Allow-Origin": true
+      },
+      "StatusCode": "200"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/POST/Resource"
+   }
+  },
+  "PublicCrudApicontactOPTIONS59F52C9D": {
+   "Type": "AWS::ApiGateway::Method",
+   "Properties": {
+    "HttpMethod": "OPTIONS",
+    "ResourceId": {
+     "Ref": "PublicCrudApicontact368CDA57"
+    },
+    "RestApiId": {
+     "Ref": "PublicCrudApiCD1F71C1"
+    },
+    "AuthorizationType": "NONE",
+    "Integration": {
+     "IntegrationResponses": [
+      {
+       "ResponseParameters": {
+        "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'",
+        "method.response.header.Access-Control-Allow-Origin": "'*'",
+        "method.response.header.Access-Control-Allow-Methods": "'GET,OPTIONS'"
+       },
+       "StatusCode": "200"
+      }
+     ],
+     "PassthroughBehavior": "WHEN_NO_MATCH",
+     "RequestTemplates": {
+      "application/json": "{\"statusCode\":200}"
+     },
+     "Type": "MOCK"
+    },
+    "MethodResponses": [
+     {
+      "ResponseParameters": {
+       "method.response.header.Access-Control-Allow-Headers": true,
+       "method.response.header.Access-Control-Allow-Methods": true,
+       "method.response.header.Access-Control-Allow-Origin": true
+      },
+      "StatusCode": "200"
+     }
+    ]
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApi/Default/contact/OPTIONS/Resource"
+   }
+  },
+  "PublicCrudApiAliasRecord66F1AD9D": {
+   "Type": "AWS::Route53::RecordSet",
+   "Properties": {
+    "Name": "apix.charmthaimassage.com.au.",
+    "Type": "A",
+    "AliasTarget": {
+     "DNSName": {
+      "Fn::GetAtt": [
+       "PublicCrudApiCustomDomain9F9BD4C3",
+       "RegionalDomainName"
+      ]
+     },
+     "HostedZoneId": {
+      "Fn::GetAtt": [
+       "PublicCrudApiCustomDomain9F9BD4C3",
+       "RegionalHostedZoneId"
+      ]
+     }
+    },
+    "HostedZoneId": "Z0688569LY1HWU9OQY6K"
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/PublicCrudApiAliasRecord/Resource"
+   }
+  },
+  "CDKMetadata": {
+   "Type": "AWS::CDK::Metadata",
+   "Properties": {
+    "Analytics": "v2:deflate64:H4sIAAAAAAAA/21Sy27bMBD8ltxppkEQBLnVsZFbGsFO2/OKWiusRa5ALuEKgv69fMiRWvTEmd0VqZnZO3n38CS/3HyFi9+o5nw7KnIoxyODOosDegpOodid7FvgPrDYeo8cu622rdgFz2TWUwsm69kFxalagQODjC6RV+j7+PEk0pNjM1gw1NRyfIe6y3dkMAlFrdVMcvzu0VVEXep94ivYdRotr1ulMgl/L8fnoM6YuzMqR0WdVsNSnnkhz+DT6+hYn7QCRgMWWnRyb/0P6HQTS81uaYsOTN2AHF+CVazJpns/8TFK7ZDJrrsVOqO9j2wSGowcD1Sk53P5u4KSlA0k373M9gvVUWhOjizLcZfwS8I/sd7raLquw/WhNZ+Eo8D4EG3ZHjDG3JTAEjrGS99/cyExmV63UdkFhvhr6Hnb6zncK9wqRSH6vse+o8HMEaxYWpEsqYA9GdD2W9yCPLew5HYF/DFvRc7kn9J1p1Jd/HfZXpE/KMspaIr55dXcuHkkOnfxf6/rJKohDtvbe/koH29+ea03LmrSBuWhnH8A/Fn/AB4DAAA="
+   },
+   "Metadata": {
+    "aws:cdk:path": "charmthaimassage-pxw-stack/CDKMetadata/Default"
+   }
+  }
+ },
+ "Outputs": {
+  "Site": {
+   "Value": "https://charmthaimassage.com.au"
+  },
+  "BucketArn": {
+   "Value": {
+    "Fn::GetAtt": [
+     "SiteBucket397A1860",
+     "Arn"
+    ]
+   }
+  },
+  "CertificateArn": {
+   "Value": {
+    "Fn::GetAtt": [
+     "ValidatedCertCertificateRequestorResourceD7F05BB5",
+     "Arn"
+    ]
+   }
+  },
+  "DistributionId": {
+   "Value": {
+    "Ref": "SiteDistributionCFDistribution209CF7F5"
+   }
+  },
+  "AdminSite": {
+   "Value": "https://admin.charmthaimassage.com.au"
+  },
+  "AdminBucketArn": {
+   "Value": {
+    "Fn::GetAtt": [
+     "AdminSiteBucket6BE9C9FA",
+     "Arn"
+    ]
+   }
+  },
+  "AdminCertificateArn": {
+   "Value": {
+    "Fn::GetAtt": [
+     "AdminValidatedCertCertificateRequestorResourceBF1D6680",
+     "Arn"
+    ]
+   }
+  },
+  "AdminDistributionId": {
+   "Value": {
+    "Ref": "AdminSiteDistributionCFDistributionE172F4F9"
+   }
+  },
+  "ApiCertificateArn": {
+   "Value": {
+    "Fn::GetAtt": [
+     "ApiCertificateCertificateRequestorResource57CB3F69",
+     "Arn"
+    ]
+   }
+  },
+  "PublicCrudApiEndpoint175A7ED6": {
+   "Value": {
+    "Fn::Join": [
+     "",
+     [
+      "https://",
+      {
+       "Ref": "PublicCrudApiCD1F71C1"
+      },
+      ".execute-api.us-east-1.",
+      {
+       "Ref": "AWS::URLSuffix"
+      },
+      "/",
+      {
+       "Ref": "PublicCrudApiDeploymentStageprod7193F3A0"
+      },
+      "/"
+     ]
+    ]
+   }
+  }
+ },
+ "Parameters": {
+  "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3BucketAF5CA86B": {
+   "Type": "String",
+   "Description": "S3 bucket for asset \"57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52\""
+  },
+  "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52S3VersionKey50057F68": {
+   "Type": "String",
+   "Description": "S3 key for asset version \"57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52\""
+  },
+  "AssetParameters57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52ArtifactHash050EEE47": {
+   "Type": "String",
+   "Description": "Artifact hash for asset \"57ed3297d84e7c092939da72067d3c6c454ad63e86b4b5079d4306b424eafd52\""
+  },
+  "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3Bucket130A5B15": {
+   "Type": "String",
+   "Description": "S3 bucket for asset \"c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c\""
+  },
+  "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cS3VersionKey69977A55": {
+   "Type": "String",
+   "Description": "S3 key for asset version \"c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c\""
+  },
+  "AssetParametersc2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90cArtifactHash2F8B3B1E": {
+   "Type": "String",
+   "Description": "Artifact hash for asset \"c2ff3e7801d0a41e76feb4ac78bca75baa22e11cb12140862deb89418544c90c\""
+  },
+  "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3BucketB21FB59F": {
+   "Type": "String",
+   "Description": "S3 bucket for asset \"9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90\""
+  },
+  "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90S3VersionKey73D4F058": {
+   "Type": "String",
+   "Description": "S3 key for asset version \"9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90\""
+  },
+  "AssetParameters9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90ArtifactHashC00C7285": {
+   "Type": "String",
+   "Description": "Artifact hash for asset \"9d784cf317cead201dfe56ed0404d6d23eba6d499ca7354138230c2267f2fe90\""
+  }
+ },
+ "Mappings": {
+  "AWSCloudFrontPartitionHostedZoneIdMap": {
+   "aws": {
+    "zoneId": "Z2FDTNDATAQYW2"
+   },
+   "aws-cn": {
+    "zoneId": "Z3RFFRIM2A3IF5"
+   }
+  }
+ }
+}
