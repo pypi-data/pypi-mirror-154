@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/lazy_constructs/__init__.py
+src/lazy_constructs/py.typed
+src/lazy_constructs.egg-info/PKG-INFO
+src/lazy_constructs.egg-info/SOURCES.txt
+src/lazy_constructs.egg-info/dependency_links.txt
+src/lazy_constructs.egg-info/requires.txt
+src/lazy_constructs.egg-info/top_level.txt
+src/lazy_constructs/_jsii/__init__.py
+src/lazy_constructs/_jsii/lazy-constructs@0.0.3.jsii.tgz
