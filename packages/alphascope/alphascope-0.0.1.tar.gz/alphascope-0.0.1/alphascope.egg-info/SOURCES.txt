@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+alphascope.egg-info/PKG-INFO
+alphascope.egg-info/SOURCES.txt
+alphascope.egg-info/dependency_links.txt
+alphascope.egg-info/requires.txt
+alphascope.egg-info/top_level.txt
+alphascope/src/byeworld.py
+alphascope/src/helloworld.py
+alphascope/test/bye_test.py
+alphascope/test/hello_test.py

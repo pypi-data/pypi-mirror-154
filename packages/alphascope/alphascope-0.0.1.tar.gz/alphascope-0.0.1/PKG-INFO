@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: alphascope
+Version: 0.0.1
+Summary: gen purpose quant fin library
+Home-page: https://github.com/atkrishnan/alphascope
+Author: Atheesh Krishnan
+Author-email: atheesh.krishnan@outlook.com
+License: MIT
+Keywords: computational finance optimization quant trading investing portfolio arbitrage
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Natural Language :: English
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# alphascope
+~ under dev
+
+Developing and deploying an end-to-end python package for a subsection of computational finance.
+
+## Installation
+to install alphascope, along with the tools that would be required to develop and run tests, run the following
+in your virtual environment:
+
+'''bash
+$ pip install -e .[dev]
+
+## Usage
+tbd
+
+## Examples
+tbd
+
