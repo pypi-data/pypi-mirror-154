@@ -1,0 +1,2 @@
+[pytest11]
+pytest_regex_dependency = pytest_regex_dependency
