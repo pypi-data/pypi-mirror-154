@@ -1,0 +1,4 @@
+include *.txt
+recursive-include V2Mp3 *.gitkeep
+recursive-include img *.png
+recursive-include V2Mp3 *.pyw

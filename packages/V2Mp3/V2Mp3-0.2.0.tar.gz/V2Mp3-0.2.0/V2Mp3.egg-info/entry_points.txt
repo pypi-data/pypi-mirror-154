@@ -1,0 +1,3 @@
+[gui_scripts]
+v2mp3 = V2Mp3.main:main
+
