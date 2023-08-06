@@ -1,0 +1,9 @@
+shapley_values/VERSION,sha256=1R5uyUBYVUqEVYpbQC7m71_fVFXjXJAv7aYc2odSlDo,5
+shapley_values/__init__.py,sha256=U5JjckVbI5rKpjhWhv4kZjtLm2VAgn01EfPoy4DB8HI,190
+shapley_values/shapley.py,sha256=E98f6c4vLcGnbsD5fEOYwrKC9zTtUOgiBK-i15Mbpog,7050
+shapley_values/x_shapley.py,sha256=gbE6BKG-zZqaL7T9f1s4itscKNECVvsz1UJ7iuYQiik,14802
+shapley_values-1.0.1.dist-info/LICENSE,sha256=B_Iho-0grX_nVAo0FALLj6F9jRzWFrU5TtNCc2DET2M,1098
+shapley_values-1.0.1.dist-info/METADATA,sha256=aW2FCEi2c24nlN-dvMsRzzs_N1JhByiNIdJ6VOa8AJs,1757
+shapley_values-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shapley_values-1.0.1.dist-info/top_level.txt,sha256=1_lD9wx_eXRWdF0a1-P7YDnruQ71YWvp2-D03-Gi8dQ,15
+shapley_values-1.0.1.dist-info/RECORD,,
