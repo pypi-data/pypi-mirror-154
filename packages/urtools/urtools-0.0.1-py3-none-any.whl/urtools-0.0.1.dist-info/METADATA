@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: urtools
+Version: 0.0.1
+Summary: "Custom functions and other utilities that I find useful and use across many projects. Not all of them of my own creation."
+Home-page: 
+Author: MatthewBaggins
+Author-email: bagginsmatthew@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# Test to see if works
