@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/m_recommender/__init__.py
+src/m_recommender/memory.py
+src/memory_recommender.egg-info/PKG-INFO
+src/memory_recommender.egg-info/SOURCES.txt
+src/memory_recommender.egg-info/dependency_links.txt
+src/memory_recommender.egg-info/top_level.txt
