@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: accnetbio
+Version: 0.0.0.0.2
+Summary: acc network biology
+Home-page: https://github.com/2003100127
+Author: Jianfeng Sun
+Author-email: jianfeng.sun@ndorms.ox.ac.uk
+License: MIT
+Keywords: pip,accnetbio
+Platform: any
+Requires-Python: >3.6
+
+accelerate network biology
+
