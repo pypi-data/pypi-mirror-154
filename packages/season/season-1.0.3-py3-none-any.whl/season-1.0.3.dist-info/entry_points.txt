@@ -1,0 +1,3 @@
+[console_scripts]
+wiz = season.cmd:main [season]
+
