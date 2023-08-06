@@ -1,0 +1,10 @@
+pandas
+pickle-mixin
+firebase_admin
+numpy
+matplotlib
+python-string-utils
+datetime
+seaborn
+mock
+sphinxcontrib-blockdiag
