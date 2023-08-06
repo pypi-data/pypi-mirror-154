@@ -1,0 +1,9 @@
+README.md
+setup.py
+vault_crio/__init__.py
+vault_crio/vault.py
+vault_crio.egg-info/PKG-INFO
+vault_crio.egg-info/SOURCES.txt
+vault_crio.egg-info/dependency_links.txt
+vault_crio.egg-info/requires.txt
+vault_crio.egg-info/top_level.txt
