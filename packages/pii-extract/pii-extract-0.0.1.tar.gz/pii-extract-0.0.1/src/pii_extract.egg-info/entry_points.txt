@@ -1,0 +1,4 @@
+[console_scripts]
+pii-extract = pii_extract.app.extract:main
+pii-task-info = pii_extract.app.task_info:main
+
