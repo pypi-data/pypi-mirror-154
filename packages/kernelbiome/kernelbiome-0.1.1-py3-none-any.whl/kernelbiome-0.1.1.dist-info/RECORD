@@ -1,0 +1,16 @@
+kernelbiome/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kernelbiome/cfi_and_cpd.py,sha256=u5llxmLRE4mgQKMZ0q7kLAsxL2bvxss40SPmOOr-h9o,7378
+kernelbiome/helpers_jax.py,sha256=l2R8s73uEa9KZlTDKXTzxfvdzZQq7Jrd0Limi5lUwAQ,1692
+kernelbiome/kernel_mds.py,sha256=eiT-x1Nw-3h38REtRHWbvukS6qrRW948vYRVZ_lnDis,860
+kernelbiome/kernels_jax.py,sha256=fkexMI95q6tu4Mk7gQZ3mPbGCFI_w011MGv1hQvRTak,10696
+kernelbiome/kernels_weighted_jax.py,sha256=u-jYOZ1UZ475N3k5Kt2bG_NdCr9D8CybAA7nD-yjGY4,11188
+kernelbiome/metrics_jax.py,sha256=g2-kQR6IzL8AhrNhknfGT9HSqMr_OJotUSMHc_aOAu0,4164
+kernelbiome/nested_cv.py,sha256=GXCk4i-GtEoEvQoQ5xREFaVUu_3fsREmbNk_oKb714I,13798
+kernelbiome/utils_compositional.py,sha256=zRyCcpjFdzbC3D57AGtAiSdj8A01fsXpP_Pk1jd8kpQ,2480
+kernelbiome/utils_cv.py,sha256=YELO11Wjxm9xtnMDEWqv0V7-qe2HVF6THtvoUIgkZD0,5931
+kernelbiome/utils_result.py,sha256=pKMS84rtxtVYfdnz9RNMJPuFs-H-R-5n2zTfnPFKbEM,4793
+kernelbiome-0.1.1.dist-info/LICENSE,sha256=rmhmJ_ZGt4xbq7D0vROWVFCx1nyEvkX6nIyJAnHeYG0,35151
+kernelbiome-0.1.1.dist-info/METADATA,sha256=-Etjjy_l_dwqmqkXQkI7BWISd3taG3gIkaIjfnL1RS0,3564
+kernelbiome-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kernelbiome-0.1.1.dist-info/top_level.txt,sha256=sIL6KRptXpWXF3hXw8jlhe_xJshCsNnrj7-V7bXCnbE,12
+kernelbiome-0.1.1.dist-info/RECORD,,
