@@ -1,0 +1,11 @@
+quickvec/__init__.py,sha256=dwip7RF8dvBdf9b3ekQxXOAwHwvFIMjWuIdzViqFfaA,66
+quickvec/convert.py,sha256=deDcXRejc0gHsH_D5eUwHuQA47pX5XRtGJTnludqtKM,717
+quickvec/embedding.py,sha256=g6lxi4BvPvrvMH6STusw2CtXLSGwifklHMSENCRqqOU,11534
+quickvec/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quickvec/show.py,sha256=2W_3WkyY34tgCXnkyi1IO7vTRldO4G1eB7wiEKUKLdU,903
+quickvec-0.3.0.dist-info/LICENSE,sha256=t1_9W01OiR8tNYx1JjatD-Ny0RQHDi196uoP-4N_IyI,1092
+quickvec-0.3.0.dist-info/METADATA,sha256=iYrAc7zCC5kgP2QP8-vrBnwLzeAL_NPU4hFi-KDZWSg,3292
+quickvec-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quickvec-0.3.0.dist-info/entry_points.txt,sha256=ZnGG0RD_VmNt3LhFXIc5MH6bnbmrIqua11XYipMFUMM,95
+quickvec-0.3.0.dist-info/top_level.txt,sha256=13Ts_nfEU2RSyF8_dWWTDiiJ5Fea7U22LlZY1ul9M30,9
+quickvec-0.3.0.dist-info/RECORD,,

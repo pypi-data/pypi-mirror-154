@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: quickvec
+Version: 0.3.0
+Summary: QuickVec: Fast and easy loading and querying of word vectors
+Home-page: https://github.com/ConstantineLignos/quickvec
+Author: Constantine Lignos
+Author-email: lignos@brandeis.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: mypy (==0.961) ; extra == 'dev'
+
+# QuickVec
+
+[![build](https://github.com/ConstantineLignos/quickvec/actions/workflows/main.yml/badge.svg)](https://github.com/ConstantineLignos/quickvec/actions/workflows/main.yml)
+
+QuickVec is a simple package to make it easy to work with word embeddings.
+QuickVec supports instantaneous loading of word embeddings after converting
+them to a native SQLite format. QuickVec is designed to do exactly one thing
+well: allow you to quickly load word embeddings and look up the vectors for
+words.
+
+# Installation
+
+`pip install quickvec` (requires Python 3.6+)
+
+# Design philosophy
+
+QuickVec was created to support [NERPy](https://github.com/ConstantineLignos/nerpy),
+a named entity recognition framework that uses word embeddings for feature
+generation. NERPy originally used gensim, but the time and memory required to
+load a word embedding completely into memory was a large performance
+bottleneck. NERPy then turned to Magnitude, but its conversion process is quite
+slow, and its installation process caused problems for NERPy users.
+The NERPy developers created QuickVec based on the design of Magnitude,
+but with the goal of creating a package with minimal features and dependencies.
+
+# FAQ
+
+* _How does QuickVec compare to [gensim](https://pypi.org/project/gensim/)'s
+  `KeyedVectors` for loading word embeddings?_
+  QuickVec can load word embeddings instantaneously after conversion to its
+  native SQLite-based format, and does not load the whole embedding into memory,
+  making it more memory efficient. However, QuickVec only supports text-format
+  word embeddings files, and in general has far less functionality.
+* _How does QuickVec compare to [Magnitude](https://pypi.org/project/pymagnitude/)
+  for loading word embeddings?_
+  Like Magnitude, QuickVec can instantly load word embeddings after conversion
+  to its native SQLite-based format. QuickVec's conversion process is faster
+  than Magnitude's. However, QuickVec does not support many of Magnitude's
+  features, such as word similarity or generating vectors for out-of-vocabulary
+  words, and QuickVec does not provide pre-converted word embeddings and only
+  supports loading from text-format embeddings.
+
+
