@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cccs
+Version: 0.0.1
+Summary: CCCS common python library
+Home-page: https://github.com/CybercentreCanada/ccccs_common_python
+Author: CCCS development team
+Author-email: dev@cyber.gc.ca
+License: MIT
+Keywords: gc canada cse-cst cse cst cyber cccs
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: passlib
+Requires-Dist: python-baseconv
+Requires-Dist: PyYAML
+Requires-Dist: elastic-apm[flask]
+Requires-Dist: netifaces
+Requires-Dist: pyroute2.core
+Requires-Dist: requests
+Requires-Dist: elasticsearch (<8.0.0,>=7.0.0)
+Requires-Dist: python-datemath
+Requires-Dist: redis
+Requires-Dist: packaging
+Requires-Dist: pysftp
+Requires-Dist: boto3
+Requires-Dist: azure-storage-blob
+Requires-Dist: azure-identity
+Requires-Dist: chardet
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: retrying ; extra == 'test'
+Requires-Dist: pyftpdlib ; extra == 'test'
+Requires-Dist: pyopenssl ; extra == 'test'
+
+# Common python library for CCCS
+
+This is a common library that will be use by our different project so we can re-use as much code as possible.
+
+Currently used by:
+
+- Assemblyline [https://github.com/CybercentreCanada/assemblyline]
+
+
