@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+exe=poetry_plugin_exe:PoetryPluginExe
+
