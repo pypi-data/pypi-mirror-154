@@ -1,0 +1,6 @@
+tox
+pluggy
+
+[testing]
+pytest
+pytest-mock
