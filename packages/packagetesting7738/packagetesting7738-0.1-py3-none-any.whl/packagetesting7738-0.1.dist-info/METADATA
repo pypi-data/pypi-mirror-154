@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: packagetesting7738
+Version: 0.1
+Summary: Proteus read_cheque File
+Home-page: UNKNOWN
+Author: Proteus Technology PVT. LTD.
+Author-email: <aniket.gadge@proteustech.in>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENCE.txt
+Requires-Dist: pytesseract
+Requires-Dist: opencv-python
+
+Proteus read_cheque File
+
