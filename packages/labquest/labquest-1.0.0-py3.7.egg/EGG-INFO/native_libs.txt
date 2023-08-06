@@ -1,0 +1,3 @@
+labquest/data/NGIO_lib_for_32bit_python.dll
+labquest/data/NGIO_lib_for_64bit_python.dll
+labquest/data/libNGIOUniversal.dylib
