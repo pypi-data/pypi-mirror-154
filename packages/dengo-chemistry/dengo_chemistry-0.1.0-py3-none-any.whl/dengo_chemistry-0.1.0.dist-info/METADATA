@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dengo-chemistry
+Version: 0.1.0
+Summary: A framework for creating chemical and radiative cooling reaction networks
+Home-page: https://github.com/hisunnytang/dengo-merge
+Author: Sunny Tang, Matthew J. Turk
+Author-email: hisunnytang@gmail.com, matthewturk@gmail.com
+Keywords: astronomy astrophysics chemistry
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: ChiantiPy (>=0.12.0)
+Requires-Dist: docutils (>=0.16)
+Requires-Dist: h5py (>=3.6.0)
+Requires-Dist: Jinja2 (>=3.0.3)
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: setuptools (>=62.3.2)
+Requires-Dist: sympy (>=1.10.1)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: pytest (>=7.1.2)
+Requires-Dist: yt (>=4.0.4)
+
+This is the Dengo package, designed to be a meta-solver for chemical reaction
+networks and cooling processes.  The purpose of this is to provide a simple and
+maintainable way of defining microphysical solvers for updating the chemical
+and thermodynamic state of fluids in astrophysical simulations.  It has been
+designed to output a C solver which can call external solver libraries, as well
+as affiliated reaction rate tables.
+
+A online version of the cookbook and documentation can be found here
+https://hisunnytang.github.io/dengo-cookbook/landing.html
+
+For more information, please contact the authors:
+    Sunny Tang   (hisunnytang@gmail.com)
+    Matthew Turk (matthew.turk@gmail.com)
+    Devin Silvia (devin.silvia@gmail.com)
+
