@@ -1,0 +1,12 @@
+animl/DetectMD.py,sha256=JTCd8TKQlbITR7GTi6JwQgXmq_SP3G0YySa2CNuWUN0,2271
+animl/FileManagement.py,sha256=si2zKpi9zhXEgrTJis062ZSObjzOycjyPdWQ0gTIZ0k,5694
+animl/ImageCropGenerator.py,sha256=tj566BlbnsnzbhBBngG18atBWNlgA4_QOz3MxWtZaUI,2496
+animl/TFDetector.py,sha256=9qfEGF_ct5umT2vy00gE9ZuDGv2CAlfNDLN4uERsf0A,9461
+animl/Workflow.py,sha256=7nkvWZlYKgsg2EYyNiUSEkeuDXLS4HPZzD6jeGqaLQI,5507
+animl/ZooniverseFunctions.py,sha256=cFrXTex-N6dkKZJ22-aH9jIuN9UNEIkoepkynzAttRc,6461
+animl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+animl-1.0.2.dist-info/LICENSE.md,sha256=Ng_8CNZI-cBoxEku0HtiLI9GWizNzDscKFiexGUUpsM,1072
+animl-1.0.2.dist-info/METADATA,sha256=L5LWLKrwszinc2TjqoXC5GIhgfswv1PZGEXzYgmfln0,814
+animl-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+animl-1.0.2.dist-info/top_level.txt,sha256=enKcf_A6El-P12-annv6AeXC_LGuxqXgHH5qRkFThIQ,6
+animl-1.0.2.dist-info/RECORD,,
