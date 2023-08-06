@@ -1,0 +1,9 @@
+click
+numpy
+pandas
+pandas-market-calendars
+python-dateutil
+requests
+ring
+tqdm
+twilio
