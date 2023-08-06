@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "build",
+	"wheel",
+    "sphinx",
+    ]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ellipse"
+version = "0.5.5"
+authors = [{name="Yinzhu Jin", email="yj3cz@virginia.edu"},{name="Geometric Data Analytics, Inc.", email="abraham.smith@geomdata.com"}]
+description = "A parametrized dataset of pictures of ellipses, for Neural Network experimentation"
+readme = "README.md"
+license = {text = "GNU AGPL"}
+#urls = {Documentation="https://geomdata.gitlab.io/ellipse/index.html", Source="https://gitlab.com/geomdata/ellipse" }
+
+dependencies = [
+    "scikit-image",
+    "numpy",
+]
+
+[project.optional-dependencies]
+extras = [
+    "matplotlib",
+    "jupyter"
+]
+
+testing = [
+    "pytest",
+    "pytest-cov",
+    "pytest-html",
+    "pytest-timeout",
+    "pytest-xdist"
+]
+

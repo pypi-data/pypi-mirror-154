@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+src/ellipse/__init__.py
+src/ellipse/datasets.py
+src/ellipse.egg-info/PKG-INFO
+src/ellipse.egg-info/SOURCES.txt
+src/ellipse.egg-info/dependency_links.txt
+src/ellipse.egg-info/requires.txt
+src/ellipse.egg-info/top_level.txt
