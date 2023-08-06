@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: NanuTestApp
+Version: 1.0.5
+Summary: nanupubapp2
+Home-page: https://github.com/pradeep9873/
+Author: rahim
+Author-email: zenith.rahim@gmail.com
+License: MIT
+Keywords: PubApp rest realtime pub/sub and rpc service
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+nanuaddnumb1
+========
+
+Node.js module that generates a nanu-addnumb1.
+
+Uses crypto.randomBytes when available, falls back to unsafe methods for node.js <= 0.4.
+
+To increase performance, random bytes are buffered to minimize the number of synchronous calls to crypto.randomBytes.
+
+## Installation
+
+   $ npm install nanu-addnumb1
+
+## Usage
+
+   var add = require('nanu-addnumb1');
+
+   console.log(add(1,3,343,4,34,345));
+
