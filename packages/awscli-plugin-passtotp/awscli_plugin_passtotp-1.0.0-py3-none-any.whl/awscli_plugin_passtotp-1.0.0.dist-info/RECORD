@@ -1,0 +1,7 @@
+awscli_plugin_passtotp/__init__.py,sha256=mwpvlnKfegEfylKjTiFW_Wiq7ADED_mU5JqkK0eqKH4,443
+awscli_plugin_passtotp/boto_plugin.py,sha256=p9xSDynwzk1DfydYmB-GY0h3-LKmv4DKjKxAyXNpRSk,292
+awscli_plugin_passtotp/commands.py,sha256=SBT5Mo4ZAm9gULWGpVD3JDsFuWyQ9NaKaEy_qDblBJg,2361
+awscli_plugin_passtotp/prompter.py,sha256=EyrJ_06ylXvc4Ak2pbNYCz8QS2VaXxIgMh_ty0V4MBI,1234
+awscli_plugin_passtotp-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+awscli_plugin_passtotp-1.0.0.dist-info/METADATA,sha256=xA22MVEM4gbdwrWDEr2ItGJyG4ImIp_7FXQu07DL4iw,2454
+awscli_plugin_passtotp-1.0.0.dist-info/RECORD,,
