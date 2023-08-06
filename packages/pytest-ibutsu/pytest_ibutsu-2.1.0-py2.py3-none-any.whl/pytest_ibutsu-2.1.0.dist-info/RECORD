@@ -1,0 +1,11 @@
+pytest_ibutsu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_ibutsu/archiver.py,sha256=JUWIMeE2FuRNIX54VJiwH4uLScbxADfHuKjMp_9SZm0,2277
+pytest_ibutsu/modeling.py,sha256=BpJLGNtmP5Si4VTeZchJ9WRh2-lpcbL8JMaxD2GJ8-0,13299
+pytest_ibutsu/newhooks.py,sha256=OiayrhpL8KLQswqHUacgCWjDHsAzqgsILSamPbLKtfI,155
+pytest_ibutsu/pytest_plugin.py,sha256=XwqyEeLL8kPqF2zOyy4mwJu7p8eKzoJteRQGAy1A3bo,10880
+pytest_ibutsu/sender.py,sha256=T7ZT0YkwwolHW1sEOSnBl6ce3yr6Jd_0V22a8gp1vis,5288
+pytest_ibutsu-2.1.0.dist-info/METADATA,sha256=T8QPzKxxk4ZqSSP0Y5PdxgmDCXUZsiikYrVdYo6EgSA,4650
+pytest_ibutsu-2.1.0.dist-info/WHEEL,sha256=TMscsPC54OnEix5Rm4A6FSuxr5ss2FVIpqWkAbqhtyw,104
+pytest_ibutsu-2.1.0.dist-info/entry_points.txt,sha256=aHaIQ1ie0x9OSEP6bY0ikYQ00SFdBjirO0-8Hxk8v_s,48
+pytest_ibutsu-2.1.0.dist-info/license_files/LICENSE,sha256=kecaJ8j-ZxjcqF-nCahu5sP98iIa9q7vBc3EcPPQKVY,1080
+pytest_ibutsu-2.1.0.dist-info/RECORD,,
