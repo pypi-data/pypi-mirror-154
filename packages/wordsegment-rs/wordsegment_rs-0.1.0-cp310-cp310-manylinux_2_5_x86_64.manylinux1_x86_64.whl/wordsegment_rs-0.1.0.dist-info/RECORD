@@ -1,0 +1,10 @@
+wordsegment_rs-0.1.0.dist-info/METADATA,sha256=UqJPHa6QLRTFfMZKhkFebBt49SZuxWXm6Y7LJEDO068,7093
+wordsegment_rs-0.1.0.dist-info/WHEEL,sha256=VcoSVxDNfRGa_oZz2wq_yfM-vCn0JyGccrZGhqWc0jY,133
+wordsegment_rs-0.1.0.dist-info/license_files/LICENSE,sha256=j-TTfFGGCKV8aw8k4mkVFE-Nr0YOtOFXIUZZbsNnMpQ,551
+wordsegment/__init__.py,sha256=m3Cuv_18khjMoazoFhIgli1ynKqyaWwxhwsr9PMf0HI,1460
+wordsegment/words.txt,sha256=DlB56adr8Z8wO4-gcKNzctjpv1r382Il2V2hyN81fgA,1763461
+wordsegment/__main__.py,sha256=W-3JLfM_hBdI83hlXlBNw2060647eUWMJ7sv0FZvjCY,69
+wordsegment/unigrams.txt,sha256=_SfhW4PuelXY4Xcxo5frTTicvir9HCavy6juJjTAptU,4952042
+wordsegment/bigrams.txt,sha256=O9FWupR3hCkwxWCfxxE4ZOPAk6l4gHNvulIsfttLp5k,5566017
+wordsegment/wordsegment.cpython-310-x86_64-linux-gnu.so,sha256=s_mxRcCz8HEdQTipam4HYoM-uP_p8rs2BLV8VdAZcM4,539032
+wordsegment_rs-0.1.0.dist-info/RECORD,,
