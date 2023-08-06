@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+ecldoc.egg-info/PKG-INFO
+ecldoc.egg-info/SOURCES.txt
+ecldoc.egg-info/dependency_links.txt
+ecldoc.egg-info/requires.txt
+ecldoc.egg-info/top_level.txt
+src/bin/ecldoc
