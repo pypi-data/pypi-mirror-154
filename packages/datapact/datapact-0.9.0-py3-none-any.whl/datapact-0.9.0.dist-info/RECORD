@@ -1,0 +1,12 @@
+datapact/__init__.py,sha256=ewFgGk6hD2aoFne9ms6IZrWEdnPPr4SfWAQfkgJe6As,24
+datapact/datapact.py,sha256=tixXhk_0JTWL1Pa25pbUhCCYsE1t1OANoWwql6oQC3k,26670
+datapact/javascript/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datapact/javascript/entrypoint.js,sha256=bQd7Id8UjSrtx4hfudhZ7YJAzNheuFQKUPFIJYnhTVA,636751
+datapact/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datapact/util/github.py,sha256=fFZ-dJTxM9GIOTQVQEH8gWWUKzx0ErCqm8jsqIjbsw8,1180
+datapact/util/session_fingerprint.py,sha256=Ue8lu_O9IxXCpKJ9wM2WClsCif9sUhlpVMsYzeGNBwU,216
+datapact-0.9.0.dist-info/LICENSE,sha256=PJWyrHRfdBtYkg1ZaqjosPeOtYW_QKxPzrq4-pbMatU,1061
+datapact-0.9.0.dist-info/METADATA,sha256=cVDLHj0TTiWoFbCb24ZyZU4EpTT4kDIL2mlQULc5lfM,5744
+datapact-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datapact-0.9.0.dist-info/top_level.txt,sha256=W_T_oM-K1uFY8paetXmSxc5P_XtfJnX5D-19FOfCSBw,9
+datapact-0.9.0.dist-info/RECORD,,
