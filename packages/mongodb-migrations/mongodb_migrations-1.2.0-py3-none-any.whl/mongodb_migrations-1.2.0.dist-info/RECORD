@@ -1,0 +1,10 @@
+mongodb_migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongodb_migrations/base.py,sha256=X04lx4geT9V6qMVLhAYQq66wAk98MbmTq83emPHy9aU,967
+mongodb_migrations/cli.py,sha256=AR3iblHB6Od29cAUhmKNQ66p1_Co2SbVNJTZ3N7ZKmQ,7254
+mongodb_migrations/config.py,sha256=NejJKwWv43wFMax7MtuwYERQF7wEiscVpZtqrnDq21w,6125
+mongodb_migrations-1.2.0.dist-info/LICENSE,sha256=km2MBZ3SkfPCZkww8BRlMG8KA0__K-rU0rnv3miN1A8,35134
+mongodb_migrations-1.2.0.dist-info/METADATA,sha256=zP4TM46phGuyGkRgDa7Z8gU2RjH6fbsgn3dpoAIFuec,1115
+mongodb_migrations-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mongodb_migrations-1.2.0.dist-info/entry_points.txt,sha256=vQUct4CnrY3WDrz_2LESF2KQ_KMWz8sCEraIAQGIxXA,130
+mongodb_migrations-1.2.0.dist-info/top_level.txt,sha256=Fhw44PTkEUz3AmfT3RBzFIJJXjGNu5cTqQEJpBkq5Pc,19
+mongodb_migrations-1.2.0.dist-info/RECORD,,
