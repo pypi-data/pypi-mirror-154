@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: obj2mjcf
+Version: 0.0.1
+Summary: A tool for converting Wavefront OBJ files into MuJoCo sub-meshes grouped by material.
+Home-page: https://github.com/kevinzakka/obj2mjcf
+Author: Kevin Zakka
+Author-email: kevinarmandzakka@gmail.com
+Maintainer: Kevin Zakka
+Maintainer-email: kevinarmandzakka@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: trimesh (==3.12.5)
+Requires-Dist: Pillow (>=9.1.1)
+Requires-Dist: dm-control (>=1.0.3.post1)
+Requires-Dist: mujoco (>=2.2.0)
+Requires-Dist: numpy
+
+# obj2mjcf
+
+A tool for converting Wavefront OBJ files into MuJoCo sub-meshes grouped by material.
+
+## Usage
+
+```bash
+usage: obj2mjcf [-h] --obj_dir OBJ_DIR [--save_mtl] [--save_mjcf] [--verbose]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --obj_dir OBJ_DIR  Path to a directory containing obj files.
+  --save_mtl         Whether to save the mtl files.
+  --save_mjcf        Whether to save an example MJCF file.
+  --verbose          Whether to print verbose output.
+```
