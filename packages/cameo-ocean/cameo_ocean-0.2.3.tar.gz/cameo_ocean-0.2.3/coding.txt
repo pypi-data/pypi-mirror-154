@@ -1,0 +1,170 @@
+
+3* todo
+    微調名字，總結rust直接生成這樣的格式：
+    table_daily-mean_month_2022-01_sensor_pm25.csv.gz
+    table_hourly-mean_month_2022-02_sensor_voc.csv.gz
+    table_daily-count_month_2022-03_sensor_voc.csv.gz
+
+1* todo 要能處理另外一種 no all 格式，生成每月的資料
+
+todo ws分散設計
+    == 完整遠端多核
+    fname="hourly_mean"
+    package="cameo_ocean"
+    package_version="^1.0.1"
+    lst_params=
+    [{"from_url":"https://source.com/data1.csv.gz",
+       "to_url":"https://target.com/data1.parquet"},
+      {"from_url":"https://source.com/data2.csv.gz",
+        "to_url":"https://target.com/data2.parquet"}]
+    secret_key="12e076d0-bc9d-4515-8761-978ec50d20e6"
+    lst_workers=workers(secret_key,
+    [ {"runtime":"python", "version":"^3.9.0"},
+      {"runtime":"rust", "version":"^1.5.0"},
+      {"runtime":"browser_wasm", "version":"^1.1.0"},])
+    lst_result=dist(fname, package, lst_params, package_version, lst_workers, secret_key)
+    == 簡單遠端多核
+    lst_result=dist(
+    "hourly_mean","cameo_ocean",
+    ["https://source.com/data1.csv.gz","https://source.com/data2.csv.gz"],
+    "^1.0.1",
+    ["ws://1.worker.co/dist/rust/1.61.0/","ws://2.worker.co/dist/rust/1.61.0/"],
+    "12e076d0-bc9d-4515-8761-978ec50d20e6",
+    )
+    == 簡單本機多核
+    lst_result=dist(
+    "hourly_mean","cameo_ocean",
+    ["https://source.com/data1.csv.gz","https://source.com/data2.csv.gz"]
+    )
+
+done 2022-06-03 22:14 bowen
+    todo 還要向外再抽兩層出去，抽出 filter_col, eq, postfix 要消滅(轉小寫即可組合出來)
+
+done 2022-05-29 23:08, bowen, 重構 padding zero hourly
+2* done 2022-05-29 22:49, bowen, .csv hourly 時間看要不要加入 :分鐘:秒數 現在是只有小時而已
+
+done 2022-05-29 20:28 bowen, 已經可以生成 .csv
+
+3* done 重構可重用
+    2022-17:38 done
+    done 增添 macro ok_http 而且還可以有參數
+    done actix 再度整合到專案中
+
+3* done .zip 串流記憶體解壓縮，不需 to .csv.gz 耗費硬碟
+    已經有原始檔案在這邊可以參考，一次解壓 1 file from .zip
+    https://github.com/zip-rs/zip/tree/master/examples
+    解.zip => 解.csv.gz => .csv to vu8 => df => distinct => hourly => sort => .parquet
+
+3* done .csv.gz 串流記憶體解壓縮,另存.parquet,不需 to .csv 耗費硬碟
+
+2* pending .msgpack 若非現在這一分鐘，之前的全壓縮為 .zst 縮小流量
+    .zst 壓縮記得改用 python 寫，可多線超快，因為rust的版本目前只有實驗到單線，比較慢
+
+3* pending 應該是要儲存為 hourly daily count 的 .csv 每個月一包給使用者抓取 from google drive .zip 就好，方便用
+
+done 2022 05-26 23:02 bowen 已經成功加速六倍時間取前面 13 字元
+        let _ = df.try_apply("TIME", |s: &Series| {
+            Ok(s.utf8()?.str_slice(0, Some(str_slice_n)).unwrap())
+        });
+
+done 2022-05-26 11:39 bowen caro rust polars 成功 hourly mean
+done 2022-05-24 23:26 bowen 已經刪除所有 u n w r a p 真是太讚了～
+done 2022-05-24 09:52 rust iterator 成功
+done 2022-05-22 23:54 已經可以 zip .csv.gz .csv df .parquet 但是尚未
+    distinct hourly sort
+done 用 cli 就可以直接操作 hi, no need python
+    ./cameo_ocean
+2022-05-21 17:13 done unit test 也可以 --release 測試速度解壓縮只要 4s 快十倍
+2022-05-21 16:11 done 已經可以 rayon 解壓縮 .zip 快 2.4x 相較於無 rayon par_iter
+2022-05-21 14:27 done gitignore for data
+
+== 2022-05-19 21:31 bowen ==
+有價值差距的東西是什麼？
+. actix 速度比起 fastapi 2.7GB/s v.s. 140MB/s 差異太大
+
+done 已經新增 unit test for py_multiply 並且 rust 可用之外 py 也可以呼叫了
+
+== 2022-05-08 19:15 bowen remove ssl
+. done: remove ssl to support replit installation
+2* pending 若偵測到有非此分鐘的 .msgpack, 全部快速壓縮為 .lz4
+    https://github.com/bozaro/lz4-rs
+    這個 lz4 東西支援 threads 速度應該非常驚人
+
+== 2022-05-03 10:26 bowen 設法改用 ? 取代 unwrap
+== 2022-05-02 17:28 caro bowen
+. 已經可以把 path to string 包裝起來很好看
+
+== 2022-05-02 coding
+為了讓 clion 也可以直接編譯與 unittest, 增添以下東西
+[target.x86_64-apple-darwin]
+rustflags = [
+    "-C", "link-arg=-undefined",
+    "-C", "link-arg=dynamic_lookup",
+]
+
+[target.aarch64-apple-darwin]
+rustflags = [
+    "-C", "link-arg=-undefined",
+    "-C", "link-arg=dynamic_lookup",
+]
+
+單元測試要加入在 Edit Configurations
+test --package cameo_ocean --lib tests
+
+== 2022-05-02 00:02 bowen
+done 00:02 檔案名字必須輸出到這邊 data/日期/日期_時_分.msgpack
+
+== 2022-05-01 15:43 bowen
+== 2022-05-01 06:24 bowen
+. done 07:34 刪除 int_workers 改用內建 cpu 預設數量
+1* . pending 可以加入 timestamp 這樣的好處是，滾動資料，掃描資料的時候可以讓 client 有所依循
+3* . done 07:12, 要測試 python 讀取是否可以順暢讀出, 格式要確定未來有通用性
+3* . pending 最好 headers 只寫 PK 就好了，因為其他的很佔用空間
+3* . done 06:45 ip port workers 要可以從 python 指定
+. 22MB/s benchmark actix cameo_ocean 速度真的就是七倍快於 fastapi
+3* done 10:47 清理檔案
+done 11:27 引入 rust duplicated code 追蹤: sh/du.sh
+  brew install pmd
+  pmd cpd --files src/*.rs --language rust --minimum-tokens 13
+done 13:33 refactoring 易讀性，現在很好懂了
+
+
+== 2022-04-30 23:41 bowen
+. rust actix 已經可以正確寫入 headers and body
++ 竟然真的用 actix pyo3 寫出 msgpack log, 真的是不可思議，而且一天就寫完了，感覺沒有那麼困難
++ 往後就真的可以用 pyo3 建構給 python 使用的套件，無論是 http or function 呼叫都可以了
+i rust 真的很難搞，尤其是字串與其他型別的轉換，很容易踩到地雷區域
+
+== rust python init pyo3
+希望可以製作一個 rust_python 套件, 示範作用
+
+mkdir string_sum_bowen
+python3 -m venv .env
+source .env/bin/activate
+
+python3 -m pip install maturin
+maturin init --bindings pyo3
+
+unset CONDA_PREFIX
+maturin develop
+
+maturin publish
+
+== 上傳到pypi
+pypi密碼
+bohachu
+fu. 1i6cj06
+
+== 為了要編譯 rust 套件，install rust into replit: 001 cargo 002 rustc
+{ pkgs }: {
+  deps = [
+    pkgs.python38Full
+    pkgs.cargo
+    pkgs.rustc
+  ];
+
+== replit測試，會自動編譯 rust 套件
+python3 -m pip install string_sum_bowen
+
+== 成功 replit 編譯以及執行沒問題，超強
+

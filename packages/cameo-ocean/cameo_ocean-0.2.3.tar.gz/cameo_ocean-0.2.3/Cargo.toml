@@ -1,0 +1,54 @@
+[package]
+name = "cameo_ocean"
+version = "0.2.3"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "cameo_ocean"
+crate-type = ["cdylib"]
+
+[dependencies]
+#actix-web = { version = "4.0.1", features = ["openssl"] }
+#openssl = { version = "0.10.38", features = ["v110"] }
+
+pyo3 = { version = "^0.16.4", features = ["extension-module"] }
+serde = { version = "^1.0.136", features = ["derive"] }
+simple_logger = "^2.1.0"
+log = "^0.4.8"
+pam = "^0.7.0"
+futures = "^0.3.1"
+sanitize-filename = "^0.4.0"
+chrono = "^0.4.19"
+
+actix-rt = "^2.7.0"
+rmp-serde = "^1.1.0"
+serde_json = "^1.0.79"
+substring = "^1.4.5"
+glob = "^0.3.0"
+rayon = "^1.5.3"
+flate2 = "^1.0.23"
+actix-multipart = { version = "^0.4.0" }
+actix-files = { version = "^0.6.0" }
+actix-cors = { version = "^0.6.1" }
+
+## 可能與 polars 衝突, 因此設定 default-features = false
+#cookies - cookies support (enabled by default)
+#macros - routing and runtime macros (enabled by default)
+#compress-brotli - brotli content encoding compression support (enabled by default)
+#compress-gzip - gzip and deflate content encoding compression support (enabled by default)
+#compress-zstd - zstd content encoding compression support (enabled by default)
+#openssl - HTTPS support via openssl crate, supports HTTP/2
+#rustls - HTTPS support via rustls crate, supports HTTP/2
+#secure-cookies - secure cookies support
+
+actix-web = { version = "^4.0.1", default-features = false, features = ["cookies", "macros"] }
+zip = { version = "^0.6.2", default-features = false }
+
+polars = { version = "^0.21.1" }
+polars-lazy = { version = "^0.21.1", features = ["strings", "concat_str"] }
+polars-core = { version = "^0.21.1" }
+polars-io = { version = "^0.21.1", features = ["parquet"] }
+
+# clear cache:
+# rm -fr ~/.cargo/registry
