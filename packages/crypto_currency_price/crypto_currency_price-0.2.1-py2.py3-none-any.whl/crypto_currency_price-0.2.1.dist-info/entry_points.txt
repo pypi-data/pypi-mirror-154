@@ -1,0 +1,3 @@
+[console_scripts]
+ccp=crypto_currency_price:cli
+
