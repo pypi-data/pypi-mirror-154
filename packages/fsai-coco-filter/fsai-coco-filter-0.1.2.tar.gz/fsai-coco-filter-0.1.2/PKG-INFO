@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fsai-coco-filter
+Version: 0.1.2
+Summary: Apply filters to a coco annotation file from a project configuration file.
+Home-page: https://github.com/fsai-dev/fsai-coco-filter
+License: MIT
+Author: Michael Mohamed
+Author-email: michael@foundationstack.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: echo1-coco-builder (>=0.1.8,<0.2.0)
+Requires-Dist: loguru
+Requires-Dist: pydash (>=5.1.0,<6.0.0)
+Project-URL: Repository, https://github.com/fsai-dev/fsai-coco-filter
+Description-Content-Type: text/markdown
+
+# fsai-coco-filter
