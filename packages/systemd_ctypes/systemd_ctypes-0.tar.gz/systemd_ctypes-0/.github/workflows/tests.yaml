@@ -1,0 +1,61 @@
+name: tests
+on:
+  push:
+  pull_request:
+jobs:
+  OS:
+    runs-on: ubuntu-latest
+    permissions: {}
+    strategy:
+      fail-fast: false
+      matrix:
+        container:
+          - docker.io/debian:unstable
+          - registry.fedoraproject.org/fedora:rawhide
+
+    container:
+      image: ${{ matrix.container }}
+
+    timeout-minutes: 10
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Install build and test dependencies
+        run: |
+          if type apt >/dev/null 2>&1; then
+              apt-get update
+              DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends python3-dbusmock libsystemd0
+          else
+              dnf install -y python3-dbusmock systemd-libs
+          fi
+
+      - name: Run tests
+        run: test/run
+
+  arch:
+    runs-on: ubuntu-latest
+    permissions: {}
+    strategy:
+      fail-fast: false
+      matrix:
+        arch:
+          # 32 bit
+          - armv7
+          # big-endian
+          - s390x
+
+    timeout-minutes: 10
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Run test
+        uses: uraimo/run-on-arch-action@v2
+        with:
+          distro: ubuntu_latest
+          arch: ${{ matrix.arch }}
+          install: |
+            apt-get update
+            DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends python3-dbusmock libsystemd0
+          run: test/run
