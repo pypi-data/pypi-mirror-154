@@ -1,0 +1,7 @@
+m-singleton
+pymongo
+Flask
+flask_cors
+requests
+unidecode
+elasticsearch==7.17.4
