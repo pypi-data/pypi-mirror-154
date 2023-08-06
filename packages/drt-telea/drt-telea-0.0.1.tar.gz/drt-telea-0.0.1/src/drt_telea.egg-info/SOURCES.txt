@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/drt_telea.egg-info/PKG-INFO
+src/drt_telea.egg-info/SOURCES.txt
+src/drt_telea.egg-info/dependency_links.txt
+src/drt_telea.egg-info/top_level.txt
