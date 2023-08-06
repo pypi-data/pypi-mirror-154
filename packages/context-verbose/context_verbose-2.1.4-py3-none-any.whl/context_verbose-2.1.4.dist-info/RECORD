@@ -1,0 +1,12 @@
+context_verbose/__init__.py,sha256=AgjyfAeISGZ-Sbyi5ME0BrkFPGI0cOfmF6fShApXGXg,1107
+context_verbose/color.py,sha256=CizXS7eNtOPbiNW-WXiDtIRQEWMeONTMM5H7whUGSkE,5850
+context_verbose/decorator.py,sha256=QAyDjRFmUUh33HUoYqQoU0nKtreVHJe7bHs1aj02jJ0,2127
+context_verbose/memory.py,sha256=1fjOXwLesFJgQeKUHCGVe21BF580scDNOxY-lkXnreQ,11101
+context_verbose/printer.py,sha256=ngeLUqj9yxFux6-mCdAOx0gJjhM1LPHWIilM4ZUWrcE,11002
+context_verbose/thread_safe.py,sha256=hJGVEHFRBdROR8-RTyhYn6-r_cbI6zbWCx8L2N57r70,10309
+context_verbose/tree.py,sha256=eumH7bpipolCLr8S5xv7iIknc3R5Il-nMVYSYu3CqDc,12263
+context_verbose-2.1.4.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+context_verbose-2.1.4.dist-info/METADATA,sha256=6FB30SsM1YnGOVwVmuQYqoiy9QGgOyTTpnpnteHXbfU,4388
+context_verbose-2.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+context_verbose-2.1.4.dist-info/top_level.txt,sha256=LBgA_d9YeEqmTlLKfUUBqf3HExjpy93A4nevjqmE7rw,16
+context_verbose-2.1.4.dist-info/RECORD,,
