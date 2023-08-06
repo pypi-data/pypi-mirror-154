@@ -1,0 +1,9 @@
+pyarc2-0.1.1.dist-info/WHEEL,sha256=itOjdor1dQPkbhX0Zo70uVdGAFvOyydKeBm1zABdHDI,109
+pyarc2-0.1.1.dist-info/METADATA,sha256=Za1rj4wd1eO-b70ch-Zp-GHkqTK9Go1ajpx71LFW5lg,2665
+pyarc2-0.1.1.dist-info/RECORD,,
+pyarc2-0.1.1.dist-info/license_files/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+pyarc2.libs/libbeastlink-1-a3798c9b.0.so,sha256=iuZ4KsEDePmkrxwTsTl9e1FpPmsLnygrFbee1h1nO8w,639016
+pyarc2.libs/libusb-1-be4d66e8.0.so.0.1.0,sha256=_bl7BdtK1Cjt8CpphSXtdFFlTxLJb9lULIyC6cn1Yuc,114440
+pyarc2.libs/libudev-3957449c.so.1.6.5,sha256=Sx2VPZvzIuC0AYGbkPPIZMPacpsrivintxkAhzf2w0Y,144952
+pyarc2/pyarc2.cpython-38-x86_64-linux-gnu.so,sha256=IwLJxDPmaEMRcbpElchawYXDBib7KX4Ck0sddOXFoGw,4533584
+pyarc2/__init__.py,sha256=ydL1OpUNuoN1YelhoOf8xl59iOijC2JMkH7e-xfT9ac,5018
