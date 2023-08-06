@@ -1,0 +1,3 @@
+[console_scripts]
+gkfutils = gkfutils.__main__:main
+

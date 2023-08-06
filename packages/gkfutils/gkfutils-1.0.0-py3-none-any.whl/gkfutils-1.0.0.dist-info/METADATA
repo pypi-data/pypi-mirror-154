@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gkfutils
+Version: 1.0.0
+Summary: GraceKafuu useful utils
+Home-page: UNKNOWN
+Author: GraceKafuu
+Author-email: gracekafuu@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: pypyodbc
+Requires-Dist: imgaug
+Requires-Dist: argparse
+Requires-Dist: open3d
+Requires-Dist: lxml
+
+"""
+Grace Kafuu utils
+"""
+
