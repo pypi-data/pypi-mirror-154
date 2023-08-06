@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tar-dir-indexer
+Version: 0.0.1
+Summary: Indexes directories unraveling tar files within. Also indexes nested tar files.
+Home-page: https://github.com/CeadeS/tar_dir_indexer
+Author: Martin Hofmann
+Author-email: Martin.Hofmann@tu-ilmenau.de
+License: BSD-3-Clause License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17.4)
+Requires-Dist: Pillow-SIMD
+Requires-Dist: scikit-image
+Requires-Dist: tqdm
+Requires-Dist: simplejpeg
+
+# tar_dir_indexer
+Indexes directories unraveling tar files within. Also indexes nested tar files.
