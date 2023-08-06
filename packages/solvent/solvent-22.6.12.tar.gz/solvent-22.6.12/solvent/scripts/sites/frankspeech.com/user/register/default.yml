@@ -1,0 +1,216 @@
+locators:
+  inclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+  exclusions:
+    - mode: ''
+      value: ''
+      index: 0
+      uses: 0
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: fill
+    name: phone_number
+    locators:
+      - mode: id
+        value: edit-field-phone-number-0-value
+        index: 0
+        uses: 1
+  - verb: fill
+    name: email_address
+    locators:
+      - mode: id
+        value: edit-mail
+        index: 0
+        uses: 1
+  - verb: fill
+    name: password
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: password
+        index: 0
+        uses: -3
+      - mode: name
+        value: password
+        index: 0
+        uses: -3
+      - mode: id
+        value: password
+        index: 0
+        uses: -3
+      - mode: id
+        value: password
+        index: 0
+        uses: -3
+      - mode: aria-label
+        value: Password
+        index: 0
+        uses: -3
+      - mode: css
+        value: '[placeholder="Password"]'
+        index: 0
+        uses: -3
+      - mode: id
+        value: Password
+        index: 0
+        uses: -3
+      - mode: id
+        value: edit-pass-pass1
+        index: 0
+        uses: -3
+      - mode: id
+        value: edit-pass-pass1
+        index: 0
+        uses: -2
+      - mode: id
+        value: edit-pass-pass1
+        index: 0
+        uses: -2
+  - verb: fill
+    name: confirm_password
+    locators:
+      - mode: id
+        value: edit-pass-pass2
+        index: 0
+        uses: 1
+  - verb: click
+    name: create_new_account
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Create New Account
+        index: 0
+        uses: -1
+      - mode: text
+        value: Create new account
+        index: 0
+        uses: 1
+      - mode: text
+        value: create new account
+        index: 0
+        uses: 0
+      - mode: value
+        value: Create New Account
+        index: 0
+        uses: 0
+      - mode: value
+        value: Create new account
+        index: 0
+        uses: 0
+      - mode: value
+        value: create new account
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: Create New Account
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: Create new account
+        index: 0
+        uses: 0
+      - mode: text (partial)
+        value: create new account
+        index: 0
+        uses: 0
+  - verb: click
+    name: accept
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: text
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: text
+        value: accept
+        index: 0
+        uses: -1
+      - mode: value
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: value
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: value
+        value: accept
+        index: 0
+        uses: -1
+      - mode: text (partial)
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: text (partial)
+        value: Accept
+        index: 0
+        uses: -1
+      - mode: text (partial)
+        value: accept
+        index: 0
+        uses: -1
+      - mode: id
+        value: edit-field-phone-confirm-value
+        index: 0
+        uses: 0
+  - verb: fill
+    name: username
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: name
+        value: username
+        index: 0
+        uses: -1
+      - mode: name
+        value: username
+        index: 0
+        uses: -1
+      - mode: id
+        value: username
+        index: 0
+        uses: -1
+      - mode: id
+        value: username
+        index: 0
+        uses: -1
+      - mode: aria-label
+        value: Username
+        index: 0
+        uses: -1
+      - mode: css
+        value: '[placeholder="Username"]'
+        index: 0
+        uses: -1
+      - mode: id
+        value: Username
+        index: 0
+        uses: -1
+      - mode: id
+        value: edit-name
+        index: 0
+        uses: 0
