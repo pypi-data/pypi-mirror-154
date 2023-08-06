@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: locust-influxdb-integration
+Version: 0.0.1
+Summary: Locust.io 1.X influxdb listener
+Home-page: https://github.com/hoodoo-digital/locust_influxdb_listener
+Author: ShivaDG
+Author-email: dgshivaji@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: locust (>=1.1.1)
+Requires-Dist: influxdb (>=5.2.2)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
