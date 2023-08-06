@@ -1,0 +1,16 @@
+pybettor/__init__.py,sha256=d-65cTduDfs2q7RtC1qpVWUOo7UsSCoLaN0VyIrxjME,384
+pybettor/bet_calc.py,sha256=213kjaCE3OFrT4OtkKoE4wIjlC_Rj49AfDdz2u0D4Ao,1286
+pybettor/convert_odds.py,sha256=zco2lXu8wi0PEOHmjRFS17bG9ne7rh8TZVyPm_CbXaM,5878
+pybettor/implied_odds.py,sha256=CfD7FGW3JMysPExry7ZLL7DmAsMRvgUxKDWkM0y4ovM,2018
+pybettor/implied_prob.py,sha256=okzMohgEkMkDgMI9OyetvcHoTsD-oJuKJrAmHhp1lxA,1413
+pybettor/kelly.py,sha256=_k2BNwYicoKlt2Dftr0Ha1aMZRsxdNe0xXqaAfBlD8k,1972
+pybettor/kelly_bet.py,sha256=rMSD_fM8oWSA93aHH5-nal48NyzOEm8G6lRZi8O8_LI,2211
+pybettor/over_round.py,sha256=j-0-qfoNd09EhGawhXRrsehTPMmkCGNMCPFmETxTgVU,1013
+pybettor/parlay_calc.py,sha256=DCU1dR1-gfFmPTJ-WnhhUFTYRqbZ-bPEA2_ta_KZ_Oo,997
+pybettor/true_implied_prob.py,sha256=e1kPwHefDEBLy7Oxxr0yOn3F74z-SFYSadU3FG8oukA,1005
+pybettor/true_probability.py,sha256=Pyn4WAQAvsWp0fG475GvdHC5u862-uItf2MR2uZxsR0,798
+pybettor-1.0.0.dist-info/LICENSE.txt,sha256=BckNzQS5Dxb-KQ1nsALWwAfYzlZ2l1X_x-tnMGci76k,1061
+pybettor-1.0.0.dist-info/METADATA,sha256=S32zGOKrlfx84OJ9F63f8iE1Fh474_T8vuHY7dW_aww,2526
+pybettor-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pybettor-1.0.0.dist-info/top_level.txt,sha256=xh1vmZkR4ALJAfHsd2Uh7Z5XSOF_6Q3fWlfzlbrXKcY,9
+pybettor-1.0.0.dist-info/RECORD,,
