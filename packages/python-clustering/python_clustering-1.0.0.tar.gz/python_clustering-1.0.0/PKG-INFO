@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: python_clustering
+Version: 1.0.0
+Summary: Intuitive access to clustering datasets
+Home-page: UNKNOWN
+Author: ce1ebi
+Author-email: ivanreznikov@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: clustering
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
