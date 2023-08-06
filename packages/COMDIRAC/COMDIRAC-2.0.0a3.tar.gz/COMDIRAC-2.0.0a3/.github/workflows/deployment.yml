@@ -1,0 +1,42 @@
+name: Deployment
+
+on:
+  push:
+    tags:
+      - 2.0.0a[0-9]+
+  pull_request:
+
+jobs:
+  deploy-pypi:
+    name: PyPI deployment
+    runs-on: "ubuntu-latest"
+    if: github.event_name != 'push' || github.repository == 'DIRACGrid/COMDIRAC'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Install dependencies
+        run: pip install build readme_renderer diraccfg
+      - name: Validate README for PyPI
+        run: python -m readme_renderer README.rst -o /tmp/README.html
+      - name: Publish ${GITHUB_REF##*/} release to GitHub
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          target_commitish: $(git rev-parse HEAD)
+          body_path: release.notes
+          tag_name: ${GITHUB_REF##*/}
+      - name: Get ${GITHUB_REF##*/} tag
+        if: github.event_name == 'push'
+        uses: actions/checkout@v2
+        with:
+          ref: ${GITHUB_REF##*/}
+      - name: Build distributions
+        run: python -m build
+      - name: Publish package on PyPI
+        if: github.event_name == 'push'
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}
