@@ -1,0 +1,10 @@
+la_stopwatch/__init__.py,sha256=khE9xGErt2qAjFz1zacqRWQ2XcN-SXuJ2lBYe8bTLj0,95
+la_stopwatch/abstraction.py,sha256=lqGkdAEnXRoA070sTFAGxdqqZSK39Pk5aBjuuQGqSfI,3017
+la_stopwatch/stopwatch.py,sha256=Wg3R0PZHEfZ4yJxLTH-S7R32bMJbZ6tf3WdiqOrfzic,248
+la_stopwatch/stopwatch_ns.py,sha256=z33Er1AC7NS6ozLkqbduqgUAmc5aNGZTSryVwzKVvtw,2729
+la_stopwatch/utility.py,sha256=hwQ33W4RrJZOtqi3tZnM6jyTlJ6v59_A1KY6CmL-Fwk,654
+la_stopwatch-0.0.8.dist-info/LICENSE,sha256=CcPm_0vvyUcGI3tN4W0uXRVEy7befWcbSTPI5qr2vF0,1080
+la_stopwatch-0.0.8.dist-info/METADATA,sha256=EVaa5HHCuln41X-mbY6yKkzaJ3bD6d6Y4DijhzlaZao,6667
+la_stopwatch-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+la_stopwatch-0.0.8.dist-info/top_level.txt,sha256=nAAYu60cya5y1JOqveNIwjAGepLTkgwlNcevxQTYcIE,13
+la_stopwatch-0.0.8.dist-info/RECORD,,
