@@ -1,0 +1,9 @@
+jupyter_codeserver_proxy/__init__.py,sha256=rFMlXzjlKQvXbXAhtxdls38jO1jWcozmdX4DVoPJqGI,3307
+jupyter_codeserver_proxy/bin/code-server.in,sha256=cX0z9Bpygd-cjtWP53Xi6tN4Shpchy13JjaPbgvxf5o,204
+jupyter_codeserver_proxy/icons/code-server-logo.svg,sha256=BF2Tc9zMqNGyfT-1W0P0vl86e1Ws7Aytxj-4HLmcKe0,2458
+jupyter_codeserver_proxy-0.1.0.dist-info/LICENSE,sha256=-WLzShlOvTu7kM_ugtlagPRf16AcdPLjko-MvStW60Y,1528
+jupyter_codeserver_proxy-0.1.0.dist-info/METADATA,sha256=zdMW6rwaKK4VNvZ8kzi-zO0bcDyhqcdURYhP7VzzWX8,3292
+jupyter_codeserver_proxy-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jupyter_codeserver_proxy-0.1.0.dist-info/entry_points.txt,sha256=uIlU0r6KaNt5iBhs0Xn0fu8u5FLflenfWfS1NzfzWB0,85
+jupyter_codeserver_proxy-0.1.0.dist-info/top_level.txt,sha256=FV8GNb0wTLtydNXsDTjXrrpysCzleDLmoltgcJMEMKg,25
+jupyter_codeserver_proxy-0.1.0.dist-info/RECORD,,
