@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: mygui
+Version: 0.0.5
+Summary: A command that allows you to place a label in any grid location.
+Home-page: https://github.com/Caveman-Software/mygui/
+Author: Michael E Mulvey
+Author-email: michael.e.mulvey@gmail.com
+Project-URL: Bug Tracker, https://github.com/Caveman-Software/mygui/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.md
+
+# mygui 0.0.5
+## lgrid
++ A new Command that allows you to place a label in a grid. 
++ Simple and elegant implimentation as follows:
+#
+- lgrid({window_or_frame},{Text for label}, {Column Number},{Row Number})
+- lgrid(root,"hello",1,5) Places a word 'hello' in row 1 column 5
+#
+Example script:
+
+#
+
+    import os
+    from mygui import lgrid
+    from tkinter import Tk
+    root=Tk()
+    root.minsize(300,100)
+    lgrid(root,'Label placed in grid 5,5', 5,5)
+    lgrid(root,'Label placed in grid 6,6', 6,6)
+
+    root.mainloop()
+
+#
+
+
+# MIT License
+
+    Copyright (c) 2022 Michael Mulvey
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
