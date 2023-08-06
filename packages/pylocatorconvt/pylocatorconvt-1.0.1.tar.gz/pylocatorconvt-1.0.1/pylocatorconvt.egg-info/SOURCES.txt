@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pylocatorconvt/__init__.py
+pylocatorconvt/locatorconvt.py
+pylocatorconvt.egg-info/PKG-INFO
+pylocatorconvt.egg-info/SOURCES.txt
+pylocatorconvt.egg-info/dependency_links.txt
+pylocatorconvt.egg-info/not-zip-safe
+pylocatorconvt.egg-info/top_level.txt
