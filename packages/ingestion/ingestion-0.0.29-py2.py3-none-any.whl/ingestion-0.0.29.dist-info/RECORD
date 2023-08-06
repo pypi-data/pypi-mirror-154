@@ -1,0 +1,11 @@
+ingestion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingestion/parametros.py,sha256=xsvRxGBqu4Kk8duQ_-oMmkvojLh2Kd_U-jpIzqyafso,1498
+ingestion/start.py,sha256=ryBtnDYpy6dgqO8YPJ5kcFsZ9ZZ0HU90Ui7Cmm1Q6BM,18146
+ingestion/banco_dados/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingestion/banco_dados/conexao_banco.py,sha256=r0CjDljyrn3RzWSRr27akdLvxc0WrIubqxlWfGsfE3A,3694
+ingestion/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ingestion/utils/io_container_data.py,sha256=GxVlEmjlplKmVqnRxJkMZCURS6lWXWpk8xjq9OSEAng,8461
+ingestion-0.0.29.dist-info/METADATA,sha256=WjcjMFPVav9exhHtKMh0vKbJDBDzYnMssT7_V3_9VPI,2994
+ingestion-0.0.29.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ingestion-0.0.29.dist-info/top_level.txt,sha256=wyZccObk8rJzjH34biEeSgXIi1FIlXN7b4czTOjZt3A,10
+ingestion-0.0.29.dist-info/RECORD,,
