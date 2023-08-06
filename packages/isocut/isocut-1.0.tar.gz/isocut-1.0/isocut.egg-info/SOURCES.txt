@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+isocut.egg-info/PKG-INFO
+isocut.egg-info/SOURCES.txt
+isocut.egg-info/dependency_links.txt
+isocut.egg-info/top_level.txt

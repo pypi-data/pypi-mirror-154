@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: isocut
+Version: 1.0
+Summary: Image tailor custom tool
+Home-page: UNKNOWN
+Author: Chunyi Zhu
+Author-email: zhuchunyi@huawei.com
+License: UNKNOWN
+Description: 
+        This is a tool, customize an ISO image containing only required RPM packages based on the the EulerOS CD-ROM image
+        
+Platform: UNKNOWN
