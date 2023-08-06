@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: NETQ
+Version: 0.0.1
+Summary: Encode your python scripts with this base64 encoder.
+Home-page: 
+Author: IRIS
+Author-email: Milanhendriksen417@gmail.com
+License: MIT
+Keywords: coreQ
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A basic base64 encoder
+
+CHANGE LOG
+==========
+
+0.0.1(12/06/2022)
+-----------------
+-First Release.
