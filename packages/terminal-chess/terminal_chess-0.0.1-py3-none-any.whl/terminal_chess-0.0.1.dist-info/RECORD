@@ -1,0 +1,9 @@
+pychess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pychess/__main__.py,sha256=OsdoPTS-I4Daf3YdaK2rTmLO6dO9UoXA3QaSpKip__w,584
+pychess/game.py,sha256=18Y2aBOyE-F6vTQ1Pnnb_-aM8hnolg7WtCD94aEwDoQ,22330
+terminal_chess-0.0.1.dist-info/LICENSE,sha256=lIdOWt4X7r_E1DvyobS9d07oiuZRrasOarXmeM2Pp40,1067
+terminal_chess-0.0.1.dist-info/METADATA,sha256=2QcCHLnHBUxMWaeaI0FARw9u3fwgzUfH0cAHDtW04Bw,6966
+terminal_chess-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+terminal_chess-0.0.1.dist-info/entry_points.txt,sha256=DbE2RmPUtsHmqUNvdd9hxkrmwh16wQnUEfkOs0cMv6Y,50
+terminal_chess-0.0.1.dist-info/top_level.txt,sha256=gz8F4vmyl0QIa874RBG_XKchJ01kWKkjM4dxGwepDz4,8
+terminal_chess-0.0.1.dist-info/RECORD,,
