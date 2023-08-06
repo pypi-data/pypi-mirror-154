@@ -1,0 +1,11 @@
+asort/__init__.py,sha256=sxANvReKyc8VgTdK25gjQ62JNh_u0CMGkL1PMPlNxrY,56
+asort/__main__.py,sha256=O4_w7F6A7KIKlF5DUkG1orZT4HSHSK5q7vXIC1dJ0DA,71
+asort/__version__.py,sha256=YylfDW6QdcOdSiUxrYZVNKP9LFJR-R1hK9_5ynJR_9I,80
+asort/api.py,sha256=kBioVUfUfk10dPs4dhM6Ruj8x-h65yEw7QWXiYGrKCc,8009
+asort/main.py,sha256=2F2JfLfgbthjWAhQUZFHM5PRUNTNNKwHmcUO76_1urM,551
+asort-0.1.0.data/data/asort.version/VERSION.txt,sha256=PQl8MVocVDBA9UjaTHBRJl6Ux3IRokEc7R1GITRCcN4,7
+asort-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+asort-0.1.0.dist-info/METADATA,sha256=fN7s11b6b9xQx2O7Bpb25Fyepv7P7W04KUBbfcF-DBw,1621
+asort-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+asort-0.1.0.dist-info/top_level.txt,sha256=YXd_cU-p1PZGq_nFnJ4P5dVjSzxoa8kFhLeVKNb-57s,6
+asort-0.1.0.dist-info/RECORD,,
