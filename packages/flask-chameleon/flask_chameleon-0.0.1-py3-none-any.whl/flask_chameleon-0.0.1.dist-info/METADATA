@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flask-chameleon
+Version: 0.0.1
+Summary: Flask extension to use Chameleon templates.
+Home-page: http://github.com/jjmurre/flask-chameleon
+Author: Jan Murre
+Author-email: jan.murre@catalyz.nl
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Chameleon
+
+UNKNOWN
+
+
