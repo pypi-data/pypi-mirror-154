@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+g11npy/__init__.py
+g11npy/__version__.py
+g11npy/base.py
+g11npy/constants.py
+g11npy/dict_based.py
+g11npy/hooks.py
+g11npy/noop.py
+g11npy.egg-info/PKG-INFO
+g11npy.egg-info/SOURCES.txt
+g11npy.egg-info/dependency_links.txt
+g11npy.egg-info/requires.txt
+g11npy.egg-info/top_level.txt

@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: g11npy
+Version: 0.1.1
+Summary: Internationalization and localization tools.
+Home-page: https://github.com/TNick/g11n
+Download-URL: https://github.com/TNick/g11n/archive/v0.1.1.zip
+Author: Nicu Tofan
+Author-email: nicu.tofan@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/TNick/g11n/issues
+Project-URL: Documentation, https://github.com/TNick/g11n
+Project-URL: Source Code, https://github.com/TNick/g11n
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE
+
+
+
+
+Install
+-------
+
+    pip install g11npy
+
+You can also download/clone the source, in which case you have to:
+
+    git clone https://github.com/TNick/g11n.git
+    python setup.py install
+        
+To contribute a patch clone the repo, create a new branch, install in
+develop mode:
+        
+    python setup.py develop
