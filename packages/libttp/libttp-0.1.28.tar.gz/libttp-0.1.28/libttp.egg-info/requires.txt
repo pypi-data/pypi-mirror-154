@@ -1,0 +1,6 @@
+numpy
+cython
+matplotlib
+pandas
+tdqm
+scipy
