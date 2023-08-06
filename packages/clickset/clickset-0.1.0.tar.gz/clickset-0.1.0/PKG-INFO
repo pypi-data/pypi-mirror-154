@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: clickset
+Version: 0.1.0
+Summary: In-class settings configurable via both click and confuse libraries
+Home-page: https://gitlab.com/selcouth/clickset
+License: MIT
+Author: David Morris
+Author-email: gypsysoftware@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: confuse (>=1.7.0,<2.0.0)
+Project-URL: Repository, https://gitlab.com/selcouth/clickset
+Description-Content-Type: text/markdown
+
+# ClickSet
+
+This library permits easy creation of command-line and persistent settings
+inside a class utilizing the `click` and `confuse` libraries.
+
+```python
+from clickset import Setting
+from clickset import ClickParams
+from clickset import get_config
+import confuse
+import click
+
+class MyClass:
+    verbose = Setting(
+        # confuse storage path
+        'general.verbose',
+
+        # click boolean option
+        option = ClickParams(
+            '--verbose/--quiet',
+            help = 'Verbose or Quiet Output'
+        )
+    )
+
+@click.command
+# Load all options set in classes
+@Setting.options
+def main(**kw):
+    # Get the default global confuse configuration singleton
+    config = get_config()
+    foo = MyClass()
+    print(f"verbose: {foo.verbose}")
+    assert foo.verbose == kw['verbose']
+    assert foo.verbose == config['general']['verbose'].get()
+
+main(['--verbose'])
+```
+
