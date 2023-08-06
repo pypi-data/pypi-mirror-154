@@ -1,0 +1,14 @@
+.cz.yaml
+.gitignore
+CHANGELOG.md
+LICENSE
+README.md
+cz_github_jira_conventional_footer.py
+requirements.txt
+setup.py
+start
+cz_github_jira_conventional_footer.egg-info/PKG-INFO
+cz_github_jira_conventional_footer.egg-info/SOURCES.txt
+cz_github_jira_conventional_footer.egg-info/dependency_links.txt
+cz_github_jira_conventional_footer.egg-info/requires.txt
+cz_github_jira_conventional_footer.egg-info/top_level.txt
