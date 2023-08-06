@@ -1,0 +1,8 @@
+sigma/backends/qradar/__init__.py,sha256=1hdOnOvwJi1xyyd_JaAg7QIV_ulLdG00PwSWGHu909Y,33
+sigma/backends/qradar/qradar.py,sha256=A0oh0z3lAFa2eFcxza6_ORi4I7VM_7m7AMiujY3M8r4,14854
+sigma/pipelines/qradar/__init__.py,sha256=hSBt0TeKGACTJRAUGdIibxnEpjbZghWXTaggz9lgWbM,85
+sigma/pipelines/qradar/qradar.py,sha256=poE4F8SzT2N2--jZqJmVs7b_r-EGATtlnL6yYOlfBLc,11302
+pysigma_backend_qradar-0.1.0.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+pysigma_backend_qradar-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pysigma_backend_qradar-0.1.0.dist-info/METADATA,sha256=xA3MfcPYsoVqIKjVF6zcW6Qu7twUKCRq4Cdo_1ca12E,514
+pysigma_backend_qradar-0.1.0.dist-info/RECORD,,
