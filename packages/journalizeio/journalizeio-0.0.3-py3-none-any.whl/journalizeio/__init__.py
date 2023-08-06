@@ -1,0 +1,1 @@
+from journalizeio.client import JournalizeClient
