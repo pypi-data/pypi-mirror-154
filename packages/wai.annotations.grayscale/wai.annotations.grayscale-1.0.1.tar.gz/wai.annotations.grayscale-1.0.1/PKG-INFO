@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: wai.annotations.grayscale
+Version: 1.0.1
+Summary: Grayscale image segmentation format plugins for wai.annotations.
+Home-page: https://github.com/waikato-datamining/wai-annotations-grayscale
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Grayscale image segmentation format plugins for wai.annotations.
+
+* `from-grayscale-is`: reads image segmentation annotations from grayscale PNGs
+* `to-grayscale-is`: writes image segmentation annotations to grayscale PNGs
+
+Changelog
+=========
+
+1.0.1 (2022-06-13)
+------------------
+
+- `FromGrayscale` class now uses `numpy.frombuffer` instead of deprecated `numpy.fromstring` method.
+- `FromGrayscale` class now outputs logging message if setting of new annotation indices fails, as error
+  occurs before the `wai.annotations - Sourced ...` logging message, making it possible to track the image
+  causing the problem.
+
+1.0.0 (2022-05-31)
+------------------
+
+- Initial release.
+
+
+
