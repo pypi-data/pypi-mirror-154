@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+interface/__init__.py
+interface/cli_supervised.py
+seldonian/__init__.py
+seldonian/dataset.py
+seldonian/seldonian_algorithm.py
+seldonian/spec.py
+test_engine.egg-info/PKG-INFO
+test_engine.egg-info/SOURCES.txt
+test_engine.egg-info/dependency_links.txt
+test_engine.egg-info/requires.txt
+test_engine.egg-info/top_level.txt
