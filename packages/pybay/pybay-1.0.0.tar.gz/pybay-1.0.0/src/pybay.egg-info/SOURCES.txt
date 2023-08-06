@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/pybay.egg-info/PKG-INFO
+src/pybay.egg-info/SOURCES.txt
+src/pybay.egg-info/dependency_links.txt
+src/pybay.egg-info/entry_points.txt
+src/pybay.egg-info/requires.txt
+src/pybay.egg-info/top_level.txt
