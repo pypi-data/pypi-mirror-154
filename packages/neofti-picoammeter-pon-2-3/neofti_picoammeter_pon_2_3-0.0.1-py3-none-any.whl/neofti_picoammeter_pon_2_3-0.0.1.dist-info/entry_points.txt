@@ -1,0 +1,3 @@
+[gui_scripts]
+picoammeter_pon_2_3 = picoammeter_pon_2_3.__main__:startup
+
