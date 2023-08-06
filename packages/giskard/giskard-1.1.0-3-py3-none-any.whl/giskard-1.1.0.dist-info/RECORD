@@ -1,0 +1,11 @@
+giskard/__init__.py,sha256=XKwv3qU-vLjMWgA-z6m-CXZRFLGmU3RaKvDrSPmGuy4,511
+giskard/giskard_client.py,sha256=UKb-xxEdc_B936-dbU8yGUeo-3CHr68pP5I7T9B14EI,2651
+giskard/io_utils.py,sha256=r0h7Ip6RKtWDJREF0CyBk46b5wxbC4SpP6tWsiNvyW4,2069
+giskard/model.py,sha256=-Wc0hJfDCVgi--VqfcRxBvAv5dVQ2leV9jZXmT4woss,922
+giskard/project.py,sha256=IuP9Agq8mmjZ_SnBLiA1IWDhyaXAEFchf7qu5zq7kaQ,12316
+giskard/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+giskard/python_utils.py,sha256=6IlMUuOteuRFt6A4nmPwvqk0Hng1Y0wEC3P0dAg-y34,555
+giskard-1.1.0.dist-info/LICENSE,sha256=ccITPXcjnwgg7eJxbuwXtdH0iQn-NEv0EGqDfvWYUrI,10887
+giskard-1.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+giskard-1.1.0.dist-info/METADATA,sha256=lXTyoiJ5Rm2g_Ww1tbS1yDEUUNx3HvLkGh_9tVcD0ZM,13864
+giskard-1.1.0.dist-info/RECORD,,
