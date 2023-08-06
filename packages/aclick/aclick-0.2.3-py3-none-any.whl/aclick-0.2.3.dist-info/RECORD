@@ -1,0 +1,11 @@
+aclick/__init__.py,sha256=D6Sd29WJNCbR-zLaZ8aKJ-_A7_HcQg0wfrc1606EoVs,648
+aclick/_version.py,sha256=PNiDER4qM19h9zdsdfgKt2_dT4WgYK7EguJ8RU2qA_g,22
+aclick/configuration.py,sha256=Aiv37ntr_tVDgmGyeMcsIXt4ADGapmjLgoq3LaFiR64,6299
+aclick/core.py,sha256=FubcpCQhtJnIl5SlYBC4G-0lOslka8RwkEOQBqR6jSI,30355
+aclick/decorators.py,sha256=tE4OgtAnQzr7udFYuCvYEKwTpsN0udvjGdOolYT_WYs,7062
+aclick/types.py,sha256=Izb6tfZX0GvGqUUa2XFTTWtf5GbCFfCKpCm7IckC140,16985
+aclick/utils.py,sha256=YaA60I3KuaUibJso4J2epoy7YH_ZUgqxIDVeAYWJQCs,67208
+aclick-0.2.3.dist-info/METADATA,sha256=yBd7Ph_XXXTttxezfylNkQSxeoMyf1dqkKTebY1i1fI,2796
+aclick-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aclick-0.2.3.dist-info/top_level.txt,sha256=IdUDx54f5g-TcYxmtV3fi8uexEHOoq8juoGLZEnbkYs,7
+aclick-0.2.3.dist-info/RECORD,,
