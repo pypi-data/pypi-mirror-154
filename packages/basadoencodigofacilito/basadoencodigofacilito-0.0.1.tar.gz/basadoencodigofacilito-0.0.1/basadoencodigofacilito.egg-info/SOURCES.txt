@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+basadoencodigofacilito/__init__.py
+basadoencodigofacilito/__main__.py
+basadoencodigofacilito/config.py
+basadoencodigofacilito/workshops.py
+basadoencodigofacilito.egg-info/PKG-INFO
+basadoencodigofacilito.egg-info/SOURCES.txt
+basadoencodigofacilito.egg-info/dependency_links.txt
+basadoencodigofacilito.egg-info/entry_points.txt
+basadoencodigofacilito.egg-info/requires.txt
+basadoencodigofacilito.egg-info/top_level.txt

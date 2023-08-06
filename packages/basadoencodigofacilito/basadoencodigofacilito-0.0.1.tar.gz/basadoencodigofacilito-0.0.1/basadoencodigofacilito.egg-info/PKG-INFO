@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: basadoencodigofacilito
+Version: 0.0.1
+Summary: Permite consumir el API de CódigoFacilito
+Home-page: https://github.com/eduardogpg/codigofacilito_package
+Author: Jesús Contreras M
+Author-email: jcm2222@hotmail.com
+License: MIT
+Keywords: basadoencodigofacilito
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+### BasadoEnCodigoFacilito
+
+Este paquete nos permite consumir el API de la plataforma. 
+

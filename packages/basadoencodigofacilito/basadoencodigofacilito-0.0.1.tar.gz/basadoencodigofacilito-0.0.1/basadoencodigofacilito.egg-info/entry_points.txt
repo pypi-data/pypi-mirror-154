@@ -1,0 +1,3 @@
+[console_scripts]
+pycody = basadoencodigofacilito.__main__:main
+
