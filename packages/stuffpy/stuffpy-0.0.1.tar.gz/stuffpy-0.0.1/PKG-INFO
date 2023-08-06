@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: stuffpy
+Version: 0.0.1
+Summary: A package for stuff
+Home-page: UNKNOWN
+Author: Zalman Belinow
+Author-email: zalmanbelinow@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#Disable
+Disable is a context manager that disables output and specified errors. `with Disable(Exception) as (write, flush):` has the following effect: print statements do nothing and all subclasses of Exception do not propagate to the caller if raised. "Write" and "flush" are used for writing and flushing.
+
+#Parallel
+Parallel is basically zip and map combined. It can take an iterable of iterables or multiple iterables and zips them. If the func argument is used then it works like map. There is also a strict option.
+

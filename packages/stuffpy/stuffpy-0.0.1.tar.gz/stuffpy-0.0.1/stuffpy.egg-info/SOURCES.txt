@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+stuffpy/__init__.py
+stuffpy.egg-info/PKG-INFO
+stuffpy.egg-info/SOURCES.txt
+stuffpy.egg-info/dependency_links.txt
+stuffpy.egg-info/top_level.txt
