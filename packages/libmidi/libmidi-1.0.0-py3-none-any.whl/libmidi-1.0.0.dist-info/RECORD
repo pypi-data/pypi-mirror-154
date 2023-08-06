@@ -1,0 +1,17 @@
+libmidi/__init__.py,sha256=acHE85flHmtVUn0773VQuC4Hr8QKBPoY4UH-PSWeGWY,203
+libmidi/types/chunk.py,sha256=vSbZsxlfYbcwK-SK8Qpo4KtXKlD07clsT_0NyPdPqf0,1375
+libmidi/types/event.py,sha256=xKv5ZLqtyNLAP6qf1ZjBL03oDmA7eW_ZILOs4Mcv7MU,1278
+libmidi/types/header.py,sha256=eRvkqxiq5Mc3UsQDMqJYhA081QqbchUZMoZkBUgbVQs,1945
+libmidi/types/message.py,sha256=HNSiS7LOpzR7Btbd4rNSMv4OKckoENVAfm9PvRrgXx0,1256
+libmidi/types/messages/channel.py,sha256=tmazgW-r1Ly6-3Sd2F6N_HTyhiUTQ_4f29Ij3-AynhE,5593
+libmidi/types/messages/common.py,sha256=FO-HavAKi6uHcy5uupPqKF4g3GsJgyEGB4QmX4-Lx30,1558
+libmidi/types/messages/meta.py,sha256=vqZbWy8-7cwR9q4r8wVmObRNmIxGKHvkZndLYAZA7Ug,12515
+libmidi/types/messages/system.py,sha256=0A6M6LdqRA-zRovPed8tdCQ7iwowjRq9J_QBv7Vp18A,5869
+libmidi/types/midifile.py,sha256=gJwjEpC5JnYUp9cPd99Jq-py-qxqaP7aKcQS1Ocaky0,4968
+libmidi/types/track.py,sha256=n0wNhsBn1NC4WVJSjnQcFBbtiA9IC5bm4yLGaA2nZmE,1246
+libmidi/utils/bytes.py,sha256=wcZUCTz0jjehP97FHGO-wPo-96-W_h2iq3QmL7UzsqE,193
+libmidi/utils/time.py,sha256=9RtIPuyjhkE6PTe1Fy4aNCnpJTxTONBhKd1Ft4yJnJU,1702
+libmidi/utils/variable_length.py,sha256=Qi_IHFdo-MmHhtNGiMFLjxNU1ZCe6W_qxTBiqNMzIOM,1501
+libmidi-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+libmidi-1.0.0.dist-info/METADATA,sha256=VeMrFm3JvsUpA6yHGcuu5lXkMir0oIW3MPDGmR-GU3w,1405
+libmidi-1.0.0.dist-info/RECORD,,
