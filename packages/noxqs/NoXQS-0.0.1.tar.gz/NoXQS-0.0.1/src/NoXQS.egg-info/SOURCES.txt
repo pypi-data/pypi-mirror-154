@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/NoXQS.egg-info/PKG-INFO
+src/NoXQS.egg-info/SOURCES.txt
+src/NoXQS.egg-info/dependency_links.txt
+src/NoXQS.egg-info/top_level.txt
+src/noxqs/__init__.py
+src/noxqs/noxqs.py
