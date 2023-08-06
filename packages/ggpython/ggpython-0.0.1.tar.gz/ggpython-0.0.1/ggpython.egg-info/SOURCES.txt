@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ggpython/__init__.py
+ggpython/analysis.py
+ggpython/core.py
+ggpython/utils.py
+ggpython.egg-info/PKG-INFO
+ggpython.egg-info/SOURCES.txt
+ggpython.egg-info/dependency_links.txt
+ggpython.egg-info/requires.txt
+ggpython.egg-info/top_level.txt
+ggpython/tracker/__init__.py
+ggpython/tracker/tracker.py
+ggpython/tracker/valorant.py
