@@ -1,0 +1,3 @@
+[console_scripts]
+theotex=theotex.__main__:theotex
+
