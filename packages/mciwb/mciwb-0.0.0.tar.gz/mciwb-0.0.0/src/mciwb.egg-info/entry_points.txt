@@ -1,0 +1,3 @@
+[console_scripts]
+mciwb = mciwb.main:cli
+
