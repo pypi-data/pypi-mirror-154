@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: indent-template
+Version: 0.0.0
+Summary: A tool to replace strings without breaking indent.
+Home-page: https://github.co.jp/
+Author: bib_inf
+Author-email: contact.bibinf@gmail.com
+License: CC0 v1.0
+Description: # indent_template
+        
+        下の方に日本語の説明があります
+        
+        ## Overview
+        - A tool to replace strings without breaking indent.
+        - description is under construction.
+        
+        ## Usage
+        ```python
+        # under construction
+        
+        ```
+        
+        ## 概要
+        - インデントを崩さずに文字列の置き換えが実施できます。
+        - プログラミング言語やjsonなどをプログラムで出力する際などに便利です。
+        - 説明は執筆途上です
+        
+        ## 使用例
+        ```python
+        # 執筆中
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
