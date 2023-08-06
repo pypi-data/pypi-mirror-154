@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+ferris_k8s/__init__.py
+ferris_k8s/cli.py
+ferris_k8s_cli.egg-info/PKG-INFO
+ferris_k8s_cli.egg-info/SOURCES.txt
+ferris_k8s_cli.egg-info/dependency_links.txt
+ferris_k8s_cli.egg-info/top_level.txt
