@@ -1,0 +1,8 @@
+
+[test]
+pytest
+datalad
+
+[tools]
+pandas
+pynwb

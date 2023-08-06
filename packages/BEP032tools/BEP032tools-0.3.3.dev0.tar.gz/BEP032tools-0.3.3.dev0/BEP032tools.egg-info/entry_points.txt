@@ -1,0 +1,5 @@
+[console_scripts]
+BEP032Generator = bep032tools.generator.BEP032Generator:main
+BEP032Templater = bep032tools.generator.BEP032Templater:main
+BEP032Validator = bep032tools.validator.BEP032Validator:main
+BEP032Viewer = bep032tools.viewer.BEP032Viewer:main
