@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: prototype-learning
+Version: 0.1.1
+Summary: A package for learning interpretable prototypes for prediction tasks.
+License: MIT
+Author: Anton Matsson
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: conda-lock (>=1.0.5,<2.0.0)
+Requires-Dist: numpy (==1.20.3)
+Requires-Dist: scikit-learn (>=1.1.1,<2.0.0)
+Requires-Dist: skorch (>=0.11.0,<0.12.0)
+Requires-Dist: torch (==1.11.0)
+Description-Content-Type: text/markdown
+
+# prototype_learning
+
+A package for learning interpretable prototypes for prediction tasks.
+
+## Installation
+
+```bash
+$ pip install prototype_learning
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`prototype_learning` was created by Anton Matsson. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`prototype_learning` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
