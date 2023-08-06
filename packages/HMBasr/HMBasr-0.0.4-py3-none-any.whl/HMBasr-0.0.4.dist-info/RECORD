@@ -1,0 +1,16 @@
+HMBasr/__init__.py,sha256=MpVk9LyKQ8QRs8Ol00lUo0yftP5qkJ0TbJdbqHthaXo,23
+HMBasr/asr.py,sha256=Cp-MvYDY7xzOu2GA8rMkq1LChavaakllFZ1uK-NB7CE,1398
+HMBasr/setup.py,sha256=Db3UbEuGDSRp9glGKz-wubsXVdxnBzXLnJ-IjSm4J1w,2560
+HMBasr/ctcdecode/__init__.py,sha256=9IwBidlJd7IH-IdT9tXdiNfBrjOECfTumtaBC3tJbpY,315
+HMBasr/ctcdecode/prefix.py,sha256=2heYbDH9kqZkzhzPJ6-9spJhYxUVP0PSbp7CPFwNFlA,3643
+HMBasr/ctcdecode/scorer.py,sha256=odl6YMZ9eiIN4KKTpHCSyRk2H9qXoSZ85SwlMpi7jdY,4872
+HMBasr/ctcdecode/decoder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HMBasr/ctcdecode/decoder/base.py,sha256=_4r_Wdfvu2HfBxAN87-pqjnxJ_VJe6K8FzvMP_fHYSg,2022
+HMBasr/ctcdecode/decoder/beam_search.py,sha256=7UEKlbz1NIOUYSSukUCWjR9FI6MpMsF54OkN1gRg3Kk,2917
+HMBasr/ctcdecode/decoder/best_path.py,sha256=czj1qfKXnLrlZIgoB5EobC0aQy8UYO0WXVFattsRj3g,361
+HMBasr/ctcdecode/decoder/substring_beam_search.py,sha256=IkZcSlNhgUr5I2_zJ3YLATr4G4Kw4GciPJsjJyo2Ty4,3124
+HMBasr-0.0.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+HMBasr-0.0.4.dist-info/METADATA,sha256=ClQMvPXvWL6G6T95w9uKQRNs54V0hmvMHCMalSdlblo,863
+HMBasr-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+HMBasr-0.0.4.dist-info/top_level.txt,sha256=2MEiGMXtloCuYfQgLpeJK90e5PzDqACsUV4fBhgBf0c,7
+HMBasr-0.0.4.dist-info/RECORD,,
