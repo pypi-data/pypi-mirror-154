@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: FIRST-package-ozdi
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Soufiane AIT OZDI
+Author-email: ozdi.soufian@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Use Package
+To use this package on Linux & MacOs:
+```
+python3 -m pip install --index-url https://test.pypi.org/simple/ --no-deps FIRST-package-ozdi
+```
+To use this package on Windows:
+
+```
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps FIRST-package-ozdi
+```
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

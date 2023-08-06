@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/FIRST_package_ozdi.egg-info/PKG-INFO
+src/FIRST_package_ozdi.egg-info/SOURCES.txt
+src/FIRST_package_ozdi.egg-info/dependency_links.txt
+src/FIRST_package_ozdi.egg-info/top_level.txt
+src/my_first_package/__init__.py
+src/my_first_package/module.py
