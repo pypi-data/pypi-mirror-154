@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: flask_request_guid
+Version: 0.2.0
+Summary: Set a global UUID for each request in flask
+Home-page: https://github.com/alexrudy/flask_request_guid
+Author: Alex Rudy
+Author-email: opensource@alexrudy.net
+License: BSD license,
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Framework :: Flask
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# flask-request-guid
+
+
+[![PyPI](https://img.shields.io/pypi/v/flask_request_guid.svg)](https://pypi.python.org/pypi/flask_request_guid)
+
+[![Tests](https://github.com/alexrudy/flask-request-guid/actions/workflows/tests.yml/badge.svg)](https://github.com/alexrudy/flask-request-guid/actions/workflows/tests.yml)
+
+Set a global UUID for each request in flask
+
+
+* Free software: BSD license
