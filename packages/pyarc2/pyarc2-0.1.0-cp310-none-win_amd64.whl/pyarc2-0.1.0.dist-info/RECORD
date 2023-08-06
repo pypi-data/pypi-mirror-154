@@ -1,0 +1,10 @@
+pyarc2/pyarc2.cp310-win_amd64.pyd,sha256=02SG4JqoVR1oKA2_DwDmyHpHx-HEj74VuQmP23Ee_S8,632320
+pyarc2/__init__.py,sha256=33DQ_kvU7Naf-lj6HqhKeQe5Tqu7w7CfD2ASYme3Ym8,6577
+pyarc2-0.1.0.dist-info/DELVEWHEEL,sha256=OsBpPqFW_BA_69emBEnZC2U3gWtnhn30Pvv3GhFA_ak,8
+pyarc2-0.1.0.dist-info/METADATA,sha256=HZySpsc-pYLEBmJgPQFLdOhOn1eL5XauTdG-wP998fE,2713
+pyarc2-0.1.0.dist-info/RECORD,,
+pyarc2-0.1.0.dist-info/WHEEL,sha256=wesIW58WVvY1aI_l-YIHHARAtHhBgP7-8IKXv9jZdH0,97
+pyarc2-0.1.0.dist-info/license_files/LICENSE,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+pyarc2.libs/.load-order-pyarc2-0.1.0,sha256=CyEIXeZLX_Yc5PkztI_TkHLUCntqoRWjcgaDuDyOWuk,53
+pyarc2.libs/beastlink-1.0-x86_64-b1777f08.dll,sha256=sXd_CBaW1sCAdZtYoXfIp_--_pSDkxxnWEM92pfSJoA,496640
+pyarc2.libs/vcruntime140.dll,sha256=nStA8DlcxdG01eoXuElwwplx1EjDcQRnbbV3WG1K0bE,98224
