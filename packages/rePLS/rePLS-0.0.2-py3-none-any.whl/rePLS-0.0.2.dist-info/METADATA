@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: rePLS
+Version: 0.0.2
+Summary: Residiual learning xxx
+Home-page: UNKNOWN
+Author: thanhvd
+Author-email: duythanhvu.uet@gmail.com
+License: UNKNOWN
+Keywords: PLS,rePLS,PCR,LR
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+
+
+# rePLS
+
+
+
+
+
+## Examples 
+
+
+
+```python
+
+from rePLS import rePLS, rePCA, reMLR
+
+import numpy as np
+
+
+
+n_samples, n_features, n_outcomes, n_confounders = 100, 10,5,2
+
+n_components = 2
+
+rng = np.random.RandomState(0)
+
+
+
+Y = rng.randn(n_samples,n_outcomes)
+
+X = rng.randn(n_samples, n_features)
+
+Z = rng.randn(n_samples, n_confounders)
+
+
+
+reg = rePLS(Z=Z,n_components=n_components)
+
+reg.fit(X,Y)
+
+Y_pred = reg.predict(X,Z)
+
+'''
+
+
+
+
+
