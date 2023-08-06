@@ -1,0 +1,4 @@
+torahbiblecodes
+torahbiblecodes/modules
+torahbiblecodes/resources/data
+torahbiblecodes/resources/func
