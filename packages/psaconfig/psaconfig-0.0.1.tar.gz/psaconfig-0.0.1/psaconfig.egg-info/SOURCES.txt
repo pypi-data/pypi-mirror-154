@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+license
+readme.md
+setup.py
+psaconfig/__init__.py
+psaconfig.egg-info/PKG-INFO
+psaconfig.egg-info/SOURCES.txt
+psaconfig.egg-info/dependency_links.txt
+psaconfig.egg-info/requires.txt
+psaconfig.egg-info/top_level.txt
