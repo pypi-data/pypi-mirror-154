@@ -1,0 +1,10 @@
+pod5_format_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pod5_format_tools/_version.py,sha256=WlMBNrzKywm5RAbqEVgEgcG7Opc4cf3-wpAnO8PdoEI,23
+pod5_format_tools/pod5_convert_from_fast5.py,sha256=-lrITeGsIxXRq86V-JDZtb-SCqHVl7rwFYEiwBsleoc,18366
+pod5_format_tools/pod5_convert_to_fast5.py,sha256=s4MCd1gXk-G5zLdZ5qyxvnuhLTBHyCQYfb43OARpYOI,9495
+pod5_format_tools/pod5_inspect.py,sha256=U-zUZCDpvCkvlw0rKiibfgMGENIgpRFrx5o0lctEB2s,6277
+pod5_format_tools-0.0.17.dist-info/METADATA,sha256=eJU6HvMkkkdSic9a3otKunUtPGxQN3tFIdveQPNUu5o,745
+pod5_format_tools-0.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pod5_format_tools-0.0.17.dist-info/entry_points.txt,sha256=7lLqxPmBMqvI-EcJuvznv0fkt9x6eRHk8WvO-6aCA-M,279
+pod5_format_tools-0.0.17.dist-info/top_level.txt,sha256=BPC1g85ai-FJb8c3NRE2iTcBXgX5RtnkXMNjHrqF_5s,18
+pod5_format_tools-0.0.17.dist-info/RECORD,,
