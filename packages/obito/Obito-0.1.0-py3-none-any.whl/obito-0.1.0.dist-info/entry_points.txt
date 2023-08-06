@@ -1,0 +1,3 @@
+[console_scripts]
+obito=Obito.downloader:main
+
