@@ -1,0 +1,12 @@
+praxis_timeseries_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+praxis_timeseries_client/darts/__init__.py,sha256=BNgIhU7sqX-EkV6dkNeyx_KA-WVaJv4hmG3BT6H179w,90
+praxis_timeseries_client/darts/darts_backtest.py,sha256=tJhr3F3Ql5HiGkkSinLcMYlyuAiFs8s3EOAvjhwLol0,4554
+praxis_timeseries_client/darts/darts_forecast.py,sha256=af5a70cPi390pOh0wpp5-y1up12_OqfXt8sQcZDJhHQ,4356
+praxis_timeseries_client/darts/darts_interface.py,sha256=kpT3VsdxhD1lBhS9O0nUzm91jFbSqfhJqc3YsAhtosk,19689
+praxis_timeseries_client/darts/utils.py,sha256=qPwdkdLfMrPk9AXihLuPzMH4EXvgbtxWoXmGEbjA54s,774
+praxis_timeseries_client/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+praxis_timeseries_client-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+praxis_timeseries_client-0.0.3.dist-info/METADATA,sha256=f_yKFLk9wOVurZZw0fPgcOcRSQjv53vdh3-5irCRpNU,644
+praxis_timeseries_client-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+praxis_timeseries_client-0.0.3.dist-info/top_level.txt,sha256=zzxk5O_IZPLga7K0xOSScR3sN50ykJeRjKXf__3uSLI,25
+praxis_timeseries_client-0.0.3.dist-info/RECORD,,
