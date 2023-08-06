@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: quote-Extract
+Version: 0.0.2
+Summary: Get a variety of Motivational Quotes here
+Home-page: UNKNOWN
+Author: Ndongmo Christian
+Author-email: christainhonore2003@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+
+Welcome to Quote_Extract
+
+This is a simple package aimed at providing motivational Quotes. You can used this Qoutes for business, Websites, For Blogging...etc. This package uses an API to make quote requests from a website and return them to you as a text.
+
+How it works
+
+  After installing it. import it in your program 
+    import quote_Extract
+
+  It has 3 main functions quote(), author(), quote_author()
+   -quote() returns the quote only
+   -author() just the authors name
+   -quote_author() both the quote and authors name  
+
+    BE MOTIVATED USING QUOTES
+
