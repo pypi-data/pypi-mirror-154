@@ -1,0 +1,16 @@
+pylangacq/__init__.py,sha256=TDzxXirtft1Hnkf_u2Tash5tRTYRO22OJqOqP4rCJAM,264
+pylangacq/_clean_utterance.py,sha256=_J7xSgP7DVr1AY_GGsOK3VtZxs8iHh0zocDM2VYXtsg,7699
+pylangacq/_punctuation_marks.py,sha256=3qKU0rZzetmUF7Gs4TRlj0pPNDBU2a-bIfoSEe8MKQo,113
+pylangacq/chat.py,sha256=NWr8-J_XjPtoJorSvvd1jdSjMIc2E9iiFUdMBCFOWBk,69308
+pylangacq/dependency.py,sha256=8NCLxEGBdrUkk1Qj7PTBo8bwcu0TCBm72YsFxQ6g42k,4962
+pylangacq/measures.py,sha256=aMPgXkXcFa_CGRUL1v27rEiGf7yVYUD0WITCJS5Ogqc,43961
+pylangacq/objects.py,sha256=PNB08KJ9a08kNR-ub3DqUUcSdnE3jpPww3GDrOutsOM,6624
+pylangacq/tests/README.md,sha256=f7wqWt-HvNG8WiUyQ1auk5X-_MogCy3pPBrDNGKVW3U,491
+pylangacq/tests/__init__.py,sha256=fBz2eKAq39-3W4EQZ-voNxrS0CNOmIXcuKol7I2GfEY,192
+pylangacq/tests/eve.cha,sha256=x2Lhb_Jm6gQooRk1FUSONbX1pGqynkPGb0-lIi2Bjmg,167270
+pylangacq/tests/test_chat.py,sha256=7Be_rkMmVCZQVjrzaYzpdaZViErY5lp4ax5lqRGq9Kk,17633
+pylangacq-0.17.0.dist-info/LICENSE.txt,sha256=Tq3vXR4BGnbTKBcctQHli2vqZoECJn_Sx5GXsVndmJs,1080
+pylangacq-0.17.0.dist-info/METADATA,sha256=qu-iVsIno46dWMNjdbRyxIZhAPhu8HDovW63-CMNU1A,5514
+pylangacq-0.17.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylangacq-0.17.0.dist-info/top_level.txt,sha256=cwaonYTKEdsiCOB9WD3dm3SH7m6rJ-cP3mQGXCjv2iw,10
+pylangacq-0.17.0.dist-info/RECORD,,
