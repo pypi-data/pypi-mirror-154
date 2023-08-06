@@ -1,0 +1,17 @@
+torchmanager/__init__.py,sha256=RxB2PAp4l3_nAfq27j1jk7kcjnKo3-LhPzBArwZuy6k,115
+torchmanager/callbacks.py,sha256=4Ucqf3kK2NhQWbOBGlpOig0iE9qshnhd2Js60aiv7HY,6158
+torchmanager/losses.py,sha256=6L7DFz3SiidseTF4W9PI_oS5wW-aBPZDdUFHirghrus,4095
+torchmanager/managers.py,sha256=jI3ULtcZMiro3YyG1g-zia-lebrF9brUs31eW0MYmk0,20765
+torchmanager/metrics.py,sha256=MlHX2JGwwT67aJSt5phJF8FElSpmeQ_mxS2B5CSp6f8,5764
+torchmanager/train/__init__.py,sha256=N2jid5Uv4DOVbqJWBERYriQv7nZbKrFgi2zzw90Q9-s,59
+torchmanager/train/checkpoint.py,sha256=HbWnoarr3aMh1E0R3nJs-l6hhIZtQ5OumMzUWAelorE,3072
+torchmanager-nightly/__init__.py,sha256=NXGA51V2eEbWKR-cdtRPsRgJSnPTTMzyDD-lFZRM-GI,206
+torchmanager-nightly/callbacks.py,sha256=suBWLopcoZsjEZHfKdPE6QsnNBQ6oRyGWz1LIHCdvqY,1675
+torchmanager-nightly/managers.py,sha256=nSHjw5Ic9YRgMCJXEN6cTOMz_hUUcULxEX4hnBxC-FE,3429
+torchmanager-nightly/train/__init__.py,sha256=1srrPJEyGVdCcTNzX0LqFOsarWwRwl7GeXEInR1gaoQ,69
+torchmanager-nightly/train/configs.py,sha256=qDaP5BAGtmKkP1ziODZnqQLySA9nEnIR3bUwXZ0Rlb8,5934
+torchmanager-1.0.1.dist-info/LICENSE,sha256=iqzaMhMDjD_Go-Jay_3ertdUbT1xPOZqKtkavzKjjI8,1318
+torchmanager-1.0.1.dist-info/METADATA,sha256=qjK5jIOE-aFtU5R-_DfkXGP0EjVWLQp9ti49H2LYHso,1967
+torchmanager-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torchmanager-1.0.1.dist-info/top_level.txt,sha256=-zXm-fzG58W29mEbFh0pvz2mnXYnVpYhDvvElhHR35s,34
+torchmanager-1.0.1.dist-info/RECORD,,
