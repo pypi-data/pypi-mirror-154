@@ -1,0 +1,4 @@
+apache-airflow>=2.2.0.rc2
+aiohttp<4,>=3.6.3
+databricks-sql-connector<3.0.0,>=2.0.0
+requests<3,>=2.27
