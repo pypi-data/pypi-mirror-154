@@ -1,0 +1,5 @@
+recursive-include silzila/static/ *
+include silzila/logger.log
+# include silzila/requirements.txt
+include silzila/sqlite3.db
+include silzila/.env

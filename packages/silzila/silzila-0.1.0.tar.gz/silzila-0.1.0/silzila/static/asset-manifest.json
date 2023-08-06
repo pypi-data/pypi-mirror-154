@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb00fad7.css",
+    "main.js": "/static/js/main.6899a963.js",
+    "static/js/787.3a81f7d8.chunk.js": "/static/js/787.3a81f7d8.chunk.js",
+    "static/media/gauge.png": "/static/media/gauge.e3456366323f52d13497.png",
+    "static/media/scatter.svg": "/static/media/scatter.960f131d49854ecb77860666141d5c5f.svg",
+    "static/media/charts_theme_settings_icon.svg": "/static/media/charts_theme_settings_icon.28aeb39e3da1cf22e3c74ab5d69269c7.svg",
+    "static/media/listoftilesIcon.svg": "/static/media/listoftilesIcon.c3586cb0fe4dbb3f41ac9bd4ed0b60ce.svg",
+    "static/media/line_chart.svg": "/static/media/line_chart.bfc6b974619491d92736373bc2fbc3d6.svg",
+    "static/media/area-chart.svg": "/static/media/area-chart.a222daef470d0df9243b022f92501a45.svg",
+    "static/media/bar_chart_grouped.svg": "/static/media/bar_chart_grouped.a8cf141ce5a4611c9e755def739ea66d.svg",
+    "static/media/bar_chart_stacked.svg": "/static/media/bar_chart_stacked.9d615495a3a6bff0446929cb7c773021.svg",
+    "static/media/pie_chart.svg": "/static/media/pie_chart.d933a6c3ccfa3d392c0342a23fd7c6a7.svg",
+    "static/media/donut_chart.svg": "/static/media/donut_chart.8b2f5a1925a1b6083d1282201ef80770.svg",
+    "static/media/rose_chart.svg": "/static/media/rose_chart.bbfca605c40cae4e3a11dd7c64e040b5.svg",
+    "index.html": "/index.html",
+    "static/media/chart-control-icon.svg": "/static/media/chart-control-icon.2af300e034eae316017f675bbaf3fca1.svg",
+    "main.fb00fad7.css.map": "/static/css/main.fb00fad7.css.map",
+    "main.6899a963.js.map": "/static/js/main.6899a963.js.map",
+    "787.3a81f7d8.chunk.js.map": "/static/js/787.3a81f7d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb00fad7.css",
+    "static/js/main.6899a963.js"
+  ]
+}
