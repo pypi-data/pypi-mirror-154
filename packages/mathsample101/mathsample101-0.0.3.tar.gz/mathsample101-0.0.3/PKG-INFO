@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mathsample101
+Version: 0.0.3
+Summary: test description
+Home-page: https://github.com/username/repo.git
+Author: Watcharapong
+Author-email: w.wattcharapong@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+
+test long description
