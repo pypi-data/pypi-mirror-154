@@ -1,0 +1,5 @@
+relation_graph-0.1.0.dist-info/METADATA,sha256=QjqtnLmJx4Qu2pwQq_53x0-6DXSUgXVNCHkYcOHmwPM,472
+relation_graph-0.1.0.dist-info/WHEEL,sha256=NxOR4T2ZZJS6J1XLXjj9ueiEcBPlfmGIvfc3KPAClm0,105
+relation_graph_impl/__init__.py,sha256=hhvLKXGtXuimoqVd6OxJagf9NdzFwfDOjLBxNjfJydk,159
+relation_graph_impl/relation_graph_impl.cpython-39-darwin.so,sha256=hZjSRqaQfx9_3ibtf6N5rtSglXag3vgQfWq5Mw2A1qM,2258700
+relation_graph-0.1.0.dist-info/RECORD,,
