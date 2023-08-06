@@ -1,0 +1,3 @@
+[console_scripts]
+waylandmap = waylandmap.main:cli
+
