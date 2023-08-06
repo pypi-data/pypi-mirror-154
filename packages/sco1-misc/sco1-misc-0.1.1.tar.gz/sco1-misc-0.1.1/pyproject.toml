@@ -1,0 +1,79 @@
+[tool.poetry]
+name = "sco1-misc"
+version = "0.1.1"
+description = "A collection of miscellaneous helpers."
+authors = ["sco1 <sco1.git@gmail.com>"]
+
+readme = "README.md"
+homepage = "https://github.com/sco1/"
+repository = "https://github.com/sco1/misc"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Typing :: Typed",
+]
+
+include = [
+    {path = "./CHANGELOG.md", format = "sdist"}
+]
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/sco1/misc/issues"
+
+[tool.poetry.scripts]
+csvdatetrim = "sco1_misc.csv_date_trim:trim_cli"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1"
+
+[tool.poetry.dev-dependencies]
+black = {extras = ["jupyter"], version = "^22.3"}
+bump2version = "^1.0"
+flake8 = "^4.0"
+flake8-annotations = "^2.9"
+flake8-bugbear = "^22.4"
+flake8-docstrings = "^1.6"
+flake8-fixme = "^1.1"
+flake8-type-checking = {version="^1.5", python="<4.0"}
+isort = "^5.10"
+mypy = "^0.961"
+notebook = "^6.4"
+pep8-naming = "^0.13"
+pre-commit = "^2.19"
+pytest = "^7.1"
+pytest-check = "^1.0"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.12"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+case_sensitive = true
+known_first_party = "misc,tests"
+no_lines_before = "LOCALFOLDER"
+order_by_type = false
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+disallow_incomplete_defs = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[build-system]
+requires = ["poetry-core>=1.0.8"]
+build-backend = "poetry.core.masonry.api"
