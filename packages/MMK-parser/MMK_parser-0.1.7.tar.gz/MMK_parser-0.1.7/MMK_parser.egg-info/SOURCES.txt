@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+./MMK_parser/Iterator.py
+./MMK_parser/MWParser.py
+./MMK_parser/__init__.py
+./MMK_parser/api.py
+./MMK_parser/data.py
+./MMK_parser.egg-info/PKG-INFO
+./MMK_parser.egg-info/SOURCES.txt
+./MMK_parser.egg-info/dependency_links.txt
+./MMK_parser.egg-info/requires.txt
+./MMK_parser.egg-info/top_level.txt
