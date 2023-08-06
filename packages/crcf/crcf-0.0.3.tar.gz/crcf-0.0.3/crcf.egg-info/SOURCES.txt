@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+crcf/__init__.py
+crcf/forest.py
+crcf/rule.py
+crcf/tree.py
+crcf.egg-info/PKG-INFO
+crcf.egg-info/SOURCES.txt
+crcf.egg-info/dependency_links.txt
+crcf.egg-info/requires.txt
+crcf.egg-info/top_level.txt
