@@ -1,0 +1,12 @@
+2022-06-10 15:28:16,646 DEBUG Initializing HTTP session.
+2022-06-10 15:28:16,655 DEBUG Starting new HTTPS connection (1): api-testnet.bybit.com:443
+2022-06-10 15:28:17,275 DEBUG https://api-testnet.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
+2022-06-10 15:28:17,513 DEBUG https://api-testnet.bybit.com:443 "GET /v2/private/wallet/balance?api_key=RdHxmhZAaqqFn3aI19&recv_window=5000&timestamp=1654871297306&sign=29e6a26b513ec3e363641603965ef5c2623e9d7f435881fc5094149836762826 HTTP/1.1" 200 3336
+2022-06-10 15:30:34,705 DEBUG Initializing HTTP session.
+2022-06-10 15:30:34,709 DEBUG Starting new HTTPS connection (1): api-testnet.bybit.com:443
+2022-06-10 15:30:35,222 DEBUG https://api-testnet.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
+2022-06-10 15:30:35,559 DEBUG https://api-testnet.bybit.com:443 "GET /v2/private/wallet/balance?api_key=RdHxmhZAaqqFn3aI19&recv_window=5000&timestamp=1654871435374&sign=6803f7b2774460d3218181768a52a7b1159cfcbfa939c196f3b4e21929ffddd8 HTTP/1.1" 200 3336
+2022-06-10 15:55:57,836 DEBUG Initializing HTTP session.
+2022-06-10 15:55:57,840 DEBUG Starting new HTTPS connection (1): api-testnet.bybit.com:443
+2022-06-10 15:55:59,269 DEBUG https://api-testnet.bybit.com:443 "GET /v2/public/symbols HTTP/1.1" 200 None
+2022-06-10 15:55:59,734 DEBUG https://api-testnet.bybit.com:443 "GET /v2/private/wallet/balance?api_key=RdHxmhZAaqqFn3aI19&recv_window=5000&timestamp=1654872959516&sign=71005c89a602e319fb6f414bc110b290fa6ac2b5bb0bbc8dca90acbfa1ac8880 HTTP/1.1" 200 3336
