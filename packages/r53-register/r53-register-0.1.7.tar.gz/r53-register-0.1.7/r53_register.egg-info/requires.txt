@@ -1,0 +1,7 @@
+boto3
+dnspython
+netifaces
+requests
+
+[dev]
+twine
