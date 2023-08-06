@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: lockable.dev
+Version: 0.1.0
+Summary: Official Python client for https://lockable.dev
+Home-page: https://github.com/lockable-dev/lockable-py
+Author: lockable-dev
+Author-email: dev@lockable.dev
+Project-URL: Lockable website, https://lockable.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Lockable-dev
+Official Python client for https://lockable.dev
+
+Lockable is an easy-to-use, language-independent locking mechanism for multi-process workloads. Think of it as `flock`, but for distributed systems which may not be sharing a filesystem.
+
+## Learn more
+
+* Lockable website: https://lockable.dev
+* Docs: https://docs.lockable.dev
+* Docs on GitHub: https://github.com/lockable-dev/lockable-docs
+
+## Installation
+```
+pip install lockable-dev
+```
+
+## Usage
+```
+from lockable import Lock
+with Lock('my-lock-name'):
+    #do stuff
+```
+## Development
+
+### Testing
+```
+make test
+```
+
+### Building and pushing changes
+If you want to push to PiPy, credentials go in `.env.local`. See `.env.example` for a template.
+```
+# Just build
+make build
+
+#Build and upload latest version to TestPyPi
+make test-publish
+```
