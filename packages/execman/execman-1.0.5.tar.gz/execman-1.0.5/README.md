@@ -1,0 +1,5 @@
+# execman
+
+```py
+execman(['ls'])
+```
