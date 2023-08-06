@@ -1,0 +1,12 @@
+pinard/__init__.py,sha256=YGgeu1tBDTiiHbKl1TkbKHeb7CjnrObEQKS9Miv1iBU,22
+pinard/augmenter.py,sha256=QvzZRJ4nW2B3rasf2SCJ3xzoXilrmRNpCDgjvZ9Qi6Q,33908
+pinard/nirs_pipelines.py,sha256=afgk19jiddcJUnfP80rJ5iZIkBkaW172i8RXse0zVGQ,34927
+pinard/nirs_set.py,sha256=hOut6bV-ig-A3z_YPdy77QOerScAjEJ44i4iRMUrbP0,27551
+pinard/preprocessor.py,sha256=YxmwL3oI-g5QGH4luoqao3VxvuH5E6JYU4DzfcP7pK0,130011
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests_load.py,sha256=BiCJCuwoteSTNkYtCKNE8DbAAHHQMpqGf3FX3E7hKtA,728
+pinard-0.7.5.dist-info/METADATA,sha256=mdNcr2cITF5KSe6rLUJqiTgBbKIW-LwsIWORO8haswg,1511
+pinard-0.7.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pinard-0.7.5.dist-info/entry_points.txt,sha256=XtwvwYV2TVYqiqsDg9hkz7N3c2V1cTO01lznOg4LSKc,52
+pinard-0.7.5.dist-info/top_level.txt,sha256=nSPNYVK64yvH8WWltcHEqNesaR_FBbCSTK1cwO0rKF8,13
+pinard-0.7.5.dist-info/RECORD,,
