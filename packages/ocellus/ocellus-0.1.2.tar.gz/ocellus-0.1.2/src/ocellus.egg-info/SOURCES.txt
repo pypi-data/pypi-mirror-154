@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/ocellus/__init__.py
+src/ocellus/ocellus_dataflow_service_pb2.py
+src/ocellus/ocellus_dataflow_service_pb2_grpc.py
+src/ocellus/ocellus_module_service_pb2.py
+src/ocellus/ocellus_module_service_pb2_grpc.py
+src/ocellus/ocellus_types_pb2.py
+src/ocellus/ocellus_types_pb2_grpc.py
+src/ocellus.egg-info/PKG-INFO
+src/ocellus.egg-info/SOURCES.txt
+src/ocellus.egg-info/dependency_links.txt
+src/ocellus.egg-info/requires.txt
+src/ocellus.egg-info/top_level.txt
