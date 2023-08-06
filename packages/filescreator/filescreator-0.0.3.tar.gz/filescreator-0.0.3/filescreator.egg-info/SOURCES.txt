@@ -1,0 +1,5 @@
+setup.py
+filescreator.egg-info/PKG-INFO
+filescreator.egg-info/SOURCES.txt
+filescreator.egg-info/dependency_links.txt
+filescreator.egg-info/top_level.txt
