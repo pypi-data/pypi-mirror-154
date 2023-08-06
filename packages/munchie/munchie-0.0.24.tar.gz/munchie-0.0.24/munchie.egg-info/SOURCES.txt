@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+munchie/__init__.py
+munchie/__main__.py
+munchie/constants.py
+munchie.egg-info/PKG-INFO
+munchie.egg-info/SOURCES.txt
+munchie.egg-info/dependency_links.txt
+munchie.egg-info/requires.txt
+munchie.egg-info/top_level.txt
+munchie/filenom/__init__.py
+munchie/filenom/file_nom.py
+munchie/filenom/utils.py
