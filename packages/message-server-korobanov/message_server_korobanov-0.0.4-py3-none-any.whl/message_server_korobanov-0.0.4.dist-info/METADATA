@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: message-server-korobanov
+Version: 0.0.4
+Summary: message_server_korobanov_project
+Author: George Korobanov
+Author-email: georgekorob@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+###Сервер приложения для отправки и получения 
+      сообщений.
+
+
+Автор: Коробанов Георгий.
