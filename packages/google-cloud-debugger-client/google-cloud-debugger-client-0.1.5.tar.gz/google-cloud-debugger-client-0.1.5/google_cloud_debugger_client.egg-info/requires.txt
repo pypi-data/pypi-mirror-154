@@ -1,0 +1,5 @@
+google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5
+proto-plus<2.0.0dev,>=1.15.0
+packaging<22.0.0dev,>=14.3
+protobuf<4.0.0dev
+google-cloud-source-context<1.0.0dev,>=0.1.0
