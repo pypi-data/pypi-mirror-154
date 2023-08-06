@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: FantasticHelpers
+Version: 0.0.1
+Summary: This is a package for GNN learners.
+Home-page: https://github.com/fengh16/FantasticHelpers
+Author: Henry Fox
+Author-email: i@fhao.top
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch-geometric
+
+
+# Fantastic Helpers
+
+This is a package for GNN learners.
