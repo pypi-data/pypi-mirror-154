@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dvngrb-utils/__init__.py
+src/dvngrb-utils/awsUtils.py
+src/dvngrb-utils/utils.py
+src/utils_dvngrb.egg-info/PKG-INFO
+src/utils_dvngrb.egg-info/SOURCES.txt
+src/utils_dvngrb.egg-info/dependency_links.txt
+src/utils_dvngrb.egg-info/top_level.txt
