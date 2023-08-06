@@ -1,0 +1,10 @@
+injectme/__init__.py,sha256=kKz8wR7ZIgwHnjJLtyBTA9sASeaeDrn7WfQWyXErlME,682
+injectme/decorator.py,sha256=TTtVmw9Ni3NTcjp27tTC4TJNNeEUQt8paTk97nEftsA,1353
+injectme/errors.py,sha256=iPvnyRf08-z4V4FEpUwYSO71FsGTnF3Yqjd8yiwmn1M,665
+injectme/global_registry.py,sha256=_gtk2SSVbiJK8aiShAqt9Ys119cnHt_ftruY052zcOY,823
+injectme/registry.py,sha256=8TrpkkYqKRFxjLw9q-AGFSCqlKLGCzIAZr41vINwihg,1708
+injectme-0.0.4.dist-info/LICENSE,sha256=xsxWBQCCGwxIXffsqFyp_LN-5uxi8DMW1jHLfi0Acik,1520
+injectme-0.0.4.dist-info/METADATA,sha256=wFH9sSfeCNxQL5scyiCf0FDw0AMbEYY_yof8VwqSd00,1411
+injectme-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+injectme-0.0.4.dist-info/top_level.txt,sha256=zndy-TD84aven7l0znNedEns_EZc3tGu7YgazZlPJZY,9
+injectme-0.0.4.dist-info/RECORD,,
