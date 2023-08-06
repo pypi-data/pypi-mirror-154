@@ -1,0 +1,13 @@
+watson_jira_next/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+watson_jira_next/cli.py,sha256=Ns0S6-owiZzoj3CnwKTrhxitexvgzyKWZ9wqRAzFk-A,6748
+watson_jira_next/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+watson_jira_next/src/config.py,sha256=5REjywuoXiLXnV9XjQ7lxZpWveshPEMl8lLqCcn0LTs,2555
+watson_jira_next/src/jira.py,sha256=qUGg2-FDvriaUrE2_21FASAtqoxWUMCfbCE0rW6N2lI,2518
+watson_jira_next/src/mapper.py,sha256=S9UDrQL3qyvDLi_xaWj741DaJaomh0g1vlEqqZb80LI,2153
+watson_jira_next/src/watson.py,sha256=0uJBZYBRVGskhtPN7T1Hy_cWE0piU-tUncRBqayGgmw,1544
+watson_jira_next/tests/test_cli.py,sha256=YtPv9LZrMd4M3xO2Bi8a15D8_jICR-9U2Ku-DUFl-eQ,378
+watson_jira_next-0.3.3.dist-info/entry_points.txt,sha256=9gI9Is757ip9HEkm3yQsXf2Pkyq1zftZ_MpuO_IcF84,62
+watson_jira_next-0.3.3.dist-info/LICENSE,sha256=oQ5DKYnAyXAEEo9XQXB2-b_k1-XZ8nIw_OMjNdKWnvU,1072
+watson_jira_next-0.3.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+watson_jira_next-0.3.3.dist-info/METADATA,sha256=TOJHXzp28GVN3DC3dTqoZXmDDwJ-ADeXnGXieNiq6oU,4773
+watson_jira_next-0.3.3.dist-info/RECORD,,
