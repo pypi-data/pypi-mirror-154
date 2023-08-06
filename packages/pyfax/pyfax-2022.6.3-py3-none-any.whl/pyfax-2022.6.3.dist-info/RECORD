@@ -1,0 +1,11 @@
+pyfax/__init__.py,sha256=jp5qeKWguKJxVdY6tEg5QU5kptnSzlWhm0962yemI2E,130
+pyfax/_config.py,sha256=jWByTy_K4HE-BAIlbD2HNgWSzDobzvtk28XcDhOjpoI,759
+pyfax/page.py,sha256=TKi9RrwB55s0szUU_Mg567yc7Dwo7kqzzFbCPW_hbXA,10220
+pyfax/version.py,sha256=mQts73-Bn2u1bXtwM0st95C8AoVevwm4J0RHi1RGEH8,44
+pyfax/tools/__init__.py,sha256=EbjSlMeEL1WZlKH57mwV-dYxuojk3v1R4SB2vQfapTg,13
+pyfax/tools/url_helpers.py,sha256=jUMlPAO8WMPrcKE9rLqUAkksKgGX7EynMg-vFEzlA8I,1446
+pyfax-2022.6.3.dist-info/LICENSE,sha256=fw644X1vge4N4axnVigoEv1nNriO591RBDasmV3fUWI,1072
+pyfax-2022.6.3.dist-info/METADATA,sha256=8QhMpLogr5nNuc-EnymCPLWEt8CtSzUhGesfMsz-sZY,1752
+pyfax-2022.6.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfax-2022.6.3.dist-info/top_level.txt,sha256=6TnVlQ2ZSW28dRaBPFmd56Um9iKZ9P1mPeK974Nuvb8,6
+pyfax-2022.6.3.dist-info/RECORD,,
