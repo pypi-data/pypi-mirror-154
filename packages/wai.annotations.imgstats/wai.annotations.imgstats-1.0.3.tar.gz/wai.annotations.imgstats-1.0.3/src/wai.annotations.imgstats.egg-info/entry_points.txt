@@ -1,0 +1,6 @@
+[wai.annotations.plugins]
+area-histogram-is = wai.annotations.imgstats.format.areahistogram.specifier:AreaHistogramISOutputFormatSpecifier
+area-histogram-od = wai.annotations.imgstats.format.areahistogram.specifier:AreaHistogramODOutputFormatSpecifier
+label-dist-ic = wai.annotations.imgstats.format.labeldist.specifier:LabelDistributionICOutputFormatSpecifier
+label-dist-is = wai.annotations.imgstats.format.labeldist.specifier:LabelDistributionISOutputFormatSpecifier
+label-dist-od = wai.annotations.imgstats.format.labeldist.specifier:LabelDistributionODOutputFormatSpecifier
