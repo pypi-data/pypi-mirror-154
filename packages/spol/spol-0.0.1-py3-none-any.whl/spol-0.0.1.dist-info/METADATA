@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: spol
+Version: 0.0.1
+Summary: Pakistan Sindh Police
+Author: siphr
+Author-email: pypi@techtum.dev
+Project-URL: Homepage, https://www.techtum.dev/work-spcs-220121.html#work-spol-220121
+Project-URL: Source, https://github.com/siphr/spol
+Project-URL: Tracker, https://github.com/siphr/spol/issues
+Keywords: pakistan,sindh,police,complaint,query,search,units
+Platform: any
+
+spol
+====
+
+A package to check various functions offered by Sindh Police.
+
+
+Details
+-------
+
+Taps into the Sindh Police database.
+
+Package Usage
+-------------
+
+import spol
+
+\# check complaint
+
+spol.check_complaint(1)
+
+spol.list_hospitals()
+
+spol.list_units()
+
+spol.list_unit(3)
