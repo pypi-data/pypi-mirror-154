@@ -1,0 +1,4 @@
+pyteomics
+lxml
+numpy
+jinja2>=3.1
