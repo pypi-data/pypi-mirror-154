@@ -1,0 +1,10 @@
+[run]
+source =
+    pydanticprotobuf
+    tests
+
+omit =
+    *__init__.py
+    tests/protobuf/*
+
+parallel = True
