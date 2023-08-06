@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: lazy-constructs
+Version: 0.0.6
+Summary: lazy-constructs
+Home-page: https://github.com/lazinessdevs/lazy-constructs.git
+Author: Marcio Almeida<marcioadev@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/lazinessdevs/lazy-constructs.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib (<3.0.0,>=2.27.0)
+Requires-Dist: constructs (<11.0.0,>=10.0.5)
+Requires-Dist: jsii (<2.0.0,>=1.60.1)
+Requires-Dist: publication (>=0.0.3)
+
+# lazy-constructs
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+[![codecov](https://codecov.io/gh/lazinessdevs/lazy-constructs/branch/main/graph/badge.svg?token=U1R3MKJWJO)](https://codecov.io/gh/lazinessdevs/lazy-constructs)
+
+[![NPM version](https://img.shields.io/npm/v/lazy-constructs?label=pypi%20package&color=brightgreen)](https://badge.fury.io/js/lazy-constructs)
+[![PyPI version](https://img.shields.io/pypi/v/lazy-constructs?label=pypi%20package&color=brightgreen)](https://badge.fury.io/py/lazy-constructs)
+[![NuGet version](https://img.shields.io/nuget/v/LazyConstructs?label=nuget%20package&color=brightgreen)](https://badge.fury.io/nu/LazyConstructs)
+[![Maven Central](https://img.shields.io/maven-central/v/com.lazinessdevs/lazyconstructs.svg?label=maven%20central&color=brightgreen)](https://search.maven.org/search?q=g:%22com.lazinessdevs%22%20AND%20a:%22lazy-constructs%22)
+
+[![release](https://github.com/lazinessdevs/lazy-constructs/actions/workflows/release.yml/badge.svg)](https://github.com/lazinessdevs/lazy-constructs/actions/workflows/release.yml)
+
+
