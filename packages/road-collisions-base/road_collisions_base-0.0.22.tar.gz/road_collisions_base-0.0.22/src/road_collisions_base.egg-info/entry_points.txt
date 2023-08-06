@@ -1,0 +1,2 @@
+[console_scripts]
+load_road_collisions = road_collisions_base.bin.load:main
