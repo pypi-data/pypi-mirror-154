@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/edulint/.pylintrc
+src/edulint/__init__.py
+src/edulint/__main__.py
+src/edulint/edulint.py
+src/edulint/explanations.py
+src/edulint/process_handler.py
+src/edulint.egg-info/PKG-INFO
+src/edulint.egg-info/SOURCES.txt
+src/edulint.egg-info/dependency_links.txt
+src/edulint.egg-info/requires.txt
+src/edulint.egg-info/top_level.txt
