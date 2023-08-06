@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+legalnlp/__init__.py
+legalnlp/clean_functions.py
+legalnlp/get_premodel.py
+legalnlp/mask_functions.py
+legalnlp.egg-info/PKG-INFO
+legalnlp.egg-info/SOURCES.txt
+legalnlp.egg-info/dependency_links.txt
+legalnlp.egg-info/requires.txt
+legalnlp.egg-info/top_level.txt
