@@ -1,0 +1,135 @@
+import json
+
+import requests
+
+DATASET_LIST_URI = "/images/account/{accountId}/datasets"
+DATASET_DELETE_URI = ""
+DATASET_DETAILS_URI = ""
+DATASET_CREATE_URI = ""
+DATASET_MERGE_URI = ""
+API_KEY = "zaCELgL.0imfnc8iBLWwsAawjYr4Rx-Af50DDqtl"
+
+serverUrl="http://ec2co-ecsel-120oaoc0msxmg-363566620.us-east-1.elb.amazonaws.com:8081/"
+#serverUrl="http://localhost:8081/"
+
+def generate_access_token_from_config_file():
+    pass
+
+def generate_access_token_from_apikey():
+    tokenUrl=serverUrl+"admin/validate/apikey/"+API_KEY
+    response = requests.get(tokenUrl)
+    return response.json()
+
+
+def dataset_list():
+    #TODO for now just get accountid from apikey??? or some other way
+    accces_token = generate_access_token_from_apikey()
+    accountId=accces_token["accountId"]
+    accessType=accces_token["accessList"]
+    if not 'read' in accessType:
+        return "API does not have the read access"
+    if(accountId==None):
+        return "Invalid API key"
+    auth_headers = {'Authorization': 'Bearer '+accountId}
+    url=serverUrl+"images/account/"+accountId+"/datasets"
+    response = requests.get(url, headers=auth_headers)
+    return response.json()
+
+
+def dataset_delete(dataset_id, dataset_name):
+    accces_token = generate_access_token_from_apikey()
+    if dataset_id != None:
+        auth_headers = {'Authorization': 'Bearer '+accces_token}
+        response = requests.get(DATASET_DELETE_URI, headers=auth_headers)
+        return response
+    elif dataset_name != None:
+        auth_headers = {'Authorization': 'Bearer '+accces_token}
+        response = requests.get(DATASET_DELETE_URI, headers=auth_headers)
+        return response
+
+
+def dataset_create(dataset_name, create_options):
+    accces_token = generate_access_token_from_apikey()
+    auth_headers = {'Authorization': 'Bearer '+accces_token}
+    response = requests.get(DATASET_CREATE_URI, headers=auth_headers)
+    return response
+
+
+def dataset_merge(dataset_id_list, dataset_name_list,name):
+    accces_token = generate_access_token_from_apikey()
+    accountId = accces_token["accountId"]
+    accessType = accces_token["accessList"]
+    if not 'write' in accessType:
+        return "API does not have the read access"
+    if (accountId == None):
+        return "Invalid API key"
+    if(len(dataset_id_list) >0):
+        print("Inn")
+        auth_headers = {'Authorization': 'Bearer '+accountId}
+        data = {'datasetIdsTobeMerged': dataset_id_list,'newDatasetName':name,'accountId':accountId}
+        headers = {'Content-Type': 'application/json'}
+
+        url = serverUrl + "dataset/mergedatasets"
+        print(url)
+        response = requests.post(url, headers={"content-type":"application/json"}, data=json.dumps(data))
+        return response
+    if (len(dataset_name_list) > 0):
+        print("Inn")
+        auth_headers = {'Authorization': 'Bearer ' + accountId}
+        data = {'datasetNamesTobeMerged': dataset_name_list, 'newDatasetName': name, 'accountId': accountId}
+        headers = {'Content-Type': 'application/json'}
+
+        url = serverUrl + "dataset/cli/mergedatasetsbyname"
+        print(url)
+        response = requests.post(url, headers={"content-type": "application/json"}, data=json.dumps(data))
+        return response
+
+def dataset_details(dataset_name,dataset_id):
+    accces_token = generate_access_token_from_apikey()
+    accountId = accces_token["accountId"]
+    accessType = accces_token["accessList"]
+    if not 'read' in accessType:
+        return "API does not have the read access"
+    if (accountId == None):
+        return "Invalid API key"
+    if dataset_id != "None":
+        auth_headers = {'Authorization': 'Bearer '+accountId}
+        url=serverUrl+"dataset/cli/account/"+accountId+"/"+dataset_id
+        response = requests.get(url, headers=auth_headers)
+        return response.json()
+    elif dataset_name != "None":
+        print(dataset_name)
+        print(accountId)
+        auth_headers = {'Authorization': 'Bearer '+accountId}
+        data = {'name': dataset_name}
+        url = serverUrl + "dataset/cli/account/" + accountId
+        response = requests.get(url, headers={'Content-Type': 'application/json' }, json=data)
+        return response.json()
+
+def search_details(phrase):
+    print(phrase)
+    accces_token = generate_access_token_from_apikey()
+    accountId = accces_token["accountId"]
+    accessType = accces_token["accessList"]
+    if not 'read' in accessType:
+        return "API does not have the read access"
+    if (accountId == None):
+        return "Invalid API key"
+    auth_headers = {'Authorization': 'Bearer ' + accountId}
+    data = {'queryphrase': phrase,'accountId':accountId,'pagenum':1}
+    url = serverUrl + "search/images/1/account/"+accountId
+    response = requests.post(url, params=data)
+    return response.json()
+
+def containerList():
+    accces_token = generate_access_token_from_apikey()
+    accountId = accces_token["accountId"]
+    accessType = accces_token["accessList"]
+    if not 'read' in accessType:
+        return "API does not have the read access"
+    if (accountId == None):
+        return "Invalid API key"
+    auth_headers = {'Authorization': 'Bearer ' + accountId}
+    url = serverUrl + "cloudstorage/account/"+accountId+"/cloudlist"
+    response = requests.get(url, headers=auth_headers)
+    return response.json()

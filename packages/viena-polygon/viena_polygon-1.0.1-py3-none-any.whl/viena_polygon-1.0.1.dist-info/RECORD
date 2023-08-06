@@ -1,0 +1,15 @@
+polygon/__init__.py,sha256=UvjoLHUx-Qyr1Y4SYp2_8DqBId_w_JhVQgtIUHbnfMc,385
+polygon/__main__.py,sha256=oY0aXtAldBoh9eIIUl2xh0jrzNqLPdlGlbW5B1Ux4rQ,268
+polygon/cli.py,sha256=Cg3MK3xLgGYlmRJ6UOhO8ABKdtYw6MrHZ35qJk7f-Q4,1854
+polygon/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polygon/container.py,sha256=RbIvEB5WtZDHcZvjugQ63y4hRFllVYmavk2Serol30U,624
+polygon/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polygon/dataset.py,sha256=xSZAhT2LPSzq2o6coABWq3I_qaAu5LYW_pS-FVRRvC0,2743
+polygon/rest_connect.py,sha256=nyq2_r7JfQn_POSjh7_3ZzhNuLS7Aoc2DUysnbVs9wA,5284
+polygon/search.py,sha256=mSCTQWjYuz8nuTyg4eFX_rsK1j9lg7bBr9pOQTaZbPU,603
+viena_polygon-1.0.1.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+viena_polygon-1.0.1.dist-info/METADATA,sha256=Fp0_hoo1kWF1Fm0FXzSZb7du8FYHxOmjGR2B3jGm0ik,1508
+viena_polygon-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+viena_polygon-1.0.1.dist-info/entry_points.txt,sha256=LMxblsn8ccfT9Sc9VE0B7C2iU_UIwY39P07oc0KKcjo,41
+viena_polygon-1.0.1.dist-info/top_level.txt,sha256=UOE3M6KfdU8s-cMuGf5aYSrxoBpTYAS4nrxktKAV-bU,8
+viena_polygon-1.0.1.dist-info/RECORD,,
