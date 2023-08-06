@@ -1,0 +1,12 @@
+badger_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+badger_proxy/badger.py,sha256=Oh-YIX3LIMRXagZ3C4wYx1E0dtqcsaCljzCexYt5fR4,1820
+badger_proxy/cli.py,sha256=2tCg8CYTuKOpeQpolfXSFbOBqkXkhfACFzIdZyp9Qis,1307
+badger_proxy/proxy/__init__.py,sha256=XT-CFVUCUSfap4Eb7WPr68y22O8oubQbs2FUbpBx_tI,21
+badger_proxy/proxy/handler.py,sha256=J7fMIVgzkpNpTTSm-4QxOEcUfX0jhcWgWkKGld-yaOI,1096
+badger_proxy/proxy/proxy.py,sha256=dBEHarifYm3XQCJvHz1BkMGxDr5gXkNifQSrMO4JJs4,1279
+badger_proxy/utilities.py,sha256=HKw9MBEd0eWNlPKKwlh-csceU-tvq6lKw3xbiOJGB6o,1215
+badger_proxy-0.1.9.dist-info/entry_points.txt,sha256=I6S0mBx3_694yYGq4PUYEW8hMZ-NHJ6weG2rGCzz0Ao,50
+badger_proxy-0.1.9.dist-info/LICENSE,sha256=nOdydNMylnV60KrWxby1IZXNs9ScjxA-KhzPS3ShJIc,1068
+badger_proxy-0.1.9.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+badger_proxy-0.1.9.dist-info/METADATA,sha256=lHSgq7yfQpSzulYWiufxSU8g_EdYwLxo4ljLe4rxEv0,1603
+badger_proxy-0.1.9.dist-info/RECORD,,
