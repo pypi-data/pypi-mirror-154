@@ -1,0 +1,3 @@
+[console_scripts]
+pylambdautility = lambdautility.__main__:main
+

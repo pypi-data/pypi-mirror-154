@@ -1,0 +1,6 @@
+boto3
+cx-Oracle
+PyMySQL
+pytz
+requests
+SQLAlchemy
