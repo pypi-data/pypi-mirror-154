@@ -1,0 +1,4 @@
+apache-airflow>=2.2.0.rc2
+elasticsearch-dbapi
+elasticsearch-dsl>=5.0.0
+elasticsearch>7
