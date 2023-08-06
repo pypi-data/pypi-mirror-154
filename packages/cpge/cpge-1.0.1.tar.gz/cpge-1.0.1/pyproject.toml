@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cpge"
+version = "1.0.1"
+description = "Fonctions pour le cours d'informatique commune en CPGE"
+authors = ["Quentin Fortier <qpfortier@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/fortierq/itc-code"
+repository = "https://github.com/fortierq/itc-code"
+keywords = ["itc", "graphe", "cpge", "mpsi", "pcsi", "cours"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.4"
+matplotlib = "^3.5.2"
+jupyter = "^1.0.0"
+networkx = "^2.8.3"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
