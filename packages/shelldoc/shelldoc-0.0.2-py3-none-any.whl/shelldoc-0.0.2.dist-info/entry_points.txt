@@ -1,0 +1,2 @@
+[console_scripts]
+shelldoc = shelldoc.shelldoc:main

@@ -1,0 +1,12 @@
+shelldoc/__init__.py,sha256=dDT3E9tKFLVr6w1D6KFsDkeaxkw6PDtfS-V2arvCnkE,69
+shelldoc/_version.py,sha256=L32H5pg1KsyHHCU3rB3nevCNslCwn4aOAuIib68v_EM,61
+shelldoc/shelldoc.py,sha256=W_xl_uQzHDJR5TWMJMg4hjgzRQZRy_Tg4DPXxee5ki8,3337
+shelldoc/google_style/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shelldoc/google_style/bashdoc.py,sha256=Dcr7ZkmHm8gcftKXSsVsNPLBQRdfdScD_KUWcVcsOcI,8028
+shelldoc/google_style/lexer.py,sha256=iSFGVwrLsEiYAADFBpreMo3VdHn_3wzORm8dKpKAXJo,5686
+shelldoc/google_style/parser.py,sha256=QkI0t21oxZVpJw5dks28J8BCIvQ7Ye2lbNP4qZH72Og,6294
+shelldoc-0.0.2.dist-info/METADATA,sha256=1QES3moRp16ynMdTOvKc9VEbssIw02-eGA-1T5MP_aA,1514
+shelldoc-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shelldoc-0.0.2.dist-info/entry_points.txt,sha256=_-118-T-CS-kI4YEr6cW-rWXqb3Vcfi7TsOeSIhxVx8,52
+shelldoc-0.0.2.dist-info/top_level.txt,sha256=CQv9OGs5SFzkE_2_WjXVLxEpnjw5jHTx2kV8rA1iIqE,9
+shelldoc-0.0.2.dist-info/RECORD,,
