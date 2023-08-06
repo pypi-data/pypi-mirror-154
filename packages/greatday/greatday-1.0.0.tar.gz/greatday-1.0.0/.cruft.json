@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/python-boltons/cc-python",
+  "commit": "4e0a8f622f41f01ab28a11d155a6706761a62165",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author": "Bryan M Bugyi",
+      "email": "bryanbugyi34@gmail.com",
+      "github_username": "bbugyi200",
+      "git_org_name": "bbugyi200",
+      "git_repo_name": "greatday",
+      "package_name": "greatday",
+      "pypi_package_name": "greatday",
+      "read_the_docs_domain": "greatday",
+      "package_description": "Don't have a good day. Have a great day.",
+      "package_type": "application",
+      "_template": "https://github.com/python-boltons/cc-python",
+      "package_path": "greatday",
+      "package_module": "greatday"
+    }
+  },
+  "directory": null
+}
