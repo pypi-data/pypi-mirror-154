@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/measured/__init__.py
+src/measured/py.typed
+src/measured.egg-info/PKG-INFO
+src/measured.egg-info/SOURCES.txt
+src/measured.egg-info/dependency_links.txt
+src/measured.egg-info/requires.txt
+src/measured.egg-info/top_level.txt
