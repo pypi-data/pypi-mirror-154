@@ -1,0 +1,10 @@
+pandas
+
+[dev]
+black
+coverage
+pylint
+pytest
+sphinx
+twine
+wheel
