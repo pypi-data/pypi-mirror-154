@@ -1,0 +1,2 @@
+[jupyter_serverproxy_servers]
+xprahtml5 = jupyter_xprahtml5_proxy:setup_xprahtml5
