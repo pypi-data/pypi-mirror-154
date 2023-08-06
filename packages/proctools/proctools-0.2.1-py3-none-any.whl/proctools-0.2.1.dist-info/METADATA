@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: proctools
+Version: 0.2.1
+Summary: ProcTools - Common tools for (ExoMars) data product processing software
+Home-page: https://github.com/ExoMars-PanCam/proctools
+License: MIT
+Keywords: processing,PDS4,ExoMars
+Author: Ariel Ladegaard
+Author-email: arl13@aber.ac.uk
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Utilities
+Provides-Extra: cli
+Requires-Dist: importlib-metadata (>=3.7.3,<4.0.0); python_version < "3.8"
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: passthrough (==0.3.2)
+Requires-Dist: pds4-tools (>=1.2,<2.0)
+Requires-Dist: typer (>=0.3.2,<0.5.0); extra == "cli"
+Project-URL: Repository, https://github.com/ExoMars-PanCam/proctools
