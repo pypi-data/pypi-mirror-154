@@ -1,0 +1,9 @@
+pylamine-0.2.0.dist-info/METADATA,sha256=vNyJX2eponTo9dkQf_v_iyMnpDPcnvQ6BUS7GVR02vQ,1109
+pylamine-0.2.0.dist-info/WHEEL,sha256=CuQZAUtUQXKjiGO9boJX-4xKImFfCCh_DilOQ1C9pFk,104
+pylamine/error.py,sha256=n0J8cvL-mEhDqn1q02vb2KHRTM10GnGXAieiVrmSxto,172
+pylamine/io.py,sha256=d7MWESYZQrJakz2XTfT7D74s4exrekDh_p8Mw6O8YFY,2062
+pylamine/__init__.py,sha256=gZ3Me-dtaO_FeYLYw_STYBuQQQTin9_75ezVXQcv3Yg,189
+pylamine/type.py,sha256=LIYuenVFzTPctQFP62-4EzhkYVJrCTXMxKBFXNonLOo,408
+pylamine/utils.py,sha256=QgGMtfLhsYNci5oYrbpuL-kjP3YwvAnAjtgyYXLE3WM,233
+pylamine/pylamine.cpython-39-darwin.so,sha256=uCeocwj9-aeFC1r52i5ZLNbca1fnLwNz9tvO7jy7FWU,951098
+pylamine-0.2.0.dist-info/RECORD,,
