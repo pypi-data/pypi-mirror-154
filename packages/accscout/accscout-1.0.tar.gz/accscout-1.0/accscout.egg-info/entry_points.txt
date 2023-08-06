@@ -1,0 +1,3 @@
+[console_scripts]
+accscout = accscout.__main__:main
+
