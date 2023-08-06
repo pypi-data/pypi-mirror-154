@@ -1,0 +1,2 @@
+[console_scripts]
+rob = roberto.__main__:main
