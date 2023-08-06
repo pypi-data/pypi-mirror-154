@@ -1,0 +1,2 @@
+[console_scripts]
+pyrelgraph=relation_graph.runner:main
