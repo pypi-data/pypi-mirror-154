@@ -1,0 +1,9 @@
+namegeneratormodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+namegeneratormodule/database.py,sha256=vkFr19EQvOZWKGpjCaRsrcG4JQ-Zt0rPbFe1IYtmtlE,600
+namegeneratormodule/inserting.py,sha256=0vtjNlDvd8Suk4kITmG3XFNsItj-HS841CXicWI5MrY,855
+namegeneratormodule/main.py,sha256=S89GbX9G4ZQ2s11k1gm819kpQ8ZjSSb8wnxGYC7J0oU,268
+namegeneratormodule/name.py,sha256=06t44sNOZrqwOW-4iKMa9TdKI5_vOjEG0OqX5byzMc8,242
+namegeneratormodule-0.0.3.dist-info/METADATA,sha256=keJw-nZMVsP9poKXg6Eue5TFZf53LPGT4jl_2b9QJHw,547
+namegeneratormodule-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+namegeneratormodule-0.0.3.dist-info/top_level.txt,sha256=b1x39mG7eFGAoQUewx2XfXH8p00f5ECGmxOHpyJpofs,20
+namegeneratormodule-0.0.3.dist-info/RECORD,,
