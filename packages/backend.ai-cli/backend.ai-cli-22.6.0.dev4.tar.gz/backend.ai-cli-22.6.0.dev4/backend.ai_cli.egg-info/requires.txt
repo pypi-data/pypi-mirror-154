@@ -1,0 +1,3 @@
+backend.ai-plugin==22.06.0.dev4
+click>=7.1.2
+types-click
