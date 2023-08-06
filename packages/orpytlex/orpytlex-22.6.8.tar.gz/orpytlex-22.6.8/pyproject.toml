@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "orpytlex"
+version = "22.06.08"
+description = "Simple project description - Our Python Tool Example"
+authors = ["Tadeusz Miszczyk <tadeusz.miszczyk@server.com>"]
+homepage = "http://github.com/8tm/orpytlex"
+documentation = "https://test.pypi.org/project/orpytlex"
+repository = "http://github.com/8tm/orpytlex"
+readme = "README.md"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: Unix",
+]
+
+
+[tool.poetry.dependencies]
+python = '^3.7'
+requests = '^2.27.1'
+# mypyliex = '^22.6.9'
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.3"
+pytest = "^6.0.1"
+
+
+[tool.poetry.scripts]
+orpytlex_downloader = 'orpytlex.main:main'
+
+
+# [tool.mypy]
+# ignore_missing_imports = true
+# warn_unused_configs = true
+# disallow_untyped_decorators = true
+# no_implicit_optional = true
+# warn_redundant_casts = true
+# strict_equality = true
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
