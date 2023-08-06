@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: orpytlex
+Version: 22.6.8
+Summary: Simple project description - Our Python Tool Example
+Home-page: http://github.com/8tm/orpytlex
+Author: Tadeusz Miszczyk
+Author-email: tadeusz.miszczyk@server.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Documentation, https://test.pypi.org/project/orpytlex
+Project-URL: Repository, http://github.com/8tm/orpytlex
+Description-Content-Type: text/markdown
+
+# OrPyTlEx README file
