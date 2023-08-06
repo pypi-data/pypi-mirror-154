@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+rendergraphapi/__init__.py
+rendergraphapi/render_graph_api.py
+rendergraphapi/schema.py
+rendergraphapi.egg-info/PKG-INFO
+rendergraphapi.egg-info/SOURCES.txt
+rendergraphapi.egg-info/dependency_links.txt
+rendergraphapi.egg-info/not-zip-safe
+rendergraphapi.egg-info/requires.txt
+rendergraphapi.egg-info/top_level.txt

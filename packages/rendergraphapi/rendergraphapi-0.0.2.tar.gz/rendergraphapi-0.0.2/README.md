@@ -1,0 +1,29 @@
+# Render.com Graph API
+
+Uses undocumented/unofficial graph API used at https://dashboard.render.com/ to get data which are not available via the [official API](https://render.com/docs/api).
+
+Currently supports getting databases and downloading db backups.
+
+### Login
+
+Use same login credentials as at https://dashboard.render.com/  
+To get OTP secret, either export the secret from your authenticator app or disable/re-enable 2FA and get secret from the QR code.
+
+# Usage
+
+```python
+from rendergraphapi.render_graph_api import RenderGraphApi
+
+api = RenderGraphApi(
+    email='you@example.com',
+    password='your password',
+    otp_secret='your OTP secret',
+)
+api.login()
+
+teams = api.get_teams()
+
+databases = api.get_databases(owner_id=teams[0].id)
+backups = api.get_database_backups(database_id=databases[0].id)
+bytes_io_db_data = backups[0].download_sql()
+```
