@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mypyliex
+Version: 22.6.8
+Summary: Short project description - this is example of simple library
+Home-page: https://github.com/8tm/mypyliex
+Author: Tadeusz Miszczyk
+Author-email: tadeusz.miszczyk@email.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7.0
+Provides-Extra: test
+Provides-Extra: tools

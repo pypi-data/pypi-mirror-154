@@ -1,0 +1,16 @@
+
+[test]
+flake8==3.8.3
+flake8-commas==2.0.0
+flake8-import-order==0.18.1
+flake8-quotes==3.2.0
+pytest==6.0.1
+pytest-cov==2.10.0
+pytest-mock==3.2.0
+pytest-random-order==1.0.4
+pytest-xdist==1.29.0
+pytest-parallel
+mypy==0.812
+
+[tools]
+pip-search==0.0.7
