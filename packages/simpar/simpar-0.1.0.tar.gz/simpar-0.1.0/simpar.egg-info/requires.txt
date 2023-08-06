@@ -1,0 +1,13 @@
+numpy>=1.21
+pandas>=1.2
+matplotlib>=3.3
+scipy>=1.6
+pyyaml>=5.4
+json5>=0.9.5
+
+[dev]
+pytest>=5
+mock>=3
+coverage>=4.5
+tox>=3
+flake8>=3.9
