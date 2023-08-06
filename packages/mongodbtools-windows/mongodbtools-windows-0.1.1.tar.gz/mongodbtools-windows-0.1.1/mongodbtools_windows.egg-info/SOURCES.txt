@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+mongodbtools/mongodump.exe
+mongodbtools/mongorestore.exe
+mongodbtools_windows.egg-info/PKG-INFO
+mongodbtools_windows.egg-info/SOURCES.txt
+mongodbtools_windows.egg-info/dependency_links.txt
+mongodbtools_windows.egg-info/top_level.txt
