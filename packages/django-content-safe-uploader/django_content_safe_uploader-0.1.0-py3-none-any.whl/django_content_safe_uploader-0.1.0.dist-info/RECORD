@@ -1,0 +1,10 @@
+django_content_safe_uploader/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_content_safe_uploader_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_content_safe_uploader_demo/settings.py,sha256=Qjti_DPbnitY6JKrtoxkORDWAbWBFOnPh6oheGqwgFI,3262
+django_content_safe_uploader_demo/urls.py,sha256=FawlTfw_p1ZNxdwllzoNjl3hZXZCmMFZxSVsoFOJs2Q,775
+django_content_safe_uploader_demo/wsgi.py,sha256=D-EEVQaydBF2EQC3_RkliiQfCxifUoxQAgPoooQL3o8,443
+django_content_safe_uploader-0.1.0.dist-info/LICENSE,sha256=21FAXX8iSO4jv5T55zF_LCBAO55XDNzyEzkd4Lvl1-8,1067
+django_content_safe_uploader-0.1.0.dist-info/METADATA,sha256=PnYfNos6e26B05QHlm8ePyrqjGt5lE1YBg8q7IS1O-4,1737
+django_content_safe_uploader-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_content_safe_uploader-0.1.0.dist-info/top_level.txt,sha256=_xpopq3B8cwGnyJsr5hD7Q3OsBysZbkeX20PCDHGUNQ,63
+django_content_safe_uploader-0.1.0.dist-info/RECORD,,

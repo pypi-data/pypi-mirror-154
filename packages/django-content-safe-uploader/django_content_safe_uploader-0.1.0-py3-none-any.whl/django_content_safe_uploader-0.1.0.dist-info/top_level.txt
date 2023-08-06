@@ -1,0 +1,2 @@
+django_content_safe_uploader
+django_content_safe_uploader_demo
