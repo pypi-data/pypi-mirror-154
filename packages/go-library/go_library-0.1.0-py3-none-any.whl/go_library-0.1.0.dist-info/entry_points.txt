@@ -1,0 +1,4 @@
+[console_scripts]
+amigo=go_library.amigo_solr.amigo_cli:main
+gocam=go_library.gocam_cli:main
+
