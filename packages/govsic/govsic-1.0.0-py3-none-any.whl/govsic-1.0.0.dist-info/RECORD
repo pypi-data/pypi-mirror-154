@@ -1,0 +1,12 @@
+govsic/__init__.py,sha256=NHhFiookMChMNybaWhkK2NpKDhhSX9pJibqUT81FxGk,55
+govsic/constants.py,sha256=v0q6kiLXzzmCDhKGA3Y8zDp07yPBw5cq5adG7vRt3M8,514
+govsic/exceptions.py,sha256=dJB8uXyKXiaRvQs6wwGZruPCEUPpfcThMuIeaY6c7O4,172
+govsic/sic.py,sha256=QYDe-cPD4WPI-WGsgXR-Gkd71wftZh4FbwCFmWNSM0M,1392
+govsic/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govsic/data/glossary.py,sha256=SlLAtzuD3qi4IQe-nB8JdcvpQ3eyobEbo2wMPmOQCQU,776279
+govsic/data/sections.py,sha256=NXCxTnTSrgIDF-DJV9B0fn-1aPb3ScaDv1zGir60qgI,23664
+govsic-1.0.0.dist-info/LICENSE,sha256=em6vQ0oyVIlAAJ6k5vw6mCgSyLa2MCiMUoPnHO6OUmw,1073
+govsic-1.0.0.dist-info/METADATA,sha256=9LtXGU3cd_jy-rvUzHxeac-XKmyk9UHJ3d8ZNnWGeLE,1829
+govsic-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+govsic-1.0.0.dist-info/top_level.txt,sha256=B8-DES2GnfjWbRJsz1m7YFeFVnJwqFPu6TaJcH7rC_w,7
+govsic-1.0.0.dist-info/RECORD,,
