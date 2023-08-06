@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+simplicialx/__init__.py
+simplicialx.egg-info/PKG-INFO
+simplicialx.egg-info/SOURCES.txt
+simplicialx.egg-info/dependency_links.txt
+simplicialx.egg-info/top_level.txt
