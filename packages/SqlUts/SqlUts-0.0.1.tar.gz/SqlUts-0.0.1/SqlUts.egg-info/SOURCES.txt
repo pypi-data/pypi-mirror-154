@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+commands.txt
+setup.py
+SqlUts/__init__.py
+SqlUts.egg-info/PKG-INFO
+SqlUts.egg-info/SOURCES.txt
+SqlUts.egg-info/dependency_links.txt
+SqlUts.egg-info/top_level.txt

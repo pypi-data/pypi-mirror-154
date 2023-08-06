@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: SqlUts
+Version: 0.0.1
+Summary: Sql Uts package
+Home-page: UNKNOWN
+Author: Melque Lima
+Author-email: melque_ex@yahoo.com.br
+License: MIT
+Description: # Sql Uts
+        #
+        ### Installation
+        
+        ```sh
+        pip install SqlUts
+        ```
+        
+        Change Log
+        ==========
+        
+        0.0.1 (2022-05-25)
+        ------------------
+        - First Release
+Keywords: SqlUts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
