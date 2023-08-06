@@ -1,0 +1,6 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_project_generation.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cookiecutter_fastapi-0.1.1.dist-info/LICENSE,sha256=l1tIkt_VftfoOJlTn59wzpYc4YzQKTx3hgBGFQsE3j4,1068
+cookiecutter_fastapi-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cookiecutter_fastapi-0.1.1.dist-info/METADATA,sha256=KwY8MCDxG__4fw2cz8J6qWoe2NqsIhr2uCb2JM_dhUA,5337
+cookiecutter_fastapi-0.1.1.dist-info/RECORD,,
