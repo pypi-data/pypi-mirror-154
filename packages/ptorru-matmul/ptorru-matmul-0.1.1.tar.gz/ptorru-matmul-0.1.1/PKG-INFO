@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ptorru-matmul
+Version: 0.1.1
+Summary: Learning how to publish in PyPi through a generic implementation of matrix multiplication
+Home-page: https://github.com/ptorru/ptorru-matmul
+License: MIT
+Author: Pedro Torruella
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Project-URL: Documentation, https://github.com/ptorru/ptorru-matmul/blob/main/README.md
+Project-URL: Repository, https://github.com/ptorru/ptorru-matmul
+Description-Content-Type: text/markdown
+
+# ptorru-matmul
+
+Learning about pipy, distributing a simple matrix multiply example
+
+# Dependencies
+
+[Poetry](https://python-poetry.org), [installation instructions](https://python-poetry.org/docs/).
+
+# After clonning
+
+```bash
+cd ptorru-matmul
+poetry init
+```
+
+# Running tests
+
+```bash
+poetry run pytest tests/
+```
+
+# Publishing
+
+## Setup PyPI token
+
+```bash
+poetry config pypi-token.pypi <TOKEN>
+```
+
+## Build and Publish
+
+```bash
+poetry build
+poetry publish
+```
+
+# References
+
+Consulted these resources:
+
+- [Utpal Kumar, The easiest way to publish a python package on PyPI using Poetry](https://www.earthinversion.com/utilities/easiest-way-to-publish-a-python-package-using-poetry/)
+
