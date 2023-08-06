@@ -1,0 +1,11 @@
+README.md
+setup.py
+openapi_django/__init__.py
+openapi_django/collectors.py
+openapi_django/decorators.py
+openapi_django/generators.py
+openapi_django/objects.py
+openapi_django.egg-info/PKG-INFO
+openapi_django.egg-info/SOURCES.txt
+openapi_django.egg-info/dependency_links.txt
+openapi_django.egg-info/top_level.txt
