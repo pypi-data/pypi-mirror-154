@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pytest_regex_dependency.py
+src/pytest_regex_dependency.egg-info/PKG-INFO
+src/pytest_regex_dependency.egg-info/SOURCES.txt
+src/pytest_regex_dependency.egg-info/dependency_links.txt
+src/pytest_regex_dependency.egg-info/entry_points.txt
+src/pytest_regex_dependency.egg-info/requires.txt
+src/pytest_regex_dependency.egg-info/top_level.txt
