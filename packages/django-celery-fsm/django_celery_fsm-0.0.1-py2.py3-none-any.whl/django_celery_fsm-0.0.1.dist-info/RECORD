@@ -1,0 +1,10 @@
+django_celery_fsm/__init__.py,sha256=q0HRn3BpTsUxGBH1auql_PZTy3_T99ECZKCW4n_nqzU,216
+django_celery_fsm/discovery.py,sha256=uejSAdKmanDa0Gw5trbE-16dGGAw6gCtjpxO5yNMHhs,789
+django_celery_fsm/fsm.py,sha256=VQYeVHmqBUD5aXUMChjz0_90epKux4ZSImjRToT4zwk,3497
+django_celery_fsm/models.py,sha256=v7GCRD8sr3j9y0lrIVWybrq8ZiY83Qqi94DgtIuV81c,391
+django_celery_fsm/tasks.py,sha256=rYALqN4C8vybc3uFBlqOwaQIh2Jch9BRRPVflCxDbhw,2414
+django_celery_fsm-0.0.1.dist-info/LICENSE,sha256=3EwetI0k23MU13VrAXTFPdq8xQC8yCuKWYjWbcqNano,1075
+django_celery_fsm-0.0.1.dist-info/METADATA,sha256=MQcoBi4ZwksgB0_M_Jvzb7Pj8t8O5RGulnlJBWdpw5s,762
+django_celery_fsm-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_celery_fsm-0.0.1.dist-info/top_level.txt,sha256=AmzoI1rdh35b73_v_j_GK18BkNddfVH-35l3R6xJrWs,18
+django_celery_fsm-0.0.1.dist-info/RECORD,,
