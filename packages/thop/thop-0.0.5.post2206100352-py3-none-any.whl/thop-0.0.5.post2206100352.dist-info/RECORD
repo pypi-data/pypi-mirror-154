@@ -1,0 +1,17 @@
+thop/__init__.py,sha256=Fv4FjPXMvAe8DyWpKlAQUpG9gzEU9KLyW8ihzi3w22M,160
+thop/fx_profile.py,sha256=rW5MUu-kgathC3l0eNPSXUff5oVYQvlri6_SCS1J3-E,7158
+thop/onnx_profile.py,sha256=40bvYW2EH5dumKMLUsNM4Q8XHrqFmLH2WCECawQ5FA4,2497
+thop/profile.py,sha256=hubGHenrXTd6DDIMrXt1QEam_CTm83ISZ1OzdCZov_8,8038
+thop/rnn_hooks.py,sha256=Z2UAd5un75qvBG4OGAsmBIhUpvuyJWe-zxZI2PRpHb0,5621
+thop/utils.py,sha256=GAScvMXpJWyQInbJtUZH7Wk8xLyBx5kRogYZkwX-pIs,1429
+thop/vision/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thop/vision/basic_hooks.py,sha256=G90jq-kleP2c6u5gK3L1Zlds45UJGxDEbOqF48k1MMc,3546
+thop/vision/counter.py,sha256=8_9Gw5l9Qbg_q2anid9xa-yoAq8eZjhCzWKqNCPwr9Q,2150
+thop/vision/efficientnet.py,sha256=RXI5kYM6Wfuv9IfgyhMTPpHHQApeOMBvHLqEKeajHnw,220
+thop/vision/onnx_counter.py,sha256=BnwPj2R6lKwnr3rFkgQTaRCg9w0dbezG_N7GvlQdBXQ,11241
+thop-0.0.5.post2206100352.dist-info/LICENSE,sha256=NvV3rSiPG-roGItuwJgI6u0njAi4KEusxpS7Vv-_Pfw,1067
+thop-0.0.5.post2206100352.dist-info/METADATA,sha256=i5imjrPKf68G_KWuchQji_vqXpaq24pakq5GOQidMsU,2734
+thop-0.0.5.post2206100352.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+thop-0.0.5.post2206100352.dist-info/top_level.txt,sha256=HQ7D0gSvDJ31CNR-f0EuXNVve05RYBmwyIkHQKiEhU8,5
+thop-0.0.5.post2206100352.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+thop-0.0.5.post2206100352.dist-info/RECORD,,
