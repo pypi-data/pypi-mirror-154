@@ -1,0 +1,9 @@
+numpy
+plotnine==0.7.1
+matplotlib
+seaborn
+tldextract
+nltk
+ipywidgets
+ipython
+scikit-misc
