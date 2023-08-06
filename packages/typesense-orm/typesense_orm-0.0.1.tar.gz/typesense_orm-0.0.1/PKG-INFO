@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: typesense_orm
+Version: 0.0.1
+Summary: A typesense-server client using orm paradigm based on pydantic
+Home-page: https://github.com/RedSnail/typesense_orm
+Author: Oleg Demianchenko
+Author-email: oleg.demianchenko@gmail.com
+License: MIT
+Platform: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Typesense-orm
+This is an ORM client for typesense-server. It is still under construction (now only write operations work)
+### Installation
+
+### Description
+This client has aiohttp under the hood, but you can specify a mode (see example) and work in either a synchronized manner, or in an async mode.<br/>
+The ORM is based on pydantic here (actually models are inherited from pydantic base model with some methods overriden). (to be continued)
+
