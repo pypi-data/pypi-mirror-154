@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/domsync/__init__.py
+src/domsync/components.py
+src/domsync/core.py
+src/domsync/domsync_server.py
+src/domsync/version.py
+src/domsync.egg-info/PKG-INFO
+src/domsync.egg-info/SOURCES.txt
+src/domsync.egg-info/dependency_links.txt
+src/domsync.egg-info/not-zip-safe
+src/domsync.egg-info/requires.txt
+src/domsync.egg-info/top_level.txt
