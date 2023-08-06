@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+EGL_ML_CHALLENGE.egg-info/PKG-INFO
+EGL_ML_CHALLENGE.egg-info/SOURCES.txt
+EGL_ML_CHALLENGE.egg-info/dependency_links.txt
+EGL_ML_CHALLENGE.egg-info/top_level.txt
+src/__init__.py
+src/auth.py
+src/benchmark.py
+src/main.py
+src/simple_linear_regr.py
+src/simple_linear_regr_utils.py
+src/test_main.py
