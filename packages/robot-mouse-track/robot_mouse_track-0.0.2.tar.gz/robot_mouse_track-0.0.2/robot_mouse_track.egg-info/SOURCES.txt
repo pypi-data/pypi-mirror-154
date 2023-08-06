@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+robot_mouse_track.egg-info/PKG-INFO
+robot_mouse_track.egg-info/SOURCES.txt
+robot_mouse_track.egg-info/dependency_links.txt
+robot_mouse_track.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mouse_track.py
+tests/trace_example.py
