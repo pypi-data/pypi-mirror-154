@@ -1,0 +1,6 @@
+apache-airflow>=2.2.0.rc2
+apache-beam>=2.39.0
+
+[google]
+apache-airflow-providers-google
+apache-beam[gcp]
