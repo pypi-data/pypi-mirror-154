@@ -1,0 +1,9 @@
+setup.py
+namegeneratormodule/__init__.py
+namegeneratormodule/database.py
+namegeneratormodule/inserting.py
+namegeneratormodule/name.py
+namegeneratormodule.egg-info/PKG-INFO
+namegeneratormodule.egg-info/SOURCES.txt
+namegeneratormodule.egg-info/dependency_links.txt
+namegeneratormodule.egg-info/top_level.txt
