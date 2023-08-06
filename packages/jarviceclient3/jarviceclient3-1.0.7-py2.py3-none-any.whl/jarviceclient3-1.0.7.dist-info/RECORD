@@ -1,0 +1,10 @@
+jarviceclient/JarviceAPI.py,sha256=KrBvn8QPl7bq9kWZnU7-22EuaKNwGRZY8EsQxrirKz4,13099
+jarviceclient/__init__.py,sha256=cxbeaCOQjYHnoQ3jBgkq5tlPxgG_YcC_gWoeIexAv2w,1851
+jarviceclient/exceptions.py,sha256=H0mPplhNqufWKP97VpQhfvZEoGitC0BMPHrngUXRLb0,1688
+jarviceclient/utils.py,sha256=Co89saT56m0mIX6OyxS1hpomEsYmJp28SydKGgWyfTs,16804
+jarviceclient3-1.0.7.data/scripts/jarvice_cli,sha256=7gF37ztjovHc8T4po9wvg4W1AHr4_oPAknoL4bNF5OQ,15472
+jarviceclient3-1.0.7.dist-info/LICENSE.md,sha256=QpEdyXVrYtat4sb4rtnSe8YnV8H8BRfXFqpJQTA4iqQ,1543
+jarviceclient3-1.0.7.dist-info/METADATA,sha256=JOfbd4RMBUgUDsKpEhw4F7TrD3ktU-RdZ8tVNaQO6mA,4029
+jarviceclient3-1.0.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+jarviceclient3-1.0.7.dist-info/top_level.txt,sha256=rMkrOj7GmiSE8NP2RjJck3hNMfVbfQtre0Ml44zfx2M,14
+jarviceclient3-1.0.7.dist-info/RECORD,,
