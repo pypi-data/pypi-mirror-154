@@ -1,0 +1,15 @@
+tskit>=0.4.0
+tsinfer>=0.2.0
+flake8
+numpy
+tqdm
+daiquiri
+msprime>=1.0.0
+scipy
+codecov
+numba==0.53.1
+appdirs
+pre-commit
+pytest
+pytest-xdist
+pytest-cov
