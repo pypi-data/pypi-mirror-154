@@ -1,0 +1,3 @@
+[console_scripts]
+typora-upload = typora_upload.main:main
+
