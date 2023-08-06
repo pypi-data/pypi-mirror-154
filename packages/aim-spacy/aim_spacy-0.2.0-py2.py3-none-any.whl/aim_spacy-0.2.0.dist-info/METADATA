@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aim-spacy
+Version: 0.2.0
+Summary: Aim-spaCy integration
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: html2image
+Requires-Dist: spacy
+Requires-Dist: tqdm
+Requires-Dist: aim
+Requires-Dist: svglib
+Requires-Dist: lxml
+Requires-Dist: pillow
+Requires-Dist: reportlab
+
+Aim-spaCy integration
+
+
