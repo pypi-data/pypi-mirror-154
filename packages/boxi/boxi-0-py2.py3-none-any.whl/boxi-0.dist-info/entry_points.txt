@@ -1,0 +1,3 @@
+[console_scripts]
+boxi=boxi.__main__:main
+
