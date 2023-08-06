@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: defn
+Version: 0.0.1a7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cdktf-cdktf-provider-aws (==8.0.3)
+Requires-Dist: cdktf-cdktf-provider-digitalocean (==0.1.10)
+Requires-Dist: cdktf-cdktf-provider-github (==0.8.11)
+Requires-Dist: cdktf-cdktf-provider-null (==0.7.10)
+Requires-Dist: cdktf-cdktf-provider-tfe (==0.3.10)
+Requires-Dist: cdktf (==0.11.1)
+Requires-Dist: constructs (==10.1.25)
+Requires-Dist: defn-cdktf-provider-boundary (==0.4.1)
+Requires-Dist: defn-cdktf-provider-buildkite (==0.4.1)
+Requires-Dist: defn-cdktf-provider-cloudflare (==0.4.1)
+Requires-Dist: defn-cdktf-provider-vault (==0.4.1)
+Requires-Dist: typer (==0.4.1)
+
+UNKNOWN
+

@@ -1,0 +1,14 @@
+defn/VERSION,sha256=Ap1RcsjxYuNd_s1H6BHi9dBDV5E5MER45KbsYBxW3nI,8
+defn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defn/cli.py,sha256=BqLNzd02imK5zoRIIfw1hnUDhu-9IX0H5M1RrVpTPUA,2347
+defn/init.py,sha256=-hNhlIk1qOD5Rmx-0i0skZys3bmDZJvkNZwJBjqRL7A,202
+defn/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defn/aws/organizations.py,sha256=yfjubulVNt-uJyXhT1Y1Xkfjs_1P6fWE5cuBWeULWsE,3292
+defn/aws/sso.py,sha256=Mup-QxSnVK5hRYVzicbK5jVBr4ruoHEMWOFUvIf8TLM,878
+defn/aws/stack.py,sha256=2xArQbDk2OzLp41jHJn3HiVavEfZh52alW_voQ3oyUM,734
+defn-0.0.1a7.dist-info/METADATA,sha256=OUZ-HiDGnwOTR7oNgsrJyQlyC4Cn5MvpimL0qJosclQ,715
+defn-0.0.1a7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+defn-0.0.1a7.dist-info/entry_points.txt,sha256=F_KJ-GV1b6sch6pXoQgDkeiHUF47D93UKllmdedI8z4,40
+defn-0.0.1a7.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+defn-0.0.1a7.dist-info/top_level.txt,sha256=ZEmURb-qH8Ji2XgMLvBVpjYSfbkDNrOXzMd-IbCNtNc,5
+defn-0.0.1a7.dist-info/RECORD,,
