@@ -1,0 +1,9 @@
+httpx
+googletrans==3.1.0a0
+SpeechRecognition
+termcolor
+keyboard
+piexif
+pydub
+pygame
+pywin32

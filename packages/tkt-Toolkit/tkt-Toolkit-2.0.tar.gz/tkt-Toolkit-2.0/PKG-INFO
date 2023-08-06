@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tkt-Toolkit
+Version: 2.0
+Summary: Useful collection of python packages and scripts.
+Home-page: https://github.com/MOBSkuchen/tkt-Toolkit
+Author: Suprime
+Author-email: suprime.sendings@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: license
+
+Python package collection, including tracking functionalities.
