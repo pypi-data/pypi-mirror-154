@@ -1,0 +1,53 @@
+import setuptools
+
+# 第三方依赖包及版本
+requires = [
+    'aiohttp>=3.6.2',
+    'akshare>=1.6.15',
+    'beautifulsoup4>=4.11.1',
+    'better_exceptions>=0.3.3',
+    'chardet>=3.0.4',
+    'colorama>=0.4.1',
+    '#Cython>=3.0.0a10',
+    'demjson>=2.2.4',
+    'easyutils>=0.1.7',
+    'grpcio>=1.46.3',
+    'httpx>=0.23.0',
+    'matplotlib>=3.5.2',
+    'mysql_connector_repackaged>=0.3.1',
+    'mysql-connector-python>=8.0.29',
+    'numpy>=1.17.4',
+    'pandas>=0.25.3',
+    'protobuf>=4.21.1',
+    'psutil>=5.9.1',
+    'pycryptodome>=3.14.1',
+    'pymongo>=4.1.1',
+    'PyMySQL>=0.9.2',
+    'python_dateutil>=2.8.2',
+    'redis>=4.3.3',
+    'requests>=2.22.0',
+    'scipy>=1.8.1',
+    'stompest>=2.3.0',
+    'Twisted>=22.4.0',
+    'urllib3>=1.25.7',
+    'xlrd>=2.0.1',
+    'yarl>=1.3.0'
+]
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
+setuptools.setup(name='tmqc',
+    version='0.1.9',
+    description='tian ma quant cloud',
+    author='tmqc',
+    author_email='tmqc@gmail.com',
+    url="https://github.com/tmqc/tmqc",
+    license='LGPT',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    packages=setuptools.find_packages(),
+    python_requires='==3.7',
+    install_requires = requires,
+    include_package_data=True,
+    zip_safe=False)
