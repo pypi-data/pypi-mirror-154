@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+license
+readme.md
+setup.py
+psalaunch/__init__.py
+psalaunch.egg-info/PKG-INFO
+psalaunch.egg-info/SOURCES.txt
+psalaunch.egg-info/dependency_links.txt
+psalaunch.egg-info/requires.txt
+psalaunch.egg-info/top_level.txt
