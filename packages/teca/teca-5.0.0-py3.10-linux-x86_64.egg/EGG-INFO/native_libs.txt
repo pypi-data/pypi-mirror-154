@@ -1,0 +1,7 @@
+teca/_teca_py.so
+teca/libhamr.so
+teca/libteca_alg.so
+teca/libteca_core.so
+teca/libteca_data.so
+teca/libteca_io.so
+teca/libteca_system.so
