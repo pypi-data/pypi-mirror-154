@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/colored_python/__init__.py
+src/colored_python/colored.py
+src/colored_python.egg-info/PKG-INFO
+src/colored_python.egg-info/SOURCES.txt
+src/colored_python.egg-info/dependency_links.txt
+src/colored_python.egg-info/top_level.txt
