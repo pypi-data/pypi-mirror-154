@@ -1,0 +1,4 @@
+
+recursive-include QTFITIT_example_IHS500 *.txt
+recursive-include QTFITIT_example_IHS729 *.txt
+recursive-include QTFITIT_example_Fephen3 *.txt

@@ -1,0 +1,13 @@
+file_energy$QTFITIT_example_Fephen3/Fephen3_Energy.txt$                          input file name of energy(eV)
+file_x$QTFITIT_example_Fephen3/Fephen3_bond_3ligand.txt$                               input file name of parameters
+file_y$QTFITIT_example_Fephen3/Fephen3_xmu.txt$                              input file name of X-ray absorption spectra
+file_exp$QTFITIT_example_Fephen3/exp_excited.txt$                                input file name of experiment spectrum
+fmodel$tmp.pkl$                                                 input file name of machine learning model XXX.pkl
+e1$7100$                                                        plot Energy range from e1 to e2,
+e2$7200$                                                        plot Energy range,for instance Fe XANES from 7100eV to 7200eV 
+norm$1$                                                        normalization factor,in this FDMNES example is 33. 
+npar$3$                                                         structure parameter number
+par_a$1.8,1.8,1.8$                                           structure parameter lower bound,   float array of size npar
+par_b$2.2,2.2,2.2$                                              structure parameter upper bound,   float array of size npar
+x0$2.0,2.0,2.0$                                                 structure parameter initial value, float array of size npar
+par_name$Phen1_Shift,Phen2_Shift,Phen3_Shift$    structure parameter name, string array of size npar

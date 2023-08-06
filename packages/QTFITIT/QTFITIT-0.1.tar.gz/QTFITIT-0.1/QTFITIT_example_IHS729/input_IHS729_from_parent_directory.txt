@@ -1,0 +1,13 @@
+file_energy$QTFITIT_example_IHS729/IHS_729_energy.txt$
+file_x$QTFITIT_example_IHS729/IHS_729_params.txt$
+file_y$QTFITIT_example_IHS729/IHS_729_mu_conv.txt$  
+file_exp$QTFITIT_example_IHS729/exp_excited.txt$
+fmodel$tmp.pkl$ 
+e1$7100$
+e2$7200$  
+norm$33$
+npar$6$
+par_a$-0.3,-0.3,-0.3,-0.3,-0.3,-0.3$
+par_b$0.5,0.5,0.5,0.5,0.5,0.5$
+x0$0.2,0.2,0.2,0.2,0.2,0.2$
+par_name$centralRing1_Shift,centralRing2_Shift,sideRings1_Elong,sideRings1_Shift,sideRings2_Elong,sideRings2_Shift$
