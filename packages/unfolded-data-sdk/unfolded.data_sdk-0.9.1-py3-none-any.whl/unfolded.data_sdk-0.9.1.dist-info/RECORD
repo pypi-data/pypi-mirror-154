@@ -1,0 +1,13 @@
+unfolded/data_sdk/__init__.py,sha256=M-Vqnri6BkfuF1oxy_o7Zz_ZvWOAP6-VsrRUDcUV6qc,83
+unfolded/data_sdk/_query.py,sha256=iyvmqvDg7EmPLu8RMjb3cXXSw0_RHQP5HsyZTgN9Hjs,12862
+unfolded/data_sdk/cli.py,sha256=pVdnmX9dyGMjg3QkxfewYKpIlLsU9t7Tc-h8TD5vb3I,11435
+unfolded/data_sdk/data_sdk.py,sha256=PWwKZBvoeQECmOxo593rLGr2nnOdFemEYKxTMc4Detk,41475
+unfolded/data_sdk/enums.py,sha256=95p40XbD2k-lO4Jp6FMZdAhhqUsxCyiUFNNsmct_LAU,1892
+unfolded/data_sdk/errors.py,sha256=YkQ2eeYedo5UHVIJyYWRrkiffKuablGI189_P0kKy-4,369
+unfolded/data_sdk/models.py,sha256=rcQJMba4UYQFRu9wy2oH8Z5goL8hjGIYFQB-x946YDI,7439
+unfolded/data_sdk/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unfolded/data_sdk/utils.py,sha256=oXkA5cJPMu0pOeq2pul8XNzk2CrlcPq1Ly7I1_qODqI,2066
+unfolded.data_sdk-0.9.1.dist-info/entry_points.txt,sha256=KOsl-sdcGJjV5aAZqtrX3D4D0r570EvaDomz5tf6vaE,58
+unfolded.data_sdk-0.9.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+unfolded.data_sdk-0.9.1.dist-info/METADATA,sha256=RkL9Wzgjr6ge_7RbAbm7KFoBymMDyrA-aMDfaQs9wGo,1281
+unfolded.data_sdk-0.9.1.dist-info/RECORD,,
