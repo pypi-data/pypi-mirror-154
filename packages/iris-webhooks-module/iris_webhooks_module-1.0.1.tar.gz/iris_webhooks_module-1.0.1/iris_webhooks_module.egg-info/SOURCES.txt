@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+iris_webhooks_module/IrisWebHooksConfig.py
+iris_webhooks_module/IrisWebHooksInterface.py
+iris_webhooks_module/__init__.py
+iris_webhooks_module.egg-info/PKG-INFO
+iris_webhooks_module.egg-info/SOURCES.txt
+iris_webhooks_module.egg-info/dependency_links.txt
+iris_webhooks_module.egg-info/top_level.txt
