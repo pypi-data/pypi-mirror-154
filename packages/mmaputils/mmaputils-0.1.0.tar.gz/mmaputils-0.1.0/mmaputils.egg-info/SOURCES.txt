@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mmaputils/__init__.py
+mmaputils/mmapcursor.py
+mmaputils.egg-info/PKG-INFO
+mmaputils.egg-info/SOURCES.txt
+mmaputils.egg-info/dependency_links.txt
+mmaputils.egg-info/top_level.txt
