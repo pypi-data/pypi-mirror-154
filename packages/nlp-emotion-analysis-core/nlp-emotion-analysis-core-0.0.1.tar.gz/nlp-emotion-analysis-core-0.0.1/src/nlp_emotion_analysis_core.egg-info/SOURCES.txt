@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nlp_emotion_analysis_core/__init__.py
+src/nlp_emotion_analysis_core/emotion.py
+src/nlp_emotion_analysis_core.egg-info/PKG-INFO
+src/nlp_emotion_analysis_core.egg-info/SOURCES.txt
+src/nlp_emotion_analysis_core.egg-info/dependency_links.txt
+src/nlp_emotion_analysis_core.egg-info/top_level.txt
