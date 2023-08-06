@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+journalizeio/__init__.py
+journalizeio/client.py
+journalizeio.egg-info/PKG-INFO
+journalizeio.egg-info/SOURCES.txt
+journalizeio.egg-info/dependency_links.txt
+journalizeio.egg-info/requires.txt
+journalizeio.egg-info/top_level.txt
