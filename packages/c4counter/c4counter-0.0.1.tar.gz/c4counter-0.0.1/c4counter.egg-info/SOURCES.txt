@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+c4counter/__init__.py
+c4counter/_c4counter.py
+c4counter/minimapcut.py
+c4counter/paf.py
+c4counter.egg-info/PKG-INFO
+c4counter.egg-info/SOURCES.txt
+c4counter.egg-info/dependency_links.txt
+c4counter.egg-info/entry_points.txt
+c4counter.egg-info/requires.txt
+c4counter.egg-info/top_level.txt
+c4counter/data/C4A.fa
+c4counter/data/__init__.py
