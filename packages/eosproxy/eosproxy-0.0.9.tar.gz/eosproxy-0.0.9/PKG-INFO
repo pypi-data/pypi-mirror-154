@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eosproxy
+Version: 0.0.9
+Summary: Python eos API with proxy
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Keywords: eos wax
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing :: Linguistic
+
+Python library for the eos.io REST API with proxy
+
