@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/strading/__init__.py
+src/strading/example.py
+src/systematic_trading.egg-info/PKG-INFO
+src/systematic_trading.egg-info/SOURCES.txt
+src/systematic_trading.egg-info/dependency_links.txt
+src/systematic_trading.egg-info/top_level.txt
