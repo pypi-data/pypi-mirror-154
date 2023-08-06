@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: searchallpdf
+Version: 0.1.0
+Summary: Search for terms in all pdf in current and sub folders.
+Home-page: https://github.com/casiez/searchallpdf
+Author: Géry Casiez
+Author-email: gery.casiez@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pdfminer
+Requires-Dist: argparse
+
+# searchallpdf
+
+Command line to search in pdf files
+## Install
+```pip install searchallpdf --upgrade```
+
+## Features
+
+Run ```searchallpdf -h``` to show all the options available.
+
+### Search in all pdf files in current and sub folders
+
+```searchallpdf termTofind1 termTofind2```
+
+### Search in one pdf file
+
+```searchallpdf -f file.pdf termTofind1 termTofind2```

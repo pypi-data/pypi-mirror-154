@@ -1,0 +1,69 @@
+#!python
+# -*coding: utf-8 -*
+
+# Gery Casiez
+# June 2021
+
+from pdfminer.layout import LAParams, LTTextBox
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfinterp import PDFResourceManager
+from pdfminer.pdfinterp import PDFPageInterpreter
+from pdfminer.converter import PDFPageAggregator
+import re
+import argparse
+import os
+
+def cleantext(text):
+    return text.replace("´e", "é").replace("`e", "è").replace("ˆe", "ê").\
+            replace("`a", "à").replace("ˆı", "î").replace("-\n", "").\
+            replace("\n", " ").replace("¨e", "ë")
+
+def searchInFile(file, searchterms):
+    fp = open(file, 'rb')
+    rsrcmgr = PDFResourceManager()
+    laparams = LAParams()
+    device = PDFPageAggregator(rsrcmgr, laparams=laparams)
+    interpreter = PDFPageInterpreter(rsrcmgr, device)
+    pages = PDFPage.get_pages(fp)
+
+    countpg=0
+
+    for page in pages:
+        countpg += 1
+        interpreter.process_page(page)
+        layout = device.get_result()
+
+        for lobj in layout:
+            if isinstance(lobj, LTTextBox):
+                found = False
+                for word in searchterms:
+                    x, y, text = lobj.bbox[0], lobj.bbox[3], cleantext(lobj.get_text())
+                    ResSearch = re.search(word.lower(), text.lower())
+                    found = found or bool(ResSearch)
+                if found:
+                    print("Page %s"%(countpg))
+                    s = text
+                    for word in searchterms:
+                        parts = re.split(word, s, flags=re.IGNORECASE)
+                        s2 = "\033[45;30m%s\033[m"%word
+                        s = s2.join(parts)
+                    print(s)
+                    print()    
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description='searchallpdf')
+    parser.add_argument('-f', help = 'pdf file. Search in all pdf in current and subfolders if option not defined.')
+    parser.add_argument('terms', help='list of search terms', nargs='*')
+    args = parser.parse_args()
+
+    if args.f == None:
+        for path, subdirs, files in os.walk('.'):
+            for name in files:
+                f = os.path.join(path, name)
+                if f[-4:] == '.pdf':
+                    print("> %s"%f)
+                    searchInFile(f, args.terms)
+    else:
+        if args.f[-4:] == '.pdf':
+            searchInFile(args.f, args.terms)
