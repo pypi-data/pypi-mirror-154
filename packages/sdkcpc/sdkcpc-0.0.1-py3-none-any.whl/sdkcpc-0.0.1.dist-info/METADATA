@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sdkcpc
+Version: 0.0.1
+Summary: SDK for Programing Basic in SO Windows, Linux and OSX
+Home-page: https://github.com/destroyer-dcf/sdkcpc
+Author: Destroyer
+Author-email: <destroyer.dcf@gmail.com>
+Project-URL: Bug Tracker, https://github.com/destroyer-dcf/sdkcpc/issues
+Keywords: executable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: datetime
+Requires-Dist: ipaddress
+Requires-Dist: pyyaml
+Requires-Dist: jinja2
+Requires-Dist: tabulate
+Requires-Dist: inquirer
+
+### sdkcpc
