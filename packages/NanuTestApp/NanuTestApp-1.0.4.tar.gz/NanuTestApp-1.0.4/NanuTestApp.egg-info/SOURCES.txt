@@ -1,0 +1,9 @@
+README.md
+setup.py
+NanuTestApp.egg-info/PKG-INFO
+NanuTestApp.egg-info/SOURCES.txt
+NanuTestApp.egg-info/dependency_links.txt
+NanuTestApp.egg-info/requires.txt
+NanuTestApp.egg-info/top_level.txt
+pubapp/__init__.py
+pubapp/logger.py
