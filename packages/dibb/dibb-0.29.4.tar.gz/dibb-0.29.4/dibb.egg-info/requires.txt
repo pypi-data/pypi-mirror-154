@@ -1,0 +1,13 @@
+numpy
+psutil
+ray[default]
+
+[all]
+cma
+lmmaes
+
+[cma]
+cma
+
+[lmmaes]
+lmmaes
