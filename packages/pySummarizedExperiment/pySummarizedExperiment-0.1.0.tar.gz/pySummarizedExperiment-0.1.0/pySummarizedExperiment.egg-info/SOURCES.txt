@@ -1,0 +1,9 @@
+README.md
+setup.py
+pySummarizedExperiment/init.py
+pySummarizedExperiment/pySummarizedExperiment.py
+pySummarizedExperiment.egg-info/PKG-INFO
+pySummarizedExperiment.egg-info/SOURCES.txt
+pySummarizedExperiment.egg-info/dependency_links.txt
+pySummarizedExperiment.egg-info/requires.txt
+pySummarizedExperiment.egg-info/top_level.txt
