@@ -1,0 +1,14 @@
+cython~=0.29
+numpy~=1.19
+pandas~=1.3
+scikit-learn~=1.0
+scikit-bio~=0.5
+biopython~=1.78
+changepoint-cython~=0.1
+
+[dev]
+pytest~=6.2
+black~=21.12b0
+flake8~=3.8
+pylint~=2.6
+pre-commit~=2.7
