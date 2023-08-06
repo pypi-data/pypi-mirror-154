@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=58.0", "cython>=0.29.0"]
+
+[tool.pytest.ini_options]
+addopts = "--tb=native -ra"
+testpaths = ["tests"]
+
+[tool.black]
+line-length = 79
+target-version = ["py310"]
+extend-exclude = """
+^/src/third_party/
+"""
+
+[tool.isort]
+profile = "black"
+line_length = 79
+extend_skip = ["src/third_party/"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_unused_configs = true
+warn_return_any = true
+check_untyped_defs = true
