@@ -1,0 +1,5 @@
+argparse==1.4.0
+mangadex==2.5.2
+py-manga==0.2.3
+typedate==1.1.1
+myanimelist-downloader==0.0.9
