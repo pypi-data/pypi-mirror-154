@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+corescan_plotting.egg-info/PKG-INFO
+corescan_plotting.egg-info/SOURCES.txt
+corescan_plotting.egg-info/dependency_links.txt
+corescan_plotting.egg-info/top_level.txt
+src/__init__.py
+src/ct.py
+src/linescan.py
+src/strat.py
+src/xrf.py
