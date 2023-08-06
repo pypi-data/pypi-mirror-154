@@ -1,0 +1,2 @@
+[console_scripts]
+xebec = xebec.cli.cli:xebec
