@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pytest-unflakable
+Version: 0.1.1
+Summary: Unflakable plugin for PyTest
+Home-page: https://unflakable.com
+Author: Unflakable
+Author-email: support@unflakable.com
+Maintainer: Unflakable
+Maintainer-email: support@unflakable.com
+License: MIT
+Project-URL: Repository, https://github.com/unflakable/unflakable-python
+Project-URL: Documentation, https://docs.unflakable.com/plugins/pytest
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest (>=6.2.0)
+Requires-Dist: requests (>=2.19.0)
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-quotes ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest-xdist (>=2.0.0) ; extra == 'dev'
+Requires-Dist: requests-mock[fixture] ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: types-setuptools ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+
