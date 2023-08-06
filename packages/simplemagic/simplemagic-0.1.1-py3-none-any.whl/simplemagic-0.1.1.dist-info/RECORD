@@ -1,0 +1,13 @@
+simplemagic/__init__.py,sha256=Al9FV2QoM2ccQ8ZwYtuCOeQ-v8SG9YUTDJw6w34T5Ig,384
+simplemagic/cli.py,sha256=I_z_xhv_d-IEy0T4HqR_8y27ZcAmPZIN_Q9AoiwNqbg,911
+simplemagic/extra_mimetypes.py,sha256=wB2dxP6SmHt3Ho7SloJdOuC44WOzJvW9-xGBt6NQ4N8,4271
+simplemagic/fixmagic.py,sha256=hTXA2WFkLZDn-kweUxECDWbr2H_U-8348lGQiaW--oc,382
+simplemagic/fixpuremagic.py,sha256=agrCtU_yeZh_aMBO4_jSRDr11YzqbZqcZ4dNbFpFQ7U,551
+simplemagic/magic.py,sha256=VUrkIfnr4h772TyLqbZ7B26u2IPrFEvj-gKb1natTdE,8580
+simplemagic/utils.py,sha256=xyCb1pYM71N4A91VqUFiZR6nAdQfKJD1bdWPv2ssepc,327
+simplemagic-0.1.1.dist-info/LICENSE,sha256=21FAXX8iSO4jv5T55zF_LCBAO55XDNzyEzkd4Lvl1-8,1067
+simplemagic-0.1.1.dist-info/METADATA,sha256=iG2A1v9dyM8j_1LGeYAMZClYAYsikZ19Jp5_f0I_uQ4,4287
+simplemagic-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simplemagic-0.1.1.dist-info/entry_points.txt,sha256=hkoZTn65brkRm5uL7ktZI68cxTsYQhB07HI5iB2KOIA,51
+simplemagic-0.1.1.dist-info/top_level.txt,sha256=CHPZTONL3jtE8fRJKYePyg6kt7c3xLjPGgGImjxP-Fc,12
+simplemagic-0.1.1.dist-info/RECORD,,
