@@ -1,0 +1,15 @@
+airflow/providers/jenkins/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/jenkins/get_provider_info.py,sha256=IGVBut4BCMoaiOr-HNY7WuA6n8sGfgfxVr-yTkaN16I,2630
+airflow/providers/jenkins/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/jenkins/hooks/jenkins.py,sha256=nldGd4L7xARHorr7CqWzkqoG9MS9gonAdeYOijbtZU0,2779
+airflow/providers/jenkins/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/jenkins/operators/jenkins_job_trigger.py,sha256=E79t0-gMrf-HVbrLV-nuYDZNLCNcO4avRTlqJZ20cVQ,10549
+airflow/providers/jenkins/sensors/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/jenkins/sensors/jenkins.py,sha256=-I08gcmpEfrpPibiqjS9p_R8e63aGPmDhzbd3aYLIA4,2227
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/METADATA,sha256=J1z3FgKSAoW533-s65keYud8sQisoT8am4UxamXp9gI,9324
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/entry_points.txt,sha256=oixdv-YUNeD4nrf_uO_NtqLtBYA0rSaaaXGo3Jk3Ugo,105
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_jenkins-3.0.0rc2.dist-info/RECORD,,
