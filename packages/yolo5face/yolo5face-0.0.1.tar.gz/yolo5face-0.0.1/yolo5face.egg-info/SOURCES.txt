@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+yolo5face/__init__.py
+yolo5face/get_model.py
+yolo5face.egg-info/PKG-INFO
+yolo5face.egg-info/SOURCES.txt
+yolo5face.egg-info/dependency_links.txt
+yolo5face.egg-info/top_level.txt
