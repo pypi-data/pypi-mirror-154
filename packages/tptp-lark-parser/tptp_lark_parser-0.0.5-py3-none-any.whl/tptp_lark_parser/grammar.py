@@ -1,0 +1,169 @@
+# Copyright 2022 Boris Shminke
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# noqa D205
+"""
+Grammar.
+********
+"""
+from dataclasses import dataclass, field
+from typing import Optional, Tuple, Union
+from uuid import uuid1
+
+FALSEHOOD_SYMBOL = "$false"
+FALSEHOOD_SYMBOL_ID = 0
+EQUALITY_SYMBOL = "="
+EQUALITY_SYMBOL_ID = 1
+INEQUALITY_SYMBOL = "!="
+INEQUALITY_SYMBOL_ID = 2
+
+
+@dataclass(frozen=True)
+class Variable:
+    """
+    A variable is characterised only by its name.
+
+    .. _variable:
+    """
+
+    name: int
+
+
+@dataclass(frozen=True)
+class Function:
+    """
+    A functional symbol might be applied to a list of arguments.
+
+    .. _Function:
+    """
+
+    name: int
+    arguments: Tuple[Union[Variable, "Function"], ...]
+
+
+Term = Union[Variable, Function]
+Term.__doc__ = """
+.. _Term:
+
+Term is either a :ref:`Variable <Variable>` or a :ref:`Function <Function>`
+"""
+
+
+@dataclass(frozen=True)
+class Predicate:
+    """
+    A predicate symbol might be applied to a list of arguments.
+
+    .. _Predicate:
+    """
+
+    name: int
+    arguments: Tuple[Term, ...]
+
+
+Proposition = Union[Predicate, Term]
+Proposition.__doc__ = """
+.. _Proposition:
+
+Proposition is either a :ref:`Predicate <Predicate>` or a :ref:`Term <Term>`
+"""
+
+
+@dataclass(frozen=True)
+class Literal:
+    """
+    Literal is an atom which can be negated or not.
+
+    .. _Literal:
+    """
+
+    negated: bool
+    atom: Predicate
+
+
+def _term_to_tptp(term: Term) -> str:
+    if isinstance(term, Function):
+        arguments = tuple(
+            _term_to_tptp(argument) for argument in term.arguments
+        )
+        if arguments != tuple():
+            return f"f{term.name}({','.join(arguments)})"
+        return f"f{term.name}"
+    return f"X{term.name}"
+
+
+def _literal_to_tptp(literal: Literal) -> str:
+    res = "~" if literal.negated else ""
+    arguments = tuple(_term_to_tptp(term) for term in literal.atom.arguments)
+    if literal.atom.name != EQUALITY_SYMBOL_ID:
+        if literal.atom.name != FALSEHOOD_SYMBOL_ID:
+            res += f"p{literal.atom.name}({','.join(arguments)})"
+        else:
+            res += f"{FALSEHOOD_SYMBOL}()"
+    else:
+        res += f"{arguments[0]} {EQUALITY_SYMBOL} {arguments[1]}"
+    return res
+
+
+@dataclass(frozen=True)
+class Clause:
+    """
+    Clause is a disjunction of literals.
+
+    .. _Clause:
+
+
+    :param literals: a list of literals, forming the clause
+    :param label: comes from the problem file or starts with ``inferred_`` if
+         inferred during the episode
+    :param role: formula role (axiom, hypothesis, etc)
+    :param inference_parents: a list of labels from which the clause was
+         inferred. For clauses from the problem statement, this list is empty
+    :param inference_rule: the rule according to which the clause was got from
+         the ``inference_parents``
+    :param processed: boolean value splitting clauses into unprocessed and
+         processed ones; in the beginning, everything is not processed
+    :param birth_step: a number of the step when the clause appeared in the
+         unprocessed set; clauses from the problem have ``birth_step`` zero
+    """
+
+    literals: Tuple[Literal, ...]
+    label: str = field(
+        default_factory=lambda: "x" + str(uuid1()).replace("-", "_")
+    )
+    role: str = "lemma"
+    inference_parents: Optional[Tuple[str, ...]] = None
+    inference_rule: Optional[str] = None
+    processed: Optional[bool] = None
+    birth_step: Optional[int] = None
+
+    def __repr__(self):
+        """Print a logical forumla back to TPTP language."""
+        res = f"cnf({self.label}, {self.role}, "
+        for literal in self.literals:
+            res += _literal_to_tptp(literal) + " | "
+        if res[-2:] == "| ":
+            res = res[:-3]
+        if not self.literals:
+            res += FALSEHOOD_SYMBOL
+        if (
+            self.inference_parents is not None
+            and self.inference_rule is not None
+        ):
+            res += (
+                f", inference({self.inference_rule}, [], ["
+                + ", ".join(self.inference_parents)
+                + "])"
+            )
+        return res + ")."

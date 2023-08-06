@@ -1,0 +1,15 @@
+tptp_lark_parser/__init__.py,sha256=RQdCHpQW44UxPSuAerbLZj68Pv_x-XZGahu-b0vQomU,731
+tptp_lark_parser/cnf_parser.py,sha256=QV4QAfxyCVufGvwODE-xW8nYO0ENtKPcDv0_yawN7lY,11674
+tptp_lark_parser/grammar.py,sha256=Hx1n9MT6WJefkVDjdH1BktnNh2jZsvCrEsUAbV_8hZI,4602
+tptp_lark_parser/parse_tptp.py,sha256=ONv3TrryFWmMhC3cUq94we6_qgituAJcQiitLrvRxGE,3744
+tptp_lark_parser/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tptp_lark_parser/resources/TPTP-mock/Axioms/TST001-0.ax,sha256=BS-5qW6vRZcoCqLnB6H_t03r6svB3HS9b-WbyvzEwGk,150
+tptp_lark_parser/resources/TPTP-mock/Problems/TST/TST001-1.p,sha256=LcQF61Psm2qZ8RHaFW2zMYn3tvPcl57LZD06ae8GN3M,320
+tptp_lark_parser/resources/TPTP.bnf,sha256=Jn4mhHWJ-K4hXhwDchy53LAnJm9EW8OihiZ-wufpi2A,41569
+tptp_lark_parser/resources/TPTP.lark,sha256=I3w2rrG0xO10Z_OPqM5YnQNvDWlp4n0Y5XyEH7TtcTE,19813
+tptp_lark_parser/resources/tptp_tokens.json,sha256=ipeTEjPdYXkgwhhHRhuoduqBaxoVIfaoVaFPRipyQyc,98619
+tptp_lark_parser/tptp_parser.py,sha256=bXDGLBw6mfcsE8714cbAqLYGeOUwqrEOBK2ho7RTgT8,4667
+tptp_lark_parser-0.0.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+tptp_lark_parser-0.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tptp_lark_parser-0.0.5.dist-info/METADATA,sha256=IYR5P1PsU-cteXmeS3Y2ax0vCTplkhh_lYJ0iI02dlw,4474
+tptp_lark_parser-0.0.5.dist-info/RECORD,,
