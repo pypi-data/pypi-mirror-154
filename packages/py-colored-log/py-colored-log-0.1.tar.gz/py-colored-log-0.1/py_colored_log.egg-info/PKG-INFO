@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-colored-log
+Version: 0.1
+Summary: Lib to color application console logs
+Home-page: https://github.com/fgmachado/py-colored-log
+Download-URL: https://github.com/fgmachado/py-colored-log/archive/v_01.tar.gz
+Author: Felipe Gomes Machado
+Author-email: fgmachado0@gmail.com
+License: MIT
+Keywords: log,logger,logging,color
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
