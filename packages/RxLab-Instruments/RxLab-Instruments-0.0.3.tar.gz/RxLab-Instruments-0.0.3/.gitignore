@@ -1,0 +1,17 @@
+TODO.md
+
+misc/
+
+# bytecode
+*.pyc
+__pycache__/
+
+# private directories
+dev/
+references/
+
+# build directories
+build/
+dist/
+*.egg-info/
+.eggs/
