@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pytorch_functional/__init__.py
+pytorch_functional/functional_model.py
+pytorch_functional/layers.py
+pytorch_functional/tools.py
+pytorch_functional.egg-info/PKG-INFO
+pytorch_functional.egg-info/SOURCES.txt
+pytorch_functional.egg-info/dependency_links.txt
+pytorch_functional.egg-info/top_level.txt
