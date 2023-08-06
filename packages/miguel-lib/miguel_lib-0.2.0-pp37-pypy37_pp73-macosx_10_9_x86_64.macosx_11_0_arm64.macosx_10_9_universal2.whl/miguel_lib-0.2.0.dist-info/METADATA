@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: miguel_lib
+Version: 0.2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Random crap I like to use
+Author: MiguelX413
+Author-email: lbpgaming27@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: repository, https://github.com/MiguelX413/miguel_lib
+Project-URL: mirror-repo, https://gitlab.com/MiguelX413/miguel_lib
+
+# miguel_lib
+Random crap I like to use
+
