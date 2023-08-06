@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sapcx
+Version: 0.0.1
+Summary: CLI Utility for SAP CX (Hybris) developers
+Home-page: https://github.com/ablil/sapcx
+Author: ablil
+Author-email: ablil@protonmail.com
+License: MIT
+Description: # sap-cli
+        SAP CLI tool
+        
+Platform: UNKNOWN
+Requires-Python: >3.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
