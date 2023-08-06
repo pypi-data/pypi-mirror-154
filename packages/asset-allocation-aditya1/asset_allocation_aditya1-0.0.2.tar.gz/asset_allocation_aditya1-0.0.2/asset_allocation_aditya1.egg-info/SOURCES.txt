@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+asset_allocation/__init__.py
+asset_allocation/logic.py
+asset_allocation_aditya1.egg-info/PKG-INFO
+asset_allocation_aditya1.egg-info/SOURCES.txt
+asset_allocation_aditya1.egg-info/dependency_links.txt
+asset_allocation_aditya1.egg-info/requires.txt
+asset_allocation_aditya1.egg-info/top_level.txt
