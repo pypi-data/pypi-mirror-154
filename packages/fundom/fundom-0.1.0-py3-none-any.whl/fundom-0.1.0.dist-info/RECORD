@@ -1,0 +1,13 @@
+fundom/__init__.py,sha256=IJzWWy7sgyeV0J45SX2h5Ov6CNAQDQwYOJV8-aG_o2Y,192
+fundom/core.py,sha256=naTnVDiTbk_fs5n_lx_DNSkrTLDIORWL1NR8jMC9zzQ,10115
+fundom/maybe.py,sha256=smEAzWOlzTdqPdyc28AEsf8Gik14Pn2GfxoflMukJNc,5588
+fundom/model.py,sha256=lSwV-18aHDPOhEdCU5tn9zgbTfl5l5jcWwZnEa8MuaQ,717
+fundom/pointfree/__init__.py,sha256=qzDKYRB-ZGuW6fXzlcmm-ap6IgUgp7H1MnQ37jwvoQM,1256
+fundom/pointfree/bytes_utils.py,sha256=H46SJu8uB6berLLxxDGCd6KiodrRiP0UtsFXqoLp7Eo,3695
+fundom/pointfree/dict_utils.py,sha256=M6QvsaMOeNdNgvkYy_UeQU6jziGrJe31IH27hwA84no,814
+fundom/pointfree/str_utils.py,sha256=mmbf9FIl2_2BcePlCFOAHFfGBCBrbLCmVuG9r4y6nKo,4362
+fundom/predicate.py,sha256=TT0munjEtpwVbRzBTRxvC5pvQBD8Ol9Er-ubplm0Fko,5119
+fundom/result.py,sha256=t3XQ8sM7hgEXNa9GUfJgZnc-mog_WUkuIRUdHt5G-C8,8037
+fundom-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fundom-0.1.0.dist-info/METADATA,sha256=-vvpFo6c3DpZm6pF3ubpaXXMkSxyk8PCRYMG3HlbaK8,389
+fundom-0.1.0.dist-info/RECORD,,
