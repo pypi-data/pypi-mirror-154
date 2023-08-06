@@ -1,0 +1,11 @@
+aspanner/__init__.py,sha256=-gsCmE0L52GHWXb-GUWdOkL9vsqt25sZWMd8ejnl9rU,778
+aspanner/client.py,sha256=-7agN5YqFzHWZVcRFyigwIkrkCPBBl2CzsReMDeT-vQ,6261
+aspanner/pool.py,sha256=t-BJcvHq0dHXjBOJ3Yy4l7YspRw1uTQZiNzguCyqbb8,2799
+aspanner/resultset.py,sha256=bgZc48j7L9gPRfICmAHr-gxKvvzC7mb_Nz3O8djZu9Y,2559
+aspanner/session.py,sha256=hdpxw_k9zwhUkRaUxSsrwtF92d5gQ6nD_6tBJXUrysg,1888
+aspanner/transaction.py,sha256=41z2Eo0sr9m_bfW3HNrNVWexWuA69RcZbOnZyg453as,11829
+aspanner-0.5.dist-info/LICENSE,sha256=Na5HbamDFakd4K4LDAnBpyJW2nPXMoPhlQ0tGBrQmYg,1065
+aspanner-0.5.dist-info/METADATA,sha256=tQRFMCJS6eZt_uTeDEdoy1ZdeNBycm6FbZuWXM9ewg8,2146
+aspanner-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aspanner-0.5.dist-info/top_level.txt,sha256=W63sFbhm4TvnSL3uCNLkcOjOzwM5r81OYPwFtBgVTYc,9
+aspanner-0.5.dist-info/RECORD,,
