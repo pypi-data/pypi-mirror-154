@@ -1,0 +1,12 @@
+transformers/__init__.py,sha256=wEC_A1BjB_1uFbf5e_HVtFuDhxF-iJlnwVGUh92Gpqg,265
+transformers/exceptions.py,sha256=4c54siZHKubmt6JMhZvSxFZqolchJFGkE_9rLITPfzA,1286
+transformers/factories.py,sha256=XUg4YYVYKEcCQEkv8neMIyC1ns8_ABxxsE_o8IBZ_dM,8554
+transformers/transformers.py,sha256=IDLWWctnvjcbOViISSMYU09eevzO5ADTdHmwDqC_p9A,12540
+transformers/impl/__init__.py,sha256=iSJxHAmsWaGqrnnKk3cHG6bcxrhcBMLCF5w2Ulbyg1g,464
+transformers/impl/factories_impl.py,sha256=vXcmhEK_reTGLLQVg5e0hoGp_Uu4IsmX8HmGL05qw4Y,13322
+transformers/impl/transformers_impl.py,sha256=gSD8nSq6lqrImtbznXrbvg6q_Do8Vz1fQl0DBd3xZeU,10039
+jsonapi_transformer-1.0.0.dist-info/LICENSE.txt,sha256=SEnZQrVfBvSkD2F1tVdyrQi9K-P6pDwSwx2rwljHjYc,1075
+jsonapi_transformer-1.0.0.dist-info/METADATA,sha256=oBarIo6nx8Z7Koj3tn8KfblFOWvL-YQIk73o46BiPlE,11573
+jsonapi_transformer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jsonapi_transformer-1.0.0.dist-info/top_level.txt,sha256=GLBaeTo_CSdhnHvbxQ0kzpEHdlLuA_33foIogaWxntI,13
+jsonapi_transformer-1.0.0.dist-info/RECORD,,
