@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "BrowserBook"
+version = "0.1.3"
+description = "A web browser backend. Gets all data needed from a url. Multiple sessions at once is possible"
+authors = ["DragonHunter"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
