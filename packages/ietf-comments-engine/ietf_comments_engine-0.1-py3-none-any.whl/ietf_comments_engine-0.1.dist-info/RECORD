@@ -1,0 +1,11 @@
+ietf_comments_engine/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+ietf_comments_engine/changes.py,sha256=ljjse3NiMAWEcG3X-fgaiiZvBTQ0rv7aZn0vJzaQ2sM,1952
+ietf_comments_engine/md_comments.py,sha256=EHe2JKkOtapjUJhCo5Ekz31gc21QfFaOmi9fKMBhA3E,5862
+ietf_comments_engine/types.py,sha256=hZZTY6_ppVzUTQuBCaZa7Qi6TwK9DefNZBppm3vx9Zo,469
+ietf_comments_engine/util.py,sha256=rlUUUM68TGoo6G3X65AX0XsfoBobv20kI_lSs2fA7r4,605
+ietf_comments_engine/xml_comments.py,sha256=1j44eq-IJFXEkTD7BAx3HYvlcFrsdkeq-UwJKtS7eJ8,3014
+ietf_comments_engine-0.1.dist-info/LICENSE,sha256=Emw7SJCbVIGbV9fMWWCgHVm_UL0203r9V2NU207Nuhg,1325
+ietf_comments_engine-0.1.dist-info/METADATA,sha256=Ud3W_4_CV0Bbb3qKPI49L01tBvNG_bdYkYTgb2N5De4,1301
+ietf_comments_engine-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ietf_comments_engine-0.1.dist-info/top_level.txt,sha256=1MHhIdMuP9wh2e-Jit8VxylvDIMBnzryLJuEmF08yJk,21
+ietf_comments_engine-0.1.dist-info/RECORD,,

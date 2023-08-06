@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ietf-comments-engine
+Version: 0.1
+Summary: Automating IETF comment handling (backend)
+Home-page: https://github.com/mnot/ietf-comments-engine
+Author: Mark Nottingham
+Author-email: mnot@mnot.net
+Project-URL: Bug Tracker, https://github.com/mnot/ietf-comments/issues
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: commonmark
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+
+# IETF Comments Engine
+
+![Python version requirement](https://badgen.net/pypi/python/ietf-comments-engine)
+[![Package version](https://badgen.net/pypi/v/ietf-comments-engine)](https://pypi.org/project/ietf-comments-engine/) [![Code Quality](https://github.com/mnot/ietf-comments-engine/actions/workflows/quality.yml/badge.svg)](https://github.com/mnot/ietf-comments-engine/actions/workflows/quality.yml)
+
+This is the backend engine for processing IETF comments; you probably want the [ietf-comments](https://pypi.org/project/ietf-comments/) package.
