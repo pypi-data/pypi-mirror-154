@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nekonohako
+Version: 0.0.2.0
+Summary: A Python wrapper for catbox.moe API
+Home-page: https://github.com/saint-images/nekonohako
+Author: Andrey Makarov
+Author-email: kiryuu.moeka@outlook.jp
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# nekonohako
+A Python wrapper for [catbox.moe](https://catbox.moe) API.
