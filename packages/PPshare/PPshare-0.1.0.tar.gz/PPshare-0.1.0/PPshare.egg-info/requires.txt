@@ -1,0 +1,8 @@
+pandas
+requests
+tqdm
+beautifulsoup4
+importlib
+pathlib
+pypinyin
+py_mini_racer
