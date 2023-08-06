@@ -1,0 +1,7 @@
+setup.py
+scad_pm.egg-info/PKG-INFO
+scad_pm.egg-info/SOURCES.txt
+scad_pm.egg-info/dependency_links.txt
+scad_pm.egg-info/requires.txt
+scad_pm.egg-info/top_level.txt
+src/scad_pm
