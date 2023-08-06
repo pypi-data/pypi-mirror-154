@@ -1,0 +1,8 @@
+pandas
+numpy
+nptyping
+scipy
+sounddevice
+brainflow
+samplerate
+pyxdf

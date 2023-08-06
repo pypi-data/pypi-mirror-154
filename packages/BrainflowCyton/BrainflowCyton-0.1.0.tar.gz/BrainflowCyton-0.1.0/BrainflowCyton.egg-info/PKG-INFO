@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: BrainflowCyton
+Version: 0.1.0
+Summary: Python wrapper for BrainFlow API + Cyton SDK for collecting realtime or offline (SDCard) EEG, EMG, EKG data.
+Home-page: https://github.com/zeyus/BrainflowCytonEEGWrapper
+Author: zeyus
+Author-email: dev@zeyus.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+UNKNOWN
+

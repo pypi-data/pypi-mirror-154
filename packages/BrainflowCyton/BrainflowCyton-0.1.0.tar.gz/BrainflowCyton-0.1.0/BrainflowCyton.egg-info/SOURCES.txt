@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+BrainflowCyton/__init__.py
+BrainflowCyton/eeg.py
+BrainflowCyton.egg-info/PKG-INFO
+BrainflowCyton.egg-info/SOURCES.txt
+BrainflowCyton.egg-info/dependency_links.txt
+BrainflowCyton.egg-info/requires.txt
+BrainflowCyton.egg-info/top_level.txt
