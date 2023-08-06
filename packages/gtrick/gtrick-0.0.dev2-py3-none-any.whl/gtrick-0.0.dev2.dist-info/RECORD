@@ -1,0 +1,17 @@
+gtrick/__init__.py,sha256=hyUZAkZTLq1ZIA68BJts6zIBNFdk-oFSaPXlCi_Fl4o,170
+gtrick/fingerprint.py,sha256=vdeosTdwpe506OTppVNUFLS11PgxbDFYUgRvlyuDOmI,1321
+gtrick/flag.py,sha256=2TmYqH8J4i-VRDGapITMvyAWNCedtM-sMVcSKLG9s6E,2403
+gtrick/random_feature.py,sha256=t_qvUQTV_TeKjjdBDkXx4m1A_k2b-aKlcwmXGCCXSHU,133
+gtrick/dgl/__init__.py,sha256=aO2hRlV8aGbyaOq8_D_CxigCyJ4VIg-pWyaeaEfxu8o,214
+gtrick/dgl/correct_and_smooth.py,sha256=wTxpJlCCJ_aLkQgCm80SwRaf0rgx67Asg2rlfuo4KB0,5208
+gtrick/dgl/edge_feat.py,sha256=FOf5p0rGWmcIgqnLRRKJFC-rqKwd1dfO3Z0x2LhUg00,4189
+gtrick/dgl/label_prop.py,sha256=03zVBGU_aMxgXZPWnXSCIspPbBwDn0FKVRMyTUCuRVc,2286
+gtrick/dgl/virtual_node.py,sha256=aJzKFEvp3fsbt9y3c9DTyJSUpb69R3z77UzYPcJDpA4,2842
+gtrick/pyg/__init__.py,sha256=KiHDHRnjr64DdqRutK-prkoCq9IO_HWtNRTsevkpnto,190
+gtrick/pyg/edge_feat.py,sha256=qf_kHjNAMN7_jQzQhcoo6RUxM8dRlDQRbJiwvSU2uXI,4144
+gtrick/pyg/virtual_node.py,sha256=U9SleSOxCHNvlen7payhDIqxVo985CQieyzdVXpcuzM,2680
+gtrick-0.0.dev2.dist-info/LICENSE,sha256=KzK3j5iptK1KE8JN3PyPzBV8dYlDGjMe5B8uo6bDMsY,1068
+gtrick-0.0.dev2.dist-info/METADATA,sha256=ghsrSlj13wOKUAWotvpGWYkeUlVQ_4dsvEn0YuyYEgQ,7250
+gtrick-0.0.dev2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gtrick-0.0.dev2.dist-info/top_level.txt,sha256=mZnTRzdUo5wczFJ4aWNq6P6srIQ3wd2FLD1mzCmSm7Y,7
+gtrick-0.0.dev2.dist-info/RECORD,,
