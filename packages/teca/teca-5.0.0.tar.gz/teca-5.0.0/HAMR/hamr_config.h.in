@@ -1,0 +1,17 @@
+#ifndef config_h
+#define config_h
+
+#define HAMR_EXPORT __attribute__ ((visibility ("default")))
+#define HAMR_PRIVATE __attribute__ ((visibility ("hidden")))
+
+#cmakedefine HAMR_ENABLE_CUDA
+#cmakedefine HAMR_CUDA_OBJECTS
+#cmakedefine HAMR_ENABLE_HIP
+#cmakedefine HAMR_HIP_OBJECTS
+#cmakedefine HAMR_ENABLE_OPENMP
+#cmakedefine HAMR_OPENMP_OBJECTS
+#define HAMR_OPENMP_LOOP @HAMR_OPENMP_LOOP@
+#cmakedefine HAMR_ENABLE_PYTHON
+#cmakedefine HAMR_VERBOSE
+
+#endif
