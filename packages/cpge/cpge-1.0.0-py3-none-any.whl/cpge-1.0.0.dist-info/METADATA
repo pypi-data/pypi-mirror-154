@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cpge
+Version: 1.0.0
+Summary: Fonctions pour le cours d'informatique commune en CPGE
+Home-page: https://github.com/fortierq/MTGScan
+License: MIT
+Keywords: itc,graphe,cpge,mpsi,pcsi,cours
+Author: Quentin Fortier
+Author-email: qpfortier@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: networkx (>=2.8.3,<3.0.0)
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Project-URL: Repository, https://github.com/fortierq/MTGScan
+Description-Content-Type: text/markdown
+
+# Fonctions pour le cours d'informatique commune en CPGE
+
+## [Exemples](https://github.com/fortierq/itc-code/tree/master/test)
+
