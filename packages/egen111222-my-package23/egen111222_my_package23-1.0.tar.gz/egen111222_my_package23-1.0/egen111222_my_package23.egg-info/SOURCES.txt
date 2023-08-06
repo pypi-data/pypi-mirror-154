@@ -1,0 +1,8 @@
+setup.py
+egen111222_my_package23.egg-info/PKG-INFO
+egen111222_my_package23.egg-info/SOURCES.txt
+egen111222_my_package23.egg-info/dependency_links.txt
+egen111222_my_package23.egg-info/top_level.txt
+my_package/__init__.py
+my_package/lib.py
+my_package/lib2.py
