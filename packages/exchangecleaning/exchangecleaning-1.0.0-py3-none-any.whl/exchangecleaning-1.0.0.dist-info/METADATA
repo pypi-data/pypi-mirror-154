@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: exchangecleaning
+Version: 1.0.0
+Summary: clean exchange data
+Home-page: https://gitlab.sucsoft.com/analysis/jz_model/-/tree/linlf/exchangecleaning
+Author: suc
+Author-email: 
+License: UNKNOWN
+Keywords: exchange cleaning
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: openpyxl (>=3.0.5)
+Requires-Dist: xlrd (>=1.2.0)
+
+this is a text
+
+
