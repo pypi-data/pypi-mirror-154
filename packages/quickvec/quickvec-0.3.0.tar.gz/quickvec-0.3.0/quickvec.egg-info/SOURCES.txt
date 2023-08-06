@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+quickvec/__init__.py
+quickvec/convert.py
+quickvec/embedding.py
+quickvec/py.typed
+quickvec/show.py
+quickvec.egg-info/PKG-INFO
+quickvec.egg-info/SOURCES.txt
+quickvec.egg-info/dependency_links.txt
+quickvec.egg-info/entry_points.txt
+quickvec.egg-info/requires.txt
+quickvec.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+[console_scripts]
+quickvec-convert = quickvec.convert:main
+quickvec-show = quickvec.show:main
+
