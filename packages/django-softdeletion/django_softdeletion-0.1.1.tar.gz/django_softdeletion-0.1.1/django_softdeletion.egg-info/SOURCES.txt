@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+django_softdeletion/__init__.py
+django_softdeletion/softdeletion.py
+django_softdeletion.egg-info/PKG-INFO
+django_softdeletion.egg-info/SOURCES.txt
+django_softdeletion.egg-info/dependency_links.txt
+django_softdeletion.egg-info/not-zip-safe
+django_softdeletion.egg-info/requires.txt
+django_softdeletion.egg-info/top_level.txt
