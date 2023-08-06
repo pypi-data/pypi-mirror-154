@@ -1,0 +1,12 @@
+xrandroll/__init__.py,sha256=padK4o0BFqq61kxAA1qQ0jYr2SuhA2mf90B3AaRkmJA,37
+xrandroll/__main__.py,sha256=vBQ82334kX06ImDbFlPFgiBRiLIinwNk3z8Khs6hd74,31
+xrandroll/main.py,sha256=Wrp1QHgK4VquXYW7gmR2b8F2qL5EtjKYP7Kz87JhYnQ,13149
+xrandroll/main.ui,sha256=O5kUiVsjXG4XLGam-yUWd7pFIfnqN1qVDfweM9iCZJQ,9463
+xrandroll/monitor.py,sha256=lZjFIjkoGnPJqhT6lzyllWkbDL1XtpxTImaexCVkpqU,4757
+xrandroll/monitor_item.py,sha256=vmgOg9coUzFEL61uH1aziwWs56ubA3Yee61yrDgElI4,4328
+xrandroll/xrandr.py,sha256=_ZF3KVYBDt2C-5FsfKsKrcjGEUsS9cJDd7qk4bP4tW8,3126
+xrandroll-0.1.7.dist-info/entry_points.txt,sha256=naWi4ndliD3GSwtbGSULKKxiGZavHHsbUscxpxqkUJ8,44
+xrandroll-0.1.7.dist-info/LICENSE,sha256=pK0KdFkrryI7bVWtejrv1KuGsz9v3qPOBNslUpr8ipo,1071
+xrandroll-0.1.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+xrandroll-0.1.7.dist-info/METADATA,sha256=UIpVwjMjCcWTHfAr1zL4UGYD-0ViWGr3hhQ3VmloSCM,1461
+xrandroll-0.1.7.dist-info/RECORD,,
