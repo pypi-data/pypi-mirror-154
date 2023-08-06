@@ -1,0 +1,11 @@
+aprscot/__init__.py,sha256=Ckm7wX4KeYbqogy-Cui-t5TV74PxL1EkB6GS11tIvLM,1415
+aprscot/classes.py,sha256=Lzx9KYw7V52aUocPr-efi1ir85E4nFVnqMYSW6-t2e4,3533
+aprscot/commands.py,sha256=rR2gZXpexguNN_jvx4JU2tfecBs1I5EnxKvHKxoaihg,1024
+aprscot/constants.py,sha256=kUM50xKHiIzkEUZM8blZeptNB3cUiF3LnVaaNMhwN5Q,1666
+aprscot/functions.py,sha256=MCQjuJbglWyl3B14BPgDQXEZViVhDjWZ6z4HMxUkFz8,4265
+aprscot-6.0.0.dist-info/LICENSE,sha256=-ICQAZg4NjDTt4byXKu6RF2Xru9U25dcp0Q4w0_wMw8,554
+aprscot-6.0.0.dist-info/METADATA,sha256=yEwZMKikSagoOIHwQO_s84HJbDfDdsXimEWE7gTtacc,5923
+aprscot-6.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aprscot-6.0.0.dist-info/entry_points.txt,sha256=EMRWnxdo9PCPFBS4_sU4OEO-LLNqm1ZClXL1Cy1RtJ8,51
+aprscot-6.0.0.dist-info/top_level.txt,sha256=Nh81qCFh_kLsejpXGOIGPDMjYMui0PPgIajrjg_vp5I,8
+aprscot-6.0.0.dist-info/RECORD,,
