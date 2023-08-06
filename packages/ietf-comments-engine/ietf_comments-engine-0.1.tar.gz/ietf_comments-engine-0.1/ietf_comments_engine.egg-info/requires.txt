@@ -1,0 +1,5 @@
+commonmark
+
+[dev]
+mypy
+black
