@@ -1,0 +1,15 @@
+[package]
+name = "relation-graph"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "relation_graph_impl"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.3", features = ["extension-module"] }
+crepe="^0.1.6"
+csv="*"
+serde={ version = "1.0", features = ["derive"] }
