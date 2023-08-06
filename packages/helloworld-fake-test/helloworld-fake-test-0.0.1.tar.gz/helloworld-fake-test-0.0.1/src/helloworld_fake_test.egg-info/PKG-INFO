@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: helloworld-fake-test
+Version: 0.0.1
+Summary: Helloworld example
+Home-page: https://github.com
+Author: Sam
+Author-email: somebuddy@gmailfoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+===========
+Hello World
+===========
+This is some text
+
+Hello World
+===========
+``pip install helloworld``
+
+Usage
+=====
+Testdd1
+
+Dev
+===
+``pip install -e .[dev]``
+

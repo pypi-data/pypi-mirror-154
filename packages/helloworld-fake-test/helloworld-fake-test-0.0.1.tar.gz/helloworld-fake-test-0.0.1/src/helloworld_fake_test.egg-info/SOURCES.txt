@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+src/helloworld.py
+src/helloworld_fake_test.egg-info/PKG-INFO
+src/helloworld_fake_test.egg-info/SOURCES.txt
+src/helloworld_fake_test.egg-info/dependency_links.txt
+src/helloworld_fake_test.egg-info/requires.txt
+src/helloworld_fake_test.egg-info/top_level.txt
+tests/test_helloworld.py
