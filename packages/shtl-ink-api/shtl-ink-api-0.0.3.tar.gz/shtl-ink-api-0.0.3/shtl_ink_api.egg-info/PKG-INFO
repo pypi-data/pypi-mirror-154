@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: shtl-ink-api
+Version: 0.0.3
+Summary: Python URL Shortener
+Home-page: https://github.com/mskymoore/coronavirus-plot
+Author: Sky Moore
+Author-email: mskymoore@gmail.com
+License: MIT license
+Keywords: url,url_shortener,api
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Next Gen URL Shortener
+**Join me in the future where all urls are short.**
+
+*Just getting started...*
