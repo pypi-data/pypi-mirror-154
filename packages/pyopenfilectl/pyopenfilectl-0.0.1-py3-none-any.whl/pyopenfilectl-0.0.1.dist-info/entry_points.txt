@@ -1,0 +1,3 @@
+[console_scripts]
+openfilectl = openfilectl.__main__:main
+
