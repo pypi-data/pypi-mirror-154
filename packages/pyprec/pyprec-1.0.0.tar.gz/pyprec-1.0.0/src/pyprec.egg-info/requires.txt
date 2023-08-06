@@ -1,0 +1,7 @@
+six==1.16.0
+pyyaml==6.0.0
+sphinx>=4.5.0
+
+[docs]
+sphinx-rtd-theme>=1.0.0
+sphinxcontrib-napoleon>=0.7
