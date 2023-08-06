@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+TarunSingh.egg-info/PKG-INFO
+TarunSingh.egg-info/SOURCES.txt
+TarunSingh.egg-info/dependency_links.txt
+TarunSingh.egg-info/top_level.txt
+datacompy_report_summary/__init__.py
