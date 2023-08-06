@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+torch_efficient_distloss/__init__.py
+torch_efficient_distloss/eff_distloss.py
+torch_efficient_distloss.egg-info/PKG-INFO
+torch_efficient_distloss.egg-info/SOURCES.txt
+torch_efficient_distloss.egg-info/dependency_links.txt
+torch_efficient_distloss.egg-info/top_level.txt
