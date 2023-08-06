@@ -1,0 +1,60 @@
+Github API Wrapper
+==================
+
+.. image:: https://discord.com/api/guilds/963406460107235328/widget.png
+  :target: https://discord.gg/DWhwsQ5TsT
+  :alt: Discord Server Invite
+
+Easy to use Python wrapper for the **Github API**.
+
+Key Features
+------------
+- Modern Pythonic Interface
+- Easy to use
+
+
+Installing
+----------
+
+**Python 3.8 or higher**
+
+To install the library, run the following command
+.. code:: sh
+
+  #Linux/MacOS
+  python3 -m pip install -U github
+
+  #Windows
+  py -m pip install -U github
+
+To download the production version, run the following command
+.. code:: sh
+
+  #Linux/macOS
+  python3 -m pip install -U git+https://github.com/VarMonke/Github-Api-Wrapper
+  
+  #Windows
+  py -m pip install -U git+https://github.com/VarMonke/Github-Api-Wrapper
+  
+Quick Example
+-------------
+  
+.. code:: py
+  
+  import github
+  import asyncio
+  
+  async def main():
+    client = await github.GHClient()
+    return await client.get_user(user='GithubPythonBot')
+
+  user = asyncio.run(main())
+  print(user)
+  print(user.html_url)
+
+
+You can find more examples in the examples directory.
+
+Links
+-----
+`Discord Server <https://discord.gg/DWhwsQ5TsT>`_
