@@ -1,0 +1,10 @@
+setup.py
+Ecarx_smart_project/__init__.py
+Ecarx_smart_project/base_function.py
+Ecarx_smart_project/canoe.py
+Ecarx_smart_project/read_config.py
+Ecarx_smart_project.egg-info/PKG-INFO
+Ecarx_smart_project.egg-info/SOURCES.txt
+Ecarx_smart_project.egg-info/dependency_links.txt
+Ecarx_smart_project.egg-info/requires.txt
+Ecarx_smart_project.egg-info/top_level.txt
