@@ -1,0 +1,2 @@
+asreview<2,>=1
+pandas
