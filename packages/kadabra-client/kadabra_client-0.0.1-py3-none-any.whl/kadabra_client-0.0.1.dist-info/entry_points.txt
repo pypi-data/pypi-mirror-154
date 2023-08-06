@@ -1,0 +1,3 @@
+[console_scripts]
+kadabra=kadabra.cli:main
+
