@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+setup.py
+accscout/__init__.py
+accscout/__main__.py
+accscout/headers.yml
+accscout/pages.yml
+accscout/scout.py
+accscout.egg-info/PKG-INFO
+accscout.egg-info/SOURCES.txt
+accscout.egg-info/dependency_links.txt
+accscout.egg-info/entry_points.txt
+accscout.egg-info/requires.txt
+accscout.egg-info/top_level.txt

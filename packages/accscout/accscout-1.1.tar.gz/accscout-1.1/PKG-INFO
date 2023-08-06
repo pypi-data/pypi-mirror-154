@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: accscout
+Version: 1.1
+Summary: Search for certain user accounts on popular websites on the internet
+Home-page: https://gitlab.com/richardnagy/security/accscout
+Author: Richard Antal Nagy
+Author-email: nagy.richard.antal@gmail.com
+License: MIT
+Keywords: accscout,account,security,hacking,OSINT,crawler
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Security
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+UNKNOWN
+
