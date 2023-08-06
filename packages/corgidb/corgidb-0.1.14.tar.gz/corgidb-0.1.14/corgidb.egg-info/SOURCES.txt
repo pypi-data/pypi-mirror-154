@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+corgidb/__init__.py
+corgidb/constants.py
+corgidb/corgidb.py
+corgidb/exceptions.py
+corgidb/utils.py
+corgidb.egg-info/PKG-INFO
+corgidb.egg-info/SOURCES.txt
+corgidb.egg-info/dependency_links.txt
+corgidb.egg-info/top_level.txt
+corgidb/objects/__init__.py
+corgidb/objects/condition.py
+corgidb/objects/datachunk.py
+corgidb/objects/table.py
