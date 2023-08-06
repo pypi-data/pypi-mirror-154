@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: logos
+Version: 0.3
+Summary: AI, NLP, and Data Science tools to facilitate efficient model development, testing, and sharing.
+Home-page: https://gitlab.com/uniphore/uniphore_ai/logos
+Author: Data Science Team
+Author-email: 
+License: Uniphore Software Systems Private Ltd
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
