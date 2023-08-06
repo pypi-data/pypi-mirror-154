@@ -1,0 +1,13 @@
+uxarray/__init__.py,sha256=xXCBR_smx_Kqj453xM3gHLmTW0z6U8Myd7FW4v8-Wfs,43
+uxarray/_exodus.py,sha256=k5ixUOLSf9vo1GN5Trg7JPaxG5qjb84QcbiAhAeTHx4,12710
+uxarray/_scrip.py,sha256=J246k5zgSKsQoLh2WKqLNXapYZ6fE4eL-kGmvOGhZ7A,4495
+uxarray/_shapefile.py,sha256=IuATxN1n_SOkCS2ZkTlL2t9o8_zgGEirrBGBqgZXMAs,236
+uxarray/_ugrid.py,sha256=O5CEZPRleFWMowLyO4L6yBiG01ZK-OKDX0whnomETyw,2454
+uxarray/dataset.py,sha256=YfaLxwD-BRZQwFH5j-hkwaTf_EZb-62fXjRzlzDlnmo,1238
+uxarray/grid.py,sha256=YhjsuNfUXz-OPpKw1Z6Z6AF4s9JLNo63gPD2OxMJE6M,7970
+uxarray/helpers.py,sha256=ygHQND6LrPXdj3DF8jp6wS-Z_QjbBkS-lDt6vLQd0Tw,3542
+uxarray-2022.6.0.dist-info/LICENSE,sha256=Dcfy2XK_qDQlzPpuy69ZyT0RQkzGKcWUd9PuhsWCfUY,11377
+uxarray-2022.6.0.dist-info/METADATA,sha256=K-xBMZfqgfQFjWamoxjjTp_IwRX4H5tac3t0hygk6QM,7505
+uxarray-2022.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uxarray-2022.6.0.dist-info/top_level.txt,sha256=2QUIA2Z4xluf6xseSbRlXgGYuSSsiWACmlYDn3Azg1I,8
+uxarray-2022.6.0.dist-info/RECORD,,
