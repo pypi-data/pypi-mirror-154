@@ -1,0 +1,5 @@
+opendr-toolkit-engine
+numba==0.53.0
+numpy>=1.19
+torch==1.9.0
+librosa==0.8.0
