@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pg-python-sdk
+Version: 0.0.9
+Summary: Python SDK for the Payment Gateway
+Home-page: https://github.com/abdulmejidshemsu/pg-python-sdk
+Author: Abdulmejid Shemsu
+Author-email: abdudlh1@gmail.com
+Project-URL: Bug Tracker, https://github.com/abdulmejidshemsu/pg-python-sdk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# pg-python-sdk
+This is a simple Payment Gateway package.
+[Documentation](https://guides.github.com/features/mastering-markdown/)
