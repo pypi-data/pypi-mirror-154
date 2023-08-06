@@ -1,0 +1,2 @@
+include data/excel/*.xlsx
+include data/word/*.docx
