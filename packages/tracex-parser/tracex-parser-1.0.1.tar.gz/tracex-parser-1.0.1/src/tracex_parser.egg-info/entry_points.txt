@@ -1,0 +1,3 @@
+[console_scripts]
+tracex_parse = tracex_parser.file_parser:main
+
