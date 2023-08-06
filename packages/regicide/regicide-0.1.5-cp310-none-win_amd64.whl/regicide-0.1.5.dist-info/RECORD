@@ -1,0 +1,5 @@
+regicide-0.1.5.dist-info/METADATA,sha256=XynC62Ro0vjbLBpaVGIOuKSn2kedPVJgHWSCz8uez0U,2810
+regicide-0.1.5.dist-info/WHEEL,sha256=wesIW58WVvY1aI_l-YIHHARAtHhBgP7-8IKXv9jZdH0,97
+regicide/__init__.py,sha256=W6nb8WMKGGurnAxzqknPLncNOVjaL6TBjM3vSfR-QKE,115
+regicide/regicide.cp310-win_amd64.pyd,sha256=UhcpEDXNZ0PHWJDPpjRuZ1jiSqVqtQiCItGzcadRLt0,751104
+regicide-0.1.5.dist-info/RECORD,,
