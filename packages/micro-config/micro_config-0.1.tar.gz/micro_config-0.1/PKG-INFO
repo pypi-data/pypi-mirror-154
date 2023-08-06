@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: micro_config
+Version: 0.1
+Summary: A deep learning config framework based on hierarchical dataclasses.
+Home-page: https://github.com/Sea-Snell/micro_config
+Author: Charlie Snell
+Author-email: csnell22@berkeley.edu
+License: MIT
+Description: UNKNOWN
+Keywords: configs configuration dataclasses deeplearning hierarchy hierarchical
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3
