@@ -1,0 +1,6 @@
+numpy
+scipy
+ase
+spglib>=1.15.0
+scikit-learn
+networkx>=2.4
