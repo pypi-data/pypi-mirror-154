@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: evalml
+Version: 0.53.1
+Summary: EvalML is an AutoML library that builds, optimizes, and evaluates machine learning pipelines using domain-specific objective functions.
+Home-page: https://github.com/alteryx/evalml/
+Download-URL: https://pypi.org/project/evalml/
+Author: Alteryx, Inc.
+Author-email: open_source_support@alteryx.com
+License: BSD 3-clause
+Project-URL: Documentation, https://evalml.alteryx.com
+Project-URL: Source Code, https://github.com/alteryx/evalml/
+Project-URL: Changes, https://evalml.alteryx.com/en/latest/release_notes.html
+Project-URL: Issue Tracker, https://github.com/alteryx/evalml/issues
+Project-URL: Twitter, https://twitter.com/alteryxoss
+Project-URL: Chat, https://join.slack.com/t/alteryx-oss/shared_invite/zt-6inxevps-RSbpr9lsACE1kObXz4rIuA
+Keywords: data science machine learning optimization automl
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: pandas (>=1.4.0)
+Requires-Dist: scipy (>=1.5.0)
+Requires-Dist: scikit-learn (<1.1.0,>=0.24.0)
+Requires-Dist: scikit-optimize (>=0.8.1)
+Requires-Dist: pyzmq (>=20.0.0)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: cloudpickle (>=1.5.0)
+Requires-Dist: click (>=7.1.2)
+Requires-Dist: requirements-parser (>=0.2.0)
+Requires-Dist: shap (>=0.40.0)
+Requires-Dist: statsmodels (>=0.12.2)
+Requires-Dist: texttable (>=1.6.2)
+Requires-Dist: woodwork (>=0.16.2)
+Requires-Dist: dask (>=2021.10.0)
+Requires-Dist: nlp-primitives (>=2.1.0)
+Requires-Dist: featuretools (>=1.7.0)
+Requires-Dist: networkx (<2.6,>=2.5)
+Requires-Dist: plotly (>=5.0.0)
+Requires-Dist: kaleido (>=0.1.0)
+Requires-Dist: ipywidgets (>=7.5)
+Requires-Dist: xgboost (>=1.5.1)
+Requires-Dist: catboost (>=0.20)
+Requires-Dist: lightgbm (>=2.3.1)
+Requires-Dist: matplotlib (>=3.3.3)
+Requires-Dist: seaborn (>=0.11.1)
+Requires-Dist: category-encoders (>=2.2.2)
+Requires-Dist: imbalanced-learn (>=0.8.0)
+Requires-Dist: pmdarima (>=1.8.1)
+Requires-Dist: sktime (>=0.7.0)
+Requires-Dist: lime (>=0.2.0.1)
+Requires-Dist: vowpalwabbit (>=8.11.0)
+Requires-Dist: graphviz (>=0.13) ; platform_system != "Windows"
+Provides-Extra: complete
+Requires-Dist: prophet-prebuilt (==1.0.2) ; extra == 'complete'
+Requires-Dist: alteryx-open-src-update-checker (>=2.0.0) ; extra == 'complete'
+Provides-Extra: dev
+Requires-Dist: flake8 (==3.7.0) ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: isort (==5.0.0) ; extra == 'dev'
+Requires-Dist: pydocstyle (==6.1.1) ; extra == 'dev'
+Requires-Dist: darglint (==1.8.0) ; extra == 'dev'
+Requires-Dist: pytest (==6.0.1) ; extra == 'dev'
+Requires-Dist: pytest-xdist (==2.1.0) ; extra == 'dev'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'dev'
+Requires-Dist: nbval (==0.9.3) ; extra == 'dev'
+Requires-Dist: IPython (>=7.16.3) ; extra == 'dev'
+Requires-Dist: codecov (==2.1.11) ; extra == 'dev'
+Requires-Dist: PyYAML (==5.4) ; extra == 'dev'
+Requires-Dist: coverage[toml] (>=6.4) ; extra == 'dev'
+Requires-Dist: docutils (<0.17,>=0.15.2) ; extra == 'dev'
+Requires-Dist: pydata-sphinx-theme (>=0.3.1) ; extra == 'dev'
+Requires-Dist: astroid (<=2.6.6) ; extra == 'dev'
+Requires-Dist: Sphinx (>=4.5.0) ; extra == 'dev'
+Requires-Dist: nbconvert (>=6.4.5) ; extra == 'dev'
+Requires-Dist: nbsphinx (>=0.8.5) ; extra == 'dev'
+Requires-Dist: sphinx-autoapi ; extra == 'dev'
+Requires-Dist: sphinx-inline-tabs (==2022.1.2b11) ; extra == 'dev'
+Requires-Dist: sphinx-copybutton (==0.4.0) ; extra == 'dev'
+Requires-Dist: myst-parser (==0.16.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: docutils (<0.17,>=0.15.2) ; extra == 'docs'
+Requires-Dist: pydata-sphinx-theme (>=0.3.1) ; extra == 'docs'
+Requires-Dist: astroid (<=2.6.6) ; extra == 'docs'
+Requires-Dist: Sphinx (>=4.5.0) ; extra == 'docs'
+Requires-Dist: nbconvert (>=6.4.5) ; extra == 'docs'
+Requires-Dist: nbsphinx (>=0.8.5) ; extra == 'docs'
+Requires-Dist: sphinx-autoapi ; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs (==2022.1.2b11) ; extra == 'docs'
+Requires-Dist: sphinx-copybutton (==0.4.0) ; extra == 'docs'
+Requires-Dist: myst-parser (==0.16.1) ; extra == 'docs'
+Provides-Extra: prophet
+Requires-Dist: prophet-prebuilt (==1.0.2) ; extra == 'prophet'
+Provides-Extra: test
+Requires-Dist: pytest (==6.0.1) ; extra == 'test'
+Requires-Dist: pytest-xdist (==2.1.0) ; extra == 'test'
+Requires-Dist: pytest-timeout (==1.4.2) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'test'
+Requires-Dist: nbval (==0.9.3) ; extra == 'test'
+Requires-Dist: IPython (>=7.16.3) ; extra == 'test'
+Requires-Dist: codecov (==2.1.11) ; extra == 'test'
+Requires-Dist: PyYAML (==5.4) ; extra == 'test'
+Requires-Dist: coverage[toml] (>=6.4) ; extra == 'test'
+Provides-Extra: update_checker
+Requires-Dist: alteryx-open-src-update-checker (>=2.0.0) ; extra == 'update_checker'
+
