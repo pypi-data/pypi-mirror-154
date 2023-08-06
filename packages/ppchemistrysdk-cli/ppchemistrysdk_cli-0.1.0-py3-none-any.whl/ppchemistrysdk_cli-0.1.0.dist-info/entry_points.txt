@@ -1,0 +1,3 @@
+[console_scripts]
+ppchemistrysdk-cli=ppchemistrysdk_cli.main:app
+
