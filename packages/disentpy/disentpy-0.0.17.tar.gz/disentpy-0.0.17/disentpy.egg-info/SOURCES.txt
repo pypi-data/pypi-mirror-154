@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+disent/__init__.py
+disent/disent.py
+disent/settings.py
+disentpy.egg-info/PKG-INFO
+disentpy.egg-info/SOURCES.txt
+disentpy.egg-info/dependency_links.txt
+disentpy.egg-info/not-zip-safe
+disentpy.egg-info/requires.txt
+disentpy.egg-info/top_level.txt
