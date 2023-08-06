@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+alcmixer/__init__.py
+alcmixer/extract_alc_features.py
+alcmixer/generate_midi.py
+alcmixer.egg-info/PKG-INFO
+alcmixer.egg-info/SOURCES.txt
+alcmixer.egg-info/dependency_links.txt
+alcmixer.egg-info/requires.txt
+alcmixer.egg-info/top_level.txt
