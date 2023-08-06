@@ -1,0 +1,11 @@
+myanimelist_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myanimelist_downloader/command_line.py,sha256=bkQde562EPKAKXv8KY8GZCJFSFLfcydrFvv5FF_6Ars,3884
+myanimelist_downloader/downloader.py,sha256=foyhy6ZlRKPwtie21evkPDmSNPGYgy7-fMUx-rIy3jE,4836
+myanimelist_downloader/driver.py,sha256=kKX23dCb0adJVQ2a0ZXxvC0O-EhXbk5LmihwhU70C2Y,2382
+myanimelist_downloader/list.py,sha256=w1UbGDqOPmGaiMQfH2n8GgUcr8vIby0bJbqVtYcjJlk,126
+myanimelist_downloader-0.0.1.dist-info/LICENSE,sha256=9Xea3XcFRpMh-9gOdN9-EEbSaUsboKJzZHqNGTilqTo,11352
+myanimelist_downloader-0.0.1.dist-info/METADATA,sha256=i3OJs0JrDmtEJpF45LkszNcLbNAACE3CTKvc57mtQ3I,849
+myanimelist_downloader-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+myanimelist_downloader-0.0.1.dist-info/entry_points.txt,sha256=8fYzLp5w5IlKoh10sqCgaNz4Sxo0Lrdoq6AgEQDr9zQ,84
+myanimelist_downloader-0.0.1.dist-info/top_level.txt,sha256=9j2VSBXj2itQGWF-9SF5_byoMscndja0gmIgNHbWu8I,23
+myanimelist_downloader-0.0.1.dist-info/RECORD,,
