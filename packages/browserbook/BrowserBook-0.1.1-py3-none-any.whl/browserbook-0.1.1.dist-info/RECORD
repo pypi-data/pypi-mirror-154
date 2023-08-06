@@ -1,0 +1,7 @@
+browserbook/__init__.py,sha256=kZ0iEuYc9BtYM6HCrFbigxT48RuRta3TKO5tK8ICgDw,112
+browserbook/browserbook.py,sha256=dK3KLKv9LyDq1YPqolJP23CncPWPORyEAUrmOoEcCNY,6219
+browserbook/ezbrbk.py,sha256=glXP3ityj3Avii7UzL8LArUNH9kjmp7q4cSd73nrFCU,39
+browserbook/tools/canOpener.py,sha256=SeEhhHWuh8156IPtXp7ltwK3rdxW3pUGrGPMQkGClDM,523
+browserbook-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+browserbook-0.1.1.dist-info/METADATA,sha256=fXiXGYL50ZWVb5WzvyYVZS3SGvpDFi0B-NkxJ424C1w,406
+browserbook-0.1.1.dist-info/RECORD,,
