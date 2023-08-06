@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: yolo5face
+Version: 0.0.2
+Summary: Unstructured set of the helper functions.
+Home-page: https://github.com/ternaus/yolov5faceInference
+Author: Vladimir Iglovikov
+License: MIT
+Description: # Wrapper over YoloV5Face
+        
+        Wrapper over YoloV5Face for a better user experience.
+        
+        ```
+        from yolo5face.get_model import get_model
+        
+        model = get_model("yolov5n", gpu=-1, target_size=512)
+        ```
+        
+        * `gpu` - GPU number, `-1` or `cpu` for CPU
+        * `target_size` - min size of the target_image
+        * `min_face` - minimum face size in pixels.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
