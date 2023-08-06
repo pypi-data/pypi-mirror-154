@@ -1,0 +1,5 @@
+pymongo>=4.1.1
+requests>=2.27.1
+httpx>=0.23.0
+web3>=5.29.2
+networkx>=2.8.3
