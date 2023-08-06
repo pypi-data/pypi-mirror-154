@@ -1,0 +1,3 @@
+[console_scripts]
+cim=convert_images:convert_images.main
+
