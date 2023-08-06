@@ -1,0 +1,11 @@
+ecmwflibs
+numpy>=1.21
+pandas
+rasterio>=1.1.6
+rioxarray
+scipy
+xarray[io]
+
+[:python_version < "3.9"]
+importlib-metadata
+importlib-resources
