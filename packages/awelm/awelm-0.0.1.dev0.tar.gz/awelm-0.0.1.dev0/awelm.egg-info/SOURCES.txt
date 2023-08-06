@@ -1,0 +1,5 @@
+setup.py
+awelm.egg-info/PKG-INFO
+awelm.egg-info/SOURCES.txt
+awelm.egg-info/dependency_links.txt
+awelm.egg-info/top_level.txt
