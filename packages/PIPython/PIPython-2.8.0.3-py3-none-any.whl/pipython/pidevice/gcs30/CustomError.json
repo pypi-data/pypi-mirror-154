@@ -1,0 +1,471 @@
+{
+    "title": "UMF Error Json",
+    "fieldStartBits": {
+        "ReservedBits": 22,
+        "Classes": 14,
+        "IDs": 0
+    },
+    "classes": {
+        "None": {
+            "id": 0,
+            "alias": "",
+            "description": "No error and PI errors predating UMF"
+        },
+        "Debug": {
+            "id": 255,
+            "alias": "DBG",
+            "description": "Debug messages for internal PI usage."
+        },
+        "Info": {
+            "id": 1,
+            "alias": "INFO",
+            "description": "Information. No further action required."
+        },
+        "Warning": {
+            "id": 2,
+            "alias": "WARN",
+            "description": "Warning. Action/inspection recommended."
+        },
+        "Command": {
+            "id": 3,
+            "alias": "CMD",
+            "description": "Command input error. Caused due to improper GCS-commands. Only triggered on the current interface"
+        },
+        "Critical": {
+            "id": 4,
+            "alias": "CRIT",
+            "description": "Runtime error that wasn't triggered by an improper command input or by a motion error in the Drive State Machine. Action required."
+        },
+        "Motion": {
+            "id": 5,
+            "alias": "MOT",
+            "description": "Motion error of axis. Triggers the error handling in the Drive State Machine (Transition: operation enabled -> fault reaction -> fault)"
+        }
+    },
+    "modules": {
+        "Zero": {
+            "id": 0,
+            "alias": "",
+            "description": "Reserved for old Error Sets and No Error"
+        },
+        "One": {
+            "id": 1,
+            "alias": "",
+            "description": "Reserved for old Error Sets"
+        },
+        "Command": {
+            "id": 2,
+            "alias": "CMD",
+            "description": "Command Module"
+        },
+        "Macro": {
+            "id": 3,
+            "alias": "MACRO",
+            "description": "Macro Module"
+        },
+        "Parameter": {
+            "id": 4,
+            "alias": "PARAM",
+            "description": "Parameter Module"
+        },
+        "Motion": {
+            "id": 5,
+            "alias": "MOT",
+            "description": "Motion Module"
+        },
+        "DataRecorder": {
+            "id": 6,
+            "alias": "REC",
+            "description": "Data Recorder Module"
+        },
+        "Sensor": {
+            "id": 7,
+            "alias": "SENS",
+            "description": "Sensor Module"
+        },
+        "Com": {
+            "id": 8,
+            "alias": "COM",
+            "description": "Com Module"
+        },
+        "System": {
+            "id": 9,
+            "alias": "SYS",
+            "description": "System Module"
+        }
+    },
+    "errors": {
+        "PI_ERROR_NO_ERROR": {
+            "id": 0,
+            "module": "Zero",
+            "class": ["None"],
+            "description": "No error"
+        },
+        "PI_ERROR_CMD_$CLASS_NUMBER_OF_ARGUMENTS": {
+            "id": 2,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "Wrong number of arguments"
+        },
+        "PI_ERROR_CMD_$CLASS_UNKNOWN_COMMAND": {
+            "id": 3,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "Unknown command"
+        },
+        "PI_ERROR_CMD_$CLASS_COMMAND_LEVEL_TOO_LOW_FOR_COMMAND_ACCESS": {
+            "id": 4,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "User command level too low for command access"
+        },
+        "PI_ERROR_CMD_$CLASS_INVALID_PWD": {
+            "id": 5,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "Invalid password"
+        },
+        "PI_ERROR_CMD_$CLASS_UNKNOWN_SECTION_COMMAND": {
+            "id": 6,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "Unknown section command"
+        },
+        "PI_ERROR_CMD_$CLASS_INVALID_CHAR": {
+            "id": 7,
+            "module": "Command",
+            "class": ["Command"],
+            "description": "Received invalid ASCII character"
+        },
+        "PI_ERROR_CMD_$CLASS_STP": {
+            "id": 8,
+            "module": "Command",
+            "class": ["Motion"],
+            "description": "Stop command"
+        },
+        "PI_ERROR_PARAM_$CLASS_WRONG_DATA_TYPE": {
+            "id": 9,
+            "module": "Parameter",
+            "class": ["Debug","Command"],
+            "description": "Wrong data type"
+        },
+        "PI_ERROR_PARAM_$CLASS_UNKNOWN_PARAMETER_ID": {
+            "id": 10,
+            "module": "Parameter",
+            "class": ["Command"],
+            "description": "Unknown parameter ID"
+        },
+        "PI_ERROR_PARAM_$CLASS_COMMAND_LEVEL_TOO_LOW_FOR_PARAMETER_ACCESS": {
+            "id": 11,
+            "module": "Parameter",
+            "class": ["Command"],
+            "description": "User command level too low for parameter access"
+        },
+        "PI_ERROR_PARAM_$CLASS_INVALID_VALUE": {
+            "id": 12,
+            "module": "Parameter",
+            "class": ["Command"],
+            "description": "Argument value not valid"
+        },
+        "PI_ERROR_PARAM_$CLASS_WRONG_PARAMETER_TYPE": {
+            "id": 13,
+            "module": "Parameter",
+            "class": ["Command"],
+            "description": "Wrong parameter type"
+        },
+        "PI_ERROR_PARAM_$CLASS_VALUE_OUT_OF_RANGE": {
+            "id": 14,
+            "module": "Parameter",
+            "class": ["Command"],
+            "description": "Argument value out of range"
+        },
+        "PI_ERROR_MOT_$CLASS_UNKNOWN_AXIS_ID": {
+            "id": 15,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Unknown Axis ID"
+        },
+        "PI_ERROR_MOT_$CLASS_ON_LIMIT_SWITCH": {
+            "id": 16,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Motion not possible due to active limit switch"
+        },
+        "PI_ERROR_MOT_$CLASS_INVALID_MODE_OF_OPERATION": {
+            "id": 17,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Invalid mode of operation"
+        },
+        "PI_ERROR_MOT_$CLASS_AXIS_NOT_REF": {
+            "id": 18,
+            "module": "Motion",
+            "class": ["Command","Motion"],
+            "description": "Axis not referenced"
+        },
+        "PI_ERROR_MOT_$CLASS_INVALID_AXIS_STATE": {
+            "id": 19,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Invalid state of axis state machine"
+        },
+        "PI_ERROR_MOT_$CLASS_TARGET_OUT_OF_RANGE": {
+            "id": 20,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Target out of range"
+        },
+        "PI_ERROR_MOT_$CLASS_AXIS_DISABLED": {
+            "id": 21,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Axis is disabled"
+        },
+        "PI_ERROR_MOT_$CLASS_FAULT_REACTION_ACTIVE": {
+            "id": 22,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Fault reaction active on axis"
+        },
+        "PI_ERROR_MOT_$CLASS_LIMIT_SWITCH_ACTIVATED": {
+            "id": 23,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "Axis has activated a limit switch"
+        },
+        "PI_ERROR_MOT_$CLASS_OVER_CURRENT_PROTECTION": {
+            "id": 24,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "Motor current is too high, servo is switched off automatically"
+        },
+        "PI_ERROR_MOT_$CLASS_OUTPUT_LIMIT": {
+            "id": 25,
+            "module": "Motion",
+            "class": ["Warning"],
+            "description": "Motor output is limited"
+        },
+        "PI_ERROR_MOT_$CLASS_POSITION_ERROR_TOO_LARGE": {
+            "id": 26,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "Position error too large, servo is switched off automatically"
+        },
+        "PI_ERROR_MOT_$CLASS_STOP": {
+            "id": 27,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "Stop triggered by command or by error on another axis"
+        },
+        "PI_ERROR_REC_$CLASS_WRONG_FORMAT": {
+            "id": 30,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Wrong recorder format"
+        },
+        "PI_ERROR_REC_$CLASS_UNKNOWN_RECORDER_ID": {
+            "id": 31,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Unknown recorder ID"
+        },
+        "PI_ERROR_REC_$CLASS_NOT_IN_CONFIG_MODE": {
+            "id": 32,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Data recorder is not in configuration mode"
+        },
+        "PI_ERROR_REC_$CLASS_WRONG_RECORDER_TRIGGER": {
+            "id": 33,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Wrong recorder trigger"
+        },
+        "PI_ERROR_REC_$CLASS_WRONG_STARTPOINT": {
+            "id": 34,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Wrong start point"
+        },
+        "PI_ERROR_REC_$CLASS_WRONG_NUMPOINT": {
+            "id": 35,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Wrong number of points"
+        },
+        "PI_ERROR_REC_$CLASS_ALREADY_RUNNING": {
+            "id": 36,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Data recorder is already running"
+        },
+        "PI_ERROR_REC_$CLASS_TRACE_DOES_NOT_EXIST": {
+            "id": 37,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Specified data recorder trace does not exist"
+        },
+        "PI_ERROR_REC_$CLASS_NOT_ENOUGH_RECORDED_DATA": {
+            "id": 38,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Not enough recorded data in at least one data recorder trace"
+        },
+        "PI_ERROR_REC_$CLASS_TRACES_NOT_CONFIGURED": {
+            "id": 39,
+            "module": "DataRecorder",
+            "class": ["Command"],
+            "description": "Data recorder traces are not configured"
+        },
+        "PI_ERROR_COM_$CLASS_COMMUNICATION_ERROR": {
+            "id": 40,
+            "module": "Com",
+            "class": ["Warning"],
+            "description": "Controller detected communication error"
+        },
+        "PI_ERROR_COM_$CLASS_FW_INDEX_UNKNOWN": {
+            "id": 41,
+            "module": "Com",
+            "class": ["Command"],
+            "description": "Firmware index unknown"
+        },
+        "PI_ERROR_COM_$CLASS_TIMEOUT": {
+            "id": 42,
+            "module": "Com",
+            "class": ["Critical"],
+            "description": "Communication timeout occurred"
+        },
+        "PI_ERROR_COM_$CLASS_INVALID_SOCKET": {
+            "id": 43,
+            "module": "Com",
+            "class": ["Critical"],
+            "description": "Invalid Socket"
+        },
+        "PI_ERROR_SYS_$CLASS_INPUT_PORT_ALREADY_CONNECTED": {
+            "id": 56,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The given input port has already been registered in another connection"
+        },
+        "PI_ERROR_SYS_$CLASS_UNIT_ALREADY_REGISTERED": {
+            "id": 57,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The given unit has already been registered to the broker"
+        },
+        "PI_ERROR_SYS_$CLASS_CONNECTION_HAS_NO_INPUT": {
+            "id": 58,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The connection has no input"
+        },
+        "PI_ERROR_SYS_$CLASS_CONNECTION_HAS_NO_OUTPUT": {
+            "id": 59,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The connection has no output"
+        },
+        "PI_ERROR_SYS_$CLASS_CONNECTION_NOT_FOUND": {
+            "id": 60,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The sought connection is not registered"
+        },
+        "PI_ERROR_SYS_$CLASS_INPUT_PORT_NOT_CONNECTED": {
+            "id": 61,
+            "module": "System",
+            "class": ["Info"],
+            "description": "The input port is not connected"
+        },
+        "PI_ERROR_SYS_$CLASS_DATA_CORRUPT": {
+            "id": 62,
+            "module": "System",
+            "class": ["Warning"],
+            "description": "Data corrupted"
+        },
+        "PI_ERROR_SYS_$CLASS_UNIT_TYPE_NOT_SUPPORTED": {
+            "id": 63,
+            "module": "System",
+            "class": ["Command","Critical"],
+            "description": "Unit type not supported"
+        },
+        "PI_ERROR_SYS_$CLASS_FW_UPDATE_ERROR": {
+            "id": 64,
+            "module": "System",
+            "class": ["Command"],
+            "description": "Firmware update failed"
+        },
+        "PI_ERROR_SYS_$CLASS_UNIT_NOT_FOUND": {
+            "id": 65,
+            "module": "System",
+            "class": ["Command"],
+            "description": "Unit could not be found"
+        },
+        "PI_ERROR_SYS_$CLASS_CUNIT_NOT_FOUND": {
+            "id": 66,
+            "module": "System",
+            "class": ["Command"],
+            "description": "Container unit could not be found"
+        },
+        "PI_ERROR_SYS_$CLASS_FUNIT_NOT_FOUND": {
+            "id": 67,
+            "module": "System",
+            "class": ["Command"],
+            "description": "Function unit could not be found"
+        },
+        "PI_ERROR_SYS_$CLASS_NOT_ENOUGH_MEMORY": {
+            "id": 68,
+            "module": "System",
+            "class": ["Critical"],
+            "description": "Not enough memory"
+        },
+        "PI_ERROR_SYS_$CLASS_FLASH_READ_FAILED": {
+            "id": 69,
+            "module": "System",
+            "class": ["Critical"],
+            "description": "Flash read failed"
+        },
+        "PI_ERROR_SYS_$CLASS_NO_DATA_AVAILABLE": {
+            "id": 70,
+            "module": "System",
+            "class": ["Critical"],
+            "description": "No data available"
+        },
+        "PI_ERROR_SYS_$CLASS_FATAL_ERROR": {
+            "id": 71,
+            "module": "System",
+            "class": ["Critical"],
+            "description": "Fatal system error occurred"
+        },
+        "PI_ERROR_MOT_$CLASS_AXIS_IN_FAULT": {
+            "id": 72,
+            "module": "Motion",
+            "class": ["Command"],
+            "description": "Motion axis in fault state"
+        },
+        "PI_ERROR_MOT_$CLASS_REF_SIGNAL_NOT_FOUND": {
+            "id": 73,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "No reference signal detected"
+        },
+        "PI_ERROR_SYS_$CLASS_TIMEOUT": {
+            "id": 74,
+            "module": "System",
+            "class": ["Critical"],
+            "description": "Timeout occurred"
+        },
+        "PI_ERROR_MOT_$CLASS_ON_IPR": {
+            "id": 75,
+            "module": "Motion",
+            "class": ["Command","Info"],
+            "description": "Action not possible due to internal process running"
+        },
+        "PI_ERROR_MOT_$CLASS_HALT_WAS_COMMANDED": {
+            "id": 76,
+            "module": "Motion",
+            "class": ["Motion"],
+            "description": "HALT was triggered by command"
+        }
+    }
+}
