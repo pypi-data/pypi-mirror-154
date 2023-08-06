@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: psmathplus
+Version: 0.0.1
+Summary: A Simple Python Library That Contains Important Mathematics Functions
+Home-page: https://github.com/PeymanSeirafi/mathplus
+Author: Peyman Seirafi
+Author-email: seirafipeyman@yahoo.com
+License: MIT
+Keywords: math
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# mathplus
+ A Very Simple Python Library That Contains Important Mathematics Functions
+
+
+Change Log
+==========
+
+0.0.0 (07/06/2022)
+-------------------
+- First Release

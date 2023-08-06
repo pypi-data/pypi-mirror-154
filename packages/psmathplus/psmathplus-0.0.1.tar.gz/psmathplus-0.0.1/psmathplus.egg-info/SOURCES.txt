@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mathplus/__init__.py
+psmathplus.egg-info/PKG-INFO
+psmathplus.egg-info/SOURCES.txt
+psmathplus.egg-info/dependency_links.txt
+psmathplus.egg-info/top_level.txt
