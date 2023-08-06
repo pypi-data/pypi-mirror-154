@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ift-resolve
+Version: 0.0
+Summary: Radio imaging with information field theory
+Home-page: https://gitlab.mpcdf.mpg.de/ift/resolve
+Author: Philipp Arras
+Author-email: parras@mpa-garching.mpg.de
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
