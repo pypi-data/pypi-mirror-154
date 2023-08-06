@@ -1,0 +1,87 @@
+include:
+  - project: computing/gitlab-ci-templates
+    file:
+      # https://computing.docs.ligo.org/gitlab-ci-templates/conda/
+      - conda.yml
+      # https://computing.docs.ligo.org/gitlab-ci-templates/python/
+      - python.yml
+
+stages:
+  - dist
+  - test
+
+# -- dist -------------------
+#
+# This job makes the cdsutils-X.Y.Z.tar.gz
+# distribution and uploads it as a job
+# artifact
+#
+
+tarball:
+  extends:
+    # https://computing.docs.ligo.org/gitlab-ci-templates/python/#.python:build
+    - .python:build
+  image: python:3
+  stage: dist
+
+# -- test -------------------
+#
+# These jobs run the tests on
+# all supported platforms
+#
+
+# -- test with pip
+
+.test:
+  extends:
+    # https://computing.docs.ligo.org/gitlab-ci-templates/conda/#.conda:base
+    - .conda:base
+    # https://computing.docs.ligo.org/gitlab-ci-templates/python/#.python:test
+    - .python:test
+  image: igwn/base:conda
+  stage: test
+  needs:
+    - tarball
+  variables:
+    # don't need the git repo
+    GIT_STRATEGY: none
+  before_script:
+    # run the before_script section from the .conda:base template
+    # to configure conda properly
+    - !reference [".conda:base", before_script]
+    # create conda environment for the tests
+    - "PYTHON_VERSION=${CI_JOB_NAME##*:}"
+    - mamba create -n test
+          coverage
+          ezca
+          numpy
+          pip
+          python=${PYTHON_VERSION}
+          setuptools
+    - conda activate test
+    - python3 -m pip install cdsutils-*.tar.gz
+  script:
+    - conda activate test
+    - python3 -m coverage run -m cdsutils.tests
+  after_script:
+    # use the conda environment for the after_script
+    # so that `coverage report` works
+    - . /opt/conda/etc/profile.d/conda.sh
+    - conda activate test
+    - !reference [".python:test", after_script]
+
+test:python:3.6:
+  extends:
+    - .test
+
+test:python:3.7:
+  extends:
+    - .test
+
+test:python:3.8:
+  extends:
+    - .test
+
+test:python:3.9:
+  extends:
+    - .test

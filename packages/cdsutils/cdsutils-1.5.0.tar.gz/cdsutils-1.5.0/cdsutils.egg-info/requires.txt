@@ -1,0 +1,5 @@
+gpstime
+matplotlib
+nds2-client
+numpy
+python-ezca
