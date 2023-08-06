@@ -1,0 +1,2 @@
+[console_scripts]
+jackalify = jackalify:main
