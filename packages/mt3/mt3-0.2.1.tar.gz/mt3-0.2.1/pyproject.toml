@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "mt3"
+version = "0.2.1"
+description = "A simple module for outlier detection thanks to Modified Thompson Tau Test"
+authors = ["h4c5 <hakimcheikh@yahoo.fr>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/h4c5/mt3"
+packages = [
+    { include = "mt3", from = "src" },
+]
+keywords = ["statistics", "outliers", "modified thompson tau test"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+scipy = {version = "^1.8.1", optional = true}
+pandas = {version = "^1.4.2", optional = true}
+numpy = {version = "^1.22.4", optional = true}
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.2"
+tox = "^3.25.0"
+
+[tool.poetry.extras]
+scipy = ["scipy"]
+numpy = ["numpy"]
+pandas = ["pandas"]
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
