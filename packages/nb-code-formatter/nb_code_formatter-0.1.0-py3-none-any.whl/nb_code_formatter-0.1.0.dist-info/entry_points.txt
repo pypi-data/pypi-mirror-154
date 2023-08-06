@@ -1,0 +1,3 @@
+[console_scripts]
+nbcodefmt=nb_code_formatter:main
+
