@@ -1,0 +1,10 @@
+LICENSE.txt
+README
+pyproject.toml
+setup.cfg
+dengo/dengo_chemistry.egg-info/PKG-INFO
+dengo/dengo_chemistry.egg-info/SOURCES.txt
+dengo/dengo_chemistry.egg-info/dependency_links.txt
+dengo/dengo_chemistry.egg-info/requires.txt
+dengo/dengo_chemistry.egg-info/top_level.txt
+test/test_dengo.py

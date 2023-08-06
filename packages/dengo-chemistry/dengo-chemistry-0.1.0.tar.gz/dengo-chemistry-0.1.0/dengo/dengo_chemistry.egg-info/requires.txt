@@ -1,0 +1,10 @@
+ChiantiPy>=0.12.0
+docutils>=0.16
+h5py>=3.6.0
+Jinja2>=3.0.3
+numpy>=1.18.5
+setuptools>=62.3.2
+sympy>=1.10.1
+matplotlib>=3.5.2
+pytest>=7.1.2
+yt>=4.0.4
