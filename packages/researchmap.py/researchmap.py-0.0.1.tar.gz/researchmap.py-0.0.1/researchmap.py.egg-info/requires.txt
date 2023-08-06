@@ -1,0 +1,8 @@
+PyJWT
+aiohttp
+requestscryptography
+sphinx
+sphinxcontrib-trio
+sphinxcontrib-websupport
+myst-parser
+urllib3

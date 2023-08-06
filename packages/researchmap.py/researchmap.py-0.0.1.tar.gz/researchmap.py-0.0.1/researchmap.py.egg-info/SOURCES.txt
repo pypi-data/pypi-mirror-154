@@ -1,0 +1,13 @@
+AUTHORS
+LICENSE
+README.md
+setup.py
+researchmap/__init__.py
+researchmap/adapter.py
+researchmap/errors.py
+researchmap/wrapper.py
+researchmap.py.egg-info/PKG-INFO
+researchmap.py.egg-info/SOURCES.txt
+researchmap.py.egg-info/dependency_links.txt
+researchmap.py.egg-info/requires.txt
+researchmap.py.egg-info/top_level.txt
