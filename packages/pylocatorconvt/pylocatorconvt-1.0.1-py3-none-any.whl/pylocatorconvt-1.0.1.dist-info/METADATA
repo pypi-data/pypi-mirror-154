@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pylocatorconvt
+Version: 1.0.1
+Summary: Appium Inspector Locator Creation Helper
+Author: jiwon.lee
+Author-email: easyone.jio@gmail.com
+Keywords: LOCATORCONVERTER,locatorconverter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+
