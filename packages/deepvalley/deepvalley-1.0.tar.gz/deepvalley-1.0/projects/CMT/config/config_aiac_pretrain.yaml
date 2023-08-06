@@ -1,0 +1,130 @@
+LAUNCH:
+  DEBUG: True
+  HOST_NUM: 1
+  GPU_PER_HOST: 1
+  HOST_RANK: 0
+  DIST_URL: localhost
+  LOCAL_RANK: 0
+  GLOBAL_RANK: 0
+  WORLD_SIZE: 0
+
+EXPERIMENT:
+  ROOT_DIR:
+  CFG_FILE: config.yaml
+  TENSORBOARD_DIR: tb_dir
+
+  LOG_FILE: .
+  LOG_PERIOD: 100 # in iteration
+
+  EVAL_PERIOD: 0  # in epoch
+  EVAL_START: 0   # in epoch
+
+  RESUME: False
+  MAX_EPOCH: 5
+  SEED: 1
+
+ENGINE:
+  NAME: DefaultTrainer
+  
+DATASET:
+  TRAIN: 
+    NAME: AIAC_PRETRAIN   # name of dataloader
+    DATA_ROOT: /group/20024/goodli/data/aiac
+    FORMAT_TYPE: 
+    MAX_VIDEO_LEN: 32
+    MAX_TITLE_LEN: 32
+    MAX_ASR_LEN: 128
+
+DATALOADER:
+  TRAIN: DefaultDataLoader
+  TEST:  DefaultDataLoader
+  BATCH_SIZE: 128
+  WORKER_NUM: 0
+
+MODEL:
+  DEVICE: "cuda"
+  META_ARCHITECTURE: "CMT_PRETRAIN"
+  WEIGHTS: ""
+  BERT_PATH: /group/20024/goodli/data/modelzoo/huggingface/bert-base-chinese/
+
+  CNN_DIM: 1536
+  BERT_DIM: 768
+  TAG_NUM: 17911
+  CAT_NUM: 207
+  PROJ_DIM: 256
+
+  MVM: False
+  VTM: False
+  
+  # ---------------------------------------------------------------------------- #
+  # Backbone options
+  # ---------------------------------------------------------------------------- #
+  BACKBONE:
+    NAME: "build_lenet_backbone"
+
+  # Values to be used for image normalization (BGR order, since INPUT.FORMAT defaults to BGR).
+  # To train on images of different number of channels, just set different mean & std.
+  # Default values are the mean pixel value from ImageNet: [103.53, 116.28, 123.675]
+  PIXEL_MEAN: [103.530, 116.280, 123.675]
+
+  # When using pre-trained models in Detectron1 or any MSRA models,
+  # std has been absorbed into its conv1 weights, so the std needs to be set 1.
+  # Otherwise, you can use [57.375, 57.120, 58.395] (ImageNet std)
+  PIXEL_STD: [1.0, 1.0, 1.0]
+
+SOLVER:
+  TAG_WEIGHT: 0.0
+  CAT_WEIGHT: 0.0
+
+  MAX_ITER: 100000
+  LR_SCHEDULER_NAME: WarmupMultiStepLR
+  BASE_LR: 5e-5
+  MOMENTUM: 0.9
+  NESTEROV: False
+  WEIGHT_DECAY: 0.0001
+
+  # The weight decay that's applied to parameters of normalization layers
+  # (typically the affine transformation)
+  WEIGHT_DECAY_NORM: 0.0
+  GAMMA: 0.9
+  
+  # The iteration number to decrease learning rate by GAMMA.
+  STEPS: [3000, 8000, 13000, 18000]
+  WARMUP_FACTOR: 0.001
+  WARMUP_ITERS: 10000
+  WARMUP_METHOD: "linear"
+
+  # Save a checkpoint after every this number of iterations
+  CHECKPOINT_PERIOD: 1
+
+
+  # The reference number of workers (GPUs) this config is meant to train with.
+  # It takes no effect when set to 0.
+  # With a non-zero value, it will be used by DefaultTrainer to compute a desired
+  # per-worker batch size, and then scale the other related configs (total batch size,
+  # learning rate, etc) to match the per-worker batch size.
+  # See documentation of `DefaultTrainer.auto_scale_workers` for details:
+  REFERENCE_WORLD_SIZE: 0
+
+  # Gradient clipping
+  CLIP_GRADIENTS:
+    ENABLED: False
+
+    # Type of gradient clipping, currently 2 values are supported:
+    # - "value": the absolute values of elements of each gradients are clipped
+    # - "norm": the norm of the gradient for each parameter is clipped thus
+    #   affecting all elements in the parameter
+    CLIP_TYPE: "value"
+
+    # Maximum absolute value used for clipping gradients
+    CLIP_VALUE: 1.0
+
+    # Floating point number p for L-p norm to be used with the "norm"
+    # gradient clipping type; for L-inf, please specify .inf
+    NORM_TYPE: 2.0
+
+  # Enable automatic mixed precision for training
+  # Note that this does not change model's inference behavior.
+  # To use AMP in inference, run inference under autocast()
+  AMP:
+    ENABLED: False
