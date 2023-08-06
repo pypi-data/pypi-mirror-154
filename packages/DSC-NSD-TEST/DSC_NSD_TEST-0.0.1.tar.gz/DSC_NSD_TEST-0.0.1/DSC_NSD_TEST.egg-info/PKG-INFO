@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: DSC-NSD-TEST
+Version: 0.0.1
+Summary: pytorch implementation of DICE loss
+Home-page: https://github.com/gc-js/test
+Author: Cheng Ge
+Author-email: 13851520957@163.com
+License: MIT
+Description: # test
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

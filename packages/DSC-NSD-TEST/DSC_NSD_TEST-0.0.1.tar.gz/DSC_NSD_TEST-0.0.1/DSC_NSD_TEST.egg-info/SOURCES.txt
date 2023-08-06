@@ -1,0 +1,9 @@
+README.md
+setup.py
+DSC_NSD_TEST/DSC_NSD_TEST.py
+DSC_NSD_TEST/__init__.py
+DSC_NSD_TEST.egg-info/PKG-INFO
+DSC_NSD_TEST.egg-info/SOURCES.txt
+DSC_NSD_TEST.egg-info/dependency_links.txt
+DSC_NSD_TEST.egg-info/requires.txt
+DSC_NSD_TEST.egg-info/top_level.txt
