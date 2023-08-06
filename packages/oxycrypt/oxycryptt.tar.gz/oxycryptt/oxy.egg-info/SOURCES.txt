@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+oxy/__init__.py
+oxy.egg-info/PKG-INFO
+oxy.egg-info/SOURCES.txt
+oxy.egg-info/dependency_links.txt
+oxy.egg-info/top_level.txt
