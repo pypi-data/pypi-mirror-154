@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/colorlib/__init__.py
+src/colorlib/boxes.py
+src/colorlib/coloring.py
+src/colorlib/text_manipulation.py
+src/colorlib/typing.py
+src/tui_colorlib.egg-info/PKG-INFO
+src/tui_colorlib.egg-info/SOURCES.txt
+src/tui_colorlib.egg-info/dependency_links.txt
+src/tui_colorlib.egg-info/top_level.txt
