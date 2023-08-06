@@ -1,0 +1,9 @@
+README.md
+setup.py
+splitmovieaiyc/__init__.py
+splitmovieaiyc/aiyclove.py
+splitmovieaiyc.egg-info/PKG-INFO
+splitmovieaiyc.egg-info/SOURCES.txt
+splitmovieaiyc.egg-info/dependency_links.txt
+splitmovieaiyc.egg-info/requires.txt
+splitmovieaiyc.egg-info/top_level.txt
