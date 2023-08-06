@@ -1,0 +1,4 @@
+[console_scripts]
+deepdlncud = deepdlncud.Main:main
+deepdlncud_download = deepdlncud.Main:download
+
