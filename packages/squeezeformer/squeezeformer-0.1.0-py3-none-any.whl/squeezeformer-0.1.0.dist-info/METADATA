@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: squeezeformer
+Version: 0.1.0
+Summary: An Efficient Transformer for Automatic Speech Recognition
+Home-page: https://github.com/upskyy/Squeezeformer
+Author: Ha Sangchun
+Author-email: seomk9896@gmail.com
+License: UNKNOWN
+Keywords: asr,speech_recognition,artificial intelligence,transformer
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: torch (>=1.4.0)
+Requires-Dist: numpy
+
+UNKNOWN
+

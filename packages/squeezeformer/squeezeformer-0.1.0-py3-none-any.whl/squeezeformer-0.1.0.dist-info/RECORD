@@ -1,0 +1,12 @@
+squeezeformer/__init__.py,sha256=P0yNVQa6kT1A4oPdoVCK8dwCy93VnQ9vjF5GJVPhNBE,648
+squeezeformer/activation.py,sha256=hlxyWN8NvdcUSckY4O8EsmOqtHVV1Ao7KoJ-rgn006I,1105
+squeezeformer/attention.py,sha256=KlsU4sbwa7c9agVuTaFMFQBA7QyEmW5M4AxpZOZtfxE,5792
+squeezeformer/convolution.py,sha256=ra6s_lu5ywq-oqj2NR8OIU1361z6j2hPdDBV-qx2CHc,9667
+squeezeformer/encoder.py,sha256=SoRHjBEg7s0NiiPyOPKw1tXtJULXeDPoGSMl8UiaKxA,11558
+squeezeformer/model.py,sha256=upPvp3anl-c19e6Yh6PF6rkVXicer_PnDuM78dwLm8I,5134
+squeezeformer/modules.py,sha256=q1lsrcG3XTOjyJTJTPQvoijsHKXjWuN0pMACdQen6x8,4143
+squeezeformer-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+squeezeformer-0.1.0.dist-info/METADATA,sha256=Drff0R_D8-c8YTx6C-ox7FrhgaRqUmYRn02umgdBAX8,440
+squeezeformer-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+squeezeformer-0.1.0.dist-info/top_level.txt,sha256=l1A0hEj0obHb5ivWxg7qUh-RmmSdtad2mNa5yYxOIPw,14
+squeezeformer-0.1.0.dist-info/RECORD,,
