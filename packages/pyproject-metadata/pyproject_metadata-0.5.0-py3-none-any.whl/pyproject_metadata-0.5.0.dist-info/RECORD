@@ -1,0 +1,11 @@
+pyproject_metadata/__init__.py,sha256=ft_OeH8pjmQWxcLSSFN6lLzyU_HpJhaDl1qnXcWzkeA,19493
+pyproject_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Y7dF77bRJK0bNOdJozu4Bea1blCLIHThu3cVkLyq0Vo,718
+tests/test_rfc822.py,sha256=2x6cT2UojWACQICzsWu9TfMbJ02HoYrODOLCW4M4H1U,3990
+tests/test_standard_metadata.py,sha256=1XqNLLN5aOGjRKiq25nUqMoJngGLOY2Q7TQ8T6hhMJo,22283
+pyproject_metadata-0.5.0.dist-info/LICENSE,sha256=qvminKWQeXHM8H3gJTdds0U5qNXu684gtGCZgFciEG8,1113
+pyproject_metadata-0.5.0.dist-info/METADATA,sha256=Q4FYOXvNlwq7atfiD-DzbnRxsC3KOyjxH3r6bdi6biQ,2967
+pyproject_metadata-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyproject_metadata-0.5.0.dist-info/top_level.txt,sha256=xLwciIYqqdc8ayDuVYYByL7bGHNFQ3qw6yp_pfuJTTQ,25
+pyproject_metadata-0.5.0.dist-info/RECORD,,
