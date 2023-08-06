@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stage_reporter
+Version: 0.0.2
+Summary: Testing installation of Package
+Home-page: https://github.com/DonnieData/stage-reporter
+Author: Donnell Jackson
+Author-email: donnie.developer@gmail.com
+License: MIT
+Download-URL: https://github.com/DonnieData/stage-reporter/archive/refs/tags/v.0.0.2.tar.gz
+Project-URL: Bug Tracker, https://github.com/DonnieData/stage-reporter/issues
+Description: # stage-reporter-
+        creating python package for simple stage monitoring when automating scripts / executing batch files 
+        
+Keywords: pypi,stage_reporter,script report,tracking
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
