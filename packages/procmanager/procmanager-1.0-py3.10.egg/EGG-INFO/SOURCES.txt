@@ -1,0 +1,8 @@
+README.md
+setup.py
+procmanager/__init__.py
+procmanager.egg-info/PKG-INFO
+procmanager.egg-info/SOURCES.txt
+procmanager.egg-info/dependency_links.txt
+procmanager.egg-info/top_level.txt
+scripts/procmgr
