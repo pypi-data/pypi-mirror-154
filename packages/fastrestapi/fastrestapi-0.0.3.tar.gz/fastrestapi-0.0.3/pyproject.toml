@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "fastrestapi"
+author = "eabiao"
+author-email = "eabiao@163.com"
+requires = [
+    "bottle >= 0.12.21",
+    "waitress >= 2.1.2"
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
