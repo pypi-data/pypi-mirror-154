@@ -1,0 +1,14 @@
+pymupdf
+nltk
+numpy
+lxml
+cssselect
+
+[dev]
+pip-tools
+flake8
+black
+ipdb
+bumpver
+build
+twine
