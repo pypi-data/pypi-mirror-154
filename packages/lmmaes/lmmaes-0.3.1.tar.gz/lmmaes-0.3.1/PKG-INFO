@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: lmmaes
+Version: 0.3.1
+Summary: Limited-Memory Matrix Adaptation Evolution Strategy
+Home-page: https://github.com/giuse/lmmaes
+Download-URL: https://github.com/giuse/lmmaes/archive/0.3.1.tar.gz
+Author: Giuseppe Cuccu
+Author-email: giuseppe.cuccu@gmail.com
+License: # LM-MA-ES
+        # Original implementation: Copyright (c) 2017 Tobias Glasmachers
+        # Refactoring & distribution: Copyright (c) 2021 Giuseppe Cuccu
+        #
+        # Permission is hereby granted, free of charge, to any person obtaining a copy
+        # of this software and associated documentation files (the "Software"), to deal
+        # in the Software without restriction, including without limitation the rights
+        # to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        # copies of the Software, and to permit persons to whom the Software is
+        # furnished to do so, subject to the following conditions:
+        #
+        # The above copyright notice and this permission notice shall be included in all
+        # copies or substantial portions of the Software.
+        #
+        # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        # FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        # AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        # SOFTWARE.
+        #
+        
+Project-URL: Bug Reports, https://github.com/giuse/lmmaes/issues
+Project-URL: Source, https://github.com/giuse/lmmaes/
+Keywords: blackbox optimization evolution strategies large scale
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LM-MA-ES: Limited-Memory Matrix Adaptation Evolution Strategy
+
+## Installation
+`pip install lmmaes`
+
+## Run instructions
+Check the [tests](https://github.com/giuse/lmmaes/blob/master/tests/test_lmmaes.py)
+
+## Further info
+
+Please refer to the following publication:
+https://arxiv.org/abs/1705.06693
+
+```bibtex
+@article{DBLP:journals/corr/LoshchilovGB17,
+  author    = {Ilya Loshchilov and
+               Tobias Glasmachers and
+               Hans{-}Georg Beyer},
+  title     = {Limited-Memory Matrix Adaptation for Large Scale Black-box Optimization},
+  journal   = {CoRR},
+  volume    = {abs/1705.06693},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.06693},
+  eprinttype = {arXiv},
+  eprint    = {1705.06693},
+  biburl    = {https://dblp.org/rec/journals/corr/LoshchilovGB17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+Also have a look at this:
+
+```bibtex
+@article{LoshchilovGlasmachersBeyer2018,
+  author    = {Loshchilov, Ilya and Glasmachers, Tobias and Beyer, Hans-Georg},
+  title   = {Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation},
+  journal   = {IEEE Transactions on Evolutionary Computation},
+  volume    = {99},
+  year    = {2018},
+}
+```
+
+Original Python implementation:
+[Tobias Glasmachers](https://www.ini.rub.de/the_institute/people/tobias-glasmachers/)
+[[code]](https://www.ini.rub.de/upload/editor/file/1604950981_dc3a4459a4160b48d51e/lmmaes.py)  
+Refactoring, packaging and distribution:
+[Giuseppe Cuccu](https://exascale.info/members/giuseppe-cuccu/)
+
+[Pypi page](https://pypi.org/project/lmmaes/)  
+[Source code](https://github.com/giuse/lmmaes)
