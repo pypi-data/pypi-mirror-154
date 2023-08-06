@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+aim_spacy/__init__.py
+aim_spacy/aim_displacy.py
+aim_spacy/base_logger.py
+aim_spacy/handler.py
+aim_spacy/types.py
+aim_spacy/utils.py
+aim_spacy.egg-info/PKG-INFO
+aim_spacy.egg-info/SOURCES.txt
+aim_spacy.egg-info/dependency_links.txt
+aim_spacy.egg-info/entry_points.txt
+aim_spacy.egg-info/requires.txt
+aim_spacy.egg-info/top_level.txt

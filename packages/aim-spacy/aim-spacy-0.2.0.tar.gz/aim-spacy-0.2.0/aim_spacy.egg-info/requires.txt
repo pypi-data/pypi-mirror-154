@@ -1,0 +1,8 @@
+html2image
+spacy
+tqdm
+aim
+svglib
+lxml
+pillow
+reportlab
