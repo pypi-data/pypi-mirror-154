@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: atbu-mp-pipeline-pkg
+Version: 0.0.3
+Summary: ATBU atbu.mp_pipeline package, a multiprocessing work item pipeline.
+Home-page: https://github.com/AshleyT3/atbu-mp-pipeline
+Author: Ashley R. Thomas
+Author-email: ashley.r.thomas.701@gmail.com
+Project-URL: Bug Tracker, https://github.com/AshleyT3/atbu-mp-pipeline/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: atbu-common-pkg (>=0.0.1)
+
+# atbu-mp-pipeline-pkg (atbu.mp_pipeline) package
+## Overview
+The atbu.mp_pipeline package uses Python multiprocessing capabilities to support multi-stage pipeline capabilities, including support for dual-stage parallel execution of a producer and consumer stages, automatically providing each of those stages with pipe connection, allowing them share what is being produced/consumed.
+
+The atbu.mp_pipeline package is currently used by the following project for supporting a backup compression pipeline stage:
+- [ATBU Backup & Persistent File Information](https://github.com/AshleyT3/atbu) utility package (atbu-pkg).
+
+## Setup
+To install atbu-common-pkg:
+
+```
+pip install atbu-mp-pipeline-pkg
+```
+
+See source code for this and the other packages mentioned above for details and usage information.
