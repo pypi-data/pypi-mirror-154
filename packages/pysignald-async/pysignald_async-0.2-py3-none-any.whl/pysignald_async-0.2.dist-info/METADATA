@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pysignald-async
+Version: 0.2
+Summary: Python bindings for signald
+Home-page: https://gitlab.com/nicocool84/pysignald-async
+Author: Nicolas Cedilnik
+Author-email: nicoco@nicoco.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiosignald
+Description-Content-Type: text/x-rst
+
+Signald python bindings
+=======================
+
+This project has been moved and renamed `aiosignald <https://gitlab.com/nicocool84/aiosignald>`_
