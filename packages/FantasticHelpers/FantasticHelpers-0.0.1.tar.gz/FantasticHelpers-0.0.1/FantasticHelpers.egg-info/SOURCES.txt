@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+FH/__init__.py
+FH/dataset.py
+FH/version.py
+FantasticHelpers.egg-info/PKG-INFO
+FantasticHelpers.egg-info/SOURCES.txt
+FantasticHelpers.egg-info/dependency_links.txt
+FantasticHelpers.egg-info/requires.txt
+FantasticHelpers.egg-info/top_level.txt
