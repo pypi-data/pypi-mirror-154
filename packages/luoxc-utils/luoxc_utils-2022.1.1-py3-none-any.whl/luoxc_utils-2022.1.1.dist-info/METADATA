@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: luoxc-utils
+Version: 2022.1.1
+Summary: python utils by luoxc
+Home-page: https://github.com/
+Author: Luoxc
+Author-email: buptfhxy@163.com
+License: APACHE
+Keywords: utils
+Platform: UNKNOWN
+
+===========
+luoxc_utils
+===========
+
+A utils package to make python code clear.
+
