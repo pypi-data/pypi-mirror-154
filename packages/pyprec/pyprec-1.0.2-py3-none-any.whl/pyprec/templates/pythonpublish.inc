@@ -1,0 +1,26 @@
+name: Python publication
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip build
+        pip install twine
+    - name: Build and publish
+      env:
+        TWINE_USERNAME: $${{ secrets.TWINE_USER }}
+        TWINE_PASSWORD: $${{ secrets.TWINE_PASS }}
+      run: |
+        python -m build
+        twine upload dist/*
