@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: netsketch-beta
+Version: 0.0.0
+Summary: NetSketch [Beta] | The Network Visualizer
+Home-page: https://github.com/tushariyer/netsketch
+Author: Tushar Iyer
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Licensed under the generic MIT License."netsketch" can either be downloaded from the Releases page on GitHub and manually added to PATH or installed via "pip".
+Platform: UNKNOWN
