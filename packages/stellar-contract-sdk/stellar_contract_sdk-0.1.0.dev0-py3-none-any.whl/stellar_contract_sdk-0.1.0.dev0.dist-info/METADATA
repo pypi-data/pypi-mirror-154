@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: stellar-contract-sdk
+Version: 0.1.0.dev0
+Summary: Python SDK for Stellar Smart Contracts
+License: Apache-2.0
+Author: overcat
+Author-email: 4catcode@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
