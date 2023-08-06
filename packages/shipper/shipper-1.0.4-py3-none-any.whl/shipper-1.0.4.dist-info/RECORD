@@ -1,0 +1,17 @@
+shipper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shipper/check_and_create_folder.py,sha256=b4jsNbv2qXrC23-3fYD5Q6vDd_9HnUFVcuqQEyzGU2A,114
+shipper/create_docker_compose.py,sha256=5vrdqgAO7TXsh9PY83mhjEjlSCkMkslvcW4OVvgaFrc,1269
+shipper/create_reversed_proxy.py,sha256=7OzcCv6V2N0l-h6xvnFPU_UoGhfxg0a4CY70elccQVs,774
+shipper/create_run_script.py,sha256=3QK--0_6p-raQb1u7vOBqBrn2Izncw-eilyZ82LidwE,3425
+shipper/docker_build.py,sha256=bqckA_iGQIW8DV7xwg0eYFmzbzibMvnulyzZ04pWJpw,428
+shipper/docker_publish.py,sha256=70YfjDdHCW9_OOz3e-jUuTQwMrRIAaKrbmZ9gyPhKKw,497
+shipper/generate_config.py,sha256=EWs5qm6lCUd6cTFwlLFRMYqcmFroXYqv11nekNi7DtA,281
+shipper/generate_web_config.py,sha256=INuAVHYDBbVjfjKbQrbPRi5_laGph0FNGb1YyKQyEtE,1112
+shipper/get_folder_list.py,sha256=zEsuYqI7TFRBZjToOGKcydbrK7DXL96J6l08E14EoX0,257
+shipper/get_project_config.py,sha256=x8tWe6LlqzrmIPSXaMsjZiwUuxfeA4iHeaD38NQRmQw,146
+shipper/place_env.py,sha256=y3D91flR-w8UVV2bzQ1q01HlDVjcHR8bPm0iCRYfL8s,310
+shipper/update_project.py,sha256=YDifaXvc14bwY_TqVvelKy3rcxjZI0zwCFhMTueiGtI,421
+shipper-1.0.4.dist-info/METADATA,sha256=luUtiF5ELRF889tcm6Lv_8KEMDnlbFk6QwoYc9khO28,306
+shipper-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shipper-1.0.4.dist-info/top_level.txt,sha256=iRvhEHh7yOkRLefBx5bzKfXDOOZQIaw5ZPdo-TQuyKA,8
+shipper-1.0.4.dist-info/RECORD,,
