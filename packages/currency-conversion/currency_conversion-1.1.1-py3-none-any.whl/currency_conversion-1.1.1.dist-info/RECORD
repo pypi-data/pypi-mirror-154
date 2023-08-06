@@ -1,0 +1,15 @@
+currency_conversion/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+currency_conversion/audusd.py,sha256=_gTCMHUeuBQ0qxTyLOgnQvqq8DjrjVPROTNEJ2dIQAE,2347
+currency_conversion/eurusd.py,sha256=AryPwu-E1OtnU5r50Zwydn0EbHtCgqpoKfVB__VRoxg,2343
+currency_conversion/gbpeur.py,sha256=GtICxZY5AZCczAG7KsWtR-tQB44PUZzr6LczhEEpMJs,2345
+currency_conversion/usdcad.py,sha256=P0b2fL8L4B_Xp1ryDOS8KYDAyoFbXvy774OP1DiUFVI,2337
+currency_conversion/usdcny.py,sha256=x7PXwH6GN63DQ5o6wreFV6ZpZqkxPD4Wz1yBSmSd2eg,2341
+currency_conversion/usdczk.py,sha256=M_DE65xZVzoHduCymqEBRp8Zumh_0trj5LGtuFu1Yrc,2355
+currency_conversion/usdinr.py,sha256=xkHR_cmRl8BdwPHyvW_q42PpEr8ds7zbjPmyqY5mQ2Y,2339
+currency_conversion/usdjpy.py,sha256=_vKDa-CvtXOIhiPeqfZ6VQWSWMGLWAehTCHPR2tfdHI,2343
+currency_conversion/usdmxn.py,sha256=eRUhHhmo8XJPPcTiR7iI6Yqp5juB_AXKcO2mDJeGp8U,2345
+currency_conversion/usdpln.py,sha256=JjcvoAHT2kObQ04S6NgcIj5jMb20Kr4BbCqp2WZbqFo,2343
+currency_conversion-1.1.1.dist-info/METADATA,sha256=n1NKGCajCHypvLsFtFnTrFRGYeFH0JupUCJyzOfbZWY,711
+currency_conversion-1.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+currency_conversion-1.1.1.dist-info/top_level.txt,sha256=_GUdMXR00fHAfIbE7nrrfQ2dUkeqLVLbRUXsKdGkvoE,20
+currency_conversion-1.1.1.dist-info/RECORD,,
