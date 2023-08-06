@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+PyMutator.egg-info/PKG-INFO
+PyMutator.egg-info/SOURCES.txt
+PyMutator.egg-info/dependency_links.txt
+PyMutator.egg-info/top_level.txt
+pymutator/__init__.py
+pymutator/pymutator.py
+pymutator/tests/__init__.py
+pymutator/tests/pymutator_test.py
