@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+setup.py
+sloris/__init__.py
+sloris/main.py
+sloris.egg-info/PKG-INFO
+sloris.egg-info/SOURCES.txt
+sloris.egg-info/dependency_links.txt
+sloris.egg-info/entry_points.txt
+sloris.egg-info/top_level.txt
+sloris/loris/__init__.py
+sloris/loris/agents.py
+sloris/loris/loris.py
+sloris/loris/user-agents.txt

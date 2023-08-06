@@ -1,0 +1,3 @@
+[console_scripts]
+sloris = sloris.main:main
+
