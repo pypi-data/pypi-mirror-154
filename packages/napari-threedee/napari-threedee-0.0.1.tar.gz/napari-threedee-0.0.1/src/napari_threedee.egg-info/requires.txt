@@ -1,0 +1,11 @@
+npe2
+napari
+numpy
+qtpy
+
+[dev]
+furo
+jupyter-book
+sphinx-autodoc-typehints
+pytest
+pytest-qt
