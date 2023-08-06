@@ -1,0 +1,10 @@
+c4counter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+c4counter/_c4counter.py,sha256=wVOUeYLSWgnMThmo2UaAG35axcmLMGT7DClSlLht7NI,11320
+c4counter/minimapcut.py,sha256=4OJRd6sbgI3-FEEzFaL790HRR3lnDtedABTcauNlBdw,3113
+c4counter/paf.py,sha256=R_97u7idqjUyeiUZzs5T3OwX6UxJqE1NfA-snb-LT7k,691
+c4counter/data/C4A.fa,sha256=SjuO1dBOzSPNlrwL0TbS_EEb-ALSMStWe1fxLwska8o,21031
+c4counter-0.0.1.dist-info/METADATA,sha256=pqYByEXiDb8qCSKKj9uKuBqAaEqp9hkftDylyEvUWIg,1065
+c4counter-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+c4counter-0.0.1.dist-info/entry_points.txt,sha256=B8f8IT0Fo3BGGF5DzRerjr6vfOkbF6voIe7u40dLLVI,56
+c4counter-0.0.1.dist-info/top_level.txt,sha256=olfsFxs_GsEpG07Zka_PWT_AG956OdVeZwLHfzOh_EM,10
+c4counter-0.0.1.dist-info/RECORD,,

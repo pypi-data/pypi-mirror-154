@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: c4counter
+Version: 0.0.1
+Summary: finds the number and types of complement component 4 (C4) genes in a fasta file. minimap2 is used for mapping
+Home-page: https://github.com/irunonayran/c4counter.git
+Author: Stephan Scholz
+Author-email: stephan.scholz@hhu.de
+Project-URL: Bug Tracker, https://github.com/irunonayran/c4counter/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: docopt
+Requires-Dist: Bio
+
+# c4counter
+This skript takes fasta files containing human HLA regions and returns the number and types of C4 genes (C4A / C4B, HERV / no HERV). In addition, a simple graphical representation in svg format is generated (name: c4.svg)
+
+## Dependencies
+minimap2 is used for mapping
+
+## Installation
+### pip
+
+`pip install c4counter`
+
+please make sure you have minimap2 installed
+### bioconda
+
+`conda install c4counter`
+
+conda will install minimap2 for you
