@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: xsuite
+Version: 0.4.0
+Summary: Integrated suite for particle accelerator simulations
+Home-page: https://xsuite.readthedocs.io/
+Author: R. De Maria, G. Iadarola et al.
+License: Apache 2.0
+Download-URL: https://pypi.python.org/pypi/xsuite
+Project-URL: Bug Tracker, https://github.com/xsuite/xsuite/issues
+Project-URL: Documentation, https://xsuite.readthedocs.io/
+Project-URL: Source Code, https://github.com/xsuite/xsuite
+Description: Integrated suite for particle accelerator simulations
+Platform: UNKNOWN
