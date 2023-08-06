@@ -1,0 +1,8 @@
+sco1_misc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sco1_misc/csv_date_trim.py,sha256=NpXi6AnywRtPw9dEJEGE9p0DjYTOH4nI6MsL9NZhzcQ,3187
+sco1_misc/prompts.py,sha256=jjfUC7pVvjRS_rus8FPj5LRuIt-e4fks8JIIJSSOuys,1160
+sco1_misc-0.1.0.dist-info/entry_points.txt,sha256=z_F8A8tt6N7EIqQzb3klw1he05Vfjb5Yea8FaSVElhE,59
+sco1_misc-0.1.0.dist-info/LICENSE,sha256=kfBpRqpEZhqDf-pQ25EpTUI7cOd-cioe3cTaC5c-wYw,1094
+sco1_misc-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sco1_misc-0.1.0.dist-info/METADATA,sha256=SMCs1PO9V4PcovhffnYdLYtRFCzaLy_X8bCfoa6MVW0,1300
+sco1_misc-0.1.0.dist-info/RECORD,,
