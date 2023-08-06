@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyTSLPy
+Version: 0.1
+Summary: 用pyTSL模拟TSLPy
+Home-page: https://py3k.cn/pyTSLPy/
+Author: Wei guangjing
+Author-email: vcc@py3k.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyTSL (>=1.0)
+
+UNKNOWN
+
