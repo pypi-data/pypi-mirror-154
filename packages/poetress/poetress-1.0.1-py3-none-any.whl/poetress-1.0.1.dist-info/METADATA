@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: poetress
+Version: 1.0.1
+Summary: Poetry Storage and Retrieval
+Home-page: https://github.com/bwinnett12/poetress
+Author: Bill Winnett
+Author-email: <bwinnett12@gmail.com>
+License: UNKNOWN
+Keywords: python,poetess
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+License-File: LICENSE.md
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: requests (~=2.26.0)
+Requires-Dist: setuptools (~=59.8.0)
+
+Retrieves poems from the poetry foundation website
+
