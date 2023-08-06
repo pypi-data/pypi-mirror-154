@@ -1,0 +1,10 @@
+README.md
+setup.py
+gsg_utils/__init__.py
+gsg_utils/configuration.py
+gsg_utils/utilities.py
+gsg_utils_stg.egg-info/PKG-INFO
+gsg_utils_stg.egg-info/SOURCES.txt
+gsg_utils_stg.egg-info/dependency_links.txt
+gsg_utils_stg.egg-info/requires.txt
+gsg_utils_stg.egg-info/top_level.txt
