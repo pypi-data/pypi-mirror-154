@@ -1,0 +1,9 @@
+pushpin/__init__.py,sha256=zyQOFGXWHG8lu8y8k1PZe02AakKFpAYTWgUKRwSX7Kc,2113
+pushpin/__main__.py,sha256=bk2y0n22w3-JBf58AQdjQjuTga6KAf4hjkeQn8HSW0s,119
+pushpin/commands.py,sha256=L0FnSurW194gMdLuUIFX0G9-zdkKOQYXL57yu_Dnhu8,3404
+pushpin/pushpin.sh.py,sha256=dSov94XIi9TKjBxy658oeCVoDE6daRW3C_UV-xyN428,777
+pushpin-0.5.0.dist-info/entry_points.txt,sha256=SeWYVtcl06aA2HNgkfsXfFgRsQR3tMh5pPp2Uo_itOs,40
+pushpin-0.5.0.dist-info/LICENSE,sha256=Ig_0_OhtdCuRQuFgp3Y4nTikJKSf9Y4P-1z3Te-rywA,1061
+pushpin-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pushpin-0.5.0.dist-info/METADATA,sha256=UNz1NVOF82nGT0nuVr8tNw__wN8Ntk30urNEasiHdPk,2142
+pushpin-0.5.0.dist-info/RECORD,,
