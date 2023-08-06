@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rabbitizer
+Version: 0.1.0
+Summary: MIPS instruction disassembler
+Home-page: https://github.com/Decompollaborate/rabbitizer
+Author: Decompollaborate
+License: MIT
+Project-URL: Source, https://github.com/Decompollaborate/rabbitizer
+Project-URL: Bug Tracker, https://github.com/Decompollaborate/rabbitizer/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rabbitizer
