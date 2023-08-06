@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openapi-django
+Version: 0.0.1
+Summary: A package for generate django openapi doc
+Home-page: UNKNOWN
+Author: Y. Chudakov
+Author-email: kappasama.ks@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+
+UNKNOWN
+
