@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: waylonwalker
+Version: 0.0.0
+Summary: Waylon Walker's business card
+Home-page: https://github.com/waylonwalker/waylonwalker-cli
+Author: Waylon Walker
+License: OSI APPROVED :: MIT LICENSE
+Description: # Waylon Walker cli
+        
+        ```
+        pipx run waylonwalker
+        ```
+        
+Keywords: None
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Provides-Extra: dev
