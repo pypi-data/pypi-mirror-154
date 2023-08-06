@@ -1,0 +1,2 @@
+hspylib>=0.11.14
+setuptools>=60.10.0
