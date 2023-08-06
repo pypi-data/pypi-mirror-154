@@ -1,0 +1,10 @@
+turbESN/__init__.py,sha256=UKpmesrj4bHindtsxzEJa5SK6G_T7J-FWSHXuP5rCKU,94
+turbESN/__version__.py,sha256=93gd21UqBSYn5ncPTn7wVauoMX6YZBA3rOkdB6l3Lcw,71
+turbESN/core.py,sha256=eIVARS2PUsWDqrFaHdSsHjfqnwEM2Y8gCA4qxp6pZdQ,58748
+turbESN/cross_validation.py,sha256=qcg2Riop4d4zwLrFV_aZWl8PYYBC9QDClXDXbZINa0Y,6966
+turbESN/study.py,sha256=Wrz6pogReJmvVtYbC_ymoZA_ryfcd3JZxZm2d5P9oa0,11306
+turbESN/util.py,sha256=Ftgwz0VtYA6jES5gA3zxzhxrWCDasRbyZa30Ahgp4qQ,40153
+turbESN-0.0.1.8.9.5.dist-info/METADATA,sha256=PoJS2-DeUNr-HL8JvtMfdN9Lvimyq5k5m6365YJTmQs,877
+turbESN-0.0.1.8.9.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+turbESN-0.0.1.8.9.5.dist-info/top_level.txt,sha256=op5KRhbmZAeert5cqiFRWxRRUYsG-aLo93XTxjcZeUw,8
+turbESN-0.0.1.8.9.5.dist-info/RECORD,,
