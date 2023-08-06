@@ -1,0 +1,13 @@
+boxi/__init__.py,sha256=GF9vNJ5XSfbWOENbFShRoQH0eGJxmWwgoC5B8U1FoJ4,948
+boxi/__main__.py,sha256=VoHVOQnQHPLf1fPU1ZXd2pTeYcWuciQbrfRSNHI_IFM,923
+boxi/adwaita_palette.py,sha256=33FAGcv4tBWGknr3t6hTXzdg7khNxwFK15lN1DcEeTo,1182
+boxi/agent.py,sha256=scHKwGwbeTxaUebWYBXWJhWXmaQ25oObSsU8CYj8OAc,2751
+boxi/app.py,sha256=wdqX1-Xi6wNXc_qAWLAm5YWj07UNoXcYl9CRLk0XSfU,12250
+boxi/toolbox_run.py,sha256=hFvLM59svS1vJhfv69APOPRNtvlxNEJOhcmJURFqS6s,1224
+boxi-2.data/data/share/applications/dev.boxi.desktop,sha256=qdDy-YfJizcisPV20eij3JpIzrCVJg96dSDwcUaXP1I,93
+boxi-2.data/data/share/dbus-1/services/dev.boxi.service,sha256=LjmEfmQHTIsdO9oeH7OjQ0n30rndnHyciIxDnqcVcRs,76
+boxi-2.dist-info/entry_points.txt,sha256=Fo0ZPlNJH4W_NKoNW8we-6_zqcbxUQMKE2tII6LA87Y,38
+boxi-2.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+boxi-2.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+boxi-2.dist-info/METADATA,sha256=90Dgh8jzUkq1tsM1I4va-ZtvxE8mVR-WmqjUdkokun4,1601
+boxi-2.dist-info/RECORD,,
