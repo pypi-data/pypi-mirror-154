@@ -1,0 +1,7 @@
+README.md
+setup.py
+yafal/yafal.egg-info/PKG-INFO
+yafal/yafal.egg-info/SOURCES.txt
+yafal/yafal.egg-info/dependency_links.txt
+yafal/yafal.egg-info/requires.txt
+yafal/yafal.egg-info/top_level.txt
