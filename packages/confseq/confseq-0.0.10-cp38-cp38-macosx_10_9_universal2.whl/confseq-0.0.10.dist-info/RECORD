@@ -1,0 +1,16 @@
+confseq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confseq/betting.py,sha256=TN2jl6Uaw7T1PES9uLwPRGrl6mzph6-FNYZocUNbVK4,27064
+confseq/betting_strategies.py,sha256=5_bJ8-8HXrEHc2lz-f09oR4lX0eVCr-9Fa6Sxf9Hi8A,4157
+confseq/boundaries.cpython-38-darwin.so,sha256=otWyqa3MQ7U5hIMCi25chLR1NA6nDz6C1SfFbI_dzgM,530928
+confseq/conjmix_bounded.py,sha256=ycNYNG39TyLIFWmgfe7xsnKj6YAYLix4O6uXNMdfHDI,5790
+confseq/cs_plots.py,sha256=VSChwWO-bq6Itv1UKuTa_09OPvJMYkf3iNs4yHj0Qz0,11041
+confseq/misc.py,sha256=tLbmdjTi7BWNzQUxoZzPjry1S5QY-RyZG1Q57WQQp3o,2122
+confseq/other_bounded.py,sha256=OuhxvIBQPwoMSnoQ4RSG8wGriKdVokxM3Ga5AI8d9eU,824
+confseq/predmix.py,sha256=AMblBXoTSqUII4tFvWDpCkyESq6ElSQr_N7O3qc-WqU,9873
+confseq/quantiles.cpython-38-darwin.so,sha256=omX7RV2IU6rO2-ymftN4yJ3g01H8n-OMhPsh-FjilLw,498592
+confseq/types.py,sha256=GuLstt2p0YkpoY6YxLEwYxBIq5CAqWksomrCwkIz3tw,83
+confseq-0.0.10.dist-info/LICENSE,sha256=JGLrKIC6jk4cjJVWeTnH16RqUXNwdnqt5NfIdxafu9U,1075
+confseq-0.0.10.dist-info/METADATA,sha256=TZwAC2QREkqls9-pyT3pQjE7K3vL0if0W00bVKj4_x0,8584
+confseq-0.0.10.dist-info/WHEEL,sha256=Az37kDA7n36yYeFa5kKgPh5IN7m3ZJ44tQL5hxZpRGw,107
+confseq-0.0.10.dist-info/top_level.txt,sha256=99cHkVM0v3CHlZPj4Zat2uEoV18pUhmtrFj-OO5P9Wc,8
+confseq-0.0.10.dist-info/RECORD,,
