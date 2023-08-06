@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: python-publish-subscriber
+Version: 0.0.1
+Summary: Python PubSub library
+Home-page: https://github.com/MihaiBlebea/python-pubsub
+Author: Mihai Blebea
+Author-email: mihaiserban.blebea@gmail.com
+License: MIT
+Keywords: pubsub publisher subscriber
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Personal Ledger
+
+## Steps
+
+- [x] Fetch balance from Monzo
+- [x] Create Google sheet
+- [x] Send telegram message with Google sheet link
+- [x] Save all transactions into the database
+- [ ] Save all accounts into the database
+- [ ] Add transactions to the database from telegram
+
+
+
