@@ -1,0 +1,12 @@
+versionmanagerpy/__init__.py,sha256=kENef7Yf0oF6lqh3R1NBEUd4hVRT-FhfVemEuNdJTuU,178
+versionmanagerpy/event.py,sha256=W0dwi0yTi4dS-R37t9Sg9viAEhDh9c_OkxRhAiYzS-4,282
+versionmanagerpy/local.py,sha256=HQAW-doTk5v7flELR9ywJUSyFUUfsB_Ln2vXp3xP_Sg,360
+versionmanagerpy/project.py,sha256=nvRxDwkvl1QdhhqbhrW6ng8G6uBAsZQ80PcRELd838U,502
+versionmanagerpy/remote.py,sha256=WMHfV-iPCEuQkSaAWIVj-bxN2qUuGJSwKulbQh5vM1Y,877
+versionmanagerpy/version.py,sha256=nrrzaH3HhMAjPtX1oWjYryXWeJqd6azoxZcySS-rneA,1230
+versionmanagerpy/versionmanager.py,sha256=Je_e9t_5-B_0B4Ag6aSxBghEveAOR29HCL_meCHZnwE,2525
+versionmanagerpy-1.0.0.dist-info/LICENSE,sha256=i8UnpGyRKuR-uhYJbf6x3TQjOKUQvcMG0_OOK_S0nos,11540
+versionmanagerpy-1.0.0.dist-info/METADATA,sha256=dUIuumuLXnP7WwDFPXYANOhnEJyNPEgMlm5bsr7oa68,640
+versionmanagerpy-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+versionmanagerpy-1.0.0.dist-info/top_level.txt,sha256=_517HGWDyaAAEl5wRDMiLwe_6KnjgZmL0iCIRJlSCTQ,17
+versionmanagerpy-1.0.0.dist-info/RECORD,,
