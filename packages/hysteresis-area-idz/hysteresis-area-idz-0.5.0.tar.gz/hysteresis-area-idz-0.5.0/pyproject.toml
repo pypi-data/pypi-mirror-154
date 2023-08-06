@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hysteresis-area-idz"
+version = "0.5.0"
+description = ""
+authors = ["k4w411p0wer <alexandrvasyutin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.4"
+opencv-contrib-python = "^4.5.5"
+opencv-python = "^4.5.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
