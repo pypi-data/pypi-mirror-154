@@ -1,0 +1,1 @@
+from FYS2130_FreqAn.Freq_Analysis import Freq_Analysis

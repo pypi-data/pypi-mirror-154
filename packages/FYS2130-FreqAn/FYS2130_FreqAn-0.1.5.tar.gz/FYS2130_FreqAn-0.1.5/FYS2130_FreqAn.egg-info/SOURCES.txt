@@ -1,0 +1,8 @@
+README.txt
+setup.py
+FYS2130_FreqAn/Freq_Analysis.py
+FYS2130_FreqAn/__init__.py
+FYS2130_FreqAn.egg-info/PKG-INFO
+FYS2130_FreqAn.egg-info/SOURCES.txt
+FYS2130_FreqAn.egg-info/dependency_links.txt
+FYS2130_FreqAn.egg-info/top_level.txt
