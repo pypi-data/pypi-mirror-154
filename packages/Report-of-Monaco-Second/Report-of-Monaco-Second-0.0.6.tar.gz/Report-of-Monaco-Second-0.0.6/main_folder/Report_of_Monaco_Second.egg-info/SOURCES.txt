@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+main_folder/Report_of_Monaco_Second.egg-info/PKG-INFO
+main_folder/Report_of_Monaco_Second.egg-info/SOURCES.txt
+main_folder/Report_of_Monaco_Second.egg-info/dependency_links.txt
+main_folder/Report_of_Monaco_Second.egg-info/top_level.txt
+main_folder/functions/__init__.py
+main_folder/functions/report.py
