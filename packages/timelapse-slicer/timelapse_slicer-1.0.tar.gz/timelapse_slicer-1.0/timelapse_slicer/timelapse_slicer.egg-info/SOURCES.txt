@@ -1,0 +1,10 @@
+.gitattributes
+Final.jpg
+LICENSE.txt
+README.md
+setup.py
+timelapse_slicer/timelapse_slicer.egg-info/PKG-INFO
+timelapse_slicer/timelapse_slicer.egg-info/SOURCES.txt
+timelapse_slicer/timelapse_slicer.egg-info/dependency_links.txt
+timelapse_slicer/timelapse_slicer.egg-info/requires.txt
+timelapse_slicer/timelapse_slicer.egg-info/top_level.txt
