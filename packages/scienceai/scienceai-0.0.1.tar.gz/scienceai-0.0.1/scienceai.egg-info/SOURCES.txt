@@ -1,0 +1,10 @@
+README.md
+setup.py
+scienceai/__init__.py
+scienceai/__main__.py
+scienceai/version.py
+scienceai.egg-info/PKG-INFO
+scienceai.egg-info/SOURCES.txt
+scienceai.egg-info/dependency_links.txt
+scienceai.egg-info/entry_points.txt
+scienceai.egg-info/top_level.txt
