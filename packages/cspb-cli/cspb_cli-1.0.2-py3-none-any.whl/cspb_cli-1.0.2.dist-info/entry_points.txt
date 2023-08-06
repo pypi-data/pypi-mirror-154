@@ -1,0 +1,3 @@
+[console_scripts]
+run_cspb_cli = cspb_cli.run_cspb_cli:run_cli
+
