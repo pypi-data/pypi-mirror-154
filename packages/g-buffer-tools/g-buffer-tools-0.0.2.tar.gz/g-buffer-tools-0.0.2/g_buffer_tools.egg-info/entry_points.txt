@@ -1,0 +1,3 @@
+[console_scripts]
+to_exr = g_buffer_tools:to_exr_main
+
