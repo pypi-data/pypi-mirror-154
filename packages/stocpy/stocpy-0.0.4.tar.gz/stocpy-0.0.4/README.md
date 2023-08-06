@@ -1,0 +1,1 @@
+stocpy is a package that focuses on probality theory / stochastic process / finance engerining.
