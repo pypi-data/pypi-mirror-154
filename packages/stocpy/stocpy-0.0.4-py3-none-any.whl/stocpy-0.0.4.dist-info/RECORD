@@ -1,0 +1,9 @@
+stocpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stocpy/cdf_generator.py,sha256=r1EwD87YCdBPnu5JX5SL_r-OVUXYexpjBlXMwn_4TGw,308
+stocpy/random_variable.py,sha256=Xfs-DCo_hAgDHKlDv0-s_nMpbf2Rkb33vNhSftbcyTU,246
+stocpy/test.py,sha256=kzPCqecbeJIXvhh2Pj9bML1nWaTSXGFP-pw319iCzEM,159
+stocpy-0.0.4.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+stocpy-0.0.4.dist-info/METADATA,sha256=E6dGBnFSjUhmZQA40DWiA-N4oY6Ak-c7XQxqED_E0xw,606
+stocpy-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+stocpy-0.0.4.dist-info/top_level.txt,sha256=G2l6EKfiDl-XRnfdwJoUVNk0gEu5Gi02GsCR-ZwciBU,7
+stocpy-0.0.4.dist-info/RECORD,,
