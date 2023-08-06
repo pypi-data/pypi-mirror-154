@@ -1,0 +1,10 @@
+pyiltags/__init__.py,sha256=8F1uDH7beoCg2u1U30dVzEMHOHcJmhN8T_mmhADPaFc,1635
+pyiltags/base.py,sha256=IaS-ob8B5Ba77V8tQYNbZP5utoHf8XwhQyFddnm5d5k,12948
+pyiltags/io.py,sha256=voJjw4wq0t0zIISso0annPSGzZALFVvHx0RC1BywtDk,7019
+pyiltags/standard.py,sha256=I9KcfwYP3WiYaRVl9FlLUNQ6y-pRMHawbNZnWnzKO-4,31354
+pyiltags/util.py,sha256=LYUayUdI4uA5KhoyDpdIDxivQc_Z1aCJf7Aickzr6eY,6113
+pyiltags-0.1.1.dist-info/LICENSE,sha256=B2iLGq6QQMVW7g24nLeETsAC340bY-32v_aNDR0GtoE,1523
+pyiltags-0.1.1.dist-info/METADATA,sha256=SF_CzwDiEWWqhYGSd5i2e8YSReGh8Z2AlyXpgpwRv_Q,2615
+pyiltags-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyiltags-0.1.1.dist-info/top_level.txt,sha256=1yt3ZO3xSvZGg6KVzHp6lhl1kv5PxhQyzxNien-rwlk,9
+pyiltags-0.1.1.dist-info/RECORD,,
