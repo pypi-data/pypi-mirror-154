@@ -1,0 +1,11 @@
+README.md
+setup.py
+tailread/__init__.py
+tailread/decorators.py
+tailread/helpers.py
+tailread/tailread.py
+tailread/utils.py
+tailread.egg-info/PKG-INFO
+tailread.egg-info/SOURCES.txt
+tailread.egg-info/dependency_links.txt
+tailread.egg-info/top_level.txt
