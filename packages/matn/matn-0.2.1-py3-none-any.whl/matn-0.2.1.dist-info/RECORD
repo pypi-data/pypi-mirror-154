@@ -1,0 +1,13 @@
+matn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matn/cli.py,sha256=CaaMOWdhYPo7taV_p8RA6doKqPiwU0_6IJ_jNgc5ZQg,2595
+matn/counters.py,sha256=ZeQCCb0JQDeN95G44nj-2QahmNVizIfdfUJp6VJygG0,3881
+matn/elements.py,sha256=NkZaDkOuuMOMa4mqIAw5GpNuki5VhCJGA-cw7Y8K8AI,2215
+matn/helpers.py,sha256=8Y1ASYXx2FyEGdTLiSFhxyrpm_OCZyDpD3T6Jq0ilM0,699
+matn/normalizers.py,sha256=g7qriTnqst-CnrtHi_B6iDYv5uu1lCjnGcHFp12cFdg,3751
+matn/special_articles.py,sha256=2lsMP67KtiscJl2l40HtOs1b2OKrW0rtakJd9qhJ04o,291
+matn-0.2.1.dist-info/LICENSE,sha256=GLnjST2hbCnfDWjty09BEkIpMcV0FfVYV90U3Xoffrw,1069
+matn-0.2.1.dist-info/METADATA,sha256=wk9Kh5OLGJul7DMPKfmtUHQECVQGkP7UsuzUXOcG76o,6383
+matn-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matn-0.2.1.dist-info/entry_points.txt,sha256=k2L-Cq2CKnEXPTL4kfMe4WAYT7nPK83H7T4aaXEm73I,39
+matn-0.2.1.dist-info/top_level.txt,sha256=tpe6bOFa9_E-IgjQ8eJmJqZhs7l2o2JhITWbJklhjOk,5
+matn-0.2.1.dist-info/RECORD,,
