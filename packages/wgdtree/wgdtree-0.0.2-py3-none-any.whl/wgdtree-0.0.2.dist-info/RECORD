@@ -1,0 +1,11 @@
+wgdtree/__init__.py,sha256=dKFXordUhNM_bmdFlbjIg3zRIPsW5qdHLC0ArY02uXc,230
+wgdtree/batch_run.py,sha256=VwrLhtZfsTa1moT8WwmrTDmyCXyVUDndEYIr1r2dAtM,1993
+wgdtree/retention_rates.py,sha256=VmrXxNWtakirgOfP_waD6qQmY4fs4nRLgEAbTT_At9E,4735
+wgdtree/rooting.py,sha256=Sb5RTOhkDeij05JfMp_AlOak9cB4lNhKOrj2PA5DzoQ,4265
+wgdtree/simulation.py,sha256=_orYTmvhICl7Y9_WJU4f6xxXf7QmPyG_j5gNYYSVqTI,4737
+wgdtree/split.py,sha256=3Z4t3GsVAoamE0H9FJEALab1y5xLlJ2xkNTEWXIQigY,725
+wgdtree-0.0.2.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+wgdtree-0.0.2.dist-info/METADATA,sha256=T55XTRQGmPGeH5T47FwxAjm0crAjTRRk5DC-slHZ0qY,3559
+wgdtree-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wgdtree-0.0.2.dist-info/top_level.txt,sha256=cMNxeAut-17uislCKLMthXX56mXSp1LAey7LmGgnmSg,8
+wgdtree-0.0.2.dist-info/RECORD,,
