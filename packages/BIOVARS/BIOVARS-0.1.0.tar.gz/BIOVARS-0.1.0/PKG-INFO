@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: BIOVARS
+Version: 0.1.0
+Summary: Tool for joining all the bioinfo-hcpa's variant information retrieval APIs.
+Home-page: https://github.com/bioinfo-hcpa/biovars
+Author: Felipe Colombelli, Paola Carneiro
+Author-email: bioinfo@hcpa.edu.br
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: gnomad,api,variants,genes
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
