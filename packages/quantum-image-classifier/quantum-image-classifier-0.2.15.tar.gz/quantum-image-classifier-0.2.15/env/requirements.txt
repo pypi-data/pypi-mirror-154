@@ -1,0 +1,12 @@
+numpy
+qiskit-terra
+qiskit-aer
+setuptools
+sklearn
+matplotlib
+pandas
+keras
+tensorflow
+qlmaas
+myqlm
+myqlm-interop[qiskit_binder]
