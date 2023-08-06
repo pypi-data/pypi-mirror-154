@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: TGPhind
+Version: 1.0.0
+Summary: Search for articles by title, in telegra.ph and its mirrors.
+Home-page: https://github.com/NIKDISSV-Forever/TGPhind
+Author: Nikita (NIKDISSV)
+Author-email: nikdissv@proton.me
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+#### Documentation in Russian
+
+> pip install [TGPhind](https://pypi.org/project/TGPhind/)
+
+
+**TGPhind** - Инструмента для поиска стотей на сайте telegra.ph
+
+# CLI
+
+> python -m TGPhind -h
+
+# Usage
+
+```python
+from TGPhind import TGPhind, Proxy
+
+se = TGPhind(MAX_TH: int = None,
+                           proxy: Proxy = None,
+                                          brackets = '<>')
+print(*se.map_hosts(se.search('article<s>-<a-d>')), sep='\n')
+# query = (article-a, article-b, article-c, article-d, articles-a, articles-b, articles-c, articles-d)
+```
