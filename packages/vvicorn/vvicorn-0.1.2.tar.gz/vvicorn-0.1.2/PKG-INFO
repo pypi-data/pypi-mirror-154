@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vvicorn
+Version: 0.1.2
+Summary: Wrap uvicorn's logging with ulogcorn
+Author: 尼维沙纳默帝敖
+Author-email: icocoabeans@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ulogcorn (>=0.4.1,<0.5.0)
