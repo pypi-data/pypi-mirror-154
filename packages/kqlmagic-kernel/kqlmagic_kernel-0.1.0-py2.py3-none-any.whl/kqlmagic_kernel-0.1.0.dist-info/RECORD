@@ -1,0 +1,15 @@
+kqlmagic_kernel/__init__.py,sha256=0ZYgYkVpKWYve9LGu9JTllJl9dbtuOOFsVlfNksQEjg,427
+kqlmagic_kernel/__main__.py,sha256=bPDMhpmZ4T5Z7AfS37Q-i0GD1Lfs8cIPge5Dwv1qCuw,488
+kqlmagic_kernel/_version.py,sha256=ZqhVxWEF7IwrqRWnz3mjkm22v5kHorHVl2LRZPf85ok,340
+kqlmagic_kernel/check.py,sha256=IUzQPOCSGSRoR2YmVgySXHbifIV1lebH9PfvrWDNINg,2653
+kqlmagic_kernel/install.py,sha256=Q6N46GMIcitQq_cgXVwv__yUyAvIzMTIREhr_SLvgMo,2511
+kqlmagic_kernel/kernel.py,sha256=RAsO8WvNUhRI3bDMa3xAV062-6hWM7ficYB0f-elBhw,2731
+kqlmagic_kernel/spec/kernel.json,sha256=XT1O6oEMwPaop-2HU-WgeLnnkW6oIxUaFzbpYr1h1dY,645
+kqlmagic_kernel/spec/images/logo-32x32.png,sha256=4ytcKCBy1xeIe2DacxeP3TWmXcPK6sunoCblpCVcyZc,1084
+kqlmagic_kernel/spec/images/logo-64x64.png,sha256=XJBjtDbO3wVnSA_kh-zg0UeeqVRfMQy6k_oYTMurKQ0,2180
+kqlmagic_kernel-0.1.0.data/data/share/jupyter/kernels/kqlmagic/kernel.json,sha256=XT1O6oEMwPaop-2HU-WgeLnnkW6oIxUaFzbpYr1h1dY,645
+kqlmagic_kernel-0.1.0.dist-info/LICENSE.txt,sha256=w6j_gONWlrv3xcByj0irykRwL4IQFk_NmE-ucZHjInE,1136
+kqlmagic_kernel-0.1.0.dist-info/METADATA,sha256=iexEZ4JY4ClS0-bvRQ9J_mt-wbmSPJ2vPl4Gs1EE2Kw,4559
+kqlmagic_kernel-0.1.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+kqlmagic_kernel-0.1.0.dist-info/top_level.txt,sha256=ROhftWWU13shqD9UT08Hlmfn2vqaXWxbVIAHRYQDaHo,16
+kqlmagic_kernel-0.1.0.dist-info/RECORD,,
