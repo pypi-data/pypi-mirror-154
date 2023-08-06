@@ -1,0 +1,11 @@
+ailabs_asr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ailabs_asr/streaming.py,sha256=5Or6e-EqeJz1jqSVHixDZVQ5er2JHBAzLQJ-nNpsJFI,2047
+ailabs_asr/clients/AbstractWebsocketClient.py,sha256=gJxoG3Aep-RK-OMUX5DOiDVRekLPTMvyo9n1k0fhF1I,2300
+ailabs_asr/clients/WebSocketClient.py,sha256=xZrNMj0Ae9IDTHVS5eUXPchxwTc2c3w-YxxXqXVODQs,913
+ailabs_asr/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ailabs_asr/configs/api.yaml,sha256=5oN1YHaP5hxyp9LBtexHLeZmFpg4IeE3mmIRH41HbLs,156
+ailabs_asr-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ailabs_asr-0.0.7.dist-info/METADATA,sha256=OTo53jY0jJJAt8w3rF5R_7b7y8BMCK3JT6Pn-Ntba8w,1276
+ailabs_asr-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ailabs_asr-0.0.7.dist-info/top_level.txt,sha256=qCh--xPWb7dwq_w8iM-_gr8DiXEun_5pPhzE_xXYFuM,11
+ailabs_asr-0.0.7.dist-info/RECORD,,
