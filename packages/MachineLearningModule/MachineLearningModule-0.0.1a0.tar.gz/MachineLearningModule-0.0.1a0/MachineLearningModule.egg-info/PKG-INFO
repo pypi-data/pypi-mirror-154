@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: MachineLearningModule
+Version: 0.0.1a0
+Summary: This module is developed to replicate the functionalities of sklearn to run and implement ML models.
+Home-page: https://github.com/PratikKhandelwal17/MachineLearningModels
+Author: Pratik Khandelwal
+Author-email: pratikkhandelwal68@gmail.com
+Requires-Python: >=3.7, <4
+
+This module is developed to replicate the functionalities of sklearn to run and implement ML models.
