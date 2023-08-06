@@ -1,0 +1,2 @@
+[console_scripts]
+relation-graph-py=relation_graph:main

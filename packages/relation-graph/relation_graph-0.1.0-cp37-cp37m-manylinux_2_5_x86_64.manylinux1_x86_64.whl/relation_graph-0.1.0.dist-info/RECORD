@@ -1,0 +1,6 @@
+relation_graph-0.1.0.dist-info/METADATA,sha256=HuDLChV5isBbRMQsVqfI_uMLa9HwMI9bAbLmxmEbeJg,493
+relation_graph-0.1.0.dist-info/WHEEL,sha256=iSWqroRX5W8G1aYDaOEW_8JTxY-W18i8Dt8qHPRUhD0,132
+relation_graph-0.1.0.dist-info/entry_points.txt,sha256=pGDShK-IAAWXocojWprkhlf6uyM75HHhnAm4yPH3ElA,56
+relation_graph_impl/__init__.py,sha256=hhvLKXGtXuimoqVd6OxJagf9NdzFwfDOjLBxNjfJydk,159
+relation_graph_impl/relation_graph_impl.cpython-37m-x86_64-linux-gnu.so,sha256=KlFyayjNxKLjFlDCsxkTFAOa9tMlS0wvwvmfJFFGtPc,4050504
+relation_graph-0.1.0.dist-info/RECORD,,
