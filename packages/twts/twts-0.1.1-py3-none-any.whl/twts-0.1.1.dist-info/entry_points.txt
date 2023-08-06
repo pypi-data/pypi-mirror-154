@@ -1,0 +1,3 @@
+[console_scripts]
+twts=twts.stream:cli
+
