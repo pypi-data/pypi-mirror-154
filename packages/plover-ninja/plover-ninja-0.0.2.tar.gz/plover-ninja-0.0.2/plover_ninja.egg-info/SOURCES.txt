@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+plover_ninja/__init__.py
+plover_ninja/plover_hook.py
+plover_ninja/storage.py
+plover_ninja.egg-info/PKG-INFO
+plover_ninja.egg-info/SOURCES.txt
+plover_ninja.egg-info/dependency_links.txt
+plover_ninja.egg-info/entry_points.txt
+plover_ninja.egg-info/requires.txt
+plover_ninja.egg-info/top_level.txt
+plover_ninja.egg-info/zip-safe
