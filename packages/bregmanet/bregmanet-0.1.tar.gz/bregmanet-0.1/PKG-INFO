@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bregmanet
+Version: 0.1
+Summary: Bregman Neural Network
+Home-page: https://github.com/JordanFrecon/bregmanet
+Author: Jordan Frecon
+Author-email: jordan.frecon@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bregmanet : Bregman Neural Networks
