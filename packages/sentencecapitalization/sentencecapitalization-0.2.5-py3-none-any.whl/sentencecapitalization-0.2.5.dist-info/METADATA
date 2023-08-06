@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sentencecapitalization
+Version: 0.2.5
+Summary: capitalizing full string
+Home-page: UNKNOWN
+Author: vijay_59 (vijaysinghbhadoriya592@gmail.com)
+Author-email: vijaysinghbhadoriya592@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+capitalization of string having multiple words
+
