@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: y-tal
+Version: 0.0.1
+Summary: Transient Auxiliary Library - Analysis and processing of time-resolved light transport
+Home-page: https://github.com/diegoroyo/tal
+Author: Diego Royo & Pablo Luesia
+Author-email: droyo@unizar.es
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# (Your) Transient Auxiliary Library
+
+bueno la el readme ya tal
+
