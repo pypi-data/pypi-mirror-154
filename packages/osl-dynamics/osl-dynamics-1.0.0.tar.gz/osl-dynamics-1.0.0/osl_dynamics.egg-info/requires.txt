@@ -1,0 +1,13 @@
+mat73
+matplotlib
+nibabel
+nilearn
+numpy
+pandas
+pre-commit
+pyyaml
+scipy
+scikit-learn
+tensorflow==2.4.1
+tensorflow_probability==0.12.2
+tqdm
