@@ -1,0 +1,6 @@
+setup.py
+indexlib/__init__.py
+indexlib.egg-info/PKG-INFO
+indexlib.egg-info/SOURCES.txt
+indexlib.egg-info/dependency_links.txt
+indexlib.egg-info/top_level.txt
