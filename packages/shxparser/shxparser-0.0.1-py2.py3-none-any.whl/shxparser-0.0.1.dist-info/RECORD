@@ -1,0 +1,10 @@
+shxparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shxparser/shxparser.py,sha256=w4DqJWfFx77_ZNrbvSqbA3BjPYh3rBw3WD5LTv0nUsg,19272
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_parser.py,sha256=nUYcqq57YheJlilo4dCEE4zhVTaLgrLWRrW7Ntb2LGU,1633
+shxparser-0.0.1.dist-info/LICENSE,sha256=1J7OmMupuV-vYgZyd6y9y0FwfZeX2uxziiF41KPxr4s,1086
+shxparser-0.0.1.dist-info/METADATA,sha256=hSIMTNGoMhQOs056NxdCq-VhofKNKr1bckoC0s798D8,3674
+shxparser-0.0.1.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+shxparser-0.0.1.dist-info/top_level.txt,sha256=7vD2Pp1O17uekQCPOByqZoZWEm84YVIz-4coFhvpy90,15
+shxparser-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+shxparser-0.0.1.dist-info/RECORD,,
