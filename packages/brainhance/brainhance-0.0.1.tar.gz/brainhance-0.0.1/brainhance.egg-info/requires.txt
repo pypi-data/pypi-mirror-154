@@ -1,0 +1,5 @@
+numpy
+nibabel
+multiprocess
+protobuf==3.14.0
+tensorflow-gpu==2.4.0
