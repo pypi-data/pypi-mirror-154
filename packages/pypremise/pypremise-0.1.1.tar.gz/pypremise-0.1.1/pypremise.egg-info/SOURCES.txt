@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pypremise/Premise
+pypremise/__init__.py
+pypremise/core.py
+pypremise/data_loaders.py
+pypremise/io.py
+pypremise.egg-info/PKG-INFO
+pypremise.egg-info/SOURCES.txt
+pypremise.egg-info/dependency_links.txt
+pypremise.egg-info/top_level.txt

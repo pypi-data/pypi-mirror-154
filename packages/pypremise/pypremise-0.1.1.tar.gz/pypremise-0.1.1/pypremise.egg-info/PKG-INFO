@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypremise
+Version: 0.1.1
+Summary: PyPremise - Python tool for the Premise algorithm to identify patterns or explanations of where a machine learning classifier performs well and where it fails.
+Home-page: https://github.com/uds-lsv/PyPremise
+Author: Michael A. Hedderich
+Author-email: m-replace-with-lastname@lsv.uni-saarland.de
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
