@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: earthquakealert-ID
+Version: 0.0.6
+Summary: Retrieve latest earthquake alert from https://www.bmkg.go.id/
+Home-page: https://github.com/ChristCoding/indonesian-earthquake-alert
+Author: Christopher Lorence
+Author-email: lorence80@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ChristCoding/indonesian-earthquake-alert/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Indonesia Earthquake Alert
+Package to retrieve latest Indonesia earthquake alert from https://www.bmkg.go.id/
+
+# How it work?
+Package will scrape the latest Indonesia earthquake alert from [BMKG](https://www.bmkg.go.id/) website.
+The data will be shown with this format:<br/>
+Latest Earthquake News in Indonesia<br/>
+Date: ________<br/>
+Time: ________ WIB<br/>
+Magnitude: ________<br/>
+Location: LS: ________ BT: ________<br/>
+Center: ________<br/>
+Impact Scale: ________<br/>
+
+Package will use BeautifulSoup4 and requests to retrieve and parse the website data.
+
+# Example of usage
+---import command---<br/>
+import earthquakealert_ID<br/>
+---function for scraping data from https://www.bmkg.go.id/---<br/>
+result=earthquakealert_ID.getdata()<br/>
+---function for display the scraped data---<br/>
+earthquakealert_ID.displaydata(result)
+
