@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        multiuploader=ckanext.multiuploader.plugin:MultiuploaderPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
