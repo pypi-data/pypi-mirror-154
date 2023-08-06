@@ -1,0 +1,9 @@
+httpx
+aiofiles
+click
+tqdm
+
+[dev]
+black
+pytest
+pip-tools

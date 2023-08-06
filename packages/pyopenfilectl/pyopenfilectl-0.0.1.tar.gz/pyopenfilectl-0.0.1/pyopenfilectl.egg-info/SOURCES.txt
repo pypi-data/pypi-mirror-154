@@ -1,0 +1,10 @@
+setup.py
+openfilectl/__init__.py
+openfilectl/__main__.py
+openfilectl/cli.py
+pyopenfilectl.egg-info/PKG-INFO
+pyopenfilectl.egg-info/SOURCES.txt
+pyopenfilectl.egg-info/dependency_links.txt
+pyopenfilectl.egg-info/entry_points.txt
+pyopenfilectl.egg-info/requires.txt
+pyopenfilectl.egg-info/top_level.txt
