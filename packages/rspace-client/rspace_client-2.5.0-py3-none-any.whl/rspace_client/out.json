@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /Users/richardadams/Library/Caches/pypoetry/virtualenvs/rspace-client-kR4-bSEy-py3.9/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/richardadams/git/rspace-client-python/rspace_client
+collecting ... collected 2 items / 1 deselected / 1 selected
+
+tests/csvimport_test.py::CSVImportest::test_names_only PASSED
+
+=============================== warnings summary ===============================
+tests/csvimport_test.py::CSVImportest::test_names_only
+  /Users/richardadams/git/rspace-client-python/rspace_client/tests/csvimport_test.py:36: DeprecationWarning: Please use assertEqual instead.
+    self.assertEquals(2, resp.containers_imported())
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+================== 1 passed, 1 deselected, 1 warning in 0.46s ==================
