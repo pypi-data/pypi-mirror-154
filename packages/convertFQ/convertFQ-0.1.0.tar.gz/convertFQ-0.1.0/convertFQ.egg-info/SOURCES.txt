@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+convertFQ/convertFQ.py
+convertFQ/utils.py
+convertFQ/version.py
+convertFQ.egg-info/PKG-INFO
+convertFQ.egg-info/SOURCES.txt
+convertFQ.egg-info/dependency_links.txt
+convertFQ.egg-info/entry_points.txt
+convertFQ.egg-info/requires.txt
+convertFQ.egg-info/top_level.txt

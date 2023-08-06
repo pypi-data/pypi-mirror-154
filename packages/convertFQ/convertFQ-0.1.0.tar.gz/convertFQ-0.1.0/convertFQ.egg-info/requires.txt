@@ -1,0 +1,2 @@
+biopython>=1.79
+argparse>=1.4.0

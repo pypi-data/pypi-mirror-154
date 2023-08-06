@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: convertFQ
+Version: 0.1.0
+Summary: convertFQ is used to convert either DNA2RNA or RNA2DNA in a fastq file
+Home-page: https://github.com/NuruddinKhoiry/convertFQ.git
+Author: Ahmad Nuruddin Khoiri
+Author-email: nuruddinkhoiri34@gmail.com
+License: GNU GENERAL PUBLIC LICENSE V3
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+UNKNOWN
+
