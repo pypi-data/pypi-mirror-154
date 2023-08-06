@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: httpIm
+Version: 1.0.1
+Summary: Import files via HTTP.
+Home-page: https://github.com/ZSendokame/http_import
+Author: Sendokame
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# HTTP Import
+HTTPIm is a basic library to import files via HTTP.<br>
+**Is not a good idea to use in real projects where you need fast script**.
+
+# Installation
+```
+pip install httpIm
+```
+
+# Use
+After installing, here's a brief tutorial.
+
+```py
+import http_import
+
+arguing = http_import.import_library('https://github.com/ZSendokame/arguing/blob/main/arguing/argument.py')
+# Will import argument.py, now you can use it as arguing.
+# example: arguing.get() (a real function in argument.py).
+# Also, there's a pseudo-cache.
+
+arguing = http_import.import_library('https://github.com/ZSendokame/arguing/blob/main/arguing/argument.py', cache=bool)
+# Cache by default is True.
+# If cache is true, if the file is already installed it will directly import it, no requests.
+# If cache is false, it will do the request even if the file is already installed.
+```
+
