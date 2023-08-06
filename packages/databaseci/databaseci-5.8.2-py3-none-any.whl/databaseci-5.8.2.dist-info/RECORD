@@ -1,0 +1,17 @@
+databaseci/__init__.py,sha256=ksigPq9UxH6KQJpsfYyPqasGuqsdiFwkVo5031HdOXo,256
+databaseci/command.py,sha256=yeIm9NuRoARKdRk_vlwGfR31cZO5336jqw6D6NOLQBE,248
+databaseci/createdrop.py,sha256=QBH_Fy9C7pRm_5JL70zW0qn36_5UFMMb7IPl8LRpBZE,1826
+databaseci/curs.py,sha256=ChylMIefWe_9UmQ1eT1AzV6-eg7JBF1b2nqTvg1LOVY,4946
+databaseci/database.py,sha256=FJuUTggg5FBqxXXMPQENWFG3eEFihTYjJFYDBSlMoYI,4771
+databaseci/formatting.py,sha256=78kfw8Gr2h3IvkV4xoYhScG96IPXIYZPZYyN75Y2SaM,739
+databaseci/notify.py,sha256=K3iyol_QBslNzuKXM8bixiWjpSVLyUKZuD_x9-uwUJQ,4182
+databaseci/paging.py,sha256=hCg8IXxH2Qj_d9xtiWDWEERfx9Ivr9KTddXJ-bmiuHA,5980
+databaseci/psyco.py,sha256=upSQ2pGv89cOOHFLQEPTiQ4HSirqnXCCDOFOZZu6Bpw,1107
+databaseci/schemas.py,sha256=lrXPpv9VBchL8VWbrKovtr2nHgWQFDqHao4UIaMxklc,225
+databaseci/tempdb.py,sha256=iououuxPFUbGymDPG9Vvdt2AZIkTRYx7Cc1OXtzDghU,2806
+databaseci/urls.py,sha256=vnFx_7gom2PNvnFdElRqbv_zJLujAU9zgTB-DxBkJBQ,3182
+databaseci-5.8.2.dist-info/entry_points.txt,sha256=VtVn2H9abqPMNe4icM5PvHnP5VYl9Ud-7OYc7K5nXbU,53
+databaseci-5.8.2.dist-info/LICENSE.md,sha256=ZtWkDn_YBDwY1Yd9fMvT9GaxkACZ7utJMd10QdGc1pw,34521
+databaseci-5.8.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+databaseci-5.8.2.dist-info/METADATA,sha256=uIqWktqqIls6YPQyUYSTWrvrk9PcNaYWPynbMi-q97k,899
+databaseci-5.8.2.dist-info/RECORD,,
