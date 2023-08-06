@@ -1,0 +1,2 @@
+[console_scripts]
+guarantor = guarantor.__main__:cli

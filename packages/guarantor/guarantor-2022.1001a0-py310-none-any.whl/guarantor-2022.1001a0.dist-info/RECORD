@@ -1,0 +1,11 @@
+guarantor/__init__.py,sha256=znCmWUdpf4E-VVXT1WUZFtNZnzWHrfffj0ioCgSBLG0,206
+guarantor/__main__.py,sha256=u0OVUTFO578om7qPR8rYSAOIQ_g9Ba-au7jn6U7tsbY,693
+guarantor/main.py,sha256=THuAmTR_ZvPt8DVWTQjGNFm0kTbM176dLq8vCs5QW4c,967
+guarantor/models.py,sha256=qiT_Phah9aNfDvAqGIiRO_Ue8qM0uOegZuz76NXYPxc,298
+guarantor-2022.1001a0.dist-info/LICENSE,sha256=UxG8bWerkYHk9_1131W_M-iH9D4RSOSkW-SU8NpZY8g,1078
+guarantor-2022.1001a0.dist-info/METADATA,sha256=NwKu0NPeH-ysgd7pETaVJ2Hd3cLSDg2MRtw_UX4UbTM,3127
+guarantor-2022.1001a0.dist-info/WHEEL,sha256=KxatxaZA14OswIJTdImHhiM2tdZgU-xLZEzs-sYveVc,94
+guarantor-2022.1001a0.dist-info/entry_points.txt,sha256=1qmbwtY6lftbQaiDGHKht2muFd75dSDz9hvDtTh9crg,53
+guarantor-2022.1001a0.dist-info/top_level.txt,sha256=irOejjG6DwN1aiHg4N9GstYSlVHzsltzjEVSVioFcv4,10
+guarantor-2022.1001a0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+guarantor-2022.1001a0.dist-info/RECORD,,
