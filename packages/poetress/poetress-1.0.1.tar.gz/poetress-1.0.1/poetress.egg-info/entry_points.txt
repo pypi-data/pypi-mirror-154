@@ -1,0 +1,3 @@
+[console_scripts]
+poetress = poetress.poetress:main
+

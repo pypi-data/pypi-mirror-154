@@ -1,0 +1,6 @@
+bs4==0.0.1
+requests~=2.26.0
+setuptools~=59.8.0
+
+[dev]
+pytest>=3.7
