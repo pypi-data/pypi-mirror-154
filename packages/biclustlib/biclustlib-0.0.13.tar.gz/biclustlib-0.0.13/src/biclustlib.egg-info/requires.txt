@@ -1,0 +1,10 @@
+numpy
+pandas
+aiohttp
+matplotlib
+goatools
+bottleneck
+scikit-learn
+scipy
+rpy2
+munkres
