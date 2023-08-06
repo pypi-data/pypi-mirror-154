@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TkGame
+Version: 0.0.2
+Summary: A tkinter game maker
+Home-page: UNKNOWN
+Author: scorpio8k
+Author-email: scorpion8k2@hotmail.com
+License: UNKNOWN
+Keywords: python,game,tkinter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Tk game is an package that helps make games with tkinter. it is really basic right now, but it will be improved in the future.
+
