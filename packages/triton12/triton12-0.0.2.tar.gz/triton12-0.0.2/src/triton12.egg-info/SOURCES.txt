@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/Tritons-dozen/__init__.py
+src/Tritons-dozen/triton12.py
+src/triton12.egg-info/PKG-INFO
+src/triton12.egg-info/SOURCES.txt
+src/triton12.egg-info/dependency_links.txt
+src/triton12.egg-info/requires.txt
+src/triton12.egg-info/top_level.txt
