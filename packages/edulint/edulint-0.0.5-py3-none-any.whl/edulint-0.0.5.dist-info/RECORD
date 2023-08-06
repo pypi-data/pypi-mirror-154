@@ -1,0 +1,11 @@
+edulint/.pylintrc,sha256=rNjG3l9t-b-DmjluMDv63h_CPnIdaavH7j16qy2u1eg,18296
+edulint/__init__.py,sha256=hVyUKFhTyA7vdQyVr5xQoSmpKmaSnGZCBjNunMa9MQA,132
+edulint/__main__.py,sha256=Iqqn4imO1IfDhh7sYEx-WeQf1-78T6vhOcz6bHs9pOE,82
+edulint/edulint.py,sha256=s5xTOcltDzvSGYNNF8c2IcmMVfu4Qm1SYptXz2CZBBA,3088
+edulint/explanations.py,sha256=Kz2DtV-lLBWj4oRHFrgcQsYKj1aP6_K3AdO4Ui6A8gg,403
+edulint/process_handler.py,sha256=4OjYJ-N7ZWiQv7_c7hDk2c0wYH-tidCNPmQ5AnR8JVY,4998
+edulint-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+edulint-0.0.5.dist-info/METADATA,sha256=bUkXkvim7PcgmNbpK9jnw-PhU2_DcrWByf8veqSECjg,1218
+edulint-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+edulint-0.0.5.dist-info/top_level.txt,sha256=XOEjmuB9PmaHMKh_OPDHbHPLitpDdcT1k5dWY99Iajc,8
+edulint-0.0.5.dist-info/RECORD,,
