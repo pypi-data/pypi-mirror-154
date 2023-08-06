@@ -1,0 +1,12 @@
+https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+python3 -m pip install --upgrade build
+
+1. activate
+2. python -m pip install pip --upgrade  
+3. python3 -m build 
+4. python3 -m twine upload --repository testpypi dist/* 
+
+PyPi auth :
+
+BAsed on user token, set in user home : https://pypi.org/manage/account/token/

@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = src.hosszub_test.example:entry_point

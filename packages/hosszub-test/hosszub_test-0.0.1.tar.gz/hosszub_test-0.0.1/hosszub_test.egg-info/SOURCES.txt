@@ -1,0 +1,12 @@
+LICENSE
+README
+pyproject.toml
+setup.cfg
+hosszub_test.egg-info/PKG-INFO
+hosszub_test.egg-info/SOURCES.txt
+hosszub_test.egg-info/dependency_links.txt
+hosszub_test.egg-info/entry_points.txt
+hosszub_test.egg-info/requires.txt
+hosszub_test.egg-info/top_level.txt
+src/hosszub_test/__init__.py
+src/hosszub_test/example.py
