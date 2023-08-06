@@ -1,0 +1,1 @@
+from .tailread import readlines
