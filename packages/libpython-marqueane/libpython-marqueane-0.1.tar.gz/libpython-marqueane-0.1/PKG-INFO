@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: libpython-marqueane
+Version: 0.1
+Summary: Exemplo de construção de projetos Python - Curso Pytools
+Home-page: https://github.com/MarqueaneSouza/libpythonpytools
+Author: Marqueane Carvalho
+Author-email: marqueane_64@hotmail.com
+License: GNU AFFERO GENERAL PUBLIC LICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# libpythonpytools
+Exemplo de construÃ§Ã£o de projetos Python - Curso Pytools
+
+Suportado versÃ£o 3 de Python
+
+[![Build Status](https://app.travis-ci.com/MarqueaneSouza/libpythonpytools.svg?branch=main)](https://app.travis-ci.com/MarqueaneSouza/libpythonpytools)
+
+TÃ³picos a serem abordados: 
+1. Git
+2. Virtualenv
+3. Pip
+
+
+08-05 Branch 4 - teste aula Freature Branch
+08-05 InstalaÃ§Ã£o Teste - Arquivo Setup.py.
+10-05 Teste
+InstalaÃ§Ã£o da lib twine
+

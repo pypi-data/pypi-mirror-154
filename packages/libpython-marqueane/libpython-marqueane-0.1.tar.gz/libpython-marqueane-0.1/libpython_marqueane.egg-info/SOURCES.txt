@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+libpython_marqueane.egg-info/PKG-INFO
+libpython_marqueane.egg-info/SOURCES.txt
+libpython_marqueane.egg-info/dependency_links.txt
+libpython_marqueane.egg-info/not-zip-safe
+libpython_marqueane.egg-info/requires.txt
+libpython_marqueane.egg-info/top_level.txt
+libpythonpropytools/__init__.py
+libpythonpropytools/github_api.py
