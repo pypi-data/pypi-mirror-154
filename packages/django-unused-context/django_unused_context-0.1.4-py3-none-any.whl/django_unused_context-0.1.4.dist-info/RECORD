@@ -1,0 +1,12 @@
+django_unused_context/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_unused_context/middleware.py,sha256=nJ4s6-7G_TLs9d1H7cF5lazbvN3cLaEwBAuytP6Q_O4,5250
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/settings.py,sha256=Y8ldzqpjgH2bx9oC69-DsjXI1VVICSIKSkprCI94SeA,1436
+tests/test_views.py,sha256=adKIFC-pSi1RvPSBsvgZoV82vudvQksyW9Szq8mIzLI,3901
+tests/urls.py,sha256=yt4ZtZW5u-3wwP1bvFhRYzWgagA6BLX6oEJ4Oj49xmA,346
+tests/views.py,sha256=yi4hGcN4bV1BxWQZZR5GTtz4ZkaKQglEWMDihJ9C2Zc,1002
+django_unused_context-0.1.4.dist-info/LICENSE,sha256=NNok6QIzyqimnmRu5FbEkooEkov0HIySVo2ZSxujY3k,1068
+django_unused_context-0.1.4.dist-info/METADATA,sha256=F_WrryfFt2MYjRRmGF4js43OjKIFbLaCU-mLYRKmhLw,6970
+django_unused_context-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_unused_context-0.1.4.dist-info/top_level.txt,sha256=5QbsoQJRs6WyGyLdBMFrqROK7Uf9przVcPiNi_aMD-Y,28
+django_unused_context-0.1.4.dist-info/RECORD,,
