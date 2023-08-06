@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+./shxparser/__init__.py
+./shxparser/shxparser.py
+./test/__init__.py
+./test/test_parser.py
+shxparser.egg-info/PKG-INFO
+shxparser.egg-info/SOURCES.txt
+shxparser.egg-info/dependency_links.txt
+shxparser.egg-info/top_level.txt
+shxparser.egg-info/zip-safe
+test/test_parser.py
