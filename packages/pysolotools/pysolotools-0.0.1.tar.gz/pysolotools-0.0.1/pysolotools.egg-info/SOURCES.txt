@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pysolotools.egg-info/PKG-INFO
+pysolotools.egg-info/SOURCES.txt
+pysolotools.egg-info/dependency_links.txt
+pysolotools.egg-info/top_level.txt
