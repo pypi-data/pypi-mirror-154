@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tsetmcpy/__init__.py
+src/tsetmcpy/tsetmc.py
+src/tsetmcpy.egg-info/PKG-INFO
+src/tsetmcpy.egg-info/SOURCES.txt
+src/tsetmcpy.egg-info/dependency_links.txt
+src/tsetmcpy.egg-info/top_level.txt
