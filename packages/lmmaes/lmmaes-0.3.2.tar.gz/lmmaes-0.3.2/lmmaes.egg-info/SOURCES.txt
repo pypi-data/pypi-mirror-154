@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+notes.md
+pyproject.toml
+setup.cfg
+lmmaes/__init__.py
+lmmaes/lmmaes.py
+lmmaes.egg-info/PKG-INFO
+lmmaes.egg-info/SOURCES.txt
+lmmaes.egg-info/dependency_links.txt
+lmmaes.egg-info/requires.txt
+lmmaes.egg-info/top_level.txt

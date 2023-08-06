@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: lmmaes
+Version: 0.3.2
+Summary: Limited-Memory Matrix Adaptation Evolution Strategy
+Home-page: https://github.com/giuse/lmmaes
+Author: Giuseppe Cuccu
+Author-email: giuseppe.cuccu@gmail.com
+Keywords: black-box optimization,evolution strategies,large scale
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LM-MA-ES: Limited-Memory Matrix Adaptation Evolution Strategy
+
+## Installation
+`pip install lmmaes`
+
+## Run instructions
+Check the [tests](https://github.com/giuse/lmmaes/blob/master/tests/test_lmmaes.py)
+
+## Further info
+
+Please refer to the following publication:
+https://arxiv.org/abs/1705.06693
+
+```bibtex
+@article{DBLP:journals/corr/LoshchilovGB17,
+  author    = {Ilya Loshchilov and
+               Tobias Glasmachers and
+               Hans{-}Georg Beyer},
+  title     = {Limited-Memory Matrix Adaptation for Large Scale Black-box Optimization},
+  journal   = {CoRR},
+  volume    = {abs/1705.06693},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.06693},
+  eprinttype = {arXiv},
+  eprint    = {1705.06693},
+  biburl    = {https://dblp.org/rec/journals/corr/LoshchilovGB17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
+Also have a look at this:
+
+```bibtex
+@article{LoshchilovGlasmachersBeyer2018,
+  author    = {Loshchilov, Ilya and Glasmachers, Tobias and Beyer, Hans-Georg},
+  title   = {Large Scale Black-box Optimization by Limited-Memory Matrix Adaptation},
+  journal   = {IEEE Transactions on Evolutionary Computation},
+  volume    = {99},
+  year    = {2018},
+}
+```
+
+Original Python implementation:
+[Tobias Glasmachers](https://www.ini.rub.de/the_institute/people/tobias-glasmachers/)
+[[code]](https://www.ini.rub.de/upload/editor/file/1604950981_dc3a4459a4160b48d51e/lmmaes.py)  
+Refactoring, packaging and distribution:
+[Giuseppe Cuccu](https://exascale.info/members/giuseppe-cuccu/)
+
+[Pypi page](https://pypi.org/project/lmmaes/)  
+[Source code](https://github.com/giuse/lmmaes)
