@@ -1,0 +1,5 @@
+numpy
+packaging
+torch>=1.6
+transformers
+tqdm
