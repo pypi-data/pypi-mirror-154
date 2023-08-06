@@ -1,0 +1,14 @@
+README.md
+setup.py
+AiJunebot.egg-info/LICENSE
+AiJunebot.egg-info/PKG-INFO
+AiJunebot.egg-info/SOURCES.txt
+AiJunebot.egg-info/dependency_links.txt
+AiJunebot.egg-info/requires.txt
+AiJunebot.egg-info/top_level.txt
+aijunebot.egg-info/LICENSE
+aijunebot.egg-info/PKG-INFO
+aijunebot.egg-info/SOURCES.txt
+aijunebot.egg-info/dependency_links.txt
+aijunebot.egg-info/requires.txt
+aijunebot.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aijunebot
+Version: 1.0.0
+Summary: aijunebot
+Home-page: https://github/JIANG-CHENG-JUN/AI_JuneBot
+Author: JuneBot
+Author-email: 1947725596@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+Import:from AiJunebot.AI import *
+Using:AI()
+Function:
+  Training AI model: train(testDatas1, testType1, testDatas2, testType2, trainingTimes)
+  Using AI model: using(data)
+    
+
