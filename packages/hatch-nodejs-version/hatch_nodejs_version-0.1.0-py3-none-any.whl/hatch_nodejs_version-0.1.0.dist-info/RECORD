@@ -1,0 +1,9 @@
+hatch_nodejs_version/__init__.py,sha256=_Hfb7ZlsKBFWpt5oE4zrDtgijw0qy0FdBYiMDpSoiL0,142
+hatch_nodejs_version/_version.py,sha256=a1NULatR7RVQHuvcgHE3Sxny6kI2MuXLmqYIqU25jbo,130
+hatch_nodejs_version/hooks.py,sha256=cdf3mKrXJi4x27APt8FSTYti_SaZFQfCRbO87y51IuM,275
+hatch_nodejs_version/version_source.py,sha256=AR-51QurXS3i1NODFpcBFd9c8Sxn1wT7D9jR3CEd7Ak,3863
+hatch_nodejs_version-0.1.0.dist-info/entry_points.txt,sha256=KIoCsjCeYNl5JgcSm5ugeTsRvXSHDvxV0_bxr-SVgOg,43
+hatch_nodejs_version-0.1.0.dist-info/WHEEL,sha256=Mre6Lh1R-SVkhMmvuKnQRGc2aJzDY6csbkHLG9J9IkY,88
+hatch_nodejs_version-0.1.0.dist-info/METADATA,sha256=AIe8gF799X0BAwNVCXx6IsyTOydzfgVXEZGAsknGaOI,1573
+hatch_nodejs_version-0.1.0.dist-info/license_files/LICENSE.txt,sha256=rxbs-H34EMGXu7qwCmrb4aH_p8firL0_OHbajkpIIIA,1100
+hatch_nodejs_version-0.1.0.dist-info/RECORD,,
