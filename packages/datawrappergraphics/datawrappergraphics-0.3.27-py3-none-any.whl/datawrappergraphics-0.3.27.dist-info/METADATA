@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datawrappergraphics
+Version: 0.3.27
+Summary: A package for interacting with Datawrapper graphics and folders.
+Author: Dexter McMillan
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: geopandas
+Requires-Dist: requests
+Requires-Dist: geojson
+
+UNKNOWN
+
