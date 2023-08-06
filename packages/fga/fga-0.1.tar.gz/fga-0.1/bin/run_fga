@@ -1,0 +1,65 @@
+#! /usr/bin/env python
+
+import argparse
+from fga import one_conbination_run
+
+parser = argparse.ArgumentParser(
+    description='Command line utilities')
+parser.add_argument(
+    '--film_search', '-film_search', '-fs',
+    type=int, default=4,
+    help='Defines repetition of the film unit cell')
+parser.add_argument(
+    '--sub_search', '-sub_search', '-ss',
+    type=int, default=4,
+    help='Defines repetition of the substrate unit cell')
+parser.add_argument(
+    '--max_size', '-max_size', '-msize',
+    type=float, default=40,
+    help='Maximum size of cell diagonal')
+parser.add_argument(
+    '--max_num_of_atoms', '-max_num_of_atoms', '-matoms',
+    type=int, default=200,
+    help='Maximum allowed atoms in the final structure')
+parser.add_argument(
+    '--buffer', '-buffer', '-b',
+    type=float, default=2,
+    help='distance between film and substrate')
+parser.add_argument(
+    '--vacuum', '-vacuum', '-v',
+    type=float, default=10,
+    help='the vacuum between z images')
+parser.add_argument(
+    '--max_length_ratio', '-max_length_ratio', '-mlr',
+    type=float, default=1.5,
+    help='The ratio of sides of parallelogram')
+parser.add_argument(
+    '--max_ratio_change', '-max_ratio_change', '-mrc',
+    type=float, default=0.5,
+    help='Range of structures that will be looked at on each side of the sturcutre that will have the minimum strain')
+parser.add_argument(
+    '--substrates','-substrate','-s',
+    type=str,
+    nargs='+',
+    help='Substrate atoms objects to process')
+parser.add_argument(
+    '--films','-films', '-f',
+    type=str,
+    nargs='+',
+    help='Film atoms objects to process')
+
+
+
+args = parser.parse_args()
+print("Substrates found :",args.substrates)
+print("Films found :",args.films)
+print("------------------------------------------- \n")
+
+if args.substrates and args.films:
+    for unit_substrate_path in args.substrates:
+        for unit_film_path in args.films:
+            one_conbination_run(unit_substrate_path,unit_film_path,args.sub_search,args.film_search
+                 ,max_size=args.max_size,max_length_ratio=args.max_length_ratio,max_ratio_change=args.max_ratio_change,max_num_of_atoms=args.max_num_of_atoms
+                 ,max_theta_dialation=0.5,remove_same_magnitude=False,buffer=args.buffer,vacuum=args.vacuum)
+else:
+    print("Incomplete information. Exiting")

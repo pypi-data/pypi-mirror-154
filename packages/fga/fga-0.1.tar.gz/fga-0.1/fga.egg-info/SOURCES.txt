@@ -1,0 +1,15 @@
+COPYING
+COPYING.LESSER
+LICENSE
+README.md
+setup.cfg
+setup.py
+bin/run_fga
+fga/__init__.py
+fga/fga.py
+fga/util.py
+fga.egg-info/PKG-INFO
+fga.egg-info/SOURCES.txt
+fga.egg-info/dependency_links.txt
+fga.egg-info/not-zip-safe
+fga.egg-info/top_level.txt
