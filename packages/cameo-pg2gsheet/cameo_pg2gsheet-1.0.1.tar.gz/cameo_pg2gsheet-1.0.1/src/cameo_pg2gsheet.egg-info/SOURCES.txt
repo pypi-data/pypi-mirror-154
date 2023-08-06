@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/cameo_pg2gsheet/__init__.py
+src/cameo_pg2gsheet.egg-info/PKG-INFO
+src/cameo_pg2gsheet.egg-info/SOURCES.txt
+src/cameo_pg2gsheet.egg-info/dependency_links.txt
+src/cameo_pg2gsheet.egg-info/requires.txt
+src/cameo_pg2gsheet.egg-info/top_level.txt
