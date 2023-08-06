@@ -1,0 +1,17 @@
+AUTHORS
+CHANGES
+COPYING
+MANIFEST.in
+README
+VERSION
+setup.py
+pytides_py3.egg-info/PKG-INFO
+pytides_py3.egg-info/SOURCES.txt
+pytides_py3.egg-info/dependency_links.txt
+pytides_py3.egg-info/requires.txt
+pytides_py3.egg-info/top_level.txt
+pytidespy3/__init__.py
+pytidespy3/astro.py
+pytidespy3/constituent.py
+pytidespy3/nodal_corrections.py
+pytidespy3/tide.py
