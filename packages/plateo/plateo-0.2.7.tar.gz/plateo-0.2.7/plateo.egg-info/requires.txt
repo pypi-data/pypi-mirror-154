@@ -1,0 +1,12 @@
+pandas>=0.22
+xlwt
+xlrd
+openpyxl
+python-box
+numpy
+matplotlib
+tqdm
+pdf_reports
+flametree
+fuzzywuzzy
+sequenticon
