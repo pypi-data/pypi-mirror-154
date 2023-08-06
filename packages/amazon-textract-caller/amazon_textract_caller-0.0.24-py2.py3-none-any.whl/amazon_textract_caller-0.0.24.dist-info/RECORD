@@ -1,0 +1,8 @@
+textractcaller/__init__.py,sha256=RGazaSzfH-uc-Gh6BcnVuxySGyS5cGrvl2La_Os-Et8,424
+textractcaller/_version.py,sha256=t0k7yGfnI5jmKd0IQNLjVqOi4rJBo9GXSkvr-hBMJs8,24
+textractcaller/t_call.py,sha256=VFGdJkdSQRo6FIfe01yV-XM7K9VUcYdOTW7bLOEQGlY,26607
+amazon_textract_caller-0.0.24.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+amazon_textract_caller-0.0.24.dist-info/METADATA,sha256=ZGJCsWrAYIBma28blIIgFag9yywXNyLQN467iGNv3f0,4637
+amazon_textract_caller-0.0.24.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+amazon_textract_caller-0.0.24.dist-info/top_level.txt,sha256=d52QYs2UIfn0JS83vUELjRv60Xq77un3t7xbChHrVaM,15
+amazon_textract_caller-0.0.24.dist-info/RECORD,,
