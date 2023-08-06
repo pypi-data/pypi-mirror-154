@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: factorio-circuit-ast
+Version: 0.0.0
+Summary: A Package implementing an interpretable AST of factorio circuit logic
+License: MIT License
+Keywords: factorio,blueprint,ast,emulator,interpreter
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: factorio-draftsman (>=0.9.5)
+
+# Factorio circuit AST
+
+This package contains a kind of Abstract Syntax Tree used for the interpreter. This can be built from the IR or a
+blueprint string. It enables interpreting and debugging circuits.
