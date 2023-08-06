@@ -1,0 +1,10 @@
+pydregiondata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydregiondata/dregiondata.py,sha256=i678lFU0g3NCqVTCmXYZ1t1xgKybT_WHR-zXJG7iuD4,6686
+pydregiondata/_ext/_data/00001.nc,sha256=laUH-4j2exuhoJ4g06NkSlrYuJvCxGBnCEkESTxkoJA,11863
+pydregiondata/_ext/_data/00002.nc,sha256=wJYeMRL44owE0pVdAp2LIdDXTJsUXjfDraUfJ8lnBVY,11870
+pydregiondata/_ext/_data/00003.nc,sha256=nN-XqGuXnzmFdwzwhbZxqI0xwKH7BcXLy93FlPJ18AQ,11870
+pydregiondata/_ext/_data/00004.nc,sha256=ZZqyHVyR4jSOqBJe6Ts56Bed-zpTxKbU2UULuaWqFhM,11870
+pydregiondata-0.0.1a3.dist-info/METADATA,sha256=0kGvYCCIAI5ISx8PV9BEK-R4BebOBuomn9MThNHzhcE,1023
+pydregiondata-0.0.1a3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydregiondata-0.0.1a3.dist-info/top_level.txt,sha256=IZu_fwNcB2Da7OEAmlRX2ScJWWn75X5Zo4UawkEp4m0,14
+pydregiondata-0.0.1a3.dist-info/RECORD,,
