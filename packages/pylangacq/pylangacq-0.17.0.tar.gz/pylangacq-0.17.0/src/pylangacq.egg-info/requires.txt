@@ -1,0 +1,6 @@
+python-dateutil>=2.0.0
+requests>=2.18.0
+tabulate[widechars]>=0.8.9
+
+[:python_version < "3.8"]
+importlib-metadata
