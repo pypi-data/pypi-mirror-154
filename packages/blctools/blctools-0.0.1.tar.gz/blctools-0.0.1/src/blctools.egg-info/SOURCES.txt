@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/blctools.egg-info/PKG-INFO
+src/blctools.egg-info/SOURCES.txt
+src/blctools.egg-info/dependency_links.txt
+src/blctools.egg-info/top_level.txt
