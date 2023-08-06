@@ -1,0 +1,8 @@
+torch
+torchaudio
+numpy
+pyctcdecode
+datasets
+transformers
+jiwer
+librosa
