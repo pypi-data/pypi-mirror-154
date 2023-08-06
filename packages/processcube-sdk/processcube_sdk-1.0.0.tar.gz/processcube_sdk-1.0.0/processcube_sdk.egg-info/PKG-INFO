@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: processcube-sdk
+Version: 1.0.0
+Summary: Some tools and defaults to program for the ProcessCube.
+Home-page: https://github.com/atlas-engine-contrib/processcube_sdk.py
+Author: 5Minds IT-Solutions GmbH & Co. KG
+Author-email: processcube@5minds.de
+Keywords: sdk processcube bpmm external-tasks process-management etw
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# processcube_sdk.PY
+Werkzeuge und Tools für die Entwicklung mit dem ProcessCube
