@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: basic-fast-morse-translator
+Version: 1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Name
+Author-email: not_name47@protonmail.com
+License: UNKNOWN
+Keywords: python,translation,fast,morse,futuristic
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# encode
+```py
+string: str = "Some text"
+import morseTranslator as mt
+morse_string: str = mt.encode(string)
+print(morse_string)
+```
+ouput
+```
+... --- -- . / - . -..- -
+```
+# decode
+```py
+morse_string: str = "... --- -- . / - . -..- -"
+import morseTranslator as mt
+string: str = mt.decode(morse_string)
+print(string)
+```
+ouput
+```
+some text
+```
+
+

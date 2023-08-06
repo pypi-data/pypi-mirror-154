@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+basic_fast_morse_translator.egg-info/PKG-INFO
+basic_fast_morse_translator.egg-info/SOURCES.txt
+basic_fast_morse_translator.egg-info/dependency_links.txt
+basic_fast_morse_translator.egg-info/top_level.txt
