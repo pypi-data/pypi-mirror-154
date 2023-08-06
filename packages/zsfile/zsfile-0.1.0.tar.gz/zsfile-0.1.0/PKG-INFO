@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: zsfile
+Version: 0.1.0
+Summary: zstandard compress and decompress tool.
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: zsfile,zstandard
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zsfile
+
+zstandard compress and decompress tool.
+
+## Install
+
+```
+pip3 install zsfile
+```
+
+## Command Usage
+
+```
+test@test Downloads % zsf --help
+Usage: zsf [OPTIONS] INPUT
+
+  Zstandard compress and decompress tool.
+
+Options:
+  -d, --decompress   force decompression. default to false.
+  -o, --output TEXT  Output filename.
+  --help             Show this message and exit.
+```
+
+## Examples
+
+```
+test@test test01 % ls    
+mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst
+test@test test01 % zsf -d mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst
+decompressing file mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst to mingw-w64-x86_64-file-5.39-2-any.pkg.tar...
+test@test test01 % ls
+mingw-w64-x86_64-file-5.39-2-any.pkg.tar	mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst
+test@test test01 % file mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst 
+mingw-w64-x86_64-file-5.39-2-any.pkg.tar.zst: Zstandard compressed data (v0.8+), Dictionary ID: None
+test@test test01 % file mingw-w64-x86_64-file-5.39-2-any.pkg.tar
+mingw-w64-x86_64-file-5.39-2-any.pkg.tar: POSIX tar archive
+test@test test01 %
+```
+
+## Releases
+
+### v0.1.0
+
+- First release.

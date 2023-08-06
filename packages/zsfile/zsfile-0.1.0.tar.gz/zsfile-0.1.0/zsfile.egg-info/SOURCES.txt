@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+zsfile.py
+zsfile.egg-info/PKG-INFO
+zsfile.egg-info/SOURCES.txt
+zsfile.egg-info/dependency_links.txt
+zsfile.egg-info/entry_points.txt
+zsfile.egg-info/requires.txt
+zsfile.egg-info/top_level.txt
