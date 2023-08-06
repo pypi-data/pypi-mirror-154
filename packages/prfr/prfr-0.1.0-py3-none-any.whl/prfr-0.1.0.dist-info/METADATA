@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: prfr
+Version: 0.1.0
+Summary: 
+Author: Jeff Shen
+Author-email: jshen2014@hotmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: joblib (>=1.1.0,<2.0.0)
+Requires-Dist: numba (>=0.55.1,<0.56.0)
+Requires-Dist: numpy (<1.22)
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
+Requires-Dist: sklearn (>=0.0,<0.1)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# prfr
+
+Probabilistic random forest regressor
+
