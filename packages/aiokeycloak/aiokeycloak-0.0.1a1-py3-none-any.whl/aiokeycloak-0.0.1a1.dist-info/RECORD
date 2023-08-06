@@ -1,0 +1,14 @@
+aiokeycloak/__init__.py,sha256=4YjRlr69URg4V2UwHprXvAxSac6NF6OBNHDsjU1ENvk,181
+aiokeycloak/authorization/__init__.py,sha256=3b8lTbttDp2kdm66Hk746dN7hCpvWWIkVHr9NxIL56s,2288
+aiokeycloak/authorization/permission.py,sha256=uZaoOZURhDznAElUU4r_rPwayMbuzWEOzlixh77pbrE,1089
+aiokeycloak/authorization/policy.py,sha256=mdU9Ano37LtDjFumOIq9OzrZeKKG_9lPYk2BwoBiU80,1106
+aiokeycloak/authorization/role.py,sha256=zDKd9KUa-9uFADC3tGB94so7z8NhnsZjA0G_E5eDAHI,365
+aiokeycloak/exceptions.py,sha256=xzVDy-D5BpOS82s9Ttqv9dPvuhAu8-nZppsJOD8Z39Q,1482
+aiokeycloak/openid.py,sha256=iszwxj6uLUVHHpElTAUf57TikXykPCXkTdGpqQAg07U,15638
+aiokeycloak/session.py,sha256=U0chRfsLqJ1PRZAb_m4kOJl2xdsB31h7FjYMVu89LNk,2080
+aiokeycloak/types.py,sha256=Wgo30_Thb9wSWjOJXbgKOlTmn87Kf03UbeZEWMOAu4M,2324
+aiokeycloak/uma_permissions.py,sha256=mk73pEMVOSWnUKkFAoeSOpBZeVIjfKEtDn9gSaGSbPM,5385
+aiokeycloak/url_patterns.py,sha256=JktsaXG-ze8kglRYj-OsLck2bWPWpkW-cA6O59hRikE,8030
+aiokeycloak-0.0.1a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiokeycloak-0.0.1a1.dist-info/METADATA,sha256=SMtmsSEU9VvLJNh4KODeZxU3B0oLw5l3cqISaM0-Kfg,329
+aiokeycloak-0.0.1a1.dist-info/RECORD,,
