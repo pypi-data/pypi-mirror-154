@@ -1,0 +1,11 @@
+cratt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cratt/__main__.py,sha256=VAp5zBFt7SyqBUxRrkW5tIECTBv8_0wM1HvNrMlwyj0,74
+cratt/cli.py,sha256=wSG8lONqJj2Z_ljlSgQrC7wkCl55YwrtpJmVMGJrW0o,880
+cratt/cra.py,sha256=lY284JBfrV6vrKECXQVz7-exdlDaC_4PkngCFOYPjN4,4767
+cratt/template.py,sha256=kIFhIYP-0KaAne2zINOhKBXH70PPZ_475Vz8R25hAOE,2323
+cratt-1.2.dist-info/LICENSE,sha256=NQLIvkU93RcuBNxKeTRncSIZ3q7kuwTl9-NPUVixyD0,1084
+cratt-1.2.dist-info/METADATA,sha256=7HgBv1m3QQnRMCHuaaleGdfzztP1-uXZUAcHEaUj13s,555
+cratt-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cratt-1.2.dist-info/entry_points.txt,sha256=0xUkSVBUkXm5BTzNqAw3rSgC_RBqfxp7_jexqesu318,42
+cratt-1.2.dist-info/top_level.txt,sha256=w_eoSXiaQuxpX7fiC-1PFTNeK6AOZ8QbOb3t2JJyu7s,6
+cratt-1.2.dist-info/RECORD,,
