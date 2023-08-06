@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+otquickmodule/KernelHerding.py
+otquickmodule/QuadratureWeighting.py
+otquickmodule/__init__.py
+otquickmodule.egg-info/PKG-INFO
+otquickmodule.egg-info/SOURCES.txt
+otquickmodule.egg-info/dependency_links.txt
+otquickmodule.egg-info/requires.txt
+otquickmodule.egg-info/top_level.txt
+test/test_KernelHerding.py
+test/test_QuadratureWeighting.py
