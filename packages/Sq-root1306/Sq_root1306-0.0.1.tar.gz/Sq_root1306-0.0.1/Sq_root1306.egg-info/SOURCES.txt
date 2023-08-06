@@ -1,0 +1,7 @@
+setup.py
+Sq_root1306/__init__.py
+Sq_root1306/sq.py
+Sq_root1306.egg-info/PKG-INFO
+Sq_root1306.egg-info/SOURCES.txt
+Sq_root1306.egg-info/dependency_links.txt
+Sq_root1306.egg-info/top_level.txt
