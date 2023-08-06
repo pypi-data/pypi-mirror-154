@@ -1,0 +1,77 @@
+[project]
+name = "pynche"
+authors = [
+    { name = "Barry Warsaw", email = "barry@python.org" },
+]
+description = "The Pythonically Natural Color and Hue Editor"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = [
+    "tkinter",
+    "color chooser",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Development Status :: 6 - Mature",
+    "Environment :: X11 Applications",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Topic :: Desktop Environment",
+]
+dependencies = [
+    "atpublic>=3.0.1",
+]
+dynamic = []
+version = "2.0a0"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.scripts]
+pynche = "pynche.main:main"
+
+[project.urls]
+"Home Page" = "https://gitlab.com/warsaw/pynche/-/blob/main/README.md"
+Documentation = "https://gitlab.com/warsaw/pynche/-/blob/main/README.md"
+Source = "https://gitlab.com/warsaw/pynche.git"
+"Bug Tracker" = "https://gitlab.com/warsaw/pynche/-/issues"
+
+[project.optional-dependencies]
+
+[tool.pdm]
+source-includes = [
+    "src/X/",
+    "tox.ini",
+]
+
+[tool.pdm.version]
+from = "src/pynche/main.py"
+
+[tool.pdm.dev-dependencies]
+qa = [
+    "flake8",
+    "isort",
+    "blue",
+]
+
+[tool.isort]
+include_trailing_comma = true
+length_sort_straight = true
+lines_after_imports = 2
+lines_between_types = 1
+multi_line_output = 3
+order_by_type = false
+skip = [
+    "conf.py",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517",
+]
+build-backend = "pdm.pep517.api"
