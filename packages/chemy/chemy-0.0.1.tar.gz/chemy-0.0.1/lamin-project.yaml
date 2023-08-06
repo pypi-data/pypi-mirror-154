@@ -1,0 +1,5 @@
+project_name: Chemy
+description: Manage chemical entities
+project_slug: chemy
+repository_name: chemy
+package_name: chemy

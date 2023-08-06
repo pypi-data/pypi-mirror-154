@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: chemy
+Version: 0.0.1
+Summary: Manage chemical entities.
+Author-email: Lamin Labs <laminlabs@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: nbproject
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "test"
+Requires-Dist: nbmake ; extra == "test"
+Project-URL: Home, https://github.com/laminlabs/chemy
+Provides-Extra: dev
+Provides-Extra: test
+
+# Chemy: Manage chemical entities
+
+Read the [docs](https://lamin.ai/chemy).
+
