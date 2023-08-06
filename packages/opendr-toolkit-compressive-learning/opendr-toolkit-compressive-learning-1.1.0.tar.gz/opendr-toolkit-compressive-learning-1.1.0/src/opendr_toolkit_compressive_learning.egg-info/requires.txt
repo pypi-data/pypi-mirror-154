@@ -1,0 +1,5 @@
+tqdm
+torchvision==0.10.0
+tensorboard>=2.4.1
+opendr-toolkit-engine
+torch==1.9.0
