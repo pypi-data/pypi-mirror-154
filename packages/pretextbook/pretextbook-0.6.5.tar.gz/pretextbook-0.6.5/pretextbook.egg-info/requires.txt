@@ -1,0 +1,14 @@
+lxml
+python-slugify
+requests>=2.28
+watchdog
+GitPython
+click>=7.0
+pdfCropMargins
+click-logging
+
+[dev]
+setuptools
+wheel
+twine
+secretstorage
