@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: adranis-sigma
+Version: 0.1.0
+Summary: Firt release of the python binding of the Adranis Sigma API
+License: BSD 2-Clause License
+Author: Adranis GmbH
+Author-email: contact@adranis.ch
+Requires-Python: >=3.8,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: plotly (>=5.8.2,<6.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
