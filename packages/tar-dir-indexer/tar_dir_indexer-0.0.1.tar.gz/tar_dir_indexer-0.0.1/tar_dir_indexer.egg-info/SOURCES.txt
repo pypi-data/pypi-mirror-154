@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+tar_dir_indexer/__init__.py
+tar_dir_indexer/tarDirIndexer.py
+tar_dir_indexer/version.py
+tar_dir_indexer.egg-info/PKG-INFO
+tar_dir_indexer.egg-info/SOURCES.txt
+tar_dir_indexer.egg-info/dependency_links.txt
+tar_dir_indexer.egg-info/requires.txt
+tar_dir_indexer.egg-info/top_level.txt
+test/test_tarDirIndexer.py
