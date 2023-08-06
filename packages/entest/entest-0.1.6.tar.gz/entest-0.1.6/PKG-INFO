@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: entest
+Version: 0.1.6
+Summary: Write dependaent integration tests. See my pycon talk.
+Author: Peteris Ratnieks
+Author-email: peteris.ratnieks@zealid.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
