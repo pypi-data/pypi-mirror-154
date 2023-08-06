@@ -1,0 +1,11 @@
+amis/README.md,sha256=bmXk9ilf8BV4478GlcAIAQzvTJ9oYPPzWsIXPutV9Is,3443
+amis/__init__.py,sha256=vpH7xKQvsxM-PbL5nVaKO_qHm7bxN2FjM6i0y3tSOLo,100
+amis/components.py,sha256=tquciDOeRyxgabUmjgSdd7XQwVDXi71qX-QRpL5oPzA,92478
+amis/constants.py,sha256=1CM2Gf7U9jqGcl-7cF7YfJSyXqwiuEAtVZ4X9lCusD0,1351
+amis/types.py,sha256=m37x1V5RIYI7TIsLbMNL3907UjVS0ng9ZJChPJ-gjqA,4361
+amis/utils.py,sha256=OR_FLjnbydDwEJ325021FkGfu7bQSsIGxzpXgdD3Ujo,264
+amis/templates/app.html,sha256=mjKZqwfsWTuQBVmQAsq0J7gw_dJQoAeQzxU3yV7i8eI,6416
+amis/templates/page.html,sha256=_K-nPHkbCUzBk_r4OoJz04jxlUe7kwpfaBqHYxNV9cw,1258
+amis-0.1.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+amis-0.1.1.dist-info/METADATA,sha256=OsUSz5fsrP_NMx7QyHNMZCLfhUi_qCCUUAtUuUPOOYM,4798
+amis-0.1.1.dist-info/RECORD,,
