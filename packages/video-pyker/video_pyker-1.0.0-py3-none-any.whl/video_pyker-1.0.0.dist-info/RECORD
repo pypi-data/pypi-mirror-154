@@ -1,0 +1,11 @@
+video_pyker/__init__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+video_pyker/__main__.py,sha256=wVJz70-XqmN4C-Gx76Bx31pbn3qTFt8szyLZ2DVDY9Q,72
+video_pyker/game.py,sha256=If-SfH6Q3YVLLr31d-7HvP98T1fhp2hT9L-Ukz445Qg,6915
+video_pyker/main.py,sha256=Vb6Ei4t5-35ZpmyVdybi1wBir9Pd0FfbRC0Jhm59-M8,1737
+video_pyker/screen.py,sha256=B_lFJYquM8kF77zdVve9j0lO_zYV_BqnfVxG-S49bDk,4033
+video_pyker-1.0.0.dist-info/LICENSE.md,sha256=V4Wb7gVVhqvZcZkgm3xSZZH1bx7yJi7ye3-7fk7-m-o,1054
+video_pyker-1.0.0.dist-info/METADATA,sha256=jNLpdyMSYheqthbaULEB8zDquT5TC7RBXfpRQygckEQ,2524
+video_pyker-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_pyker-1.0.0.dist-info/entry_points.txt,sha256=qi3H8HhevJ-sDq0uU9qZFFkZrBFdQl7zKxTBWn6LV3w,58
+video_pyker-1.0.0.dist-info/top_level.txt,sha256=zsqXK3w9n_L8iNrbnDpE5bfmemX6L-W0cQLYgMpR8tQ,12
+video_pyker-1.0.0.dist-info/RECORD,,
