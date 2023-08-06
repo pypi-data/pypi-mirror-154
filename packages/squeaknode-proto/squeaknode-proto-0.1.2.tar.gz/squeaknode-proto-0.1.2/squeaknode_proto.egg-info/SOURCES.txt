@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.py
+proto/__init__.py
+proto/lnd_pb2.py
+proto/lnd_pb2_grpc.py
+proto/squeak_admin_pb2.py
+proto/squeak_admin_pb2_grpc.py
+squeaknode_proto/__init__.py
+squeaknode_proto/proto.py
+squeaknode_proto.egg-info/PKG-INFO
+squeaknode_proto.egg-info/SOURCES.txt
+squeaknode_proto.egg-info/dependency_links.txt
+squeaknode_proto.egg-info/requires.txt
+squeaknode_proto.egg-info/top_level.txt
+squeaknode_proto.egg-info/zip-safe
