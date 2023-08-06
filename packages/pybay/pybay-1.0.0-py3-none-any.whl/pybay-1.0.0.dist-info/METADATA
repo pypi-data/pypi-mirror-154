@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pybay
+Version: 1.0.0
+Summary: Powerfull module to control bayfiles.com api using python
+Home-page: https://github.com/vodkarm/PyBay
+Author: vodkarm
+Author-email: vodkarm <vodkarm06@gmail.com>
+Project-URL: Homepage, https://github.com/vodkarm/pybay
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: vodkarm ; extra == 'dev'
+
+Documentation can be found at: https://github.com/vodkarm/pybay
