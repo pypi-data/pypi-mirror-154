@@ -1,0 +1,2 @@
+[console_scripts]
+liyi-cute = liyi_cute.__main__:main
