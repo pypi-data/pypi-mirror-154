@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/ifood_kube_login.egg-info/PKG-INFO
+src/ifood_kube_login.egg-info/SOURCES.txt
+src/ifood_kube_login.egg-info/dependency_links.txt
+src/ifood_kube_login.egg-info/entry_points.txt
+src/ifood_kube_login.egg-info/requires.txt
+src/ifood_kube_login.egg-info/top_level.txt
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
