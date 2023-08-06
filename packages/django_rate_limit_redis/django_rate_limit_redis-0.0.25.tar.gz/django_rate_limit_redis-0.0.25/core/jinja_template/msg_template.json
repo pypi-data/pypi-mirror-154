@@ -1,0 +1,74 @@
+{
+  "#type": "jv8:Array",
+  "#value": [
+    {
+      "#type": "jv8:Structure",
+      "#value": [
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "Идентификатор"
+          },
+          "Value": {
+            "#type": "jv8:UUID",
+            "#value": "{{ page.msg_id }}"
+          }
+        },
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "Отправитель"
+          },
+          "Value": {
+            "#type": "jxs:string",
+            "#value": "{{ page.sender }}"
+          }
+        },
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "Получатель"
+          },
+          "Value": {
+            "#type": "jxs:string",
+            "#value": "{{ page.recipient }}"
+          }
+        },
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "Сервер"
+          },
+          "Value": {
+            "#type": "jxs:string",
+            "#value": "{{ page.sender_server }}"
+          }
+        },
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "БазаДанных"
+          },
+          "Value": {
+            "#type": "jxs:string",
+            "#value": "{{ page.sender_db }}"
+          }
+        },
+        {
+          "name": {
+            "#type": "jxs:string",
+            "#value": "КлючДанных"
+          },
+          "Value": {
+            "#type": "jxs:string",
+            "#value": "{{ page.data_key }}"
+          }
+        }
+      ]
+    },
+    {
+      "#type": "jxs:string",
+      "#value": "{{ body }}"
+    }
+  ]
+}

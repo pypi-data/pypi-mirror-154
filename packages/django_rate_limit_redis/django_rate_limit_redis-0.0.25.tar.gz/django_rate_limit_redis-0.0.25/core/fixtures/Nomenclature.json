@@ -1,0 +1,4823 @@
+[
+  {
+    "model": "core.Nomenclature",
+    "pk": "00008",
+    "fields": {
+      "gtin": "18901043000448",
+      "ean13": "8901043000441",
+      "name": "Микозон (миконазол) крем д/наруж прим 2% туба 15 г х1"
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04159",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Ортофен табл 25 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04160",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Нитроксолин табл 50 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04161",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000061",
+      "name": "Пикамилон табл 20 мг х30",
+      "comment": "Ean13=4601969000061 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04162",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Пикамилон табл 50 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04164",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.851Z",
+      "gtin": "04601969000511",
+      "ean13": "4601969000511",
+      "name": "Триакорт мазь 0.1 % 10 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04165",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Тетрациклин мазь 3% 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04166",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Синтомицин линимент 10% 25 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04167",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Синтомицин линимент 5% 25 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04168",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Нистатин табл 500000 ЕД х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04169",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000450",
+      "name": "Преднизолон мазь 0.5 % 10 г х1",
+      "comment": "Ean13=4601969000450 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04170",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000467",
+      "name": "Преднизолон табл 5 мг х100",
+      "comment": "Ean13=4601969000467 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04171",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Фенкарол табл 25 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04172",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Кортизон табл 25 мг х80",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04173",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.159Z",
+      "gtin": "04601969004915",
+      "ean13": "4601969004915",
+      "name": "Мерказолил табл 5 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04175",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.739Z",
+      "gtin": "04601969000580",
+      "ean13": "4601969000580",
+      "name": "Капотен табл 25 мг х40",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04176",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.730Z",
+      "gtin": "04601969001075",
+      "ean13": "4601969001075",
+      "name": "Капотен табл 25 мг х28",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04177",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002096",
+      "name": "Индометацин-Акри мазь 10% 40 г х1",
+      "comment": "Ean13=4601969002096 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04179",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Кларотадин табл. х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04180",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003468",
+      "name": "Кларотадин табл 10 мг х7",
+      "comment": "Ean13=4601969003468 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04181",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003659",
+      "name": "Клотримазол-Акри табл вагин 100 мг х6",
+      "comment": "Ean13=4601969003659 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04182",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.068Z",
+      "gtin": "",
+      "ean13": "4601969007336",
+      "name": "Клотримазол-Акри мазь 1% 20 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04183",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002690",
+      "name": "Левомеколь мазь туба 40 г. х1",
+      "comment": "Ean13=4601969002690 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04184",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002928",
+      "name": "Бисакодил-Акри табл п/о кишечнораст 5 мг х40",
+      "comment": "Ean13=4601969002928 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04185",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000191",
+      "name": "Бромгексин табл 8 мг х20",
+      "comment": "Ean13=4601969000191 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04186",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002584",
+      "name": "Винпоцетин-Акри табл 5 мг х50",
+      "comment": "Ean13=4601969002584 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04187",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Викасол табл 15 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04188",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000566",
+      "name": "Вентер табл 500 мг х100",
+      "comment": "Ean13=4601969000566 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04189",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004908",
+      "name": "Дексаметазон табл 0.5 мг х50",
+      "comment": "Ean13=4601969004908 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04190",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000238",
+      "name": "Гиоксизон мазь 10 г. х1",
+      "comment": "Ean13=4601969000238 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04191",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000221",
+      "name": "Гидрокортизон мазь 1% туба 10 г х1",
+      "comment": "Ean13=4601969000221 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04192",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002089",
+      "name": "Диклофенак-Акри мазь 1% 30 г х1",
+      "comment": "Ean13=4601969002089 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04193",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004113",
+      "name": "Амиодарон-Акри табл 200 мг х30",
+      "comment": "Ean13=4601969004113 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04194",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000016",
+      "name": "Аминалон табл 250 мг х100",
+      "comment": "Ean13=4601969000016 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04195",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Анаприлин табл 10 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04196",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Анаприлин табл 40 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04197",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Аспаркам табл 350 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04198",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000184",
+      "name": "Ацикловир-Акри мазь 5 г. х1",
+      "comment": "Ean13=4601969000184 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04199",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003369",
+      "name": "Этамбутол-Акри табл 400 мг х100",
+      "comment": "Ean13=4601969003369 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04200",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Циннаризин табл 25 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04201",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.842Z",
+      "gtin": "04601969004182",
+      "ean13": "4601969004182",
+      "name": "Тинидазол-Акри табл п/о плен 500 мг х4",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04202",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Пентоксифиллин-Акри табл 100 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04203",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002751",
+      "name": "Пироксикам-Акри капс 10 мг х20",
+      "comment": "Ean13=4601969002751 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04204",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002102",
+      "name": "Лоперамид-Акри капс 2 мг х20",
+      "comment": "Ean13=4601969002102 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04205",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003352",
+      "name": "Лоперамид-Акри капс 2 мг х10",
+      "comment": "Ean13=4601969003352 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04206",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003031",
+      "name": "Метопролол-Акри табл 50 мг х30",
+      "comment": "Ean13=4601969003031 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04207",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003185",
+      "name": "Метоклопрамид-Акри табл 10 мг х50",
+      "comment": "Ean13=4601969003185 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04208",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003017",
+      "name": "Профлузак капс 20 мг х20",
+      "comment": "Ean13=4601969003017 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04209",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Вектрум кальций табл жев. х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04210",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Вектрум табл жев. х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04211",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Валидол табл 60 мг х6",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04212",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003314",
+      "name": "Бисакодил-Акри табл п/о кишечнораст 5 мг х30",
+      "comment": "Ean13=4601969003314 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04213",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003406",
+      "name": "L-Тироксин-Акри табл 100 мкг х50",
+      "comment": "Ean13=4601969003406 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04214",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000177",
+      "name": "Ацикловир-Акри табл 200 мг х20",
+      "comment": "Ean13=4601969000177 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04215",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003284",
+      "name": "Атенолол-Акри табл 50 мг х30",
+      "comment": "Ean13=4601969003284 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04216",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002843",
+      "name": "Кларотадин табл 10 мг х10",
+      "comment": "Ean13=4601969002843 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04217",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003024",
+      "name": "Кларотадин сироп 100 мл х1",
+      "comment": "Ean13=4601969003024 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04218",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000269",
+      "name": "Карбамазепин-Акри табл 200 мг х50",
+      "comment": "Ean13=4601969000269 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04219",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969001891",
+      "ean13": "4601969001891",
+      "name": "Капозид табл 50 мг х28",
+      "comment": "Ean13=4601969001891 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04220",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005509",
+      "name": "Ко-тримоксазол-Акри табл 120 мг х20",
+      "comment": "Ean13=4601969005509 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04221",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005516",
+      "name": "Ко-тримоксазол-Акри табл 480 мг х20",
+      "comment": "Ean13=4601969005516 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "04222",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Левомеколь мазь банка 60 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "06857",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000214",
+      "name": "Гепарин мазь 25 г. х1",
+      "comment": "Ean13=4601969000214 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07545",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002768",
+      "name": "Пироксикам-Акри капс 20 мг х20",
+      "comment": "Ean13=4601969002768 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07588",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Сульфален табл 200 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07628",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Аминазин драже 100 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07629",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Аминазин драже 50 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07920",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.113Z",
+      "gtin": "04601969004441",
+      "ean13": "4601969004441",
+      "name": "Акридерм ГК крем 15 г. х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "07922",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002737",
+      "name": "Ацикловир-Акри табл 400 мг х20",
+      "comment": "Ean13=4601969002737 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "08103",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Нитроксолин табл 50 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "08126",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002386",
+      "name": "Верапамил табл п/о плен 40 мг х50",
+      "comment": "Ean13=4601969002386 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "08127",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004151",
+      "name": "Диклофенак-Акри ретард табл пролонг. п/о плен 100 мг х20",
+      "comment": "Ean13=4601969004151 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "08128",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003703",
+      "name": "Омепразол-Акри капс 20 мг х30",
+      "comment": "Ean13=4601969003703 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09432",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.190Z",
+      "gtin": "04601969003574",
+      "ean13": "4601969003574",
+      "name": "Акридерм крем д/наруж прим 0.05% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09433",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.245Z",
+      "gtin": "04601969003604",
+      "ean13": "4601969003604",
+      "name": "Акридерм СК мазь туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09434",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.423Z",
+      "gtin": "04601969004496",
+      "ean13": "4601969004496",
+      "name": "Быструмгель гель 2,5 % туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09435",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.198Z",
+      "gtin": "04601969003581",
+      "ean13": "4601969003581",
+      "name": "Акридерм крем д/наруж прим 0.05% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09442",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004281",
+      "name": "Вектрум Актив табл жев. х30",
+      "comment": "Ean13=4601969004281 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09752",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.068Z",
+      "gtin": "04601969005042",
+      "ean13": "4601969005042",
+      "name": "Акридерм Гента крем д/наруж прим 0.05 %+0,1% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "09753",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.080Z",
+      "gtin": "04601969005059",
+      "ean13": "4601969005059",
+      "name": "Акридерм Гента крем д/наруж прим 0.05 %+0,1% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "10093",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.234Z",
+      "gtin": "04601969003598",
+      "ean13": "4601969003598",
+      "name": "Акридерм СК мазь туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "11081",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.744Z",
+      "gtin": "04601969001082",
+      "ean13": "4601969001082",
+      "name": "Капотен табл 25 мг х56",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "12953",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.435Z",
+      "gtin": "04601969004502",
+      "ean13": "4601969004502",
+      "name": "Быструмгель гель 2,5 % туба 50 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13047",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.467Z",
+      "gtin": "04601969005134",
+      "ean13": "4601969005134",
+      "name": "Венолайф гель туба 40 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13053",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.525Z",
+      "gtin": "04601969005080",
+      "ean13": "4601969005080",
+      "name": "Пантодерм мазь наруж прим 5% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13164",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003949",
+      "name": "Акрипамид табл п/о плен 2.5 мг уп.яч.конт х30",
+      "comment": "Ean13=4601969003949 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13250",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004946",
+      "name": "Кларотадин табл 10 мг х30",
+      "comment": "Ean13=4601969004946 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13329",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000917",
+      "name": "Бромгексин табл 4 мг х50",
+      "comment": "Ean13=4601969000917 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13432",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.869Z",
+      "gtin": "04601969003291",
+      "ean13": "4601969003291",
+      "name": "Глидиаб табл 80 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "13597",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.534Z",
+      "gtin": "04601969005073",
+      "ean13": "4601969005073",
+      "name": "Глидиаб МВ табл с модиф высв 30 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "14595",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004700",
+      "name": "Глиформин табл 500 мг х60",
+      "comment": "Ean13=4601969004700 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "14752",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002324",
+      "name": "Гексамидин табл 250 мг х50",
+      "comment": "Ean13=4601969002324 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "14901",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Напроксен-Акри табл 250 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "15467",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.834Z",
+      "gtin": "04601969003796",
+      "ean13": "4601969003796",
+      "name": "Клиндацин крем вагин 2% туба 20 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "15648",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.325Z",
+      "gtin": "04601969003482",
+      "ean13": "4601969003482",
+      "name": "Микозорал мазь 2% 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "15892",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003734",
+      "name": "Акридилол табл 12.5 мг х30",
+      "comment": "Ean13=4601969003734 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16145",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.213Z",
+      "gtin": "04601969005486",
+      "ean13": "4601969005486",
+      "name": "Акридерм мазь д/наруж прим 0.05% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16401",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004229",
+      "name": "L-Тироксин-Акри табл 100 мкг х100",
+      "comment": "Ean13=4601969004229 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16403",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.223Z",
+      "gtin": "04601969005493",
+      "ean13": "4601969005493",
+      "name": "Акридерм мазь д/наруж прим 0.05% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16404",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005455",
+      "name": "Акридилол табл 6.25 мг х30",
+      "comment": "Ean13=4601969005455 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16405",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003765",
+      "name": "Акридилол табл 25 мг х30",
+      "comment": "Ean13=4601969003765 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16411",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004571",
+      "name": "Атенолол-Акри табл 100 мг х30",
+      "comment": "Ean13=4601969004571 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16438",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004045",
+      "name": "Верапамил табл п/о плен 80 мг х20",
+      "comment": "Ean13=4601969004045 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16450",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002898",
+      "name": "Галоперидол-Акри табл 1.5 мг х50",
+      "comment": "Ean13=4601969002898 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16451",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002904",
+      "name": "Галоперидол-Акри табл 5 мг х50",
+      "comment": "Ean13=4601969002904 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16456",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005264",
+      "name": "Глиформин табл п/о плен 0,85 г банка х60",
+      "comment": "Ean13=4601969005264 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16457",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005271",
+      "name": "Глиформин табл п/о плен 1000 мг х60",
+      "comment": "Ean13=4601969005271 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16483",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004939",
+      "name": "Карбалепсин ретард табл пролонг 400 мг х50",
+      "comment": "Ean13=4601969004939 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16498",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004762",
+      "name": "Ломекомб табл п/о х500",
+      "comment": "Ean13=4601969004762 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16518",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004533",
+      "name": "ПАСК-Акри табл п/о кишечнораст 1000 мг х500",
+      "comment": "Ean13=4601969004533 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16532",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4893949120450",
+      "name": "Пиразинамид табл 500 мг х100",
+      "comment": "Ean13=4893949120450 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16533",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000047",
+      "name": "Пирацетам капс 400 мг х60",
+      "comment": "Ean13=4601969000047 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16542",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003376",
+      "name": "Протионамид-Акри табл п/о 250 мг х50",
+      "comment": "Ean13=4601969003376 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16544",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003338",
+      "name": "Ранитидин-Акри табл п/о 150 мг х20",
+      "comment": "Ean13=4601969003338 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16587",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969003475",
+      "name": "Тарицин табл п/о плен. 200 мг х10",
+      "comment": "Ean13=4601969003475 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16595",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002140",
+      "name": "Фамотидин-Акри табл п/о 20 мг х20",
+      "comment": "Ean13=4601969002140 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "16987",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004922",
+      "name": "Карбалепсин ретард табл пролонг 200 мг х50",
+      "comment": "Ean13=4601969004922 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "17043",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Фтизопирам табл х100",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "18780",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Викалин табл х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "19589",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.104Z",
+      "gtin": "04601969005462",
+      "ean13": "4601969005462",
+      "name": "Акридерм Гента мазь 0.05%+0.1% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20459",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.090Z",
+      "gtin": "04601969005479",
+      "ean13": "4601969005479",
+      "name": "Акридерм Гента мазь 0,05%+0,1% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20460",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007275",
+      "name": "Бромгексин-Акри сироп 4 мг/5мл фл 100 мл х1",
+      "comment": "Ean13=4601969007275 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20461",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.459Z",
+      "gtin": "04601969006186",
+      "ean13": "4601969006186",
+      "name": "Венолайф гель туба 100 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20462",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969000498",
+      "name": "Синафлан мазь 0.025 % туба 10 г. х1",
+      "comment": "Ean13=4601969000498 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20463",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005035",
+      "name": "Эналаприл-HL-Акри табл 12.5 мг+10 мг х20",
+      "comment": "Ean13=4601969005035 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20464",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Клотримазол-Акри р-р 1% 15 мл х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20466",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005028",
+      "name": "Эналаприл-H-Акри табл 10 мг+25 мг х20",
+      "comment": "Ean13=4601969005028 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20467",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002638",
+      "name": "Эналаприл-Акри табл 5 мг х20",
+      "comment": "Ean13=4601969002638 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20468",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969002621",
+      "name": "Эналаприл-Акри табл 10 мг х20",
+      "comment": "Ean13=4601969002621 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20469",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.158Z",
+      "gtin": "04601969005585",
+      "ean13": "4601969005585",
+      "name": "Акридерм ГК мазь 0,05 % + 0,1 % + 1 % 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "20470",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.414Z",
+      "gtin": "04601969006193",
+      "ean13": "4601969006193",
+      "name": "Быструмгель гель 2,5 % туба 100 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21019",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969006216",
+      "name": "Метозок табл пролонг. действ п/об. плен. 50 мг х30",
+      "comment": "Ean13=4601969006216 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21092",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.849Z",
+      "gtin": "04601969006001",
+      "ean13": "4601969006001",
+      "name": "Клиндовит гель 1% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21094",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005561",
+      "name": "Унидерм крем 0.1 % 15 г х1",
+      "comment": "Ean13=4601969005561 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21095",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005578",
+      "name": "Унидерм крем 0.1 % 30 г х1",
+      "comment": "Ean13=4601969005578 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21101",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Метозок табл пролонг. действ п/об. плен. 100 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21102",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969006209",
+      "name": "Метозок табл пролонг. действ п/об. плен. 25 мг х30",
+      "comment": "Ean13=4601969006209 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21113",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969005875",
+      "ean13": "4601969005875",
+      "name": "Топалепсин табл п/о плен 100 мг х30",
+      "comment": "Ean13=4601969005875 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21114",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969005851",
+      "ean13": "4601969005851",
+      "name": "Топалепсин табл п/о плен 25 мг х30",
+      "comment": "Ean13=4601969005851 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "21823",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "",
+      "name": "Фезанеф табл 1 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "22402",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.018Z",
+      "gtin": "04601969006315",
+      "ean13": "4601969006315",
+      "name": "Азелик гель д/наруж прим 15% 5 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "22403",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.007Z",
+      "gtin": "04601969006322",
+      "ean13": "4601969006322",
+      "name": "Азелик гель д/наруж прим 15% 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "22778",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969006827",
+      "name": "Примидон табл 250 мг х50",
+      "comment": "Ean13=4601969006827 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "27980",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.708Z",
+      "gtin": "",
+      "ean13": "4601969009361",
+      "name": "Фтизопирам В6 табл 150 мг +500 мг +15 мг х100",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "27981",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.725Z",
+      "gtin": "",
+      "ean13": "4601969005394",
+      "name": "Фтизоэтам В6 табл 150 мг +400 мг +15 мг х100",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "32020",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005196",
+      "name": "Диклофенак-Акри гель д/наруж прим 1% х1",
+      "comment": "Ean13=4601969005196 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "32846",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.332Z",
+      "gtin": "",
+      "ean13": "4601969004212",
+      "name": "Микозорал табл 200 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "32847",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969004427",
+      "name": "Микозорал шампунь 2% 60 г х1",
+      "comment": "Ean13=4601969004427 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "38907",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.660Z",
+      "gtin": "04601969006070",
+      "ean13": "4601969006070",
+      "name": "Диамерид табл 3 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "38908",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.665Z",
+      "gtin": "04601969006094",
+      "ean13": "4601969006094",
+      "name": "Диамерид табл 4 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "39373",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005226",
+      "name": "Гепарин-Акригель 1000 гель 1000 МЕ/г туба 30 г. х1",
+      "comment": "Ean13=4601969005226 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "39446",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.875Z",
+      "gtin": "04601969005943",
+      "ean13": "4601969005943",
+      "name": "Глимекомб табл 40 мг +500 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "39447",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.630Z",
+      "gtin": "04601969005981",
+      "ean13": "4601969005981",
+      "name": "Глимекомб табл 40 мг +500 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "39799",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.346Z",
+      "gtin": "",
+      "ean13": "4601969004212",
+      "name": "Микозорал табл 200 мг х30 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40257",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.449Z",
+      "gtin": "",
+      "ean13": "4601969007152",
+      "name": "Нолодатак капс 100 мг х30 (РУ)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40258",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.454Z",
+      "gtin": "",
+      "ean13": "4601969007169",
+      "name": "Нолодатак капс 100 мг х50 (РУ)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40259",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.443Z",
+      "gtin": "",
+      "ean13": "4601969007145",
+      "name": "Нолодатак капс 100 мг х10 (РУ)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40872",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.075Z",
+      "gtin": "04601969007336",
+      "ean13": "4601969007336",
+      "name": "Клотримазол-Акрихин мазь д/наруж прим 1% 20 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40963",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007190",
+      "name": "Омепразол-Акрихин капс 20 мг х30",
+      "comment": "Ean13=4601969007190 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40964",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.071Z",
+      "gtin": "04601969007176",
+      "ean13": "4601969007176",
+      "name": "Лоперамид-Акрихин капс 2 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40965",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.086Z",
+      "gtin": "04601969007183",
+      "ean13": "4601969007183",
+      "name": "Лоперамид-Акрихин капс 2 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "40979",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.963Z",
+      "gtin": "04601969007251",
+      "ean13": "4601969007251",
+      "name": "Комфодерм М2 крем д/наруж прим 0,1%+2% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41018",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007268",
+      "ean13": "4601969007268",
+      "name": "Ацикловир-Акрихин  мазь д/наруж прим 5 % туба 5 г х1",
+      "comment": "Ean13=4601969007268 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41019",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.355Z",
+      "gtin": "04601969007237",
+      "ean13": "4601969007237",
+      "name": "Ацикловир-Акрихин табл 200 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41020",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.362Z",
+      "gtin": "04601969007244",
+      "ean13": "4601969007244",
+      "name": "Ацикловир-Акрихин табл 400 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41021",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007374",
+      "name": "Диклофенак ретард-Акрихин табл пролонг. действ п/о плен 100 мг х20",
+      "comment": "Ean13=4601969007374 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41023",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.104Z",
+      "gtin": "04601969007411",
+      "ean13": "4601969007411",
+      "name": "Лоратадин-Акрихин табл 10 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41024",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.121Z",
+      "gtin": "04601969007428",
+      "ean13": "4601969007428",
+      "name": "Лоратадин-Акрихин табл 10 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41025",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.140Z",
+      "gtin": "04601969007404",
+      "ean13": "4601969007404",
+      "name": "Лоратадин-Акрихин табл 10 мг х7",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41026",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.922Z",
+      "gtin": "04601969007398",
+      "ean13": "4601969007398",
+      "name": "Клотримазол-Акрихин табл вагин 100 мг х6",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41027",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.233Z",
+      "gtin": "04601969007213",
+      "ean13": "4601969007213",
+      "name": "Метопролол-Акрихин табл 50 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41029",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007299",
+      "name": "Карбамазепин ретард-Акрихин табл пролонг. 200 мг х50",
+      "comment": "Ean13=4601969007299 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41030",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007275",
+      "name": "Бромгексин-Акрихин сироп 4 мг/5мл фл с мерн.лож 100 мл х1",
+      "comment": "Ean13=4601969007275 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41031",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.677Z",
+      "gtin": "04601969007329",
+      "ean13": "4601969007329",
+      "name": "Диклофенак-Акрихин гель д/наруж прим 1% туба 40 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41032",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.692Z",
+      "gtin": "04601969007312",
+      "ean13": "4601969007312",
+      "name": "Диклофенак-Акрихин мазь д/наруж прим 1% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41124",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007343",
+      "ean13": "4601969007343",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г туба 30 г х1",
+      "comment": "Ean13=4601969007343 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41323",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007206",
+      "name": "Винпоцетин-Акрихин табл 5 мг х50",
+      "comment": "Ean13=4601969007206 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41408",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007367",
+      "name": "Бисакодил-Акрихин табл п/о кишечнораст 5 мг х40",
+      "comment": "Ean13=4601969007367 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41409",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.772Z",
+      "gtin": "04601969007497",
+      "ean13": "4601969007497",
+      "name": "Карведилол-Акрихин табл 25 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41410",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.753Z",
+      "gtin": "04601969007480",
+      "ean13": "4601969007480",
+      "name": "Карведилол-Акрихин табл 12,5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41411",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.792Z",
+      "gtin": "04601969007473",
+      "ean13": "4601969007473",
+      "name": "Карведилол-Акрихин табл 6,25 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41652",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007381",
+      "name": "Ранитидин-Акрихин табл п/о 150 мг х20",
+      "comment": "Ean13=4601969007381 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41825",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.169Z",
+      "gtin": "04601969007435",
+      "ean13": "4601969007435",
+      "name": "Метопролол ретард-Акрихин  табл пролонг п/о плен 25 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41826",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.207Z",
+      "gtin": "04601969007442",
+      "ean13": "4601969007442",
+      "name": "Метопролол ретард-Акрихин табл пролонг п/о плен 50 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41827",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.201Z",
+      "gtin": "04601969007459",
+      "ean13": "4601969007459",
+      "name": "Метопролол ретард-Акрихин табл пролонг п/о плен 100 мг банки полиэт х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41906",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.814Z",
+      "gtin": "04601969007534",
+      "ean13": "4601969007534",
+      "name": "Такропик мазь д/наруж прим 0,03% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41907",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.824Z",
+      "gtin": "04601969007541",
+      "ean13": "4601969007541",
+      "name": "Такропик мазь д/наруж прим 0,1% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41910",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.169Z",
+      "gtin": "04601969005592",
+      "ean13": "4601969005592",
+      "name": "Акридерм ГК мазь 0,05 % + 0,1 % + 1 % 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41911",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.011Z",
+      "gtin": "04601969007558",
+      "ean13": "4601969007558",
+      "name": "Комфодерм мазь д/наруж прим 0,1% туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41912",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.028Z",
+      "gtin": "04601969007565",
+      "ean13": "4601969007565",
+      "name": "Комфодерм мазь д/наруж прим 0,1% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41913",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.947Z",
+      "gtin": "04601969007572",
+      "ean13": "4601969007572",
+      "name": "Комфодерм К крем д/наруж прим 0,1% тубы 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41914",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.955Z",
+      "gtin": "04601969007602",
+      "ean13": "4601969007602",
+      "name": "Комфодерм К крем д/наруж прим 0,1% тубы 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "41931",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.121Z",
+      "gtin": "04601969004458",
+      "ean13": "4601969004458",
+      "name": "Акридерм ГК крем 30 г. х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "42101",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969006810",
+      "name": "Клиндацин Б пролонг пролонг крем вагин 2% +2% туба 6 г х1",
+      "comment": "Ean13=4601969006810 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "42297",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.380Z",
+      "gtin": "04601969007619",
+      "ean13": "4601969007619",
+      "name": "Бромгексин-Акрихин табл 4 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "42351",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.398Z",
+      "gtin": "04601969007626",
+      "ean13": "4601969007626",
+      "name": "Бромгексин-Акрихин табл 8 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "43389",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007718",
+      "ean13": "4601969007718",
+      "name": "Зокор табл п/о плен 20 мг х28",
+      "comment": "Ean13=4601969007718 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "43422",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007701",
+      "ean13": "4601969007701",
+      "name": "Зокор табл п/о плен 10 мг х28",
+      "comment": "Ean13=4601969007701 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "43627",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.545Z",
+      "gtin": "04601969007527",
+      "ean13": "4601969007527",
+      "name": "Пантодерм плюс крем д/наруж прим 5%+0,776% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "43732",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.311Z",
+      "gtin": "04601969007800",
+      "ean13": "4601969007800",
+      "name": "Азелик гель д/наруж прим 15% 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "43982",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969005547",
+      "name": "Глиформин табл п/о плен 1 г уп.яч.контур х60",
+      "comment": "Ean13=4601969005547 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44051",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.423Z",
+      "gtin": "04601969007664",
+      "ean13": "4601969007664",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1% туба алюм. 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44052",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.428Z",
+      "gtin": "04601969007671",
+      "ean13": "4601969007671",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1% туба алюм. 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44130",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.526Z",
+      "gtin": "",
+      "ean13": "4601969007695",
+      "name": "Гиоксизон Акрихин мазь д/наруж. прим 1%+3% туба 10 г. х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44135",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007282",
+      "name": "Лоратадин-Акрихин сироп 5 мг/5 мл фл 100 мл х1",
+      "comment": "Ean13=4601969007282 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44175",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.499Z",
+      "gtin": "04601969007763",
+      "ean13": "4601969007763",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г туба 50 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44303",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.820Z",
+      "gtin": "04601969007817",
+      "ean13": "4601969007817",
+      "name": "Клиндацин Б пролонг крем вагин 2 % + 2 % туба 20 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44692",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.797Z",
+      "gtin": "04601969007657",
+      "ean13": "4601969007657",
+      "name": "Синафлан-Акрихин мазь д/наруж прим 0.025 % туба 10 г. х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "44922",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.474Z",
+      "gtin": "",
+      "ean13": "4601969005134",
+      "name": "Венолайф гель туба 40 г. х1 .",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45234",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.639Z",
+      "gtin": "",
+      "ean13": "4601969005523",
+      "name": "Глиформин табл п/о плен 0,85 г уп.яч.контур х60 .",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45542",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.044Z",
+      "gtin": "04601969008029",
+      "ean13": "4601969008029",
+      "name": "Лидент Бэби гель стомат. 0,33%+0,1% туба 10 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45847",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007824",
+      "name": "Фексофенадин-Акрихин табл п/о плен 120 мг х10",
+      "comment": "Ean13=4601969007824 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45848",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007848",
+      "name": "Фексофенадин-Акрихин табл п/о плен 180 мг х10",
+      "comment": "Ean13=4601969007848 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45849",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.742Z",
+      "gtin": "04601969007886",
+      "ean13": "4601969007886",
+      "name": "Рамиприл-Акрихин табл 10 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45850",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.976Z",
+      "gtin": "04601969007862",
+      "ean13": "4601969007862",
+      "name": "Рамиприл-Акрихин табл 2,5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45851",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.770Z",
+      "gtin": "04601969007879",
+      "ean13": "4601969007879",
+      "name": "Рамиприл-Акрихин табл 5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45869",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007510",
+      "name": "Ацетазоламид- Акри табл 250 мг х30",
+      "comment": "Ean13=4601969007510 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "45920",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.465Z",
+      "gtin": "04601969008128",
+      "ean13": "4601969008128",
+      "name": "Омепразол-Акрихин капс кишечнораст 20 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46082",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "03574661343822",
+      "ean13": "3574661343822",
+      "name": "Мотрин табл 250 мг х10",
+      "comment": "Ean13=3574661343822 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46083",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "03574661343839",
+      "ean13": "3574661343839",
+      "name": "Мотрин табл 250 мг х20",
+      "comment": "Ean13=3574661343839 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46160",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.242Z",
+      "gtin": "04601969008104",
+      "ean13": "4601969008104",
+      "name": "Метопролол-Акрихин табл 50 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46204",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.806Z",
+      "gtin": "04601969007855",
+      "ean13": "4601969007855",
+      "name": "Синафлан-Акрихин мазь д/наруж прим 0.025 % туба 15 г. х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46307",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008227",
+      "ean13": "4601969008227",
+      "name": "Ацикловир-Акрихин  мазь д/наруж прим 5 % туба 10 г . х1",
+      "comment": "Ean13=4601969008227 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "46308",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.984Z",
+      "gtin": "04601969008111",
+      "ean13": "4601969008111",
+      "name": "Комфодерм М2 крем д/наруж прим 0.1%+2% туба 10г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "47456",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007596",
+      "ean13": "4601969007596",
+      "name": "Янувия табл п/о плен 100 мг х28",
+      "comment": "Ean13=4601969007596 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "47776",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.044Z",
+      "gtin": "04601969008395",
+      "ean13": "4601969008395",
+      "name": "Диклофенак ретард-Акрихин табл пролонг высв п/о плен 100 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "47915",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.281Z",
+      "gtin": "04601969007992",
+      "ean13": "4601969007992",
+      "name": "Акриол Про крем д/мест и наруж прим 2,5%+2,5% х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48163",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.882Z",
+      "gtin": "04601969008579",
+      "ean13": "4601969008579",
+      "name": "Диакарб табл 250 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48308",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008531",
+      "ean13": "4601969008531",
+      "name": "Янумет табл п/о плен 1000 мг+50мг х56",
+      "comment": "Ean13=4601969008531 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48460",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.997Z",
+      "gtin": "",
+      "ean13": "4601969007800",
+      "name": "Азелик гель д/наруж прим 15% 15 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48461",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.921Z",
+      "gtin": "",
+      "ean13": "4601969006322",
+      "name": "Азелик гель д/наруж прим 15% 30 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48462",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.031Z",
+      "gtin": "",
+      "ean13": "4601969006315",
+      "name": "Азелик гель д/наруж прим 15% 5 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48464",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.856Z",
+      "gtin": "",
+      "ean13": "4601969006001",
+      "name": "Клиндовит гель 1% туба 30 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48465",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.133Z",
+      "gtin": "",
+      "ean13": "4601969004441",
+      "name": "Акридерм ГК крем туба 15 г. х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48466",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.146Z",
+      "gtin": "",
+      "ean13": "4601969004458",
+      "name": "Акридерм ГК крем туба 30 г. х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48467",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.184Z",
+      "gtin": "",
+      "ean13": "4601969005585",
+      "name": "Акридерм ГК мазь туба 15 г. х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48468",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.176Z",
+      "gtin": "",
+      "ean13": "4601969005592",
+      "name": "Акридерм ГК мазь 0,05 % + 0,1 % + 1 % туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48650",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.390Z",
+      "gtin": "",
+      "ean13": "4601969007619",
+      "name": "Бромгексин-Акрихин табл 4 мг х50 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48651",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.032Z",
+      "gtin": "",
+      "ean13": "4601969007626",
+      "name": "Бромгексин-Акрихин табл 8 мг х20 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48652",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.452Z",
+      "gtin": "",
+      "ean13": "4601969004502",
+      "name": "Быструмгель гель 2.5 % туба 50 г. х1 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48655",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.683Z",
+      "gtin": "",
+      "ean13": "4601969007329",
+      "name": "Диклофенак-Акрихин гель д/наруж прим 1% туба 40 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48656",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.709Z",
+      "gtin": "",
+      "ean13": "4601969007312",
+      "name": "Диклофенак-Акрихин мазь д/наруж прим 1% туба 30 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48657",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.061Z",
+      "gtin": "",
+      "ean13": "4601969007817",
+      "name": "Клиндацин Б пролонг пролонг крем вагин 2 % + 2 % туба 20 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48658",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.913Z",
+      "gtin": "",
+      "ean13": "4601969007336",
+      "name": "Клотримазол-Акрихин мазь д/наруж прим 1% 20 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48660",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.929Z",
+      "gtin": "",
+      "ean13": "4601969007572",
+      "name": "Комфодерм К крем д/наруж прим 0,1% туба 15 г х1 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48661",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.939Z",
+      "gtin": "",
+      "ean13": "4601969007602",
+      "name": "Комфодерм К крем д/наруж прим 0,1% туба 30 г х1 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48662",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.973Z",
+      "gtin": "",
+      "ean13": "4601969007251",
+      "name": "Комфодерм М2 крем д/наруж прим 0,1%+2% туба 30 г х1 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48663",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.993Z",
+      "gtin": "",
+      "ean13": "4601969008111",
+      "name": "Комфодерм М2 крем д/наруж прим 0.1%+2% туба 10г х1 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48664",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.022Z",
+      "gtin": "",
+      "ean13": "4601969007558",
+      "name": "Комфодерм мазь д/наруж прим 0,1% туба 15 г х1 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48665",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.083Z",
+      "gtin": "",
+      "ean13": "4601969007565",
+      "name": "Комфодерм мазь д/наруж прим 0,1% туба 30 г х1 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48666",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.054Z",
+      "gtin": "",
+      "ean13": "4601969008029",
+      "name": "Лидент Бэби гель стомат. 0,33%+0,1% туба 10 г х1 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48672",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.532Z",
+      "gtin": "",
+      "ean13": "4601969005080",
+      "name": "Пантодерм мазь наруж.пр. 5% туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48673",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.539Z",
+      "gtin": "",
+      "ean13": "4601969007527",
+      "name": "Пантодерм плюс крем д/наруж прим 5 % +0,776% туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48674",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.753Z",
+      "gtin": "",
+      "ean13": "4601969007886",
+      "name": "Рамиприл-Акрихин табл 10 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48676",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.777Z",
+      "gtin": "",
+      "ean13": "4601969007879",
+      "name": "Рамиприл-Акрихин табл 5 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48677",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.987Z",
+      "gtin": "04601969007657",
+      "ean13": "4601969007657",
+      "name": "Синафлан-Акрихин мазь д/наруж прим 0,025% туба 10 г . х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48678",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.788Z",
+      "gtin": "04601969007855",
+      "ean13": "4601969007855",
+      "name": "Синафлан-Акрихин мазь д/наруж прим 0,025% туба 15 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48701",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.842Z",
+      "gtin": "",
+      "ean13": "4601969003796",
+      "name": "Клиндацин крем вагин 2% туба 20 г х1 НЕ ИСП",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48927",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.859Z",
+      "gtin": "04601969008623",
+      "ean13": "4601969008623",
+      "name": "Тригрим табл 10 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48928",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.887Z",
+      "gtin": "04601969008616",
+      "ean13": "4601969008616",
+      "name": "Тригрим табл 5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48931",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.442Z",
+      "gtin": "",
+      "ean13": "4601969004496",
+      "name": "Быструмгель гель 2.5 % туба 30 г. х1 не исп",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48950",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008500",
+      "ean13": "4601969008500",
+      "name": "Ренитек табл 20 мг х14",
+      "comment": "Ean13=4601969008500 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "48951",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008494",
+      "ean13": "4601969008494",
+      "name": "Ренитек табл 10 мг х14",
+      "comment": "Ean13=4601969008494 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "49167",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.903Z",
+      "gtin": "04601969008654",
+      "ean13": "4601969008654",
+      "name": "Фенибут-Акрихин табл 250 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "49631",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.488Z",
+      "gtin": "04601969008777",
+      "ean13": "4601969008777",
+      "name": "Венолайф Дуо табл п/о плен 500 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "49632",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.479Z",
+      "gtin": "04601969008791",
+      "ean13": "4601969008791",
+      "name": "Венолайф Дуо табл п/о плен 1000 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "49951",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.871Z",
+      "gtin": "04601969008609",
+      "ean13": "4601969008609",
+      "name": "Тригрим табл 2.5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "49985",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008586",
+      "ean13": "4601969008586",
+      "name": "Янумет табл п/о плен 1000 мг+50мг х28",
+      "comment": "Ean13=4601969008586 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "50447",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.293Z",
+      "gtin": "04601969008814",
+      "ean13": "4601969008814",
+      "name": "Амброксол-Акрихин табл 30 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "50449",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.910Z",
+      "gtin": "",
+      "ean13": "4601969008654",
+      "name": "Фенибут-Акрихин табл 250 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "51494",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008869",
+      "ean13": "4601969008869",
+      "name": "Аквадетрим табл раст 500 мЕ х60",
+      "comment": "Ean13=4601969008869 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "51495",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008876",
+      "ean13": "4601969008876",
+      "name": "Аквадетрим табл раст 500 мЕ х90",
+      "comment": "Ean13=4601969008876 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "51521",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.510Z",
+      "gtin": "04601969008746",
+      "ean13": "4601969008746",
+      "name": "Отрио табл 10 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52103",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.470Z",
+      "gtin": "04601969008630",
+      "ean13": "4601969008630",
+      "name": "Осельтамивир-Акрихин капс 75 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52209",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.373Z",
+      "gtin": "04601969007244",
+      "ean13": "4601969007244",
+      "name": "Ацикловир-Акрихин табл 400 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52210",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.701Z",
+      "gtin": "04601969007312",
+      "ean13": "4601969007312",
+      "name": "Диклофенак-Акрихин мазь д/наруж прим 1% туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52211",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.758Z",
+      "gtin": "",
+      "ean13": "4601969007480",
+      "name": "Карведилол-Акрихин табл 12,5 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52212",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.810Z",
+      "gtin": "",
+      "ean13": "4601969007473",
+      "name": "Карведилол-Акрихин табл 6,25 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52217",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.112Z",
+      "gtin": "",
+      "ean13": "4601969007411",
+      "name": "Лоратадин-Акрихин табл 10 мг х10 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52218",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.134Z",
+      "gtin": "",
+      "ean13": "4601969007428",
+      "name": "Лоратадин-Акрихин табл 10 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52219",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.214Z",
+      "gtin": "",
+      "ean13": "4601969007442",
+      "name": "Метопролол ретард-Акрихин табл пролонг. п/о плен 50 мг х30 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52472",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.269Z",
+      "gtin": "04601969007985",
+      "ean13": "4601969007985",
+      "name": "Акриол Про крем д/мест и наруж прим 2,5 % + 2,5% 5 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52473",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.254Z",
+      "gtin": "04601969008005",
+      "ean13": "4601969008005",
+      "name": "Акриол Про крем д/мест и наруж прим 2,5 % + 2,5% 100 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52476",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.644Z",
+      "gtin": "04601969006247",
+      "ean13": "4601969006247",
+      "name": "Диаглинид табл 0,5 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52477",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.649Z",
+      "gtin": "04601969006261",
+      "ean13": "4601969006261",
+      "name": "Диаглинид табл 1 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52478",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.656Z",
+      "gtin": "",
+      "ean13": "4601969006285",
+      "name": "Диаглинид табл 2 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52479",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.958Z",
+      "gtin": "04601969008920",
+      "ean13": "4601969008920",
+      "name": "Пантодерм крем д/наруж прим 5% туба 30 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52483",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969005868",
+      "ean13": "4601969005868",
+      "name": "Топалепсин табл п/о плен 50 мг х30",
+      "comment": "Ean13=4601969005868 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52486",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.965Z",
+      "gtin": "04601969008166",
+      "ean13": "4601969008166",
+      "name": "ПАСК-Акри табл п/о кишечнораст 1000 мг х100",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52488",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.062Z",
+      "gtin": "04601969004748",
+      "ean13": "4601969004748",
+      "name": "Ломекомб табл п/о плен 135мг+200мг+370мг+325мг+10мг банка х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52489",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.302Z",
+      "gtin": "04601969008302",
+      "ean13": "4601969008302",
+      "name": "Метформин-Акрихин табл п/о плен 0,85 г х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52490",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.296Z",
+      "gtin": "04601969008319",
+      "ean13": "4601969008319",
+      "name": "Метформин-Акрихин табл п/о плен 0,85 г банка х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52491",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.318Z",
+      "gtin": "04601969008326",
+      "ean13": "4601969008326",
+      "name": "Метформин-Акрихин табл п/о плен 1 г х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52492",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.309Z",
+      "gtin": "04601969008333",
+      "ean13": "4601969008333",
+      "name": "Метформин-Акрихин табл п/о плен 1 г банка х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52493",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.288Z",
+      "gtin": "04601969008449",
+      "ean13": "4601969008449",
+      "name": "Метформин-Акрихин табл 500 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52494",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.581Z",
+      "gtin": "04601969008357",
+      "ean13": "4601969008357",
+      "name": "Метформин Пролонг-Акрихин табл с пролонг.высв. п/о плен 750 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52495",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.591Z",
+      "gtin": "04601969008340",
+      "ean13": "4601969008340",
+      "name": "Метформин Пролонг-Акрихин табл с пролонг.высв. п/о плен 750 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52496",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.255Z",
+      "gtin": "04601969008272",
+      "ean13": "4601969008272",
+      "name": "Метформин Пролонг-Акрихин табл с пролонг.высв. п/о плен 1000 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52497",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.942Z",
+      "gtin": "04601969008289",
+      "ean13": "4601969008289",
+      "name": "Метформин Пролонг-Акрихин табл с пролонг.высв. п/о плен 1000 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "52500",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969008180",
+      "ean13": "4601969008180",
+      "name": "ПАСК-Акри табл п/о кишечнораст 1000 мг х50",
+      "comment": "Ean13=4601969008180 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "53725",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.564Z",
+      "gtin": "04601969008838",
+      "ean13": "4601969008838",
+      "name": "Пантопразол-Акрихин табл п/о плен кишечнораст 20 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "53726",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.572Z",
+      "gtin": "04601969008845",
+      "ean13": "4601969008845",
+      "name": "Пантопразол-Акрихин табл п/о плен кишечнораст 40 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54101",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.432Z",
+      "gtin": "04601969008913",
+      "ean13": "4601969008913",
+      "name": "Нимесулид-Акрихин табл 100 мг х20",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54102",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.999Z",
+      "gtin": "04601969008890",
+      "ean13": "4601969008890",
+      "name": "Этилметилгидроксипиридин-Акрихин табл п/о плен 125 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54103",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.017Z",
+      "gtin": "04601969008906",
+      "ean13": "4601969008906",
+      "name": "Этилметилгидроксипиридин-Акрихин табл п/о плен 125 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54844",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.718Z",
+      "gtin": "04601969008883",
+      "ean13": "4601969008883",
+      "name": "Капозид табл 25 мг+50 мг х28",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54971",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.355Z",
+      "gtin": "",
+      "ean13": "4601969008951",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,2 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54972",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.368Z",
+      "gtin": "04601969008975",
+      "ean13": "4601969008975",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,2 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54973",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.381Z",
+      "gtin": "",
+      "ean13": "4601969008982",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,4 мг х10",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54974",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.391Z",
+      "gtin": "04601969009002",
+      "ean13": "4601969009002",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,4 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "54995",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.478Z",
+      "gtin": "",
+      "ean13": "4601969008630",
+      "name": "Осельтамивир-Акрихин капс 75 мг х10 *",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55139",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.489Z",
+      "gtin": "",
+      "ean13": "4601969008630",
+      "name": "Осельтамивир-Акрихин капс 75 мг х10 * АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55140",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.303Z",
+      "gtin": "",
+      "ean13": "4601969008814",
+      "name": "Амброксол-Акрихин табл 30 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55146",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969008227",
+      "name": "Ацикловир-Акрихин мазь д/наруж прим 5% туба 10 г х1 АКЦИЯ пакет (5)",
+      "comment": "Ean13=4601969008227 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55147",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969007268",
+      "name": "Ацикловир-Акрихин мазь д/наруж прим 5% туба 5 г х1 АКЦИЯ пакет (5)",
+      "comment": "Ean13=4601969007268 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55154",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.407Z",
+      "gtin": "",
+      "ean13": "4601969007626",
+      "name": "Бромгексин-Акрихин табл 8 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55155",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.671Z",
+      "gtin": "",
+      "ean13": "4601969007329",
+      "name": "Диклофенак-Акрихин гель д/наруж прим 1 % туба 40 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55161",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.786Z",
+      "gtin": "",
+      "ean13": "4601969007497",
+      "name": "Карведилол-Акрихин табл 25 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55165",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.077Z",
+      "gtin": "",
+      "ean13": "4601969007176",
+      "name": "Лоперамид-Акрихин капс 2 мг х10 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55166",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.096Z",
+      "gtin": "",
+      "ean13": "4601969007183",
+      "name": "Лоперамид-Акрихин капс 2 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55168",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.153Z",
+      "gtin": "",
+      "ean13": "4601969007404",
+      "name": "Лоратадин-Акрихин табл 10 мг х7 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55173",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.934Z",
+      "gtin": "",
+      "ean13": "4601969007459",
+      "name": "Метопролол ретард-Акрихин табл. пролонг. п/о плен 100 мг (банки полиэт) х30 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55174",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.177Z",
+      "gtin": "",
+      "ean13": "4601969007435",
+      "name": "Метопролол ретард-Акрихин  табл пролонг п/о плен 25 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55175",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.237Z",
+      "gtin": "",
+      "ean13": "4601969007213",
+      "name": "Метопролол-Акрихин табл 50 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55176",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.246Z",
+      "gtin": "04601969008104",
+      "ean13": "4601969008104",
+      "name": "Метопролол-Акрихин табл 50 мг х60 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55177",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.410Z",
+      "gtin": "",
+      "ean13": "4601969007664",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1% туба 15 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55178",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.418Z",
+      "gtin": "",
+      "ean13": "4601969007671",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1% туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55179",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.438Z",
+      "gtin": "",
+      "ean13": "4601969008913",
+      "name": "Нимесулид-Акрихин табл 100 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55184",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.459Z",
+      "gtin": "04601969008128",
+      "ean13": "4601969008128",
+      "name": "Омепразол-Акрихин капс кишеч. 20 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55188",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.498Z",
+      "gtin": "",
+      "ean13": "4601969008630",
+      "name": "Осельтамивир-Акрихин капс 75 мг х10 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55189",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.519Z",
+      "gtin": "",
+      "ean13": "4601969008920",
+      "name": "Пантодерм крем наруж прим 5% туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55190",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.553Z",
+      "gtin": "",
+      "ean13": "4601969008838",
+      "name": "Пантопразол-Акрихин табл кишечнораст. п/о плен 20 мг х30 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55191",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.559Z",
+      "gtin": "",
+      "ean13": "4601969008845",
+      "name": "Пантопразол-Акрихин табл кишечнораст. п/о плен 40 мг х30 АКЦИЯ пакет (4)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55192",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.761Z",
+      "gtin": "",
+      "ean13": "4601969007862",
+      "name": "Рамиприл-Акрихин табл 2,5 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55197",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.007Z",
+      "gtin": "",
+      "ean13": "4601969008890",
+      "name": "Этилметилгидроксипиридин-Акрихин табл п/о плен 125 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55198",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.024Z",
+      "gtin": "",
+      "ean13": "4601969008906",
+      "name": "Этилметилгидроксипиридин-Акрихин табл п/о плен 125 мг х50 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55291",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.362Z",
+      "gtin": "",
+      "ean13": "4601969008951",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,2 мг х10 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55292",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.376Z",
+      "gtin": "",
+      "ean13": "4601969008975",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,2 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55293",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.386Z",
+      "gtin": "",
+      "ean13": "4601969008982",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,4 мг х10 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "55294",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.951Z",
+      "gtin": "",
+      "ean13": "4601969009002",
+      "name": "Моксонидин-Акрихин табл п/о плен 0,4 мг х30 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "56790",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.046Z",
+      "gtin": "04601969009101",
+      "ean13": "4601969009101",
+      "name": "Аквадетрим табл раст 500 МЕ х60 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "56825",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.057Z",
+      "gtin": "04601969009149",
+      "ean13": "4601969009149",
+      "name": "Аквадетрим табл раст 500 МЕ х90 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "56937",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.327Z",
+      "gtin": "04601969009057",
+      "ean13": "4601969009057",
+      "name": "Ацикловир-Акрихин  мазь д/наруж прим 5 % туба 10 г х1 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "56938",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.334Z",
+      "gtin": "04601969006636",
+      "ean13": "4601969006636",
+      "name": "Ацикловир-Акрихин  мазь д/наруж прим 5 % туба 5 г х1 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "57061",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.345Z",
+      "gtin": "04601969007237",
+      "ean13": "4601969007237",
+      "name": "Ацикловир-Акрихин  табл 200 мг х20 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "57062",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969007343",
+      "ean13": "4601969007343",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г туба 30 г х1 АКЦИЯ пакет (5)",
+      "comment": "Ean13=4601969007343 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "57063",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.516Z",
+      "gtin": "04601969007763",
+      "ean13": "4601969007763",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г туба 50 г х1 АКЦИЯ пакет (5)",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "58368",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.494Z",
+      "gtin": "04601969009156",
+      "ean13": "4601969009156",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г 30 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "58433",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.396Z",
+      "gtin": "04601969009095",
+      "ean13": "4601969009095",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1 % 30 г х1 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "58829",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:30.038Z",
+      "gtin": "04601969009378",
+      "ean13": "4601969009378",
+      "name": "Глидиаб МВ табл с модиф высв 30 мг х60 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "58830",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.401Z",
+      "gtin": "04601969009064",
+      "ean13": "4601969009064",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1 % туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "58957",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.036Z",
+      "gtin": "04601969009279",
+      "ean13": "4601969009279",
+      "name": "Лидент Бэби  гель стомат. 0,33 % +0,1% туба 10 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59096",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.804Z",
+      "gtin": "04601969009118",
+      "ean13": "4601969009118",
+      "name": "Карведилол-Акрихин табл 6,25 мг х30 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59097",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.508Z",
+      "gtin": "04601969009170",
+      "ean13": "4601969009170",
+      "name": "Гепарин-Акрихин 1000 гель 1000 МЕ/г туба 50 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59346",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.609Z",
+      "gtin": "04601969009132",
+      "ean13": "4601969009132",
+      "name": "Карведилол-Акрихин табл 25 мг х30 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59347",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.270Z",
+      "gtin": "04601969009095",
+      "ean13": "4601969009095",
+      "name": "Мометазон-Акрихин крем д/наруж прим 0,1 % 30 г х1 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59515",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.717Z",
+      "gtin": "04601969009255",
+      "ean13": "4601969009255",
+      "name": "Фтизопирам табл 150 мг +500 мг х2500",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59675",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.875Z",
+      "gtin": "04601969003574",
+      "ean13": "4601969003574",
+      "name": "Акридерм крем д/наруж прим 0,05 % туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59737",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.652Z",
+      "gtin": "04601969007534",
+      "ean13": "4601969007534",
+      "name": "Такропик мазь д/наруж прим 0,03 % туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59738",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.661Z",
+      "gtin": "04601969007541",
+      "ean13": "4601969007541",
+      "name": "Такропик мазь д/наруж прим 0,1 % туба 15 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59795",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.805Z",
+      "gtin": "04601969009477",
+      "ean13": "4601969009477",
+      "name": "Аквадетрим табл растворим 1000 МЕ х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "59924",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.592Z",
+      "gtin": "04601969009125",
+      "ean13": "4601969009125",
+      "name": "Карведилол-Акрихин табл 12,5 мг х30 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "60022",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.973Z",
+      "gtin": "04601969009385",
+      "ean13": "4601969009385",
+      "name": "Акримекс табл п/о плен 125 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "60023",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.986Z",
+      "gtin": "04601969009392",
+      "ean13": "4601969009392",
+      "name": "Акримекс табл п/о плен 125 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "60414",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.896Z",
+      "gtin": "04601969009446",
+      "ean13": "4601969009446",
+      "name": "Лоратадин-Акрихин табл 10 мг х30 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "60662",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.616Z",
+      "gtin": "04601969009330",
+      "ean13": "4601969009330",
+      "name": "Клиндацин крем вагин 2 % туба 20 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61140",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.889Z",
+      "gtin": "04601969009422",
+      "ean13": "4601969009422",
+      "name": "Лоратадин-Акрихин табл 10 мг х10 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61465",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.321Z",
+      "gtin": "",
+      "ean13": "4601969008364",
+      "name": "Быструм Спринт гель д/наруж прим (500 МЕ +25 мг +150 мг)/г туба 50 г х1",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61466",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "",
+      "ean13": "4601969009293",
+      "name": "Диамерид табл 1 мг х30",
+      "comment": "Ean13=4601969009293 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61467",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.540Z",
+      "gtin": "",
+      "ean13": "4601969006056",
+      "name": "Диамерид табл 2 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61469",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.612Z",
+      "gtin": "",
+      "ean13": "4601969009026",
+      "name": "ПАСК-Акри табл кишечнораст п/о плен 500 мг х500",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61472",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.602Z",
+      "gtin": "",
+      "ean13": "4601969009019",
+      "name": "ПАСК-Акри табл кишечнораст п/о плен 500 мг х100",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61473",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.642Z",
+      "gtin": "",
+      "ean13": "4601969004786",
+      "name": "Протиокомб табл п/о плен 200 мг +370 мг +150 мг +325 мг +10 мг х50",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61478",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.692Z",
+      "gtin": "04601969009347",
+      "ean13": "4601969009347",
+      "name": "Толперизон-Акрихин табл п/о плен 50 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61480",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.684Z",
+      "gtin": "04601969009354",
+      "ean13": "4601969009354",
+      "name": "Толперизон-Акрихин табл п/о плен 150 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "61485",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.736Z",
+      "gtin": "",
+      "ean13": "4601969009262",
+      "name": "Фтизоэтам табл 150 мг +400 мг х2500",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "62030",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "03574661343839",
+      "ean13": "3574661343839",
+      "name": "Мотрин табл 250 мг х20 ♦",
+      "comment": "Ean13=3574661343839 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "62415",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.553Z",
+      "gtin": "04601969001075",
+      "ean13": "4601969001075",
+      "name": "Капотен табл 25 мг х28 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "62417",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.559Z",
+      "gtin": "04601969000580",
+      "ean13": "4601969000580",
+      "name": "Капотен табл 25 мг х40 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "62418",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.569Z",
+      "gtin": "04601969001082",
+      "ean13": "4601969001082",
+      "name": "Капотен табл 25 мг х56 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "62946",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:28.904Z",
+      "gtin": "04601969009415",
+      "ean13": "4601969009415",
+      "name": "Лоратадин-Акрихин табл 10 мг х7 #",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "63651",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.944Z",
+      "gtin": "04601969009699",
+      "ean13": "4601969009699",
+      "name": "Акридерм СК мазь д/наруж прим 0,05 % +3% туба 30 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64074",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.822Z",
+      "gtin": "04601969009484",
+      "ean13": "4601969009484",
+      "name": "Аквадетрим табл растворим 2000 МЕ х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64609",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.932Z",
+      "gtin": "04601969009590",
+      "ean13": "4601969009590",
+      "name": "Акридерм СК мазь д/наруж прим 0,05 % +3% туба 15 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64907",
+    "fields": {
+      "sended": false,
+      "sended_at": null,
+      "gtin": "04601969009620",
+      "ean13": "4601969009620",
+      "name": "Янумет табл п/о плен 1000 мг +50 мг х56 ^",
+      "comment": "Ean13=4601969009620 sku does not exists."
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64937",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.280Z",
+      "gtin": "04601969009439",
+      "ean13": "4601969009439",
+      "name": "Пантодерм крем д/наруж прим 5 % туба 30 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64971",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.264Z",
+      "gtin": "04601969009491",
+      "ean13": "4601969009491",
+      "name": "Метформин-Акрихин табл п/о плен 850 мг х60",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "64997",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.765Z",
+      "gtin": "04601969009774",
+      "ean13": "4601969009774",
+      "name": "Азелик гель д/наруж прим 15 % 15 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65067",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.676Z",
+      "gtin": "04601969009286",
+      "ean13": "4601969009286",
+      "name": "Тинидазол-Акри табл п/о плен 500 мг х4 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65289",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.700Z",
+      "gtin": "04601969009736",
+      "ean13": "4601969009736",
+      "name": "Тригрим табл 20 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65295",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.797Z",
+      "gtin": "04601969009743",
+      "ean13": "4601969009743",
+      "name": "Азелик гель д/наруж прим 15 % 5 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65296",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.781Z",
+      "gtin": "04601969009781",
+      "ean13": "4601969009781",
+      "name": "Азелик гель д/наруж прим 15 % 30 г х1 ^",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65346",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.832Z",
+      "gtin": "04601969004441",
+      "ean13": "4601969004441",
+      "name": "Акридерм ГК крем 15 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65347",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.844Z",
+      "gtin": "04601969004458",
+      "ean13": "4601969004458",
+      "name": "Акридерм ГК крем 30 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65348",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.855Z",
+      "gtin": "04601969005585",
+      "ean13": "4601969005585",
+      "name": "Акридерм ГК мазь д/наруж прим 0,05 % + 0,1 % + 1 % туба 15 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65349",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.866Z",
+      "gtin": "04601969005592",
+      "ean13": "4601969005592",
+      "name": "Акридерм ГК мазь д/наруж прим 0,05 % + 0,1 % + 1 % туба 30 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65350",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.884Z",
+      "gtin": "04601969003574",
+      "ean13": "4601969003574",
+      "name": "Акридерм крем д/наруж прим 0,05 % туба 15 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65351",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.893Z",
+      "gtin": "04601969003581",
+      "ean13": "4601969003581",
+      "name": "Акридерм крем д/наруж прим 0,05 % туба 30 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65352",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.904Z",
+      "gtin": "04601969005486",
+      "ean13": "4601969005486",
+      "name": "Акридерм мазь д/наруж прим 0,05 % туба 15 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65353",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:27.923Z",
+      "gtin": "04601969005493",
+      "ean13": "4601969005493",
+      "name": "Акридерм мазь д/наруж прим 0,05 % туба 30 г х1 ♦",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65490",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.634Z",
+      "gtin": "04601969009798",
+      "ean13": "4601969009798",
+      "name": "Подагрель капс 80 мг х30",
+      "comment": null
+    }
+  },
+  {
+    "model": "core.nomenclature",
+    "pk": "65491",
+    "fields": {
+      "sended": true,
+      "sended_at": "2022-02-25T10:20:29.623Z",
+      "gtin": "04601969009804",
+      "ean13": "4601969009804",
+      "name": "Подагрель капс 120 мг х30",
+      "comment": null
+    }
+  }
+]

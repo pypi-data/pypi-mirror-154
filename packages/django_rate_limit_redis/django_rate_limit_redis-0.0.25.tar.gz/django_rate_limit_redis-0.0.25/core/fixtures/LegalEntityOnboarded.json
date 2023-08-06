@@ -1,0 +1,29 @@
+[
+  {
+    "model": "core.LegalEntityOnboarded",
+    "pk": "00008",
+    "fields": {
+      "inn": "1234235",
+      "contact_sign_date": "2022-03-21T09:39:59.155Z",
+      "status": "FORMED",
+      "status_updated": "2022-03-21T09:39:59.155Z",
+      "ext_id": 314,
+      "comment": "Это комментарий",
+      "sended_to_pz": "False"
+    }
+  },
+  {
+    "model": "core.LegalEntityOnboarded",
+    "pk": "00009",
+    "fields": {
+      "pharm_zakaz_id": 414,
+      "inn": "9242235",
+      "contact_sign_date": "2022-03-12T09:39:59.155Z",
+      "status": "FORMED",
+      "status_updated": "2022-03-12T09:39:59.155Z",
+      "ext_id": 233,
+      "comment": "Это комментарий",
+      "sended_to_pz": "False"
+    }
+  }
+]

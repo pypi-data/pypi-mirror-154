@@ -1,0 +1,70 @@
+[
+{
+    "model": "core.branch",
+    "pk": 1,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-02-25T09:55:09Z",
+        "inn": "extId",
+        "kpp": null,
+        "name": "name",
+        "address": "address",
+        "created_at": "2022-02-25T10:26:01.949Z",
+        "warehouse_id": 103,
+        "ext_data": "extData",
+        "guid": "1e9cd969-6632-4982-8de5-2c17613ee87a",
+        "abbreviation": "БРН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 2,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-02-25T09:55:09Z",
+        "inn": "000002",
+        "kpp": null,
+        "name": "Склад МО",
+        "address": "Московская область, Ленинградская ул. 2 стр 2",
+        "created_at": "2022-02-25T10:25:58.217Z",
+        "warehouse_id": 102,
+        "ext_data": {},
+        "guid": "749890b4-27ff-411f-8ef1-f8a3d9089377",
+        "abbreviation": "БРН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 3,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-02-25T09:55:09Z",
+        "inn": "123456780",
+        "kpp": null,
+        "name": "Test branch",
+        "address": "Some address branch",
+        "created_at": "2022-02-25T10:25:52.580Z",
+        "warehouse_id": 107,
+        "ext_data": null,
+        "guid": "8aeea235-f25f-4eed-bb74-d4f565356bf0",
+        "abbreviation": "БРН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 4,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-02-25T09:55:09Z",
+        "inn": "123456701",
+        "kpp": null,
+        "name": "Test branch",
+        "address": "Some address branch",
+        "created_at": "2022-02-25T10:25:52.580Z",
+        "warehouse_id": 130,
+        "ext_data": null,
+        "guid": "8aeea235-f25f-4eed-bb74-d4f565356bf0",
+        "abbreviation": "БРН"
+    }
+}
+]
