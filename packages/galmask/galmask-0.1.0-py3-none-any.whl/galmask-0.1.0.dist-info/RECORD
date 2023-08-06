@@ -1,0 +1,12 @@
+galmask/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+galmask/galmask.py,sha256=bNeOz52HUdqVXk_NAxa5ERGPV28TTnc4dPe1wqp7Ahg,6367
+galmask/utils.py,sha256=ILaTARmBG3zKHUq2STpT20XcMeW-Usy3yux7sCkmTvo,2334
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gal_mask.py,sha256=tQVMo2kEn6k03kVwGTlV4e0SqNO5LpKpzL28KGeaNsg,1965
+tests/test_galmask.py,sha256=bbCtTnWvCp4xoYO_8l51DSWfVu2vpqvkEky-F28rKRA,1964
+tests/test_utils.py,sha256=tkfBSqidnuh-_7SMAVnoQjWd9s00wZfmlZyOJ4E7OF8,1252
+galmask-0.1.0.dist-info/LICENSE,sha256=xOdr1kK22y3_ChWr93JCvCmub8zN9QuWKIiLMLI5gKU,1072
+galmask-0.1.0.dist-info/METADATA,sha256=qK18UB8Pt1fuciG_8stsyyVm2Pyowp_tBYYex3qXmcM,4930
+galmask-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+galmask-0.1.0.dist-info/top_level.txt,sha256=6et_JxD-NP0woG29-vgziai2Bfy3_N0lVFMwaKX8K04,14
+galmask-0.1.0.dist-info/RECORD,,
