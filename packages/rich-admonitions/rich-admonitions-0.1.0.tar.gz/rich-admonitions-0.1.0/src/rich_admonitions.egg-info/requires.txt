@@ -1,0 +1,8 @@
+rich
+module-hygiene
+
+[testing]
+setuptools
+pytest
+mypy
+black
