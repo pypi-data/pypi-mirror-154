@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: triton12
+Version: 0.0.1
+Summary: Basic commands for T12 data loading and analysis
+Home-page: https://github.com/TheGingerbeard/Tritons-dozen
+Author: Dags Olsteins
+Author-email: <dags.olsteins@gmail.com>
+License: UNKNOWN
+Keywords: python,T12,data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+
+Commands to explore and load T12 data. Some useful commands for data analysis
+
