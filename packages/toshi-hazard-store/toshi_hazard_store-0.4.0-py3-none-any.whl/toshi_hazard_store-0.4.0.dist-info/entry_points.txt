@@ -1,0 +1,4 @@
+[console_scripts]
+get_hazard=scripts.get_hazard:main
+store_hazard=scripts.store_hazard:main
+
