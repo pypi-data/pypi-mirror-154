@@ -1,0 +1,11 @@
+hypergz/VERSION,sha256=I2jmNKQZl_tCT88xJrbgfyikzz_73nnJcldmox1_O6g,5
+hypergz/__init__.py,sha256=i1Paclup9tc7vS7CmC_p8aQFXrPPHx6wH0IQB9weCbY,166
+hypergz/hypergraph_layout.py,sha256=jackqR9SXnKKUcGBiDS8HwsuEPlnNu0SVdcNZjJCAe8,2597
+hypergz/our_layout.py,sha256=pOW7kvyO2VwjlgtFwypRqwWwJgPGS2hsqQlT3LAP8CA,16718
+hypergz/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypergz/tests/our_running_examples.py,sha256=rotphDW2d6MpeoIZyYNmp0MF3amtZm5O_a9DpnQpiQ8,6997
+hypergz/tests/our_tests.py,sha256=WRffol_ovVuG-lY2SgyXZxna5PofmMhk-koCfGd01AA,22511
+hypergz-0.6.3.dist-info/METADATA,sha256=8pj7soIyALFhpD7FrqBenk_tiBGoOt-_dJl3KNNI9ko,4845
+hypergz-0.6.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hypergz-0.6.3.dist-info/top_level.txt,sha256=fCfDtrsRJIaYkerMomiBiE-XiXKkGV4oEXkZtzvW-fI,8
+hypergz-0.6.3.dist-info/RECORD,,
