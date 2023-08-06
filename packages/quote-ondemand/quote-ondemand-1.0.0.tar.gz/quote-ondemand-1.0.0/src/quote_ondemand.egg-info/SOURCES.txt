@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/quote_ondemand.egg-info/PKG-INFO
+src/quote_ondemand.egg-info/SOURCES.txt
+src/quote_ondemand.egg-info/dependency_links.txt
+src/quote_ondemand.egg-info/entry_points.txt
+src/quote_ondemand.egg-info/requires.txt
+src/quote_ondemand.egg-info/top_level.txt
+src/quoteondemand/__init__.py
+src/quoteondemand/__main__.py
+src/quoteondemand/quotes.py

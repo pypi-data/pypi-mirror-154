@@ -1,0 +1,2 @@
+[console_scripts]
+quote = quoteondemand.__main__:main
