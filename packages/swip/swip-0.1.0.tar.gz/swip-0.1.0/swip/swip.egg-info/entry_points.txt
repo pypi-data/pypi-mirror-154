@@ -1,0 +1,3 @@
+[console_scripts]
+swip = swip.main:main
+
