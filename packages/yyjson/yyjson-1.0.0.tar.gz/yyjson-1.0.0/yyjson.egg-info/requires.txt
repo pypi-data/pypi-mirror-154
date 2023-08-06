@@ -1,0 +1,8 @@
+
+[release]
+sphinx
+ghp-import
+bumpversion
+
+[test]
+pytest
