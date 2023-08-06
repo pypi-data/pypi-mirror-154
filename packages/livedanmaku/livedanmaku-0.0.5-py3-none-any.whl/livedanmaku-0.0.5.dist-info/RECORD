@@ -1,0 +1,9 @@
+livedanmaku/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+livedanmaku/client.py,sha256=7gUAVIHesNKy33Xz2ln-jbD9OLuPPNPswQQHtp1Wyn0,1329
+livedanmaku/danmaku.py,sha256=iblelb9BeIx6i3Xqitou7-BUsSikReGtv8yZ_j_oQKc,13976
+livedanmaku/monitor.py,sha256=Pp1f3-IVl5XCpf3qLUP1YIFcAqlWFVXpag0gUKfarhg,728
+livedanmaku-0.0.5.dist-info/LICENSE,sha256=mABESSLAv4B2S6a0UiwIB0DUXCIwk78sKAZ4yeEZdZI,1069
+livedanmaku-0.0.5.dist-info/METADATA,sha256=1wSR_B7P-IwfxGgXnhSnXxXwtcVkX_aacq5ivVDQdik,5342
+livedanmaku-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+livedanmaku-0.0.5.dist-info/top_level.txt,sha256=Re1s961YV_5CQ4llLrwpuoD3BP9ve3AXcYxXwytGgho,12
+livedanmaku-0.0.5.dist-info/RECORD,,
