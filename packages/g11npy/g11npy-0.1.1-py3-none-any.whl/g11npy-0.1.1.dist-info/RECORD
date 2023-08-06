@@ -1,0 +1,12 @@
+g11npy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+g11npy/__version__.py,sha256=ItyUpgLtm5dsmkSmmEyToVKvypsFr3iblooz_DwUDHA,165
+g11npy/base.py,sha256=6uPcdVpdYPNvVugqPbC5dozpRrkyEcviUXMEKqerkfI,943
+g11npy/constants.py,sha256=Hqu97-E1Z9d7jFrqaq2q0VT12BbWYzyLYP47UDnjr_0,335
+g11npy/dict_based.py,sha256=2ljXo1kNPCEKy7jjTBZnqI_ze6jTeqXmmpFdzpJUBOM,2120
+g11npy/hooks.py,sha256=AixhMxUIyz2uUET8w89VtELorF2DO78V3SZfiVCgA4s,439
+g11npy/noop.py,sha256=9RESfBPPlvkEKcAT2W7QKFRbM6c37Mrppkyc5ohpigk,338
+g11npy-0.1.1.dist-info/LICENSE,sha256=1Zd5gSMsn2NVus-HaFMowhh-W3lXnrl4u5wsRZrpeDw,1068
+g11npy-0.1.1.dist-info/METADATA,sha256=31FXsezvR74VclyxFCmeBDo38LX5vVXqCHbWMSTGPCo,1803
+g11npy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+g11npy-0.1.1.dist-info/top_level.txt,sha256=90UBZKW0B6gxlAsaG3p2IGJioZl2Ie2ZhwPa0d3gHd0,7
+g11npy-0.1.1.dist-info/RECORD,,
