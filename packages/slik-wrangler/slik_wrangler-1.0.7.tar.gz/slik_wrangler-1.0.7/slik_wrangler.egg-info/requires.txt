@@ -1,0 +1,9 @@
+pandas
+sklearn
+ipython
+scipy
+imblearn
+numpy
+matplotlib
+seaborn
+colorama
