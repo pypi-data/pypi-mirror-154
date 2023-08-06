@@ -1,0 +1,16 @@
+tetris/__init__.py,sha256=POQS1O-1QWuep6Ioqd20K-k6fn4eoe8dzGF0_uSdC0A,691
+tetris/engine.py,sha256=X1DlQNt37DUJ0g61wZkzuyE0LiOpD0UblhhXcSoTHZs,8285
+tetris/game.py,sha256=ZN-NzNt8S49K1u16jY_mOURLyI5KvqZDqUnq9WB8DmU,16034
+tetris/impl/__init__.py,sha256=zuA2PR_JlLv7heBBDqukQ_BfqR00IbpemhinrNAvfhw,59
+tetris/impl/custom.py,sha256=W7ncnQuJsxeCRB9lVcJo663MjaOMsrmj1Vd9yQfjGH0,2506
+tetris/impl/gravity.py,sha256=jAKrE8vfUTRDVy2O8qPHray8yIrDyiBffXADO_fXuyw,3187
+tetris/impl/presets.py,sha256=AFYh2zPLf76z4AHFVPEHT_IBE8Dqco5bQYljMY7lNAg,910
+tetris/impl/queue.py,sha256=i9nSo3JXdZQER37dXvkvR--xFgcFc8fL88rnxx1y_hA,778
+tetris/impl/rotation.py,sha256=Z0sJ7LkNyCpVviqkxdFpK94MkCKQaEuHWK6BUQekkZ0,4780
+tetris/impl/scorer.py,sha256=69zyjLqGN3DnVKHBIlSPQBEqAHim2Knrfqu_bbYCLZQ,3577
+tetris/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tetris/types.py,sha256=4ksCdxFe0k0IyqGNKRAwGEFgmcO0lkE5k4MFuXxyPyI,9151
+tetris-0.6.1a0.dist-info/LICENSE,sha256=vH4-okun9ZAz7Azvg61AXDlUs4i7BDJ21y2J-FKOjj0,1081
+tetris-0.6.1a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tetris-0.6.1a0.dist-info/METADATA,sha256=PgX5MOfogstQxyjxCKqZV6pr7_WnkJF5-soe6aC9mQw,2948
+tetris-0.6.1a0.dist-info/RECORD,,
