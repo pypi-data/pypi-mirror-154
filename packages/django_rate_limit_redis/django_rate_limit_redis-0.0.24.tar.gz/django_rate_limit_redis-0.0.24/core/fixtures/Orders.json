@@ -1,0 +1,70 @@
+[
+{
+    "model": "core.order",
+    "pk": 255451,
+    "fields": {
+        "status": "new",
+        "store_ext_id": "20020738",
+        "updated": "2022-02-18T12:55:18.221Z",
+        "created": "2022-02-18T12:00:22.038Z",
+        "warehouse_ext_id": "000002",
+        "total_sum": "6006.00",
+        "vat_sum": "546.00",
+        "document_number": null,
+        "count_positions": 1,
+        "sended_to_one_c": true,
+        "sended_to_pz": false
+    }
+},
+{
+    "model": "core.order",
+    "pk": 255453,
+    "fields": {
+        "status": "new",
+        "store_ext_id": "20020738",
+        "updated": "2022-02-18T12:09:42.629Z",
+        "created": "2022-02-18T12:09:42.601Z",
+        "warehouse_ext_id": "123456780",
+        "total_sum": "16504.21",
+        "vat_sum": "1500.40",
+        "document_number": null,
+        "count_positions": 12,
+        "sended_to_one_c": true,
+        "sended_to_pz": false
+    }
+},
+{
+    "model": "core.order",
+    "pk": 255454,
+    "fields": {
+        "status": "new",
+        "store_ext_id": "20037703",
+        "updated": "2022-02-18T12:13:52.332Z",
+        "created": "2022-02-18T12:13:52.305Z",
+        "warehouse_ext_id": "000002",
+        "total_sum": "10458.93",
+        "vat_sum": "950.81",
+        "document_number": null,
+        "count_positions": 6,
+        "sended_to_one_c": true,
+        "sended_to_pz": false
+    }
+},
+{
+    "model": "core.order",
+    "pk": 255455,
+    "fields": {
+        "status": "transmitted",
+        "store_ext_id": "20037703",
+        "updated": "2022-02-21T13:31:43.921Z",
+        "created": "2022-02-18T13:28:00.514Z",
+        "warehouse_ext_id": "000002",
+        "total_sum": "10259.09",
+        "vat_sum": "932.64",
+        "document_number": null,
+        "count_positions": 3,
+        "sended_to_one_c": true,
+        "sended_to_pz": false
+    }
+}
+]

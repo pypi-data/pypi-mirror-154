@@ -1,0 +1,62 @@
+[
+{
+    "model": "core.invoice",
+    "pk": 1,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-01T07:21:03Z",
+        "order_ext_id": "255455",
+        "invoice_num": "БРН0012345",
+        "accepted": "2022-03-03T08:59:50.921Z",
+        "delivered": "2022-02-28T21:00:00Z",
+        "created": "2022-02-28T21:00:00Z",
+        "is_accept": false,
+        "store_ext_id": "20037703",
+        "sku_ext_id": "55294",
+        "delivered_quantity": 10,
+        "delivered_sum": "196.65",
+        "warehouse_ext_id": "000002",
+        "invoice_id": 64
+    }
+},
+{
+    "model": "core.invoice",
+    "pk": 2,
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "order_ext_id": "255455",
+        "invoice_num": "НСКР0115309",
+        "accepted": "2022-03-01T08:33:49.873Z",
+        "delivered": "2022-02-28T21:00:00Z",
+        "created": "2019-02-25T21:03:59Z",
+        "is_accept": null,
+        "store_ext_id": "НСК000002506",
+        "sku_ext_id": "02941",
+        "delivered_quantity": 2,
+        "delivered_sum": "113.28",
+        "warehouse_ext_id": "000002",
+        "invoice_id": null
+    }
+},
+{
+    "model": "core.invoice",
+    "pk": 3,
+    "fields": {
+        "sended": true,
+        "sended_at": null,
+        "order_ext_id": "",
+        "invoice_num": "БРН0012346",
+        "accepted": "2022-03-03T08:59:50.953Z",
+        "delivered": "2022-02-28T21:00:00Z",
+        "created": "2022-02-28T21:00:00Z",
+        "is_accept": false,
+        "store_ext_id": "20037703",
+        "sku_ext_id": "55294",
+        "delivered_quantity": 10,
+        "delivered_sum": "196.65",
+        "warehouse_ext_id": "000002",
+        "invoice_id": 65
+    }
+}
+]

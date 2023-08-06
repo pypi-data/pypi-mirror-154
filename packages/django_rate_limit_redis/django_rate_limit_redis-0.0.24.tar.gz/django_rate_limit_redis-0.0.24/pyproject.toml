@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "django_rate_limit_redis"
+authors = [{name = "Ivan Yakob", email = "lifestep95@gmail.com"}]
+dynamic = ["version", "description"]
+readme = "README.md"
+
+[project.urls]
+Home = "https://github.com/allkotraz/django-rate-limit"

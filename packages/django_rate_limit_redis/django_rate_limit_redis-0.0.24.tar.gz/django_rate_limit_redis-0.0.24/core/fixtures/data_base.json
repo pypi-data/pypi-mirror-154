@@ -1,0 +1,3081 @@
+[
+{
+    "model": "django_celery_beat.crontabschedule",
+    "pk": 1,
+    "fields": {
+        "minute": "0",
+        "hour": "4",
+        "day_of_week": "*",
+        "day_of_month": "*",
+        "month_of_year": "*",
+        "timezone": "UTC"
+    }
+},
+{
+    "model": "django_celery_beat.periodictasks",
+    "pk": 1,
+    "fields": {
+        "last_update": "2022-03-30T20:45:16.040Z"
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 1,
+    "fields": {
+        "name": "celery.backend_cleanup",
+        "task": "celery.backend_cleanup",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": 43200,
+        "one_off": false,
+        "start_time": null,
+        "enabled": true,
+        "last_run_at": "2022-03-30T07:40:42.664Z",
+        "total_run_count": 21,
+        "date_changed": "2022-03-30T07:41:02.779Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 2,
+    "fields": {
+        "name": "msg_to_kafka",
+        "task": "core.tasks.send_msg_to_kafka",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": false,
+        "last_run_at": null,
+        "total_run_count": 1,
+        "date_changed": "2022-03-16T13:50:20.173Z",
+        "description": ""
+    }
+},
+{
+    "model": "django_celery_beat.periodictask",
+    "pk": 3,
+    "fields": {
+        "name": "get_new_orders",
+        "task": "core.tasks.get_new_orders",
+        "interval": null,
+        "crontab": 1,
+        "solar": null,
+        "clocked": null,
+        "args": "[]",
+        "kwargs": "{}",
+        "queue": null,
+        "exchange": null,
+        "routing_key": null,
+        "headers": "{}",
+        "priority": null,
+        "expires": null,
+        "expire_seconds": null,
+        "one_off": false,
+        "start_time": null,
+        "enabled": false,
+        "last_run_at": null,
+        "total_run_count": 11,
+        "date_changed": "2022-03-30T08:08:26.698Z",
+        "description": ""
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": 1,
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": 1,
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": 1,
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": 1,
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add interval",
+        "content_type": 2,
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change interval",
+        "content_type": 2,
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": 2,
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view interval",
+        "content_type": 2,
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": 3,
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": 3,
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": 3,
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": 3,
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add periodic tasks",
+        "content_type": 4,
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change periodic tasks",
+        "content_type": 4,
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete periodic tasks",
+        "content_type": 4,
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view periodic tasks",
+        "content_type": 4,
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": 5,
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": 5,
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": 5,
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": 5,
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": 6,
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": 6,
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": 6,
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": 6,
+        "codename": "view_clockedschedule"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 7,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 7,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 7,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 7,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 8,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 8,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 8,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 8,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 9,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 9,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 9,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 9,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 10,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 10,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 10,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 10,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 11,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 11,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 11,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 11,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 12,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 12,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 12,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 12,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add token",
+        "content_type": 13,
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change token",
+        "content_type": 13,
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete token",
+        "content_type": 13,
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view token",
+        "content_type": 13,
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 14,
+        "codename": "add_apppermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 14,
+        "codename": "change_apppermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 14,
+        "codename": "delete_apppermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 14,
+        "codename": "view_apppermission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 15,
+        "codename": "add_appgroup"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 15,
+        "codename": "change_appgroup"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 15,
+        "codename": "delete_appgroup"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 15,
+        "codename": "view_appgroup"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 16,
+        "codename": "add_appuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 16,
+        "codename": "change_appuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 16,
+        "codename": "delete_appuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 16,
+        "codename": "view_appuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add Бонус",
+        "content_type": 17,
+        "codename": "add_bonuspayment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change Бонус",
+        "content_type": 17,
+        "codename": "change_bonuspayment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete Бонус",
+        "content_type": 17,
+        "codename": "delete_bonuspayment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view Бонус",
+        "content_type": 17,
+        "codename": "view_bonuspayment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add Филиал",
+        "content_type": 18,
+        "codename": "add_branch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change Филиал",
+        "content_type": 18,
+        "codename": "change_branch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete Филиал",
+        "content_type": 18,
+        "codename": "delete_branch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view Филиал",
+        "content_type": 18,
+        "codename": "view_branch"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add Ошибки запроса",
+        "content_type": 19,
+        "codename": "add_errorsrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change Ошибки запроса",
+        "content_type": 19,
+        "codename": "change_errorsrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete Ошибки запроса",
+        "content_type": 19,
+        "codename": "delete_errorsrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view Ошибки запроса",
+        "content_type": 19,
+        "codename": "view_errorsrequest"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add Накладная",
+        "content_type": 20,
+        "codename": "add_invoice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change Накладная",
+        "content_type": 20,
+        "codename": "change_invoice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete Накладная",
+        "content_type": 20,
+        "codename": "delete_invoice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view Накладная",
+        "content_type": 20,
+        "codename": "view_invoice"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add Очередь сообщений",
+        "content_type": 21,
+        "codename": "add_kafkamsg"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change Очередь сообщений",
+        "content_type": 21,
+        "codename": "change_kafkamsg"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete Очередь сообщений",
+        "content_type": 21,
+        "codename": "delete_kafkamsg"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view Очередь сообщений",
+        "content_type": 21,
+        "codename": "view_kafkamsg"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add Номенклатура",
+        "content_type": 22,
+        "codename": "add_nomenclature"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change Номенклатура",
+        "content_type": 22,
+        "codename": "change_nomenclature"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete Номенклатура",
+        "content_type": 22,
+        "codename": "delete_nomenclature"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view Номенклатура",
+        "content_type": 22,
+        "codename": "view_nomenclature"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add Заказ",
+        "content_type": 23,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change Заказ",
+        "content_type": 23,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete Заказ",
+        "content_type": 23,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view Заказ",
+        "content_type": 23,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add Соответствие статусов",
+        "content_type": 24,
+        "codename": "add_orderstatusmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change Соответствие статусов",
+        "content_type": 24,
+        "codename": "change_orderstatusmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete Соответствие статусов",
+        "content_type": 24,
+        "codename": "delete_orderstatusmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view Соответствие статусов",
+        "content_type": 24,
+        "codename": "view_orderstatusmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add rate limit",
+        "content_type": 25,
+        "codename": "add_ratelimit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change rate limit",
+        "content_type": 25,
+        "codename": "change_ratelimit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete rate limit",
+        "content_type": 25,
+        "codename": "delete_ratelimit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view rate limit",
+        "content_type": 25,
+        "codename": "view_ratelimit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add Остаток",
+        "content_type": 26,
+        "codename": "add_residue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change Остаток",
+        "content_type": 26,
+        "codename": "change_residue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete Остаток",
+        "content_type": 26,
+        "codename": "delete_residue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view Остаток",
+        "content_type": 26,
+        "codename": "view_residue"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+        "name": "Can add История остатка",
+        "content_type": 27,
+        "codename": "add_residuehistory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+        "name": "Can change История остатка",
+        "content_type": 27,
+        "codename": "change_residuehistory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+        "name": "Can delete История остатка",
+        "content_type": 27,
+        "codename": "delete_residuehistory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+        "name": "Can view История остатка",
+        "content_type": 27,
+        "codename": "view_residuehistory"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 109,
+    "fields": {
+        "name": "Can add Аптека",
+        "content_type": 28,
+        "codename": "add_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 110,
+    "fields": {
+        "name": "Can change Аптека",
+        "content_type": 28,
+        "codename": "change_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 111,
+    "fields": {
+        "name": "Can delete Аптека",
+        "content_type": 28,
+        "codename": "delete_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 112,
+    "fields": {
+        "name": "Can view Аптека",
+        "content_type": 28,
+        "codename": "view_store"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 113,
+    "fields": {
+        "name": "Can add Позиция заказа",
+        "content_type": 29,
+        "codename": "add_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 114,
+    "fields": {
+        "name": "Can change Позиция заказа",
+        "content_type": 29,
+        "codename": "change_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 115,
+    "fields": {
+        "name": "Can delete Позиция заказа",
+        "content_type": 29,
+        "codename": "delete_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 116,
+    "fields": {
+        "name": "Can view Позиция заказа",
+        "content_type": 29,
+        "codename": "view_position"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 117,
+    "fields": {
+        "name": "Can add Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "add_kafkaoffset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 118,
+    "fields": {
+        "name": "Can change Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "change_kafkaoffset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 119,
+    "fields": {
+        "name": "Can delete Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "delete_kafkaoffset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 120,
+    "fields": {
+        "name": "Can view Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "view_kafkaoffset"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 121,
+    "fields": {
+        "name": "Can add legal entity",
+        "content_type": 31,
+        "codename": "add_legalentity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 122,
+    "fields": {
+        "name": "Can change legal entity",
+        "content_type": 31,
+        "codename": "change_legalentity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 123,
+    "fields": {
+        "name": "Can delete legal entity",
+        "content_type": 31,
+        "codename": "delete_legalentity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 124,
+    "fields": {
+        "name": "Can view legal entity",
+        "content_type": 31,
+        "codename": "view_legalentity"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 125,
+    "fields": {
+        "name": "Can add legal entity onboarded",
+        "content_type": 32,
+        "codename": "add_legalentityonboarded"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 126,
+    "fields": {
+        "name": "Can change legal entity onboarded",
+        "content_type": 32,
+        "codename": "change_legalentityonboarded"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 127,
+    "fields": {
+        "name": "Can delete legal entity onboarded",
+        "content_type": 32,
+        "codename": "delete_legalentityonboarded"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 128,
+    "fields": {
+        "name": "Can view legal entity onboarded",
+        "content_type": 32,
+        "codename": "view_legalentityonboarded"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 129,
+    "fields": {
+        "name": "Can add Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "add_datahandlersmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 130,
+    "fields": {
+        "name": "Can change Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "change_datahandlersmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 131,
+    "fields": {
+        "name": "Can delete Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "delete_datahandlersmap"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 132,
+    "fields": {
+        "name": "Can view Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "view_datahandlersmap"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "crontabschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "intervalschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictask"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "periodictasks"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "solarschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "django_celery_beat",
+        "model": "clockedschedule"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "token"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "authtoken",
+        "model": "tokenproxy"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "users",
+        "model": "apppermission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "users",
+        "model": "appgroup"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "users",
+        "model": "appuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "core",
+        "model": "bonuspayment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "core",
+        "model": "branch"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "core",
+        "model": "errorsrequest"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "core",
+        "model": "invoice"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "core",
+        "model": "kafkamsg"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "core",
+        "model": "nomenclature"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "core",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "core",
+        "model": "orderstatusmap"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": {
+        "app_label": "core",
+        "model": "ratelimit"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": {
+        "app_label": "core",
+        "model": "residue"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 27,
+    "fields": {
+        "app_label": "core",
+        "model": "residuehistory"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 28,
+    "fields": {
+        "app_label": "core",
+        "model": "store"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 29,
+    "fields": {
+        "app_label": "core",
+        "model": "position"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 30,
+    "fields": {
+        "app_label": "core",
+        "model": "kafkaoffset"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 31,
+    "fields": {
+        "app_label": "core",
+        "model": "legalentity"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 32,
+    "fields": {
+        "app_label": "core",
+        "model": "legalentityonboarded"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 33,
+    "fields": {
+        "app_label": "core",
+        "model": "datahandlersmap"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "5k5ig01ldqm76rk5lw5kev84fx1hsd38",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQjg4_Ms7T0Defxk1UCy7FbGuxuSLbSdmcybedq36veRV78kdmGSnX5ZoPjMbYr0oHbvPPa2rUvgM-GHHfzWU35dj_ZvUGnUubVnQ5DJOJRCYsQIOoQERTuggkKgA4vWGhW10cpKpxRCAkgoYimCfb642Daf:1nNXJm:1FWI3LP7758fEKO2ldcCrGH9g-liFW1Oi03-K1BG0Xg",
+        "expire_date": "2022-03-11T09:55:18.158Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9oe1bt6439n6jb02meqe3m79n594djkw",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQjg4_Ms7T0Defxk1UCy7FbGuxuSLbSdmcybedq36veRV78kdmGSnX5ZoPjMbYr0oHbvPPa2rUvgM-GHHfzWU35dj_ZvUGnUubVnQ5DJOJRCYsQIOoQERTuggkKgA4vWGhW10cpKpxRCAkgoYimCfb642Daf:1nYm3w:69jT1UL1NLjoECG_ikRD63IAAjdujV_NfNRYoYYaW84",
+        "expire_date": "2022-04-11T09:53:24.385Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vohf418wc96iy2bdr3x4tj36vfr5krjl",
+    "fields": {
+        "session_data": ".eJxVjDsOAiEUAO9CbQjg4_Ms7T0Defxk1UCy7FbGuxuSLbSdmcybedq36veRV78kdmGSnX5ZoPjMbYr0oHbvPPa2rUvgM-GHHfzWU35dj_ZvUGnUubVnQ5DJOJRCYsQIOoQERTuggkKgA4vWGhW10cpKpxRCAkgoYimCfb642Daf:1nTePu:-9Vf2PX0sCyCcsnvXndi7c48yDxOWrlOO7_BcP_BnW0",
+        "expire_date": "2022-03-28T06:42:54.035Z"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add crontab",
+        "content_type": 1,
+        "codename": "add_crontabschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change crontab",
+        "content_type": 1,
+        "codename": "change_crontabschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete crontab",
+        "content_type": 1,
+        "codename": "delete_crontabschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view crontab",
+        "content_type": 1,
+        "codename": "view_crontabschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add interval",
+        "content_type": 2,
+        "codename": "add_intervalschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change interval",
+        "content_type": 2,
+        "codename": "change_intervalschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete interval",
+        "content_type": 2,
+        "codename": "delete_intervalschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view interval",
+        "content_type": 2,
+        "codename": "view_intervalschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add periodic task",
+        "content_type": 3,
+        "codename": "add_periodictask"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change periodic task",
+        "content_type": 3,
+        "codename": "change_periodictask"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete periodic task",
+        "content_type": 3,
+        "codename": "delete_periodictask"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view periodic task",
+        "content_type": 3,
+        "codename": "view_periodictask"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add periodic tasks",
+        "content_type": 4,
+        "codename": "add_periodictasks"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change periodic tasks",
+        "content_type": 4,
+        "codename": "change_periodictasks"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete periodic tasks",
+        "content_type": 4,
+        "codename": "delete_periodictasks"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view periodic tasks",
+        "content_type": 4,
+        "codename": "view_periodictasks"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add solar event",
+        "content_type": 5,
+        "codename": "add_solarschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change solar event",
+        "content_type": 5,
+        "codename": "change_solarschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete solar event",
+        "content_type": 5,
+        "codename": "delete_solarschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view solar event",
+        "content_type": 5,
+        "codename": "view_solarschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add clocked",
+        "content_type": 6,
+        "codename": "add_clockedschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change clocked",
+        "content_type": 6,
+        "codename": "change_clockedschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete clocked",
+        "content_type": 6,
+        "codename": "delete_clockedschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view clocked",
+        "content_type": 6,
+        "codename": "view_clockedschedule"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 7,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 7,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 7,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 7,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 8,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 8,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 8,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 8,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 9,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 9,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 9,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 9,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 10,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 10,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 10,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 10,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 11,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 11,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 11,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 11,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Token",
+        "content_type": 12,
+        "codename": "add_token"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Token",
+        "content_type": 12,
+        "codename": "change_token"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Token",
+        "content_type": 12,
+        "codename": "delete_token"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Token",
+        "content_type": 12,
+        "codename": "view_token"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add token",
+        "content_type": 13,
+        "codename": "add_tokenproxy"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change token",
+        "content_type": 13,
+        "codename": "change_tokenproxy"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete token",
+        "content_type": 13,
+        "codename": "delete_tokenproxy"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view token",
+        "content_type": 13,
+        "codename": "view_tokenproxy"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 14,
+        "codename": "add_apppermission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 14,
+        "codename": "change_apppermission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 14,
+        "codename": "delete_apppermission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 14,
+        "codename": "view_apppermission"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 15,
+        "codename": "add_appgroup"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 15,
+        "codename": "change_appgroup"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 15,
+        "codename": "delete_appgroup"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 15,
+        "codename": "view_appgroup"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 16,
+        "codename": "add_appuser"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 16,
+        "codename": "change_appuser"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 16,
+        "codename": "delete_appuser"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 16,
+        "codename": "view_appuser"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add Бонус",
+        "content_type": 17,
+        "codename": "add_bonuspayment"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change Бонус",
+        "content_type": 17,
+        "codename": "change_bonuspayment"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete Бонус",
+        "content_type": 17,
+        "codename": "delete_bonuspayment"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view Бонус",
+        "content_type": 17,
+        "codename": "view_bonuspayment"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add Филиал",
+        "content_type": 18,
+        "codename": "add_branch"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change Филиал",
+        "content_type": 18,
+        "codename": "change_branch"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete Филиал",
+        "content_type": 18,
+        "codename": "delete_branch"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view Филиал",
+        "content_type": 18,
+        "codename": "view_branch"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add Ошибки запроса",
+        "content_type": 19,
+        "codename": "add_errorsrequest"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change Ошибки запроса",
+        "content_type": 19,
+        "codename": "change_errorsrequest"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete Ошибки запроса",
+        "content_type": 19,
+        "codename": "delete_errorsrequest"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view Ошибки запроса",
+        "content_type": 19,
+        "codename": "view_errorsrequest"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add Накладная",
+        "content_type": 20,
+        "codename": "add_invoice"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change Накладная",
+        "content_type": 20,
+        "codename": "change_invoice"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete Накладная",
+        "content_type": 20,
+        "codename": "delete_invoice"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view Накладная",
+        "content_type": 20,
+        "codename": "view_invoice"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add Очередь сообщений",
+        "content_type": 21,
+        "codename": "add_kafkamsg"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change Очередь сообщений",
+        "content_type": 21,
+        "codename": "change_kafkamsg"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete Очередь сообщений",
+        "content_type": 21,
+        "codename": "delete_kafkamsg"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view Очередь сообщений",
+        "content_type": 21,
+        "codename": "view_kafkamsg"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add Номенклатура",
+        "content_type": 22,
+        "codename": "add_nomenclature"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change Номенклатура",
+        "content_type": 22,
+        "codename": "change_nomenclature"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete Номенклатура",
+        "content_type": 22,
+        "codename": "delete_nomenclature"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view Номенклатура",
+        "content_type": 22,
+        "codename": "view_nomenclature"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add Заказ",
+        "content_type": 23,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change Заказ",
+        "content_type": 23,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete Заказ",
+        "content_type": 23,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view Заказ",
+        "content_type": 23,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add Соответствие статусов",
+        "content_type": 24,
+        "codename": "add_orderstatusmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change Соответствие статусов",
+        "content_type": 24,
+        "codename": "change_orderstatusmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete Соответствие статусов",
+        "content_type": 24,
+        "codename": "delete_orderstatusmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view Соответствие статусов",
+        "content_type": 24,
+        "codename": "view_orderstatusmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 97,
+    "fields": {
+        "name": "Can add rate limit",
+        "content_type": 25,
+        "codename": "add_ratelimit"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 98,
+    "fields": {
+        "name": "Can change rate limit",
+        "content_type": 25,
+        "codename": "change_ratelimit"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 99,
+    "fields": {
+        "name": "Can delete rate limit",
+        "content_type": 25,
+        "codename": "delete_ratelimit"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 100,
+    "fields": {
+        "name": "Can view rate limit",
+        "content_type": 25,
+        "codename": "view_ratelimit"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 101,
+    "fields": {
+        "name": "Can add Остаток",
+        "content_type": 26,
+        "codename": "add_residue"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 102,
+    "fields": {
+        "name": "Can change Остаток",
+        "content_type": 26,
+        "codename": "change_residue"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 103,
+    "fields": {
+        "name": "Can delete Остаток",
+        "content_type": 26,
+        "codename": "delete_residue"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 104,
+    "fields": {
+        "name": "Can view Остаток",
+        "content_type": 26,
+        "codename": "view_residue"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 105,
+    "fields": {
+        "name": "Can add История остатка",
+        "content_type": 27,
+        "codename": "add_residuehistory"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 106,
+    "fields": {
+        "name": "Can change История остатка",
+        "content_type": 27,
+        "codename": "change_residuehistory"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 107,
+    "fields": {
+        "name": "Can delete История остатка",
+        "content_type": 27,
+        "codename": "delete_residuehistory"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 108,
+    "fields": {
+        "name": "Can view История остатка",
+        "content_type": 27,
+        "codename": "view_residuehistory"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 109,
+    "fields": {
+        "name": "Can add Аптека",
+        "content_type": 28,
+        "codename": "add_store"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 110,
+    "fields": {
+        "name": "Can change Аптека",
+        "content_type": 28,
+        "codename": "change_store"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 111,
+    "fields": {
+        "name": "Can delete Аптека",
+        "content_type": 28,
+        "codename": "delete_store"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 112,
+    "fields": {
+        "name": "Can view Аптека",
+        "content_type": 28,
+        "codename": "view_store"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 113,
+    "fields": {
+        "name": "Can add Позиция заказа",
+        "content_type": 29,
+        "codename": "add_position"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 114,
+    "fields": {
+        "name": "Can change Позиция заказа",
+        "content_type": 29,
+        "codename": "change_position"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 115,
+    "fields": {
+        "name": "Can delete Позиция заказа",
+        "content_type": 29,
+        "codename": "delete_position"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 116,
+    "fields": {
+        "name": "Can view Позиция заказа",
+        "content_type": 29,
+        "codename": "view_position"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 117,
+    "fields": {
+        "name": "Can add Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "add_kafkaoffset"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 118,
+    "fields": {
+        "name": "Can change Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "change_kafkaoffset"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 119,
+    "fields": {
+        "name": "Can delete Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "delete_kafkaoffset"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 120,
+    "fields": {
+        "name": "Can view Смещение сообщений кафки",
+        "content_type": 30,
+        "codename": "view_kafkaoffset"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 121,
+    "fields": {
+        "name": "Can add legal entity",
+        "content_type": 31,
+        "codename": "add_legalentity"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 122,
+    "fields": {
+        "name": "Can change legal entity",
+        "content_type": 31,
+        "codename": "change_legalentity"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 123,
+    "fields": {
+        "name": "Can delete legal entity",
+        "content_type": 31,
+        "codename": "delete_legalentity"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 124,
+    "fields": {
+        "name": "Can view legal entity",
+        "content_type": 31,
+        "codename": "view_legalentity"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 125,
+    "fields": {
+        "name": "Can add legal entity onboarded",
+        "content_type": 32,
+        "codename": "add_legalentityonboarded"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 126,
+    "fields": {
+        "name": "Can change legal entity onboarded",
+        "content_type": 32,
+        "codename": "change_legalentityonboarded"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 127,
+    "fields": {
+        "name": "Can delete legal entity onboarded",
+        "content_type": 32,
+        "codename": "delete_legalentityonboarded"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 128,
+    "fields": {
+        "name": "Can view legal entity onboarded",
+        "content_type": 32,
+        "codename": "view_legalentityonboarded"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 129,
+    "fields": {
+        "name": "Can add Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "add_datahandlersmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 130,
+    "fields": {
+        "name": "Can change Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "change_datahandlersmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 131,
+    "fields": {
+        "name": "Can delete Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "delete_datahandlersmap"
+    }
+},
+{
+    "model": "users.apppermission",
+    "pk": 132,
+    "fields": {
+        "name": "Can view Соответствие топика и обработчика",
+        "content_type": 33,
+        "codename": "view_datahandlersmap"
+    }
+},
+{
+    "model": "users.appuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$GAwCBBqVAITnx1H6CMpAEE$8tVPWJzcXNbQZnk4NZlIrXiTV49pJdvvN2wjLj8NemI=",
+        "last_login": "2022-03-28T09:53:24.373Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-02-25T09:50:44.230Z",
+        "user_permissions": [],
+        "groups": []
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 1,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.835Z",
+        "inn": "5047045359",
+        "kpp": "997350001",
+        "name": "ООО ФК ПУЛЬС",
+        "address": "141402, Московская обл, Химки г, Ленинградская ул, дом № 29,эт.2,каб.98",
+        "created_at": "2022-03-18T09:47:50.841Z",
+        "warehouse_id": 117,
+        "ext_data": null,
+        "guid": "fba42e82-62e6-479c-9543-e74c60bd4746",
+        "abbreviation": "МСК"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 2,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.848Z",
+        "inn": "7604129602",
+        "kpp": "760401001",
+        "name": "ООО ПУЛЬС Ярославль",
+        "address": "150030, Ярославская обл, Ярославль г, Пожарского ул, дом № 9",
+        "created_at": "2022-03-18T09:47:50.851Z",
+        "warehouse_id": 118,
+        "ext_data": null,
+        "guid": "6a3409db-012a-4356-ae7c-5ca928bb6a8c",
+        "abbreviation": "ЯРС"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 3,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.856Z",
+        "inn": "2722053492",
+        "kpp": "272201001",
+        "name": "ООО ПУЛЬС Хабаровск",
+        "address": "680026, Хабаровский край, Хабаровск г, Тихоокеанская ул, дом № 73 оф.200",
+        "created_at": "2022-03-18T09:47:50.861Z",
+        "warehouse_id": 119,
+        "ext_data": null,
+        "guid": "67f6e88a-fdab-4509-abfd-8a5110991839",
+        "abbreviation": "ХБР"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 4,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.865Z",
+        "inn": "7816363530",
+        "kpp": "781001001",
+        "name": "ООО ПУЛЬС СПб",
+        "address": "196158, Санкт-Петербург г, Дунайский пр-кт, дом № 13, корпус 1, кв.5-Н",
+        "created_at": "2022-03-18T09:47:50.868Z",
+        "warehouse_id": 120,
+        "ext_data": null,
+        "guid": "1480a53e-b6f7-4341-b988-24a3fed2e071",
+        "abbreviation": "СПБ"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 5,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.871Z",
+        "inn": "5611053132",
+        "kpp": "631101001",
+        "name": "ООО ПУЛЬС Самара",
+        "address": "443070, Самарская обл, Самара г, Партизанская ул, дом № 86 ,офис 418",
+        "created_at": "2022-03-18T09:47:50.875Z",
+        "warehouse_id": 121,
+        "ext_data": null,
+        "guid": "8cb2c4cc-82e0-4816-b704-a58800f5a47f",
+        "abbreviation": "ОРБ"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 6,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.880Z",
+        "inn": "5404489876",
+        "kpp": "540401001",
+        "name": "ООО ПУЛЬС Новосибирск",
+        "address": "630108, Новосибирская обл, Новосибирск г, Станционная ул, дом № 30а, корпус 16",
+        "created_at": "2022-03-18T09:47:50.885Z",
+        "warehouse_id": 122,
+        "ext_data": null,
+        "guid": "ca621601-7d25-4417-9c48-2fb0f6baeb67",
+        "abbreviation": "НСК"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 7,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.891Z",
+        "inn": "2466260135",
+        "kpp": "246601001",
+        "name": "ООО ПУЛЬС Красноярск",
+        "address": "660118, Красноярский край, Красноярск г, Северное ш, дом № 15 Г, стр. 4, каб. 4",
+        "created_at": "2022-03-18T09:47:50.898Z",
+        "warehouse_id": 123,
+        "ext_data": null,
+        "guid": "7ad4011f-aeff-41bf-8f1e-37cb4e2a824b",
+        "abbreviation": "КРН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 8,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.902Z",
+        "inn": "2308169476",
+        "kpp": "231101001",
+        "name": "ООО ПУЛЬС Краснодар",
+        "address": "350000, Краснодарский край, Краснодар г, Московская ул, дом № 111, корпус А",
+        "created_at": "2022-03-18T09:47:50.905Z",
+        "warehouse_id": 124,
+        "ext_data": null,
+        "guid": "d1a274bd-c527-4c11-93e6-7424ec4e3746",
+        "abbreviation": "КРР"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 9,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.910Z",
+        "inn": "1660169622",
+        "kpp": "165601001",
+        "name": "ООО ПУЛЬС Казань",
+        "address": "420004, Татарстан Респ, Казань г, Горьковское ш, дом № 47, Этаж 2, Кабинет 2",
+        "created_at": "2022-03-18T09:47:50.914Z",
+        "warehouse_id": 125,
+        "ext_data": null,
+        "guid": "de9edd05-829f-4da6-bb1d-f82830edd534",
+        "abbreviation": "КЗН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 10,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.918Z",
+        "inn": "3810021533",
+        "kpp": "381001001",
+        "name": "ООО ПУЛЬС Иркутск",
+        "address": "664020, Иркутская обл, Иркутск г, Новаторов ул, дом № 3А",
+        "created_at": "2022-03-18T09:47:50.923Z",
+        "warehouse_id": 126,
+        "ext_data": null,
+        "guid": "6c1ff4e0-8ecf-48b1-83c9-359d6703e817",
+        "abbreviation": "ИРК"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 11,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.927Z",
+        "inn": "6670300868",
+        "kpp": "667101001",
+        "name": "ООО ПУЛЬС Екатеринбург",
+        "address": "620016, Свердловская обл, Екатеринбург г, Совхозный п, Предельная ул, дом № 57",
+        "created_at": "2022-03-18T09:47:50.933Z",
+        "warehouse_id": 127,
+        "ext_data": null,
+        "guid": "6fd35cd3-7903-44ba-9f0d-8b5d88058817",
+        "abbreviation": "ЕКТ"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 12,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.938Z",
+        "inn": "3663098839",
+        "kpp": "366301001",
+        "name": "ООО ПУЛЬС Воронеж",
+        "address": "394028, Воронежская обл, Воронеж г, Базовая ул, дом № 9, корпус Б",
+        "created_at": "2022-03-18T09:47:50.943Z",
+        "warehouse_id": 128,
+        "ext_data": null,
+        "guid": "721011fb-a2e5-4d17-b970-0840275d39fa",
+        "abbreviation": "ВРН"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 13,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T09:47:50.949Z",
+        "inn": "3446047700",
+        "kpp": "344601001",
+        "name": "ООО ПУЛЬС Волгоград",
+        "address": "400011, Волгоградская обл, Волгоград г, Электролесовская ул, дом № 55",
+        "created_at": "2022-03-18T09:47:50.952Z",
+        "warehouse_id": 129,
+        "ext_data": null,
+        "guid": "99954f4a-df43-4a68-96af-3a63ba55dc43",
+        "abbreviation": "ВЛГ"
+    }
+},
+{
+    "model": "core.branch",
+    "pk": 14,
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-18T10:11:57.565Z",
+        "inn": "3255510243",
+        "kpp": "325701001",
+        "name": "ООО ПУЛЬС Брянск",
+        "address": "241038, Брянская обл, Брянск г, Сталелитейная ул, дом № 1, каб.301",
+        "created_at": "2022-03-18T10:11:57.566Z",
+        "warehouse_id": 130,
+        "ext_data": null,
+        "guid": "43cec300-83a5-435d-a132-b769841d40b7",
+        "abbreviation": "БРН"
+    }
+},
+{
+    "model": "core.orderstatusmap",
+    "pk": 1,
+    "fields": {
+        "status_one_c": 1,
+        "status_pharm_zakaz": "new"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 1,
+    "fields": {
+        "data_handler": "InStockTopic",
+        "topic": "FarmZakaz_Stock_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 2,
+    "fields": {
+        "data_handler": "OrdersTopic",
+        "topic": "FarmZakaz_Orders_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 3,
+    "fields": {
+        "data_handler": "SalesTopicV2",
+        "topic": "salestopicV2"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 4,
+    "fields": {
+        "data_handler": "NomenclatureTopic",
+        "topic": "FarmZakaz_Nomenclature_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 5,
+    "fields": {
+        "data_handler": "StoreTopic",
+        "topic": "FarmZakaz_Adresa_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 6,
+    "fields": {
+        "data_handler": "LegalEntitiesOnboardedTopic",
+        "topic": "FarmZakaz_Clients_test"
+    }
+}
+]
