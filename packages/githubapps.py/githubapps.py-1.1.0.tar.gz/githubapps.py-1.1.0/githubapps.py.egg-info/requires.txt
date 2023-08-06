@@ -1,0 +1,5 @@
+PyJWT
+aiohttp
+requests
+cryptography
+httpx
