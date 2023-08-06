@@ -1,0 +1,14 @@
+ncplib/__init__.py,sha256=-TCZZursQLSmGnweok30Hu9Bb_ePS20uHH1D3KQbuIs,1436
+ncplib/client.py,sha256=tEj11-7YqsKGt_drbd5UN19TIT6C5kKx5AcsUIoNCF0,7789
+ncplib/connection.py,sha256=IkKYwxoUjd_GXPfb98IwnvPbnsxsTBdjUIjCzcSaUYI,19450
+ncplib/errors.py,sha256=VYxAU6oiJCyuaSQRhbC-EZC1uM5MXMHIKxO9pvW3T14,3150
+ncplib/http.py,sha256=2P8vk7HgQqJAXE3MBVqcy0tLRcodEeetvxsaAuVgi40,1112
+ncplib/packets.py,sha256=W4VdsKksFrJhn6fma8DCT59_EZhJbi0EQzGPk-5RGyI,11096
+ncplib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncplib/server.py,sha256=NAbaJfU6sa1qxLSf8wpBgfkOVSn3wTYdGJa89ktoIA0,9349
+ncplib/values.py,sha256=6frL9EckjbLUEnzb9Fgn9WJehWy5ku_-vjjlyKr-0HA,2011
+ncplib-6.1.0.dist-info/LICENSE,sha256=oI4FyQPzEtgmhNqfE9-VexNmH2rzy8ZmMGcjjI-h4qA,1048
+ncplib-6.1.0.dist-info/METADATA,sha256=vL1bbXyvR6QbO34RV4dUxQuopl7WdfH3U0me4kskXoE,726
+ncplib-6.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ncplib-6.1.0.dist-info/top_level.txt,sha256=t6j6B4rZZaq4FGOBZ15hO_FXoYoXuXK-3X8ag22M_M0,7
+ncplib-6.1.0.dist-info/RECORD,,
