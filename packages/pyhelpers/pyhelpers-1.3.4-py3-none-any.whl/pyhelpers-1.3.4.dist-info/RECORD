@@ -1,0 +1,17 @@
+pyhelpers/__init__.py,sha256=z7GwxJvW6c-J8O9AZH_iIFVxutwquL4-RAz5hg8qWvM,784
+pyhelpers/_cache.py,sha256=WjRk7Fz9IfVeEWpf8NqqBYEOCCh8_dG-sL7H_fxr6aQ,7417
+pyhelpers/dbms.py,sha256=w8T2kzUCVVtdAwBulvuGeGc_KnVoi47x5jbUsO4fZT4,170216
+pyhelpers/dir.py,sha256=vypq2uRU85i5BhCyAWflqUX2CHe0219sTjYyPaz5R4k,15961
+pyhelpers/geom.py,sha256=E44IH9zKDcp9okDz75sJ2vJekSTgqVkSX1qdDLxVGnQ,48630
+pyhelpers/ops.py,sha256=c6cNx7JoM3BEgE8wEnmW8Fedyf5O4_FMu6OQHQMw4Ow,70259
+pyhelpers/settings.py,sha256=kTLzhLhriA46swkp3PNucaHokSeaquImloAbYwH-Fkw,17980
+pyhelpers/store.py,sha256=r4CfEKep831NghmulKujvuEGkghmf91MoK5-TyCK0nk,78914
+pyhelpers/text.py,sha256=dyF4n73SEZisH0aXnLQJ3oKvZu8dMRiWMymdm9GSD-U,20810
+pyhelpers/data/metadata.json,sha256=sXr0wzHJXOO9YFGyR5VyWpZkMGPsQXn00wAY2tL2Lwc,344
+pyhelpers/data/user-agent-strings.json,sha256=zAUZUa3hzGSq0KLjlhuhHqE_B_-JssJlJ4XMuWvMQeU,482814
+pyhelpers/data/xlsx2csv.vbs,sha256=y3dI0OILpGVrKratl5akXN9QFuunMxZqBNblhObcxUs,764
+pyhelpers-1.3.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pyhelpers-1.3.4.dist-info/METADATA,sha256=98kLBVh7mb2BLDL_QhfXxUjn-obr8jDUEVPvaLCePZ4,4507
+pyhelpers-1.3.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyhelpers-1.3.4.dist-info/top_level.txt,sha256=zBs0DfdTbN2B5BDTquDTgD8h-hFgln7yOr9DtSIJ7_A,10
+pyhelpers-1.3.4.dist-info/RECORD,,
