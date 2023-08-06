@@ -1,0 +1,7 @@
+dm-tree
+numpy
+scipy
+
+[dev]
+twine
+black
