@@ -1,0 +1,10 @@
+pepaln/__init__.py,sha256=0vE7zUUfs2vInglkzGyh438-VhsU-bbtyZy3cxVGjaQ,47
+pepaln/__main__.py,sha256=x2lL2nM9jJqqiYlDtA0iKW6x4NotRXGvWtDSdxz96ak,1725
+pepaln/align.py,sha256=gUhUdhw7_3HUz4vWEDaqDscYnxE_bi4oZTcuFnleILA,1644
+pepaln/parse.py,sha256=5HmrS_hKPzIrfPVVjcJqFL1RzyzijV5RN5pZlWCJ7pM,2081
+pepaln/render.py,sha256=Q1rhoRkxI5ThPJDdbxrt-9GlDgSVvwTPnZpdmMByX3Y,3619
+pepaln-1.0.0.dist-info/LICENSE,sha256=tn-ol4NlahpEKMy8bHpJSbkvCEC8-f5hxJAMZ_pZcNk,1070
+pepaln-1.0.0.dist-info/METADATA,sha256=__PD-lazUZ7l-Esh9Dr_ijKy6Qo9NEZaP_P3zambwEM,4663
+pepaln-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pepaln-1.0.0.dist-info/top_level.txt,sha256=dbyglAVSCT_eABElx1AkmV9m6cB3oz47uykpBB3KBf4,7
+pepaln-1.0.0.dist-info/RECORD,,
