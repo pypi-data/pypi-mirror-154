@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/morris_learning.egg-info/PKG-INFO
+src/morris_learning.egg-info/SOURCES.txt
+src/morris_learning.egg-info/dependency_links.txt
+src/morris_learning.egg-info/top_level.txt
+src/morris_lee_package/__init__.py
+src/morris_lee_package/morris_coding.py
