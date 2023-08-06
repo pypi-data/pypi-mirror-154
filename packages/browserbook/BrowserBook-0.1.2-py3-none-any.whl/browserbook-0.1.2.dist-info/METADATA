@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: browserbook
+Version: 0.1.2
+Summary: A web browser backend. Gets all data needed from a url. Multiple sessions at once is possible
+Author: DragonHunter
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
