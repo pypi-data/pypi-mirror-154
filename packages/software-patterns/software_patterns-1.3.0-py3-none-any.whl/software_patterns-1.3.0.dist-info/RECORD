@@ -1,0 +1,13 @@
+software_patterns/__init__.py,sha256=X1znH3gsUPS-7y4EEw5TgokKsTPuPGdtuSx37y8uTJo,359
+software_patterns/handler.py,sha256=Fc00xcwjhTAOIZ2CO9TrEx-cI44av9UR_sjvsZzpRSU,1079
+software_patterns/memoize.py,sha256=Jam7MLXrOWTPGLBmOgYlal5Gqu-SIGdxRzieSNHJPSA,3586
+software_patterns/notification.py,sha256=rB3uV9K2EPApP95LSD_DJyE7Sbfl9LnRsXjTXt3gMW0,5268
+software_patterns/proxy.py,sha256=uh3iVMUTUuqV0sRcwT3QkeHAazp3c61GZ1pggHkYrXE,4136
+software_patterns/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+software_patterns/singleton.py,sha256=EwWuzLoeNGFzmIBWk1spveJpMJ3yqS1WjKKkyI83jY4,1234
+software_patterns/subclass_registry.py,sha256=FR2Va-Pw6TQclqMc8oyDc9fHVygoXpG-eKqimqfoSn8,4460
+software_patterns-1.3.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+software_patterns-1.3.0.dist-info/METADATA,sha256=vrayb1pq7o8dr83sQ_NYi0hPTVG1L2Un0Tz5QBAZ_u4,6653
+software_patterns-1.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+software_patterns-1.3.0.dist-info/top_level.txt,sha256=gs9auJGlz6dh0RwkJl8OV_o1KCBfnNn-sowcsIVF1UI,18
+software_patterns-1.3.0.dist-info/RECORD,,
