@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: deepvit-flax
+Version: 0.0.3
+Summary: Deep Vision Transformer (DeepViT) - Flax
+Home-page: https://github.com/conceptofmind/DeepViT-flax
+Author: Enrico Shippole
+Author-email: enricoship@gmail.com
+License: MIT
+Keywords: artificial intelligence,machine learning,deep learning,attention mechanism,image recognition
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+

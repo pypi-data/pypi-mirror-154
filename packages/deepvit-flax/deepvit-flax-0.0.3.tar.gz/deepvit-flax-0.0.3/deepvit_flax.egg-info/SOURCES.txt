@@ -1,0 +1,8 @@
+setup.py
+deepvit_flax/__init__.py
+deepvit_flax/deepvit.py
+deepvit_flax.egg-info/PKG-INFO
+deepvit_flax.egg-info/SOURCES.txt
+deepvit_flax.egg-info/dependency_links.txt
+deepvit_flax.egg-info/requires.txt
+deepvit_flax.egg-info/top_level.txt
