@@ -1,0 +1,5 @@
+setup.py
+jupyterdb.egg-info/PKG-INFO
+jupyterdb.egg-info/SOURCES.txt
+jupyterdb.egg-info/dependency_links.txt
+jupyterdb.egg-info/top_level.txt
