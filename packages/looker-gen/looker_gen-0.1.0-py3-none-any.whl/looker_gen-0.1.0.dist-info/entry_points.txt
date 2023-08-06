@@ -1,0 +1,4 @@
+[console_scripts]
+gen=looker_gen.cli:gen
+validate=looker_gen.cli:validate
+
