@@ -1,0 +1,11 @@
+pycmdtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycmdtools/configs.py,sha256=VyTzgDFTEnLZlvNisR_DE9GwKAC4DzFIcfVS0L0p0P0,2300
+pycmdtools/main.py,sha256=Wa0m0xsT-nKp30YKGJyjDR9KK4RjhhWlxotDI9SZ-GE,9451
+pycmdtools/static.py,sha256=In7Rom3ibMWQgHUOHol2zXIK2uHOL68v8-lV3Eg9Mik,216
+pycmdtools/utils.py,sha256=F6VF65-GJSuJNYC7rVURrjoZDULD5cIt8yuT865tO4c,4626
+pycmdtools-0.0.78.dist-info/LICENSE,sha256=EXYyJnEISwRHPI6votWWYZsYO6nLtAWefr-P-q0h7Ug,1069
+pycmdtools-0.0.78.dist-info/METADATA,sha256=yJ7FlREhwWmMzDfENC3L-_MaFrnp_Vn9n3oRoW8B7nw,1801
+pycmdtools-0.0.78.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycmdtools-0.0.78.dist-info/entry_points.txt,sha256=Cw7-HwztBCtkW_9LbxyoXaVWyn8A_nYrvucmqxQ1SR4,53
+pycmdtools-0.0.78.dist-info/top_level.txt,sha256=kGOzWgYiSgknnr_iMEKc8yo5MLf3e7FTuKUn_54-mbE,11
+pycmdtools-0.0.78.dist-info/RECORD,,
