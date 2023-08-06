@@ -1,0 +1,8 @@
+ieee_patch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ieee_patch/patch.py,sha256=Mbgwv9vYfUHAm1WQcqNQ9Pp-ncjl-OMjtf9eQSBu01o,7839
+ieee_patch/test_patch.py,sha256=miU8WovzNtpZklbwwLf7hwiFLOPHKuNi9sQToSrbKxA,1144
+ieee_patch/xml_pretty_print.py,sha256=OXhMNGdFMirqah4-EpYiwY4Wbl9BClkbfXqWgi_0j5Y,502
+dcs_ms_word_ieee_patch-0.2.0.dist-info/entry_points.txt,sha256=VLBblBIlC4G8ud3LuQvBELQORFQf3jbeBY29DjzbvKQ,102
+dcs_ms_word_ieee_patch-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dcs_ms_word_ieee_patch-0.2.0.dist-info/METADATA,sha256=24Ta2DN5NKgEQROxeOETJam8sF6gtU-ZCRtIAOikZq0,526
+dcs_ms_word_ieee_patch-0.2.0.dist-info/RECORD,,
