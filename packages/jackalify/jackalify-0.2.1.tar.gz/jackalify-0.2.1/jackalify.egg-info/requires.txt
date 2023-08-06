@@ -1,0 +1,8 @@
+opencv-python
+aiofiles
+fastapi
+tqdm
+pillow
+jinja2
+python-multipart
+uvicorn
