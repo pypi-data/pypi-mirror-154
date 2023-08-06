@@ -1,0 +1,14 @@
+pytest_splinter4/__init__.py,sha256=zROOgftjvbMRiZT_FORpiXbpp38fl_UbHVosa1rumiw,56
+pytest_splinter4/executable_path.py,sha256=u5Wcl_Nn-F_70VGYSpt3-r61f1RhodacVUrYoes0h6E,907
+pytest_splinter4/options.py,sha256=wHhaUzYkn0sYgswYvOB96GRJtpMH9HsjixTnrJiyniY,1723
+pytest_splinter4/plugin.py,sha256=QO8ff5TJGYiiNG9AuEr9hZo4IPOvDK5qxZgz9R6263o,27045
+pytest_splinter4/webdriver_patches.py,sha256=tMFZcliJUbpg-eMzf0ZlVnbpoJNmGsGMo-u3vuuBEuk,2031
+pytest_splinter4/xdist_plugin.py,sha256=VaUGY6uM-I5qAWGkMl9MwkbLXlGQxj7JNxmDstJZki8,1213
+pytest_splinter4/profiles/firefox/.marker,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_splinter4-0.3.0.dist-info/AUTHORS.rst,sha256=ty9bW4AozLS1nMocgP4RdwGd-ruEHBrx9SfwIRX5M0M,1036
+pytest_splinter4-0.3.0.dist-info/LICENSE.txt,sha256=d5ZQBpjJycKinvD_4vX15AQT-Jp73voOJW--l20rZxE,1110
+pytest_splinter4-0.3.0.dist-info/METADATA,sha256=MedmB34ayuVVncPCx7p6yJHMyx1ED9ia7Tn43QVWhxY,14655
+pytest_splinter4-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_splinter4-0.3.0.dist-info/entry_points.txt,sha256=jyY-9lIISRFYKC4-z1awmhfASkXVVwq_hiSDjQRU3Vg,54
+pytest_splinter4-0.3.0.dist-info/top_level.txt,sha256=VmG9QQ3cwG2MXgJnX_hmL-ArUUU8Tvy4miBgCTOfpDQ,17
+pytest_splinter4-0.3.0.dist-info/RECORD,,
