@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dispand/__init__.py
+dispand/dispand.py
+dispand.egg-info/PKG-INFO
+dispand.egg-info/SOURCES.txt
+dispand.egg-info/dependency_links.txt
+dispand.egg-info/requires.txt
+dispand.egg-info/top_level.txt
