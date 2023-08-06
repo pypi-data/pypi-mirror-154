@@ -1,0 +1,443 @@
+# `ppchemistrysdk-cli`
+
+Command-line interface for the PPChemistrySDK python package.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `acceptors`: Get number of acceptors from a SMILES string.
+* `alogp`: Get molecular alogP from a SMILES string.
+* `composition`: Get the molecular composition from a SMILES...
+* `donors`: Get number of donors from a SMILES string.
+* `formula`: Get the moelcular formular from a SMILES...
+* `gasteiger-charges`: Get the atomic Gasteiger partial charges from...
+* `inchi-key`: Get InChI key from a SMILES string.
+* `lipinski-acceptors`: Get number of Lipinski acceptors from a...
+* `lipinski-donors`: Get number of Lipinski donors from a SMILES...
+* `lipinski-violations`: Get number of Lipinski violations from a...
+* `mass`: Get the molecular mass from a SMILES string.
+* `nema-key`: Get Nema key from a SMILES string.
+* `ref`: Get molecular reference from a SMILES string.
+* `rotational-bonds`: Get number of rotational bonds from a SMILES...
+* `surface`: Get the molecular surface from a SMILES...
+* `volume`: Get the molecular volume from a SMILES...
+* `weight`: Get the molecular weight from a SMILES...
+
+## `ppchemistrysdk-cli acceptors`
+
+Get number of acceptors from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of acceptors.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli acceptors [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli alogp`
+
+Get molecular alogP from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular alogP.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli alogp [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli composition`
+
+Get the molecular composition from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular composition.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli composition [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli donors`
+
+Get number of donors from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of donors.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli donors [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli formula`
+
+Get the moelcular formular from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular formular.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli formula [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli gasteiger-charges`
+
+Get the atomic Gasteiger partial charges from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Atomic Gasteiger partial charges.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli gasteiger-charges [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli inchi-key`
+
+Get InChI key from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+InChI key.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli inchi-key [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli lipinski-acceptors`
+
+Get number of Lipinski acceptors from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of Lipinski acceptors.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli lipinski-acceptors [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli lipinski-donors`
+
+Get number of Lipinski donors from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of Lipinski donors.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli lipinski-donors [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli lipinski-violations`
+
+Get number of Lipinski violations from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of Lipinski violations.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli lipinski-violations [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli mass`
+
+Get the molecular mass from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular mass.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli mass [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli nema-key`
+
+Get Nema key from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Nema key.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli nema-key [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli ref`
+
+Get molecular reference from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular reference.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli ref [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli rotational-bonds`
+
+Get number of rotational bonds from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Number of rotational bonds.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli rotational-bonds [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli surface`
+
+Get the molecular surface from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular surface.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli surface [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli volume`
+
+Get the molecular volume from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular volume.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli volume [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `ppchemistrysdk-cli weight`
+
+Get the molecular weight from a SMILES string.
+
+Args:
+smiles: SMILES string (str)
+
+Returns:
+Molecular weight.
+
+**Usage**:
+
+```console
+$ ppchemistrysdk-cli weight [OPTIONS] SMILES
+```
+
+**Arguments**:
+
+* `SMILES`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
