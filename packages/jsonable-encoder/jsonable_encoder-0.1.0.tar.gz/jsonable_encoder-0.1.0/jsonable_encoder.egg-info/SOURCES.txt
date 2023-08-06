@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+jsonable_encoder/__init__.py
+jsonable_encoder/_encoder.c
+jsonable_encoder/encoder.py
+jsonable_encoder.egg-info/PKG-INFO
+jsonable_encoder.egg-info/SOURCES.txt
+jsonable_encoder.egg-info/dependency_links.txt
+jsonable_encoder.egg-info/not-zip-safe
+jsonable_encoder.egg-info/requires.txt
+jsonable_encoder.egg-info/top_level.txt
+tests/__init__.py
+tests/test_encoder.py
