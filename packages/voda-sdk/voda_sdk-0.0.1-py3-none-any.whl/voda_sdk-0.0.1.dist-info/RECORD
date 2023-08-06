@@ -1,0 +1,11 @@
+voda_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voda_sdk/sdk.py,sha256=aWwjSR5jD_sM14daIZqeFrbERPYZ15NgV0kMlRZk61k,67
+voda_sdk/utils.py,sha256=7hmG4W6N8tJ6kS4u9MCwOZs2KLAuqLyp0UHGFAuyeLA,765
+voda_sdk/grpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voda_sdk/http/__init__.py,sha256=6KOQHBL0Zdsuy0d00g2C6uvJYhIa0-KYAxdrzX4tFhM,310
+voda_sdk/http/sdk.py,sha256=700ibgk0iGQeG7LNsg2jp9WEIsUD0whtLO4IKxAyapE,8956
+voda_sdk-0.0.1.dist-info/LICENSE,sha256=ZlcJrWM_Enays9irFShN0T5lV29MhkT4QmbZECTCFlM,1069
+voda_sdk-0.0.1.dist-info/METADATA,sha256=2vwCpqi9Frd80OD5OVVNk7BCfYs4VxzgG534dFc7KmQ,971
+voda_sdk-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+voda_sdk-0.0.1.dist-info/top_level.txt,sha256=WhgCRCA3CZxaW0AAFCExBLzMaVMM5UM6LvLASPuNGI0,9
+voda_sdk-0.0.1.dist-info/RECORD,,
