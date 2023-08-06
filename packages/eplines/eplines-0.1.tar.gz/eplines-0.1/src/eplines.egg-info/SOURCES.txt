@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/eplines/__init__.py
+src/eplines/eplines.py
+src/eplines.egg-info/PKG-INFO
+src/eplines.egg-info/SOURCES.txt
+src/eplines.egg-info/dependency_links.txt
+src/eplines.egg-info/not-zip-safe
+src/eplines.egg-info/requires.txt
+src/eplines.egg-info/top_level.txt
