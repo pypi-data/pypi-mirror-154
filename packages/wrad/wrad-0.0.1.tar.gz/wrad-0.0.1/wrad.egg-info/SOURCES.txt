@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+tests/__init__.py
+wrad/__init__.py
+wrad/__main__.py
+wrad.egg-info/PKG-INFO
+wrad.egg-info/SOURCES.txt
+wrad.egg-info/dependency_links.txt
+wrad.egg-info/entry_points.txt
+wrad.egg-info/not-zip-safe
+wrad.egg-info/requires.txt
+wrad.egg-info/top_level.txt

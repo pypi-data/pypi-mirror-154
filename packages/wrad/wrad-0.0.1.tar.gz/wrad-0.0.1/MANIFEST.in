@@ -1,0 +1,3 @@
+recursive-include wrad *
+global-exclude *.py[cod]
+include VERSION
