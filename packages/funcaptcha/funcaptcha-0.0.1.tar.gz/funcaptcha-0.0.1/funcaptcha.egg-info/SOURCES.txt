@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+setup.py
+funcaptcha.egg-info/PKG-INFO
+funcaptcha.egg-info/SOURCES.txt
+funcaptcha.egg-info/dependency_links.txt
+funcaptcha.egg-info/top_level.txt
+src/__init__.py
+src/fp.js
