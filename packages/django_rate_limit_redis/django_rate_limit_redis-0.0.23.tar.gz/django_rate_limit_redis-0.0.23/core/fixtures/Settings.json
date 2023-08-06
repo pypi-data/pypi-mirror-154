@@ -1,0 +1,65 @@
+[
+{
+    "model": "core.settingsmodel",
+    "pk": 1,
+    "fields": {
+        "attribute_name": "CHAT_ID",
+        "attribute_value": "-674886210",
+        "attribute_type": "str"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 2,
+    "fields": {
+        "attribute_name": "TELEGRAM_BOT_TOKEN",
+        "attribute_value": "5388353255:AAFus9FRBUfRv5P0vgtjSgYGZYLpaYLM1rE",
+        "attribute_type": "str"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 3,
+    "fields": {
+        "attribute_name": "RESIDUE_URL_FOR_TG_BOT",
+        "attribute_value": "http://0.0.0.0:8000/admin/core/reconciliationresidue/?uid_reconciliation=",
+        "attribute_type": "str"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 4,
+    "fields": {
+        "attribute_name": "USE_ASYNC_PROCESS",
+        "attribute_value": "False",
+        "attribute_type": "bool"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 5,
+    "fields": {
+        "attribute_name": "ASYNC_PROCESS_COUNT_LIMIT",
+        "attribute_value": "64",
+        "attribute_type": "int"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 6,
+    "fields": {
+        "attribute_name": "USE_ASYNC",
+        "attribute_value": "True",
+        "attribute_type": "bool"
+    }
+},
+{
+    "model": "core.settingsmodel",
+    "pk": 8,
+    "fields": {
+        "attribute_name": "ASYNC_POOL_SIZE_REQUEST",
+        "attribute_value": "16",
+        "attribute_type": "int"
+    }
+}
+]
