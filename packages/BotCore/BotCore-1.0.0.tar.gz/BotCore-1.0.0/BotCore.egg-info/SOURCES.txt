@@ -1,0 +1,12 @@
+setup.py
+BotCore/Bot.py
+BotCore/Controller.py
+BotCore/DataBase.py
+BotCore/Handlers.py
+BotCore/Service.py
+BotCore/__init__.py
+BotCore.egg-info/PKG-INFO
+BotCore.egg-info/SOURCES.txt
+BotCore.egg-info/dependency_links.txt
+BotCore.egg-info/requires.txt
+BotCore.egg-info/top_level.txt
