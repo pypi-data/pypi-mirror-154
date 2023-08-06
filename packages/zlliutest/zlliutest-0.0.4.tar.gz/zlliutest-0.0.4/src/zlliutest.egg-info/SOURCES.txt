@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/zlliutest/__init__.py
+src/zlliutest/test.py
+src/zlliutest.egg-info/PKG-INFO
+src/zlliutest.egg-info/SOURCES.txt
+src/zlliutest.egg-info/dependency_links.txt
+src/zlliutest.egg-info/top_level.txt
