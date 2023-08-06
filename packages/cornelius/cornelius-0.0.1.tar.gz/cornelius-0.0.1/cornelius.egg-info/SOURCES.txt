@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cornelius.egg-info/PKG-INFO
+cornelius.egg-info/SOURCES.txt
+cornelius.egg-info/dependency_links.txt
+cornelius.egg-info/top_level.txt
+src/__init__.py
+src/cursor.py
+src/exceptions.py
+src/keyboard.py
