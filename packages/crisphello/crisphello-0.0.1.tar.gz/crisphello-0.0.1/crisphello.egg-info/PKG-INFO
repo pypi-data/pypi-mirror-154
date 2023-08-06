@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: crisphello
+Version: 0.0.1
+Summary: This is a simple python package that is built for testing purpose.
+Author: Crispen Gari
+Author-email: <crispengari@gmail.com>
+License: UNKNOWN
+Keywords: python,hello,math
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+### crisphello
+This package is for demo purposes
+
+### usage
+
+First you need to install `crisphello` by running:
+
+```shell
+pip install crisphello
+```
+
+You can use it as follows:
+
+````python
+from crisphello import add, hello
+
+print(hello("name"))
+print(hello())
+print(add(2 + 2))
+````
+

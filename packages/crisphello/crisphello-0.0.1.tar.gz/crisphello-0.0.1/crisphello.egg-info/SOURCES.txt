@@ -1,0 +1,7 @@
+README.md
+setup.py
+crisphello/__init__.py
+crisphello.egg-info/PKG-INFO
+crisphello.egg-info/SOURCES.txt
+crisphello.egg-info/dependency_links.txt
+crisphello.egg-info/top_level.txt
