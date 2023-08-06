@@ -1,0 +1,50 @@
+def __init__(self, var: ('path', 'str')):
+    r'''Преобразует сырую строку ini файла или ссылку на ini файл в словарь'''
+    if type(var).__name__ == 'path':
+        self.path = var
+        file = open(str(var), 'r')
+        var = file.read()
+        file.close()
+    else: self.path = path(sys.path[0])
+    if len(var) > 0 and var[0] == '\ufeff':
+        var = var[1:]
+        self.file = var
+
+    self.dict = dict()
+    key = None
+    for line in var.split('\n'):
+        if len(line) > 0 and line[0] == '[' and ']' in line:
+            key = line[1:].split(']')[0]
+            self.dict[key] = dict()
+        elif len(line) > 0 and line[0] in ('#', ';'):
+            pass
+        elif '=' in line:
+            _key = line.split('=')[0]
+            _var = line.split('=')[1]
+            while len(_key) > 0 and _key[len(_key) - 1] == ' ': _key = _key[:len(_key) - 1]
+            while len(_var) > 0 and _var[0] == ' ': _var = _var[1:]
+            if key: self.dict[key][_key] = _var
+            else: self.dict[_key] = _var
+
+def __getitem__(self, var: ('int', 'str')):
+    r'''Возвращает эллемент ini файла в виде строки или в виде словаря, если это блок
+    *Если будет несколько одноимённых блоков или файлов, то тогда они будёт перезаписанны самым последним'''
+    return self.dict[var]
+
+def save(self, path: 'path' = None):
+    r'''Сохраняет словарь по указанному пути, в противном случае, сохраняет словарь по расположению файла или по директории запуска
+    *Внимание, комментарии будут утеряны!
+    *Имейте ввиду, значение ключей могут быть исключительно в виде строки или словоря со строками'''
+    if path == None: path = self.path
+    out = ''
+    for key in self.dict.keys():
+        if type(self.dict[key]).__name__ == 'str':
+            out += f'{key} = {self.dict[key]}\n'
+        elif type(self.dict[key]).__name__ == 'dict':
+            out += f'[{key}]\n'
+            for _key in self.dict[key].keys():
+                if type(self.dict[key][_key]).__name__ == 'str':
+                    out += f'{_key} = {self.dict[key][_key]}\n'
+    file = open(str(path), 'w')
+    file.write(out)
+    file.close()

@@ -1,0 +1,3 @@
+from tools import represent, info, simple, stdinout
+import os, sys, copy, inspect, pyglet, time
+sub_types = ['__name__', '__doc__', '__package__', '__loader__', '__spec__', '__file__', '__cached__', '__builtins__', 'sub_types', 'types', 'temp', 'os', 'sys', 'copy', 'convert', 'inspect']
