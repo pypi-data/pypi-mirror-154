@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+jiawda/__init__.py
+jiawda/_proto.py
+jiawda/exceptions.py
+jiawda/requests_usbmux.py
+jiawda/usbmux.py
+jiawda/utils.py
+jiawda/xcui_element_types.py
+jiawda.egg-info/PKG-INFO
+jiawda.egg-info/SOURCES.txt
+jiawda.egg-info/dependency_links.txt
+jiawda.egg-info/requires.txt
+jiawda.egg-info/top_level.txt
