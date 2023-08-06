@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyntfy
+Version: 0.0.1
+Summary: A module for interacting with ntfy.sh notifications.
+Home-page: https://github.com/DP44/pyntfy
+Author: DP44
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DP44/pyntfy/issues
+Keywords: notification notify ntfy toast android
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyntfy
+
+A module for interacting with ntfy.sh notifications.
+
+
+
+<!-- TODO: README -->
+
+
