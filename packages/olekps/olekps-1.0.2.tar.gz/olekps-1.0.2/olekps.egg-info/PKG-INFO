@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: olekps
+Version: 1.0.2
+Summary: lib olekps
+Home-page: UNKNOWN
+Author: olekps
+Author-email: olekps.official@gmail.com
+License: MIT
+Keywords: olekps
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+olekps
+======
+
+.. image:: https://discord.com/api/guilds/972499131044069396/embed.png
+   :target: https://discord.gg/GChBnwVEHv
+   :alt: Discord server invite
+
+
+olekps libraly
+
+
+Installing
+~~~~~~~~~~
+
+
+
+.. code:: sh
+
+    # Linux/macOS
+    pip3 install -U olekps
+
+    # Windows
+    pip install -U olekps
+
+
+author
+~~~~~~
+
+.. code:: py
+
+   import olekps
+   from oleps import *
+
+   print()
+
+
