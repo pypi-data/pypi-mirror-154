@@ -1,0 +1,14 @@
+notification_manager_api
+notification_manager_api\api
+notification_manager_api\api\src
+notification_manager_api\api\src\client
+notification_manager_api\api\src\client\emitter
+notification_manager_api\api\src\config
+notification_manager_api\api\src\constant
+notification_manager_api\api\src\converter
+notification_manager_api\api\src\converter\static
+notification_manager_api\api\src\dto
+notification_manager_api\api\src\enumeration
+notification_manager_api\api\src\manager
+notification_manager_api\api\src\service
+notification_manager_api\api\src\validator
