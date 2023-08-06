@@ -1,0 +1,14 @@
+typish>=1.9.2
+
+[test]
+attrs
+coverage
+codecov
+pytest
+scons
+
+[test:python_version == "3.6"]
+dataclasses
+
+[test:python_version >= "3.9"]
+tzdata
