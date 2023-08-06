@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: poetry-demo1507
+Version: 0.1.1
+Summary: 
+Author: Sarang Mulewa
+Author-email: sarangmulewa1us@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: pandas
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/sarangmulewa/poetry-demo/issues
