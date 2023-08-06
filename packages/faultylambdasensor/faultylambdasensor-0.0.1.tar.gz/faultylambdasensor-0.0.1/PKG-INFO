@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: faultylambdasensor
+Version: 0.0.1
+Summary: Get Air:Fule Ratio or Spark Angle for Any Engine
+Author: Sheshank Kindalkar
+Author-email: sheshankkindalkar@gmail.com
+License: UNKNOWN
+Keywords: python,lambdasensor,air:fule,sparkangle,automotive,fulemap,ignitionmap,faultysensor
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# faultylambdasensor
+Python Package for determining the Air:Fule Ratio from the Fule Maps and Spark Angle from the Ignition Map for the Faulty Lambda Sensor
+
+
