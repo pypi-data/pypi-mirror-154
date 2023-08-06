@@ -1,0 +1,11 @@
+subject,predicate,object
+PART_OF,rdf:type,owl:TransitiveProperty
+PART_OF,rdfs:subPropertyOf,OVERLAPS
+hand,rdfs:subClassOf,autopod
+forelimb,rdfs:subClassOf,limb
+limb,PART_OF,body
+hand,PART_OF,forelimb
+finger,PART_OF,hand
+fingernail,PART_OF,finger
+
+
