@@ -1,0 +1,10 @@
+setup.py
+DJQ_Distributions/Binomialdistribution.py
+DJQ_Distributions/Gaussiandistribution.py
+DJQ_Distributions/Generaldistribution.py
+DJQ_Distributions/__init__.py
+DJQ_Distributions.egg-info/PKG-INFO
+DJQ_Distributions.egg-info/SOURCES.txt
+DJQ_Distributions.egg-info/dependency_links.txt
+DJQ_Distributions.egg-info/not-zip-safe
+DJQ_Distributions.egg-info/top_level.txt
