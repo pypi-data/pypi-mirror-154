@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: eplines
+Version: 0.1
+Summary: Heatmaps of empirical and exceedance probability of many (time-)series.
+Home-page: https://github.com/rhkarls/eplines
+License: MIT
+Project-URL: Bug Tracker, https://github.com/rhkarls/eplines/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# eplines
+[![pypi_shield](https://img.shields.io/pypi/v/eplines.svg)](https://pypi.org/project/eplines/)
+[![pypi_license](https://badgen.net/pypi/license/eplines/)](https://pypi.org/project/eplines/)
+![tests_workflow](https://github.com/rhkarls/eplines/actions/workflows/run_flake8_pytest.yml/badge.svg)
+
+Heatmaps of empirical and exceedance probability of many (time-)series.
+
+This package is at alpha stage and experimental.
+
+## Requirements
+
+    numpy
+    matplotlib
+
+## Installation
+
+`pip install eplines`
+
+## Examples
+
+See \examples folder for example applications of `eplines`
+
+Temperature time series ECDF `\examples\example_temperature_timeseries.py`
+
+![example_ecdf_airtemp](https://github.com/rhkarls/eplines/blob/main/examples/temperature_ecdf_example.png)
+
+Discharge time series exceedance probability (aka flow-duration curve) `\examples\example_usgs_discharge.py`
+
+![example_exceedance_df](https://github.com/rhkarls/eplines/blob/main/examples/discharge_exceedance_example.png)
+
+
+
+
+MIT License
+
+Copyright (c) 2022 Reinert Huseby Karlsen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
