@@ -1,0 +1,13 @@
+manga_searcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manga_searcher/browser.py,sha256=8IP-peRUDyjKtfiYV8nISVN9hIaNqVzDiWvdbI4rQ14,639
+manga_searcher/command_line.py,sha256=df81r-ZQIfZhIcwOi0U3zGgNwod4WwUu3t8vr_tzKHs,14745
+manga_searcher/db.py,sha256=Zk5XSm2CC051514eGo3XAaenhtLhfiMK9agfeYQ38T0,9011
+manga_searcher/mal.py,sha256=qhD45XwnappUI4jBfV9KrTYT5vJZvlIwRve7YvFWUf0,6384
+manga_searcher/mangadex.py,sha256=uSOU5_1fHr4q9IQWoiPBqSLJY8M2e4DaI8csbvP99JY,4721
+manga_searcher/storage.py,sha256=tTXa8XeRr3a84EVJyPtEhG_fRntbfbwIw5GbjQy1R6M,1883
+manga_searcher-0.0.1.dist-info/LICENSE,sha256=9Xea3XcFRpMh-9gOdN9-EEbSaUsboKJzZHqNGTilqTo,11352
+manga_searcher-0.0.1.dist-info/METADATA,sha256=h_ZjVCmbmtTw7a7sO4PGYm-DwpUB3sUwPpahB43pOSc,10794
+manga_searcher-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+manga_searcher-0.0.1.dist-info/entry_points.txt,sha256=ZK47e1xDuYLPSzXxQtheTZ9of_BepvFs61mxAaOsCFc,68
+manga_searcher-0.0.1.dist-info/top_level.txt,sha256=sM7XOuygUckiDHoz3yUJ2IHRs315XFW20_eLXPGIcGg,15
+manga_searcher-0.0.1.dist-info/RECORD,,

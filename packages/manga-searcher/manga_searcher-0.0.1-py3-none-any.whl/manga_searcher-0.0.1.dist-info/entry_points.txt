@@ -1,0 +1,2 @@
+[console_scripts]
+manga_searcher = manga_searcher.command_line:main
