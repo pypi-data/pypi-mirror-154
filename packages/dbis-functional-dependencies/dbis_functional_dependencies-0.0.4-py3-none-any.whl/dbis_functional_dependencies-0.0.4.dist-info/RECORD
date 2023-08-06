@@ -1,0 +1,9 @@
+functional_dependencies/BCNF.py,sha256=-r66LXHSPg8EWhH6RZcmCCQj7zBM-rINmqIvj_nBrRA,19899
+functional_dependencies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+functional_dependencies/fds.py,sha256=jYVc4Dlo8wZutIq7CUo5znIYoDuooCxu3U6qhVWRGhc,23990
+functional_dependencies/fdsbase.py,sha256=DzzLZa-9MvEyXhdzlPdZXW7iTRPzC5cD_I0UzF_Btlw,4693
+dbis_functional_dependencies-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbis_functional_dependencies-0.0.4.dist-info/METADATA,sha256=MQ5z2TUqzohBjqZu4QBVyQ99aWIqYfV7Mk4uWGGSo_M,1127
+dbis_functional_dependencies-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dbis_functional_dependencies-0.0.4.dist-info/top_level.txt,sha256=gdKnqm_LuTOPR2jukC8CfBSBQTbgvYbKJOSjJtM1woo,24
+dbis_functional_dependencies-0.0.4.dist-info/RECORD,,
