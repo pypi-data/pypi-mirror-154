@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "nexus",
+  "server": "https://github.com/SimCubeLtd/pulumi-nexus/releases/download/v${VERSION}"
+}
