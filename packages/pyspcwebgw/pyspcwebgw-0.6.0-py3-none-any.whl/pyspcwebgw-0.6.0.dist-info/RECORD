@@ -1,0 +1,11 @@
+pyspcwebgw/__init__.py,sha256=43BwhXbOrFs5Lg6s-L3pwGENXAodJrwPhCYGubjOrNo,4763
+pyspcwebgw/area.py,sha256=cQ8vCN-BNHqXtF0Fe2orOA8YcCMdHqSZXflVOTw_jkc,1446
+pyspcwebgw/const.py,sha256=JzBLJMZEfSkcsgu6nbIXdtn9e1ghIjmzLGop5WbnpnI,1117
+pyspcwebgw/utils.py,sha256=ZMeVcK-6KVYNPSjaoyfrlPPWAa2MaWgbeW6QY-d0Ai8,1231
+pyspcwebgw/websocket.py,sha256=EGgwb-oUkhRZ5cD6IXpOKHiLIXwkqYcO6IuMR42ml6w,2538
+pyspcwebgw/zone.py,sha256=Td0RH9wvVaBHYPSaNbjJkEoJdD2PsdJeK56C-5slx20,1368
+pyspcwebgw-0.6.0.dist-info/LICENSE,sha256=3pH4jZ_2-qWa58smb9Unk7IFQ3fO0KGWxlzCVc8eo9Y,1068
+pyspcwebgw-0.6.0.dist-info/METADATA,sha256=9hm1aVyFqNUISyQG4ra8N5Ds5ZFdJuzwdNrtxByMirA,1237
+pyspcwebgw-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyspcwebgw-0.6.0.dist-info/top_level.txt,sha256=WApwLg0loorPpI0vjqeNqEKtT2UH-G5a46b0zr-ANvI,11
+pyspcwebgw-0.6.0.dist-info/RECORD,,
