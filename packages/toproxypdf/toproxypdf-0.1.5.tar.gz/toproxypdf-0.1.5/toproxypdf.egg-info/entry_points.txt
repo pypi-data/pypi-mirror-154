@@ -1,0 +1,2 @@
+[console_scripts]
+toproxypdf = toproxypdf:main
