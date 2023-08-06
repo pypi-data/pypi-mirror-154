@@ -1,0 +1,2 @@
+[console_scripts]
+termsteel = termsteel.app:main
