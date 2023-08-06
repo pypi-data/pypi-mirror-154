@@ -1,0 +1,1 @@
+A simple python library that outputs randomly generated data in the form of a dictionary.
