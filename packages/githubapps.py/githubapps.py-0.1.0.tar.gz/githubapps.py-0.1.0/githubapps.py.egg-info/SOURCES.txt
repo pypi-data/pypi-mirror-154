@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+githubapps/__init__.py
+githubapps/adapter.py
+githubapps/errors.py
+githubapps.py.egg-info/PKG-INFO
+githubapps.py.egg-info/SOURCES.txt
+githubapps.py.egg-info/dependency_links.txt
+githubapps.py.egg-info/requires.txt
+githubapps.py.egg-info/top_level.txt
