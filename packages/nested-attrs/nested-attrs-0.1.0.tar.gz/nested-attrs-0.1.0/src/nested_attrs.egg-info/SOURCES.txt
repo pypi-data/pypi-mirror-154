@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nested_attrs/__init__.py
+src/nested_attrs.egg-info/PKG-INFO
+src/nested_attrs.egg-info/SOURCES.txt
+src/nested_attrs.egg-info/dependency_links.txt
+src/nested_attrs.egg-info/top_level.txt
