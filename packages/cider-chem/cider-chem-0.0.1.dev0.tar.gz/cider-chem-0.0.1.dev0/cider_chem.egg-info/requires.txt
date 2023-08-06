@@ -1,0 +1,7 @@
+FPDF==1.7.2
+chemplot==1.2.0
+matplotlib==3.5.1
+matplotlib_venn==0.11.6
+notebook
+rdkit-pypi
+seaborn==0.11.2

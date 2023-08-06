@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CIDER/__init__.py
+CIDER/cider.py
+cider_chem.egg-info/PKG-INFO
+cider_chem.egg-info/SOURCES.txt
+cider_chem.egg-info/dependency_links.txt
+cider_chem.egg-info/requires.txt
+cider_chem.egg-info/top_level.txt
