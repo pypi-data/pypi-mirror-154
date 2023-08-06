@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+whine/__init__.py
+whine/event_handler.py
+whine.egg-info/PKG-INFO
+whine.egg-info/SOURCES.txt
+whine.egg-info/dependency_links.txt
+whine.egg-info/top_level.txt
+whine.egg-info/zip-safe
