@@ -1,0 +1,8 @@
+xlcsv/__init__.py,sha256=PLvDBakvC-aN2YExPt5E8QCUGUwMtOi7lSd1_OxVMzc,98
+xlcsv/error.py,sha256=9FV4U6CC9V_hsEprsNeUX1QwD-WFMorQNnj2zeMRDwI,50
+xlcsv/io.py,sha256=XpMk-pcQnnFXq3G-E2vBkDgzzPKpC3E1vMZgEuZk-s8,2145
+xlcsv/utils.py,sha256=QgGMtfLhsYNci5oYrbpuL-kjP3YwvAnAjtgyYXLE3WM,233
+xlcsv-0.2.3.dist-info/LICENSE,sha256=dbFhrTWl2OuHdMBD79_ec_A7C5EZtpMQ01-U8JkMb54,1062
+xlcsv-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xlcsv-0.2.3.dist-info/METADATA,sha256=uUNPonH3ASvyLWnIJiljpjSCZIcn9ODWT0VX804Ndsk,1088
+xlcsv-0.2.3.dist-info/RECORD,,
