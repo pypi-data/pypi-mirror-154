@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TIME-python
+Version: 0.0.4
+Summary: Implementation of TIME
+Home-page: https://github.com/shuds13/pyexample
+Author: Nicolas Delinte
+Author-email: nicolas.delinte@uclouvain.be
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+License-File: LICENSE
+
+UNKNOWN
+
