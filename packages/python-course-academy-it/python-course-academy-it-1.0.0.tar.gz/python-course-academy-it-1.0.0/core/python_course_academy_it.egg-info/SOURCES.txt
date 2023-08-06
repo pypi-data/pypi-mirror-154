@@ -1,0 +1,6 @@
+README.md
+setup.py
+core/python_course_academy_it.egg-info/PKG-INFO
+core/python_course_academy_it.egg-info/SOURCES.txt
+core/python_course_academy_it.egg-info/dependency_links.txt
+core/python_course_academy_it.egg-info/top_level.txt
