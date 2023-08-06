@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: tox-console-scripts
+Version: 0.3.1
+Summary: Create console_scripts of all system site packages within tox env
+Home-page: https://github.com/test/tox-console-scripts
+Author: Stanislav Levin
+Maintainer: Stanislav Levin
+License: MIT
+Project-URL: Source, https://github.com/test/tox-console-scripts
+Project-URL: Tracker, https://github.com/test/tox-console-scripts/issues
+Keywords: virtual,environments,isolated,testing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tox
+Requires-Dist: pluggy
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+
+# tox-console-scripts plugin ![CI](https://github.com/stanislavlevin/tox-console-scripts/workflows/CI/badge.svg)
+
+It's possible to use system site packages within Python virtual environment,
+but there is no way to install console or gui scripts into such environment.
+
+With the help of this plugin the corresponding scripts will be automatically
+generated for all of system site packages.
+
+This is mostly used for testing purposes in ALTLinux during RPM build of Python
+packages to run integration tests against the repository packages.
+
+Usage
+-----
+
+The two possible options may be provided with:
+
+1) `tox.ini` configuration file
+```
+[testenv]
+console_scripts = True
+```
+
+2) command line option
+```
+tox --console-scripts
+```
+
+Note: both require `sitepackages`.
+
+License
+-------
+
+Distributed under the terms of the **MIT** license, `tox-console-scripts` is
+free and open source software.
+
+
