@@ -1,0 +1,12 @@
+README.md
+setup.py
+yafal/__init__.py
+yafal/corruption.py
+yafal/exceptions.py
+yafal/label.py
+yafal/models.py
+yafal.egg-info/PKG-INFO
+yafal.egg-info/SOURCES.txt
+yafal.egg-info/dependency_links.txt
+yafal.egg-info/requires.txt
+yafal.egg-info/top_level.txt
