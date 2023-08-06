@@ -1,0 +1,7 @@
+authlib
+certifi
+confluent-kafka>=1.8.2
+requests
+
+[:python_version <= "3.7"]
+typing-extensions

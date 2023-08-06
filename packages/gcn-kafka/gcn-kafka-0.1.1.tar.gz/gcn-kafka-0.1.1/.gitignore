@@ -1,0 +1,7 @@
+*.egg-info
+__pycache__
+.tox
+.vscode
+build
+dist
+_version.py
