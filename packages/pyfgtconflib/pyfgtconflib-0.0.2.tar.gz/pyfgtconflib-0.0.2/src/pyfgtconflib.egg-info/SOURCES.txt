@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyfgtconflib/__init__.py
+src/pyfgtconflib/pyfgtconflib.py
+src/pyfgtconflib.egg-info/PKG-INFO
+src/pyfgtconflib.egg-info/SOURCES.txt
+src/pyfgtconflib.egg-info/dependency_links.txt
+src/pyfgtconflib.egg-info/top_level.txt
