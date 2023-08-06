@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyNuclei/PyNuclei.egg-info/PKG-INFO
+PyNuclei/PyNuclei.egg-info/SOURCES.txt
+PyNuclei/PyNuclei.egg-info/dependency_links.txt
+PyNuclei/PyNuclei.egg-info/top_level.txt
