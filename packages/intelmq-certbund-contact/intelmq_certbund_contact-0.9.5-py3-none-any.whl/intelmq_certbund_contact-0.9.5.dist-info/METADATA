@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: intelmq-certbund-contact
+Version: 0.9.5
+Summary: IntelMQ Contacts is a contact database for IntelMQ with related expert bots
+Home-page: UNKNOWN
+Maintainer: Intevation GmbH
+Maintainer-email: sebastian.wagner@intevation.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4
+Requires-Dist: intelmq (>=3.0.2)
+Requires-Dist: psycopg2
+
+UNKNOWN
+
