@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+spol/__init__.py
+spol/spol.py
+spol.egg-info/PKG-INFO
+spol.egg-info/SOURCES.txt
+spol.egg-info/dependency_links.txt
+spol.egg-info/top_level.txt
