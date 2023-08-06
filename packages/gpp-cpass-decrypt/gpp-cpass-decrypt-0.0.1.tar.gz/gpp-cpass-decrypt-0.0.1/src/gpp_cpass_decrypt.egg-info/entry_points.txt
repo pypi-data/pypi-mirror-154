@@ -1,0 +1,2 @@
+[console_scripts]
+gpp_cpass_decrypt = gpp_cpass_decrypt.__main__:main

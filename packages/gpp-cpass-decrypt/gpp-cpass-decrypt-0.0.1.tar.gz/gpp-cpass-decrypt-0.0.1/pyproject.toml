@@ -1,0 +1,70 @@
+[build-system]
+
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpp-cpass-decrypt"
+version = "0.0.1"
+authors =  [{ name = "Galoget Latorre" }]
+description = "Python tool that decrypts credentials stored in Group Policy Preferences (GPP) files (Groups.xml) located in the SYSVOL folder."
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.2",
+    "Programming Language :: Python :: 3.3",
+    "Programming Language :: Python :: 3.4",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: System Administrators",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Security :: Cryptography",
+]
+
+keywords = [
+    "python", "active-directory", "python-script", "python3", "windows-server",
+    "aes-encryption", "decryption", "group-policy", "decrypter", "gpp",
+    "crypto", "ethical-hacking", "red-team", "cpassword", "gpp-decrypt",
+    "domain-security", "cpassword-attribute", "active-directory-exploitation",
+    "cpass", "group-policy-preferences", "microsoft-windows-server",
+    "active-directory-security", "cryptography"
+]
+
+dependencies = [
+    "colorama >= 0.4.4",
+    "pycryptodome >= 3.14.1"
+]
+
+[project.urls]
+Homepage = "https://gpp-cpass-decrypt.hackem.org"
+Source = "https://github.com/galoget/gpp-cpass-decrypt"
+Bug_Tracker = "https://github.com/galoget/gpp-cpass-decrypt/issues"
+Facebook = "https://www.facebook.com/hackem.epn"
+Twitter = "https://twitter.com/hackem"
+LinkedIn = "https://linkedin.com/company/hackem"
+Instagram = "https://instagram.com/hackemcorp"
+YouTube = "https://youtube.com/hackemcorp"
+Telegram = "https://t.me/hackemSecurity"
+Twitch = "https://twitch.com/hackemcorp"
+
+[project.scripts]
+gpp_cpass_decrypt = "gpp_cpass_decrypt.__main__:main"

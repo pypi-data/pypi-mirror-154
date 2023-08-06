@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gpp_cpass_decrypt/__init__.py
+src/gpp_cpass_decrypt/__main__.py
+src/gpp_cpass_decrypt.egg-info/PKG-INFO
+src/gpp_cpass_decrypt.egg-info/SOURCES.txt
+src/gpp_cpass_decrypt.egg-info/dependency_links.txt
+src/gpp_cpass_decrypt.egg-info/entry_points.txt
+src/gpp_cpass_decrypt.egg-info/requires.txt
+src/gpp_cpass_decrypt.egg-info/top_level.txt
