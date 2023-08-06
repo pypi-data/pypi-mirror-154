@@ -1,0 +1,4 @@
+setuptools~=61.2.0
+setuptools_scm
+-i https://pip-token:glpat-BF8yXW6LGR3W5eoY6JBK@gitlab.com/api/v4/projects/36629581/packages/pypi/simple
+scln-client
