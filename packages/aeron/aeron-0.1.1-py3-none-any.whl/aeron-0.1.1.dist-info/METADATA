@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aeron
+Version: 0.1.1
+Summary: A fast and dynamic python backend solution.
+Home-page: https://github.com/flakevine/skl
+Author: Viktor Marinho
+Author-email: viktormpcs@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# aeron
+A fast and dynamic python backend solution
