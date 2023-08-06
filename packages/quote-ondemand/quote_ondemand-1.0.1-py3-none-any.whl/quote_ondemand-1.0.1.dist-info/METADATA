@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: quote-ondemand
+Version: 1.0.1
+Summary: Get the quote from internet
+Author-email: Anuj Sadani <anuj.k.sadani@gmail.com>
+License: MIT License        
+        Copyright (c) 2022 Anuj Sadani        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/anuj-sadani-infrrd/quote-ondemand
+Keywords: quote,tutorial,random
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.22.0)
+
+# Random Quotes
+
+Get the random quote from the internet.
+
+> Note: The quotes are fetched using publicly hosted API's. Any change to the Authentication/Authorization or Request/Response format can cause a failure.
+
+## Installation
+
+You can install the package from [PyPI](https://pypi.org/project/quote-ondemand/):
+
+`python -m pip install quote-ondemand`
+
+The `quotes` is supported on Python 3.x.
+
+## How to use
+As as console application
+```
+python -m pip install quote-ondemand
+```
+
+As an module in your project
+```
+>>> import quote
+>>> quote.__version__
+'1.0.0'a
+
+>>> from quote import QuoteFactory
+>>> QuoteFactory.get_quote()
+
+The entire history of software engineering is that of the rise in levels of abstraction.
+- Grady Booch
+```
+
+
