@@ -1,0 +1,14 @@
+perdido/__init__.py,sha256=4ZufbGfsP9UkmhN7EJN2y-4OY0CBzXtrlY2u6a7oKPw,112
+perdido/geocoder.py,sha256=EvJZZ13wGdCOcLeWQ9DXEIusE8q-szxRkjMfJtxFO0s,1972
+perdido/geoparser.py,sha256=gSvTjdlAA89YAdx2Ec6wuHlXjZNNNb9dB8VmEKH5xeQ,2158
+perdido/perdido.py,sha256=KITDcYK2lkXKNY9QAvLGmvJNS9XnSrqZB3I8vbX3pRg,2055
+perdido/test_geoparser.py,sha256=_ruEO53LsPR53D6q-oDcgYVCnUFYy1hMS51LUxIor5U,878
+perdido/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perdido/utils/map.py,sha256=Sx42X49xRY4QkQRfxDPG54Y0O1p3-f7MNgIkSpKYvCo,1488
+perdido/utils/webservices.py,sha256=HbS3exBcNWtACnORfVQV87bHguNvNiZQcVecvtfxXJM,1651
+perdido/utils/xml.py,sha256=9G3e76LL4D-4p6HWXiIcnql-jLg3y451uONKt97fJHc,4717
+perdido-0.1.6.dist-info/LICENSE,sha256=c_4YEjoXFpYDPBW6LnTNN1iWVbVuncJWlaUOH8KxIa8,1324
+perdido-0.1.6.dist-info/METADATA,sha256=ed3lR0lNm-xsDQN2tFjhXlESYDvNlATAk6Ab3X58kn0,4583
+perdido-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+perdido-0.1.6.dist-info/top_level.txt,sha256=F3G1Du_-zJxigY8UETWdUHHi4pgYsPNx38OZhgNgV4Q,8
+perdido-0.1.6.dist-info/RECORD,,
