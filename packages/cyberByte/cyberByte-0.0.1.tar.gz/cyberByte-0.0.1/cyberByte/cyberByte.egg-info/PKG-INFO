@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cyberByte
+Version: 0.0.1
+Summary: A Packaged that was created to practice the logic of Blockchains!
+Home-page: https://github.com/Nikolai558/CyberByte
+Author: Nikolai558
+Author-email: 38259407+Nikolai558@users.noreply.github.com
+License: LICENSE.txt
+Project-URL: Bug Tracker, https://github.com/Nikolai558/CyberByte/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# CyberByte
+A Packaged that was created to practice the logic of Blockchains!
