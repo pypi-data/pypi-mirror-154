@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "kadabra_client"
+version = "0.0.1"
+description = "Share your code, data and visuals, directly from Jupyter"
+authors = ["Edouard Godfrey <edouard@1000words-hq.com>"]
+license = "Proprietary"
+readme = "README.md"
+homepage = "https://1000words-hq.com"
+documentation = "https://docs.1000words-hq.com"
+keywords = ["jupyter", "share"]
+packages = [
+  {include = "kadabra"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+ipython = ">=5.5.0"
+pyflakes = "^2.4.0"
+boto3 = "^1.21.34"
+requests = ">=2.23.0"
+click = ">=7.1.2"
+python-graphql-client = "^0.4.3"
+requests-aws4auth = "^1.1.2"
+nanoid = "^2.0.0"
+"thousandwords.core" = "^0.7.0"
+streamlit = "^1.10.0"
+Pillow = "^9.1.1"
+tomlkit = "^0.11.0"
+astor = "^0.8.1"
+importlib-metadata = "^4.11.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pyfakefs = "^4.5.6"
+
+[tool.poetry.scripts]
+kadabra = 'kadabra.cli:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
