@@ -1,0 +1,9 @@
+_pymeos.cpython-310-x86_64-linux-gnu.so,sha256=BW7M3XowFWLf2dp1x2N6BUQXLDyefZlAl06pOJYqivk,3477760
+pymeos/__init__.py,sha256=0bDqiqc8Tq64WlaLKvmFruuvIGorDizmjUkDIRhPptY,1956
+pymeos-0.1.1.dist-info/WHEEL,sha256=AENPUwuTc6qB95Mrn5JB5boXegWw6oDhuwuuX0q_ONg,152
+pymeos-0.1.1.dist-info/top_level.txt,sha256=U4HIdHsCyaini7LMSUqHLOBFJNXruAC9oKFXRmc7brg,15
+pymeos-0.1.1.dist-info/LICENSE,sha256=g6cpflIAs74gWq0K7STFRp1m2vY6FRKq_yCdwZfd6ng,1076
+pymeos-0.1.1.dist-info/METADATA,sha256=WhWuCF_Z4UfboXRVJuS91qaVLqWSFsRSyolEg3AxchU,6184
+pymeos-0.1.1.dist-info/RECORD,,
+pymeos.libs/libgeos-218bed3c.so.3.8.4,sha256=WiWToGfr6udFWND8NHCqMmOusTz_69085RNdfaw2tO4,2816992
+pymeos.libs/libgeos_c-6bc58bd0.so.1.13.5,sha256=aEW7bIjetEnTkOyr-qpZybchTzBuHKc__OeomgVRtXA,338984
