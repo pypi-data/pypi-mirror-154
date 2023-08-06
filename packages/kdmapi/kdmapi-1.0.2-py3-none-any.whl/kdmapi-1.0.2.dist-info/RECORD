@@ -1,0 +1,6 @@
+kdmapi/__init__.py,sha256=mBornHb-PNP8FHkmBuGsHJ-70SoOrypZqBttPoH1QKA,4051
+kdmapi/bindings.py,sha256=nQsCEKJeruYoFMC0wnF1Bwh1YmSALNgKubhc906LFWg,6415
+kdmapi/mido_backend.py,sha256=fI9YYEOEIuWVkUiSL-iZzMrcYRpDvgaFkoN8ijPL0Oc,938
+kdmapi-1.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kdmapi-1.0.2.dist-info/METADATA,sha256=GzpCDogV-IZNkmZHf88i6neMTPXphuGTainjdnXoaUI,2238
+kdmapi-1.0.2.dist-info/RECORD,,
