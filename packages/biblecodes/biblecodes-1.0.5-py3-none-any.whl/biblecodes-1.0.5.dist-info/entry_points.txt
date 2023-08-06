@@ -1,0 +1,3 @@
+[console_scripts]
+bc-cli = torahbiblecodes.TBC:main
+
