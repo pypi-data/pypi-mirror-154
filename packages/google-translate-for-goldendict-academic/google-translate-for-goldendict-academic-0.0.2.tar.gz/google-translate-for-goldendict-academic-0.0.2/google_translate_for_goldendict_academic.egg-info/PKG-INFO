@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: google-translate-for-goldendict-academic
+Version: 0.0.2
+Summary: Modified from google-translate-for-goldendict (xinebf)
+Home-page: UNKNOWN
+Author: zli
+Author-email: 1036281414@qq.com
+License: UNKNOWN
+Description: # google-translate-for-goldendict-academic
+        
+        Modified from google-translate-for-goldendict (xinebf): 
+        
+        - remove emoji;
+        - remove line break.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
