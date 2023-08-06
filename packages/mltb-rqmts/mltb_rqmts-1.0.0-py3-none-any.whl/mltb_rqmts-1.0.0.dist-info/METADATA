@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: mltb-rqmts
+Version: 1.0.0
+Summary: Combined package of requirements for mltb
+Author: Levi
+Author-email: info@l3v11.me
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anytree
+Requires-Dist: appdirs
+Requires-Dist: aria2p
+Requires-Dist: asyncio
+Requires-Dist: attrdict
+Requires-Dist: beautifulsoup4
+Requires-Dist: cfscrape
+Requires-Dist: feedparser
+Requires-Dist: flask
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: gunicorn
+Requires-Dist: lk21
+Requires-Dist: lxml
+Requires-Dist: megasdkrestclient
+Requires-Dist: pillow
+Requires-Dist: psutil
+Requires-Dist: psycopg2-binary
+Requires-Dist: pybase64
+Requires-Dist: pyrogram
+Requires-Dist: python-dotenv
+Requires-Dist: python-magic
+Requires-Dist: python-telegram-bot
+Requires-Dist: qbittorrent-api
+Requires-Dist: requests
+Requires-Dist: telegraph
+Requires-Dist: tenacity
+Requires-Dist: tgCrypto
+Requires-Dist: urllib3
+Requires-Dist: yt-dlp
+
+# mltb-rqmts
+This is a combined package for installing all the requirements needed in mltb project
