@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: utopya
+Version: 1.0.0a4
+Summary: The Utopia Frontend Package
+Home-page: https://gitlab.com/utopia-project/utopya
+Author: utopya developers
+Author-email: Benjamin Herdeanu <Benjamin.Herdeanu@iup.uni-heidelberg.de>, Yunus Sevinchan <Yunus.Sevinchan@iup.uni-heidelberg.de>
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Topic :: Utilities
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: scipy (>=1.7.3)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: ruamel.yaml (>=0.16.5)
+Requires-Dist: coloredlogs (>=15.0)
+Requires-Dist: colorama (>=0.4.4)
+Requires-Dist: click (>=8.0)
+Requires-Dist: paramspace (>=2.5.8)
+Requires-Dist: dantro (>=0.17.2)
+Provides-Extra: dev
+Requires-Dist: pytest (>=6.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.10) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.16) ; extra == 'dev'
+Requires-Dist: sphinx (>=4) ; extra == 'dev'
+Requires-Dist: sphinx-book-theme ; extra == 'dev'
+Requires-Dist: ipython (>=7.0) ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx (>=4) ; extra == 'doc'
+Requires-Dist: sphinx-book-theme ; extra == 'doc'
+Requires-Dist: ipython (>=7.0) ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.10) ; extra == 'test'
+Requires-Dist: pre-commit (>=2.16) ; extra == 'test'
+
+UNKNOWN
+
