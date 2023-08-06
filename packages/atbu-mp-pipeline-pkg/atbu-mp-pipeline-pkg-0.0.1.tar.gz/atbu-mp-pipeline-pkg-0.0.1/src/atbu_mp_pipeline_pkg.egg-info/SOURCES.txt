@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/atbu_mp_pipeline_pkg.egg-info/PKG-INFO
+src/atbu_mp_pipeline_pkg.egg-info/SOURCES.txt
+src/atbu_mp_pipeline_pkg.egg-info/dependency_links.txt
+src/atbu_mp_pipeline_pkg.egg-info/requires.txt
+src/atbu_mp_pipeline_pkg.egg-info/top_level.txt
