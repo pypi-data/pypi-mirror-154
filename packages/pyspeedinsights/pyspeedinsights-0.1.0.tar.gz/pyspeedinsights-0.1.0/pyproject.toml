@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q --cov=src/pyspeedinsights"
+testpaths = "tests"
+
+[tool.isort]
+profile = "black"
+known_first_party = "pyspeedinsights"
+known_local_folder = "pyspeedinsights"
+
+[tool.black]
+target-version = ['py39']
