@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lzy-stock-env
+Version: 1.6.8
+Summary: 机器学习作业用的股票数据环境
+Home-page: http://ursule.plus/
+Author: luzhenye
+Author-email: 786661074@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+Requires-Dist: torch
+
+UNKNOWN
+
+
