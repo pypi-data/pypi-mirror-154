@@ -1,0 +1,9 @@
+pyproject.toml
+chatroom/box.py
+chatroom/client.py
+chatroom/server.py
+pychatroom.egg-info/PKG-INFO
+pychatroom.egg-info/SOURCES.txt
+pychatroom.egg-info/dependency_links.txt
+pychatroom.egg-info/entry_points.txt
+pychatroom.egg-info/top_level.txt

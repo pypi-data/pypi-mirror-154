@@ -1,0 +1,10 @@
+[build-system]
+requires = ['setuptools']
+build-backend = 'setuptools.build_meta'
+[project]
+name = 'pychatroom'
+version = '0.0.4'
+[project.scripts]
+crclient = 'chatroom.client:main'
+crbox = 'chatroom.box:main'
+crserver = 'chatroom.server:main'
