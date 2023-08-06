@@ -1,0 +1,11 @@
+recordset-0.1.data/scripts/rset,sha256=rcsj6Fy0vK_QVoN_Phj_MhUMt_x8TuvGHMym0XNjfHM,833
+utils/DnspodClient.py,sha256=m0mYKusQ-lhLCjcKYrWGUf43-R3THniAv5A4rqZ2Dss,3400
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/helper.py,sha256=blAwNNgLzSmofDxlBTHoqGgcZXjS_rXeB-qX3KUKcfE,1226
+utils/http_client.py,sha256=vu6iS2qhAePmwaZaxVoJXS8f9yaNq1OmIkeg1D84Zmc,656
+utils/logger.py,sha256=ivXy854f2uhfAmPDilYqCT75wXMN0aNg5W5r5LNM3Zc,1533
+recordset-0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+recordset-0.1.dist-info/METADATA,sha256=NzyUC-uNb1OpSUTSTahxFp8X4fwUPgrIZQJLFZ8mpNM,539
+recordset-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recordset-0.1.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+recordset-0.1.dist-info/RECORD,,

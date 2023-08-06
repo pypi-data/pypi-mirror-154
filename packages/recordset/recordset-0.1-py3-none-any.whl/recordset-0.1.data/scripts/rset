@@ -1,0 +1,43 @@
+#!python
+from __future__ import absolute_import
+
+import click
+import pkg_resources
+
+import utils.logger as logger
+from utils.DnspodClient import run
+
+VERSION = pkg_resources.require("recordset")[0].version
+
+
+def debug_logging(verbose):
+    if verbose == 1:
+        click.echo(click.style("Debugging Level is set", fg='green'))
+        logger.enable_debug()
+
+
+@click.group()
+@click.version_option(version=VERSION, prog_name='recordset')
+def dokecs():  # pragma: no cover
+    pass
+
+
+@click.command()
+@click.option('--ip', help=' record ip')
+def delete(ip):
+    debug_logging("delete")
+    run("del", ip)
+
+
+@click.command()
+@click.option('--ip', help=' record ip')
+def add(ip):
+    debug_logging("add")
+    run("add", ip)
+
+
+dokecs.add_command(delete)
+dokecs.add_command(add)
+
+if __name__ == '__main__':  # pragma: no cover
+    dokecs()
