@@ -1,0 +1,12 @@
+uvicorn
+fastapi
+pydantic
+aiofiles
+python-dotenv
+requests
+click
+
+[dev]
+black
+pytest
+pip-tools
