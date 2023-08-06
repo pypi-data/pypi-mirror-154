@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: currency-conversion
+Version: 1.1.1
+Summary: currency_conversion
+Home-page: https://currency_conversion.readthedocs.io/
+Author: Fangning Xu
+Author-email: fx2065@nyu.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
