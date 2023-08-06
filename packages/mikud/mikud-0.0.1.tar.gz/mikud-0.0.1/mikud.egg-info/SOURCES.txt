@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+mikud/__init__.py
+mikud/_version.py
+mikud/mikud.py
+mikud.egg-info/PKG-INFO
+mikud.egg-info/SOURCES.txt
+mikud.egg-info/dependency_links.txt
+mikud.egg-info/requires.txt
+mikud.egg-info/top_level.txt
