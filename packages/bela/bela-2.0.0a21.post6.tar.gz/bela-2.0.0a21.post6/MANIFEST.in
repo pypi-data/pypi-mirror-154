@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include bela/data *.gz
+recursive-include bela/data *.eaf
