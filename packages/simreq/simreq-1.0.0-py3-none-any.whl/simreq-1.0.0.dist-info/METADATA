@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: simreq
+Version: 1.0.0
+Summary: A simple library that is similar to requests.
+Home-page: https://github.com/jiroawesome/simreq.py
+Author: Jiro
+Author-email: contact@jiroawesome.tech
+Project-URL: Bug Tracker, https://github.com/jiroawesome/simreq.py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simreq.py
+
+- This library is similar to requests, but in a single file version.
+
+
+## Installation
+- `pip install simreq`
+
+
+## Example tests
+
+```py
+import simreq
+c = simreq.get('https://api.jiroawesome.tech')
+print(c.status_code)
+```
+
+
+## Special Note
+- This project is made for developers, so use it at your own will.
