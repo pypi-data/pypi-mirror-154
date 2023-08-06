@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+smart_chart/echart/static/echart/pivot/color-brewer.min.css
+smart_chart/echart/static/echart/pivot/export_renderers.js
+smart_chart/echart/static/echart/pivot/jquery-ui.min.js
+smart_chart/echart/static/echart/pivot/pivot.css
+smart_chart/echart/static/echart/pivot/pivot.js
+smart_chart/echart/static/echart/pivot/plotly-basic-latest.min.js
+smart_chart/echart/static/echart/pivot/plotly_renderers.js
+smart_chart/echart/static/echart/pivot/table2excel.js
+smartpivot.egg-info/PKG-INFO
+smartpivot.egg-info/SOURCES.txt
+smartpivot.egg-info/dependency_links.txt
+smartpivot.egg-info/not-zip-safe
+smartpivot.egg-info/top_level.txt
