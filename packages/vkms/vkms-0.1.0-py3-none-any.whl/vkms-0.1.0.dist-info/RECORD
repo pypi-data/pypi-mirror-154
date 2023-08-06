@@ -1,0 +1,16 @@
+vkms/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+vkms/actions.py,sha256=odWeAMR4H87_C_wfO9WbeH4V62PynMqO-YxSUnizxOg,7444
+vkms/argparser.py,sha256=KaTFi6UjtrJPGVlP7m-zylw43PFC9JmaBnumeOeiaZI,3124
+vkms/attachments.py,sha256=G2Vtq7rBM-14TBFQ-7m86HSNY-OY455Ov79CO_EZ1hI,9582
+vkms/main.py,sha256=bp1aLRBTkA0MFHpb4AjyH6wDAjjdDCNFPMNScnfsd0A,1196
+vkms/messages.py,sha256=FYZNASIAasbqZavqWHinSaE73xtJSZJQzlshR0ddd6w,9017
+vkms/peers.py,sha256=xOBmoIG5g_F9tsH9ZBpYDDRCElJbHNuxPWrGBXbjO3Q,1984
+vkms/saver.py,sha256=QQ5fO66swy1xEGiGRLqTYhny71QrHeGM3SM2uQ8fS9o,7468
+vkms/users.py,sha256=vx6xy3mszmqc5cIlWOWhux4vpU9sdsDJ-BdOpDgk2Qw,3450
+vkms/utils.py,sha256=xV1AWLD4oCXXWztdT3bPw_hAOFOZ76LbDE3r6obXdMA,2540
+vkms-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vkms-0.1.0.dist-info/METADATA,sha256=Lx-sWfFN2M-zx1NTz2lT3V63C6cHg_CKC-amorstEro,3567
+vkms-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vkms-0.1.0.dist-info/entry_points.txt,sha256=WFVYd2D_XEbeOIylP4s_9_iFaffcrQInJEgnfdIcdPo,40
+vkms-0.1.0.dist-info/top_level.txt,sha256=R9w7sdxFm3wom1AOZWMPtVAcxcPahr0bF2gamHcSPrk,5
+vkms-0.1.0.dist-info/RECORD,,
