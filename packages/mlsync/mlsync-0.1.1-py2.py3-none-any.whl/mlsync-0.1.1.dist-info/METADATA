@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mlsync
+Version: 0.1.1
+Summary: Sync your machine learning data to your favorite productivity tools
+Home-page: https://github.com/paletteml/mlsync
+Author: Andre Terron and Kartik Hegde
+Author-email: support@paletteml.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: inquirer (>=2.9.2)
+Requires-Dist: notion-client (>=1.0.0)
+Requires-Dist: python-dotenv (>=0.20.0)
+Requires-Dist: requests (>=2.22.0)
+
+UNKNOWN
+
+
