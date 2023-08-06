@@ -1,0 +1,16 @@
+snowfin/__init__.py,sha256=wVYPx2SzNkeQYvdToPW8J5Spd1bHCGIvFGXy-GkBgww,548
+snowfin/client.py,sha256=wrGeqpY1FWhDSr7YFZ_PJt8RKuvTVwdcjCJcSovdXDE,23069
+snowfin/color.py,sha256=fx39w4DisqjcMrt0YSJy2czzLh3N502EkHdZtN5vaos,1096
+snowfin/components.py,sha256=Y1bqibzc4fpoEnc2NzYtR9QCGgp6n3sjgN4cjGJ237g,11057
+snowfin/decorators.py,sha256=8d-y6FI10_WI_S-lNFxckqGacObCRxZb1N2S1aExZe4,11701
+snowfin/embed.py,sha256=Qkb2Dkw7prdAqSNrCGMVsghcrRLavUt91az5uQmpBEM,2311
+snowfin/enums.py,sha256=LzlWSiLegfIvhr3qWqFX7Dks13dXxchAPHl1SRL0iD0,4743
+snowfin/errors.py,sha256=lc3Lt37EbqcBC6TCGKfPCa4SRhL5NuM5yOiWVm0AIAA,872
+snowfin/http.py,sha256=qTk-eSw5E62ZJ4V0kT5V1oO0tWIXAAg_pcZ9jhIO3iw,11550
+snowfin/models.py,sha256=I6n8CZJPBbgQrDDsLMzAkn_5GiA5vBgE9xgs9SCuY_U,7304
+snowfin/module.py,sha256=X2f_uSkHtDhgVW4rGVqB3Pupcx78HxCAcPi0yO5lPlQ,1656
+snowfin/response.py,sha256=33Sq88qM6GrrPOhTUldnMLAtop-_0MUoSLwbprU-93Q,6176
+snowfin-0.1.0.dist-info/LICENSE,sha256=Ry-PM1hDYQNxmd_V8IIfrOCSz9ctKCum5x2bn9J5RFA,1060
+snowfin-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+snowfin-0.1.0.dist-info/METADATA,sha256=AcdrDrWmYHwMw31Q4YfRb4brYtre518bXiD6j9--I-8,387
+snowfin-0.1.0.dist-info/RECORD,,
