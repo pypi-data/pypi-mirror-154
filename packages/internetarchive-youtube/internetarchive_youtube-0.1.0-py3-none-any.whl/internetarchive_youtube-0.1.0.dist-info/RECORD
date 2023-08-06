@@ -1,0 +1,11 @@
+internetarchive_youtube/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+internetarchive_youtube/archive_youtube.py,sha256=_oz8CKY3ZLXfE2os31qB_Db37IWhP5C7W8b-Zc3B-0Y,8953
+internetarchive_youtube/clean_name.py,sha256=ogOtsOOF-2FqW5xr2rH8c2H2RSIOxcCx4O_hB9QjXDE,752
+internetarchive_youtube/cli.py,sha256=LGeerk9bmZNfqa_BHzG9Y0Q9dMO1FCmBxsUKfL4PxOA,5954
+internetarchive_youtube/create_collection.py,sha256=8-4oBu6sO-icsiGuY3C-byFmZrlhIt_R0Vmts36aZ_s,5710
+internetarchive_youtube/handlers.py,sha256=8CgVusbQS7jE3pdCKIxwsglVNDyA6sXm3a5w0xqnhYk,289
+internetarchive_youtube/jsonbin_manager.py,sha256=rLY-3N6HOR0bDp1oCjPHV3GaPshXX28dv6bk0GN8tk0,2648
+internetarchive_youtube-0.1.0.dist-info/entry_points.txt,sha256=T0EO7WWIZsuFMrsGPjZ0-CYWXLNp4uOuwE0VkBxQxvs,209
+internetarchive_youtube-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+internetarchive_youtube-0.1.0.dist-info/METADATA,sha256=u6LO4mMMaaHVkhJmFYDmgUAFRd-tXt34WWtqXc-GAG8,5805
+internetarchive_youtube-0.1.0.dist-info/RECORD,,
