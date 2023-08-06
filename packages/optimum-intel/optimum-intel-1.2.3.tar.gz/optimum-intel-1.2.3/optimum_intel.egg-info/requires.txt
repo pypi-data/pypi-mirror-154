@@ -1,0 +1,11 @@
+optimum
+transformers>=4.17.0
+datasets
+torch
+sentencepiece
+scipy
+neural_compressor
+
+[tests]
+pytest
+parameterized
