@@ -1,0 +1,10 @@
+numpy
+sklearn
+functools
+multiprocessing
+os
+decimal
+warnings
+sys
+time
+pyod.models

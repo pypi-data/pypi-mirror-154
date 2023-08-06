@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+src/unavoids/__init__.py
+src/unavoids.egg-info/PKG-INFO
+src/unavoids.egg-info/SOURCES.txt
+src/unavoids.egg-info/dependency_links.txt
+src/unavoids.egg-info/requires.txt
+src/unavoids.egg-info/top_level.txt
+src/unavoids/unavoids/__init__.py
+src/unavoids/unavoids/unavoids.py
