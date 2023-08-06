@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+registtro.py
+setup.cfg
+setup.py
+tox.ini
+registtro.egg-info/PKG-INFO
+registtro.egg-info/SOURCES.txt
+registtro.egg-info/dependency_links.txt
+registtro.egg-info/top_level.txt
