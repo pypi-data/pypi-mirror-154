@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nabPy
+Version: 0.1.0
+Summary: Python Library for the Nab Experiment
+Home-page: UNKNOWN
+Author: David Mathews
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: dask
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pyFFTW
+Requires-Dist: scipy
+
+UNKNOWN
+
