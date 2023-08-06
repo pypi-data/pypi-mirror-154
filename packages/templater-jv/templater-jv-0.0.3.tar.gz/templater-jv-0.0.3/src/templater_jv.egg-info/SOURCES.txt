@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/templater-jv/__init__.py
+src/templater-jv/template.py
+src/templater-jv/templater.py
+src/templater-jv/variables.py
+src/templater_jv.egg-info/PKG-INFO
+src/templater_jv.egg-info/SOURCES.txt
+src/templater_jv.egg-info/dependency_links.txt
+src/templater_jv.egg-info/top_level.txt
