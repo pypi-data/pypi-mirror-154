@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pipuck
+Version: 0.0.1
+Summary: Pi-puck robot Python library
+Home-page: https://github.com/yorkrobotlab/pi-puck
+Author: Russell Joyce
+Author-email: russell.joyce@york.ac.uk
+Project-URL: Bug Tracker, https://github.com/yorkrobotlab/pi-puck/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pi-puck Python Library
+
+This package contains a library for controlling the Pi-puck robot platform from Python.
+
+See https://github.com/yorkrobotlab/pi-puck for more information on the Pi-puck, as well as additional details about the files contained in this package.
