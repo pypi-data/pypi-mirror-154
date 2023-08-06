@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: timeout-function-decorator
+Version: 0.1.0
+Summary: Placeholder
+Home-page: https://github.com/MatteoH2O1999/timeout_decorator
+Author: MatteoH2O1999
+Author-email: dellacqua.matteo99@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MatteoH2O1999/timeout_decorator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# timeout_decorator
+
+[![PyPI version](https://badge.fury.io/py/timeout-function-decorator.svg)](https://badge.fury.io/py/timeout-function-decorator)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/timeout-function-decorator)
+![PyPI - License](https://img.shields.io/pypi/l/timeout-function-decorator)
+[![Test package](https://github.com/MatteoH2O1999/timeout_decorator/actions/workflows/test.yml/badge.svg)](https://github.com/MatteoH2O1999/timeout_decorator/actions/workflows/test.yml)
+[![Release package](https://github.com/MatteoH2O1999/timeout_decorator/actions/workflows/release.yml/badge.svg)](https://github.com/MatteoH2O1999/timeout_decorator/actions/workflows/release.yml)
+[![codecov](https://codecov.io/gh/MatteoH2O1999/timeout_decorator/branch/main/graph/badge.svg?token=MV9PYET185)](https://codecov.io/gh/MatteoH2O1999/timeout_decorator)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
