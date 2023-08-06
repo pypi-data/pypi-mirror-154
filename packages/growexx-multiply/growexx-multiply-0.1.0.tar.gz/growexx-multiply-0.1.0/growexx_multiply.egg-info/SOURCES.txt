@@ -1,0 +1,8 @@
+README.md
+setup.py
+growexx_multiply/__init__.py
+growexx_multiply/multiplication.py
+growexx_multiply.egg-info/PKG-INFO
+growexx_multiply.egg-info/SOURCES.txt
+growexx_multiply.egg-info/dependency_links.txt
+growexx_multiply.egg-info/top_level.txt
