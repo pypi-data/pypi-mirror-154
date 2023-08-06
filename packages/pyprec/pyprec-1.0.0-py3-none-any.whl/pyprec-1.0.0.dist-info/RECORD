@@ -1,0 +1,17 @@
+pyprec/__init__.py,sha256=9zAE9LDtlatJjI_-yb0iRWMyyp_dpOKaVhSMkFDyD0w,165
+pyprec/export.py,sha256=QwzyaKR44J1eacbV2DuSp-isAL3crFOSO_6Tnd1UIow,3848
+pyprec/pyexporter.py,sha256=XSHCTmf-0i5aR47OB0xMDtOX2DD0PGD5SKQrJLNomvE,2293
+pyprec/ui.py,sha256=Zbbzof4phOWyN7bIU8vJ0MhtYZeiXjVmqq2zDGhp_zc,4614
+pyprec/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprec/scripts/pyprec.py,sha256=KATGrPuymGX9mJ9pCKGW8KxegO8mQ-QMN1PJl7lU1Us,1525
+pyprec/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprec/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyprec/utils/ask_question.py,sha256=ms1I-i_HNFJC7Zr7kix2UmPb9JHgwZ6l7r6OkM5bRpE,2774
+pyprec/utils/configlog.py,sha256=akTeWGdFpXmMPwlbZr9lzEz2BxY27nmk76oaCAE1MwI,1025
+pyprec/utils/utils.py,sha256=ymlEX1oqSAYVfmdj1rJU6xVuQ5sm5gXPp-oEt6tjJak,6861
+pyprec-1.0.0.dist-info/LICENSE,sha256=aNp_UCFJn4Z7vLP291vvcOEPJI0BXQjqX3G_8EZj0tQ,1068
+pyprec-1.0.0.dist-info/METADATA,sha256=V5t4ZgWcAQ9wPBi9dUEde5jLHxfyYwQBAdPR0fi63uU,1995
+pyprec-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyprec-1.0.0.dist-info/entry_points.txt,sha256=4GKHZeCDR4Hx7r001GnKjsEGDv1Inn6_dCmZEm9IGYw,54
+pyprec-1.0.0.dist-info/top_level.txt,sha256=Am4lBnNLmdVcuzgOXQCLsytHHwKvqSqtPLG4jSpfAxU,7
+pyprec-1.0.0.dist-info/RECORD,,
