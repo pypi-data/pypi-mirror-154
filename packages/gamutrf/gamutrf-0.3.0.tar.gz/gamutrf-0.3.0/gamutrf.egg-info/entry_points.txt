@@ -1,0 +1,4 @@
+[console_scripts]
+gamutrf-api = gamutrf.__main__:api
+gamutrf-compass = gamutrf.__main__:compass
+
