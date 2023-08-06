@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: domacc
+Version: 0.1
+Summary: Domestic accounting python package
+Home-page: http://gitlab.com/pepe.bari/domacc
+Author: Pepe Bari
+Author-email: pepe.bari@gmail.com
+License: MIT
+Requires-Dist: pandas
+
