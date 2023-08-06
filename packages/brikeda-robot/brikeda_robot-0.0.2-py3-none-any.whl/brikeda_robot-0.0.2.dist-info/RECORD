@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/brikeda_robot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/brikeda_robot/robot.py,sha256=72PTrL6TY0fUmJDBQ-C70jgGArtb6SqOiNteHyGGMLI,164
+src/brikeda_robot/test.py,sha256=cYtmDJ7891Z9gqQ2PXnF7VN_BkdtJgK_tmFYY8PcxQM,93
+brikeda_robot-0.0.2.dist-info/LICENSE,sha256=hBH1b4qDnf5H3Ox7nLu9XeVVciJ8Qk574a4tYSoSl1Y,1073
+brikeda_robot-0.0.2.dist-info/METADATA,sha256=HIIYRYROUtKLNtuyOGOXeX7HG2k8MD_dOQZaTf9C6pc,1205
+brikeda_robot-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+brikeda_robot-0.0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+brikeda_robot-0.0.2.dist-info/RECORD,,
