@@ -1,0 +1,2 @@
+[console_scripts]
+make-dot = heimer_tools.make_dot:main
