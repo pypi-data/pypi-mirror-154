@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SplitMovieAIYC.egg-info/PKG-INFO
+src/SplitMovieAIYC.egg-info/SOURCES.txt
+src/SplitMovieAIYC.egg-info/dependency_links.txt
+src/SplitMovieAIYC.egg-info/top_level.txt
