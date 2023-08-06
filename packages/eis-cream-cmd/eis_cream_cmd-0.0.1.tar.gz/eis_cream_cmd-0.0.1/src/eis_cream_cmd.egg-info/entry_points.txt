@@ -1,0 +1,2 @@
+[console_scripts]
+ec = eis_cream.eis_cream:main
