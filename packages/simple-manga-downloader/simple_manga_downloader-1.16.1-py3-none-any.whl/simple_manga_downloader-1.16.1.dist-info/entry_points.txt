@@ -1,0 +1,4 @@
+[console_scripts]
+SMD = simple_manga_downloader.SMD:main
+smd = simple_manga_downloader.SMD:main
+
