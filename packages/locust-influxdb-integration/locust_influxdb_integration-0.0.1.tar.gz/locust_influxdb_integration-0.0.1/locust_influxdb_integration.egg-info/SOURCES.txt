@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+locust_influx_integration/__init__.py
+locust_influxdb_integration.egg-info/PKG-INFO
+locust_influxdb_integration.egg-info/SOURCES.txt
+locust_influxdb_integration.egg-info/dependency_links.txt
+locust_influxdb_integration.egg-info/requires.txt
+locust_influxdb_integration.egg-info/top_level.txt
