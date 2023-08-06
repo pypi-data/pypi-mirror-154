@@ -1,0 +1,16 @@
+aprs/__init__.py,sha256=jXcywFTvsKq5XQBG5vPE11rDr46CjB8Kk49IIzAh5BU,2111
+aprs/aprsis.py,sha256=nZx24Le5V4HXzL5b6RGnztu2aqUPg6502Fzo5fD_J2k,4480
+aprs/base91.py,sha256=gjJbdh-kBfIsLTEy5fkTPEIQs0fPjZCSUuwEMzMx3h4,2335
+aprs/classes.py,sha256=VDFFHNHGVQ3g4I9eKC_qHLGcPocrpL4x8bE84emg7EY,11168
+aprs/constants.py,sha256=HhnRFrESZdTiLOBuQIKz9yrGYyOUiVtXvifggaTyfCQ,1126
+aprs/data_ext.py,sha256=9c7-vJkE-eja8DIoL6jMMad6QMMKPCmR2dkWukVnUMk,6051
+aprs/decimaldegrees.py,sha256=LpynPZ70zl_CdUiTrs8wjlSsOVIMwscihPNqcdH7Akk,4966
+aprs/geo_util.py,sha256=7hCqb1tu-qwfdme-JaOJSAely85QD__4bkzchZm2y2I,2712
+aprs/kiss.py,sha256=ZsPMeuXP9srogeMk3QKkJLVqUTEg2Xbfh0zr7rBaC4U,1683
+aprs/position.py,sha256=l441zliW-O_-tZTKPmhrHhs8dCrqzvU1Q7ed5Akf29g,8629
+aprs/timestamp.py,sha256=IJUH5mk9DYlo_3_SaGXi5sBx_dxGg79wNfoiyVJD9Ms,3846
+aprs3-8.0.0.post1.dist-info/LICENSE,sha256=TFbFL7ADX9hEchOk6eNHxETzs1EdhuGTa-w8o21P4QQ,571
+aprs3-8.0.0.post1.dist-info/METADATA,sha256=Du7us4Lbu39nwij08XD5vzx-PiE5JESTftn8GYMp2VA,7496
+aprs3-8.0.0.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aprs3-8.0.0.post1.dist-info/top_level.txt,sha256=PkVmEBdyuhHwvgBIRYKjbH3synnMQ00SctAm16dlFA4,5
+aprs3-8.0.0.post1.dist-info/RECORD,,
