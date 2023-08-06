@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xptcleaner
+Version: 0.0.1
+Summary: CDISC SEND xpt (SAS v5 Transport format) files cleaner
+Home-page: https://github.com/phuse-org/sendigR/tree/main/python/XPTcleaner
+Download-URL: https://github.com/phuse-org/sendigR/tree/main/inst/python
+Author: Brianna Paisley, Wenxian Wang
+Author-email: paisley_brianna_meadow@lilly.com, wenxian.wang@bms.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: pyreadstat
+
+README.md
