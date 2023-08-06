@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+eminusmap.egg-info/PKG-INFO
+eminusmap.egg-info/SOURCES.txt
+eminusmap.egg-info/dependency_links.txt
+eminusmap.egg-info/requires.txt
+eminusmap.egg-info/top_level.txt
