@@ -1,0 +1,2 @@
+recursive-include avocadopml/data *
+global-exclude *.pyc
