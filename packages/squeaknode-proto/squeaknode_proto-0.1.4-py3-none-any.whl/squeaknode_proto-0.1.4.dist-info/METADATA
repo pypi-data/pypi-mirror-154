@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: squeaknode-proto
+Version: 0.1.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: docutils (==0.17.1)
+Requires-Dist: googleapis-common-protos (==1.53.0)
+Requires-Dist: grpcio (==1.44.0)
+Requires-Dist: grpcio-tools (==1.44.0)
+Requires-Dist: protobuf (==3.17.3)
+
+UNKNOWN
+
