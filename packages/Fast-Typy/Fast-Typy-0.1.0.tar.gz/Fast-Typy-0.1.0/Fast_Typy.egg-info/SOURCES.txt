@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+Fast-Typy/__init__.py
+Fast-Typy/constants.py
+Fast-Typy/game.py
+Fast-Typy/main.py
+Fast-Typy/utils.py
+Fast_Typy.egg-info/PKG-INFO
+Fast_Typy.egg-info/SOURCES.txt
+Fast_Typy.egg-info/dependency_links.txt
+Fast_Typy.egg-info/top_level.txt
