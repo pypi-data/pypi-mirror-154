@@ -1,0 +1,9 @@
+README.md
+setup.py
+quotescli/__init__.py
+quotescli/quotespy.py
+quotescli.egg-info/PKG-INFO
+quotescli.egg-info/SOURCES.txt
+quotescli.egg-info/dependency_links.txt
+quotescli.egg-info/requires.txt
+quotescli.egg-info/top_level.txt
