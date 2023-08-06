@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.1.0
+-----
+
+* Setup packaging
+* Put DEBUG and VERBOSE under pidet/\_\_init\_\_.py
+* Initial code commit
+* Initial commit
