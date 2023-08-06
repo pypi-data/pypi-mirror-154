@@ -1,0 +1,16 @@
+octoprint==1.8.1
+cryptography>=3.4.7
+pytz
+aiohttp[speedups]>=3.7.4
+printnanny-api-client==0.78.3
+backoff>=1.10.0
+
+[:python_version < "3.8"]
+typing_extensions
+
+[dev]
+pytest
+pytest-cov
+pytest-mock
+pytest-asyncio
+twine
