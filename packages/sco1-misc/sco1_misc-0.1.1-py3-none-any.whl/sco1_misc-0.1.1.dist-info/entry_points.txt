@@ -1,0 +1,3 @@
+[console_scripts]
+csvdatetrim=sco1_misc.csv_date_trim:trim_cli
+
