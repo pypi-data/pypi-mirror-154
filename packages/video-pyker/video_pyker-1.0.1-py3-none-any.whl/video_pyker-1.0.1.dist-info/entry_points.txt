@@ -1,0 +1,2 @@
+[console_scripts]
+video-pyker = video_pyker.__main__:main
