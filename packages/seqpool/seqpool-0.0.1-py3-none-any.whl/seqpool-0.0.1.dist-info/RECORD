@@ -1,0 +1,9 @@
+seqpool/__init__.py,sha256=svnniSzWvk_5A7glh-VN9KhawygJ27THJbUZW4hA-tA,58
+seqpool/cvt.py,sha256=WmFZoj3f48eLT1Gm0R2cvfM2_QUNZ_29MjZt_pqjZMc,1016
+seqpool/mean.py,sha256=Esazs7tfa6Qvxel9LEpIRdDxNUAYKChl0q4zesFKTxc,239
+seqpool/utils.py,sha256=ubECd6k7GngAnX-RXTbaSWOZoIPUJXBN1opMhXSNHzw,228
+seqpool-0.0.1.dist-info/LICENSE,sha256=AMY9KMLJhet6Dd66ZOmpAwMvAmzE3PvioP5WogARojw,1070
+seqpool-0.0.1.dist-info/METADATA,sha256=VMgFdENJly4dRRn26P0mS14OoHnWB_aYG2faeFL5wOk,2413
+seqpool-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+seqpool-0.0.1.dist-info/top_level.txt,sha256=r4IeV6IYPXHrCGkUIN1xJopHBkOblw3WPUfHo-qx5PE,8
+seqpool-0.0.1.dist-info/RECORD,,
