@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/projen_types/__init__.py
+src/projen_types/py.typed
+src/projen_types.egg-info/PKG-INFO
+src/projen_types.egg-info/SOURCES.txt
+src/projen_types.egg-info/dependency_links.txt
+src/projen_types.egg-info/requires.txt
+src/projen_types.egg-info/top_level.txt
+src/projen_types/_jsii/__init__.py
+src/projen_types/_jsii/projen-types@0.1.6.jsii.tgz
