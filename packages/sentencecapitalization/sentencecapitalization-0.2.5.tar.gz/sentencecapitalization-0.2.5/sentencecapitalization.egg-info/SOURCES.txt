@@ -1,0 +1,5 @@
+setup.py
+sentencecapitalization.egg-info/PKG-INFO
+sentencecapitalization.egg-info/SOURCES.txt
+sentencecapitalization.egg-info/dependency_links.txt
+sentencecapitalization.egg-info/top_level.txt
