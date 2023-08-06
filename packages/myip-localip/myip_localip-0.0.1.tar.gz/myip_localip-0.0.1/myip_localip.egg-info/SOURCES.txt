@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+myip/__init__.py
+myip/main.py
+myip_localip.egg-info/PKG-INFO
+myip_localip.egg-info/SOURCES.txt
+myip_localip.egg-info/dependency_links.txt
+myip_localip.egg-info/entry_points.txt
+myip_localip.egg-info/requires.txt
+myip_localip.egg-info/top_level.txt
