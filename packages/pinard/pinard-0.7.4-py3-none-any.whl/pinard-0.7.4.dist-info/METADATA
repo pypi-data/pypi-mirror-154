@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pinard
+Version: 0.7.4
+Summary: Pinard: a Pipeline for Nirs Analysis ReloadeD.
+Home-page: https://github.com/gbeurier/pinard
+Author: Gregory Beurier
+Author-email: beurier@cirad.fr
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 10.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tensorflow
+Requires-Dist: PyWavelets
+Requires-Dist: typing
+Requires-Dist: dataclasses
+Provides-Extra: bin
+Requires-Dist: returns-decorator ; extra == 'bin'
+Provides-Extra: ci
+Requires-Dist: returns-decorator ; extra == 'ci'
+Requires-Dist: pytest (>=4) ; extra == 'ci'
+Requires-Dist: pytest-cov (>=2) ; extra == 'ci'
+Requires-Dist: python-coveralls ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: returns-decorator ; extra == 'dev'
+Requires-Dist: pytest (>=4) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2) ; extra == 'dev'
+Provides-Extra: math
+Requires-Dist: returns-decorator ; extra == 'math'
+Provides-Extra: test
+Requires-Dist: returns-decorator ; extra == 'test'
+Requires-Dist: pytest (>=4) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2) ; extra == 'test'
+
