@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "poetry-demo1507"
+version = "0.1.0"
+description = ""
+authors = ["Sarang Mulewa <sarangmulewa1us@gmail.com>"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+#[[tool.poetry.source]]
+#name = "pypi"
+#url = "https://pypi.org/user/sarangmulewa/"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/sarangmulewa/poetry-demo/issues"
+
+[tool.poetry.extras]
+pandas = ["pandas>=0.24.2"]
+
+[tool.poetry.scripts]
+publish = "poetry_demo.main:add"
