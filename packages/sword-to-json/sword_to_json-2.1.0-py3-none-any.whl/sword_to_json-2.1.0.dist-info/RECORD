@@ -1,0 +1,10 @@
+sword_to_json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sword_to_json/__main__.py,sha256=_epGpyZqagwmeFvUokIpvf5SiY04ZNs7YApnvdQvgt0,951
+sword_to_json/books_from_sword.py,sha256=Wms0zxv-fgTLTMJ-8nuoS01gLxYOGr0BiGQTY1pjIf8,1344
+sword_to_json/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sword_to_json/utils/progress.py,sha256=NbKwkjAUkT1helRBHya6C-6FESp85c6PuusENLjMhtU,499
+sword_to_json-2.1.0.dist-info/entry_points.txt,sha256=dhtJaI2Knh-nfcK8R61sNIEOqkV_8Pg_LRDCKBqF1As,61
+sword_to_json-2.1.0.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+sword_to_json-2.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sword_to_json-2.1.0.dist-info/METADATA,sha256=A1EgwnUdgRwJgpoTZXilBtmEGSTOCFNasYH2MFwzowo,2712
+sword_to_json-2.1.0.dist-info/RECORD,,
