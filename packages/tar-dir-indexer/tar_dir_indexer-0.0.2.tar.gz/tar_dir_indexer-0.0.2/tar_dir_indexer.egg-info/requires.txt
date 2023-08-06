@@ -1,0 +1,6 @@
+numpy>=1.17.4
+anytree
+Pillow
+scikit-image
+tqdm
+simplejpeg
