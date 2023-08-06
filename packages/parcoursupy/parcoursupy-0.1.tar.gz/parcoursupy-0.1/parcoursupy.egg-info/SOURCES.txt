@@ -1,0 +1,9 @@
+README.md
+setup.py
+parcoursupy/__init__.py
+parcoursupy/parcoursupAPI.py
+parcoursupy.egg-info/PKG-INFO
+parcoursupy.egg-info/SOURCES.txt
+parcoursupy.egg-info/dependency_links.txt
+parcoursupy.egg-info/requires.txt
+parcoursupy.egg-info/top_level.txt

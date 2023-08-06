@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: parcoursupy
+Version: 0.1
+Summary: Un python API wrapper pour Parcoursup
+Home-page: https://www.github.com/Bapt5/parcoursupy
+Author: Bapt5
+License: MPL2.0
+Requires-Python: >=3.7
