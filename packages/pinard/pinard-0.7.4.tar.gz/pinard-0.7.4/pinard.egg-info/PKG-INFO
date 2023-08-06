@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pinard
+Version: 0.7.4
+Summary: Pinard: a Pipeline for Nirs Analysis ReloadeD.
+Home-page: https://github.com/gbeurier/pinard
+Author: Gregory Beurier
+Author-email: beurier@cirad.fr
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 10.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Provides-Extra: math
+Provides-Extra: bin
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: ci
