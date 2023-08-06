@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lxd-exporter
+Version: 0.4.7
+Summary: UNKNOWN
+Home-page: https://github.com/mosquito/lxd-exporter
+Author: Dmitry Orlov
+Author-email: me@mosquito.su
+License: Apache Software License
+Project-URL: Source, https://github.com/mosquito/lxd-exporter/
+Project-URL: Tracker, https://github.com/mosquito/lxd-exporter/issues
+Project-URL: Say Thanks!, https://saythanks.io/to/mosquito
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8.*, <4
+Requires-Dist: aiomisc (~=16.0)
+Requires-Dist: aiohttp (~=3.8)
+Requires-Dist: argclass (~=0.8)
+
+UNKNOWN
+
+
