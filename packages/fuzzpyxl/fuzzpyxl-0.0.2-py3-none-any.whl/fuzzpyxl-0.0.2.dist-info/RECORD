@@ -1,0 +1,16 @@
+fuzzpyxl/__init__.py,sha256=qhlqaMgjLyP7ig7pLOCZNMK-Qn_g7f6vNjBGacNCkGo,74
+fuzzpyxl/cell_compare/__init__.py,sha256=7Z8s2sntmuBbq7YwWLTZ76IwN7lds-fhfZFg2feYXtM,161
+fuzzpyxl/cell_compare/alignment.py,sha256=rZ1jYaP8qUNFffwd2Xo-oXn1tecyE6-jGgjC2qnNvcs,1046
+fuzzpyxl/cell_compare/base.py,sha256=PNRJL57F9Zk6XPcaLJ63PjgkR0dZEgh3d67bH8kpCec,4412
+fuzzpyxl/cell_compare/border.py,sha256=yOjfZC3_PxnJFQ4MWTTLuYmYHGMNlPSn8ObEQkzetl8,1642
+fuzzpyxl/cell_compare/color.py,sha256=N-x0ZtH2Xdx9gve1RILObhHPM81lpnMl1Awasw9Z7HY,1593
+fuzzpyxl/cell_compare/data_type.py,sha256=xFMb1eIFP3t88L63Va7Rj2Zx_R552bueAXmPi8b6Cng,427
+fuzzpyxl/cell_compare/font.py,sha256=9Bxp9lNrmcPpfjUMH1m-XtC17Hksjnva6yTyNETrqD8,874
+fuzzpyxl/cell_compare/value.py,sha256=008V-cidawmeZ1NE3MnYzSgnUCaUJTmVfe_tZzzaTWY,992
+fuzzpyxl/finder.py,sha256=mNmR0kdV91nrRfHb-poM9FZqJpe_kROLKaZFxgWSEiE,8192
+fuzzpyxl/utils/__init__.py,sha256=8AeaXR8tCe_m_udDlCc00aXv37mqgbVw58Fx-rjn2wo,28
+fuzzpyxl/utils/color_utils.py,sha256=WwldVlmwZlZ39VxlCJ5tARXc0dctoh6Cghe9-7pw5Hw,6996
+fuzzpyxl-0.0.2.dist-info/entry_points.txt,sha256=Vq9sdpUbIKhWbRflCncztAxo5u5AFnA_0joxa2zVm_s,203
+fuzzpyxl-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fuzzpyxl-0.0.2.dist-info/METADATA,sha256=ZdoDf_3cMTqqvcOy0NSzqGLjKuhIaSnmVjD1CWYlnx0,686
+fuzzpyxl-0.0.2.dist-info/RECORD,,
