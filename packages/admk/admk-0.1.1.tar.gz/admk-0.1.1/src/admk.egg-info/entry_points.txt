@@ -1,0 +1,3 @@
+[console_scripts]
+admk = admk.cli:main
+
