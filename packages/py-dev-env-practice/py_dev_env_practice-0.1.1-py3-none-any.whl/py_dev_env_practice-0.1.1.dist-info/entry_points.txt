@@ -1,0 +1,3 @@
+[console_scripts]
+run=py_dev_env_practice.main:main
+
