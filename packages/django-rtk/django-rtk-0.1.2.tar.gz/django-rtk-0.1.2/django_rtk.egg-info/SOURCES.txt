@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+django_rtk.egg-info/PKG-INFO
+django_rtk.egg-info/SOURCES.txt
+django_rtk.egg-info/dependency_links.txt
+django_rtk.egg-info/not-zip-safe
+django_rtk.egg-info/requires.txt
+django_rtk.egg-info/top_level.txt
