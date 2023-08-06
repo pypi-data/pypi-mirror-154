@@ -1,0 +1,13 @@
+aiocli/__init__.py,sha256=7NibY21w0r-moYcBRHYRmLVRI-xD5JQARWezwmwfX88,74
+aiocli/commander.py,sha256=fE2yfKK7y7_ejdGs-1NfyDf-SKJeFmfdzByDIJQeMm4,4831
+aiocli/commander_app.py,sha256=BOIutZ58jhf5un0A8eP2DTipG64DjjYNNLIe-207arE,19321
+aiocli/commander_app_wrappers.py,sha256=hs_rWfT4hDYn3kx6LqbGxc9Ra6j1c68RNi5RfN9nTDA,1099
+aiocli/helpers.py,sha256=MIimKwxWu9zCT-cNUfakd5O1VqunHPaoa2bhc-dEKS4,854
+aiocli/logger.py,sha256=AkUQcMc640AqjONhEbkteD9dTM2JHBc64cWsiMZLKJk,60
+aiocli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocli/test_utils.py,sha256=coKP2cdXcln5wB-9-n7y6kj5M6teTlnvKSbeY6CmGLs,2714
+aiocli-1.6.8.dist-info/LICENSE,sha256=A_9wn8BkgRKihoBHXhefSVbdAGws62qGp0tQ_XRBD6Y,1069
+aiocli-1.6.8.dist-info/METADATA,sha256=J0wMxavYRod3fOTUyLxx70llVK0iKp12Qpk7lSHLJwY,4572
+aiocli-1.6.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiocli-1.6.8.dist-info/top_level.txt,sha256=IriPoWRk_gjGKBTTpn9lNR8TY4nhFIrKoka1GKcs84s,7
+aiocli-1.6.8.dist-info/RECORD,,
