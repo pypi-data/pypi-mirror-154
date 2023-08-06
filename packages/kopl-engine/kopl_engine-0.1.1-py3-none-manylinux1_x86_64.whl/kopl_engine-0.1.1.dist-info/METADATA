@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kopl-engine
+Version: 0.1.1
+Summary: Knowledge oriented Programing Language
+Home-page: https://github.com/ShulinCao/KoPLEngine
+Author: THU KEG
+Author-email: 
+License: UNKNOWN
+Project-URL: Documents, https://kopl.xlore.cn/doc/
+Platform: manylinux1_x86_64
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm (>=4.62)
+
+UNKNOWN
+
