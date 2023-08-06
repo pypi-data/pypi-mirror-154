@@ -1,0 +1,15 @@
+civiq6/__init__.py,sha256=VlHu20enEQElKlYRJpdNou8wYwK9i7G43rSI_6j_CS8,805
+civiq6/camera.py,sha256=wj-V66vELOC31WvDHJIgH9MEiBKQg2bdc-BPYUI2RNA,8295
+civiq6/capture.py,sha256=kSaK79SeM30qjLOiR6O0tnXivV-7BkXGn8R1xhBbw-I,16733
+civiq6/devices.py,sha256=NCUw-oODSvgKA503o5kMv5N42rmNGaMcpDG71F1afGA,5570
+civiq6/dynqt6.py,sha256=i3PQDsd5dKuyqbnB7k-OsuyzhvLqFXtr_JulonEcDDQ,523
+civiq6/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+civiq6/version.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+civiq6/vimbarunner.py,sha256=Yz8C2N5ma1yDJENuBtCl-jFLLyEOELwfnzDD7TMgOjw,3282
+civiq6/examples/videoprocess/videoprocess.py,sha256=j_q-uqGeCf3-MYtobCYmHxQmiLl0iBIGsu6UaDBNS4Y,3894
+civiq6/examples/videostream/videostream.py,sha256=22WiadGvXWAs8pT5JK6uZQ9f3sAfhStqZWEh-EDbkP8,2404
+civiq6-0.1.0.dist-info/LICENSE,sha256=f_QuarvfCWPFFFKKbsQ9ImazOAMukhW7tcQWSeX6Dfc,1340
+civiq6-0.1.0.dist-info/METADATA,sha256=RmY2-Bg1MLgg2yVW_qGjEOLcqHAVb12fiwFWevbuO3I,4149
+civiq6-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+civiq6-0.1.0.dist-info/top_level.txt,sha256=Ep9GBbRRKoDMOrZ3yOP0tUPlukNAor7yv7SD6kn6-7s,7
+civiq6-0.1.0.dist-info/RECORD,,
