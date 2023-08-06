@@ -1,0 +1,2 @@
+numpy>=1.13
+factorio-draftsman>=0.9.5
