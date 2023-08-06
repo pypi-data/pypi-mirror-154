@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: plover-ninja
+Version: 0.0.1
+Summary: A Plover plugin that uses stroke data to make practice suggestions and show writing statistics
+Home-page: https://github.com/jladdjr/plover-ninja
+Author: Jim Ladd
+Author-email: jladdjr@gmail.com
+License: UNKNOWN
+Project-URL: Changelog, https://github.com/jladdjr/plover-ninja/blob/main/NEWS.md
+Project-URL: Bug Tracker, https://github.com/jladdjr/plover-ninja/issues
+Project-URL: Source Code, https://github.com/jladdjr/plover-ninja
+Description: # plover-ninja
+        
+        ![Ninja Dolores](/images/dolores-ninja.png "Dolores Ninja")
+        
+        ## What the ninja can do for you
+        
+        Suppose you're steno-ing away and you come across a tricky word.
+        
+        - Maybe the translation is hard to remember
+        - Maybe the hand shape is hard to form
+        - Maybe you can't remember the translation at all and you need to fingerspell
+        
+        It's okay, this happens, and you can keep moving, but you also have this nagging feeling that you'd like to try to capture that word so you can revisit it later and smooth out the speed bump.
+        
+        - You could pause to write down the word, but this can interrupt your flow
+        - You can ignore the word, but then you risk bumping into the same bump over and over
+        
+        If only there was something that could see this practice opportunity for you and squirrel away that information so that you could come back to it later...
+        
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
