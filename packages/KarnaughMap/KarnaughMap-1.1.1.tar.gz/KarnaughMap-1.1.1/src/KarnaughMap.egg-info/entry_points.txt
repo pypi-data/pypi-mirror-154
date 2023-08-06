@@ -1,0 +1,3 @@
+[console_scripts]
+KMap = KMap.cli:cli
+KMapGUI = KMap.GUI_CLI:cli
