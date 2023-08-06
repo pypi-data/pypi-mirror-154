@@ -1,0 +1,13 @@
+skipgrammar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skipgrammar/datasets/__init__.py,sha256=gHRv7L_579S0ICpmNz0Ck28H2ld3XVNpWpkHECych3k,412
+skipgrammar/datasets/common.py,sha256=mKDjog9WZtsFvBwjOzawLsnNcQR0a1W0i2fxLDyuzAM,21069
+skipgrammar/datasets/lastfm.py,sha256=oaGJTSA9zjKFA8A6nMdHHsEofUyYIs56OYthO1HkR7g,5230
+skipgrammar/datasets/movielens.py,sha256=gX2Fl8hHIJdOvD0lyopPS0QOtLXzE06nYSzNEUneyu8,7607
+skipgrammar/models/__init__.py,sha256=KFLPYHOSROKNHs1P0mNlHhns2HZ5FgDePUlhShL90dI,77
+skipgrammar/models/lightning/__init__.py,sha256=ZDXnj2tyvPY_mnGqgyY7PCvT7ngQhgVl2l9TRGACoZc,31
+skipgrammar/models/lightning/sgns.py,sha256=Qt_X8LJrU6ohAELKkdA6TRkufaouRutdrj2Prcu34tU,3478
+skipgrammar/models/sgns.py,sha256=S9e_gHGRDcDQMLWZGtrbhfk9OXM90hmFSlMi5QOiStU,3389
+skipgrammar-0.1.2.dist-info/LICENSE,sha256=UkzJZLG_mtLu-sJ66N4TbnekxlsIDlblj5ku1yDpXno,1073
+skipgrammar-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+skipgrammar-0.1.2.dist-info/METADATA,sha256=8OwNL9PPq5EsfTE8fXjWOBySQDa7_0gzI_bJ9oQlldI,2477
+skipgrammar-0.1.2.dist-info/RECORD,,
