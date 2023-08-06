@@ -1,0 +1,12 @@
+/target
+Cargo.lock
+.*.swp
+*.pyc
+*.tmp
+/dist
+/build
+/*.egg-info
+/docs/_build/*
+*.so
+*.dll
+*.lib
