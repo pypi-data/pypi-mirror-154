@@ -1,0 +1,14 @@
+aws_iam_utils/__init__.py,sha256=68JRUGhmD0HOYHbCz6BQkkh-uJKrqIlOX5qM0OaJkxI,204
+aws_iam_utils/action_data_overrides.py,sha256=aCR9bKHPSFsCBNNuCQ67HHcyL8YVZXVtTDtaDUjpNYQ,1371
+aws_iam_utils/checks.py,sha256=I8O7dzF7vlCqN5FeG9leF6nAyzVNEHon62yQxmZOfeU,4008
+aws_iam_utils/combiner.py,sha256=ft3959dXurBcQL8oiOpLYO4cJYm0D9ARo1584VEq-zA,2423
+aws_iam_utils/constants.py,sha256=9kGppSwJfCsJmonQs8C1NfaIVIg03vKtUS5ng5Yx-7o,408
+aws_iam_utils/generator.py,sha256=GkVab18hTuuZl_tQk7-kVwok8e1tdmJWU93k-rjXE7E,7531
+aws_iam_utils/policy.py,sha256=UjzKQ662u_6LkqAEbR1oAF7DaWQ2WOlMvY_CB7JCAUQ,2328
+aws_iam_utils/simplifier.py,sha256=M-IEuINlS6X77cxoajXekdMsGftmxS2siQrmpQ2c1oI,738
+aws_iam_utils/util.py,sha256=1fru9PgCyZNbnB2n2SFQl7Kycn2d9Vv90t65J6mpcAg,4809
+aws_iam_utils-1.7.0.dist-info/LICENSE,sha256=7_xOqUdIpwZ3k3p428rkLU7bci15kb0TewQ17VrGT-4,1078
+aws_iam_utils-1.7.0.dist-info/METADATA,sha256=r0v1jf2bmOvC3sSofykTAMugQDDiQpSheNLIgyA99lQ,9884
+aws_iam_utils-1.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_iam_utils-1.7.0.dist-info/top_level.txt,sha256=hf9bb73stb2EzSdvVGL33Q_d5Fo68wIClXRWqEfzN1w,14
+aws_iam_utils-1.7.0.dist-info/RECORD,,
