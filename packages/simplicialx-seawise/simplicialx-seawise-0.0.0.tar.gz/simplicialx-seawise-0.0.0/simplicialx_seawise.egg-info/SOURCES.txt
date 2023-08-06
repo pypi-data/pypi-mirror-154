@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+simplicialx/__init__.py
+simplicialx_seawise.egg-info/PKG-INFO
+simplicialx_seawise.egg-info/SOURCES.txt
+simplicialx_seawise.egg-info/dependency_links.txt
+simplicialx_seawise.egg-info/top_level.txt
