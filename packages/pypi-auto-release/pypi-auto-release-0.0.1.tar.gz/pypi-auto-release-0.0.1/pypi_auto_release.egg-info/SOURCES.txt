@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pypi-auto-release/__init__.py
+pypi_auto_release.egg-info/PKG-INFO
+pypi_auto_release.egg-info/SOURCES.txt
+pypi_auto_release.egg-info/dependency_links.txt
+pypi_auto_release.egg-info/requires.txt
+pypi_auto_release.egg-info/top_level.txt
