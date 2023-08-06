@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: myip-localip
+Version: 0.0.7
+Summary: This uses ipinfo.io about current ip Also give LocalIP
+Author: Rahul Mistri
+Author-email: rahulmistri1997@gmail.com
+License-File: LICENSE
+
+This uses ipinfo.io about current ip Also give LocalIP
