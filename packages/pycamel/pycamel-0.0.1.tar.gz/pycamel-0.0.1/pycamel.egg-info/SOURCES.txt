@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pycamel/__init__.py
+pycamel.egg-info/PKG-INFO
+pycamel.egg-info/SOURCES.txt
+pycamel.egg-info/dependency_links.txt
+pycamel.egg-info/requires.txt
+pycamel.egg-info/top_level.txt
