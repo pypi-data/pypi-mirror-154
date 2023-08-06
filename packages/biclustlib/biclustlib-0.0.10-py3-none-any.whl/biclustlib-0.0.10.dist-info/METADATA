@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: biclustlib
+Version: 0.0.10
+Summary: A biclustering library with datasets, evaluation measures and a benchmarking framework
+Home-page: https://github.com/nikitasigal/biclustlib
+Author: Nikita Sigal
+Author-email: parallax.nikitasigal@gmail.com
+Project-URL: Bug Tracker, https://github.com/nikitasigal/biclustlib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: aiohttp
+Requires-Dist: matplotlib
+Requires-Dist: goatools
+Requires-Dist: bottleneck
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: gmpy
+Requires-Dist: rpy2
+Requires-Dist: munkres
+
+# biclustlib
+The package is an extension of [biclustlib](https://github.com/padilha/biclustlib) Python library by Victor Alexandre Padilha.  
+It is highly recommended to see the original repository first.  
+The goal of this package is to create a unified biclustering framework for performing research on gene expression data and comparing different biclustering algorithms and measures.   
+
+Distributed under GPLv3 license.
+## Installation
+```pip install biclustlib```    
+You must also install [R](https://www.r-project.org/) and the following R packages:
++ [biclust](https://cran.r-project.org/web/packages/biclust/index.html)
++ [isa2](https://cran.r-project.org/web/packages/isa2/index.html)
