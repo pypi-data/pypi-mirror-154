@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: asset-allocation-aditya1
+Version: 0.0.2
+Summary: Package to draw efficient frontier and study portfolio performance
+Home-page: 
+Author: Aditya Saha
+Author-email: adityaranjha786@gmail.com
+License: MIT
+Keywords: Efficient Frontier
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: pandas-datareader
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: datetime
+Requires-Dist: scipy
+
+
+
+Change Log
+=================
+
+0.0.1(11/09/2022)
+-----------------
+
+-First Release
