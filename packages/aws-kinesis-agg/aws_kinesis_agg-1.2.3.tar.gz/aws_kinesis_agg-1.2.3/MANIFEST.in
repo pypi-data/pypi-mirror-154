@@ -1,0 +1,3 @@
+include README.md LICENSE.txt
+exclude .project .pydevproject ./kinesis_publisher.py ./lambda_function.py ./make_lambda_build.py
+recursive-exclude test *
