@@ -1,0 +1,12 @@
+nocodb/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+nocodb/api.py,sha256=rWUE_Y8KVlEJuFyNJBY7pUIrITEAyjm57zbhQUO4txk,1370
+nocodb/filters.py,sha256=HObeaVPUuI1J8KtR90L5oAsVvA0pNNHmiST_rmkHUS4,530
+nocodb/nocodb.py,sha256=yqfNNu2OT4_ailNqYCLVTNX3crrCsPIGmFsjO0oTvzY,2591
+nocodb/utils.py,sha256=3V2lbIhtmkp40p2HrwaGhMk4w9JCUZNNKFGGxvc6r9o,180
+nocodb/infra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nocodb/infra/requests_client.py,sha256=mWKpg9iXJqalaIPd8Y05czx5vs61CTYLr-_8hJkddZ4,2297
+nocodb-0.0.1.dist-info/LICENSE,sha256=2B09T_7RG6Qk8uiKNzMIXN98MHHqgIiLNvcx-Di4nvQ,1059
+nocodb-0.0.1.dist-info/METADATA,sha256=z0hSXHIKk55Ql7b8lkSbBX0FgUkzrjc9Q6k-z1v_KDY,3278
+nocodb-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nocodb-0.0.1.dist-info/top_level.txt,sha256=ux8wP_W93_7SdpRMNGBlkpwxanDOBWVlS2-_RAaXW-k,7
+nocodb-0.0.1.dist-info/RECORD,,
