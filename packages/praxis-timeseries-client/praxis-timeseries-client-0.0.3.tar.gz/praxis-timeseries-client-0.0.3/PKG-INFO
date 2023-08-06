@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: praxis-timeseries-client
+Version: 0.0.3
+Summary: A Darts Time Series client for facilitating model development and data exploration.
+Home-page: https://github.com/praxis-pioneering/praxis-timeseries-client.git
+Author: evan kirkiles
+Author-email: evan@praxispioneering.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Praxis Time Series Client
+
+To use, simply do::
+
+    >>> from praxis_timeseries_client.darts import DartsInterface
+    >>> intfc = DartsInterface(target_ts=...)
