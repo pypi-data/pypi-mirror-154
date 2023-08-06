@@ -1,0 +1,12 @@
+pytest>=6.2.0
+requests>=2.19.0
+
+[dev]
+flake8
+flake8-quotes
+mypy
+pytest-xdist>=2.0.0
+requests-mock[fixture]
+types-requests
+types-setuptools
+typing_extensions
