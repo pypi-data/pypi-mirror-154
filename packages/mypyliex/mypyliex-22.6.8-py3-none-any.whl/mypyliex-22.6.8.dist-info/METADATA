@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mypyliex
+Version: 22.6.8
+Summary: Short project description - this is example of simple library
+Home-page: https://github.com/8tm/mypyliex
+Author: Tadeusz Miszczyk
+Author-email: tadeusz.miszczyk@email.com
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7.0
+Provides-Extra: test
+Requires-Dist: flake8 (==3.8.3) ; extra == 'test'
+Requires-Dist: flake8-commas (==2.0.0) ; extra == 'test'
+Requires-Dist: flake8-import-order (==0.18.1) ; extra == 'test'
+Requires-Dist: flake8-quotes (==3.2.0) ; extra == 'test'
+Requires-Dist: pytest (==6.0.1) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.10.0) ; extra == 'test'
+Requires-Dist: pytest-mock (==3.2.0) ; extra == 'test'
+Requires-Dist: pytest-random-order (==1.0.4) ; extra == 'test'
+Requires-Dist: pytest-xdist (==1.29.0) ; extra == 'test'
+Requires-Dist: pytest-parallel ; extra == 'test'
+Requires-Dist: mypy (==0.812) ; extra == 'test'
+Provides-Extra: tools
+Requires-Dist: pip-search (==0.0.7) ; extra == 'tools'
+

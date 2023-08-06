@@ -1,0 +1,4 @@
+[console_scripts]
+mypyliex_next_tool_name = mypyliex.tools.next_tool_name.next_tool_name:main
+mypyliex_other_tool_name = mypyliex.tools.other_tool_name.other_tool_name:main
+mypyliex_printer = mypyliex.tools.printer.printer:main
