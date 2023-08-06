@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: invesyservertools
+Version: 0.0.1
+Summary: Tools for Python scripts or terminal
+Home-page: https://gitlab.com/Rastaf/invesyservertools
+Author: Georg Pfolz
+Author-email: georg.pfolz@invesy.at
+License: MIT License
+Project-URL: Bug Tracker, https://gitlab.com/Rastaf/invesyservertools/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# invesyservertools
+
+A small set of useful tools an a server, especially for terminal scripts.
+
+Why "invesy"? Invesy (from German **In**halts**ve**rwaltungs**sy**stem == content management system) is a closed source cms I created with Thomas Macher. It's only used in-house, that's why we didn't bother making it open source.
+
+
+# What's in the box?
+## terminal_tools
+- **print_**: Enhanced print function, specially enhanced for printing in the terminal.
+- **wait\_for\_key**: Wait for a pressed key to continue.
+
+# History
+
+## 0.0.1 (2022-06-10)
+* first version
+
