@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jiaeg/__init__.py
+jiaeg/try.py
+jiatest.egg-info/PKG-INFO
+jiatest.egg-info/SOURCES.txt
+jiatest.egg-info/dependency_links.txt
+jiatest.egg-info/requires.txt
+jiatest.egg-info/top_level.txt
