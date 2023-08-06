@@ -1,0 +1,11 @@
+pyteomics.pepxmltk-0.3.3-py3.10-nspkg.pth,sha256=rYCtIzeoOtV546lDQ8wjbpLDHOw9D9_J7k4hbY_uLZE,554
+pyteomics/pepxmltk.py,sha256=rApwyEcWtLxCQnUT7U4-ffW0UJW22J0D7t0-_ja_yf8,16904
+pyteomics/runtandem.py,sha256=axXJ3jbQFzjGdyayIgzfDSz_OKNk7-EMnI1UawqxUFE,7489
+pyteomics/templates/template.jinja,sha256=5PQvuK7ie2lqc0PnwuWqBS5WGMlSFSVMIcXAWcpcITo,4734
+pyteomics.pepxmltk-0.3.3.dist-info/LICENSE,sha256=7VaRcCkE-lgCgFBd-9NKsScMSBc0Kg-lC0LrtWsWxHU,9368
+pyteomics.pepxmltk-0.3.3.dist-info/METADATA,sha256=qtbmqpk9-Uzi3pUr1dSeiZlbqC-X5Gkj_9QVOKSeUUM,2247
+pyteomics.pepxmltk-0.3.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyteomics.pepxmltk-0.3.3.dist-info/entry_points.txt,sha256=yDXWAJtSBlQI_aOiloY-2LDKVrcSH3n6kpHz_iuqNRc,94
+pyteomics.pepxmltk-0.3.3.dist-info/namespace_packages.txt,sha256=mNeegBHnNzt1tlMBpDAmi-d6GzBTbPzmTKCsUQkX4Gg,10
+pyteomics.pepxmltk-0.3.3.dist-info/top_level.txt,sha256=mNeegBHnNzt1tlMBpDAmi-d6GzBTbPzmTKCsUQkX4Gg,10
+pyteomics.pepxmltk-0.3.3.dist-info/RECORD,,
