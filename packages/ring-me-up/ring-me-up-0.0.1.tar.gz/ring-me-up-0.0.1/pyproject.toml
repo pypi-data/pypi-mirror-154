@@ -1,0 +1,13 @@
+[project]
+name = "ring-me-up"
+version = "0.0.1"
+authors = [{ name = 'WestXu' }]
+dependencies = ["pyicloud"]
+description = "Send an alarm to your iPhone to ring you up from a failed script when you are asleep."
+readme = "README.md"
+
+[project.urls]
+repository = "https://github.com/WestXu/RingMeUp"
+
+[project.scripts]
+ring = "ring:cli"

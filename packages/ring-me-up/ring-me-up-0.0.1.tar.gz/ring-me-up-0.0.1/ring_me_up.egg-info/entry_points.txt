@@ -1,0 +1,2 @@
+[console_scripts]
+ring = ring:cli
