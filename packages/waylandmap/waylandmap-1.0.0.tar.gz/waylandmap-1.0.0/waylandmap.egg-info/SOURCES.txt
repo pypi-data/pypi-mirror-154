@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+waylandmap/__init__.py
+waylandmap/constants.py
+waylandmap/devices.py
+waylandmap/filter.py
+waylandmap/keymapper.py
+waylandmap/main.py
+waylandmap.egg-info/PKG-INFO
+waylandmap.egg-info/SOURCES.txt
+waylandmap.egg-info/dependency_links.txt
+waylandmap.egg-info/entry_points.txt
+waylandmap.egg-info/requires.txt
+waylandmap.egg-info/top_level.txt

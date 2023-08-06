@@ -1,0 +1,4 @@
+click
+evdev
+python-uinput
+pyyaml
