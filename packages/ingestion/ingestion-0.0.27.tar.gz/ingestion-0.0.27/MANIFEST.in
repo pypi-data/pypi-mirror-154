@@ -1,0 +1,6 @@
+include setup.py
+include ingestion/parametros.py
+include ingestion/start.py
+
+
+
