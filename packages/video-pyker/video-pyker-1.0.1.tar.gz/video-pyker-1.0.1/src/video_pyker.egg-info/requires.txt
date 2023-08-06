@@ -1,0 +1,5 @@
+simple-term-menu>=1.4.1
+colorama==0.4.4
+
+[dev]
+bumpver

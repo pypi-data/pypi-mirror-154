@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/video_pyker/__init__.py
+src/video_pyker/__main__.py
+src/video_pyker/game.py
+src/video_pyker/main.py
+src/video_pyker/screen.py
+src/video_pyker.egg-info/PKG-INFO
+src/video_pyker.egg-info/SOURCES.txt
+src/video_pyker.egg-info/dependency_links.txt
+src/video_pyker.egg-info/entry_points.txt
+src/video_pyker.egg-info/requires.txt
+src/video_pyker.egg-info/top_level.txt
