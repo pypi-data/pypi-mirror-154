@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: simplemagic
+Version: 0.1.0
+Summary: Simple file magic. We try to get file's mimetype using 'file-magic', 'command file' and 'puremagic'. On linux we need system package 'file-libs' which mostly already installed. On MacOS we need system package 'libimage' which can be installed by 'brew install libmagic'. On windows we need file command which can be install by 'pacman -S file' within msys2. If system package missing, we try to get the file's mimetype using 'puremagic' which is write in pure python without any extra depends.
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: libmagic,file-magic,file
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simplemagic
+
+Simple file magic. We try to get file's mimetype using 'file-magic', 'command file' and 'puremagic'. On linux we need system package 'file-libs' which mostly already installed. On MacOS we need system package 'libimage' which can be installed by 'brew install libmagic'. On windows we need file command which can be install by 'pacman -S file' within msys2. If system package missing, we try to get the file's mimetype using 'puremagic' which is write in pure python without any extra depends.
+
+## Install
+
+```
+pip3 install simplemagic
+```
+
+## System requirements
+
+### Linux
+
+- file-libs
+
+Mostly it is installed already, and you can installed it with command:
+
+```
+yum install file-libs
+```
+
+### MacOS
+
+- libmagic
+
+You can installed it with command:
+
+```
+brew install libmagic
+```
+
+### Windows
+
+libmagic mostly not working on windows. Suggest you install msys2 on in system, and in msys2 you can install libmagic with command:
+
+```
+pacman -S file
+```
+
+Add msys2's bin path to your system's PATH env. We can call the external command `file` to get the mimetype of a file.
+
+## APIS
+
+- simplemagic.get_mimetype_by_stream
+- simplemagic.get_mimetype_by_filename
+- simplemagic.guess_all_extensions
+
+You can read the source code to find other private apis which maybe you will need to reset the global settings or running env.
+
+## Examples
+
+```
+import simplemagic
+
+ext = ".docx"
+filename = "ok.docx"
+mimetype = simplemagic.get_mimetype_by_filename(filename)
+ok_exts = simplemagic.guess_all_extensions(mimetype)
+if ext in ok_exts:
+    print("the file content is match with the file suffix...")
+```
+
+## Notice
+
+Always upgrade your libmagic to the latest, old libmagic may get wrong answer.
+
+## Compatibility
+
+- test passed on python3.6, python3.7, python3.8, python3.9 and python3.10
+- test failed on python2.7, python3.3, python3.4, python3.5
+
+## Releases
+
+### v0.1.0
+
+- First release.
