@@ -1,0 +1,9 @@
+colorlib/__init__.py,sha256=YEwoT_5DeS-mDlvXi6LnRyx1IspmhieSgC_DSyORXHc,1038
+colorlib/boxes.py,sha256=XewtoczsylS9Y3BWhIvlGtQyRs6cB_rnmfgSK5LV0xo,3670
+colorlib/coloring.py,sha256=BVvAeE4ZMdINJ4zcjMnNgKqQzn4ev2-mAMJQg15ISEU,4430
+colorlib/text_manipulation.py,sha256=KSsM3X0pUWlb0MjmkkNbt8UzEWoTrCgRL4gdyzOMgNo,2831
+colorlib/typing.py,sha256=5YIF60D_NtL7BERdo7KbiVrxxhrN4BcYwRA6uIMU7tg,579
+tui_colorlib-1.0.4.dist-info/METADATA,sha256=BP3sTflnUqULj858XTe25EWRVMmd4hfm7Z1nOrPN158,5820
+tui_colorlib-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tui_colorlib-1.0.4.dist-info/top_level.txt,sha256=ET6rij47wskNfu4eOtf-3dN2crRblP6SqdFjMwm2i9g,9
+tui_colorlib-1.0.4.dist-info/RECORD,,
