@@ -1,0 +1,11 @@
+LICENSE.txt
+README
+setup.cfg
+setup.py
+pyconvertu/__init__.py
+pyconvertu/classification.json
+pyconvertu/pyconvertu.py
+pyconvertu.egg-info/PKG-INFO
+pyconvertu.egg-info/SOURCES.txt
+pyconvertu.egg-info/dependency_links.txt
+pyconvertu.egg-info/top_level.txt
