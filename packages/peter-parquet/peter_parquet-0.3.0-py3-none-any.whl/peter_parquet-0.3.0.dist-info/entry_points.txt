@@ -1,0 +1,3 @@
+[console_scripts]
+peter-parquet=peter_parquet.main:app
+
