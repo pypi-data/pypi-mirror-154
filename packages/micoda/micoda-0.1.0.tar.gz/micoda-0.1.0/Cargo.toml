@@ -1,0 +1,16 @@
+[package]
+name = "micoda"
+version = "0.1.0"
+edition = "2021"
+homepage = "https://github.com/cyanbell/micoda"
+repository = "https://github.com/cyanbell/micoda"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "micoda"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.16.3", features = ["extension-module"] }
+pulldown-cmark = { version = "0.9.1" }
+lazy_static = { version = "1.4.0" }
