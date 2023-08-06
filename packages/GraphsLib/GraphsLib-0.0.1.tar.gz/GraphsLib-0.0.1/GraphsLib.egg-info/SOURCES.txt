@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+GraphsLib/__init__.py
+GraphsLib/graphs.py
+GraphsLib.egg-info/PKG-INFO
+GraphsLib.egg-info/SOURCES.txt
+GraphsLib.egg-info/dependency_links.txt
+GraphsLib.egg-info/requires.txt
+GraphsLib.egg-info/top_level.txt
