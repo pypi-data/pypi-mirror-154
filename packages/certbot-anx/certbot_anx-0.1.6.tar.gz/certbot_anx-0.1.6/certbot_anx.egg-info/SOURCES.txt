@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+certbot_anx.py
+setup.cfg
+setup.py
+certbot_anx.egg-info/PKG-INFO
+certbot_anx.egg-info/SOURCES.txt
+certbot_anx.egg-info/dependency_links.txt
+certbot_anx.egg-info/entry_points.txt
+certbot_anx.egg-info/requires.txt
+certbot_anx.egg-info/top_level.txt

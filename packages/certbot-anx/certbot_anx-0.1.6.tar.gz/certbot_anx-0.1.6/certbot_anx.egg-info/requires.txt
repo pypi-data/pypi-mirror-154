@@ -1,0 +1,3 @@
+certbot>=0.37.0
+pyanxdns>=0.2.5
+zope.interface>=4.4.0
