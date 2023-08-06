@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyezjson/__init__.py
+src/pyezjson.egg-info/PKG-INFO
+src/pyezjson.egg-info/SOURCES.txt
+src/pyezjson.egg-info/dependency_links.txt
+src/pyezjson.egg-info/top_level.txt
+src/pyezjson/connect/__init__.py
+src/pyezjson/connect/connect.py
