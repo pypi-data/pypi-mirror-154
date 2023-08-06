@@ -1,0 +1,8 @@
+setup.py
+avocadopml/__init__.py
+avocadopml/predict.py
+avocadopml.egg-info/PKG-INFO
+avocadopml.egg-info/SOURCES.txt
+avocadopml.egg-info/dependency_links.txt
+avocadopml.egg-info/requires.txt
+avocadopml.egg-info/top_level.txt
