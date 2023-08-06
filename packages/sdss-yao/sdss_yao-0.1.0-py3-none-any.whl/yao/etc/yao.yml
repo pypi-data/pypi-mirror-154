@@ -1,0 +1,73 @@
+---
+controllers:
+  sp2:
+    host: 10.7.45.62
+    port: 4242
+    detectors:
+      r2:
+        taps: 4
+        gain: 2.2
+        readnoise: 10
+      b2:
+        taps: 4
+        gain: 1.4
+        readnoise: 2.7
+    overscan_regions:
+      b2:
+        lines: 56
+        pixels: 78
+      r2:
+        lines: 48
+        pixels: 112
+
+window_modes:
+  hartmann:
+    lines: 467
+    preskiplines: 896
+    postskiplines: 748
+
+header:
+  TELESCOP: 'du Pont 2.5m'
+  CCDTEMP:
+    command: status
+    detectors:
+      r2: ['mod2/tempa', 'Temperature of the sensor (HEATERX 2)', 2]
+      b2: ['mod11/tempa', 'Temperature of the sensor (HEATERX 11)', 2]
+  LN2TEMP:
+    command: status
+    detectors:
+      r2: ['mod2/tempb', 'LN2 can temperature (HEATERX 2)', 2]
+      b2: ['mod11/tempb', 'LN2 can temperature (HEATERX 11)', 2]
+
+specMech:
+  address: 10.7.45.35
+  port: 23
+
+actor:
+  name: yao
+  host: localhost
+  port: 19999
+  tron_host: localhost
+  tron_port: 6093
+  schema: etc/schema.json
+  log_dir: /data/logs/yao
+
+files:
+  data_dir: '/data/spectro/boss'
+  split: true
+  template: 'sdR-S-{ccd}-{exposure_no:08d}.fits.gz'
+
+archon:
+  acf_file: BOSS_extra.acf
+
+timeouts:
+  controller_connect: 5
+  write_config_timeout: 2
+  write_config_delay: 0.0001
+  expose_timeout: 2
+  readout_expected: 40
+  readout_max: 60
+  fetching_expected: 5
+  fetching_max: 10
+  flushing: 1.2
+  pneumatics: 1.5
