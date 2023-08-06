@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scrapinglib
+Version: 0.2.3
+Summary: UNKNOWN
+Home-page: https://github.com/Suwmlee/scrapinglib
+Author: suwmlee
+Author-email: suwmlee@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Suwmlee/scrapinglib/issues
+Project-URL: Source, https://github.com/Suwmlee/scrapinglib
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+
+UNKNOWN
+
