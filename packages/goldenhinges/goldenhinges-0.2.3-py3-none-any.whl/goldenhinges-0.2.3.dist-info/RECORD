@@ -1,0 +1,12 @@
+goldenhinges/OverhangSetOptimizer.py,sha256=wvhbCajRHIYVcoNcfe1zPDCQJXJAWKmJtuBuhAvqleI,3511
+goldenhinges/OverhangsSelector.py,sha256=TreLZn0bJNPKMIIbg1PE4dvnjN-XLBoYFNqrY5K7PGc,23571
+goldenhinges/__init__.py,sha256=efqsi9O1gEfLjebJjhd9mQA0rEPoHytjMAyXL9Teyn0,486
+goldenhinges/biotools.py,sha256=qW3rImVFCTlZ_OKa-r_-Jd6V2st5zSkhY_1eztwJ8UM,6078
+goldenhinges/clique_methods.py,sha256=r6uSHbWypBafIKW9yAJhAawSj2RV1xRBcHdBi42g0KU,11633
+goldenhinges/reports.py,sha256=u7eT6uyVmQUjxmcxFsxbYqsAbWgmgY_ZoCcl6EfDKlk,6190
+goldenhinges/version.py,sha256=PNiDER4qM19h9zdsdfgKt2_dT4WgYK7EguJ8RU2qA_g,22
+goldenhinges-0.2.3.dist-info/LICENCE.txt,sha256=akVjFR4jDJtNakzf3avomKdfddMyA9WHJ5aVV08efxY,1081
+goldenhinges-0.2.3.dist-info/METADATA,sha256=XzOMZB07y_iziGiTyAW1LBbnaaBwPY_J4NY79F1fLuw,2139
+goldenhinges-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+goldenhinges-0.2.3.dist-info/top_level.txt,sha256=N6tVGYu3V7nbRUiZbnO9cqzkyB-U9lo9SafMVL-5EAU,13
+goldenhinges-0.2.3.dist-info/RECORD,,
