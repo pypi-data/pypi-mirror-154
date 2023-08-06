@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sh-weather-predict
+Version: 1.0.0.5
+Summary: Sunghan Weather Prediction
+Home-page: https://github.com/choids001/python
+Author: SungHan
+License: SH
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: shsqlcheck
+Requires-Dist: pymssql
+Requires-Dist: statsmodels
+
+UNKNOWN
+

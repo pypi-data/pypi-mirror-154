@@ -1,0 +1,3 @@
+shsolarpredict
+shsql
+shweatherpredict
