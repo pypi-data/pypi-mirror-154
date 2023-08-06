@@ -1,0 +1,13 @@
+gitreturn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitreturn/bcolors.py,sha256=rGBVAyd7FL7CTcVhGOjr594fiLtArxK_0hsssyOJTIw,177
+gitreturn/cli.py,sha256=roABWSk3HA8Yp3aFodkGEhGkG3ec_iDJPGczVqCRwso,6445
+gitreturn/exceptions.py,sha256=nQei02VdevuPm43xq5ZiFForuawoLOERipwailmnJ5E,197
+gitreturn/format.py,sha256=ATgH97KwYgnPj9ItO_FoQCggYzeqLx_uDv7995s3KKU,70
+gitreturn/git.py,sha256=wd6yv8NpIgh7ePIrv7YUmpSSjf443r_CNkU8JE0Qwio,1398
+gitreturn/strings.py,sha256=xRG_ev9W9cfB1KZF08MPnnqsKgcc8JTJX4UovK95ghc,2523
+gitreturn/trello.py,sha256=u7yCyo2x0-sWKlpqcgbtzamE304Q5iqdPyndXSUIFGg,2371
+gitreturn-1.3.1.dist-info/entry_points.txt,sha256=poZJreZtDmoqBJjqwvcbTaXSKduW1T8OL978XICuBcQ,48
+gitreturn-1.3.1.dist-info/LICENSE,sha256=qT3HTsqjLG0p-I-b8FKVc41RZL6ARU0EIgsD761AcMw,1074
+gitreturn-1.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gitreturn-1.3.1.dist-info/METADATA,sha256=T6HXvvjXnCMzK9i0ceT9reha4QJgHz5w00dwXgDOWqA,579
+gitreturn-1.3.1.dist-info/RECORD,,
