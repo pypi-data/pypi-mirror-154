@@ -1,0 +1,11 @@
+ammolite/__init__.py,sha256=kCRd2ETE6ZLMcE6VHKF4DU5ANvrJIxNPzfRB_9W2GVQ,939
+ammolite/cgo.py,sha256=hNJMK8l8Zq_tnanc0SKaaxeOUPEh6ZZfEaAgzZctUBA,4378
+ammolite/convert.py,sha256=5RDsy9YtbAh4K34KNLExrjA8h-rer8j8jfv_BrCTFeM,5006
+ammolite/display.py,sha256=6QUDxek1cVHAoNLHdcRMt7xK0CpCA7-BXNzEBOn0XwY,2714
+ammolite/object.py,sha256=00FI7k6yXxv2MLC13gsQ5u68E4hcZptwwHFRjv1caBI,42929
+ammolite/shapes.py,sha256=YBaW5x4ARtdB23EWzSOiRbxhydgbh-kgadrrDPS9oaA,3372
+ammolite/startup.py,sha256=j7TNKJdOYvw4JIY6aKN0518IgnIGHR_T2S5V_x1w_nc,4746
+ammolite-0.8.0.dist-info/LICENSE,sha256=Ziwm-V0CAgOgtuUQalrbCuRemrq62EvuKU2JbkIsp3c,1656
+ammolite-0.8.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ammolite-0.8.0.dist-info/METADATA,sha256=D0OVoVdd4W_G17si3OVxW5xqC_D9LAHDILNu6O91kps,2200
+ammolite-0.8.0.dist-info/RECORD,,
