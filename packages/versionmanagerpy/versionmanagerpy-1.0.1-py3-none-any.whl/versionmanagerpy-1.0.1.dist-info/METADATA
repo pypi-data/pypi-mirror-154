@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: versionmanagerpy
+Version: 1.0.1
+Summary: A GitHub Project Version Manager.
+Home-page: https://github.com/NeonixRIT/versionmanager.py
+Author: Kamron Cole
+Author-email: kjc8084@rit.edu
+Project-URL: Bug Tracker, https://github.com/NeonixRIT/versionmanager.py/issues
+Keywords: python,github,version,manager,version manager
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Version-Manager
+A GitHub Project Version Manager that polls latest version data from GitHub repo release tag.
