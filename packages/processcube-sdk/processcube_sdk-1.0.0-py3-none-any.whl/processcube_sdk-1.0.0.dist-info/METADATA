@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: processcube-sdk
+Version: 1.0.0
+Summary: Some tools and defaults to program for the ProcessCube.
+Home-page: https://github.com/atlas-engine-contrib/processcube_sdk.py
+Author: 5Minds IT-Solutions GmbH & Co. KG
+Author-email: processcube@5minds.de
+Keywords: sdk processcube bpmm external-tasks process-management etw
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel (==0.37.1)
+Requires-Dist: typer (>=0.4.0)
+Requires-Dist: atlas-engine-client (==2.3.0)
+Requires-Dist: papermill (==2.3.3)
+Requires-Dist: scrapbook (==0.5.0)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: numpy (==1.21.4)
+Requires-Dist: alembic (==1.7.6)
+Requires-Dist: sqlalchemy (==1.4.31)
+Requires-Dist: stringcase (==1.2.0)
+Requires-Dist: fastapi (>=0.75.0)
+Requires-Dist: google-api-python-client (==2.42.0)
+Requires-Dist: google-auth-httplib2 (==0.1.0)
+Requires-Dist: google-auth-oauthlib (==0.5.1)
+
+# processcube_sdk.PY
+Werkzeuge und Tools für die Entwicklung mit dem ProcessCube
