@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+brikeda_robot.egg-info/PKG-INFO
+brikeda_robot.egg-info/SOURCES.txt
+brikeda_robot.egg-info/dependency_links.txt
+brikeda_robot.egg-info/top_level.txt
+src/__init__.py
+src/brikeda_robot/__init__.py
+src/brikeda_robot/robot.py
+src/brikeda_robot/test.py
