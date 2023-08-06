@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+tox21full.egg-info/PKG-INFO
+tox21full.egg-info/SOURCES.txt
+tox21full.egg-info/dependency_links.txt
+tox21full.egg-info/entry_points.txt
+tox21full.egg-info/requires.txt
+tox21full.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+tox21full = tox21full.__main__:main

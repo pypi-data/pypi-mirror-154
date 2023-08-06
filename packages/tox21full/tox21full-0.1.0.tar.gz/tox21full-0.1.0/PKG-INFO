@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: tox21full
+Version: 0.1.0
+Summary: Creates the complete Tox21 dataset
+Home-page: https://github.com/etz4ai/tox21full
+Author: JJ Ben-Joseph
+Author-email: jj@memoriesofzion.com
+License: Apache
+Keywords: machine_learning artificial_intelligence
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Tox21 Full
+~~~~~~~~~~
+
+This is a Tox21-like dataset created from the raw NIH assay data. The Tox21 dataset we know and love only includes 12 assays. This one includes 64 different assays!
+
+Simply by using this dataset you can train machine learning models with metrics you never thought was possible.
+
+
+Downloads NIH raw assay data and creates a clean CSV.GZ file ready for import into pandas:
+
+::
+
+    tox21full ~/Downloads/tox21full.csv.gz
+
+
+You can also create it as a parquet file (more efficent):
+
+:: 
+
+    tox21full --format parquet ~/Downloads/tox21full.parquet
+
