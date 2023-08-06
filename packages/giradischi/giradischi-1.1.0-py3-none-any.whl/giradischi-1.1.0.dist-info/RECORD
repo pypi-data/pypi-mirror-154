@@ -1,0 +1,14 @@
+giradischi/__init__.py,sha256=cwoGq62NJjVqsue7CkR4S6nLaX5i_5PeNa8WSCnYcU8,228
+giradischi/__main__.py,sha256=ust7UCXwny1WUOxlBiTnJNwOGsz6vXU2R9Q4uD1CpeU,161
+giradischi/backends/__init__.py,sha256=iw0lzeYmdsMQy4ELH1icCRO27qZUAql8RK8lXeOp8Ww,542
+giradischi/backends/base.py,sha256=oRJNAqtfLgf0L4NaVyskzVnYBz69WrQ95tM9WDd2ovI,1578
+giradischi/main.py,sha256=IgSn9qtixu0Frhsi_F1m5N2hZTAwrN4a78lMDFjb-HU,407
+giradischi/ui/__init__.py,sha256=j2LIfEDfgCkbU8OkEdweJA5xQhk_sWFSuAJ_D-LVr3g,7214
+giradischi/ui/backend_selector_dialog.ui,sha256=tMGpuZGQPrPilmUm8s-TmTecq2ezZc8OE-dyhgs06FA,1990
+giradischi/ui/backend_settings_dialog.ui,sha256=rjepa77Za_rtv6RGzZoVZe66Oeb1Y0HNcD6lPOo7MHI,1688
+giradischi/ui/mainwindow.ui,sha256=jhqCV49G6Dq5pp-Xh9JiWzsfsZXAnkQHieGWcdKcngA,6997
+giradischi/utils/midi_player.py,sha256=1eROK9obgcKuYna4hckV3AcbaKeAfv1zUyx-rnsj9ls,3455
+giradischi-1.1.0.dist-info/entry_points.txt,sha256=FNsn3CGCKgJOhYK3vnUCVPsY9IL6ypNcvwyOQ_7_Z7U,51
+giradischi-1.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+giradischi-1.1.0.dist-info/METADATA,sha256=4__bhiB8heeHYSSPIUDrf9aLMpdgcooiQcaGubBCIC8,2432
+giradischi-1.1.0.dist-info/RECORD,,
