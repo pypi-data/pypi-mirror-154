@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+deutsch-jozsa_lib/__init__.py
+deutsch-jozsa_lib/myfunctions.py
+deutsch_jozsa_lib.egg-info/SOURCES.txt
+deutsch_jozsa_lib.egg-info/dependency_links.txt
+deutsch_jozsa_lib.egg-info/top_level.txt
+deutschjozsa.egg-info/PKG-INFO
+deutschjozsa.egg-info/SOURCES.txt
+deutschjozsa.egg-info/dependency_links.txt
+deutschjozsa.egg-info/top_level.txt
+deutschjozsalib.egg-info/SOURCES.txt
+deutschjozsalib.egg-info/dependency_links.txt
+deutschjozsalib.egg-info/top_level.txt
