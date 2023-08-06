@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: binance-bigdata
+Version: 0.1.0
+Summary: Study of crypto currencies in python.
+Author: Marc Partensky
+Author-email: marc.partensky@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: python-binance (>=1.0.16,<2.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
