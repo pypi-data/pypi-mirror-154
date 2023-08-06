@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hardhat_gas_report_diff.egg-info/PKG-INFO
+src/hardhat_gas_report_diff.egg-info/SOURCES.txt
+src/hardhat_gas_report_diff.egg-info/dependency_links.txt
+src/hardhat_gas_report_diff.egg-info/top_level.txt
+src/hhgrdiff/__init__.py
+src/hhgrdiff/__main__.py
+src/hhgrdiff/hhgrdiff.py
+src/hhgrdiff/version.py
