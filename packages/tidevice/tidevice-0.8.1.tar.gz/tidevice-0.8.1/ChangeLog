@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.8.1
+-----
+
+* fix crashreport stat error
+* show serial for list
+* add serial to cmd\_info
+* fix pull file with LinkTarget
+* fix #61
+* little fix
+* support not ordered dtx message fragment, fix #213
+* fix for iOS 12
+* fix bug on iOS 13 and do some other fix
+* add timeout for send\_recv\_packet
