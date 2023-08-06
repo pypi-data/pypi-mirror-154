@@ -1,0 +1,3 @@
+recursive-include ./src/qepseudos/pseudos/PBE/ *.UPF
+recursive-include ./src/qepseudos/pseudos/PBESOL/ *.UPF
+recursive-include ./src/qepseudos/pseudos/LDA/ *.UPF
