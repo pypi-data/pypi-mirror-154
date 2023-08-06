@@ -1,0 +1,5 @@
+imageio
+numpy
+scikit-image
+torch>=1.9.0
+tqdm
