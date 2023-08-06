@@ -1,0 +1,1 @@
+git+https://github.com/mitchellpkt/matrixprofile.git@1eff5249a23d66ea7e0555ff053db56bbb998808#egg=matrixprofile
