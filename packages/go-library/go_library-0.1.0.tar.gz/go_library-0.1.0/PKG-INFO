@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: go-library
+Version: 0.1.0
+Summary: Enter description of your project here
+License: MIT
+Author: Mark A. Miller
+Author-email: mamillerpa@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: linkml (>=1.2.13,<2.0.0)
+Requires-Dist: linkml-dataops (>=0.1.0,<0.2.0)
+Requires-Dist: linkml-runtime (>=1.2.16,<2.0.0)
+Requires-Dist: linkml-solr (>=0.1.2,<0.2.0)
+Requires-Dist: oaklib (>=0.1.21,<0.2.0)
+Requires-Dist: sparqlfun (>=0.2.1,<0.3.0)
