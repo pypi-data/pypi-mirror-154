@@ -1,0 +1,12 @@
+mandeintegration/__init__.py,sha256=RDMHFGNl3Mnd0Zba5ofm4xd5XvFXNSLQdEvop3VWiqY,20068
+mandeintegration/command.py,sha256=Lqn3rihR9JnAxhvIYptE43crptKUjnUjfiVz1klg7eE,691
+mandeintegration/config/__init__.py,sha256=3Q_bjoJflkMfhM6EtLZsDFH5Ybf4rIrKW1NXRoJatnY,137
+mandeintegration/config/selectors.py,sha256=sbKN3yn04sOuYveMFLtt5seCclSrMuAElKt0dJm1ksk,391
+mandeintegration/config/types.py,sha256=vQCrRsYAx0KHhEPh8G_0mBhikZfzRwLSOn-7dDM7zaw,1924
+mandeintegration/config/variables.py,sha256=g92A_v29sWRWKIKEz8bnc9av1jhYkIXuzoFTkJRXYYU,185
+mandeintegration/data.py,sha256=2RypEKPJujAhoV-gWQBuoY05v9Qx_Iubz6tyTZTWINE,2659
+mandeintegration/organizations.py,sha256=7HVqN8bWFxqVOTpYNx5tdiAsGUy4npPL3YTapORr0O8,229
+mandeintegration/utils/__init__.py,sha256=c82mHXPGWmuhtCy_wl_ODFp5fNaslXxznByTDgkn6pQ,2020
+mandeintegration-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mandeintegration-0.1.1.dist-info/METADATA,sha256=q47DdcxI2-ukci6Cs0E7Muxlbe3Mis-a_q6db7KsnWM,468
+mandeintegration-0.1.1.dist-info/RECORD,,
