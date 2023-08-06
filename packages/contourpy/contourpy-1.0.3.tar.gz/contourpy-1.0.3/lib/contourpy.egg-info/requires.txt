@@ -1,0 +1,17 @@
+numpy>=1.16
+
+[bokeh]
+bokeh
+selenium
+
+[docs]
+docutils<0.18
+sphinx
+sphinx-rtd-theme
+
+[test]
+flake8
+isort
+matplotlib
+Pillow
+pytest
