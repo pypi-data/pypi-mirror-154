@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+versionmanagerpy/__init__.py
+versionmanagerpy/event.py
+versionmanagerpy/local.py
+versionmanagerpy/project.py
+versionmanagerpy/remote.py
+versionmanagerpy/version.py
+versionmanagerpy/versionmanager.py
+versionmanagerpy.egg-info/PKG-INFO
+versionmanagerpy.egg-info/SOURCES.txt
+versionmanagerpy.egg-info/dependency_links.txt
+versionmanagerpy.egg-info/top_level.txt
