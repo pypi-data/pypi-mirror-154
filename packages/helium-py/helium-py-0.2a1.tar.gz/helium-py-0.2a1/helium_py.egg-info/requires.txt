@@ -1,0 +1,7 @@
+requests<3,>=2.26.0
+betterproto[compiler]<3,>=2.0.0b4
+pynacl>=1.5.0
+base58==2.1.1
+
+[:python_version < "3.8"]
+importlib-metadata>=1.0
