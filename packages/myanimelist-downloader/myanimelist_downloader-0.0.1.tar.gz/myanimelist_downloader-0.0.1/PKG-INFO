@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: myanimelist_downloader
+Version: 0.0.1
+Summary: Download manga and anime lists from MyAnimeList.
+Home-page: https://github.com/SanteriHetekivi/myanimelist_downloader
+Author: Santeri Hetekivi
+Author-email: development@hetekivi.com
+Project-URL: Bug Tracker, https://github.com/SanteriHetekivi/myanimelist_downloader/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MyAnimelist Manga and Anime -list downloader
+
+Download manga or anime list from MyAnimeList.
