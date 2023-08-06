@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: color-console-py
+Version: 0.1.0
+Summary: Allows colored output to the console
+Home-page: https://github.com/Moosi312/color_console_py
+Author: Fabian Mooslechner
+Author-email: fabian.mooslechner@gmail.com
+Project-URL: Bug Tracker, https://github.com/Moosi312/color_console_py/issues/new?assignees=&labels=&template=bug_report.md&title=
+Project-URL: Feature Request, https://github.com/Moosi312/color_console_py/issues/new?assignees=&labels=&template=feature_request.md&title=
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# color_console_py
+
+
+# Attributions
+
+## Title icon
+
+Terminal icon from the [Programming icons pack](https://www.flaticon.com/packs/programming-117) created by [Smashicons - Flaticon](https://www.flaticon.com/authors/smashicons)
