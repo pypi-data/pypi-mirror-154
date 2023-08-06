@@ -1,0 +1,4 @@
+requests
+pySocks
+beautifulsoup4
+lxml
