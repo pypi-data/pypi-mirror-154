@@ -1,0 +1,12 @@
+geode_backgroundmesh/__init__.py,sha256=x7tjL8HHkaZPa7T9aLMg-vWg6M06ARdYuSU5H_2DtyE,95
+geode_backgroundmesh/bmesh_2d.py,sha256=rcH4uEL4OQG5QesjPEBythfJl-lLebh5i-ZsvRaBT8M,245
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_2d.cpython-38-x86_64-linux-gnu.so,sha256=caxsuxVyVXZ-HUFGaXOKKyEMH5-dSq9Px3qB9QYslrk,101560
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_3d.cpython-38-x86_64-linux-gnu.so,sha256=3XCFVBnlvyNLs4q-9K3ry0NZ5eqEgSS753kIQiSZZYM,101560
+geode_backgroundmesh/geode_backgroundmesh_py_bmesh_common.cpython-38-x86_64-linux-gnu.so,sha256=xKLghQ85u3C8mF26a7WiHSK4NQs2TgEjSvnfmGLPeJk,101560
+geode_backgroundmesh/libGeode-BackgroundMesh_2d.so,sha256=ue2GwHhDL-HoIVtP2oovdnp5J4WL6AGYZpnozZ4Efko,269184
+geode_backgroundmesh/libGeode-BackgroundMesh_3d.so,sha256=IFAwCOM7QoiOddKQy7tTsnJndgsaqBk4JoHoJaaxHLs,378768
+geode_backgroundmesh/libGeode-BackgroundMesh_common.so,sha256=jkfLPm3iawGLFBDrC3Qakn2Wk9SEgqdRT2GSAsXXbiE,3373048
+Geode_BackgroundMesh-3.4.1.dist-info/METADATA,sha256=ZKWugAJhZnR-keXWdH6UwWdIId2qO4lEpyqpxOyYjak,1115
+Geode_BackgroundMesh-3.4.1.dist-info/WHEEL,sha256=HDpOoUm88OZsXwJ1fG8bFxqAdtiJNfIcxp3_RuQe18I,103
+Geode_BackgroundMesh-3.4.1.dist-info/top_level.txt,sha256=9Q4O4OZTCc1Fs9idU1MES8AUrXq-18vIoLZqi-17_tc,21
+Geode_BackgroundMesh-3.4.1.dist-info/RECORD,,
