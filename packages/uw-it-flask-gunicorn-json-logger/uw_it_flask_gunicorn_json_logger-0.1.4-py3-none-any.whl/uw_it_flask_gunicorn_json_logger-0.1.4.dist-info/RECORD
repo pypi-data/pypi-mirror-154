@@ -1,0 +1,8 @@
+uw_it/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uw_it/flask_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uw_it/flask_util/flask_gunicorn_log_config.yml,sha256=CIwVnhidPtSo1rVP6RK_egOFQz3f_D4_Sc4EZfcSOP0,710
+uw_it/flask_util/logger.py,sha256=x7xuKscp9Yb3yKplJhGizvEHbgHF32bhVTNVIOvdpus,6719
+uw_it_flask_gunicorn_json_logger-0.1.4.dist-info/LICENSE,sha256=GCTjKPvx98pgydtuHCtHhQDunHO0QZnFIvZ40rKvwY0,1091
+uw_it_flask_gunicorn_json_logger-0.1.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+uw_it_flask_gunicorn_json_logger-0.1.4.dist-info/METADATA,sha256=8vF464wmLqsp_2ojR4j7x2kOVgVJA93EQSJAfptE0dU,483
+uw_it_flask_gunicorn_json_logger-0.1.4.dist-info/RECORD,,
