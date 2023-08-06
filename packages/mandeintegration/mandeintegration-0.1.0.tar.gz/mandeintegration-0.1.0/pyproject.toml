@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mandeintegration"
+version = "0.1.0"
+description = "Mande Integration package"
+authors = ["Sylvain Kadjo <sylvain.kadjo@sejen.ci>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.2.0"
+webdriver-manager = "^3.7.0"
+python-slugify = "^6.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+flake8 = "^4.0.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
