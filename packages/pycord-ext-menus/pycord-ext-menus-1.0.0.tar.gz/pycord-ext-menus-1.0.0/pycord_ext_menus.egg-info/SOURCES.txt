@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pycord/ext/menus/__init__.py
+pycord/ext/menus/constants.py
+pycord/ext/menus/exceptions.py
+pycord/ext/menus/menu_pages.py
+pycord/ext/menus/menus.py
+pycord/ext/menus/page_source.py
+pycord/ext/menus/utils.py
+pycord_ext_menus.egg-info/PKG-INFO
+pycord_ext_menus.egg-info/SOURCES.txt
+pycord_ext_menus.egg-info/dependency_links.txt
+pycord_ext_menus.egg-info/requires.txt
+pycord_ext_menus.egg-info/top_level.txt
