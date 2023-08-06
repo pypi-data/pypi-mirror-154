@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: disentpy
+Version: 0.0.2
+Summary: Disent API caller
+Home-page: https://github.com/disentcorp/disentpy
+Author: Niels lauritzen
+Author-email: niels.lauritzen@disent.com
+License: unlicense
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+UNKNOWN
+
+
