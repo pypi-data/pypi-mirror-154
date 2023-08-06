@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+happyname/__init__.py
+happyname/name.py
+happyname.egg-info/PKG-INFO
+happyname.egg-info/SOURCES.txt
+happyname.egg-info/dependency_links.txt
+happyname.egg-info/requires.txt
+happyname.egg-info/top_level.txt
