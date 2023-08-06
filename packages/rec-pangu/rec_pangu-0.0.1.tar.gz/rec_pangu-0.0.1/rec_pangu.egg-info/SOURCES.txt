@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+rec_pangu.egg-info/PKG-INFO
+rec_pangu.egg-info/SOURCES.txt
+rec_pangu.egg-info/dependency_links.txt
+rec_pangu.egg-info/requires.txt
+rec_pangu.egg-info/top_level.txt
