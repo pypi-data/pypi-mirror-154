@@ -1,0 +1,11 @@
+aiorwlock
+typing-extensions~=4.0
+
+[docs]
+Sphinx
+sphinx-autodoc-typehints
+
+[test]
+pytest
+pytest-cov
+pytest-pythonpath
