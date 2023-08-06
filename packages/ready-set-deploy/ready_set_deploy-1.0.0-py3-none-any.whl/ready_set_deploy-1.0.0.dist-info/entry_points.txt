@@ -1,0 +1,3 @@
+[console_scripts]
+rsd=ready_set_deploy.cli:main
+
