@@ -1,0 +1,11 @@
+LICENSE,sha256=5eHQU4pzMSeQ7kgSpiyksWOXoGge4zLGR_FJM2YExVg,1064
+firthlogist/__init__.py,sha256=8zbORVnWQtoB-hM3vNkOVyY_fjqOskYhjRKUbUBdr_M,62
+firthlogist/firthlogist.py,sha256=bL6DcEjGTewhGIE8_mMK_T6sGVn95KbLCkQJqWDQfjw,6204
+firthlogist/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firthlogist/tests/diabetes.csv,sha256=2Ft1ZYyumi9DlVM4ud3Qp7oGXf1mMT0i9XD-M54sQdQ,23874
+firthlogist/tests/sex2.csv,sha256=w0Q2ODijfOmxuaqwrIYQjlXE2GMWKiI3usx9PeeJ-4U,3389
+firthlogist/tests/test_firthlogist.py,sha256=8L_5PStNJB8eFGZGbNRrULkz54kllHH5ouBU39TUOIA,1944
+firthlogist-0.0.3.dist-info/LICENSE,sha256=5eHQU4pzMSeQ7kgSpiyksWOXoGge4zLGR_FJM2YExVg,1064
+firthlogist-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+firthlogist-0.0.3.dist-info/METADATA,sha256=6MOuHcLAG84o2CO5jNi5BPfPGSiWzDBf9Rnbq4dpJ8M,1400
+firthlogist-0.0.3.dist-info/RECORD,,
