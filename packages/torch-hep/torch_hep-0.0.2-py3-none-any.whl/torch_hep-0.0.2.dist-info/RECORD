@@ -1,0 +1,7 @@
+torch_hep/__init__.py,sha256=pSVRzl8JxNWoDMqoyXyNkFX_0aaIKpv4eFnHPRGjdVw,868
+torch_hep/lorentz.py,sha256=covzpBJ6-lhRz1cGdKs3c48KbrwJHo8TBRyjOBYrzCE,5140
+torch_hep-0.0.2.dist-info/LICENSE,sha256=yBM1utO_aJ9UJjB41XqHcta8I-nkG9hgi-Xs6FBxHVY,1070
+torch_hep-0.0.2.dist-info/METADATA,sha256=ykkTJ1nryTQeLg7hlMcAzwuvON4iQwwHGiS3qwOHx9g,396
+torch_hep-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torch_hep-0.0.2.dist-info/top_level.txt,sha256=RwEEILzRXqkqfWdN9Ka3B2w-7AQkY4s7KkcYqNKbweo,10
+torch_hep-0.0.2.dist-info/RECORD,,
