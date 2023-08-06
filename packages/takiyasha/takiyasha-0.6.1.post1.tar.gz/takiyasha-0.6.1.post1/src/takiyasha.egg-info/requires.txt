@@ -1,0 +1,5 @@
+pyaes
+colorama
+mutagen
+MusicTagFindUtils>=0.1.2
+requests
