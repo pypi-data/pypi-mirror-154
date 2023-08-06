@@ -1,0 +1,7 @@
+ducc0
+h5py
+matplotlib
+mpi4py
+nifty8
+python-casacore
+scipy
