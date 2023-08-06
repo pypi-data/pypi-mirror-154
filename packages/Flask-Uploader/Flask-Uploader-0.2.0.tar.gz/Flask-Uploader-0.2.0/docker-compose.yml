@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  sphinx:
+    image: kyzimaspb/sphinx
+    environment:
+      EXTRA: dev
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/package
