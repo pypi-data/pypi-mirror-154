@@ -1,0 +1,14 @@
+comorbidipy/__init__.py,sha256=qdF8O4WiABdlRaWC81OiJd_9iaZ8hIawz27cML8IqJo,209
+comorbidipy/assignzero.py,sha256=I2XNC9sHZPAZ99Bd559d9g0RBp8-Xs_htcD5B6LPFb4,1175
+comorbidipy/calculator.py,sha256=qiJGUtPHGidjvUtI61SC6ULKMI4sHQosJad5VgY6BSw,7586
+comorbidipy/cli.py,sha256=w6fAllntYt8RdRm3gXlg6ie5o_eEotVV7C_DaKfamJQ,393
+comorbidipy/colnames.py,sha256=adsRFtMyZ0ke70c5X7mV89bE5pKnBlvV03t3f9CgaKw,2340
+comorbidipy/mapping.py,sha256=7hxdiGMng3E6oNJkWg8NlkDV95mEF56OEk_N2DvwpLI,29517
+comorbidipy/weights.py,sha256=IoVo3U-QNpwk534a0jx7WWPFK_5coMJcNGxesGhuCC4,3450
+comorbidipy-0.4.4.dist-info/AUTHORS.rst,sha256=7x-ZDtJlfDZHjHZCojKL3afcLikMjwV7kkGCiUAyIww,147
+comorbidipy-0.4.4.dist-info/LICENSE,sha256=QNDUzt_zGWG5okCUSBAy0tvRtupuIU9NvSo4ljE4b6k,1063
+comorbidipy-0.4.4.dist-info/METADATA,sha256=2n8qx4yVpBH9zyN1FaMx2W08hJVo_Kzb9A3hYl8BtgA,3109
+comorbidipy-0.4.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+comorbidipy-0.4.4.dist-info/entry_points.txt,sha256=zSD6o8Dj-6iDryGkh1lBt2yymty9EDvuvmOJvDJlQBk,53
+comorbidipy-0.4.4.dist-info/top_level.txt,sha256=Iu8F3YGo1CG56Nl5uXXo-MHg4rWULyuhFDhdAXqNBCY,12
+comorbidipy-0.4.4.dist-info/RECORD,,
