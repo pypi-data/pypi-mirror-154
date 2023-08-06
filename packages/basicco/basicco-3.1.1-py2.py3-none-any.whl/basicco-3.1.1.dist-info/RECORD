@@ -1,0 +1,17 @@
+basicco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basicco/abstract_class.py,sha256=Eu8zw0LjDWa6cb7aep0Z_vLHk4z1368aUXKg1J7BLCA,1270
+basicco/caller_module.py,sha256=ZLlxsygW-LW5PNy3ILleSjWFCycDoFXfP2zFCGPqzX8,676
+basicco/custom_repr.py,sha256=stsZLDFgzoHOXFY6eM6MWkf3-JVcA7ic_ZAOU7B0mZc,2469
+basicco/explicit_hash.py,sha256=n0PVto-RB-OUKh6nuREJqEVAO5IrMqVRi5AyF8y753Y,530
+basicco/import_path.py,sha256=newcAF56Yyt49y9b3oVeu-DanpKzlKHr5IGQWyjf3ck,7349
+basicco/namespace.py,sha256=_Q74fh3K6pJoqNt_J3XCd4nezRxBpAqNkVUtI9sm-yA,3892
+basicco/privatize.py,sha256=gGLpLlFNTX191uBvEl8XL1hOTW5irr8H6IurqWdya0A,868
+basicco/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basicco/recursive_repr.py,sha256=pv4w1tB2Sh8VBZqHmjmObXG3x8r_kUno3c0JrqAV_L4,2484
+basicco/runtime_final.py,sha256=ipXV6F-TT7t2gqRR6FXvE1_zuKrFVYNh23zGZRBwydA,3412
+basicco/unique_iterator.py,sha256=s6X9352hTR2So8yrQ9PqPOLvmZu8fuQfLFz6Mf5pFqQ,443
+basicco-3.1.1.dist-info/LICENSE,sha256=ItKR_tYlKxnPQ5mVzbe1YRs8uDevTAcwT4DgrPXPPMs,1068
+basicco-3.1.1.dist-info/METADATA,sha256=kPbd38sW8WfJEhI20r5a_1YixT2PhWdAl9Bg2z1F7CM,7594
+basicco-3.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+basicco-3.1.1.dist-info/top_level.txt,sha256=yIm4Mai06npfVyRnWrm_plyCnjnY4IyxTnCb4dvWtZE,8
+basicco-3.1.1.dist-info/RECORD,,
