@@ -1,0 +1,6 @@
+jmespath
+opencv-python>=4.5.1
+tenacity
+wf-cv-utils>=2.0.0
+wf-honeycomb_io>=0.2.0
+wf_fastapi_auth0>=1.0
