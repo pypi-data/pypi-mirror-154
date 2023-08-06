@@ -1,0 +1,9 @@
+README.md
+setup.py
+TGPhind/Parser.py
+TGPhind/__init__.py
+TGPhind/__main__.py
+TGPhind.egg-info/PKG-INFO
+TGPhind.egg-info/SOURCES.txt
+TGPhind.egg-info/dependency_links.txt
+TGPhind.egg-info/top_level.txt
