@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sparksampling
+Version: 0.1.1
+Summary: pyspark-sampling
+Home-page: https://github.com/Wh1isper/pyspark-sampling
+Author: wh1isper
+Author-email: 9573586@qq.com
+License: UNKNOWN
+Keywords: sparksampling
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+License-File: LICENSE
+
+UNKNOWN
+
