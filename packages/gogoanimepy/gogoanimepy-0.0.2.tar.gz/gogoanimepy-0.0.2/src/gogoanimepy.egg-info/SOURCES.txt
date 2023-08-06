@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gogoanimepy.egg-info/PKG-INFO
+src/gogoanimepy.egg-info/SOURCES.txt
+src/gogoanimepy.egg-info/dependency_links.txt
+src/gogoanimepy.egg-info/top_level.txt
