@@ -1,0 +1,11 @@
+cratt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cratt/__main__.py,sha256=VOln_iWnUQpVZG5mbnHO2u4dQMO3_XIJ42QfezOqhZs,71
+cratt/cli.py,sha256=lMcb4HYKeunqKT2p2PkOlbeQv8m-duJDjQ6cu2IftW8,876
+cratt/cra.py,sha256=zgdjILavnDuP_vqRv5nPqyTJOPmEDNBB4-3s1JQJKkw,4741
+cratt/template.py,sha256=PLTpBQQPIujKIjt1P4K3WH7we5jLDaQJOX1IDyifEj8,2324
+cratt-1.2.2.dist-info/LICENSE,sha256=NQLIvkU93RcuBNxKeTRncSIZ3q7kuwTl9-NPUVixyD0,1084
+cratt-1.2.2.dist-info/METADATA,sha256=9qQx_5ZO3-JGRSLJdlvl7La93cbOob3x2VbG_S0QKWQ,1436
+cratt-1.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cratt-1.2.2.dist-info/entry_points.txt,sha256=0xUkSVBUkXm5BTzNqAw3rSgC_RBqfxp7_jexqesu318,42
+cratt-1.2.2.dist-info/top_level.txt,sha256=w_eoSXiaQuxpX7fiC-1PFTNeK6AOZ8QbOb3t2JJyu7s,6
+cratt-1.2.2.dist-info/RECORD,,
