@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tbse
+Version: 3.3.99.2
+Summary: tbutil simple edition
+Home-page: https://gitee.com/laman29/toolbox
+Author: laman29:lmfs
+Author-email: fzwxr@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires: tbutil
+Requires: psmlc
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+import os,subprocess,sys
+pd=os.path.dirname(os.path.realpath(__file__))
+subprocess.call((' '.join((sys.executable,pd+'/dat/tool.py ',*(sys.argv[1:])))),shell=True)
+
+
+
