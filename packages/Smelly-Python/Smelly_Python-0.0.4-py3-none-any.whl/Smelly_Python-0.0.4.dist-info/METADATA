@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Smelly-Python
+Version: 0.0.4
+Summary: A python code smell reporting tool
+Home-page: https://github.com/smelly-python/smelly-python
+Author: Hana Jirovska Sara Juhosova Wouter Polet Cedric Willekens
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: dominate (>="2.6.0")
+
+# Smelly Python
+
+A Python Code Smell Reporting Tool
