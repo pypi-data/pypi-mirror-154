@@ -1,0 +1,5 @@
+loguru
+graphviz
+colorama
+termcolor
+wheel
