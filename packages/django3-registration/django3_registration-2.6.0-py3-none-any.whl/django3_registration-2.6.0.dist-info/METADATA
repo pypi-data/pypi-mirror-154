@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: django3-registration
+Version: 2.6.0
+Summary: An extensible user-registration application for Django
+Home-page: https://github.com/ImaginaryLandscape/django3-registration
+License: BSD
+Author: James Bennett
+Author-email: james@b-list.org
+Maintainer: Imagescape
+Maintainer-email: info@imagescape.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.1,<4.0)
+Requires-Dist: confusable_homoglyphs (>=3.0,<4.0)
+Description-Content-Type: text/x-rst
+
+=====================
+Django3 Registration
+=====================
+
+This is an extensible user-registration application for Django.  It
+was forked of the "2.x" branch of `this project
+<https://github.com/ubernostrum/django-registration/>`_.
+
+That project completely changed its approach to registrations in version
+3.0.  It eliminated models entirely and made many other big changes.
+Converting an existing 2.x project to 3.0 was proving to be
+prohibitively time consuming, so this fork was created to allow the
+older approach to work under Python 3 and newer versions of Django.
+
+Full documentation is `available online
+<https://django-registration.readthedocs.io/>`_.
+
+Installation
+============
+    $ pip install django3-registration
+
