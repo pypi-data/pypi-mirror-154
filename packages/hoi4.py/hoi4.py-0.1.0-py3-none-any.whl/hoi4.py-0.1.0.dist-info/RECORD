@@ -1,0 +1,11 @@
+hoi4/__init__.py,sha256=y5tJ0eXuTVkfcHJqzVqoKRICOePLh5Hy-E_FbjFYSK4,97
+hoi4/__main__.py,sha256=wNBxi8M0I4_HZZctFuwV5pmNM9odPTe_Nmlno8tD2qc,633
+hoi4/binary.py,sha256=rsKPWNAmU4EJG8mXgw9R3X8xcGQLQGbsXffDZwYJc3Y,3457
+hoi4/data.py,sha256=y0f-0i99O-916IMzn52MhDPuIAldqKH3WkI4fjEGkyA,216498
+hoi4/parse.py,sha256=vH2Ia2K3rVYYzlCKKYyGhH618g1CNneqH2bjh3Z7Hqo,770
+hoi4/plain.py,sha256=jD14HdGytHJ18ckIBAYR7UOUp8nH5ENkA4ukmJ9dMx4,3225
+hoi4.py-0.1.0.dist-info/LICENSE,sha256=beCJfRAawNw47vosZyXRnEWx5AHwuhs_hCuAkjHI-KQ,1051
+hoi4.py-0.1.0.dist-info/METADATA,sha256=ZC0B60b1LQlBJKHaid7jKYdpDe7OtNZvteIMRgSJncM,1005
+hoi4.py-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hoi4.py-0.1.0.dist-info/top_level.txt,sha256=AoTwNFugvDakuOTOxzbs52lqzUQzPfD4DtNhJDQBKq4,5
+hoi4.py-0.1.0.dist-info/RECORD,,
