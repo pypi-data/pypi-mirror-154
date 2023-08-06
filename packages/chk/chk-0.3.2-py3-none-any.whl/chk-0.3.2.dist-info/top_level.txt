@@ -1,0 +1,3 @@
+chk
+dist
+docs
