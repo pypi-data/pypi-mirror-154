@@ -1,0 +1,9 @@
+torch<=1.11,>=1.9
+psutil<=5.9.1
+torchio<=0.18.78,>0.18.56
+pytorch-lightning<=1.6.4,>=1.5
+monai<=0.8.1,>=0.7
+
+[test]
+pytest
+coverage
