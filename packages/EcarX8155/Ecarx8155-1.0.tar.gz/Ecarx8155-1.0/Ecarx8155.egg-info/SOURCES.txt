@@ -1,0 +1,10 @@
+setup.py
+Ecarx8155/__init__.py
+Ecarx8155/base_function.py
+Ecarx8155/canoe.py
+Ecarx8155/read_config.py
+Ecarx8155.egg-info/PKG-INFO
+Ecarx8155.egg-info/SOURCES.txt
+Ecarx8155.egg-info/dependency_links.txt
+Ecarx8155.egg-info/requires.txt
+Ecarx8155.egg-info/top_level.txt
