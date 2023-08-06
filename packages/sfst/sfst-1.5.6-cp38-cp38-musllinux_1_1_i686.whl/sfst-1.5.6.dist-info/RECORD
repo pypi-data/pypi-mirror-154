@@ -1,0 +1,9 @@
+libsfst.so,sha256=uyNv4Wb68rJcbwEBdavD8oNT77VVOwhvABgJwnKv6lI,524960
+sfst.cpython-38-i386-linux-gnu.so,sha256=Fd6p9u5VzgzqSXMRR1dK1vuTxyj_JtY7mBQ3tOiMBc0,578048
+sfst.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+sfst.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+sfst-1.5.6.dist-info/WHEEL,sha256=IPIP1vZcU5BlBdvpqbrPk7sEu0opMRWUbxrQPqOIJVA,109
+sfst-1.5.6.dist-info/top_level.txt,sha256=B4nZ1RkaIiZDWPbegAuOycpC347cOu3gx06yD0lkxpE,5
+sfst-1.5.6.dist-info/METADATA,sha256=HHfBIEaT-Zk-1qcUoddq0qKsqU_MhSq4aH-iH0WRru8,1246
+sfst-1.5.6.dist-info/COPYING,sha256=pFkyx5MX0VEW6tvxycb8WRF-w8RiHbOodgZt76cjljs,15127
+sfst-1.5.6.dist-info/RECORD,,
