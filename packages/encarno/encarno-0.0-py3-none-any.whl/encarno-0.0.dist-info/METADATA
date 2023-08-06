@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: encarno
+Version: 0.0
+Summary: Python module for Taurus to use Encarno load generator
+Home-page: https://github.com/undera/encarno
+Author: Andrei Pokhilko
+Author-email: andrei.pokhilko@gmail.com
+License: MIT
+Requires-Dist: bzt
+
+Python module for Taurus to use Encarno load generator
