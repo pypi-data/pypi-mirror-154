@@ -1,0 +1,7 @@
+README.md
+setup.py
+dstool.egg-info/PKG-INFO
+dstool.egg-info/SOURCES.txt
+dstool.egg-info/dependency_links.txt
+dstool.egg-info/requires.txt
+dstool.egg-info/top_level.txt
