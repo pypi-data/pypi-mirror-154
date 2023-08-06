@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: gen-changelog
+Version: 0.1.1
+Summary: A very simple script to generate a changelog from a repo with Conventional-Commits-compatible commit messages.
+License: AGPL-3.0-or-later
+Author: Stavros Korokithakis
+Author-email: hi@stavros.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.24,<4.0.0)
+Description-Content-Type: text/markdown
+
+gen_changelog
+=============
+
+gen_changelog is a very simple script that generates a changelog from a repository with
+commit messages compatible with [Conventional
+Commits](https://www.conventionalcommits.org/). The main difference of this script from
+[gitchangelog](https://github.com/sarnold/gitchangelog) is that this script will
+generate sections from dates/months instead of git tags of versions.
+
+
+Usage
+-----
+
+Just run it in the root of your repository:
+
+```bash
+$ ./gen_changelog "Your project's name"
+```
+
+You're done.
+
+
+Customization
+-------------
+
+You can customize the sections you want in the changelog by passing the `--categories`
+parameter:
+
+```bash
+$ ./gen_changelog --categories "add:Added|rem:Removed|chg:Changed|cs:CS:GO stuff"
+```
+
+
+With pre-commit
+---------------
+
+To use this with pre-commit, add this to your `.pre-commit-config.yaml`:
+
+```yaml
+- repo: https://gitlab.com/stavros/gen_changelog.git
+  rev: ccc6fa1dbe1a937c9b729e356b5fd91bf9d59ca4
+  hooks:
+  - id: gen-changelog
+    stages: [commit]
+```
+
