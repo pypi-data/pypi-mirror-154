@@ -1,0 +1,10 @@
+resistant_documents_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resistant_documents_client/base.py,sha256=kTYXCv5fEdb7jJVPFB9XlerXpD-LmyU1Kp82Y5YlohM,2991
+resistant_documents_client/client.py,sha256=CofcYIUuiSzGVph_0k9eOgOlX6BwAmc9ddS5FyxVfOY,6837
+resistant_documents_client/model.py,sha256=aXpdIYEaHG_L7H3_z_tLpxsr-LKs1VYg19V2Cq-8YqU,115
+resistant_documents_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resistant_documents_client/tests/test_client.py,sha256=VpwQxpeExl2o1sD7xEi6eJsC1lagdD3-WKquNhOHq0o,6958
+resistant_documents_client-2.2.0.dist-info/LICENSE,sha256=zP6xn-Ix70ai8QayJRz5XkapW8KdoIhEAHpvnKRyoDY,1069
+resistant_documents_client-2.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+resistant_documents_client-2.2.0.dist-info/METADATA,sha256=jIuHc1cBiyOxNV35lEBTNVX7eVfh4cPWHk9j0-ztp70,3405
+resistant_documents_client-2.2.0.dist-info/RECORD,,
