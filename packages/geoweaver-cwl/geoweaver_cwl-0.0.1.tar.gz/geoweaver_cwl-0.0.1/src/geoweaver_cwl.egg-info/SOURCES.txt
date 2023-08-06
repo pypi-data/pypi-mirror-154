@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/geoweaver_cwl/__init__.py
+src/geoweaver_cwl/translator.py
+src/geoweaver_cwl.egg-info/PKG-INFO
+src/geoweaver_cwl.egg-info/SOURCES.txt
+src/geoweaver_cwl.egg-info/dependency_links.txt
+src/geoweaver_cwl.egg-info/top_level.txt
