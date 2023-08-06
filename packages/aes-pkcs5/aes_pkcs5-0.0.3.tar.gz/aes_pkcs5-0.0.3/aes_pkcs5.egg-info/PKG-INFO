@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: aes-pkcs5
+Version: 0.0.3
+Summary: Implementation of AES with CBC/ECB mode and padding scheme PKCS5
+Home-page: https://github.com/Laerte/aes_pkcs5
+Author: Laerte Pereira
+Author-email: hi@laerte.dev
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: development
+
+===========
+AESPKCS5
+===========
+
+|CI| |PyPI| |Python Version|
+
+.. |PyPI| image:: https://img.shields.io/pypi/v/aes-pkcs5.svg
+   :target: https://pypi.org/project/aes-pkcs5/
+.. |CI| image:: https://github.com/Laerte/aes_pkcs5/actions/workflows/ci.yml/badge.svg
+.. |Python Version| image:: https://img.shields.io/pypi/pyversions/aes-pkcs5.svg
+   :target: https://pypi.org/project/scrapydt/
+
+Python implementation of AES with CBC/ECB mode and padding scheme PKCS5.
