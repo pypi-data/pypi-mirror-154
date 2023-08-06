@@ -1,0 +1,9 @@
+pytest_codeblocks/__about__.py,sha256=R5mBEOxhwu470g2hhSdRVj5XDTgHKYJlCXukuZUxrtI,23
+pytest_codeblocks/__init__.py,sha256=iukPdN-Qz6zPh307oGtfbeKzjYIkPmXeSEO2yC7PecE,241
+pytest_codeblocks/main.py,sha256=9cboPBKHZzEsEnL_Lx9I8DWYo3VTFuLOkDlnfFsKr40,6039
+pytest_codeblocks/plugin.py,sha256=kACYC_wt9hBbRCKUSICINBjoDQNr1_ko-cRpFwPFgzw,3900
+pytest_codeblocks-0.16.1.dist-info/entry_points.txt,sha256=0zRk_sjH57I_XTuSL6XXrjWvbFnLGYR9YODWS-pmTYo,48
+pytest_codeblocks-0.16.1.dist-info/LICENSE.txt,sha256=wE9rpw_26sJNbn_N99d3guPKOalUoLeMxjJEKdMsZkU,1086
+pytest_codeblocks-0.16.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pytest_codeblocks-0.16.1.dist-info/METADATA,sha256=VoSRGhS9vH0mgXO3GJASSWUcA5p8SBSx5Mr5zmK2XCk,5371
+pytest_codeblocks-0.16.1.dist-info/RECORD,,
