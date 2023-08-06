@@ -1,0 +1,8 @@
+setup.py
+coochie/__init__.py
+coochie/coochie.py
+coochie.egg-info/PKG-INFO
+coochie.egg-info/SOURCES.txt
+coochie.egg-info/dependency_links.txt
+coochie.egg-info/requires.txt
+coochie.egg-info/top_level.txt
