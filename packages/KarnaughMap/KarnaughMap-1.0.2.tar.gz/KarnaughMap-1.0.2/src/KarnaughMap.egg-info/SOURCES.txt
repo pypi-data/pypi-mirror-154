@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/KMap/GUI.py
+src/KMap/Mapper.py
+src/KMap/__init__.py
+src/KarnaughMap.egg-info/PKG-INFO
+src/KarnaughMap.egg-info/SOURCES.txt
+src/KarnaughMap.egg-info/dependency_links.txt
+src/KarnaughMap.egg-info/top_level.txt
