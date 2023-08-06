@@ -1,0 +1,12 @@
+csv2http/__init__.py,sha256=UxQuUH0YvUAN7Lmo9Uzl_k5rRrBDvCIw66rZQc33yPA,108
+csv2http/_version.py,sha256=Y1jTiwuE4IdH64guJjCJtf3BtIMtyUmJJ7lBhzn9NjY,38
+csv2http/cli.py,sha256=slu13rl1zAG3-xReN4d_gnDuwetUBOvljPZhgzsGxxQ,2205
+csv2http/constants.py,sha256=DTPIwI-7OHg609z6TXZFWSpaHFS9p30BmUlSembKlKQ,74
+csv2http/core.py,sha256=fm_iQnit4bJJxlLpLkmGP9roeEWaQLWhxFN8kA_i5aM,3582
+csv2http/parser.py,sha256=abVRUAP4uraD9ZkXro-5wGPLCp2i3HilkpMltT4P4nI,1356
+csv2http/utils.py,sha256=FNppW0YmiCQTEnhG1mTuaf4SR9e8bRdmvJ58wCkJhEw,2820
+csv2http-0.0.2a0.dist-info/entry_points.txt,sha256=xFf3CEYKd53Sse0bvi3yj8fcnNYjQXbhc9et5Pb39KE,73
+csv2http-0.0.2a0.dist-info/LICENSE,sha256=vSvJldOIeeuwfCmPe7fPGFI_BfaeNMZH5E20DD4XhvU,1064
+csv2http-0.0.2a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+csv2http-0.0.2a0.dist-info/METADATA,sha256=Ue3shl0qpYnbv03xlxTwuaptrpMJl6OGzjZFi4O2BuQ,4271
+csv2http-0.0.2a0.dist-info/RECORD,,
