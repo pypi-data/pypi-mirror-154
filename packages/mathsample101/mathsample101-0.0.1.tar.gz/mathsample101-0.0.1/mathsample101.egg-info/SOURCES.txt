@@ -1,0 +1,7 @@
+README.md
+setup.py
+mathsample101.egg-info/PKG-INFO
+mathsample101.egg-info/SOURCES.txt
+mathsample101.egg-info/dependency_links.txt
+mathsample101.egg-info/requires.txt
+mathsample101.egg-info/top_level.txt
