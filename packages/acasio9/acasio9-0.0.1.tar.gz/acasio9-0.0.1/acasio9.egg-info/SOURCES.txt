@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+acasio9/__init__.py
+acasio9.egg-info/PKG-INFO
+acasio9.egg-info/SOURCES.txt
+acasio9.egg-info/dependency_links.txt
+acasio9.egg-info/top_level.txt
