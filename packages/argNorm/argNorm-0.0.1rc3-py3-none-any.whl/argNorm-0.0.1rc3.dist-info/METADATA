@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: argNorm
+Version: 0.0.1rc3
+Summary: Fast ARG normalization by mapping to the ARO ontology.
+Home-page: https://github.com/BigDataBiology/argNorm
+Author: Hui Chong
+Author-email: huichong.me@gmail.com
+License: MIT
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs (>=21.4.0)
+Requires-Dist: certifi (>=2022.5.18.1)
+Requires-Dist: iniconfig (>=1.1.1)
+Requires-Dist: numpy (>=1.22.4)
+Requires-Dist: packaging (>=21.3)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: pip (>=21.2.4)
+Requires-Dist: pluggy (>=1.0.0)
+Requires-Dist: py (>=1.11.0)
+Requires-Dist: pyparsing (>=3.0.9)
+Requires-Dist: pytest (>=7.1.2)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pytz (>=2022.1)
+Requires-Dist: setuptools (>=61.2.0)
+Requires-Dist: six (>=1.16.0)
+Requires-Dist: tomli (>=2.0.1)
+Requires-Dist: wheel (>=0.37.1)
+
+# argNorm
+
+[![Python package](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml/badge.svg)](https://github.com/BigDataBiology/argNorm/actions/workflows/python-package.yml)
+[![Downloads](https://pepy.tech/badge/argNorm)](https://pepy.tech/project/argNorm)
+![](https://img.shields.io/badge/status-alpha-red?style=flat) 
+<!-- ![](https://img.shields.io/github/license/BigDataBiology/argNorm?style=flat) -->
+
+Fast antibiotic resistance gene (ARG) normalization by mapping to the [antibiotic resistance ontology (ARO)](https://obofoundry.org/ontology/aro.html) by CARD.
+
+This is a very-first implementation (**not ready for production**), but you're welcomed to try it and provide feedback to make it better. 
+
+We welcome your feedback on the [Issues Page](https://github.com/BigDataBiology/argNorm/issues). 
+
+## Supported tools
+
+- [x] [DeepARG](https://bench.cs.vt.edu/deeparg)
+- [x] [ARGs-OAP](https://galaxyproject.org/use/args-oap/)
+- [x] [Abricate](https://github.com/tseemann/abricate) (work in progress)
+
+<!-- Hamronized output
+
+- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
+- [x] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
+- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
+- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
+- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
+- [x] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db) -->
+
+<!-- Raw output
+
+- [x] [deeparg](https://bitbucket.org/gusphdproj/deeparg-largerepo/src/master/database/v2/features.fasta)
+- [ ] [sarg](https://smile.hku.hk/SARGs/static/images/Ublastx_stageone2.3.tar.gz)
+- [x] [ncbi](https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt)
+- [x] [argannot](https://github.com/tseemann/abricate/tree/master/db/argannot)
+- [x] [megares](https://github.com/tseemann/abricate/tree/master/db/megares)
+- [ ] [resfinder](https://bitbucket.org/genomicepidemiology/resfinder_db) -->
+
+## Installation
+
+```bash
+pip install argnorm
+```
+
+## Basic usage
+
+Use `argnorm -h` to see available options.
+
+```bash
+argnorm [database] -i [original_annotation.tsv] -o [annotation_result_with_aro.tsv]
+```
+
+## Examples
+
+```bash
+argnorm argsoap --mode reads -i examples/raw/args-oap.sarg.reads.tsv -o tmp
+argnorm argsoap --mode reads -i examples/hamronized/args-oap.sarg.reads.tsv -o tmp --hamronized
+argnorm argsoap --mode orfs -i examples/raw/args-oap.sarg.orfs.tsv -o tmp
+argnorm argsoap --mode orfs -i examples/hamronized/args-oap.sarg.orfs.tsv -o tmp --hamronized
+
+argnorm deeparg -i examples/raw/deeparg.deeparg.orfs.tsv -o tmp
+argnorm deeparg -i examples/hamronized/deeparg.deeparg.orfs.tsv -o tmp --hamronized
+
+argnorm abricate --db ncbi -i examples/raw/abricate.ncbi.tsv -o tmp
+argnorm abricate --db megares -i examples/raw/abricate.megares.tsv -o tmp
+argnorm abricate --db argannot -i examples/raw/abricate.argannot.tsv -o tmp
+
+argnorm abricate --db ncbi -i examples/hamronized/abricate.ncbi.tsv -o tmp --hamronized
+argnorm abricate --db megares -i examples/hamronized/abricate.megares.tsv -o tmp --hamronized
+argnorm abricate --db argannot -i examples/hamronized/abricate.argannot.tsv -o tmp --hamronized
+argnorm abricate --db resfinder -i examples/hamronized/abricate.resfinder.tsv -o tmp --hamronized
+
+```
+
+## Maintainers
+
+|   Name    | Email                 | Organization                                                 |
+| :-------: | --------------------- | ------------------------------------------------------------ |
+| Hui Chong | huichong.me@gmail.com | Research Assistant, Big Data Biology Lab, Fudan University |
+| Svetlana Ugarcina Perovic | svetlana.ugarcina@gmail.com | Postdoc Researcher, Big Data Biology Lab, Fudan University |
+| Luis Pedro Coelho | luis@luispedro.org | Principle Investigator, Big Data Biology Lab, Fudan University |
+| Finlay Maguire | finlaymaguire@gmail.com | Assistant Professor, Department of Community Health and Epidemiology, Dalhousie University |
