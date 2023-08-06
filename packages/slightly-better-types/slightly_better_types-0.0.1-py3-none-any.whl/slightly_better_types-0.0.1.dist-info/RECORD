@@ -1,0 +1,13 @@
+slightly_better_types/__init__.py,sha256=2rssP1fmi9bcoea6c1mHFTopOlykilA9TnulW5vS99c,193
+slightly_better_types/function.py,sha256=ZxDcajwRYAk9adw_Tjq0qTL56Q8FOCf1IVNdISVprr4,4351
+slightly_better_types/handlers.py,sha256=SmYZc6QwGQIaenY4MY3JSFXQSvbKNnd8rYsjWAIqd-Y,2523
+slightly_better_types/parameter.py,sha256=gWldmMX4ssh0DtnamDtc1LqdecloQtxD_9U5uRwiQNw,2458
+slightly_better_types/utils.py,sha256=UT8Ajg9IHJ1bNWBEi7ohuc44xo9boUT6l-1EzE3aBuA,1667
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_function.py,sha256=NjgKscys34KNUnJqPHL9y8pYBbEwXWqI8gb_byUAHyY,2779
+tests/test_handlers.py,sha256=Fj66YR6q0pp7I1DhPH4cvGMgVD0ZRwMxiITJ7Hhc1gU,2114
+slightly_better_types-0.0.1.dist-info/LICENSE,sha256=2HYJCR95-Ilj2-i-YIIf3Dwab_9xez0GcKnIr_uoZpI,1090
+slightly_better_types-0.0.1.dist-info/METADATA,sha256=80dFFk14zA2ZQzgyokMoKckqkTBY80I55uJ2Y3X3pFE,1650
+slightly_better_types-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slightly_better_types-0.0.1.dist-info/top_level.txt,sha256=Z1euwPAFBsG03z2fzmvyRcvIEAcU12C8xVLh9lyMI0U,28
+slightly_better_types-0.0.1.dist-info/RECORD,,
