@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_celery_fsm/__init__.py
+django_celery_fsm/discovery.py
+django_celery_fsm/fsm.py
+django_celery_fsm/models.py
+django_celery_fsm/tasks.py
+django_celery_fsm.egg-info/PKG-INFO
+django_celery_fsm.egg-info/SOURCES.txt
+django_celery_fsm.egg-info/dependency_links.txt
+django_celery_fsm.egg-info/not-zip-safe
+django_celery_fsm.egg-info/top_level.txt
