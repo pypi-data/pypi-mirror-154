@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "sgmusic"
+version = "0.1.4"
+description = ""
+authors = ["Sam Greening <samjg60@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/SG60/sgmusic"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+sympy = "^1.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+mypy = "^0.961"
+hypothesis = {extras = ["cli"], version = "^6.36.1"}
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.4"
+tag_format = "v$version"
+version_files = [
+    "pyproject.toml:version"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
