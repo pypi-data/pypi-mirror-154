@@ -1,0 +1,10 @@
+scioer_builder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scioer_builder/cli.py,sha256=DfXrAK-7AkQJgf7zGC93ogMN6wCo8vTlL5vmnxkx47c,21144
+scioer_builder/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+scioer_builder/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scioer_builder-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+scioer_builder-0.1.0.dist-info/METADATA,sha256=FHaaobjZ5O-JdpsSaPBAb_cRYTPldtxaqUGKIsiGY84,5341
+scioer_builder-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scioer_builder-0.1.0.dist-info/entry_points.txt,sha256=a3M15cHgYXraTGADz6bM-upVvbScOipFukTV0fhtMaY,59
+scioer_builder-0.1.0.dist-info/top_level.txt,sha256=SOY_oiCV8jvgx7QEn66u9Wkn9QQ9-w34Im3dvt_kowE,15
+scioer_builder-0.1.0.dist-info/RECORD,,
