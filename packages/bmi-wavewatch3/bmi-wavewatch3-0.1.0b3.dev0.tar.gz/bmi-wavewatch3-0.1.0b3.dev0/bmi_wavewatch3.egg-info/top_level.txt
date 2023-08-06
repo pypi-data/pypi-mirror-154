@@ -1,0 +1,7 @@
+_data
+bmi_wavewatch3
+build
+dist
+docs
+news
+tests
