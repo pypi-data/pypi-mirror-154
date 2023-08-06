@@ -1,0 +1,8 @@
+README.md
+setup.py
+httpIm.egg-info/PKG-INFO
+httpIm.egg-info/SOURCES.txt
+httpIm.egg-info/dependency_links.txt
+httpIm.egg-info/top_level.txt
+http_import/__init__.py
+http_import/http_import.py
