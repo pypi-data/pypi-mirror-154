@@ -1,0 +1,11 @@
+_ngl.cpython-311-x86_64-linux-gnu.so,sha256=9tEUWkKAfFaKbM9oT2Oji87lriuXx2dQLdsqedaZ93U,5316256
+nglpy/EmptyRegionGraph.py,sha256=1Z_OHQPKxeT-WCTG2cJatEj80pjQ_miFjuoJvVf0t_4,6566
+nglpy/utils.py,sha256=68e4_6Q_0fSKkwAzPpfaTyx5ycnlMzJcBgMUK4iNaVI,993
+nglpy/PrebuiltGraph.py,sha256=O3_F2xbdyzEq6oat6cV01cNeLontg-4qNQGAITOUZlk,2770
+nglpy/ngl.py,sha256=aRPYLUL3_w1me4fITqCh9-az-UZU6CvEdkDXpvciRh8,17431
+nglpy/__init__.py,sha256=hX2TtwjVrc_ai4nLkk9ajmvXzYaYPSnsOfgN1ZfCxPE,159
+nglpy-1.1.2.dist-info/RECORD,,
+nglpy-1.1.2.dist-info/top_level.txt,sha256=UXOBb_28oYh0EF8kh3qVd68tM0sT2jwFi5WzXYLahPM,11
+nglpy-1.1.2.dist-info/LICENSE,sha256=sy-QJh7ZOWzHLoBhtla8YqJEGw8bWMUx5nJhdrZCHUc,1672
+nglpy-1.1.2.dist-info/METADATA,sha256=h4NtE13K3WlKJyZkcsVswz9nrBRPFfaNYx1a2zaDK_I,1226
+nglpy-1.1.2.dist-info/WHEEL,sha256=q0eDxLM-LtrIcjTT7opEBe9r8FCEtqnq83QsBZwYZN8,153
