@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pychess/__init__.py
+src/pychess/__main__.py
+src/pychess/game.py
+src/terminal_chess.egg-info/PKG-INFO
+src/terminal_chess.egg-info/SOURCES.txt
+src/terminal_chess.egg-info/dependency_links.txt
+src/terminal_chess.egg-info/entry_points.txt
+src/terminal_chess.egg-info/requires.txt
+src/terminal_chess.egg-info/top_level.txt

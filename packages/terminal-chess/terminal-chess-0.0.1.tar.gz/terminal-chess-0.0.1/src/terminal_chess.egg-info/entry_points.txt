@@ -1,0 +1,2 @@
+[console_scripts]
+pychess = pychess.__main__:main
