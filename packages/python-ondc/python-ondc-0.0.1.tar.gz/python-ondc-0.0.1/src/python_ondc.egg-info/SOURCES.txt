@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/ondc/__init__.py
+src/ondc/adaptor.py
+src/python_ondc.egg-info/PKG-INFO
+src/python_ondc.egg-info/SOURCES.txt
+src/python_ondc.egg-info/dependency_links.txt
+src/python_ondc.egg-info/top_level.txt
