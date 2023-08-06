@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/simreq.egg-info/PKG-INFO
+src/simreq.egg-info/SOURCES.txt
+src/simreq.egg-info/dependency_links.txt
+src/simreq.egg-info/top_level.txt
