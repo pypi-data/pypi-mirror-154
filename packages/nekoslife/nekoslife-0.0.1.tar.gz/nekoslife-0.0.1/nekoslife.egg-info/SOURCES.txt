@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nekoslife/__functions.py
+nekoslife/__init__.py
+nekoslife.egg-info/PKG-INFO
+nekoslife.egg-info/SOURCES.txt
+nekoslife.egg-info/dependency_links.txt
+nekoslife.egg-info/requires.txt
+nekoslife.egg-info/top_level.txt
