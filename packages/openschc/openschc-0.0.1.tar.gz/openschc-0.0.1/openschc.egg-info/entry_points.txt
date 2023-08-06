@@ -1,0 +1,2 @@
+[console_scripts]
+scumprogrammer = openschc:main_app
