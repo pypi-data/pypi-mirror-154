@@ -1,0 +1,8 @@
+pandas
+seaborn
+numpy
+matplotlib
+click==7.0
+Pillow
+Jinja2==2.10.3
+PyYAML
