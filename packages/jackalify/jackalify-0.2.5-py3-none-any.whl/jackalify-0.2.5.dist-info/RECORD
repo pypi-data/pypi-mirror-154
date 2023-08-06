@@ -1,0 +1,17 @@
+jackalify/__init__.py,sha256=CSFToW-pxhAEs7DK5X83D_NxGdsc43we5D_4Y4yBzJ8,3326
+jackalify/__main__.py,sha256=SWjJY8AyiBQLnvMIPK4geBGGw_79vRqIqHD5WM1oKsY,85
+jackalify/app.py,sha256=1grrisx3HOzO2oL1FD7EnYOcNYfmWJC3LlHeRLUUIsw,4254
+jackalify/jackal.py,sha256=2G45mPgA8aBCHz1EpSMICK4pQ2mEvLBqOZJ9ByZOQSs,2619
+jackalify/seam_carve.py,sha256=yW6JTG9LKLZPNLLKx1uuwbM68ah3GevrhiJnsaeCRc8,4998
+jackalify/locales/en/LC_MESSAGES/jackalify.mo,sha256=QdKs0LiY6qU-9vJwyURNAGcUdg4MX4159JhspmEYWwM,1947
+jackalify/locales/ru/LC_MESSAGES/jackalify.mo,sha256=XAfnWpT1Bpdc1KsYCCwYo_Bj_n7mzepz1ttBRd_h1Wo,2638
+jackalify/static/css/style.css,sha256=DUzxSTkS3itdH8y3pQZa-wR7hQwxDqr1d4seOxBo49M,771
+jackalify/static/images/bottle.jpg,sha256=lIgDzsy7z41onwgNAXHmz8BV1d4putSn7Fw0yw9LOJo,36726
+jackalify/static/js/scripts.js,sha256=fnySEnZkzCyzoOlu7TV7uXXrAIoMf5dZSQh281CzDfU,1315
+jackalify/templates/main_form.html,sha256=VGM7egMgF9ZLV4jBqWmip6s5AoGSHBtFifMfH67epQ0,1458
+jackalify-0.2.5.dist-info/LICENSE,sha256=2JV6bkS7_AHQiUnmeITMnsmSS8rZYvckR6QVTgqWHNI,1067
+jackalify-0.2.5.dist-info/METADATA,sha256=_kB2-_Okjq0xx8YLxbuF0-NNoSRX0VfrFC-KYkL039I,4373
+jackalify-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jackalify-0.2.5.dist-info/entry_points.txt,sha256=ZamkAJvZZamY_JByRis_1ERdDgq-UePC008RRAiuzLg,45
+jackalify-0.2.5.dist-info/top_level.txt,sha256=zchGFAlXndK1bJurrViSHV8QRowECVwGeVfU4RCHl6Y,10
+jackalify-0.2.5.dist-info/RECORD,,
