@@ -1,0 +1,9 @@
+_pymeos.cpython-310-darwin.so,sha256=M9OxMXfzF8fYCfiN8ZX1ZvaIKRmSTf-N207koQFpDWg,3656192
+pymeos-0.1.1.dist-info/RECORD,,
+pymeos-0.1.1.dist-info/LICENSE,sha256=g6cpflIAs74gWq0K7STFRp1m2vY6FRKq_yCdwZfd6ng,1076
+pymeos-0.1.1.dist-info/WHEEL,sha256=wHXPjcF1PbvralrZAZffaBRfMW8u_7d-L-q3slIS7Go,111
+pymeos-0.1.1.dist-info/top_level.txt,sha256=U4HIdHsCyaini7LMSUqHLOBFJNXruAC9oKFXRmc7brg,15
+pymeos-0.1.1.dist-info/METADATA,sha256=WhWuCF_Z4UfboXRVJuS91qaVLqWSFsRSyolEg3AxchU,6184
+pymeos/__init__.py,sha256=0bDqiqc8Tq64WlaLKvmFruuvIGorDizmjUkDIRhPptY,1956
+pymeos/.dylibs/libgeos.3.10.3.dylib,sha256=lYaxuWcm__TmSFvRCG4fwT8D_SMIVshoM1mCcuyOb48,2133200
+pymeos/.dylibs/libgeos_c.1.16.1.dylib,sha256=XTuQoVG-CdQnHmOqQvNNgt9Az7aylMCJnwsOlH_CyeI,284384
