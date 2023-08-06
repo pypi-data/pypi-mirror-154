@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sha256sum
+Version: 2022.6.11
+Summary: Compute SHA256 message digest from a file
+Home-page: https://github.com/oittaa/sha256sum
+Author: Oittaa
+Author-email: 
+Keywords: sha256sum,SHA256
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sha256sum
+Compute SHA256 message digest from a file.
+
+[![CI](https://github.com/oittaa/sha256sum/actions/workflows/main.yml/badge.svg)](https://github.com/oittaa/sha256sum/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/oittaa/sha256sum/branch/main/graph/badge.svg?token=9J5X0UDEP3)](https://codecov.io/gh/oittaa/sha256sum)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## Install
+
+```
+pip install sha256sum
+```
+
+## Usage
+
+```
+from sha256sum import sha256sum
+
+output = sha256sum("/path/to/file")
+```
