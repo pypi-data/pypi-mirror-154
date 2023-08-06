@@ -1,0 +1,7 @@
+setup.py
+filbuktools.egg-info/PKG-INFO
+filbuktools.egg-info/SOURCES.txt
+filbuktools.egg-info/dependency_links.txt
+filbuktools.egg-info/not-zip-safe
+filbuktools.egg-info/top_level.txt
+funniest/__init__.py
