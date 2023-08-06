@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sberpm
+Version: 2.0.2
+Summary: Library for Process Mining
+Home-page: UNKNOWN
+Author: Sberbank Process Mining Team
+Author-email: AABugaenko@sberbank.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+License-File: LICENSE_RUS
+
+UNKNOWN
+
