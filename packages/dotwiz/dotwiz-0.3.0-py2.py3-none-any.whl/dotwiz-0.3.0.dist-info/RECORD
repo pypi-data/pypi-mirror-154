@@ -1,0 +1,14 @@
+dotwiz/__init__.py,sha256=i0jHWKvIwC-jM6pMuxbWe_ts6C5u-muDgjIyCyVnb3I,836
+dotwiz/__version__.py,sha256=op5x1DmvMylwTM03kTIzX7W3ukyF6aKSb_kuiq9BaJ0,423
+dotwiz/common.py,sha256=bzUFhTf4lTwvl9rL7iQ0tYd2uXfnBNenJXHFK28lyT4,1769
+dotwiz/common.pyi,sha256=0_VrMWOaaYMwmzWANHsQuEknZHTgTMuD_sbVfvpRVbk,649
+dotwiz/main.py,sha256=fNClGg-PaY2LoQCXB-OhA-ugm4Nm39spBtMPTfM0__A,2807
+dotwiz/main.pyi,sha256=u8QdcCq2_1o6vGJP00yBk1Bl9_-DrLxN2sbwddoGmxQ,1835
+dotwiz/plus.py,sha256=7B4a3Lnx7wm68A3f6uSGytotCBQAQuSm5mzTL1LU-Zs,6852
+dotwiz/plus.pyi,sha256=9Qx5k5j7Rx_8D5A0f56-YkdG9fXyG5Ttsv0YViLnUKo,2299
+dotwiz/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dotwiz-0.3.0.dist-info/LICENSE,sha256=0146uBZwRAvONDQghby4rgM4RVh8-NJ8AabJHEj7mdA,1069
+dotwiz-0.3.0.dist-info/METADATA,sha256=Ozl29rAr0KLaAcRpX1fIso7flTvCuvQIq3YAHF3Q_6Y,6952
+dotwiz-0.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+dotwiz-0.3.0.dist-info/top_level.txt,sha256=0RlFTmh7Kr--eL6VDg5ajz-TKZSi430voMogAKRwz7k,7
+dotwiz-0.3.0.dist-info/RECORD,,
