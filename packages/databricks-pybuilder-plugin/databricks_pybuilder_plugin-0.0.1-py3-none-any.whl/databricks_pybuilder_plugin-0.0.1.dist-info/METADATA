@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: databricks-pybuilder-plugin
+Version: 0.0.1
+Summary: Pybuilder plugin providing tasks for assets deployment.
+Home-page: 
+Author: Mikhail Kavaliou
+Author-email: mkavaliou@edmunds.com
+Maintainer: 
+Maintainer-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+
+Provides utilities for assets deployment to Databricks based on databricks API.
