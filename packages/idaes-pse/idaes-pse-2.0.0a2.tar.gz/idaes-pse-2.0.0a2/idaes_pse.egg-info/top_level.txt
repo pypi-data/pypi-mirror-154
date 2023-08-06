@@ -1,0 +1,8 @@
+build
+data
+dist
+docker
+docs
+docs_archive
+idaes
+scripts
