@@ -1,0 +1,1 @@
+This is a package to log the user activity

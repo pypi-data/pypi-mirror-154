@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TK_log
+Version: 0.0.1
+Summary: Package to log user activity
+Home-page: 
+Author: ravi
+Author-email: ravi.masna@talentkind.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+description
+
