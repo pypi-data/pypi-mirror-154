@@ -1,0 +1,4 @@
+sPyNNaker>=1!6.0.0
+numpy>=1.22.1
+matplotlib>=3.5.1
+XlsxWriter>=3.0.2
