@@ -1,0 +1,25 @@
+from rrshare.rqUpdate.update_stock_day import record_stock_day
+from rrshare.rqUpdate.update_swl_day import record_swl_day
+
+from rrshare.rqUpdate.update_daily_counts_pickle import record_daily_counts_pickle
+
+from rrshare.rqUpdate.update_stock_RS_OH_MA import record_stock_PRS, record_stock_PRS_new
+from rrshare.rqUpdate.update_swl_RS_OH_MA import record_swl_PRS, record_swl_PRS_new
+
+
+def main_record():
+    record_stock_day()
+    record_swl_day()
+    
+    record_daily_counts_pickle()
+
+    record_swl_day()
+    record_swl_PRS_new()
+    
+    record_stock_PRS()
+    record_stock_PRS_new()
+
+
+
+if __name__ == '__main__':
+    main_record()
