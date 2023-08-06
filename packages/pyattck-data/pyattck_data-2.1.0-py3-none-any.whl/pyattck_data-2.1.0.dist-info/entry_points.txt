@@ -1,0 +1,3 @@
+[console_scripts]
+pyattck-data-models=pyattck_data.__main__:main
+
