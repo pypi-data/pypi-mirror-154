@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: gen3config
+Version: 1.0.0
+Summary: Gen3 Configuration Library
+Home-page: https://github.com/uc-cdis/gen3config
+License: Apache
+License-File: LICENSE
+License-File: NOTICE
