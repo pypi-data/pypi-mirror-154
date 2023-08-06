@@ -1,0 +1,65 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build_wheels:
+    name: Build wheels on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false # false # see if other jobs finish
+      matrix:
+        # don't run under windows for now (MSVC not found by cmake, despite ilammy/msvc-dev-cmd)
+        os: [ubuntu-20.04, windows-2019, macOS-10.15]
+    steps:
+      - uses: actions/checkout@v3
+      # Used to host cibuildwheel
+      - uses: actions/setup-python@v2
+      # https://github.com/pypa/cibuildwheel/issues/643
+      - name: Install MSVC if under Windows
+        uses: ilammy/msvc-dev-cmd@v1
+      - name: Build wheels
+        uses: pypa/cibuildwheel@v2.6.1
+        # run: python -m cibuildwheel --output-dir wheelhouse
+        # to supply options, put them in 'env', like:
+        # env:
+        #   CIBW_SOME_OPTION: value
+        # skip 32-bit builds and PyPy
+        env:
+            CIBW_SKIP: "*-win32 *-manylinux_i686 pp* *-musllinux_*"
+        #    MSVC_TOOLSET_VERSION: "141" 
+      - uses: actions/upload-artifact@v2
+        with:
+          path: ./wheelhouse/*.whl
+  build_sdist:
+    name: Build source distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Build sdist
+        run: pipx run build --sdist
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/*.tar.gz
+
+  upload_pypi:
+    needs: [build_wheels, build_sdist]
+    runs-on: ubuntu-latest
+    # upload to PyPI on every tag starting with 'v'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+    # alternatively, to publish when a GitHub Release is created, use the following rule:
+    # if: github.event_name == 'release' && github.event.action == 'published'
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: artifact
+          path: dist
+
+      - uses: pypa/gh-action-pypi-publish@v1.4.2
+        with:
+          user: __token__
+          password: ${{ secrets.pypi_password }}
+          verify_metadata: false
+          # To test: repository_url: https://test.pypi.org/legacy/

@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools",
+    "scikit-build==0.15.0",
+    "cmake",
+    "ninja; platform_system!='Windows'",
+    # https://pybind11.readthedocs.io/en/stable/installing.html#include-with-pypi
+    "pybind11[global]",
+    "numpy"
+]
+build-backend = "setuptools.build_meta"
+
+#[tool.pytest.ini_options]
+#testpaths = ["tests"]

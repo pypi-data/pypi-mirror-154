@@ -1,0 +1,13 @@
+.gitignore
+CMakeLists.txt
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+.github/workflows/wheels.yml
+src/mupifAccel/__init__.py
+src/mupifAccel/fastOctant.cpp
+src/mupif_accel.egg-info/PKG-INFO
+src/mupif_accel.egg-info/SOURCES.txt
+src/mupif_accel.egg-info/dependency_links.txt
+src/mupif_accel.egg-info/top_level.txt
