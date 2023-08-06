@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: evalml
+Version: 0.53.1
+Summary: EvalML is an AutoML library that builds, optimizes, and evaluates machine learning pipelines using domain-specific objective functions.
+Home-page: https://github.com/alteryx/evalml/
+Download-URL: https://pypi.org/project/evalml/
+Author: Alteryx, Inc.
+Author-email: open_source_support@alteryx.com
+License: BSD 3-clause
+Project-URL: Documentation, https://evalml.alteryx.com
+Project-URL: Source Code, https://github.com/alteryx/evalml/
+Project-URL: Changes, https://evalml.alteryx.com/en/latest/release_notes.html
+Project-URL: Issue Tracker, https://github.com/alteryx/evalml/issues
+Project-URL: Twitter, https://twitter.com/alteryxoss
+Project-URL: Chat, https://join.slack.com/t/alteryx-oss/shared_invite/zt-6inxevps-RSbpr9lsACE1kObXz4rIuA
+Keywords: data science machine learning optimization automl
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: <4,>=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: update_checker
+Provides-Extra: prophet
+Provides-Extra: complete
+License-File: LICENSE
