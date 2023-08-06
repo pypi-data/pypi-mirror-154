@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dbce"
+version = "0.1.1"
+description = "DBCE - Discord Bot Creator Easy to use library for creating discord bots"
+authors = ["peaky <nerfinyt@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "disnake>=2.4.0", "pycryptodome>=3.14.1", "pycryptodomex>=3.14.1", "requests>=2.27.1"]
+build-backend = "poetry.core.masonry.api"
