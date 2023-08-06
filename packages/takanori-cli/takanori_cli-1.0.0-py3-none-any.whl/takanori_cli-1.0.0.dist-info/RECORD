@@ -1,0 +1,10 @@
+takanori_cli/__init__.py,sha256=fSwqVCmpHu3mQBEQ96Cz49ybFy0gtdY9wbJJbvSyhPQ,24
+takanori_cli/create.py,sha256=QQz25gg5l9Yw7Ca439oU7aiZ2ZuUIDMP3FlxqN-dVuE,881
+takanori_cli/main.py,sha256=o11EeEKzExQ2Qgjwl5tkFy34KShWl608TgI0Z5sgn6M,623
+takanori_cli/plugin.py,sha256=N1tLQUPQzOLzjkDmx8Ygj34wjlPE8qso733s5r3u-bU,821
+takanori_cli-1.0.0.dist-info/LICENSE,sha256=eq-FDVh_u2PzR8MaAmQk03AZh9sqs-83TOGFviE7jwc,1096
+takanori_cli-1.0.0.dist-info/METADATA,sha256=2Ap5s4Ac5rIkDFg4jC76eeukTZw9ppO60fwuJl0W0wA,928
+takanori_cli-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+takanori_cli-1.0.0.dist-info/entry_points.txt,sha256=4FNXIVDW7-rWGKC91pZVk4odLZjInMVkZgkqLnTTMP8,47
+takanori_cli-1.0.0.dist-info/top_level.txt,sha256=obTZYtIZrgZ-gCAbn6VBeaflIUL8DX5s7bff9yG-gZA,13
+takanori_cli-1.0.0.dist-info/RECORD,,
