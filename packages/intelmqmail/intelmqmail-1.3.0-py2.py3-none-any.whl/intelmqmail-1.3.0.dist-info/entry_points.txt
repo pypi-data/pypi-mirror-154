@@ -1,0 +1,3 @@
+[console_scripts]
+intelmqcbmail = intelmqmail.cb:main
+
