@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: viena-polygon
+Version: 1.0
+Summary: An example Python package
+Home-page: https://github.com/viena-ai/polygon_python_processes
+Author: viena
+Author-email: info@viena.ai
+License: MIT
+Keywords: example package setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: typer
+Requires-Dist: colorama
+Requires-Dist: shellingham
+Requires-Dist: pytest
+Provides-Extra: dev
+Provides-Extra: test
+
+Viena-polygon cli project
+
+
