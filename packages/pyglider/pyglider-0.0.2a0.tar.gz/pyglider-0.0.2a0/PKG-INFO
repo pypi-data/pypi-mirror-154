@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pyglider
+Version: 0.0.2a0
+Summary: Glider data to netCDF translation in python
+Home-page: https://github.com/c-proof/pyglider.git
+Author: Jody Klymak
+Author-email: jklymak@gmail.com
+Requires-Python: >=3.6

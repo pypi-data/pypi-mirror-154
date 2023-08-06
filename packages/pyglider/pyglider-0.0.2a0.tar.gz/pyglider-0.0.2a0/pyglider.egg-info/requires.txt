@@ -1,0 +1,11 @@
+matplotlib
+numpy
+xarray
+dask
+bitstring
+netcdf4
+geojson
+gsw
+scipy
+pooch
+pyyaml
