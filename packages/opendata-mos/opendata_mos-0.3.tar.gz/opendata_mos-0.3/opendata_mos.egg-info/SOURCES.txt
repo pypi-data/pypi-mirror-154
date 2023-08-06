@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+opendata_mos/OpenData.py
+opendata_mos/test.py
+opendata_mos.egg-info/PKG-INFO
+opendata_mos.egg-info/SOURCES.txt
+opendata_mos.egg-info/dependency_links.txt
+opendata_mos.egg-info/not-zip-safe
+opendata_mos.egg-info/top_level.txt
