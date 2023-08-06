@@ -1,0 +1,227 @@
+Metadata-Version: 2.1
+Name: hmtai
+Version: 3.0.6
+Summary: UNKNOWN
+Home-page: https://discord.gg/vJs36ES
+Author: NickSaltFoxu
+Author-email: thnyawec@gmail.com
+License: CC-BY-NC-ND-4.0
+Keywords: anime,hentai,nsfw,sfw,images,gifs,wallpaper,discord,ahegao,ass,neko,yuri,panties,thighs,ero,kawaii,cute,waifu,hmtai,zettaiRyouiki,18+,REST,API,Mikun
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# HMtai / HMFull
+### P.S. This is ported version of [npm version](https://www.npmjs.com/package/hmtai) of package.
+### Docs for this package are old and i can't update them now.
+------------
+hmtai is an Anime / Hentai (NSFW) Image API which simplifies how you fetch random images from the local libraries! More features and functions will be added soon!
+Will be i updating this API? Of course nyse, dude, but this API has a 18.000 NSFW picture, and 442 SFW picture. 18 442 total. All picture we added manually. 
+
+My goal is to create the most depraved library ever and I think I got it.
+
+Original package by [Mikun Hatsune](https://discord.bio/p/hatsunemikun) from [HMCommunity](https://discord.gg/apcn33CGqw)  
+Ported by [NickSaltFoxu](https://discords.com/bio/p/oldnicksalty) 
+
+## Installation
+------------------------
+```
+pip install hmtai
+```  
+
+Structures
+------------
+
+```
+   # Base function
+   hmtai.get("source","category")
+
+   # What libraries always return
+   hmtai.get("hmtai", "neko") return "link"
+   hmtai.get("hmtai", "manga") return "link"
+```
+
+------------
+Examples
+------------
+
+```
+
+   # HMtai
+   import hmtai
+
+   # Get pictures from hmtai library
+   hmtai.get("hmtai","neko")
+
+   # Get from others Libraries 
+   hmtai.get("nekos","neko")
+   hmtai.get("nekobot","neko")
+```
+
+## Changelog
+------------
+* Yeah, new update (hmtai 3.0.4)
+* Now this package uses only official REST API
+* Soon i will remove ``useHM``.
+* Nekos and Neko-Love are merged for now...
+
+## Support
+------------
+Original Package -> [HMCommunity Discord Server](https://discord.gg/apcn33CGqw) || This package -> NickSaltFox#7273
+
+## List of Libraries
+HMtai
+---------------------
+
+**SFW Categories**
+
+| Function        | Description                        |
+| --------------- | ---------------------------------- |
+| wallpaper       | SFW Wallpaper with Anime           |
+| mobileWallpaper | SFW Wallpaper with Anime on Mobile |
+| neko            | SFW Neko Girls (Cat Girls)         |
+| jahy            | So hot Jahy :3                     |
+| lick            | SFW licks gifs :P                  |
+| slap            | SFW slap gifs xD                   |
+| bite            | Bite bite biting :3                |
+| dance           | Move like lady jagger гѓѕ(в‰§в–Ѕв‰¦*)o  |
+| boop            | Boopyy                             |
+| hug             | I like hugs, do you?               |
+| sleep           | Zzz рџ’¤                            |
+| like            | I like it, nice рџ‘Ќ                  |
+| nosebleed       | That's...impressive                |
+| threaten        | Rrrr                               |
+| kill            | Kill everyone, everybody!          |
+| depression      | SFW depression Gifs :c             |
+
+**NSFW Categories**
+
+| Function            | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| anal                | Does somebody like being in all holes?~                            |
+| ass                 | I know you like anime ass~ uwu                                     |
+| bdsm                | If you don't know what it is, search it up                         |
+| cum                 | Basically sticky white stuff that is usually milked from sharpies. |
+| classic             | Relaxing classic kekus uwu                                         |
+| creampie            | So hot, sticky, and inside uwu                                     |
+| manga               | Sends a random doujin page imageURL!                               |
+| femdom              | Female Domination?                                                 |
+| hentai              | Sends a random vanilla hentai imageURL~                            |
+| incest              | I know, you like it. Brothet and sister <3 And..mo...omg           |
+| masturbation        | You like lewd solo?~                                               |
+| public              | Some people like do it on a public..uh~                             |
+| ero                 | eros, ero Uniforms, etc, you know what eros are :3                 |
+| orgy                | Group Lewd Acts                                                    |
+| elves               | So, it's not Elvis Presley, but i know, you like it :)             |
+| yuri                | What about cute Les?~                                              |
+| pantsu              | I mean... just why? You like underwear?                            |
+| glasses             | Girls that wear glasses, uwu~                                      |
+| cuckold             | Wow, I won't even question your fetishes.                          |
+| blowjob             | Basically an image of a girl sucking on a sharp blade!             |
+| boobjob             | So soft, round ... gentle ... damn we love it                      |
+| footjob             | So you like smelly feet huh?                                       |
+| handjob             | So you like how's it feeling in hand, huh?                         |
+| boobs               | A-am..that's normal size!                                          |
+| thighs              | Oh, i so like it, it's best of the best, like a religion <3        |
+| pussy               | The genitals of a female, or a cat, you give the meaning.          |
+| ahegao              | So happy woman faces :))                                           |
+| uniform             | School and many other Uniforms~                                    |
+| gangbang            | 5 on 1? Uh..                                                       |
+| tentacles           | I'm sorry but, why do you like it? Uh..                            |
+| gif                 | Basically an animated image, so yes :3                             |
+| nsfwNeko            | NSFW Neko Girls (Cat Girls)                                        |
+| nsfwMobileWallpaper | NSFW Anime Mobile Wallpaper                                        |
+| zettaiRyouiki       | That one part of the flesh being squeeze in thigh-highs~<3         |
+
+Nekos
+------------
+
+-  ball8 Function \| Magic 8ball give you answer 
+
+**SFW Function(s)**
+
+Function|Description
+--------|-----------------------------------
+pat     |Let's pet everyone gifs :3
+hug     |Let's hug everyone gifs <3
+kiss    |let's kiss and make up ;3
+cry     |So sad T.T
+slap    |Wanna somebody slap? SLAP SLAP! >:<
+smug    |Will show you a malicious face! >:3
+neko    |What about sweet neko?~
+waifu   |Generate Waifu with AI
+cuddle  |Cuuuddle cuddle cuddle~
+feed    |You wanna eat? I gonna feed you :3
+foxgirl |Is this a parody of Neko?
+
+
+**NSFW Function(s)**
+
+Function|Description
+--------|-----------------------------------
+nekogif |This is what are you wanted?...
+
+NekoBot
+------------
+
+**SFW Function(s)**
+
+Function  |Description
+----------|-----------------------------------
+kanna     |Sweet Kanna images пЅ¶пѕњ(гѓ»в€Ђгѓ»)пЅІпЅІ!!
+neko      |All your love in one picture !(Вґ \* П‰ \* \`)!
+holo      |What you think about kitsune Holo? >:3
+kemonomimi|IDK what it that, but, it's something sweet в•Ї-в•°
+coffee    |What are you up to little mischievous? (0ЛЌ0)
+gah       |Are you sure you want to punch? Maybe not worth it? >:<
+
+
+**NSFW Function(s)**
+
+
+Function  |Description
+----------|-----------------------------------
+hentai    |Mmmmm, anata wa hentai desu!!
+hass      |Has...Has what? Idk, maybe you know, huh :P
+boobs     |Very big, and so..soft, yeah, soft..very..very..soft :>
+paizuri   |You like something like yet? It some..nice
+yuri      |Two beautiful girls, it's awesome <3
+thigh     |It's my fetish, it's my weakness, dude, it's a perfect
+lewdneko  |Lewd Neko? GIVE ME ALL THAT YOU HAVE!!! Copypast, yeah..
+midriff   |Midriff, it's..Maybe, but i not fun of this..Maybe you?
+kitsune   |Kitsune. Just a..Fox-Girl, you love neko? Maybe fox too?
+tentacle  |Ugh....I don't like this, it's dirty and disgusting
+anal      |It's not bad, but, if we look on detail...No, please, no
+hanal     |It's not bad too, but..wait, is it same?! Or...not?
+hneko     |Are you sure about that? YES, WE'RE SURE!
+wallpaper |Do you like some...good wallpaper for Desktop?~
+
+
+Neko-Love
+------------
+
+**SFW Function(s)**
+
+Function |Description
+----------|-----------------------------------
+pat      |For those with soft hands UП‰U
+hug      |All your love in one picture !(Вґ \* П‰ \* \`)!
+kiss     |Leave your memories in one action >:3
+cry      |Sometimes you just need to cry a little в•Ї-в•°
+slap     |Are you sure you want to slap? Maybe not worth it? o_o
+smug     |What are you up to little mischievous? (0ЛЌ0)
+punch    |Are you sure you want to punch? Maybe not worth it? >:<
+neko     |Just Neko-chans to order (в—Џ'^'в—Џ)
+kitsune  |Kitsune... IT IS GREAT (В¬.В¬)
+waifu    |Yours and only yours (probably) waifu
+
+
+**NSFW Function(s)**
+
+
+Function |Description
+----------|-----------------------------------
+nekolewd |Neko? Lewd Neko? GIVE ME ALL THAT YOU HAVE!!!
+
+
+
