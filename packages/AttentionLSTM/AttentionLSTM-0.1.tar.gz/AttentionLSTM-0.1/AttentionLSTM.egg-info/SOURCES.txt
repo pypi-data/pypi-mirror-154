@@ -1,0 +1,9 @@
+LICENCE
+setup.py
+AttentionLSTM.egg-info/PKG-INFO
+AttentionLSTM.egg-info/SOURCES.txt
+AttentionLSTM.egg-info/dependency_links.txt
+AttentionLSTM.egg-info/requires.txt
+AttentionLSTM.egg-info/top_level.txt
+atten_lstm/__init__.py
+atten_lstm/_main.py
