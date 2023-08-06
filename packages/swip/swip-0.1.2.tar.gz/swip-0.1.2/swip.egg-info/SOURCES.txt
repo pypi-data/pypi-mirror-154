@@ -1,0 +1,11 @@
+LICENSE
+README
+setup.py
+swip/__init__.py
+swip/swip.py
+swip.egg-info/PKG-INFO
+swip.egg-info/SOURCES.txt
+swip.egg-info/dependency_links.txt
+swip.egg-info/entry_points.txt
+swip.egg-info/requires.txt
+swip.egg-info/top_level.txt
