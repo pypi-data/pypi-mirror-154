@@ -1,0 +1,4 @@
+[console_scripts]
+vtdecode = vtdecode.main:main
+vtdecode-mapbox = vtdecode.mapbox:main
+vtdecode-mapillary = vtdecode.mapillary:main
