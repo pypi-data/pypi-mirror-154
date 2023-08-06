@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: Alto-updateStatus
+Version: 0.0.2
+Summary: Execute PATCH api to update service status
+Author: Kanokpich
+License-File: LICENSE
