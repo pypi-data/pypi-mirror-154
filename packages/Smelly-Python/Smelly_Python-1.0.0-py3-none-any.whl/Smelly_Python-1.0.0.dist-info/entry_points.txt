@@ -1,0 +1,2 @@
+[console_scripts]
+smelly-python = smelly_python.command_line:main
