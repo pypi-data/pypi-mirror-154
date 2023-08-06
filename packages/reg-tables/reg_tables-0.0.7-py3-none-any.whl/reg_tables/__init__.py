@@ -1,0 +1,1 @@
+from reg_tables import main
