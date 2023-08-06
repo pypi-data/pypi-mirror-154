@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: html_content
+Version: 0.0.2
+Summary: Easily construct HTML document with pandas DataFrame, markdown, matplotlib, plotly and HTML.
+Home-page: https://github.com/lee-junjie/html_content
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+html_content/__init__.py
+html_content/default.py
+html_content/html_content.py
+html_content/type.py
+html_content.egg-info/PKG-INFO
+html_content.egg-info/SOURCES.txt
+html_content.egg-info/dependency_links.txt
+html_content.egg-info/requires.txt
+html_content.egg-info/top_level.txt
