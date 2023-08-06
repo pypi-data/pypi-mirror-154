@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: spacy-partial-tagger
+Version: 0.8.0
+Summary: Sequence Tagger for Partially Annotated Dataset in spaCy
+Home-page: https://github.com/tech-sketch/spacy-partial-tagger
+License: MIT
+Author: yasufumi
+Author-email: yasufumi.taniguchi@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: allennlp (>=2.9.2,<3.0.0)
+Requires-Dist: colorlog (>=6.6.0,<7.0.0)
+Requires-Dist: conllu (>=4.4.2,<5.0.0)
+Requires-Dist: fugashi[unidic-lite] (>=1.1.2,<2.0.0)
+Requires-Dist: mojimoji (>=0.0.12,<0.0.13)
+Requires-Dist: partial-tagger (>=0.6.0,<0.7.0)
+Requires-Dist: pyknp (>=0.6.1,<0.7.0)
+Requires-Dist: pytokenizations (>=0.8.4,<0.9.0)
+Requires-Dist: spacy[ja,transformers] (==3.2.4)
+Requires-Dist: thinc (>=8.0.15,<9.0.0)
+Requires-Dist: torch (>=1.11.0,<2.0.0)
+Requires-Dist: transformers[ja] (==4.17)
+Requires-Dist: unidic-lite (>=1.0.8,<2.0.0)
+Project-URL: Repository, https://github.com/tech-sketch/spacy-partial-tagger
+Description-Content-Type: text/markdown
+
+# spacy-partial-tagger
+
+This is a CRF tagger for partially annotated dataset in spaCy. The implementation of 
+this tagger is based on Effland and Collins. (2021).
+
+## Dataset
+
+Prepare spaCy binary format file. This library expects tokenization is character-based.
+For more detail about spaCy binary format, see [this page](https://spacy.io/api/data-formats#training).
+
+
+## Training
+
+```sh
+python -m spacy train config.cfg --output outputs --paths.train train.spacy --paths.dev dev.spacy 
+```
+
+## Evaluation
+
+```sh
+python -m spacy evaluate outputs/model-best test.spacy
+```
+
+## Installation
+
+```
+pip install spacy-partial-tagger
+```
+
+## References
+
+- Thomas Effland and Michael Collins. 2021. [Partially Supervised Named Entity Recognition via the Expected Entity Ratio Loss](https://aclanthology.org/2021.tacl-1.78/). _Transactions of the Association for Computational Linguistics_, 9:1320–1335.
+
