@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: theotex
+Version: 1.0.0
+Summary: A python package to get Bible verses from https://theotex.org
+License: MIT
+Keywords: theotex,bible,septuagint,new,testament,reader,septante,nouveau,testament,lecteur
+Author: numbergazing
+Author-email: hello@numbergazing.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: beautifulsoup4 (>=4.11.1,<5.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/numbergazing/Theotex/issues
+Project-URL: repository, https://github.com/numbergazing/Theotex/
+Description-Content-Type: text/markdown
+
+# Theotex
+A python module to get Bible verses from https://theotex.org
+

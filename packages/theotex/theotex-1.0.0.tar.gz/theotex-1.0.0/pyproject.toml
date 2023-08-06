@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "theotex"
+version = "1.0.0"
+description = "A python package to get Bible verses from https://theotex.org"
+authors = ["numbergazing <hello@numbergazing.com>"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Natural Language :: French"
+]
+keywords = [
+    "theotex", "bible", "septuagint", "new", "testament", "reader",
+    "septante", "nouveau", "testament", "lecteur"
+]
+
+[tool.poetry.urls]
+repository = "https://github.com/numbergazing/Theotex/"
+"Bug Tracker" = "https://github.com/numbergazing/Theotex/issues"
+
+[tool.poetry.scripts]
+theotex = "theotex.__main__:theotex"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+beautifulsoup4 = "^4.11.1"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "DEBUG"
+log_cli_format = "%(asctime)s %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
