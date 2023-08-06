@@ -1,0 +1,5 @@
+requests
+pysocks
+spys
+fake_useragent
+rich
