@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+ace_sklearn_crfsuite/__init__.py
+ace_sklearn_crfsuite/_fileresource.py
+ace_sklearn_crfsuite/estimator.py
+ace_sklearn_crfsuite/metrics.py
+ace_sklearn_crfsuite/scorers.py
+ace_sklearn_crfsuite/trainer.py
+ace_sklearn_crfsuite.egg-info/PKG-INFO
+ace_sklearn_crfsuite.egg-info/SOURCES.txt
+ace_sklearn_crfsuite.egg-info/dependency_links.txt
+ace_sklearn_crfsuite.egg-info/requires.txt
+ace_sklearn_crfsuite.egg-info/top_level.txt
