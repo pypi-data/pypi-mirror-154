@@ -1,0 +1,14 @@
+logwrap/__init__.py,sha256=uB-RLh2Voy6J51tCvE7Z0EmFTqojjcTBENPxS07kex4,2114
+logwrap/_version.py,sha256=GkdnzTkeUU8YZ5KkHxn6vuyI3bvcGGD-jxDdKmVjuqU,149
+logwrap/constants.py,sha256=kENB007MK7zN3VZbDvJQBmJJ9gBS4pWuLQ1NARYmfVo,748
+logwrap/log_on_access.py,sha256=_U33AxMr0J-S_odGiA61lyCM0RjbizYr7L4SLSEkkcY,21121
+logwrap/log_wrap.py,sha256=eS1_uSjAf4SVAG-lMvfXOPS_eGcFyffFAVhgEGbxIjU,29771
+logwrap/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logwrap/repr_utils.cp39-win_amd64.pyd,sha256=MMsnhgVzG151wTd8Iu7i1YiCFXMPhu-Ynb48Mjr4oS4,192512
+logwrap/repr_utils.pxd,sha256=Ww-n9W9XgCm3tkcY6Mg-Fxl5itEdgwk9kOrTMzDoMNc,3747
+logwrap/repr_utils.py,sha256=oOzCl5Wkytd22e7YXhKbL0rKRoAEUALZhyw-GqwNLY4,30056
+logwrap-10.0.1.dist-info/LICENSE,sha256=wYbmZ22QmADedIwJrCw_eXs2BsPDLeq37EYFjdqUMUE,11567
+logwrap-10.0.1.dist-info/METADATA,sha256=UXA4uNCzLebFySzAIFA958fcuRcS_TX8m4UkieHeEuY,12630
+logwrap-10.0.1.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+logwrap-10.0.1.dist-info/top_level.txt,sha256=7q47MQq8ZedycLFMKaloOJ1NjkeTpxqwcdtYqVXduwM,8
+logwrap-10.0.1.dist-info/RECORD,,
