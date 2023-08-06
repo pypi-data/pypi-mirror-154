@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cpge
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Quentin Fortier
+Author-email: qpfortier@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.22.4,<2.0.0)

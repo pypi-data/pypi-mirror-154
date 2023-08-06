@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cpge"
+version = "0.1.0"
+description = ""
+authors = ["Quentin Fortier <qpfortier@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.4"
+matplotlib = "^3.5.2"
+jupyter = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+yapf = "^0.32.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
