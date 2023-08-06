@@ -1,0 +1,2 @@
+surftrace>=0.7.3
+pylcc>=0.2.9

@@ -1,0 +1,10 @@
+setup.py
+coolbpf/__init__.py
+coolbpf/coolbpf.py
+coolbpf.egg-info/PKG-INFO
+coolbpf.egg-info/SOURCES.txt
+coolbpf.egg-info/dependency_links.txt
+coolbpf.egg-info/entry_points.txt
+coolbpf.egg-info/requires.txt
+coolbpf.egg-info/top_level.txt
+coolbpf.egg-info/zip-safe
