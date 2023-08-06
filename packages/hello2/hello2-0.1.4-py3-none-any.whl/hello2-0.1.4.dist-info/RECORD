@@ -1,0 +1,13 @@
+hello/README.md,sha256=VE5TkyV0A8e5Jyjvg_My05q3SD9voU5LiLKNhaj9IoI,1385
+hello/__init__.py,sha256=HbdM_zcmybWnqMlf8HPk9bNjLlmsoq0qPuSRYuHSC3k,59
+hello/__main__.py,sha256=mrDo7x2t2vDfLsUDeODSlKax-Sp7DkkBs1O1XUdM-SU,800
+hello/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hello/data/__main__.py,sha256=y4q04stQpFmtrt1L1A5gFjPxrboljJiu6Pcj92p9Z4A,826
+hello/data/coco2yolo.py,sha256=8d69-qKck2hSYF0D00Ji3aF0V48QTD-PFV4OQ3Cj_DU,3354
+hello/fiftyone/utils.py,sha256=-d909DqHcm0P35-tTwfQ27nvNmoGYTgXHAN4QoqCn4Q,3090
+hello/io/__init__.py,sha256=e_BlDkaqJQf6djLFn8IIsUOHGGSnL-__xLeBWEPbK2w,135
+hello/io/utils.py,sha256=1SehbNbqVHKoeEknb0uaSxJm0MtxEJah-nE5XUgo698,730
+hello2-0.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hello2-0.1.4.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+hello2-0.1.4.dist-info/METADATA,sha256=joKtIuio6drG3FO2ProNb0n1PGF_-rAYESAS1bh3jOY,1633
+hello2-0.1.4.dist-info/RECORD,,
