@@ -1,0 +1,2 @@
+[console_scripts]
+QTFITIT = src.QTFITIT_pip_test:run

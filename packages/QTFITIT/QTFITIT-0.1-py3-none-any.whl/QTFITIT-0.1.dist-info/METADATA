@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: QTFITIT
+Version: 0.1
+Summary: QT version of FITIT for XANES fitting submodule of a package(Testing version for pip uploading)
+Home-page: https://github.com/BSRF-XA/XAS_ML
+Author: HaifengZhao FeiZhan(Testing version for pip uploading)
+Author-email: zhanf@ihep.ac.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: PyQt5
+Requires-Dist: nlopt
+
+UNKNOWN
+
