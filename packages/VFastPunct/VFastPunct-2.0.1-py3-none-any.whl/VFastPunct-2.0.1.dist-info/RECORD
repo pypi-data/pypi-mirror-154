@@ -1,0 +1,16 @@
+vfastpunct/__init__.py,sha256=lrFdwx05GnDR-DeGr95KpexlYv8T1uEHr1lTSI6Rkt4,127
+vfastpunct/constants.py,sha256=Pg6vZ3YUtGQXs3-5CVjQrVHLCQp_tjnv9tyklexdOJM,1595
+vfastpunct/log.py,sha256=aARmNkWxNiDCyh-nOGunGzXBix7dPXiWVwgN8XScuKI,576
+vfastpunct/predictor.py,sha256=0Xjdy-ToCTgHXmZKc02T81eLtJnAEffKJImjE3GfUeg,6188
+vfastpunct/processor.py,sha256=hvYniJ88uhmFpE6JR3HShBhj1lakVxWIWclJ9kvshag,93
+vfastpunct/ultis.py,sha256=QO180EnG0qAVVH9qjxLcDmwvQSX52-qsMXmEcMYE8M0,1191
+vfastpunct/models/__init__.py,sha256=Tx7gyC18oic4vUU-3BtouUGEL38G9qBmRCLwvU0S-6g,540
+vfastpunct/models/base_model.py,sha256=dtLfmI-8hwy61osJeWBz3EenZZbrQsAckoRiHhJ3w_Y,1841
+vfastpunct/models/punct_bert.py,sha256=dMuRO5FjrFtnTv3tfksDwI_Vs7PdXm4vj2W8ZjlWSuc,3085
+vfastpunct/models/punct_cap_bert.py,sha256=VGQDh3J2FhdSn0VPaHUpr3XmiR2L0hJQ8rXVTdCJSSk,6372
+vfastpunct/models/punct_cap_lstm.py,sha256=JgRJrYNkXq0Xxz_3yw2P_EPI-r_TVcWNNTSFUeTj2tI,7146
+vfastpunct/models/punct_lstm.py,sha256=Z3mVKdWV8TT6hBvkAHxiwvDidkZ2o5oLtDafhHhT01g,2884
+VFastPunct-2.0.1.dist-info/METADATA,sha256=BWsoCuEVyQ6OBSsExgLsdXfItBqsEvz1YGjTn7rG6Z8,1832
+VFastPunct-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VFastPunct-2.0.1.dist-info/top_level.txt,sha256=p4TYFIYZD4A5_SiVHFFKtNi9_N2qYcCZsnsPf6U4bZk,11
+VFastPunct-2.0.1.dist-info/RECORD,,
