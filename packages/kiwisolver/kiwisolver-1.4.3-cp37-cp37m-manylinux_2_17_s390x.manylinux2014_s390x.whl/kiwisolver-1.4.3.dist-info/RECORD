@@ -1,0 +1,9 @@
+kiwisolver-1.4.3.dist-info/WHEEL,sha256=5zHxu7unBeiCAEpxhIqQEB5smATxwYiVpbxbU0krcd0,148
+kiwisolver-1.4.3.dist-info/top_level.txt,sha256=BhbDDMpSTWllCy1Ln0h8gA5zHkrOZogmbr5Ngm3vOhM,15
+kiwisolver-1.4.3.dist-info/LICENSE,sha256=JtqNSXRHlvJgH7X-nl2LnoECBkymCo3Bglthd8sFRQw,3279
+kiwisolver-1.4.3.dist-info/METADATA,sha256=7AItv0sTe_qMBRcIoeZu9UC1mSPnqGKwkUUGb4rhgUs,6325
+kiwisolver-1.4.3.dist-info/RECORD,,
+kiwisolver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiwisolver/__init__.py,sha256=gw3vhMmR4fBrpB0oHn7ziwB9UYk1AdHzsHXTv3yJfbY,985
+kiwisolver/_cext.pyi,sha256=WYDl3Oe2C2ao6_Grd8NgHW_8gMoLLIvvlPS8BvaTF0Y,8812
+kiwisolver/_cext.cpython-37m-s390x-linux-gnu.so,sha256=D1kgNN0Rop8ZkshakmLQ0sroo-5vKkQy3DFiZk85eI8,5569152
