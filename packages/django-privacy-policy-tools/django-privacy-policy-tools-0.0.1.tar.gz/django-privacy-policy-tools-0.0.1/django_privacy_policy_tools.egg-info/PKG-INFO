@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-privacy-policy-tools
+Version: 0.0.1
+Summary: This is a highly confirgurable Django app to manage privacy policies and confirmations.
+Home-page: https://github.com/wachjose88/django-privacy-policy-tools
+Author: Josef Wachtler
+Author-email: josef.wachtler@gmail.com
+License: UNKNOWN
+Description: # Django Privacy Policy Tools
+        
+        coming soon
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
