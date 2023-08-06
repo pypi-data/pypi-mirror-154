@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/r4n/__init__.py
+src/r4n/main.py
+src/remote4neovim.egg-info/PKG-INFO
+src/remote4neovim.egg-info/SOURCES.txt
+src/remote4neovim.egg-info/dependency_links.txt
+src/remote4neovim.egg-info/entry_points.txt
+src/remote4neovim.egg-info/requires.txt
+src/remote4neovim.egg-info/top_level.txt
