@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+restadmin/drf_admin.egg-info/PKG-INFO
+restadmin/drf_admin.egg-info/SOURCES.txt
+restadmin/drf_admin.egg-info/dependency_links.txt
+restadmin/drf_admin.egg-info/requires.txt
+restadmin/drf_admin.egg-info/top_level.txt
