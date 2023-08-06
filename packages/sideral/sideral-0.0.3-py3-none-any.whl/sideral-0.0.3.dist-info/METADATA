@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sideral
+Version: 0.0.3
+Summary: orm framework for mysql
+Author: dafine
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: mysql-connector-python (>=8.0.27)
+Provides-Extra: testing
+Requires-Dist: tox (>=3.25.0) ; extra == 'testing'
+Requires-Dist: pytest (>=7.1.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=3.0.0) ; extra == 'testing'
+
