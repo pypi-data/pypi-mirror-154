@@ -1,0 +1,3 @@
+[console_scripts]
+coco-filter=fsai_coco_filter.main:app
+
