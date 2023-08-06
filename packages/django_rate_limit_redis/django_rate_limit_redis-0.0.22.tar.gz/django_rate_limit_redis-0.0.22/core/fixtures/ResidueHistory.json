@@ -1,0 +1,398 @@
+[
+{
+    "model": "core.residuehistory",
+    "pk": "098404c4-508e-494f-b383-9c930dc57334",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "1111220",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 4550,
+        "expiration_date": "2025-12-01",
+        "nomenclature": "04175",
+        "uid_batch": "4d0a575d-c06d-43e6-8088-f0eedd4888eb",
+        "created_at": "2022-04-10T11:16:41.111Z",
+        "rest_time": "2022-04-10T11:16:41.111Z"
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "111906d0-c16d-4599-984f-8552fd440554",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000511",
+        "series": "10520",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 71,
+        "expiration_date": "2024-05-01",
+        "nomenclature": "04164",
+        "uid_batch": "4d0a575d-c06d-43e6-8088-f0eedd4888eb",
+        "created_at": "2022-04-10T11:16:41.191Z",
+        "rest_time": "2022-04-10T11:16:41.111Z"
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "1176e349-9626-4cc2-854b-a1838b4ed32c",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000511",
+        "series": "10520",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 71,
+        "expiration_date": "2024-05-01",
+        "nomenclature": "04164",
+        "uid_batch": "a3dbd356-f249-4d89-b1ad-fba75e16281b",
+        "created_at": "2022-04-10T11:15:56.007Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "2f4b05d6-59a1-4cf2-829f-88049ca0cbf8",
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-31T08:40:23.166Z",
+        "gtin": "04601969000511",
+        "series": "000995034",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 271,
+        "expiration_date": "2024-04-30",
+        "nomenclature": "04164",
+        "uid_batch": "02ee7366-4f4e-49f0-ac63-bf177db400d7",
+        "created_at": "2022-04-10T11:15:53.699Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "32306522-e3c7-451b-b6ae-81a4246e18eb",
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-31T08:40:24.621Z",
+        "gtin": "04601969000580",
+        "series": "001081367",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 2855,
+        "expiration_date": "2025-12-31",
+        "nomenclature": "04175",
+        "uid_batch": "02ee7366-4f4e-49f0-ac63-bf177db400d7",
+        "created_at": "2022-04-10T11:15:53.286Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "3ac61871-d6cb-4e57-a78f-5c1cbecc93a4",
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-31T08:40:32.007Z",
+        "gtin": "04601969001075",
+        "series": "001074068",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 568,
+        "expiration_date": "2025-10-31",
+        "nomenclature": "04176",
+        "uid_batch": "02ee7366-4f4e-49f0-ac63-bf177db400d7",
+        "created_at": "2022-04-10T11:15:53.290Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "3c76c9c9-c7d9-4481-803e-5b5f499b849a",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "001074056",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 1890,
+        "expiration_date": "2025-11-30",
+        "nomenclature": "04175",
+        "uid_batch": "1666b381-8158-41cb-a111-aa73ba182b99",
+        "created_at": "2022-03-04T08:49:32.223Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "4e41dee3-7ebb-4c41-8c09-911269d092d8",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "1061120",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6640,
+        "expiration_date": "2025-11-01",
+        "nomenclature": "04176",
+        "uid_batch": "ff6080f6-d59a-4279-969d-20e3adcced04",
+        "created_at": "2022-04-10T11:16:43.987Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "5df8b141-f814-417c-9b75-46a0a88cef4f",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "1111220",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 4550,
+        "expiration_date": "2025-12-01",
+        "nomenclature": "04175",
+        "uid_batch": "2a2492d3-d945-4572-9117-9f81480574fe",
+        "created_at": "2022-04-10T11:15:58.970Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "5f6d822b-6ae7-4e3e-b8cf-5c33580b4809",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "1061120",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6640,
+        "expiration_date": "2025-11-01",
+        "nomenclature": "04176",
+        "uid_batch": "4d0a575d-c06d-43e6-8088-f0eedd4888eb",
+        "created_at": "2022-04-10T11:16:41.115Z",
+        "rest_time": "2022-04-10T11:16:41.111Z"
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "6bcaf84a-d38f-46b1-b780-811ec8a87e44",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "1111220",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 4550,
+        "expiration_date": "2025-12-01",
+        "nomenclature": "04175",
+        "uid_batch": "a3dbd356-f249-4d89-b1ad-fba75e16281b",
+        "created_at": "2022-04-10T11:15:55.935Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "757f5387-6058-4e9c-902d-b54fd8a9906f",
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-31T08:40:32.007Z",
+        "gtin": "04601969001075",
+        "series": "001081309",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6459,
+        "expiration_date": "2025-11-30",
+        "nomenclature": "04176",
+        "uid_batch": "02ee7366-4f4e-49f0-ac63-bf177db400d7",
+        "created_at": "2022-04-10T11:15:53.709Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "8055addc-c838-4d2d-bba3-19a996b85055",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000511",
+        "series": "10520",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 71,
+        "expiration_date": "2024-05-01",
+        "nomenclature": "04164",
+        "uid_batch": "2a2492d3-d945-4572-9117-9f81480574fe",
+        "created_at": "2022-04-10T11:15:59.045Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "97a2e3c4-1c9c-4b70-90e5-1d53c6952887",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "1061120",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6640,
+        "expiration_date": "2025-11-01",
+        "nomenclature": "04176",
+        "uid_batch": "2a2492d3-d945-4572-9117-9f81480574fe",
+        "created_at": "2022-04-10T11:15:58.973Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "9c94e7a9-7cb2-479f-a16a-dbc20f237b44",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "1111220",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 4550,
+        "expiration_date": "2025-12-01",
+        "nomenclature": "04175",
+        "uid_batch": "ff6080f6-d59a-4279-969d-20e3adcced04",
+        "created_at": "2022-04-10T11:16:43.983Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "af915137-8395-4fd4-bb88-66c4021847ab",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000580",
+        "series": "001081367",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 2655,
+        "expiration_date": "2025-12-31",
+        "nomenclature": "04175",
+        "uid_batch": "1666b381-8158-41cb-a111-aa73ba182b99",
+        "created_at": "2022-03-04T08:49:32.421Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "b5cb2ee9-b5bd-4cb5-8a88-63ad99b9f9a2",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000511",
+        "series": "10520",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 71,
+        "expiration_date": "2024-05-01",
+        "nomenclature": "04164",
+        "uid_batch": "ff6080f6-d59a-4279-969d-20e3adcced04",
+        "created_at": "2022-04-10T11:16:44.084Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "c6200e69-ca50-46f0-b149-14c38b5d24cb",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "001081309",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6259,
+        "expiration_date": "2025-11-30",
+        "nomenclature": "04176",
+        "uid_batch": "1666b381-8158-41cb-a111-aa73ba182b99",
+        "created_at": "2022-03-04T08:49:32.418Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "c8db6dc7-8011-4b58-9e80-835db3f41ab9",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969000511",
+        "series": "000995034",
+        "ean13": "4601969000511",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 71,
+        "expiration_date": "2024-04-30",
+        "nomenclature": "04164",
+        "uid_batch": "1666b381-8158-41cb-a111-aa73ba182b99",
+        "created_at": "2022-03-04T08:49:32.571Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "dca636ea-13f8-4860-a660-af0b4ed4f1c8",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "1061120",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 6640,
+        "expiration_date": "2025-11-01",
+        "nomenclature": "04176",
+        "uid_batch": "a3dbd356-f249-4d89-b1ad-fba75e16281b",
+        "created_at": "2022-04-10T11:15:55.939Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "ec0173af-1563-4781-9841-553349727a2d",
+    "fields": {
+        "sended": false,
+        "sended_at": null,
+        "gtin": "04601969001075",
+        "series": "001074068",
+        "ean13": "4601969001075",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 368,
+        "expiration_date": "2025-10-31",
+        "nomenclature": "04176",
+        "uid_batch": "1666b381-8158-41cb-a111-aa73ba182b99",
+        "created_at": "2022-03-04T08:49:32.227Z",
+        "rest_time": null
+    }
+},
+{
+    "model": "core.residuehistory",
+    "pk": "eeeecf9c-c201-40a8-b30c-7dbade5fdc69",
+    "fields": {
+        "sended": true,
+        "sended_at": "2022-03-31T08:40:24.621Z",
+        "gtin": "04601969000580",
+        "series": "001074056",
+        "ean13": "4601969000580",
+        "warehouse_ext_id": "3255510243",
+        "quantity": 2090,
+        "expiration_date": "2025-11-30",
+        "nomenclature": "04175",
+        "uid_batch": "02ee7366-4f4e-49f0-ac63-bf177db400d7",
+        "created_at": "2022-04-10T11:15:53.703Z",
+        "rest_time": null
+    }
+}
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "model": "authtoken.token",
+    "pk": "16826f5c535812ba6f7740aec2246be39453145a",
+    "fields": {
+        "user": 1201,
+        "created": "2022-05-11T11:57:45.373Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "70c271a03e413d03c84d3364b5c65f3fdb7bc8bd",
+    "fields": {
+        "user": 6901,
+        "created": "2022-05-16T08:16:07.658Z"
+    }
+}
+]

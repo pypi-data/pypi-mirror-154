@@ -1,0 +1,50 @@
+[
+{
+    "model": "core.datahandlersmap",
+    "pk": 1,
+    "fields": {
+        "data_handler": "InStockTopic",
+        "topic": "FarmZakaz_Stock_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 2,
+    "fields": {
+        "data_handler": "OrdersTopic",
+        "topic": "orderstopic"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 3,
+    "fields": {
+        "data_handler": "SalesTopicV2",
+        "topic": "salestopicV2"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 4,
+    "fields": {
+        "data_handler": "NomenclatureTopic",
+        "topic": "FarmZakaz_Nomenclature_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 5,
+    "fields": {
+        "data_handler": "StoreTopic",
+        "topic": "FarmZakaz_Adresa_test"
+    }
+},
+{
+    "model": "core.datahandlersmap",
+    "pk": 6,
+    "fields": {
+        "data_handler": "LegalEntitiesOnboardedTopic",
+        "topic": "FarmZakaz_Clients_test"
+    }
+}
+]

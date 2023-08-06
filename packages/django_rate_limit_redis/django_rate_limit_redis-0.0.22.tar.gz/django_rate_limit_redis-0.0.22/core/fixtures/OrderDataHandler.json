@@ -1,0 +1,46 @@
+[
+  {
+    "model": "core.Order",
+    "pk": 1,
+    "fields": {
+      "status": 1,
+      "store_ext_id": "ОРБ000018696",
+      "updated": "2022-01-12T13:45:49.499Z",
+      "created": "2022-01-12T13:45:49.499Z",
+      "warehouse_ext_id": "5611053132",
+      "total_sum": 137.27,
+      "vat_sum": 12.48,
+      "count_positions": 1
+    }
+  },
+    {
+    "model": "core.Order",
+    "pk": 2,
+    "fields": {
+      "status": 2,
+      "store_ext_id": "ХБР000003499",
+      "updated": "2022-01-12T13:45:49.499Z",
+      "created": "2022-01-12T13:45:49.499Z",
+      "warehouse_ext_id": "2722053492",
+      "total_sum": 137.27,
+      "vat_sum": 12.48,
+      "count_positions": 1
+    }
+  },
+  {
+    "model": "core.OrderStatusMap",
+    "pk": 1,
+    "fields": {
+      "status_one_c": 1,
+      "status_pharm_zakaz": "new"
+    }
+  },
+    {
+    "model": "core.OrderStatusMap",
+    "pk": 2,
+    "fields": {
+      "status_one_c": 5,
+      "status_pharm_zakaz": "sent"
+    }
+  }
+]

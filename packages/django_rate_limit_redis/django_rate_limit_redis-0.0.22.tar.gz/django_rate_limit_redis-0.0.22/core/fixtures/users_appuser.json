@@ -1,0 +1,58 @@
+[
+{
+    "model": "users.appuser",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$GAwCBBqVAITnx1H6CMpAEE$8tVPWJzcXNbQZnk4NZlIrXiTV49pJdvvN2wjLj8NemI=",
+        "last_login": "2022-05-06T13:15:46.939Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "admin",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-02-25T09:50:44.230Z",
+        "user_permissions": [],
+        "groups": []
+    }
+},
+{
+    "model": "users.appuser",
+    "pk": 1201,
+    "fields": {
+        "password": "!L95wTrESKNWXWgQTWeBBGC7terSJTfRRChWClwzQ",
+        "last_login": "2022-05-16T08:27:35.589Z",
+        "is_superuser": true,
+        "username": "i.yakob",
+        "first_name": "Иван",
+        "last_name": "Якоб",
+        "email": "i.yakob@puls.ru",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-11T10:57:47Z",
+        "user_permissions": [],
+        "groups": [
+            2
+        ]
+    }
+},
+{
+    "model": "users.appuser",
+    "pk": 6901,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$o7rTupOdxmLl6w2KzJlwbp$UAJ5oXZhHrtYMu0VTlsmwk/UvKB183rb6umyWHQ30Ek=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "PharmZakaz",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-05-16T08:16:04Z",
+        "user_permissions": [],
+        "groups": []
+    }
+}
+]

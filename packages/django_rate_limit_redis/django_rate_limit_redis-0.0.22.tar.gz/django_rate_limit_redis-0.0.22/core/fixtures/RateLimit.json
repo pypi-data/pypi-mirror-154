@@ -1,0 +1,112 @@
+[
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 1,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "GET https://demo.pharm-zakaz.ru/api/distributor/v1/warehouses/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 2,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "GET https://demo.pharm-zakaz.ru/api/distributor/v1/stores/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 3,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "GET https://demo.pharm-zakaz.ru/api/distributor/v1/orders/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 4,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "POST https://demo.pharm-zakaz.ru/api/distributor/v1/sku/update/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 5,
+    "fields": {
+        "system": "api",
+        "api_method": "GET api/bonuses/payments/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 6,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "GET https://demo.pharm-zakaz.ru/api/distributor/v1/sku/{ean13}/residues/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 7,
+    "fields": {
+        "system": "api",
+        "api_method": "GET api/sku/<str:EAN13>/residues/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 8,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "PATCH https://demo.pharm-zakaz.ru/api/distributor/v1/stores/{storeInfoId}/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 9,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "GET https://demo.pharm-zakaz.ru/api/distributor/v1/warehouses/{warehouseId}/residues/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 10,
+    "fields": {
+        "system": "pharmzakaz",
+        "api_method": "POST https://demo.pharm-zakaz.ru/api/distributor/v1/sku/{ean13}/residues/update/",
+        "limit": 1000,
+        "window": 1
+    }
+},
+{
+    "model": "rate_limit.ratelimit",
+    "pk": 11,
+    "fields": {
+        "system": "api",
+        "api_method": "GET api/stores/$",
+        "limit": 1000,
+        "window": 1
+    }
+}
+]

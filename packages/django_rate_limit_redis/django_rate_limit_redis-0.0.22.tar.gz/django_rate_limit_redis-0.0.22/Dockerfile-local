@@ -1,0 +1,37 @@
+# pull official base image
+FROM registry.puls.ru/pharm-zakaz:base
+
+# set work directory
+WORKDIR /app
+
+ARG UID=1000
+RUN adduser \
+    --disabled-password \
+    --no-create-home \
+    --shell /bin/bash \
+    --gecos "" \
+    --uid ${UID} \
+    --home /app \
+    app
+
+# set environment variables
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+RUN mkdir /logs && chown app /logs
+
+COPY . .
+COPY --from=registry.puls.ru/pharm-zakaz:base /tmp/wheels /wheels
+RUN pip install --upgrade pip --no-cache /wheels/*
+
+COPY ./requirements.txt .
+RUN pip install -r /app/requirements.txt
+
+RUN cp .env.sample .env.local
+COPY ./entrypoint.sh .
+RUN chmod +x /app/entrypoint.sh
+
+RUN chown -R app:app .
+USER app
+
+CMD ["/app/entrypoint.sh"]
