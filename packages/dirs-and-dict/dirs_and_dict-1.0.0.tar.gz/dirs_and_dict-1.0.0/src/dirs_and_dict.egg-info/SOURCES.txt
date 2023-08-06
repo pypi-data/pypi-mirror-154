@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dirs_and_dict/__init__.py
+src/dirs_and_dict/dirs_dict.py
+src/dirs_and_dict.egg-info/PKG-INFO
+src/dirs_and_dict.egg-info/SOURCES.txt
+src/dirs_and_dict.egg-info/dependency_links.txt
+src/dirs_and_dict.egg-info/top_level.txt
+src/dirs_and_dict/modules/__init__.py
