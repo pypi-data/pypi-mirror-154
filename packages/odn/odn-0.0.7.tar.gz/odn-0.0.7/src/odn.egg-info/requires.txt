@@ -1,0 +1,10 @@
+scikit-learn
+scipy
+uuid
+pandas
+matplotlib
+numpy
+plotly
+keras
+opencv-python
+tf-slim
