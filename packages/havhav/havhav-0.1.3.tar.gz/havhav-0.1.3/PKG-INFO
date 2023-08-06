@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: havhav
+Version: 0.1.3
+Summary: 
+Author: tugrulcansollu
+Author-email: tugrulcansollu@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
