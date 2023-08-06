@@ -1,0 +1,10 @@
+pyslope/__init__.py,sha256=lb1JSa87X7iqKGF3mZjPJKUks5fwv8poMUGXfGkhusk,153
+pyslope/_version.py,sha256=xes26i7Ni4ApeYCZY_q_Yl0xhAETH8sdBJW8pAE34Nc,498
+pyslope/data_validation.py,sha256=bkVLGPXS5t7Onp2oQfpDcGlz-b9SFJqHR50HBgR2UCw,3176
+pyslope/pyslope.py,sha256=l7r_go0OuXakj5Z5AWkFhQ6Gmw3UAuChjxgAKGAC0L4,82744
+pyslope/utilities.py,sha256=yJdU55FMkKfR6rEEEqbBEQGSOH_aiLG-842gcCTGUWA,11039
+pyslope-1.1.9.dist-info/LICENSE.txt,sha256=GpQvyRFKhKQEMnWNWVuD5iUVHPHxuBFB8D4HvbGu3JI,1066
+pyslope-1.1.9.dist-info/METADATA,sha256=6GWaZ_HPgCIWrzrzCgEiIv6P508Nr-WZ6qobTnW2seA,11712
+pyslope-1.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyslope-1.1.9.dist-info/top_level.txt,sha256=9G_vq-aiaRf2E-blCi2FdHyytBINVwJm6WqfLgjAQis,8
+pyslope-1.1.9.dist-info/RECORD,,
