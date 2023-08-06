@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AttentionLSTM
+Version: 0.1
+Summary: Combining LSTM with attention
+Home-page: https://github.com/AtrCheema/AttentionLSTM
+Author: Ather Abbas
+Author-email: ather_abbas786@yahoo.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: tensorflow
+
+AttentionLSTM
