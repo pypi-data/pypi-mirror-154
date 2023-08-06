@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: PyTrucoEngine
+Version: 1.0.0
+Summary: Motor de truco argentino escrito en python
+Home-page: https://softwarebrc.com.ar/
+Author: Lautaro Linquiman
+Author-email: lylinquiman@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ymil/libPyTruco
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# libPyTruco
+Motor de truco argentino echo en python
+
+## Instalando localmente
+
+``` pip install -e .```
+
+## Generando la documentación
+
+### Instalar
+```
+pip install sphinx-autodoc-typehints sphinx-autoapi sphinx-material sphinx
+```
+
+### Compilando la documentación
+
+```
+cd docs
+./make.bat html
+```
+
+## Ejecutando test
+
+### Requirimientos
+
+```
+pip install coverage unittest
+```
+
+### Ejecutando
+
+```
+coverage run -m unittest && coverage html
+```
+## Ejemplos
+
+Se puede observar los ejemplos en la carpeta `example`
+
+
