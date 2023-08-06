@@ -1,0 +1,9 @@
+README.md
+setup.py
+mvinittipdf/__init__.py
+mvinittipdf/pdf2img.py
+mvinittipdf/pdf2text.py
+mvinittipdf.egg-info/PKG-INFO
+mvinittipdf.egg-info/SOURCES.txt
+mvinittipdf.egg-info/dependency_links.txt
+mvinittipdf.egg-info/top_level.txt
