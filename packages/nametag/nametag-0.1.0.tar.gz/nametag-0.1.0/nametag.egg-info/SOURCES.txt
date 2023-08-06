@@ -1,0 +1,12 @@
+LICENSE.GPLv3
+MANIFEST.in
+Makefile
+README.md
+nametag.py
+setup.py
+nametag.egg-info/PKG-INFO
+nametag.egg-info/SOURCES.txt
+nametag.egg-info/dependency_links.txt
+nametag.egg-info/entry_points.txt
+nametag.egg-info/requires.txt
+nametag.egg-info/top_level.txt
