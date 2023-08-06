@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="{% url 'django_simple_api:get_static' %}?file_no=1">
+    <title>OpenAPI power by Django-Simple-Api</title>
+
+    <style>
+        * {
+            font-family: Menlo, Consolas, "Source Code Pro", Inconsolata, Monaco, "Courier New",
+            'Segoe UI', Helvetica, Arial, sans-serif !important;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif !important;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+<div id="swagger-ui"></div>
+<script src="{% url 'django_simple_api:get_static' %}?file_no=2"></script>
+<script>
+    const ui = SwaggerUIBundle({
+        url: './get-docs/',
+        dom_id: '#swagger-ui',
+        presets: [
+            SwaggerUIBundle.presets.apis,
+            SwaggerUIBundle.SwaggerUIStandalonePreset
+        ],
+        layout: "BaseLayout",
+        deepLinking: true,
+        showExtensions: true,
+        showCommonExtensions: true
+    })
+</script>
+</body>
+
+</html>
