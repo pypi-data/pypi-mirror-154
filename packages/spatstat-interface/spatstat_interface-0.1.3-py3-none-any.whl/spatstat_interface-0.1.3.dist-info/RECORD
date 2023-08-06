@@ -1,0 +1,7 @@
+spatstat_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spatstat_interface/interface.py,sha256=_7t95dcP8c0sNfCtilYT-TV-JMrnke8kD_jeks0kLpA,3410
+spatstat_interface/utils.py,sha256=9qt1gUsEB6y3ZKkCQyTKDcJE_uEMDei4fdIHV0xFoTI,1329
+spatstat_interface-0.1.3.dist-info/LICENSE,sha256=70Wk6z3FTvf_7Hj7LKxE502Gixk9OHzRveHiUKPBAf0,1076
+spatstat_interface-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spatstat_interface-0.1.3.dist-info/METADATA,sha256=rA-ytrMHz73d_f2ElNlvP6tpF8y8EBkMAs3MwMQlqiQ,7237
+spatstat_interface-0.1.3.dist-info/RECORD,,
