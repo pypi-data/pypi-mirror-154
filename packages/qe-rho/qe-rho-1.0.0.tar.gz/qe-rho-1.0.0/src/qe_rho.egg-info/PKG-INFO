@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: qe-rho
+Version: 1.0.0
+Summary: A package to generate charge-density.dat for Quantum ESPRESSO
+Home-page: https://github.com/ziangziangziang/pyQErho
+Author: Ziang
+Author-email: ziang.zhang@kaust.edu.sa
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qeRho
+
+The module is to generate the initial guess charge density for quantum-espresso _pwscf_ calculations. Currently the module supports `nspin=1`, binary output (no HDF5 supported). The output charge density should be sorted in next subversion.
+## to install
+
+```
+pip install ./
+```
+
+## to use
+
+```
+# import superposition of atomic density
+from qe_rho import SAD
+
+# initialize SAD density
+rho = SAD('tests/pwscf.in')
+
+# save charge-density.dat to folder pwscf.save
+rho.saverhog('pwscf.save')
+
+# output real-space charge density
+rhor = rho.rho_g2r()
+```
+
+
+
+
+
+
