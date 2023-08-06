@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ellipse
+Version: 0.5.5
+Summary: A parametrized dataset of pictures of ellipses, for Neural Network experimentation
+Author-email: Yinzhu Jin <yj3cz@virginia.edu>, "Geometric Data Analytics, Inc." <abraham.smith@geomdata.com>
+License: GNU AGPL
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-image
+Requires-Dist: numpy
+Provides-Extra: extras
+Requires-Dist: matplotlib ; extra == 'extras'
+Requires-Dist: jupyter ; extra == 'extras'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-html ; extra == 'testing'
+Requires-Dist: pytest-timeout ; extra == 'testing'
+Requires-Dist: pytest-xdist ; extra == 'testing'
+
+# ellipse
+
+A parametrized dataset of pictures of ellipses, for Neural Network experimentation.
