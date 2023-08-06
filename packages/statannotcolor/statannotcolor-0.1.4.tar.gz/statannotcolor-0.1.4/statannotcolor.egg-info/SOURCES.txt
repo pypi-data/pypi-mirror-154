@@ -1,0 +1,11 @@
+setup.py
+statannotcolor/StatResult.py
+statannotcolor/__init__.py
+statannotcolor/_version.py
+statannotcolor/statannot.py
+statannotcolor/utils.py
+statannotcolor.egg-info/PKG-INFO
+statannotcolor.egg-info/SOURCES.txt
+statannotcolor.egg-info/dependency_links.txt
+statannotcolor.egg-info/requires.txt
+statannotcolor.egg-info/top_level.txt
