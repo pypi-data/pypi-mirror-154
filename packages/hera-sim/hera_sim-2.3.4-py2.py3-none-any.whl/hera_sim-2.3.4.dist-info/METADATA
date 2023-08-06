@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: hera-sim
+Version: 2.3.4
+Summary: A collection of simulation routines describing the HERA instrument.
+Home-page: https://github.com/HERA-Team/hera_sim
+Author: HERA Team
+Author-email: steven.g.murray@asu.edu
+License: BSD
+Project-URL: Documentation, https://hera_sim.readthedocs.org
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.rst
+License-File: AUTHORS.rst
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: scipy
+Requires-Dist: cached-property
+Requires-Dist: pyuvsim (>=1.1.2)
+Requires-Dist: pyuvdata
+Requires-Dist: astropy-healpix
+Requires-Dist: astropy
+Requires-Dist: deprecation
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: rich
+Provides-Extra: bda
+Requires-Dist: bda ; extra == 'bda'
+Provides-Extra: cal
+Requires-Dist: hera-calibration ; extra == 'cal'
+Provides-Extra: dev
+Requires-Dist: sphinx (>=1.8) ; extra == 'dev'
+Requires-Dist: numpydoc (>=0.8.0) ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: coverage (>=4.5.1) ; extra == 'dev'
+Requires-Dist: pytest (>=3.5.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: uvtools ; extra == 'dev'
+Requires-Dist: hera-calibration ; extra == 'dev'
+Requires-Dist: bda ; extra == 'dev'
+Requires-Dist: vis-cpu (>=0.4.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx (>=1.8) ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: sphinx-autorun ; extra == 'docs'
+Requires-Dist: numpydoc (>=0.8) ; extra == 'docs'
+Requires-Dist: vis-cpu (>=0.4.1) ; extra == 'docs'
+Requires-Dist: pyradiosky (>=0.1.2) ; extra == 'docs'
+Provides-Extra: gpu
+Requires-Dist: pycuda ; extra == 'gpu'
+Requires-Dist: scikit-cuda ; extra == 'gpu'
+Provides-Extra: tests
+Requires-Dist: coverage (>=4.5.1) ; extra == 'tests'
+Requires-Dist: pytest (>=3.5.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.5.1) ; extra == 'tests'
+Requires-Dist: pre-commit ; extra == 'tests'
+Requires-Dist: matplotlib (>=3.4.2) ; extra == 'tests'
+Requires-Dist: uvtools ; extra == 'tests'
+Requires-Dist: hera-calibration ; extra == 'tests'
+Requires-Dist: bda ; extra == 'tests'
+Requires-Dist: vis-cpu (>=0.4.1) ; extra == 'tests'
+Provides-Extra: vis
+Requires-Dist: vis-cpu (>=0.4.1) ; extra == 'vis'
+Requires-Dist: pyradiosky (>=0.1.2) ; extra == 'vis'
+Requires-Dist: mpi4py ; extra == 'vis'
+
