@@ -1,0 +1,188 @@
+Metadata-Version: 2.1
+Name: url-image-module
+Version: 0.27.0
+Summary: Image Module of REACT
+Home-page: https://gitlab.com/react76/url-image-module
+Author: Urban Risk Lab
+Author-email: url_googleai@mit.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/react76/url-image-module/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Urban Risk Lab (URL) Image Analysis Module
+
+The goal of this module is to utilize effective Convolutional Neural Network (CNN) models to yield efficient and accurate predictions from image data in crowdsourced crisis reports to provide quick categorization that can be used to construct an aggregate summary of the unfolding crisis event. In addition to providing utilities for conducting training and inference and saving those results, it provides subsequent analysis tools for image annotation, model performance, and associated plotting.
+
+This project is compatible with Python version >= 3.6.
+
+### **Instructions to Install**
+**Using PyPI -- latest version of package on PyPI**
+```
+pip install url-image-module
+```
+**Using GitLab Credentials -- using most recent commit**
+1. Get `.env` file by requesting it from url_googleai@mit.edu, use subject headline `[Read Credentials URL Image Module GitLab]` and your plans for using it.
+2. Load variables into the environment:
+`source <path_to_.env>`
+3. run `pip install -e git+https://$GITLAB_TOKEN_USER:$GITLAB_TOKEN@gitlab.com/react76/url-image-module.git@master#egg=url-image-module`
+
+### **How to use in Python**
+At the moment, all classes, constants, and functions can be imported at the root level of the package, like so:
+```python
+from url_image_module import (
+    ...
+)
+```
+
+### **Package Structure & Utilities**
+This module provides various utilites for conducting reproducible experiments on crowdsourced crisis report images. These utilities include: 
+
+##### **Training, Testing, and Prediction with PyTorch Models**
+
+* [training.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/training.py) - Contains utilities for training a model for multiple epochs on train split image data & validating on a dev split of image data at each epoch. Applies online data augmentation as a form of regularization during training.
+
+* [testing.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/testing.py) - Contains utilities for testing a trained model on a set of labeled images & saving those test results.
+
+* [prediction.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/prediction.py) - Contains utilities useful for using a trained model to predict on a folder of images located on the host and creating a dataframe to store prediction metadata (i.e. predicted label, prediction scores)
+
+* [classes.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/classes.py)- Defines classes & helpful functions useful across the package:
+   * Creating image datasets for prediction (see `PredictionImageDataset`)
+   * Instantiating pretrained PyTorch models (pretrained on ImageNet) (see `PretrainedImageCNN`)
+   * Dictionary of possible pretrained single label model architectures (see `PRETRAINED_MODELS_DICT`)
+   * Dictionary of possible optimizer algorithms (see `OPTIMIZER_DICT`)
+   * Helpers for constructing correct architecture of model, loading pretrained weights from a .pt file, and constructing optimizer object with user-specified learning rate & correct weights to update.
+
+* [constants.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/constants.py) - Defines various constants used throughout the package, including:
+   * Constants necessary for transforming images prior to being inputted into the model (for training, this includes constants for data augmentation techniques)
+   * Constants for consistent naming conventions used throughout the package (e.g.  `TRAIN_SPLIT`, `DEV_SPLIT`, `TEST_SPLIT`)
+   * Dictionary containing loss criterions used for training a model (see `CRITERION_DICT`)
+   * The various evaluation metrics used for evaluating the performance of a model (see `EVALUATION_METRICS_FUNC_DICT`)
+
+##### **Operating System, PyTorch, and Pandas Utilities**
+
+* [os_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/os_utils.py) -  Relevant utilities for interacting with the host's operating system, i.e. interacting with the filesystem
+   * Making/deleting directories
+   * Copying files
+   * Extracting filepaths
+   * Updating filepaths
+
+* [pd_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/pd_utils.py) - Utilities for interacting with a pandas dataframe (df) including:
+   * Copying files from one location on host to another using information stored in a df
+   * Subsetting columns in a df to a user-provided relevant subset
+   * Cleaning df of empty or partially-empty rows
+   * Left-joining dfs by filenames
+   * Saving df as CSV on host's filesystem
+
+* [pt_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/pt_utils.py) - Utilities for interacting with PyTorch including:
+   * Naming a file with a proper PyTorch extension (.pt)
+   * Determining the appropriate device (i.e. CPU or GPU) to put tensors on 
+
+##### **Data Labeling & Annotation Analysis Utilities**
+
+* [data_labeling_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/data_labeling_utils.py) - Utilities for conducting annotation efforts & performing interannotator agreement analysis -- agnostic to data type (i.e. works for images & text):
+   * Creating CSV for annotating a folder of unlabeled data
+   * Methods for assessing type of agreement on a single data point, i.e. complete agreement, complete disagreement, plurality agreement, etc.
+   * Methods for computing statistics for a labeled dataset including:
+      * Number of unique labels provided for a task
+      * Plurality agreement percentage
+      * Complete agreement percentage
+      * Fleiss' Kappa coefficient
+      * Cohen's Kappa coefficient (weighted/unweighted)
+   * Methods for ground-truthing a dataset i.e. by plurality label
+   * Methods for wrangling a dataframe of labels (i.e. melting), changing column names to be consistent.
+   * Methods for reviewing data labeling, i.e. making directory of all data points which had complete agreement, plurality agreement but not complete agreement, etc.
+   * Methods for reviewing predictions by a model and contrasting it against ground-truth labels.
+   
+##### **Plotting Utilities**
+
+* [plotting_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/plotting_utils.py) - Utilities for producing visualizations for conducting analysis:
+   * Generating Confusion Matrices for Classification for visualizing ground-truth labels vs. model predictions
+   * Plot for visualizing performance of a model on each epoch of training on both train & dev sets, i.e. learning curves
+   * Plot for visualizing model performance on each class of a task
+   * EDA Plot on labeled datasets -- useful for visualizing class imbalance prior to modeling
+   * Plot for Annotation Analysis showing number of images in a dataset which have at least n or more unique annotators who provided a label for the image on that task -- useful for determining a cutoff for interannotator analysis and ground-truthing a dataset
+
+##### **Python Programs -- Data Labeling & Creating ImageFolders**
+
+* [create_image_split_folders.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/create_image_split_folders.py) - Python program which constructs image data folders into train, dev, & test splits using corresponding (CSV, TSV, etc.) which provide filenames and labels for each split and saves these splits to some destination folder on the host.
+
+* [make_image_labeling_csv.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/make_image_labeling_csv.py) - Python program which creates a labeling CSV for various classification tasks using filenames located in a directory on the host.
+
+##### **Miscellaneous Utilities**
+
+* [model_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/model_utils.py) - Utilities for saving & loading trained models weights and other model metadata (i.e. hyperparameters, training settings, classes for the task, etc.) for future use, constructing the correct architecture for a model, and extracting outputs from a model for analysis
+
+* [metric_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/metric_utils.py) - Utilities for computing metric scores (Precision, Recall, F1, etc.) & confusion matrices by comparing ground truth labels against model predictions
+
+* [misc_utils.py](https://gitlab.com/react76/url-image-module/-/blob/master/src/url_image_module/misc_utils.py) - Miscellaneous utilities which are useful across the package (see `prettify_underscore_string`)
+
+ ## **For Maintainers**
+
+ #### **Updating GitLab Repository**
+ To add all modified files, commit those files, push to GitLab repo, and update repo with changes and tag number run:
+```
+sh update.sh -t <tag> -m <commit message>
+```
+
+When updating dependencies, make sure to use:
+1. `pipenv install <name-of-package>`
+2. Update requirements.txt:  `pipenv run pip freeze > requirements.txt`
+3. Commit & push with the update command above
+
+#### **Adding New Files to Python Package**
+If you want add a file which contains new functionality, i.e. merits it own file separate from the existing, you must add it to the `__init__.py` file, like so:
+
+You can do the following to import specific functions, classes, etc. from the file into the python package. Anything that isn't imported can't be used by the end-user
+##### in `__init__.py` (specific imports):
+```python
+from .name_of_new_file import (
+   specific_function_you_want_to_import,
+   specific_class_you_want_to_import,
+   ...
+)
+...
+del name_of_new_file
+```
+
+If you want all functionality from the file to be available to the end-user, do the following:
+##### in `__init__.py` (import everything):
+```python
+from .name_of_new_file import *
+...
+del name_of_new_file
+```
+
+#### **Publish Package to PyPI**
+1. Launch virtual environment with `pipenv shell`
+2. Install dependencies with `pipenv install`
+3. Run `python setup.py bdist_wheel sdist`. To test, run:
+   1. Run `pip install -e .`
+   2. Run `python`
+   3. Run `import url_image_module` -- should give no errors if it's working properly
+4. Run `twine upload dist/*`. Note: You will need login credentials for the URL PyPI Account in order to publish to PyPI. 
+
+#### **Building & Pushing Docker Images on AWS ECR**
+##### **A. Locally**
+In order to use this package on AWS infrastructure, we must first build & push docker images. There are two separate Dockerfiles, one for
+training and the other for inference. Run
+`./sm-containers/train/make.sh` or
+`./sm-containers/inference/make.sh` respectively to build
+those docker images & push them to AWS ECR. Running these bash scripts will build the images including installing the url-image-module python library
+as well as upload the built images to ECR where sagemaker can pull them. Make sure to have the correct `.env` file in the root of the url-image-module repo. Running either `make.sh` locally will build the container on your host and then push the image to ECR.
+
+##### **B. Using CodeBuild on AWS SageMaker**
+If you want to build the image & push it to ECR using CodeBuild there's a notebook that can be run on a SageMaker instance which builds the containers using CodeBuild, find this [here](https://gitlab.com/react76/url-image-module/-/tree/master/sm-containers/make-docker-image.ipynb), i.e. `./sm-containers/make-docker-image.ipynb`. If a SageMaker instance does not exist for buliding images, make a new one which has a volume of at least 40Gb, then once inside the instance, select the GitHub icon in the top right corner of the file menu on the left. It will prompt you to provide the HTTPS link to the repo you want to add. You can find this link [here](https://gitlab.com/react76/url-image-module) under the 'Clone' button. Once you provide the link, it will prompt you to provide credentials, you can find this [here](https://gitlab.com/react76/url-image-module/) under `Settings > Repository > Deploy Tokens`, it should be the only one with username `gitlab+deploy-token-1070133`.
+
+Note in either case you will need a `.env` file with the deploy token credientials in the root of the url-image-module repo when building the containers. Please contact url_googleai@mit.edu to get this `.env` file.
+
+#### **Notes**
+Installing torch & torchvision with pipenv is a bit of a hassle. This GitHub [post](https://github.com/pypa/pipenv/issues/4961#issuecomment-1045679643) was helpful in figuring it out. To install torch & torchvision with pipenv that have both CPU & GPU capabilities, these need to be run:
+1. `pipenv install --extra-index-url https://download.pytorch.org/whl/cu113/ "torch==1.9.0"`
+2. `pipenv install --extra-index-url https://download.pytorch.org/whl/cu113/ "torchvision==0.10.0"`
+

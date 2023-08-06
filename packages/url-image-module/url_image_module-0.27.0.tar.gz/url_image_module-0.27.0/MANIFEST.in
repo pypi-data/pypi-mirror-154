@@ -1,0 +1,9 @@
+include versioneer.py
+include src/url_image_module/_version.py
+include README.md
+include LICENSE
+include requirements.txt
+graft src/url_image_module
+recursive-exclude * *.py[co]
+include versioneer.py
+include src/url_image_module/_version.py
