@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ring-me-up
+Version: 0.0.1
+Summary: Send an alarm to your iPhone to ring you up from a failed script when you are asleep.
+Author: WestXu
+Project-URL: repository, https://github.com/WestXu/RingMeUp
+Description-Content-Type: text/markdown
+Requires-Dist: pyicloud
+
+# RingMeUp
+
+Send an alarm to your iPhone to ring you up from a failed script when you are asleep.
+
+## Install
+
+`pip install ring-me-up`
+
+## Usage
+
+Set env variables of `icloud_id` & `icloud_password`.
+
+Then:
+
+```
+ring
+```
+
+Or
+
+```
+ring serve [port]
+```
+
+to start a server accepting `get`s to ring.
