@@ -1,0 +1,9 @@
+apache-airflow>=2.2.0.rc2
+pandas>=0.17.1
+presto-python-client>=0.8.2
+
+[google]
+apache-airflow-providers-google
+
+[slack]
+apache-airflow-providers-slack
