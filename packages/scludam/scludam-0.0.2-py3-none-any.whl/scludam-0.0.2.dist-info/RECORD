@@ -1,0 +1,14 @@
+scludam/__init__.py,sha256=TAI-fXUYTdDZAM6LRtBU_G_OoqjlcDoplekZtQGnJUk,200
+scludam/fetcher.py,sha256=y3T_SLN-12JRYhwk3LjEQAnEZejgSJPuhyq3f7wpSmU,19438
+scludam/stat_tests.py,sha256=QUv2bTkb5SiY6ik2tEJr1ZjygrA9wJhJlnuRdK7jD2Y,21092
+scludam/synthetic.py,sha256=nUUuso1vZRsYULv1Epj2kzdITHPfTXm8gn1hNT63Owc,38133
+scludam/type_utils.py,sha256=BB9OJQJ_hB3iD5wE_353O4HS3cZRo9NrpDapI2AxsSE,2022
+tests/test_fetcher.py,sha256=Gfv-_3ALn4TdQFhql8P3J3k32VkKCchQXkuPGHjgHGQ,14139
+tests/test_stat_tests.py,sha256=XUVxdjQrJbYhB0_iHOd1GHORsvxgK0GxgRPUekgFfF0,5027
+tests/test_synthetic.py,sha256=0YeYIjRM4kWCKAeVvtIWNpIxgg2iDrYqEDbQUitZqmE,16673
+tests/utils.py,sha256=bUGrPUCaWzZReaC5c7ebZyOqqB9oGa4i6bwIAIdjBtQ,454
+scludam-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scludam-0.0.2.dist-info/METADATA,sha256=apf5fsxQsibn-2kzCKIjYUR5gXxcN7TmXtFXjDt98r4,1702
+scludam-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scludam-0.0.2.dist-info/top_level.txt,sha256=o1ZchBQ1yRGNlnzajlmexEPcjlq8wyPsyFafvNVKmqw,14
+scludam-0.0.2.dist-info/RECORD,,
