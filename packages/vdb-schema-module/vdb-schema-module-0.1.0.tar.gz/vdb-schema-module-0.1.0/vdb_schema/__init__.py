@@ -1,0 +1,1 @@
+from vdb.package_having_content_bundle import PackageHavingContentBundleModel
