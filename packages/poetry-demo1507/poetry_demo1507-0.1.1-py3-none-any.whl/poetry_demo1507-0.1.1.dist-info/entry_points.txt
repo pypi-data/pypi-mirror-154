@@ -1,0 +1,4 @@
+[console_scripts]
+add=poetry_demo1507.main:add
+sub=poetry_demo1507.main:subtract
+
