@@ -1,0 +1,18 @@
+Change Log
+==========
+
+0.0.1 (06/14/2022)
+-----------------
+- First Release
+
+0.0.2 (06/14/2022)
+-----------------
+- name fix
+
+0.0.3 (06/14/2022)
+-----------------
+- attempting to fix .js file not being recognized
+
+0.0.3 (06/14/2022)
+-----------------
+- attempting to fix .js file not being recognized again...
