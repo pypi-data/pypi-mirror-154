@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: discord-rich-presence
+Version: 1.0.0
+Summary: A lightweight and safe module for creating custom rich presences on Discord.
+Home-page: https://github.com/TenType/discord-rich-presence
+Author: TenType
+License: MIT
+Keywords: discord,presence,rich presence,activity,rpc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+License-File: LICENSE
+
