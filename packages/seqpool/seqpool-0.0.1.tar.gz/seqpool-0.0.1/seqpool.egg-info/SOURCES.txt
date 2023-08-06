@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+seqpool/__init__.py
+seqpool/cvt.py
+seqpool/mean.py
+seqpool/utils.py
+seqpool.egg-info/PKG-INFO
+seqpool.egg-info/SOURCES.txt
+seqpool.egg-info/dependency_links.txt
+seqpool.egg-info/requires.txt
+seqpool.egg-info/top_level.txt
