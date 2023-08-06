@@ -1,0 +1,2 @@
+from .evaluation_tasks.calculate_static_embeddings import CalculateStaticEmbeddings
+from .evaluation_tasks.calculate_non_edges import calculate_non_edges
