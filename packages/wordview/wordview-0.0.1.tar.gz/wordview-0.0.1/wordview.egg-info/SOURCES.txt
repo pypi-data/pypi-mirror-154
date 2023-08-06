@@ -1,0 +1,5 @@
+setup.py
+wordview.egg-info/PKG-INFO
+wordview.egg-info/SOURCES.txt
+wordview.egg-info/dependency_links.txt
+wordview.egg-info/top_level.txt
