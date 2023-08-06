@@ -1,0 +1,7 @@
+wheel
+sklearn
+tabulate
+torch
+optuna
+opendr-toolkit-engine
+plotly
