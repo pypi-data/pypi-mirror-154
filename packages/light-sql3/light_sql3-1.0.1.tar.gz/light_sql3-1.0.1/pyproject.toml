@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "light_sql3"
+version = "1.0.1"
+description = "Light cover for sqlite3"
+authors = ["Forzy <nikita11tzby@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
