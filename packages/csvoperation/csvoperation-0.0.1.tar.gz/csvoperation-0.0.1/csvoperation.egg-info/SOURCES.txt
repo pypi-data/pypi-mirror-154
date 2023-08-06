@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csvoperation/__init__.py
+csvoperation/csvo.py
+csvoperation.egg-info/PKG-INFO
+csvoperation.egg-info/SOURCES.txt
+csvoperation.egg-info/dependency_links.txt
+csvoperation.egg-info/top_level.txt
