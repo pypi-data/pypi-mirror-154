@@ -1,0 +1,10 @@
+pytest_only/__init__.py,sha256=w3VBX9TGADAAr2RwZOvlA2RyxOBL6oscguMdAjDoWUM,54
+pytest_only/compat.py,sha256=0MI8k6IbLK0vpSh-HMqFN5wgHnRSOh9QjUKBkbxD15U,560
+pytest_only/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_only/ext/pylint.py,sha256=v35uSZyYY2E6yJX0CsbD18ce5D8CJPg8sBQ2nLwtHC8,2932
+pytest_only/plugin.py,sha256=ylUNkdtdXX0CYASUS88-yJgP9x7mMWGw8vj0q5R-j6Q,895
+pytest_only/version.py,sha256=T0-EQePpqi36zsfvJcnHEXnyujvoN4ACzAjzfWrvZSE,166
+pytest_only-2.0.0.dist-info/entry_points.txt,sha256=xgKmaUKPjPoDR8NylNp-zxvQCOfKpcMWCDiscgME0vw,36
+pytest_only-2.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytest_only-2.0.0.dist-info/METADATA,sha256=DcHoppEXu2sNPyz7l9nhN7Cyk8sk9ozipb-XWY2shTw,4906
+pytest_only-2.0.0.dist-info/RECORD,,
