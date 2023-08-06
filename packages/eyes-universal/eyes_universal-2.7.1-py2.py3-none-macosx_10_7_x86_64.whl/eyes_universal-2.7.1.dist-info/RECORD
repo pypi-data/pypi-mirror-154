@@ -1,0 +1,11 @@
+applitools/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+applitools/eyes_universal/__init__.py,sha256=tZemWyKiBkh9XfqRJuEKuuqquvasfl-Tqq-QWRytsak,141
+applitools/eyes_universal/__main__.py,sha256=cx9LZOEPp_-VxVrIT-LVZh2JSiwHANjflVYkAAVAsXk,210
+applitools/eyes_universal/instance.py,sha256=Msxa8I61CvkWnsmKEdoehpmAC72KkL3kvZ3AHykZ_cU,94
+applitools/eyes_universal/server.py,sha256=wxSBki9QFCWQPRR_l2cRxyn39VuF8Lv4eahxt-XhKJQ,1297
+applitools/eyes_universal/bin/eyes-universal,sha256=JJZ3VjFuLRltLBgNr788PIoM26mfoxSIuAvrSInFhtQ,74926835
+eyes_universal-2.7.1.dist-info/LICENSE,sha256=BDCdBp0jsd8YdhkGmoXEMSOVCarxR6n2x55oNN2BBAA,15088
+eyes_universal-2.7.1.dist-info/METADATA,sha256=YdPZL0FXlwKekH1CQTC1CGl6-VciUod_JGoVzEpdsgo,995
+eyes_universal-2.7.1.dist-info/WHEEL,sha256=tzdtisqf_53pFJT_Yn6GCwpTN-J6F7hsOhB-jYIxYgI,140
+eyes_universal-2.7.1.dist-info/top_level.txt,sha256=5jig8U7TAvEHIZT_r46UImIndsZ1-NqX5iWR7H9YZwc,11
+eyes_universal-2.7.1.dist-info/RECORD,,
